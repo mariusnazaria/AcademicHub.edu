@@ -10,21 +10,76 @@
 </head>
 <body>
 
-<header class="site-header">
+<!-- ==================================================================
+     SETĂRI — modifică doar aici parolele și datele repository-ului.
+     Schimbă parolele oricând (ex. săptămânal) și dă Commit.
+     ================================================================== -->
+<script>
+const CONFIG = {
+  PAROLA_ELEV: "pitagora22",
+  PAROLA_PROFESOR: "mariusboss",
+
+  // Datele repository-ului de pe GitHub (nu le schimba decât dacă muți proiectul)
+  GITHUB_OWNER: "mariusnazaria",
+  GITHUB_REPO: "AcademicHub.edu",
+  GITHUB_BRANCH: "main"
+};
+</script>
+
+<header class="site-header" id="site-header" hidden>
   <div class="brand" id="brand-home">
     <img class="brand-mark" src="logo.png" alt="Academic Hub">
     <span class="brand-name">Academic Hub</span>
     <span class="brand-sub">Teste grilă</span>
   </div>
-  <nav class="breadcrumb" id="breadcrumb" aria-label="Navigare"></nav>
+  <div class="header-right">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="Navigare"></nav>
+    <button class="btn-link" id="btn-logout" hidden>Ieși</button>
+  </div>
 </header>
 
 <main id="app" class="app"></main>
 
+<!-- ===================== LOGIN ===================== -->
+<template id="tpl-login">
+  <section class="screen screen-login">
+    <img class="login-logo" src="logo.png" alt="Academic Hub">
+    <h1>Academic Hub</h1>
+    <p class="screen-lead">Conectează-te ca să continui.</p>
+
+    <div class="login-roles">
+      <button class="role-card" data-rol="elev">
+        <span class="role-title">Conectează-te ca elev</span>
+        <span class="role-meta">Rezolvă teste grilă</span>
+      </button>
+      <button class="role-card" data-rol="profesor">
+        <span class="role-title">Conectează-te ca profesor</span>
+        <span class="role-meta">Adaugă și gestionează întrebări</span>
+      </button>
+    </div>
+
+    <div class="login-form" id="login-form" hidden>
+      <p class="login-role-label" id="login-role-label"></p>
+      <input class="text-input" type="password" id="login-parola" placeholder="Parola" autocomplete="current-password">
+      <p class="form-error" id="login-error" hidden></p>
+      <div class="form-actions">
+        <button class="btn-secondary" id="login-inapoi">Înapoi</button>
+        <button class="btn-primary" id="login-intra">Intră</button>
+      </div>
+    </div>
+  </section>
+</template>
+
+<!-- ===================== NAVIGARE ELEV ===================== -->
 <template id="tpl-clase">
   <section class="screen">
-    <h1>Alege clasa</h1>
-    <p class="screen-lead">Selectează clasa pentru a vedea materiile disponibile.</p>
+    <div class="screen-head">
+      <div>
+        <h1>Alege clasa</h1>
+        <p class="screen-lead">Selectează clasa pentru a vedea materiile disponibile.</p>
+      </div>
+      <button class="btn-secondary" id="btn-panou-profesor" hidden>Panou profesor</button>
+    </div>
     <div class="card-grid" id="clase-grid"></div>
   </section>
 </template>
@@ -76,6 +131,9 @@
     <div class="question-card">
       <p class="question-number" id="question-number"></p>
       <h2 class="question-text" id="question-text"></h2>
+      <div class="question-image-wrap" id="question-image-wrap" hidden>
+        <img class="question-image" id="question-image" alt="">
+      </div>
       <p class="question-hint" id="question-hint"></p>
       <div class="options-list" id="options-list"></div>
       <button class="btn-primary btn-verifica" id="btn-verifica" disabled>Verifică</button>
@@ -102,7 +160,129 @@
   </section>
 </template>
 
+<!-- ===================== PANOU PROFESOR ===================== -->
+<template id="tpl-token">
+  <section class="screen">
+    <h1>Conectare la GitHub</h1>
+    <p class="screen-lead">
+      Ca să poți adăuga întrebări direct din site, ai nevoie de un token GitHub.
+      Se salvează doar pe acest dispozitiv și nu se trimite nicăieri altundeva.
+    </p>
+    <div class="info-box">
+      <strong>Cum obții tokenul:</strong>
+      <ol>
+        <li>Intră pe github.com → poza ta (dreapta sus) → Settings</li>
+        <li>Jos de tot în meniul din stânga: Developer settings</li>
+        <li>Personal access tokens → Tokens (classic) → Generate new token (classic)</li>
+        <li>La „Note" scrie orice (ex. Academic Hub), la Expiration alege ce vrei</li>
+        <li>Bifează căsuța <code>repo</code></li>
+        <li>Generate token → copiază-l imediat (nu-l mai poți vedea după)</li>
+      </ol>
+    </div>
+    <input class="text-input" type="password" id="token-input" placeholder="ghp_..." autocomplete="off">
+    <p class="form-error" id="token-error" hidden></p>
+    <div class="form-actions">
+      <button class="btn-secondary" id="token-inapoi">Înapoi</button>
+      <button class="btn-primary" id="token-salveaza">Salvează și verifică</button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-panou">
+  <section class="screen">
+    <div class="screen-head">
+      <div>
+        <h1>Panou profesor</h1>
+        <p class="screen-lead">Adaugă întrebări și colecții direct din site.</p>
+      </div>
+      <button class="btn-link" id="btn-sterge-token">Deconectează GitHub</button>
+    </div>
+    <div class="card-grid">
+      <button class="pick-card" id="panou-intrebare">
+        <span class="pick-title">Adaugă întrebare</span>
+        <span class="pick-meta">Într-o colecție existentă</span>
+      </button>
+      <button class="pick-card" id="panou-colectie">
+        <span class="pick-title">Creează colecție</span>
+        <span class="pick-meta">Un test nou, gol</span>
+      </button>
+      <button class="pick-card" id="panou-vezi">
+        <span class="pick-title">Vezi testele</span>
+        <span class="pick-meta">Ca elev</span>
+      </button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-colectie-noua">
+  <section class="screen">
+    <h1>Creează colecție</h1>
+    <p class="screen-lead">Colecția apare imediat la clasa și materia aleasă.</p>
+
+    <label class="field-label">Clasa</label>
+    <select class="text-input" id="cn-clasa"></select>
+
+    <label class="field-label">Materia</label>
+    <select class="text-input" id="cn-materie"></select>
+
+    <label class="field-label">Numele colecției</label>
+    <input class="text-input" type="text" id="cn-nume" placeholder="ex. Ecuații de gradul I">
+
+    <p class="form-error" id="cn-error" hidden></p>
+    <p class="form-ok" id="cn-ok" hidden></p>
+    <div class="form-actions">
+      <button class="btn-secondary" id="cn-inapoi">Înapoi</button>
+      <button class="btn-primary" id="cn-salveaza">Creează colecția</button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-intrebare-noua">
+  <section class="screen">
+    <h1>Adaugă întrebare</h1>
+
+    <label class="field-label">Clasa</label>
+    <select class="text-input" id="in-clasa"></select>
+
+    <label class="field-label">Materia</label>
+    <select class="text-input" id="in-materie"></select>
+
+    <label class="field-label">Colecția</label>
+    <select class="text-input" id="in-colectie"></select>
+
+    <label class="field-label">Tipul întrebării</label>
+    <div class="option-group">
+      <label class="pill-choice"><input type="radio" name="in-tip" value="simplu" checked><span>Un răspuns</span></label>
+      <label class="pill-choice"><input type="radio" name="in-tip" value="multiplu"><span>Mai multe răspunsuri</span></label>
+    </div>
+
+    <label class="field-label">Enunțul întrebării</label>
+    <textarea class="text-input" id="in-enunt" rows="3" placeholder="Scrie întrebarea aici..."></textarea>
+
+    <label class="field-label">Imagine (opțional)</label>
+    <input class="text-input" type="file" id="in-imagine" accept="image/*">
+    <div class="preview-wrap" id="in-preview-wrap" hidden>
+      <img class="preview-img" id="in-preview" alt="">
+      <button class="btn-link" id="in-sterge-imagine">Șterge imaginea</button>
+    </div>
+
+    <label class="field-label">Variantele de răspuns</label>
+    <p class="field-hint">Bifează varianta (sau variantele) corecte.</p>
+    <div id="in-variante"></div>
+    <button class="btn-link" id="in-adauga-varianta">+ Adaugă variantă</button>
+
+    <label class="field-label">Explicație (opțional)</label>
+    <textarea class="text-input" id="in-explicatie" rows="2" placeholder="De ce e corect răspunsul..."></textarea>
+
+    <p class="form-error" id="in-error" hidden></p>
+    <p class="form-ok" id="in-ok" hidden></p>
+    <div class="form-actions">
+      <button class="btn-secondary" id="in-inapoi">Înapoi</button>
+      <button class="btn-primary" id="in-salveaza">Salvează întrebarea</button>
+    </div>
+  </section>
+</template>
+
 <script src="app.js"></script>
 </body>
 </html>
-
