@@ -3,14 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rezolvări — Academic Hub</title>
-<meta name="description" content="Rezolvări complete pentru cartea de teste pentru profil real: algebră, geometrie, trigonometrie, analiză matematică, probabilități.">
+<title>Contact — Academic Hub</title>
+<meta name="description" content="Contactează Academic Hub: +373 61 221 666, bd. Ștefan cel Mare și Sfânt 196, Chișinău.">
 <link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- Adresa unde ajung înscrierile din formular (endpointul botului de pe Railway) -->
+<script>
+const SITE_CONFIG = {
+  FORM_ENDPOINT: "https://NUMELE-TAU-RAILWAY.up.railway.app/site-lead"
+};
+</script>
 
 <header class="site-header">
   <a class="brand" href="index.html">
@@ -40,40 +47,59 @@
 
 <section class="page-head">
   <div class="wrap">
-    <h1>Rezolvări — cartea de teste pentru profil real</h1>
-    <p class="hero-lead">Rezolvări complete și detaliate pentru toate problemele din cartea de teste pentru profil real.</p>
+    <h1>Contactează-ne</h1>
+    <p class="hero-lead">Suntem aici să te ajutăm. Scrie-ne pentru orice întrebare despre cursuri sau pentru a programa o lecție de probă.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap wrap-narrow">
+    <h2 class="section-heading">Trimite-ne un mesaj</h2>
+    <p class="section-sub">Completează formularul și te contactăm în cel mai scurt timp.</p>
+
+    <div class="form-card" id="contact-form">
+      <label class="field-label" for="cf-nume">Nume și prenume *</label>
+      <input class="text-input" type="text" id="cf-nume" placeholder="Numele tău">
+
+      <label class="field-label" for="cf-telefon">Telefon *</label>
+      <input class="text-input" type="tel" id="cf-telefon" placeholder="+373 ...">
+
+      <label class="field-label" for="cf-email">Email</label>
+      <input class="text-input" type="email" id="cf-email" placeholder="opțional">
+
+      <label class="field-label" for="cf-clasa">Clasa</label>
+      <select class="text-input" id="cf-clasa">
+        <option value="">Alege clasa</option>
+        <option>Clasa 5</option>
+        <option>Clasa 6</option>
+        <option>Clasa 7</option>
+        <option>Clasa 8</option>
+        <option>Clasa 9</option>
+        <option>Clasa 10</option>
+        <option>Clasa 11</option>
+        <option>Clasa 12</option>
+      </select>
+
+      <label class="field-label" for="cf-mesaj">Mesaj</label>
+      <textarea class="text-input" id="cf-mesaj" rows="4" placeholder="Ce te interesează?"></textarea>
+
+      <p class="form-error" id="cf-error" hidden></p>
+      <p class="form-ok" id="cf-ok" hidden></p>
+
+      <button class="btn-primary form-submit" id="cf-trimite">Trimite mesajul</button>
+    </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap wrap-narrow">
-    <article class="solution-card">
-      <div class="solution-tags">
-        <span class="tag tag-accent">Complet</span>
-        <span class="tag">Clasa 12</span>
-      </div>
-      <h2>Rezolvări cartea de teste pentru profil real</h2>
-      <p>Rezolvări complete și detaliate pentru toate problemele din cartea de teste pentru profil real.</p>
-      <p class="solution-subjects-title">Subiecte acoperite:</p>
-      <div class="chip-row">
-        <span class="chip">Algebră</span>
-        <span class="chip">Geometrie</span>
-        <span class="chip">Trigonometrie</span>
-        <span class="chip">Analiză matematică</span>
-        <span class="chip">Probabilități</span>
-      </div>
-      <a class="btn-primary solution-btn" href="https://drive.google.com/drive/folders/1_ltQcVn-n7cXOmdsDBaOBXaSa5zuWtWu?usp=sharing" target="_blank" rel="noopener">Vezi rezolvările</a>
-    </article>
-  </div>
-</section>
-
-<section class="cta-band">
   <div class="wrap">
-    <h2>Ai nevoie de ajutor cu o problemă anume?</h2>
-    <p>Contactează-ne pentru rezolvări personalizate sau pentru a te înscrie la cursuri.</p>
-    <div class="hero-actions">
-      <a class="btn-primary" href="contact.html">Contactează-ne</a>
-      <a class="btn-secondary" href="cursuri.html">Vezi cursurile</a>
+    <h2 class="section-heading">Unde ne găsești</h2>
+    <p class="section-sub">bd. Ștefan cel Mare și Sfânt 196, Chișinău</p>
+    <div class="map-wrap">
+      <iframe
+        src="https://maps.google.com/maps?q=bd.%20Stefan%20cel%20Mare%20si%20Sfant%20196%2C%20Chisinau&z=17&output=embed"
+        width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Harta Academic Hub"></iframe>
     </div>
   </div>
 </section>
