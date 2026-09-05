@@ -5,17 +5,6 @@
       "nume": "Clasa 5",
       "materii": [
         {
-          "id": "algebra",
-          "nume": "Algebră",
-          "colectii": [
-            {
-              "id": "fractii",
-              "nume": "Fracții ordinare",
-              "fisier": "data/5/algebra/fractii.json"
-            }
-          ]
-        },
-        {
           "id": "geometrie",
           "nume": "Geometrie",
           "colectii": []
