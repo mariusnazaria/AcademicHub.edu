@@ -11,5 +11,21 @@
     ],
     "corect": 1,
     "explicatie": "Nu sunteti prosti"
+  },
+  {
+    "id": "adunarea-1788637855936",
+    "tip": "multiplu",
+    "intrebare": "Cat fac 2+4",
+    "variante": [
+      "3!",
+      "6",
+      "5",
+      "7"
+    ],
+    "corect": [
+      0,
+      1
+    ],
+    "explicatie": "invata"
   }
 ]
