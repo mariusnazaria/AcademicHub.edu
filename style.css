@@ -285,13 +285,20 @@ h1, h2 {
 
 .question-text {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+}
+
+.question-hint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 18px 0;
 }
 
 .options-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .option-btn {
@@ -305,14 +312,24 @@ h1, h2 {
   color: var(--text);
   cursor: pointer;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 12px;
 }
 
-.option-btn .opt-key {
-  color: var(--text-muted);
-  font-family: var(--font-display);
-  font-weight: 700;
+.option-btn .opt-marker {
   width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border: 2px solid var(--border);
+  display: inline-block;
+}
+
+.option-btn[data-tip="simplu"] .opt-marker { border-radius: 50%; }
+.option-btn[data-tip="multiplu"] .opt-marker { border-radius: 4px; }
+
+.option-btn.is-selected .opt-marker {
+  border-color: var(--accent);
+  background: var(--accent);
 }
 
 .option-btn:hover:not(:disabled) { border-color: var(--accent); }
@@ -328,6 +345,17 @@ h1, h2 {
   background: var(--wrong-soft);
   border-color: var(--wrong);
 }
+
+.option-btn.is-missed {
+  border-color: var(--correct);
+  border-style: dashed;
+}
+
+.btn-verifica {
+  margin-bottom: 4px;
+}
+
+.btn-verifica[hidden] { display: none; }
 
 .explanation {
   margin-top: 18px;
