@@ -1,12 +1,12 @@
 :root {
-  --bg: #F5F7EF;
+  --bg: #F6F8F1;
   --bg-card: #FFFFFF;
-  --border: #DBE2CC;
-  --text: #1B2418;
-  --text-muted: #5E6B57;
-  --accent: #9CCB3B;
-  --accent-ink: #4C6B1B;
-  --accent-soft: #EAF3D6;
+  --border: #DCE3D1;
+  --text: #202B1A;
+  --text-muted: #5C6957;
+  --accent: #58CA00;
+  --accent-ink: #3A8600;
+  --accent-soft: #E7F6D9;
   --correct: #2F9E58;
   --correct-soft: #E4F5EA;
   --wrong: #D6483F;
@@ -20,7 +20,10 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: url("assets/math-pattern.svg");
+  background-repeat: repeat;
+  background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.5;
@@ -51,9 +54,10 @@ h1, h2 {
 }
 
 .brand-mark {
-  width: 26px;
-  height: 26px;
-  color: var(--accent-ink);
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
 }
 
 .brand-name {
@@ -210,10 +214,10 @@ h1, h2 {
 
 .btn-primary {
   background: var(--accent);
-  color: #1B2418;
+  color: #16290A;
 }
 
-.btn-primary:hover { background: #8FBF2A; }
+.btn-primary:hover { background: #4CB000; }
 
 .btn-primary:disabled {
   background: var(--border);
