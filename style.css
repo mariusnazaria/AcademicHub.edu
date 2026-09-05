@@ -1,16 +1,18 @@
 :root {
-  --bg: #F6F8F1;
-  --bg-card: #FFFFFF;
-  --border: #DCE3D1;
-  --text: #202B1A;
-  --text-muted: #5C6957;
-  --accent: #58CA00;
-  --accent-ink: #3A8600;
-  --accent-soft: #E7F6D9;
-  --correct: #2F9E58;
-  --correct-soft: #E4F5EA;
-  --wrong: #D6483F;
-  --wrong-soft: #FBEAE8;
+  --bg: #202023;
+  --bg-card: #2A2A2E;
+  --bg-card-hover: #313136;
+  --border: #3C3C41;
+  --text: #EDEFE9;
+  --text-muted: #9CA298;
+  --accent: #6FC12E;
+  --accent-strong: #58CA00;
+  --accent-ink: #B8ED8A;
+  --accent-soft: rgba(111, 193, 46, 0.14);
+  --correct: #6FC12E;
+  --correct-soft: rgba(111, 193, 46, 0.14);
+  --wrong: #E06B62;
+  --wrong-soft: rgba(224, 107, 98, 0.14);
   --radius: 10px;
   --font-display: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -34,9 +36,9 @@ h1, h2 {
   font-weight: 700;
   letter-spacing: -0.01em;
   margin: 0 0 6px 0;
+  color: var(--text);
 }
 
-/* Header */
 .site-header {
   display: flex;
   align-items: center;
@@ -64,6 +66,7 @@ h1, h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.05rem;
+  color: var(--text);
 }
 
 .brand-sub {
@@ -91,7 +94,6 @@ h1, h2 {
 
 .breadcrumb span.sep { color: var(--border); }
 
-/* Main app area */
 .app {
   max-width: 760px;
   margin: 0 auto;
@@ -103,7 +105,6 @@ h1, h2 {
   margin-bottom: 28px;
 }
 
-/* Card grid (clase / materii / colectii) */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -118,11 +119,12 @@ h1, h2 {
   padding: 18px;
   cursor: pointer;
   font-family: inherit;
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .pick-card:hover, .pick-card:focus-visible {
   border-color: var(--accent);
+  background: var(--bg-card-hover);
   outline: none;
 }
 
@@ -131,6 +133,7 @@ h1, h2 {
   font-weight: 700;
   font-size: 1.05rem;
   display: block;
+  color: var(--text);
 }
 
 .pick-card .pick-meta {
@@ -140,7 +143,6 @@ h1, h2 {
   margin-top: 4px;
 }
 
-/* Setup screen */
 .setup-options {
   display: flex;
   flex-direction: column;
@@ -179,6 +181,7 @@ h1, h2 {
   border-radius: 999px;
   cursor: pointer;
   font-size: 0.9rem;
+  color: var(--text);
 }
 
 .pill-choice input:checked + span {
@@ -194,6 +197,7 @@ h1, h2 {
   gap: 10px;
   font-size: 0.95rem;
   cursor: pointer;
+  color: var(--text);
 }
 
 .count-badge {
@@ -201,7 +205,6 @@ h1, h2 {
   font-size: 0.85rem;
 }
 
-/* Buttons */
 .btn-primary, .btn-secondary {
   font-family: var(--font-body);
   font-size: 0.95rem;
@@ -214,10 +217,10 @@ h1, h2 {
 
 .btn-primary {
   background: var(--accent);
-  color: #16290A;
+  color: #12210A;
 }
 
-.btn-primary:hover { background: #4CB000; }
+.btn-primary:hover { background: var(--accent-strong); }
 
 .btn-primary:disabled {
   background: var(--border);
@@ -233,7 +236,6 @@ h1, h2 {
 
 .btn-secondary:hover { border-color: var(--text-muted); }
 
-/* Quiz screen */
 .quiz-topbar {
   margin-bottom: 22px;
 }
@@ -260,7 +262,7 @@ h1, h2 {
   color: var(--text-muted);
 }
 
-.stat-correct strong { color: var(--correct); }
+.stat-correct strong { color: var(--accent-ink); }
 .stat-wrong strong { color: var(--wrong); }
 
 .question-card {
@@ -295,6 +297,7 @@ h1, h2 {
   padding: 13px 16px;
   font: inherit;
   font-size: 0.98rem;
+  color: var(--text);
   cursor: pointer;
   display: flex;
   gap: 10px;
@@ -335,7 +338,6 @@ h1, h2 {
   margin-top: 20px;
 }
 
-/* Results */
 .results-summary {
   display: flex;
   align-items: baseline;
