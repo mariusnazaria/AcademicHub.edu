@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Hub — Teste grilă</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand" id="brand-home">
+    <img class="brand-mark" src="assets/logo.png" alt="Academic Hub">
+    <span class="brand-name">Academic Hub</span>
+    <span class="brand-sub">Teste grilă</span>
+  </div>
+  <nav class="breadcrumb" id="breadcrumb" aria-label="Navigare"></nav>
+</header>
+
+<main id="app" class="app"></main>
+
+<template id="tpl-clase">
+  <section class="screen">
+    <h1>Alege clasa</h1>
+    <p class="screen-lead">Selectează clasa pentru a vedea materiile disponibile.</p>
+    <div class="card-grid" id="clase-grid"></div>
+  </section>
+</template>
+
+<template id="tpl-materii">
+  <section class="screen">
+    <h1></h1>
+    <p class="screen-lead">Alege materia la care vrei să exersezi.</p>
+    <div class="card-grid" id="materii-grid"></div>
+  </section>
+</template>
+
+<template id="tpl-colectii">
+  <section class="screen">
+    <h1></h1>
+    <p class="screen-lead">Alege o colecție de întrebări.</p>
+    <div class="card-grid" id="colectii-grid"></div>
+  </section>
+</template>
+
+<template id="tpl-setup">
+  <section class="screen screen-setup">
+    <h1></h1>
+    <div class="setup-options">
+      <fieldset class="option-group">
+        <legend>Mod</legend>
+        <label class="pill-choice"><input type="radio" name="mod" value="testare" checked><span>Testare</span></label>
+        <label class="pill-choice"><input type="radio" name="mod" value="invatare"><span>Învățare</span></label>
+      </fieldset>
+      <label class="switch-choice">
+        <input type="checkbox" id="opt-amesteca" checked>
+        <span>Amestecă întrebările și variantele</span>
+      </label>
+      <label class="switch-choice">
+        <input type="checkbox" id="opt-doar-gresite">
+        <span>Doar întrebările greșite anterior <span id="count-gresite" class="count-badge"></span></span>
+      </label>
+    </div>
+    <button class="btn-primary" id="start-quiz">Începe testul</button>
+  </section>
+</template>
+
+<template id="tpl-quiz">
+  <section class="screen screen-quiz">
+    <div class="quiz-topbar">
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="quiz-stats">
+        <span><strong id="stat-raspunse">0</strong> răspunse</span>
+        <span class="stat-correct"><strong id="stat-corecte">0</strong> corecte</span>
+        <span class="stat-wrong"><strong id="stat-gresite">0</strong> greșite</span>
+      </div>
+    </div>
+    <div class="question-card">
+      <p class="question-number" id="question-number"></p>
+      <h2 class="question-text" id="question-text"></h2>
+      <div class="options-list" id="options-list"></div>
+      <p class="explanation" id="explanation" hidden></p>
+    </div>
+    <div class="quiz-actions">
+      <button class="btn-secondary" id="btn-exit">Ieși din test</button>
+      <button class="btn-primary" id="btn-next" disabled>Următoarea</button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-rezultate">
+  <section class="screen screen-results">
+    <h1>Test finalizat</h1>
+    <div class="results-summary">
+      <div class="result-figure"><strong id="res-acuratete"></strong><span>acuratețe</span></div>
+      <div class="result-line"><span id="res-corecte"></span> corecte din <span id="res-total"></span></div>
+    </div>
+    <div class="results-actions">
+      <button class="btn-primary" id="btn-repeta-gresite">Repetă doar greșelile</button>
+      <button class="btn-secondary" id="btn-alta-colectie">Alege altă colecție</button>
+    </div>
+  </section>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
