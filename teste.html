@@ -21,7 +21,7 @@
      ================================================================== -->
 <script>
 const CONFIG = {
-  PAROLA_ELEV: "isoscel44",
+  PAROLA_ELEV: "pitagora22",
   PAROLA_PROFESOR: "mariusboss",
 
   // Datele repository-ului de pe GitHub (nu le schimba decât dacă muți proiectul)
@@ -56,7 +56,7 @@ const CONFIG = {
     <div class="login-roles">
       <button class="role-card" data-rol="elev">
         <span class="role-title">Conectează-te ca elev</span>
-        <span class="role-meta">Rezolvă teste grilă (exclusiv elevilor Academic Hub)</span>
+        <span class="role-meta">Rezolvă teste grilă</span>
       </button>
       <button class="role-card" data-rol="profesor">
         <span class="role-title">Conectează-te ca profesor</span>
@@ -196,6 +196,10 @@ const CONFIG = {
         <span class="pick-title">Creează colecție</span>
         <span class="pick-meta">Un test nou, gol</span>
       </button>
+      <button class="pick-card" id="panou-editare">
+        <span class="pick-title">Editează întrebări</span>
+        <span class="pick-meta">Modifică sau șterge întrebări</span>
+      </button>
       <button class="pick-card" id="panou-materii">
         <span class="pick-title">Gestionează</span>
         <span class="pick-meta">Materii și colecții</span>
@@ -204,6 +208,67 @@ const CONFIG = {
         <span class="pick-title">Vezi testele</span>
         <span class="pick-meta">Ca elev</span>
       </button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-editare-intrebari">
+  <section class="screen">
+    <h1>Editează întrebări</h1>
+    <p class="screen-lead">Alege colecția, apoi întrebarea pe care vrei s-o modifici.</p>
+
+    <label class="field-label">Clasa</label>
+    <select class="text-input" id="ed-clasa"></select>
+
+    <label class="field-label">Materia</label>
+    <select class="text-input" id="ed-materie"></select>
+
+    <label class="field-label">Colecția</label>
+    <select class="text-input" id="ed-colectie"></select>
+
+    <p class="form-error" id="ed-error" hidden></p>
+    <p class="form-ok" id="ed-ok" hidden></p>
+
+    <div id="ed-lista-wrap">
+      <h2 class="section-title">Întrebări</h2>
+      <div id="ed-lista"></div>
+    </div>
+
+    <div id="ed-form-wrap" hidden>
+      <h2 class="section-title">Modifică întrebarea</h2>
+
+      <label class="field-label">Tipul întrebării</label>
+      <div class="option-group">
+        <label class="pill-choice"><input type="radio" name="ed-tip" value="simplu"><span>Un răspuns</span></label>
+        <label class="pill-choice"><input type="radio" name="ed-tip" value="multiplu"><span>Mai multe răspunsuri</span></label>
+      </div>
+
+      <label class="field-label">Enunțul întrebării</label>
+      <textarea class="text-input" id="ed-enunt" rows="3"></textarea>
+
+      <label class="field-label">Imagine</label>
+      <div class="preview-wrap" id="ed-preview-wrap" hidden>
+        <img class="preview-img" id="ed-preview" alt="">
+        <button class="btn-link" id="ed-sterge-imagine">Șterge imaginea</button>
+      </div>
+      <input class="text-input" type="file" id="ed-imagine" accept="image/*">
+
+      <label class="field-label">Variantele de răspuns</label>
+      <p class="field-hint">Bifează varianta (sau variantele) corecte.</p>
+      <div id="ed-variante"></div>
+      <button class="btn-link" id="ed-adauga-varianta">+ Adaugă variantă</button>
+
+      <label class="field-label">Explicație (opțional)</label>
+      <textarea class="text-input" id="ed-explicatie" rows="2"></textarea>
+
+      <div class="form-actions">
+        <button class="btn-secondary" id="ed-anuleaza">Anulează</button>
+        <button class="btn-primary" id="ed-salveaza">Salvează modificările</button>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button class="btn-secondary" id="ed-inapoi">Înapoi la panou</button>
     </div>
   </section>
 </template>
