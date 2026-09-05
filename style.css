@@ -732,3 +732,607 @@ textarea.text-input {
   background: var(--accent-soft);
   border-color: var(--accent-strong);
 }
+
+/* ==========================================================
+   PAGINI DE PREZENTARE (acasă, cursuri, rezolvări, contact)
+   ========================================================== */
+
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.wrap-narrow { max-width: 680px; }
+
+/* ---- Header cu meniu ---- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  flex-wrap: wrap;
+}
+
+.brand { text-decoration: none; }
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover { color: var(--accent); }
+
+.site-nav a.is-active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.site-nav .nav-cta {
+  background: var(--accent);
+  color: #12210A;
+  padding: 9px 16px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  border-bottom: none;
+  white-space: nowrap;
+}
+
+.site-nav .nav-cta:hover {
+  background: var(--accent-strong);
+  color: #12210A;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+/* ---- Hero ---- */
+.hero {
+  padding: 84px 0 68px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.9rem;
+  line-height: 1.12;
+  margin-bottom: 18px;
+}
+
+.accent-text { color: var(--accent); }
+
+.hero-lead {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 620px;
+  margin: 0 auto 30px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-actions .btn-primary,
+.hero-actions .btn-secondary {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.page-head {
+  padding: 60px 0 44px;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-head h1 { font-size: 2.2rem; margin-bottom: 14px; }
+.page-head .hero-lead { margin-left: 0; max-width: 680px; }
+
+/* ---- Secțiuni ---- */
+.section { padding: 68px 0; }
+
+.section-alt {
+  background: rgba(0, 0, 0, 0.18);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section-heading {
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+}
+
+.section-sub {
+  color: var(--text-muted);
+  margin: 0 0 34px;
+}
+
+/* ---- Carduri de beneficii ---- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.feature-grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+.feature-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.feature-num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.feature-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+}
+
+.feature-card p {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  margin: 0;
+}
+
+/* ---- Ce oferim ---- */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.offer-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px;
+  text-decoration: none;
+  display: block;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.offer-card:hover {
+  border-color: var(--accent);
+  background: var(--bg-card-hover);
+}
+
+.offer-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+
+.offer-card p {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  margin: 0 0 16px;
+}
+
+.offer-link {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ---- Testimoniale ---- */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.testimonial {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin: 0;
+}
+
+.testimonial p {
+  margin: 0 0 16px;
+  font-size: 0.97rem;
+}
+
+.testimonial footer strong {
+  display: block;
+  font-size: 0.92rem;
+}
+
+.testimonial footer span {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---- Cursuri ---- */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-tag {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.course-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+.course-desc {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  margin: 0 0 18px;
+}
+
+.course-price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.course-price strong {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.course-price span { color: var(--text-muted); font-size: 0.9rem; }
+
+.course-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.course-specs li {
+  font-size: 0.92rem;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.course-specs li span {
+  color: var(--text-muted);
+  display: inline-block;
+  min-width: 82px;
+}
+
+.course-includes-title {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.check-list li {
+  font-size: 0.93rem;
+  padding: 5px 0 5px 24px;
+  position: relative;
+}
+
+.check-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.course-btn {
+  margin-top: auto;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+/* ---- Rezolvări ---- */
+.solution-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px;
+}
+
+.solution-tags { display: flex; gap: 8px; margin-bottom: 16px; }
+
+.tag {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.tag-accent {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.solution-card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 12px;
+}
+
+.solution-card p { color: var(--text-muted); margin: 0 0 18px; }
+
+.solution-subjects-title {
+  font-size: 0.88rem;
+  margin-bottom: 10px !important;
+}
+
+.chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
+
+.chip {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+}
+
+.solution-btn { text-decoration: none; display: inline-block; }
+
+/* ---- Contact ---- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.contact-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.contact-card h3 {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.contact-value {
+  display: block;
+  color: var(--accent);
+  font-size: 1.02rem;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+a.contact-value:hover { text-decoration: underline; }
+
+.contact-note {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 6px 0 0;
+}
+
+.form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+
+.form-card .field-label:first-child { margin-top: 0; }
+
+.form-submit {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.map-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* ---- Bandă CTA ---- */
+.cta-band {
+  background: var(--accent);
+  color: #12210A;
+  padding: 62px 0;
+  text-align: center;
+}
+
+.cta-band h2 {
+  color: #12210A;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+
+.cta-band p {
+  color: #1F3510;
+  margin: 0 0 26px;
+  font-size: 1.03rem;
+}
+
+.cta-band .btn-primary {
+  background: #12210A;
+  color: var(--accent);
+}
+
+.cta-band .btn-primary:hover { background: #000; }
+
+.cta-band .btn-secondary {
+  border-color: #12210A;
+  color: #12210A;
+}
+
+.cta-band .btn-secondary:hover {
+  background: rgba(0, 0, 0, 0.09);
+  border-color: #12210A;
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  padding: 52px 0 0;
+  margin-top: 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 36px;
+  padding-bottom: 36px;
+}
+
+.footer-brand { margin-bottom: 14px; }
+
+.footer-text {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+  max-width: 380px;
+}
+
+.site-footer h4 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  margin: 0 0 14px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 9px;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.footer-links a:hover { color: var(--accent); }
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---- Mobil ---- */
+@media (max-width: 860px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+}
+
+@media (max-width: 760px) {
+  .nav-toggle { display: flex; }
+
+  .site-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding-top: 12px;
+  }
+
+  .site-nav.is-open { display: flex; }
+
+  .site-nav a {
+    padding: 13px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .site-nav a.is-active { border-bottom-color: var(--border); }
+
+  .site-nav .nav-cta {
+    margin-top: 12px;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .hero { padding: 54px 0 44px; }
+  .hero h1 { font-size: 2.05rem; }
+  .hero-lead { font-size: 1rem; }
+  .section { padding: 48px 0; }
+  .section-heading { font-size: 1.4rem; }
+  .page-head h1 { font-size: 1.7rem; }
+  .cta-band { padding: 48px 0; }
+  .cta-band h2 { font-size: 1.5rem; }
+  .wrap { padding: 0 16px; }
+  .hero-actions { flex-direction: column; }
+  .hero-actions a { width: 100%; text-align: center; }
+}
