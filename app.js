@@ -171,9 +171,8 @@ async function renderSetup(colectie) {
 
   document.getElementById('start-quiz').addEventListener('click', async () => {
     const mod = document.querySelector('input[name="mod"]:checked').value;
-    const amesteca = document.getElementById('opt-amesteca').checked;
     const doarGresite = document.getElementById('opt-doar-gresite').checked;
-    await pornesteQuiz(colectie, { mod, amesteca, doarGresite });
+    await pornesteQuiz(colectie, { mod, amesteca: true, doarGresite });
   });
 }
 
