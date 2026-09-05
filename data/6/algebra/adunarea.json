@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "adunarea-1788637792138",
+    "tip": "simplu",
+    "intrebare": "Cât face 3 + 3",
+    "variante": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "corect": 1,
+    "explicatie": "Nu sunteti prosti"
+  }
+]
