@@ -23,7 +23,13 @@
         {
           "id": "algebra",
           "nume": "Algebră",
-          "colectii": []
+          "colectii": [
+            {
+              "id": "adunarea",
+              "nume": "Adunarea",
+              "fisier": "data/6/algebra/adunarea.json"
+            }
+          ]
         },
         {
           "id": "geometrie",
