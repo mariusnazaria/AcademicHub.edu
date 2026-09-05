@@ -1,0 +1,38 @@
+{
+  "clase": [
+    {
+      "id": "5",
+      "nume": "Clasa 5",
+      "materii": [
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": [
+            {
+              "id": "fractii",
+              "nume": "Fracții ordinare",
+              "fisier": "data/5/algebra/fractii.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nume": "Clasa 9",
+      "materii": [
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": [
+            {
+              "id": "functii",
+              "nume": "Funcția de gradul I",
+              "fisier": "data/9/algebra/functii.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
