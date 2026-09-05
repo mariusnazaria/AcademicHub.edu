@@ -1336,3 +1336,56 @@ a.contact-value:hover { text-decoration: underline; }
   .hero-actions { flex-direction: column; }
   .hero-actions a { width: 100%; text-align: center; }
 }
+
+/* ---- Iconiță Instagram din header ---- */
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.nav-icon:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+@media (max-width: 760px) {
+  .nav-icon {
+    align-self: flex-start;
+    margin-top: 4px;
+  }
+}
+
+/* ---- Casetă evidențiată: Lecție de probă gratuită ---- */
+.site-nav a.nav-highlight {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.site-nav a.nav-highlight:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.site-nav a.nav-highlight.is-active {
+  border-bottom: 1px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+@media (max-width: 760px) {
+  .site-nav a.nav-highlight {
+    text-align: center;
+    margin: 6px 0;
+    border-bottom: 1px solid var(--accent);
+  }
+}
