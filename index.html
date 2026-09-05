@@ -3,303 +3,164 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Academic Hub — Teste grilă</title>
+<title>Academic Hub — Pregătire la Matematică</title>
+<meta name="description" content="Centru de pregătire la matematică în Chișinău. Grupuri mici, profesori experimentați, cursuri pentru clasele 9 și 12.">
+<link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ==================================================================
-     SETĂRI — modifică doar aici parolele și datele repository-ului.
-     Schimbă parolele oricând (ex. săptămânal) și dă Commit.
-     ================================================================== -->
-<script>
-const CONFIG = {
-  PAROLA_ELEV: "pitagora22",
-  PAROLA_PROFESOR: "mariusboss",
-
-  // Datele repository-ului de pe GitHub (nu le schimba decât dacă muți proiectul)
-  GITHUB_OWNER: "mariusnazaria",
-  GITHUB_REPO: "AcademicHub.edu",
-  GITHUB_BRANCH: "main"
-};
-</script>
-
-<header class="site-header" id="site-header" hidden>
-  <div class="brand" id="brand-home">
+<header class="site-header">
+  <a class="brand" href="index.html">
     <img class="brand-mark" src="logo.png" alt="Academic Hub">
     <span class="brand-name">Academic Hub</span>
-    <span class="brand-sub">Teste grilă</span>
-  </div>
-  <div class="header-right">
-    <nav class="breadcrumb" id="breadcrumb" aria-label="Navigare"></nav>
-    <button class="btn-link" id="btn-logout" hidden>Ieși</button>
-  </div>
+  </a>
+  <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Meniu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav" id="site-nav">
+    <a href="cursuri.html">Cursuri</a>
+    <a href="rezolvari.html">Rezolvări</a>
+    <a href="teste.html">Testează-te</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cta" href="tel:+37361221666">+373 61 221 666</a>
+  </nav>
 </header>
 
-<main id="app" class="app"></main>
+<main>
 
-<!-- ===================== LOGIN ===================== -->
-<template id="tpl-login">
-  <section class="screen screen-login">
-    <img class="login-logo" src="logo.png" alt="Academic Hub">
-    <h1>Academic Hub</h1>
-    <p class="screen-lead">Conectează-te ca să continui.</p>
-
-    <div class="login-roles">
-      <button class="role-card" data-rol="elev">
-        <span class="role-title">Conectează-te ca elev</span>
-        <span class="role-meta">Rezolvă teste grilă</span>
-      </button>
-      <button class="role-card" data-rol="profesor">
-        <span class="role-title">Conectează-te ca profesor</span>
-      </button>
+<section class="hero">
+  <div class="wrap">
+    <h1>Pregătire la matematică <span class="accent-text">de calitate</span></h1>
+    <p class="hero-lead">Învață cu profesori experimentați, în grupuri mici. Peste 2700 de elevi au reușit cu noi.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="cursuri.html">Vezi cursurile</a>
+      <a class="btn-secondary" href="teste.html">Testează-te gratuit</a>
     </div>
+  </div>
+</section>
 
-    <div class="login-form" id="login-form" hidden>
-      <p class="login-role-label" id="login-role-label"></p>
-      <input class="text-input" type="password" id="login-parola" placeholder="Parola" autocomplete="current-password">
-      <p class="form-error" id="login-error" hidden></p>
-      <div class="form-actions">
-        <button class="btn-secondary" id="login-inapoi">Înapoi</button>
-        <button class="btn-primary" id="login-intra">Intră</button>
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-heading">De ce Academic Hub?</h2>
+    <p class="section-sub">O experiență de învățare cu rezultate măsurabile.</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-num">3-5</span>
+        <h3>Grupuri mici</h3>
+        <p>Maximum 3-5 elevi per grup, pentru atenție personalizată.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-num">100+</span>
+        <h3>Sute de exerciții</h3>
+        <p>Materiale practice complete pentru fiecare lecție.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-num">4+</span>
+        <h3>Ani de experiență</h3>
+        <p>Echipa noastră are peste 4 ani de experiență la catedră.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-num">8.20</span>
+        <h3>Media la bac</h3>
+        <p>Comparabilă cu media liceelor de top din Moldova.</p>
       </div>
     </div>
-  </section>
-</template>
+  </div>
+</section>
 
-<!-- ===================== NAVIGARE ELEV ===================== -->
-<template id="tpl-clase">
-  <section class="screen">
-    <div class="screen-head">
-      <div>
-        <h1>Alege clasa</h1>
-        <p class="screen-lead">Selectează clasa pentru a vedea materiile disponibile.</p>
+<section class="section section-alt">
+  <div class="wrap">
+    <h2 class="section-heading">Ce oferim</h2>
+    <p class="section-sub">Servicii complete pentru pregătirea la matematică.</p>
+    <div class="offer-grid">
+      <a class="offer-card" href="cursuri.html">
+        <h3>Cursuri</h3>
+        <p>Cursuri specializate pentru clasele 9 și 12, cu programe personalizate și materiale didactice complete.</p>
+        <span class="offer-link">Vezi cursurile →</span>
+      </a>
+      <a class="offer-card" href="teste.html">
+        <h3>Testează-te</h3>
+        <p>Teste grilă online la algebră și geometrie, pentru toate clasele. Vezi imediat răspunsurile corecte și repetă ce ai greșit.</p>
+        <span class="offer-link">Începe un test →</span>
+      </a>
+      <a class="offer-card" href="rezolvari.html">
+        <h3>Rezolvări</h3>
+        <p>Rezolvări complete și detaliate pentru problemele din cartea de teste pentru profil real.</p>
+        <span class="offer-link">Vezi rezolvările →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-heading">Ce spun elevii noștri</h2>
+    <p class="section-sub">Rezultatele vorbesc de la sine.</p>
+    <div class="testimonial-grid">
+      <blockquote class="testimonial">
+        <p>Datorită cursurilor de la Academic Hub am reușit să obțin 9 la bac la matematică. Domn. Ovidiu explică excelent!</p>
+        <footer><strong>Maria Rusu</strong><span>Clasa 12, Chișinău</span></footer>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>Mulțumesc lui d. Călin, în sfârșit am înțeles matematica!</p>
+        <footer><strong>Alexandru Railean</strong><span>Clasa 9, Chișinău</span></footer>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>La algebră mă descurcam, dar la geometrie deloc. Sincer mulțumesc d. Daniel că am înțeles geometria!</p>
+        <footer><strong>Dumitru Didenco</strong><span>Clasa 12, Ialoveni</span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Gata să începi?</h2>
+    <p>Înscrie-te acum și fă primul pas spre succesul la matematică.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="contact.html">Înscrie-te acum</a>
+      <a class="btn-secondary" href="viber://chat?number=37361221666">Scrie-ne pe Viber</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand footer-brand">
+        <img class="brand-mark" src="logo.png" alt="">
+        <span class="brand-name">Academic Hub</span>
       </div>
-      <button class="btn-secondary" id="btn-panou-profesor" hidden>Panou profesor</button>
+      <p class="footer-text">Centru de pregătire la matematică cu profesori experimentați. Cursuri pentru clasele 9 și 12, teste grilă online și materiale didactice complete.</p>
     </div>
-    <div class="card-grid" id="clase-grid"></div>
-  </section>
-</template>
-
-<template id="tpl-materii">
-  <section class="screen">
-    <h1></h1>
-    <p class="screen-lead">Alege materia la care vrei să exersezi.</p>
-    <div class="card-grid" id="materii-grid"></div>
-  </section>
-</template>
-
-<template id="tpl-colectii">
-  <section class="screen">
-    <h1></h1>
-    <p class="screen-lead">Alege o colecție de întrebări.</p>
-    <div class="card-grid" id="colectii-grid"></div>
-  </section>
-</template>
-
-<template id="tpl-setup">
-  <section class="screen screen-setup">
-    <h1></h1>
-    <div class="setup-options">
-      <fieldset class="option-group">
-        <legend>Mod</legend>
-        <label class="pill-choice"><input type="radio" name="mod" value="testare" checked><span>Testare</span></label>
-        <label class="pill-choice"><input type="radio" name="mod" value="invatare"><span>Învățare</span></label>
-      </fieldset>
-      <label class="switch-choice">
-        <input type="checkbox" id="opt-doar-gresite">
-        <span>Doar întrebările greșite anterior <span id="count-gresite" class="count-badge"></span></span>
-      </label>
+    <div>
+      <h4>Linkuri rapide</h4>
+      <ul class="footer-links">
+        <li><a href="cursuri.html">Cursuri</a></li>
+        <li><a href="rezolvari.html">Rezolvări</a></li>
+        <li><a href="teste.html">Testează-te</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-    <button class="btn-primary" id="start-quiz">Începe testul</button>
-  </section>
-</template>
-
-<template id="tpl-quiz">
-  <section class="screen screen-quiz">
-    <div class="quiz-topbar">
-      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
-      <div class="quiz-stats">
-        <span><strong id="stat-raspunse">0</strong> răspunse</span>
-        <span class="stat-correct"><strong id="stat-corecte">0</strong> corecte</span>
-        <span class="stat-wrong"><strong id="stat-gresite">0</strong> greșite</span>
-      </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-links">
+        <li><a href="tel:+37361221666">+373 61 221 666</a></li>
+        <li><a href="mailto:academichubmd@gmail.com">academichubmd@gmail.com</a></li>
+        <li>bd. Ștefan cel Mare și Sfânt 196, Chișinău</li>
+      </ul>
     </div>
-    <div class="question-card">
-      <p class="question-number" id="question-number"></p>
-      <h2 class="question-text" id="question-text"></h2>
-      <div class="question-image-wrap" id="question-image-wrap" hidden>
-        <img class="question-image" id="question-image" alt="">
-      </div>
-      <p class="question-hint" id="question-hint"></p>
-      <div class="options-list" id="options-list"></div>
-      <button class="btn-primary btn-verifica" id="btn-verifica" disabled>Verifică</button>
-      <p class="explanation" id="explanation" hidden></p>
-    </div>
-    <div class="quiz-actions">
-      <button class="btn-secondary" id="btn-exit">Ieși din test</button>
-      <button class="btn-primary" id="btn-next" disabled>Următoarea</button>
-    </div>
-  </section>
-</template>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Academic Hub. Toate drepturile rezervate.</span>
+  </div>
+</footer>
 
-<template id="tpl-rezultate">
-  <section class="screen screen-results">
-    <h1>Test finalizat</h1>
-    <div class="results-summary">
-      <div class="result-figure"><strong id="res-acuratete"></strong><span>acuratețe</span></div>
-      <div class="result-line"><span id="res-corecte"></span> corecte din <span id="res-total"></span></div>
-    </div>
-    <div class="results-actions">
-      <button class="btn-primary" id="btn-repeta-gresite">Repetă doar greșelile</button>
-      <button class="btn-secondary" id="btn-alta-colectie">Alege altă colecție</button>
-    </div>
-  </section>
-</template>
-
-<!-- ===================== PANOU PROFESOR ===================== -->
-<template id="tpl-token">
-  <section class="screen">
-    <h1>Introdu cheia de acces</h1>
-    <input class="text-input" type="password" id="token-input" placeholder="Cheia de acces" autocomplete="off">
-    <p class="form-error" id="token-error" hidden></p>
-    <div class="form-actions">
-      <button class="btn-secondary" id="token-inapoi">Înapoi</button>
-      <button class="btn-primary" id="token-salveaza">Continuă</button>
-    </div>
-  </section>
-</template>
-
-<template id="tpl-panou">
-  <section class="screen">
-    <div class="screen-head">
-      <div>
-        <h1>Panou profesor</h1>
-        <p class="screen-lead">Adaugă întrebări și colecții direct din site.</p>
-      </div>
-      <button class="btn-link" id="btn-sterge-token">Șterge cheia</button>
-    </div>
-    <div class="card-grid">
-      <button class="pick-card" id="panou-intrebare">
-        <span class="pick-title">Adaugă întrebare</span>
-        <span class="pick-meta">Într-o colecție existentă</span>
-      </button>
-      <button class="pick-card" id="panou-colectie">
-        <span class="pick-title">Creează colecție</span>
-        <span class="pick-meta">Un test nou, gol</span>
-      </button>
-      <button class="pick-card" id="panou-materii">
-        <span class="pick-title">Gestionează</span>
-        <span class="pick-meta">Materii și colecții</span>
-      </button>
-      <button class="pick-card" id="panou-vezi">
-        <span class="pick-title">Vezi testele</span>
-        <span class="pick-meta">Ca elev</span>
-      </button>
-    </div>
-  </section>
-</template>
-
-<template id="tpl-gestionare">
-  <section class="screen">
-    <h1>Gestionează</h1>
-    <p class="screen-lead">Adaugă sau șterge materii și colecții de teste.</p>
-
-    <label class="field-label">Clasa</label>
-    <select class="text-input" id="ge-clasa"></select>
-
-    <h2 class="section-title">Materii</h2>
-    <div id="ge-materii-lista"></div>
-
-    <div class="add-row">
-      <input class="text-input" type="text" id="ge-materie-noua" placeholder="Materie nouă (ex. Trigonometrie)">
-      <button class="btn-primary" id="ge-adauga-materie">Adaugă</button>
-    </div>
-
-    <h2 class="section-title">Colecții de teste</h2>
-    <label class="field-label">Materia</label>
-    <select class="text-input" id="ge-materie-sel"></select>
-    <div id="ge-colectii-lista"></div>
-
-    <p class="form-error" id="ge-error" hidden></p>
-    <p class="form-ok" id="ge-ok" hidden></p>
-    <div class="form-actions">
-      <button class="btn-secondary" id="ge-inapoi">Înapoi</button>
-    </div>
-  </section>
-</template>
-
-<template id="tpl-colectie-noua">
-  <section class="screen">
-    <h1>Creează colecție</h1>
-    <p class="screen-lead">Colecția apare imediat la clasa și materia aleasă.</p>
-
-    <label class="field-label">Clasa</label>
-    <select class="text-input" id="cn-clasa"></select>
-
-    <label class="field-label">Materia</label>
-    <select class="text-input" id="cn-materie"></select>
-
-    <label class="field-label">Numele colecției</label>
-    <input class="text-input" type="text" id="cn-nume" placeholder="ex. Ecuații de gradul I">
-
-    <p class="form-error" id="cn-error" hidden></p>
-    <p class="form-ok" id="cn-ok" hidden></p>
-    <div class="form-actions">
-      <button class="btn-secondary" id="cn-inapoi">Înapoi</button>
-      <button class="btn-primary" id="cn-salveaza">Creează colecția</button>
-    </div>
-  </section>
-</template>
-
-<template id="tpl-intrebare-noua">
-  <section class="screen">
-    <h1>Adaugă întrebare</h1>
-
-    <label class="field-label">Clasa</label>
-    <select class="text-input" id="in-clasa"></select>
-
-    <label class="field-label">Materia</label>
-    <select class="text-input" id="in-materie"></select>
-
-    <label class="field-label">Colecția</label>
-    <select class="text-input" id="in-colectie"></select>
-
-    <label class="field-label">Tipul întrebării</label>
-    <div class="option-group">
-      <label class="pill-choice"><input type="radio" name="in-tip" value="simplu" checked><span>Un răspuns</span></label>
-      <label class="pill-choice"><input type="radio" name="in-tip" value="multiplu"><span>Mai multe răspunsuri</span></label>
-    </div>
-
-    <label class="field-label">Enunțul întrebării</label>
-    <textarea class="text-input" id="in-enunt" rows="3" placeholder="Scrie întrebarea aici..."></textarea>
-
-    <label class="field-label">Imagine (opțional)</label>
-    <input class="text-input" type="file" id="in-imagine" accept="image/*">
-    <div class="preview-wrap" id="in-preview-wrap" hidden>
-      <img class="preview-img" id="in-preview" alt="">
-      <button class="btn-link" id="in-sterge-imagine">Șterge imaginea</button>
-    </div>
-
-    <label class="field-label">Variantele de răspuns</label>
-    <p class="field-hint">Bifează varianta (sau variantele) corecte.</p>
-    <div id="in-variante"></div>
-    <button class="btn-link" id="in-adauga-varianta">+ Adaugă variantă</button>
-
-    <label class="field-label">Explicație (opțional)</label>
-    <textarea class="text-input" id="in-explicatie" rows="2" placeholder="De ce e corect răspunsul..."></textarea>
-
-    <p class="form-error" id="in-error" hidden></p>
-    <p class="form-ok" id="in-ok" hidden></p>
-    <div class="form-actions">
-      <button class="btn-secondary" id="in-inapoi">Înapoi</button>
-      <button class="btn-primary" id="in-salveaza">Salvează întrebarea</button>
-    </div>
-  </section>
-</template>
-
-<script src="app.js"></script>
+<script src="site.js"></script>
 </body>
 </html>
