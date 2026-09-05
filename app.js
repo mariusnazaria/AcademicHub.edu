@@ -90,6 +90,7 @@ function ruleaza() {
     if (p[1] === 'colectie') { renderColectieNoua(); return; }
     if (p[1] === 'intrebare') { renderIntrebareNoua(); return; }
     if (p[1] === 'gestionare') { renderGestionare(); return; }
+    if (p[1] === 'editare') { renderEditareIntrebari(); return; }
     renderPanou();
     return;
   }
@@ -658,6 +659,7 @@ function renderPanou() {
   document.getElementById('panou-intrebare').addEventListener('click', () => mergiLa('/profesor/intrebare'));
   document.getElementById('panou-colectie').addEventListener('click', () => mergiLa('/profesor/colectie'));
   document.getElementById('panou-materii').addEventListener('click', () => mergiLa('/profesor/gestionare'));
+  document.getElementById('panou-editare').addEventListener('click', () => mergiLa('/profesor/editare'));
   document.getElementById('panou-vezi').addEventListener('click', () => mergiLa('/'));
   document.getElementById('btn-sterge-token').addEventListener('click', () => {
     clearToken();
@@ -1087,4 +1089,298 @@ function renderGestionare() {
   }
 
   document.getElementById('ge-inapoi').addEventListener('click', () => mergiLa('/profesor'));
+}
+
+// ---------------- Editare întrebări existente ----------------
+
+function renderEditareIntrebari() {
+  const tpl = document.getElementById('tpl-editare-intrebari').content.cloneNode(true);
+  app.innerHTML = '';
+  app.appendChild(tpl);
+  renderBreadcrumb([
+    { text: 'Clase', ruta: '/' },
+    { text: 'Panou profesor', ruta: '/profesor' },
+    { text: 'Editează întrebări' }
+  ]);
+
+  const selClasa = document.getElementById('ed-clasa');
+  const selMaterie = document.getElementById('ed-materie');
+  const selColectie = document.getElementById('ed-colectie');
+  const lista = document.getElementById('ed-lista');
+  const formWrap = document.getElementById('ed-form-wrap');
+  const listaWrap = document.getElementById('ed-lista-wrap');
+  const varianteWrap = document.getElementById('ed-variante');
+  const err = document.getElementById('ed-error');
+  const ok = document.getElementById('ed-ok');
+
+  // Starea ecranului de editare
+  let colectieCurenta = null;   // obiectul colecției din manifest
+  let intrebariCurente = [];    // conținutul fișierului JSON
+  let shaCurent = null;         // sha-ul fișierului, pentru salvare
+  let indexEditat = -1;         // ce întrebare se editează
+  let imagineNoua = null;       // { numeFisier, base64 } dacă s-a ales una nouă
+  let imagineCurenta = null;    // calea imaginii deja salvate
+  let imagineStearsa = false;
+
+  function mesajEroare(t) { err.textContent = t; err.hidden = false; ok.hidden = true; }
+  function mesajOk(t) { ok.textContent = t; ok.hidden = false; err.hidden = true; }
+
+  function umpleColectii() {
+    const clasa = manifest.clase.find(c => c.id === selClasa.value);
+    const materie = clasa.materii.find(m => m.id === selMaterie.value);
+    selColectie.innerHTML = materie && materie.colectii.length
+      ? materie.colectii.map(c => `<option value="${c.id}">${c.nume}</option>`).join('')
+      : '<option value="">— nicio colecție —</option>';
+  }
+
+  umpleClase(selClasa);
+  umpleMaterii(selClasa, selMaterie);
+  umpleColectii();
+
+  selClasa.addEventListener('change', () => {
+    umpleMaterii(selClasa, selMaterie); umpleColectii(); incarcaColectie();
+  });
+  selMaterie.addEventListener('change', () => { umpleColectii(); incarcaColectie(); });
+  selColectie.addEventListener('change', incarcaColectie);
+
+  async function incarcaColectie() {
+    ascundeFormular();
+    err.hidden = true; ok.hidden = true;
+    lista.innerHTML = '<p class="field-hint">Se încarcă...</p>';
+
+    const colId = selColectie.value;
+    if (!colId) {
+      lista.innerHTML = '<p class="field-hint">Nu există colecții aici.</p>';
+      colectieCurenta = null;
+      return;
+    }
+
+    const clasa = manifest.clase.find(c => c.id === selClasa.value);
+    const materie = clasa.materii.find(m => m.id === selMaterie.value);
+    colectieCurenta = materie.colectii.find(c => c.id === colId);
+
+    try {
+      const fisier = await ghCiteste(colectieCurenta.fisier);
+      if (!fisier) throw new Error('Nu am găsit fișierul colecției.');
+      intrebariCurente = JSON.parse(fisier.continut);
+      shaCurent = fisier.sha;
+      deseneazaLista();
+    } catch (e) {
+      lista.innerHTML = '';
+      mesajEroare(e.message);
+    }
+  }
+
+  function deseneazaLista() {
+    lista.innerHTML = '';
+    if (intrebariCurente.length === 0) {
+      lista.innerHTML = '<p class="field-hint">Colecția nu are încă întrebări.</p>';
+      return;
+    }
+    intrebariCurente.forEach((q, i) => {
+      const rand = document.createElement('div');
+      rand.className = 'manage-row';
+      const tipEticheta = q.tip === 'multiplu' ? 'mai multe răspunsuri' : 'un răspuns';
+      const text = (q.intrebare || '').length > 70
+        ? q.intrebare.slice(0, 70) + '...'
+        : q.intrebare;
+      rand.innerHTML = `
+        <div>
+          <span class="manage-name">${i + 1}. ${text}</span>
+          <span class="manage-meta">${tipEticheta}${q.imagine ? ' · cu imagine' : ''}</span>
+        </div>
+        <div class="row-actions">
+          <button class="btn-secondary btn-mic">Editează</button>
+          <button class="btn-danger">Șterge</button>
+        </div>`;
+      const [btnEdit, btnSterge] = rand.querySelectorAll('button');
+      btnEdit.addEventListener('click', () => deschideFormular(i));
+      btnSterge.addEventListener('click', () => stergeIntrebare(i, btnSterge));
+      lista.appendChild(rand);
+    });
+  }
+
+  function adaugaVariantaRand(text = '', bifat = false) {
+    const rand = document.createElement('div');
+    rand.className = 'varianta-row';
+    rand.innerHTML = `
+      <input type="checkbox" class="v-corect" title="Corect">
+      <input type="text" class="text-input v-text" placeholder="Text variantă">
+      <button class="btn-link v-sterge" title="Șterge">✕</button>`;
+    rand.querySelector('.v-text').value = text;
+    rand.querySelector('.v-corect').checked = bifat;
+    rand.querySelector('.v-sterge').addEventListener('click', () => rand.remove());
+    varianteWrap.appendChild(rand);
+  }
+
+  function deschideFormular(index) {
+    indexEditat = index;
+    const q = intrebariCurente[index];
+
+    imagineNoua = null;
+    imagineStearsa = false;
+    imagineCurenta = q.imagine || null;
+
+    const tip = q.tip === 'multiplu' ? 'multiplu' : 'simplu';
+    document.querySelector(`input[name="ed-tip"][value="${tip}"]`).checked = true;
+    document.getElementById('ed-enunt').value = q.intrebare || '';
+    document.getElementById('ed-explicatie').value = q.explicatie || '';
+
+    const corecte = new Set(Array.isArray(q.corect) ? q.corect : [q.corect]);
+    varianteWrap.innerHTML = '';
+    (q.variante || []).forEach((v, i) => adaugaVariantaRand(v, corecte.has(i)));
+
+    const previewWrap = document.getElementById('ed-preview-wrap');
+    const preview = document.getElementById('ed-preview');
+    document.getElementById('ed-imagine').value = '';
+    if (imagineCurenta) {
+      preview.src = imagineCurenta + '?t=' + Date.now();
+      previewWrap.hidden = false;
+    } else {
+      previewWrap.hidden = true;
+    }
+
+    listaWrap.hidden = true;
+    formWrap.hidden = false;
+    err.hidden = true; ok.hidden = true;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function ascundeFormular() {
+    formWrap.hidden = true;
+    listaWrap.hidden = false;
+    indexEditat = -1;
+  }
+
+  document.getElementById('ed-adauga-varianta').addEventListener('click', () => adaugaVariantaRand());
+  document.getElementById('ed-anuleaza').addEventListener('click', () => {
+    ascundeFormular();
+    err.hidden = true; ok.hidden = true;
+  });
+  document.getElementById('ed-inapoi').addEventListener('click', () => mergiLa('/profesor'));
+
+  // Imagine
+  const inputImg = document.getElementById('ed-imagine');
+  inputImg.addEventListener('change', () => {
+    const file = inputImg.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      imagineNoua = {
+        numeFisier: file.name.replace(/[^a-zA-Z0-9.\-_]/g, '-'),
+        base64: reader.result.split(',')[1]
+      };
+      imagineStearsa = false;
+      document.getElementById('ed-preview').src = reader.result;
+      document.getElementById('ed-preview-wrap').hidden = false;
+    };
+    reader.readAsDataURL(file);
+  });
+
+  document.getElementById('ed-sterge-imagine').addEventListener('click', () => {
+    imagineNoua = null;
+    imagineStearsa = true;
+    inputImg.value = '';
+    document.getElementById('ed-preview-wrap').hidden = true;
+  });
+
+  // Salvare modificări
+  document.getElementById('ed-salveaza').addEventListener('click', async () => {
+    err.hidden = true; ok.hidden = true;
+    if (indexEditat < 0) return;
+
+    const enunt = document.getElementById('ed-enunt').value.trim();
+    if (!enunt) { mesajEroare('Scrie enunțul întrebării.'); return; }
+
+    const variante = [];
+    const corecte = [];
+    varianteWrap.querySelectorAll('.varianta-row').forEach(r => {
+      const txt = r.querySelector('.v-text').value.trim();
+      if (!txt) return;
+      if (r.querySelector('.v-corect').checked) corecte.push(variante.length);
+      variante.push(txt);
+    });
+
+    if (variante.length < 2) { mesajEroare('Ai nevoie de cel puțin 2 variante.'); return; }
+    if (corecte.length === 0) { mesajEroare('Bifează cel puțin o variantă corectă.'); return; }
+    if (corecte.length === variante.length) { mesajEroare('Nu pot fi corecte toate variantele.'); return; }
+
+    const tip = document.querySelector('input[name="ed-tip"]:checked').value;
+    if (tip === 'simplu' && corecte.length > 1) {
+      mesajEroare('La „Un răspuns" poți bifa o singură variantă corectă.'); return;
+    }
+
+    const btn = document.getElementById('ed-salveaza');
+    btn.disabled = true; btn.textContent = 'Salvez...';
+    try {
+      // Imagine nouă, dacă s-a ales una
+      let caleImagine = imagineStearsa ? null : imagineCurenta;
+      if (imagineNoua) {
+        const ext = imagineNoua.numeFisier.split('.').pop() || 'png';
+        caleImagine = `data/imagini/${colectieCurenta.id}-${Date.now()}.${ext}`;
+        await ghScrie(caleImagine, imagineNoua.base64, 'Imagine actualizată');
+      }
+
+      // Recitim fișierul, ca să nu suprascriem modificări făcute între timp
+      const fisier = await ghCiteste(colectieCurenta.fisier);
+      if (!fisier) throw new Error('Nu am găsit fișierul colecției.');
+      const lista2 = JSON.parse(fisier.continut);
+
+      const veche = lista2[indexEditat];
+      if (!veche) throw new Error('Întrebarea nu mai există în fișier. Reîncarcă lista.');
+
+      const actualizata = {
+        id: veche.id,
+        tip: tip,
+        intrebare: enunt,
+        variante: variante,
+        corect: tip === 'multiplu' ? corecte : corecte[0]
+      };
+      if (caleImagine) actualizata.imagine = caleImagine;
+      const explicatie = document.getElementById('ed-explicatie').value.trim();
+      if (explicatie) actualizata.explicatie = explicatie;
+
+      lista2[indexEditat] = actualizata;
+
+      await ghScrieText(colectieCurenta.fisier, JSON.stringify(lista2, null, 2) + '\n',
+        `Modifică întrebare în ${colectieCurenta.nume}`, fisier.sha);
+
+      intrebariCurente = lista2;
+      shaCurent = null;
+      ascundeFormular();
+      deseneazaLista();
+      mesajOk('Întrebarea a fost modificată. Poate dura un minut până apare pe site.');
+    } catch (e) {
+      mesajEroare(e.message);
+    } finally {
+      btn.disabled = false; btn.textContent = 'Salvează modificările';
+    }
+  });
+
+  // Ștergere întrebare
+  async function stergeIntrebare(index, btn) {
+    const q = intrebariCurente[index];
+    const scurt = (q.intrebare || '').slice(0, 60);
+    if (!confirm(`Ștergi întrebarea „${scurt}..."? Această acțiune nu poate fi anulată.`)) return;
+
+    btn.disabled = true; btn.textContent = 'Șterg...';
+    try {
+      const fisier = await ghCiteste(colectieCurenta.fisier);
+      if (!fisier) throw new Error('Nu am găsit fișierul colecției.');
+      const lista2 = JSON.parse(fisier.continut);
+      lista2.splice(index, 1);
+
+      await ghScrieText(colectieCurenta.fisier, JSON.stringify(lista2, null, 2) + '\n',
+        `Șterge întrebare din ${colectieCurenta.nume}`, fisier.sha);
+
+      intrebariCurente = lista2;
+      deseneazaLista();
+      mesajOk('Întrebarea a fost ștearsă.');
+    } catch (e) {
+      mesajEroare(e.message);
+      btn.disabled = false; btn.textContent = 'Șterge';
+    }
+  }
+
+  incarcaColectie();
 }
