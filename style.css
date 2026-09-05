@@ -5,12 +5,12 @@
   --border: #3C3C41;
   --text: #EDEFE9;
   --text-muted: #9CA298;
-  --accent: #6FC12E;
-  --accent-strong: #58CA00;
-  --accent-ink: #B8ED8A;
-  --accent-soft: rgba(111, 193, 46, 0.14);
-  --correct: #6FC12E;
-  --correct-soft: rgba(111, 193, 46, 0.14);
+  --accent: #58CA00;
+  --accent-strong: #47A800;
+  --accent-ink: #58CA00;
+  --accent-soft: rgba(88, 202, 0, 0.14);
+  --correct: #58CA00;
+  --correct-soft: rgba(88, 202, 0, 0.14);
   --wrong: #E06B62;
   --wrong-soft: rgba(224, 107, 98, 0.14);
   --radius: 10px;
@@ -66,7 +66,7 @@ h1, h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.05rem;
-  color: var(--text);
+  color: var(--accent);
 }
 
 .brand-sub {
@@ -133,7 +133,7 @@ h1, h2 {
   font-weight: 700;
   font-size: 1.05rem;
   display: block;
-  color: var(--text);
+  color: var(--accent);
 }
 
 .pick-card .pick-meta {
@@ -189,6 +189,11 @@ h1, h2 {
   border-color: var(--accent);
   color: var(--accent-ink);
   font-weight: 600;
+}
+
+.switch-choice input[type="checkbox"],
+.pill-choice input[type="radio"] {
+  accent-color: var(--accent);
 }
 
 .switch-choice {
