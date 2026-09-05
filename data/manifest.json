@@ -8,7 +8,11 @@
           "id": "algebra",
           "nume": "Algebră",
           "colectii": [
-            { "id": "fractii", "nume": "Fracții ordinare", "fisier": "data/5/algebra/fractii.json" }
+            {
+              "id": "fractii",
+              "nume": "Fracții ordinare",
+              "fisier": "data/5/algebra/fractii.json"
+            }
           ]
         },
         {
@@ -22,24 +26,48 @@
       "id": "6",
       "nume": "Clasa 6",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie", "colectii": [] }
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
+        {
+          "id": "geometrie",
+          "nume": "Geometrie",
+          "colectii": []
+        }
       ]
     },
     {
       "id": "7",
       "nume": "Clasa 7",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie", "colectii": [] }
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
+        {
+          "id": "geometrie",
+          "nume": "Geometrie",
+          "colectii": []
+        }
       ]
     },
     {
       "id": "8",
       "nume": "Clasa 8",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie", "colectii": [] }
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
+        {
+          "id": "geometrie",
+          "nume": "Geometrie",
+          "colectii": []
+        }
       ]
     },
     {
@@ -50,7 +78,16 @@
           "id": "algebra",
           "nume": "Algebră",
           "colectii": [
-            { "id": "functii", "nume": "Funcția de gradul I", "fisier": "data/9/algebra/functii.json" }
+            {
+              "id": "functii",
+              "nume": "Funcția de gradul I",
+              "fisier": "data/9/algebra/functii.json"
+            },
+            {
+              "id": "puteri",
+              "nume": "Puteri",
+              "fisier": "data/9/algebra/puteri.json"
+            }
           ]
         },
         {
@@ -64,28 +101,52 @@
       "id": "10",
       "nume": "Clasa 10",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie", "colectii": [] }
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
+        {
+          "id": "geometrie",
+          "nume": "Geometrie",
+          "colectii": []
+        }
       ]
     },
     {
       "id": "11",
       "nume": "Clasa 11",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie", "colectii": [] }
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
+        {
+          "id": "geometrie",
+          "nume": "Geometrie",
+          "colectii": []
+        }
       ]
     },
     {
       "id": "12",
       "nume": "Clasa 12",
       "materii": [
-        { "id": "algebra", "nume": "Algebră", "colectii": [] },
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
+        },
         {
           "id": "geometrie",
           "nume": "Geometrie",
           "colectii": [
-            { "id": "generale", "nume": "Întrebări generale", "fisier": "data/12/geometrie/generale.json" }
+            {
+              "id": "generale",
+              "nume": "Întrebări generale",
+              "fisier": "data/12/geometrie/generale.json"
+            }
           ]
         }
       ]
