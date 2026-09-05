@@ -1389,3 +1389,28 @@ a.contact-value:hover { text-decoration: underline; }
     border-bottom: 1px solid var(--accent);
   }
 }
+
+/* ---- Acțiuni pe rând, la editarea întrebărilor ---- */
+.row-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.btn-mic {
+  padding: 7px 14px;
+  font-size: 0.85rem;
+}
+
+.manage-row .manage-name {
+  line-height: 1.35;
+}
+
+@media (max-width: 560px) {
+  .manage-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .row-actions button { flex: 1; }
+}
