@@ -8,6 +8,11 @@
           "id": "geometrie",
           "nume": "Geometrie",
           "colectii": []
+        },
+        {
+          "id": "algebra",
+          "nume": "Algebră",
+          "colectii": []
         }
       ]
     },
