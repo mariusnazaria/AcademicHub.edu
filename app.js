@@ -89,6 +89,7 @@ function ruleaza() {
     if (!getToken()) { renderToken(); return; }
     if (p[1] === 'colectie') { renderColectieNoua(); return; }
     if (p[1] === 'intrebare') { renderIntrebareNoua(); return; }
+    if (p[1] === 'gestionare') { renderGestionare(); return; }
     renderPanou();
     return;
   }
@@ -547,6 +548,20 @@ async function ghScrie(cale, continutB64, mesaj, sha) {
   return res.json();
 }
 
+async function ghSterge(cale, mesaj, sha) {
+  const res = await fetch(ghUrl(cale), {
+    method: 'DELETE',
+    headers: {
+      Authorization: 'token ' + getToken(),
+      Accept: 'application/vnd.github+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ message: mesaj, sha: sha, branch: CONFIG.GITHUB_BRANCH })
+  });
+  if (!res.ok) throw new Error('Ștergerea a eșuat (cod ' + res.status + ')');
+  return res.json();
+}
+
 async function ghScrieText(cale, text, mesaj, sha) {
   return ghScrie(cale, b64Encode(text), mesaj, sha);
 }
@@ -557,7 +572,7 @@ function renderToken() {
   const tpl = document.getElementById('tpl-token').content.cloneNode(true);
   app.innerHTML = '';
   app.appendChild(tpl);
-  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Conectare GitHub' }]);
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Cheie de acces' }]);
 
   const input = document.getElementById('token-input');
   const err = document.getElementById('token-error');
@@ -567,7 +582,7 @@ function renderToken() {
 
   btn.addEventListener('click', async () => {
     const val = input.value.trim();
-    if (!val) { err.textContent = 'Scrie tokenul.'; err.hidden = false; return; }
+    if (!val) { err.textContent = 'Scrie cheia de acces.'; err.hidden = false; return; }
     btn.disabled = true;
     btn.textContent = 'Verific...';
     setToken(val);
@@ -577,10 +592,10 @@ function renderToken() {
       mergiLa('/profesor');
     } catch (e) {
       clearToken();
-      err.textContent = 'Token invalid sau fără drepturi: ' + e.message;
+      err.textContent = 'Cheie invalidă sau fără drepturi de scriere.';
       err.hidden = false;
       btn.disabled = false;
-      btn.textContent = 'Salvează și verifică';
+      btn.textContent = 'Continuă';
     }
   });
 }
@@ -595,6 +610,7 @@ function renderPanou() {
 
   document.getElementById('panou-intrebare').addEventListener('click', () => mergiLa('/profesor/intrebare'));
   document.getElementById('panou-colectie').addEventListener('click', () => mergiLa('/profesor/colectie'));
+  document.getElementById('panou-materii').addEventListener('click', () => mergiLa('/profesor/gestionare'));
   document.getElementById('panou-vezi').addEventListener('click', () => mergiLa('/'));
   document.getElementById('btn-sterge-token').addEventListener('click', () => {
     clearToken();
@@ -850,4 +866,178 @@ function renderIntrebareNoua() {
       btn.disabled = false; btn.textContent = 'Salvează întrebarea';
     }
   });
+}
+
+// ---------------- Gestionare materii și colecții ----------------
+
+// Șterge fișierul unei colecții de pe GitHub (dacă există).
+// Nu oprim procesul dacă fișierul lipsește deja.
+async function stergeFisierColectie(cale) {
+  try {
+    const f = await ghCiteste(cale);
+    if (f) await ghSterge(cale, 'Șterge ' + cale, f.sha);
+  } catch (e) {
+    console.warn('Nu am putut șterge fișierul ' + cale, e);
+  }
+}
+
+function renderGestionare() {
+  const tpl = document.getElementById('tpl-gestionare').content.cloneNode(true);
+  app.innerHTML = '';
+  app.appendChild(tpl);
+  renderBreadcrumb([
+    { text: 'Clase', ruta: '/' },
+    { text: 'Panou profesor', ruta: '/profesor' },
+    { text: 'Gestionează' }
+  ]);
+
+  const selClasa = document.getElementById('ge-clasa');
+  const selMaterie = document.getElementById('ge-materie-sel');
+  const listaMaterii = document.getElementById('ge-materii-lista');
+  const listaColectii = document.getElementById('ge-colectii-lista');
+  const err = document.getElementById('ge-error');
+  const ok = document.getElementById('ge-ok');
+
+  function mesajEroare(text) { err.textContent = text; err.hidden = false; ok.hidden = true; }
+  function mesajOk(text) { ok.textContent = text; ok.hidden = false; err.hidden = true; }
+
+  umpleClase(selClasa);
+
+  function deseneazaMaterii() {
+    const clasa = manifest.clase.find(c => c.id === selClasa.value);
+    listaMaterii.innerHTML = '';
+    if (clasa.materii.length === 0) {
+      listaMaterii.innerHTML = '<p class="field-hint">Nicio materie la această clasă.</p>';
+    }
+    clasa.materii.forEach(materie => {
+      const nrTeste = materie.colectii.length;
+      const rand = document.createElement('div');
+      rand.className = 'manage-row';
+      rand.innerHTML = `
+        <div>
+          <span class="manage-name">${materie.nume}</span>
+          <span class="manage-meta">${nrTeste} test${nrTeste === 1 ? '' : 'e'}</span>
+        </div>
+        <button class="btn-danger">Șterge</button>`;
+      rand.querySelector('button').addEventListener('click', () =>
+        stergeMaterie(clasa, materie, rand.querySelector('button')));
+      listaMaterii.appendChild(rand);
+    });
+
+    selMaterie.innerHTML = clasa.materii.length
+      ? clasa.materii.map(m => `<option value="${m.id}">${m.nume}</option>`).join('')
+      : '<option value="">— nicio materie —</option>';
+    deseneazaColectii();
+  }
+
+  function deseneazaColectii() {
+    const clasa = manifest.clase.find(c => c.id === selClasa.value);
+    const materie = clasa.materii.find(m => m.id === selMaterie.value);
+    listaColectii.innerHTML = '';
+    if (!materie || materie.colectii.length === 0) {
+      listaColectii.innerHTML = '<p class="field-hint">Nicio colecție la această materie.</p>';
+      return;
+    }
+    materie.colectii.forEach(colectie => {
+      const rand = document.createElement('div');
+      rand.className = 'manage-row';
+      rand.innerHTML = `
+        <div><span class="manage-name">${colectie.nume}</span></div>
+        <button class="btn-danger">Șterge</button>`;
+      rand.querySelector('button').addEventListener('click', () =>
+        stergeColectie(clasa, materie, colectie, rand.querySelector('button')));
+      listaColectii.appendChild(rand);
+    });
+  }
+
+  selClasa.addEventListener('change', deseneazaMaterii);
+  selMaterie.addEventListener('change', deseneazaColectii);
+  deseneazaMaterii();
+
+  // ---- Adaugă materie ----
+  document.getElementById('ge-adauga-materie').addEventListener('click', async () => {
+    const input = document.getElementById('ge-materie-noua');
+    const nume = input.value.trim();
+    if (!nume) { mesajEroare('Scrie numele materiei.'); return; }
+
+    const clasaId = selClasa.value;
+    const materieId = slugify(nume);
+    const btn = document.getElementById('ge-adauga-materie');
+    btn.disabled = true; btn.textContent = 'Adaug...';
+    try {
+      const man = await ghCiteste('data/manifest.json');
+      const date = JSON.parse(man.continut);
+      const clasa = date.clase.find(c => c.id === clasaId);
+      if (clasa.materii.some(m => m.id === materieId)) throw new Error('Există deja o materie cu acest nume la clasa asta.');
+
+      clasa.materii.push({ id: materieId, nume: nume, colectii: [] });
+      await ghScrieText('data/manifest.json', JSON.stringify(date, null, 2) + '\n',
+        `Adaugă materia ${nume} la clasa ${clasaId}`, man.sha);
+
+      manifest = date;
+      input.value = '';
+      deseneazaMaterii();
+      mesajOk(`Materia „${nume}" a fost adăugată. Poate dura un minut până apare pe site.`);
+    } catch (e) {
+      mesajEroare(e.message);
+    } finally {
+      btn.disabled = false; btn.textContent = 'Adaugă';
+    }
+  });
+
+  // ---- Șterge materie ----
+  async function stergeMaterie(clasa, materie, btn) {
+    const nrTeste = materie.colectii.length;
+    const avertisment = nrTeste > 0
+      ? `Ștergi materia „${materie.nume}" împreună cu ${nrTeste} test${nrTeste === 1 ? '' : 'e'} și toate întrebările din ${nrTeste === 1 ? 'el' : 'ele'}. Sigur continui?`
+      : `Ștergi materia „${materie.nume}". Sigur continui?`;
+    if (!confirm(avertisment)) return;
+
+    btn.disabled = true; btn.textContent = 'Șterg...';
+    try {
+      for (const col of materie.colectii) {
+        await stergeFisierColectie(col.fisier);
+      }
+      const man = await ghCiteste('data/manifest.json');
+      const date = JSON.parse(man.continut);
+      const c = date.clase.find(x => x.id === clasa.id);
+      c.materii = c.materii.filter(m => m.id !== materie.id);
+      await ghScrieText('data/manifest.json', JSON.stringify(date, null, 2) + '\n',
+        `Șterge materia ${materie.nume} de la clasa ${clasa.id}`, man.sha);
+
+      manifest = date;
+      deseneazaMaterii();
+      mesajOk(`Materia „${materie.nume}" a fost ștearsă.`);
+    } catch (e) {
+      mesajEroare(e.message);
+      btn.disabled = false; btn.textContent = 'Șterge';
+    }
+  }
+
+  // ---- Șterge colecție ----
+  async function stergeColectie(clasa, materie, colectie, btn) {
+    if (!confirm(`Ștergi colecția „${colectie.nume}" cu toate întrebările din ea. Sigur continui?`)) return;
+
+    btn.disabled = true; btn.textContent = 'Șterg...';
+    try {
+      await stergeFisierColectie(colectie.fisier);
+
+      const man = await ghCiteste('data/manifest.json');
+      const date = JSON.parse(man.continut);
+      const c = date.clase.find(x => x.id === clasa.id);
+      const m = c.materii.find(x => x.id === materie.id);
+      m.colectii = m.colectii.filter(col => col.id !== colectie.id);
+      await ghScrieText('data/manifest.json', JSON.stringify(date, null, 2) + '\n',
+        `Șterge colecția ${colectie.nume}`, man.sha);
+
+      manifest = date;
+      deseneazaMaterii();
+      mesajOk(`Colecția „${colectie.nume}" a fost ștearsă.`);
+    } catch (e) {
+      mesajEroare(e.message);
+      btn.disabled = false; btn.textContent = 'Șterge';
+    }
+  }
+
+  document.getElementById('ge-inapoi').addEventListener('click', () => mergiLa('/profesor'));
 }
