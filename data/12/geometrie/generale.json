@@ -1,0 +1,72 @@
+[
+  {
+    "id": "g12-001",
+    "intrebare": "Distanța dintre punctele A(1, 2) și B(4, 6) este:",
+    "variante": ["5", "7", "3", "25"],
+    "corect": 0,
+    "explicatie": "AB = √[(4-1)² + (6-2)²] = √(9+16) = √25 = 5."
+  },
+  {
+    "id": "g12-002",
+    "intrebare": "Mijlocul segmentului determinat de A(2, -3) și B(6, 5) are coordonatele:",
+    "variante": ["(4, 1)", "(8, 2)", "(2, 4)", "(4, 8)"],
+    "corect": 0,
+    "explicatie": "M = ((2+6)/2, (-3+5)/2) = (4, 1)."
+  },
+  {
+    "id": "g12-003",
+    "intrebare": "Vectorii u(2, 3) și v(-6, -9) sunt:",
+    "variante": ["perpendiculari", "coliniari", "necoliniari și neperpendiculari", "egali"],
+    "corect": 1,
+    "explicatie": "v = -3u, deci cei doi vectori sunt coliniari (au aceeași direcție)."
+  },
+  {
+    "id": "g12-004",
+    "intrebare": "Panta dreptei care trece prin punctele A(1, 2) și B(3, 8) este:",
+    "variante": ["2", "3", "4", "6"],
+    "corect": 1,
+    "explicatie": "m = (8-2)/(3-1) = 6/2 = 3."
+  },
+  {
+    "id": "g12-005",
+    "intrebare": "Aria triunghiului cu vârfurile A(0,0), B(4,0), C(0,3) este:",
+    "variante": ["6", "12", "7", "3,5"],
+    "corect": 0,
+    "explicatie": "Este un triunghi dreptunghic cu catetele 4 și 3, deci aria = (4×3)/2 = 6."
+  },
+  {
+    "id": "g12-006",
+    "intrebare": "Ecuația cercului cu centrul în origine și raza 5 este:",
+    "variante": ["x² + y² = 5", "x² + y² = 25", "x + y = 25", "(x-5)² + (y-5)² = 25"],
+    "corect": 1,
+    "explicatie": "Ecuația cercului cu centrul O(0,0) și raza r este x² + y² = r², deci x² + y² = 25."
+  },
+  {
+    "id": "g12-007",
+    "intrebare": "Produsul scalar al vectorilor u(1, 2) și v(3, -1) este:",
+    "variante": ["1", "5", "-1", "7"],
+    "corect": 0,
+    "explicatie": "u·v = 1×3 + 2×(-1) = 3 - 2 = 1."
+  },
+  {
+    "id": "g12-008",
+    "intrebare": "Într-un triunghi dreptunghic cu catetele 6 și 8, lungimea ipotenuzei este:",
+    "variante": ["10", "14", "48", "9"],
+    "corect": 0,
+    "explicatie": "Teorema lui Pitagora: √(6² + 8²) = √(36+64) = √100 = 10."
+  },
+  {
+    "id": "g12-009",
+    "intrebare": "Două drepte cu pantele m₁ = 2 și m₂ = -1/2 sunt:",
+    "variante": ["paralele", "perpendiculare", "identice", "nu se poate determina"],
+    "corect": 1,
+    "explicatie": "Două drepte sunt perpendiculare dacă m₁ × m₂ = -1, iar 2 × (-1/2) = -1."
+  },
+  {
+    "id": "g12-010",
+    "intrebare": "Dacă sin(x) = 3/5 și x este unghi ascuțit, atunci cos(x) este:",
+    "variante": ["4/5", "5/3", "3/4", "1/5"],
+    "corect": 0,
+    "explicatie": "Din sin²x + cos²x = 1: cos²x = 1 - 9/25 = 16/25, deci cos x = 4/5."
+  }
+]
