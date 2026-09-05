@@ -646,3 +646,89 @@ textarea.text-input {
   border: 1px solid var(--border);
   display: block;
 }
+
+/* ===================== GESTIONARE ===================== */
+.section-title {
+  font-size: 1.05rem;
+  margin: 30px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.manage-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 13px 16px;
+  margin-bottom: 8px;
+}
+
+.manage-name {
+  display: block;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.manage-meta {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
+
+.btn-danger {
+  background: transparent;
+  border: 1px solid var(--wrong);
+  color: var(--wrong);
+  border-radius: var(--radius);
+  padding: 7px 14px;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: var(--wrong-soft);
+}
+
+.btn-danger:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.add-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 14px;
+}
+
+.add-row .text-input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.add-row button { flex-shrink: 0; }
+
+@media (max-width: 560px) {
+  .add-row { flex-direction: column; }
+  .add-row button { width: 100%; }
+}
+
+/* Cardul de testare pe materie */
+.pick-card-highlight {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  grid-column: 1 / -1;
+}
+
+.pick-card-highlight:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent-strong);
+}
