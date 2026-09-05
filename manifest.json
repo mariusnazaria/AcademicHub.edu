@@ -81,7 +81,7 @@
       "nume": "Clasa 12",
       "materii": [
         { "id": "algebra", "nume": "Algebră", "colectii": [] },
-        { "id": "geometrie", "nume": "Geometrie","colectii": [
+        { "id": "geometrie", "nume": "Geometrie", "colectii": [
   { "id": "generale", "nume": "Întrebări generale", "fisier": "data/12/geometrie/generale.json" }
 ] }
       ]
