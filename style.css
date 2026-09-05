@@ -21,7 +21,7 @@
 body {
   margin: 0;
   background-color: var(--bg);
-  background-image: url("assets/math-pattern.svg");
+  background-image: url("math-pattern.svg");
   background-repeat: repeat;
   background-attachment: fixed;
   color: var(--text);
