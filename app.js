@@ -224,6 +224,10 @@ function amestecaVariante(intrebare) {
   const indici = intrebare.variante.map((_, i) => i);
   const indiciAmestecati = amestecaLista(indici);
   const varianteNoi = indiciAmestecati.map(i => intrebare.variante[i]);
+  if (Array.isArray(intrebare.corect)) {
+    const corectNou = intrebare.corect.map(vechi => indiciAmestecati.indexOf(vechi));
+    return { ...intrebare, variante: varianteNoi, corect: corectNou };
+  }
   const corectNou = indiciAmestecati.indexOf(intrebare.corect);
   return { ...intrebare, variante: varianteNoi, corect: corectNou };
 }
@@ -235,54 +239,61 @@ function renderIntrebare() {
   renderBreadcrumb();
 
   const q = state.intrebari[state.index];
-  state.rezolvateCurent = false;
+  const tip = q.tip === 'multiplu' ? 'multiplu' : 'simplu';
+  state.selectate = new Set();
+  state.verificat = false;
 
   document.getElementById('question-number').textContent = `Întrebarea ${state.index + 1} din ${state.intrebari.length}`;
   document.getElementById('question-text').textContent = q.intrebare;
+  document.getElementById('question-hint').textContent = tip === 'multiplu'
+    ? 'Bifează toate variantele corecte, apoi apasă Verifică.'
+    : 'Alege o variantă, apoi apasă Verifică.';
   document.getElementById('progress-fill').style.width = `${(state.index / state.intrebari.length) * 100}%`;
 
   actualizeazaStats();
 
   const optionsList = document.getElementById('options-list');
-  const literePosibile = ['A', 'B', 'C', 'D', 'E', 'F'];
   q.variante.forEach((varianta, i) => {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
-    btn.innerHTML = `<span class="opt-key">${literePosibile[i] || i + 1}</span><span>${varianta}</span>`;
-    btn.addEventListener('click', () => alegeVarianta(i, q));
+    btn.dataset.tip = tip;
+    btn.innerHTML = `<span class="opt-marker"></span><span>${varianta}</span>`;
+    btn.addEventListener('click', () => alegeVarianta(i, tip));
     optionsList.appendChild(btn);
   });
+
+  const btnVerifica = document.getElementById('btn-verifica');
+  btnVerifica.disabled = true;
+  btnVerifica.addEventListener('click', () => verificaRaspuns(q, tip));
 
   document.getElementById('btn-exit').addEventListener('click', () => renderColectii(state.clasa, state.materie));
   document.getElementById('btn-next').addEventListener('click', urmatoareaIntrebare);
 }
 
-function alegeVarianta(indexAles, intrebare) {
-  const optionButtons = document.querySelectorAll('.option-btn');
-  const esteCorect = indexAles === intrebare.corect;
+function alegeVarianta(index, tip) {
+  if (state.verificat) return;
 
-  if (state.mod === 'invatare' && !esteCorect) {
-    // Modul învățare: doar marchează varianta greșită și lasă elevul să încerce din nou
-    optionButtons[indexAles].classList.add('is-wrong');
-    optionButtons[indexAles].disabled = true;
-    if (!state.rezolvateCurent) {
-      state.raspunse++;
-      state.gresite++;
-      marcheazaGresit(state.colectie.id, intrebare.id);
-      state.rezolvateCurent = 'gresit_partial';
-      actualizeazaStats();
-    }
-    return;
+  if (tip === 'multiplu') {
+    if (state.selectate.has(index)) state.selectate.delete(index);
+    else state.selectate.add(index);
+  } else {
+    state.selectate = new Set([index]);
   }
 
-  // Blochează toate opțiunile și arată răspunsul corect
+  const optionButtons = document.querySelectorAll('.option-btn');
   optionButtons.forEach((btn, i) => {
-    btn.disabled = true;
-    if (i === intrebare.corect) btn.classList.add('is-correct');
-    else if (i === indexAles) btn.classList.add('is-wrong');
+    btn.classList.toggle('is-selected', state.selectate.has(i));
   });
 
-  if (state.rezolvateCurent !== 'gresit_partial') {
+  document.getElementById('btn-verifica').disabled = state.selectate.size === 0;
+}
+
+function verificaRaspuns(intrebare, tip) {
+  const corectSet = new Set(tip === 'multiplu' ? intrebare.corect : [intrebare.corect]);
+  const selectate = state.selectate;
+  const esteCorect = selectate.size === corectSet.size && [...selectate].every(i => corectSet.has(i));
+
+  if (!state.verificat) {
     state.raspunse++;
     if (esteCorect) {
       state.corecte++;
@@ -291,10 +302,39 @@ function alegeVarianta(indexAles, intrebare) {
       state.gresite++;
       marcheazaGresit(state.colectie.id, intrebare.id);
     }
-  } else if (esteCorect) {
-    // în modul învățare, a greșit inițial dar a nimerit corect acum
-    marcheazaGresit(state.colectie.id, intrebare.id); // rămâne la "de repetat" pt sesiuni viitoare
+    actualizeazaStats();
   }
+
+  const optionButtons = document.querySelectorAll('.option-btn');
+
+  if (state.mod === 'invatare' && !esteCorect) {
+    // Modul învățare: arată scurt ce a bifat greșit, apoi lasă elevul să încerce din nou
+    optionButtons.forEach((btn, i) => {
+      if (selectate.has(i) && !corectSet.has(i)) btn.classList.add('is-wrong');
+    });
+    state.verificat = 'incercare';
+    document.getElementById('btn-verifica').disabled = true;
+    setTimeout(() => {
+      state.verificat = false;
+      state.selectate = new Set();
+      optionButtons.forEach(btn => {
+        btn.classList.remove('is-wrong', 'is-selected');
+      });
+      document.getElementById('btn-verifica').disabled = true;
+    }, 900);
+    return;
+  }
+
+  // Testare, sau modul învățare cu răspuns corect: blochează și arată totul
+  state.verificat = true;
+  optionButtons.forEach((btn, i) => {
+    btn.disabled = true;
+    if (corectSet.has(i) && selectate.has(i)) btn.classList.add('is-correct');
+    else if (corectSet.has(i) && !selectate.has(i)) btn.classList.add('is-missed');
+    else if (!corectSet.has(i) && selectate.has(i)) btn.classList.add('is-wrong');
+  });
+
+  document.getElementById('btn-verifica').hidden = true;
 
   if (intrebare.explicatie) {
     const exp = document.getElementById('explanation');
@@ -303,7 +343,6 @@ function alegeVarianta(indexAles, intrebare) {
   }
 
   document.getElementById('btn-next').disabled = false;
-  actualizeazaStats();
 }
 
 function actualizeazaStats() {
