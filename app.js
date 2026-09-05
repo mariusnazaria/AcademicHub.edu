@@ -104,6 +104,11 @@ function ruleaza() {
       if (!materie) { inlocuieste('/clasa/' + clasa.id); return; }
 
       if (p[3]) {
+        if (p[3] === 'testare') {
+          if (materie.colectii.length === 0) { inlocuieste(`/clasa/${clasa.id}/${materie.id}`); return; }
+          renderSetup(clasa, materie, colectieTestare(clasa, materie));
+          return;
+        }
         const colectie = materie.colectii.find(col => col.id === p[3]);
         if (!colectie) { inlocuieste('/clasa/' + clasa.id + '/' + materie.id); return; }
         renderSetup(clasa, materie, colectie);
@@ -255,6 +260,18 @@ function renderMaterii(clasa) {
   renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: clasa.nume }]);
 }
 
+function colectieTestare(clasa, materie) {
+  // „Colecție" virtuală: adună întrebări din toate testele materiei.
+  return {
+    id: `testare-${clasa.id}-${materie.id}`,
+    nume: `Testare — ${materie.nume}`,
+    testareMaterie: true,
+    surse: materie.colectii.map(c => c.fisier)
+  };
+}
+
+const NR_INTREBARI_TESTARE = 50;
+
 function renderColectii(clasa, materie) {
   state.clasa = clasa; state.materie = materie; state.colectie = null;
   const tpl = document.getElementById('tpl-colectii').content.cloneNode(true);
@@ -265,6 +282,14 @@ function renderColectii(clasa, materie) {
     p.className = 'screen-lead';
     p.textContent = 'Încă nu există teste la această materie.';
     tpl.querySelector('.screen').appendChild(p);
+  } else {
+    const nrT = getGresite(`testare-${clasa.id}-${materie.id}`).length;
+    const cardTest = cardEl('Testare',
+      `${NR_INTREBARI_TESTARE} întrebări la întâmplare din toate testele`,
+      () => mergiLa(`/clasa/${clasa.id}/${materie.id}/testare`));
+    cardTest.classList.add('pick-card-highlight');
+    if (nrT > 0) cardTest.querySelector('.pick-meta').textContent += ` · ${nrT} de repetat`;
+    grid.appendChild(cardTest);
   }
   materie.colectii.forEach(colectie => {
     const nr = getGresite(colectie.id).length;
@@ -310,12 +335,29 @@ function renderSetup(clasa, materie, colectie) {
 
 async function pornesteQuiz(colectie, opts) {
   let intrebari;
-  try {
-    const res = await fetch(colectie.fisier + '?t=' + Date.now());
-    intrebari = await res.json();
-  } catch (err) {
-    app.innerHTML = '<p class="form-error">Nu am putut încărca întrebările.</p>';
-    return;
+
+  if (colectie.testareMaterie) {
+    // Adună întrebările din toate colecțiile materiei
+    app.innerHTML = '<p class="screen-lead">Pregătesc testul...</p>';
+    const rezultate = await Promise.all(colectie.surse.map(async fisier => {
+      try {
+        const res = await fetch(fisier + '?t=' + Date.now());
+        const lista = await res.json();
+        return Array.isArray(lista) ? lista : [];
+      } catch (e) {
+        console.warn('Nu am putut încărca ' + fisier, e);
+        return [];
+      }
+    }));
+    intrebari = rezultate.flat();
+  } else {
+    try {
+      const res = await fetch(colectie.fisier + '?t=' + Date.now());
+      intrebari = await res.json();
+    } catch (err) {
+      app.innerHTML = '<p class="form-error">Nu am putut încărca întrebările.</p>';
+      return;
+    }
   }
 
   if (opts.doarGresite) {
@@ -325,6 +367,11 @@ async function pornesteQuiz(colectie, opts) {
 
   intrebari = intrebari.map(q => ({ ...q, variante: [...q.variante] }));
   intrebari = amestecaLista(intrebari).map(q => amestecaVariante(q));
+
+  // La testarea pe materie, limităm la 50 de întrebări
+  if (colectie.testareMaterie && !opts.doarGresite) {
+    intrebari = intrebari.slice(0, NR_INTREBARI_TESTARE);
+  }
 
   Object.assign(state, {
     intrebari, index: 0, raspunse: 0, corecte: 0, gresite: 0,
