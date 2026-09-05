@@ -54,7 +54,6 @@ const CONFIG = {
       </button>
       <button class="role-card" data-rol="profesor">
         <span class="role-title">Conectează-te ca profesor</span>
-        <span class="role-meta">Adaugă și gestionează întrebări</span>
       </button>
     </div>
 
@@ -163,27 +162,12 @@ const CONFIG = {
 <!-- ===================== PANOU PROFESOR ===================== -->
 <template id="tpl-token">
   <section class="screen">
-    <h1>Conectare la GitHub</h1>
-    <p class="screen-lead">
-      Ca să poți adăuga întrebări direct din site, ai nevoie de un token GitHub.
-      Se salvează doar pe acest dispozitiv și nu se trimite nicăieri altundeva.
-    </p>
-    <div class="info-box">
-      <strong>Cum obții tokenul:</strong>
-      <ol>
-        <li>Intră pe github.com → poza ta (dreapta sus) → Settings</li>
-        <li>Jos de tot în meniul din stânga: Developer settings</li>
-        <li>Personal access tokens → Tokens (classic) → Generate new token (classic)</li>
-        <li>La „Note" scrie orice (ex. Academic Hub), la Expiration alege ce vrei</li>
-        <li>Bifează căsuța <code>repo</code></li>
-        <li>Generate token → copiază-l imediat (nu-l mai poți vedea după)</li>
-      </ol>
-    </div>
-    <input class="text-input" type="password" id="token-input" placeholder="ghp_..." autocomplete="off">
+    <h1>Introdu cheia de acces</h1>
+    <input class="text-input" type="password" id="token-input" placeholder="Cheia de acces" autocomplete="off">
     <p class="form-error" id="token-error" hidden></p>
     <div class="form-actions">
       <button class="btn-secondary" id="token-inapoi">Înapoi</button>
-      <button class="btn-primary" id="token-salveaza">Salvează și verifică</button>
+      <button class="btn-primary" id="token-salveaza">Continuă</button>
     </div>
   </section>
 </template>
@@ -195,7 +179,7 @@ const CONFIG = {
         <h1>Panou profesor</h1>
         <p class="screen-lead">Adaugă întrebări și colecții direct din site.</p>
       </div>
-      <button class="btn-link" id="btn-sterge-token">Deconectează GitHub</button>
+      <button class="btn-link" id="btn-sterge-token">Șterge cheia</button>
     </div>
     <div class="card-grid">
       <button class="pick-card" id="panou-intrebare">
@@ -206,10 +190,43 @@ const CONFIG = {
         <span class="pick-title">Creează colecție</span>
         <span class="pick-meta">Un test nou, gol</span>
       </button>
+      <button class="pick-card" id="panou-materii">
+        <span class="pick-title">Gestionează</span>
+        <span class="pick-meta">Materii și colecții</span>
+      </button>
       <button class="pick-card" id="panou-vezi">
         <span class="pick-title">Vezi testele</span>
         <span class="pick-meta">Ca elev</span>
       </button>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-gestionare">
+  <section class="screen">
+    <h1>Gestionează</h1>
+    <p class="screen-lead">Adaugă sau șterge materii și colecții de teste.</p>
+
+    <label class="field-label">Clasa</label>
+    <select class="text-input" id="ge-clasa"></select>
+
+    <h2 class="section-title">Materii</h2>
+    <div id="ge-materii-lista"></div>
+
+    <div class="add-row">
+      <input class="text-input" type="text" id="ge-materie-noua" placeholder="Materie nouă (ex. Trigonometrie)">
+      <button class="btn-primary" id="ge-adauga-materie">Adaugă</button>
+    </div>
+
+    <h2 class="section-title">Colecții de teste</h2>
+    <label class="field-label">Materia</label>
+    <select class="text-input" id="ge-materie-sel"></select>
+    <div id="ge-colectii-lista"></div>
+
+    <p class="form-error" id="ge-error" hidden></p>
+    <p class="form-ok" id="ge-ok" hidden></p>
+    <div class="form-actions">
+      <button class="btn-secondary" id="ge-inapoi">Înapoi</button>
     </div>
   </section>
 </template>
