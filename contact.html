@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact — Academic Hub</title>
 <meta name="description" content="Contactează Academic Hub: +373 61 221 666, bd. Ștefan cel Mare și Sfânt 196, Chișinău.">
-<link rel="icon" href="logo.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -15,7 +17,7 @@
 <!-- Adresa unde ajung înscrierile din formular (endpointul botului de pe Railway) -->
 <script>
 const SITE_CONFIG = {
-  FORM_ENDPOINT:"https://bot-academic-hub-production.up.railway.app/site-lead"
+  FORM_ENDPOINT: "https://NUMELE-TAU-RAILWAY.up.railway.app/site-lead"
 };
 </script>
 
@@ -31,7 +33,14 @@ const SITE_CONFIG = {
     <a href="cursuri.html">Cursuri</a>
     <a href="rezolvari.html">Rezolvări</a>
     <a href="teste.html">Testează-te</a>
-    <a href="contact.html">Contact</a>
+    <a class="nav-highlight" href="contact.html">Lecție de probă gratuită</a>
+    <a class="nav-icon" href="https://www.instagram.com/academichub.md" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.2" cy="6.8" r="1"/>
+      </svg>
+    </a>
     <a class="nav-cta" href="tel:+37361221666">+373 61 221 666</a>
   </nav>
 </header>
@@ -42,38 +51,6 @@ const SITE_CONFIG = {
   <div class="wrap">
     <h1>Contactează-ne</h1>
     <p class="hero-lead">Suntem aici să te ajutăm. Scrie-ne pentru orice întrebare despre cursuri sau pentru a programa o lecție de probă.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="contact-grid">
-
-      <div class="contact-card">
-        <h3>Telefon</h3>
-        <a class="contact-value" href="tel:+37361221666">+373 61 221 666</a>
-        <p class="contact-note">Luni - Vineri: 9:00 - 21:00</p>
-      </div>
-
-      <div class="contact-card">
-        <h3>Email</h3>
-        <a class="contact-value" href="mailto:academichubmd@gmail.com">academichubmd@gmail.com</a>
-        <p class="contact-note">Răspundem în 24 de ore</p>
-      </div>
-
-      <div class="contact-card">
-        <h3>Adresa</h3>
-        <span class="contact-value">bd. Ștefan cel Mare și Sfânt 196</span>
-        <p class="contact-note">Chișinău</p>
-      </div>
-
-      <div class="contact-card">
-        <h3>Viber</h3>
-        <a class="contact-value" href="viber://chat?number=37361221666">Scrie-ne pe Viber</a>
-        <p class="contact-note">Cel mai rapid răspuns</p>
-      </div>
-
-    </div>
   </div>
 </section>
 
