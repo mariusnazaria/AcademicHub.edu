@@ -21,7 +21,7 @@
      ================================================================== -->
 <script>
 const CONFIG = {
-  PAROLA_ELEV: "isoscel44",
+  PAROLA_ELEV: "pitagora22",
   PAROLA_PROFESOR: "mariusboss",
 
   // Datele repository-ului de pe GitHub (nu le schimba decât dacă muți proiectul)
@@ -56,7 +56,7 @@ const CONFIG = {
     <div class="login-roles">
       <button class="role-card" data-rol="elev">
         <span class="role-title">Conectează-te ca elev</span>
-        <span class="role-meta">Rezolvă teste( Exclusiv elevilor Academic Hub)</span>
+        <span class="role-meta">Rezolvă teste grilă(Exclusiv elevilor Academic Hub)</span>
       </button>
       <button class="role-card" data-rol="profesor">
         <span class="role-title">Conectează-te ca profesor</span>
@@ -160,12 +160,24 @@ const CONFIG = {
     </div>
     <div class="results-actions">
       <button class="btn-primary" id="btn-repeta-gresite">Repetă doar greșelile</button>
+      <button class="btn-secondary" id="btn-rezumat">Vezi rezumatul</button>
       <button class="btn-secondary" id="btn-alta-colectie">Alege altă colecție</button>
     </div>
   </section>
 </template>
 
 <!-- ===================== PANOU PROFESOR ===================== -->
+<template id="tpl-rezumat">
+  <section class="screen">
+    <h1>Rezumatul testului</h1>
+    <p class="screen-lead" id="rez-lead"></p>
+    <div id="rez-lista"></div>
+    <div class="results-actions">
+      <button class="btn-primary" id="rez-inapoi">Înapoi la rezultate</button>
+    </div>
+  </section>
+</template>
+
 <template id="tpl-token">
   <section class="screen">
     <h1>Introdu cheia de acces</h1>
