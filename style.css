@@ -1519,3 +1519,13 @@ a.contact-value:hover { text-decoration: underline; }
   .results-actions button { width: 100%; }
   .rez-varianta { flex-direction: column; align-items: flex-start; gap: 4px; }
 }
+
+.course-note {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 24px 0 0;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
