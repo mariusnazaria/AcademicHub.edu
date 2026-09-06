@@ -22,6 +22,8 @@ const state = {
   corecte: 0,
   gresite: 0,
   mod: 'testare',
+  puncte: 0,
+  istoric: [],
   selectate: new Set(),
   verificat: false,
   loginRolAles: null
@@ -376,6 +378,7 @@ async function pornesteQuiz(colectie, opts) {
 
   Object.assign(state, {
     intrebari, index: 0, raspunse: 0, corecte: 0, gresite: 0,
+    puncte: 0, istoric: [],
     mod: opts.mod, selectate: new Set(), verificat: false
   });
 
@@ -465,13 +468,24 @@ function alegeVarianta(index, tip) {
   document.getElementById('btn-verifica').disabled = state.selectate.size === 0;
 }
 
+// Punctaj parțial: cât din variantele corecte a nimerit elevul,
+// minus variantele greșite bifate (nu poate coborî sub 0).
+function calculeazaPuncte(corectSet, sel) {
+  const bifateCorecte = [...sel].filter(i => corectSet.has(i)).length;
+  const bifateGresite = [...sel].filter(i => !corectSet.has(i)).length;
+  const scor = (bifateCorecte - bifateGresite) / corectSet.size;
+  return Math.max(0, Math.min(1, scor));
+}
+
 function verificaRaspuns(intrebare, tip) {
   const corectSet = new Set(tip === 'multiplu' ? intrebare.corect : [intrebare.corect]);
   const sel = state.selectate;
   const esteCorect = sel.size === corectSet.size && [...sel].every(i => corectSet.has(i));
+  const puncte = calculeazaPuncte(corectSet, sel);
 
   if (!state.verificat) {
     state.raspunse++;
+    state.puncte += puncte;
     if (esteCorect) { state.corecte++; marcheazaCorect(state.colectie.id, intrebare.id); }
     else { state.gresite++; marcheazaGresit(state.colectie.id, intrebare.id); }
     actualizeazaStats();
@@ -493,6 +507,18 @@ function verificaRaspuns(intrebare, tip) {
   }
 
   state.verificat = true;
+
+  // Reținem răspunsul pentru rezumatul de la final
+  state.istoric.push({
+    intrebare: intrebare.intrebare,
+    variante: [...intrebare.variante],
+    corecte: [...corectSet],
+    selectate: [...sel],
+    puncte: puncte,
+    esteCorect: esteCorect,
+    explicatie: intrebare.explicatie || null
+  });
+
   btns.forEach((btn, i) => {
     btn.disabled = true;
     if (corectSet.has(i) && sel.has(i)) btn.classList.add('is-correct');
@@ -528,7 +554,7 @@ function renderRezultate() {
   app.appendChild(tpl);
   renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Rezultate' }]);
 
-  const acuratete = state.raspunse > 0 ? Math.round((state.corecte / state.raspunse) * 100) : 0;
+  const acuratete = state.raspunse > 0 ? Math.round((state.puncte / state.raspunse) * 100) : 0;
   document.getElementById('res-acuratete').textContent = `${acuratete}%`;
   document.getElementById('res-corecte').textContent = state.corecte;
   document.getElementById('res-total').textContent = state.intrebari.length;
@@ -544,6 +570,67 @@ function renderRezultate() {
   }
   document.getElementById('btn-alta-colectie').addEventListener('click', () =>
     mergiLa(`/clasa/${state.clasa.id}/${state.materie.id}`));
+
+  const btnRezumat = document.getElementById('btn-rezumat');
+  if (state.istoric.length === 0) btnRezumat.disabled = true;
+  else btnRezumat.addEventListener('click', renderRezumat);
+}
+
+// ---------------- Rezumatul răspunsurilor ----------------
+
+function renderRezumat() {
+  const tpl = document.getElementById('tpl-rezumat').content.cloneNode(true);
+  app.innerHTML = '';
+  app.appendChild(tpl);
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Rezumat' }]);
+
+  const acuratete = state.raspunse > 0 ? Math.round((state.puncte / state.raspunse) * 100) : 0;
+  document.getElementById('rez-lead').textContent =
+    `${state.corecte} din ${state.istoric.length} întrebări complet corecte · acuratețe ${acuratete}%`;
+
+  const lista = document.getElementById('rez-lista');
+
+  state.istoric.forEach((item, nr) => {
+    const corecte = new Set(item.corecte);
+    const alese = new Set(item.selectate);
+    const procent = Math.round(item.puncte * 100);
+
+    const card = document.createElement('div');
+    card.className = 'rezumat-card';
+
+    let stareEticheta, stareClasa;
+    if (item.esteCorect) { stareEticheta = 'Corect'; stareClasa = 'stare-corect'; }
+    else if (procent > 0) { stareEticheta = `Parțial · ${procent}%`; stareClasa = 'stare-partial'; }
+    else { stareEticheta = 'Greșit'; stareClasa = 'stare-gresit'; }
+
+    const varianteHtml = item.variante.map((v, i) => {
+      const eCorect = corecte.has(i);
+      const eAles = alese.has(i);
+      let clasa = 'rez-varianta';
+      let marcaj = '';
+      if (eCorect && eAles) { clasa += ' rez-bun'; marcaj = 'ai bifat · corect'; }
+      else if (eCorect && !eAles) { clasa += ' rez-ratat'; marcaj = 'corect · nebifat'; }
+      else if (!eCorect && eAles) { clasa += ' rez-rau'; marcaj = 'ai bifat · greșit'; }
+      return `<li class="${clasa}"><span>${v}</span>${marcaj ? `<em>${marcaj}</em>` : ''}</li>`;
+    }).join('');
+
+    card.innerHTML = `
+      <div class="rezumat-head">
+        <span class="rezumat-nr">Întrebarea ${nr + 1}</span>
+        <span class="rezumat-stare ${stareClasa}">${stareEticheta}</span>
+      </div>
+      <p class="rezumat-intrebare"></p>
+      <ul class="rez-variante">${varianteHtml}</ul>
+      ${item.explicatie ? '<p class="rezumat-explicatie"></p>' : ''}`;
+
+    // textul îl punem separat, ca să nu fie interpretat ca HTML
+    card.querySelector('.rezumat-intrebare').textContent = item.intrebare;
+    if (item.explicatie) card.querySelector('.rezumat-explicatie').textContent = item.explicatie;
+
+    lista.appendChild(card);
+  });
+
+  document.getElementById('rez-inapoi').addEventListener('click', renderRezultate);
 }
 
 // ==========================================================
