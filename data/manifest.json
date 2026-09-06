@@ -130,13 +130,7 @@
         {
           "id": "algebra",
           "nume": "Algebră",
-          "colectii": [
-            {
-              "id": "introducere",
-              "nume": "Introducere",
-              "fisier": "data/12/algebra/introducere.json"
-            }
-          ]
+          "colectii": []
         },
         {
           "id": "geometrie",
