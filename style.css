@@ -1414,3 +1414,108 @@ a.contact-value:hover { text-decoration: underline; }
   }
   .row-actions button { flex: 1; }
 }
+
+/* ===================== REZUMATUL TESTULUI ===================== */
+.rezumat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 14px;
+}
+
+.rezumat-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.rezumat-nr {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.rezumat-stare {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.stare-corect { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.stare-partial { color: #E0A93F; border-color: #E0A93F; background: rgba(224, 169, 63, 0.13); }
+.stare-gresit { color: var(--wrong); border-color: var(--wrong); background: var(--wrong-soft); }
+
+.rezumat-intrebare {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin: 0 0 14px;
+}
+
+.rez-variante {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rez-varianta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 7px;
+  font-size: 0.94rem;
+}
+
+.rez-varianta em {
+  font-style: normal;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.rez-bun {
+  background: var(--correct-soft);
+  border-color: var(--correct);
+}
+
+.rez-bun em { color: var(--accent); }
+
+.rez-ratat {
+  border-color: var(--correct);
+  border-style: dashed;
+}
+
+.rez-ratat em { color: var(--accent); }
+
+.rez-rau {
+  background: var(--wrong-soft);
+  border-color: var(--wrong);
+}
+
+.rez-rau em { color: var(--wrong); }
+
+.rezumat-explicatie {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.results-actions { flex-wrap: wrap; }
+
+@media (max-width: 560px) {
+  .results-actions { flex-direction: column; }
+  .results-actions button { width: 100%; }
+  .rez-varianta { flex-direction: column; align-items: flex-start; gap: 4px; }
+}
