@@ -132,11 +132,6 @@
           "nume": "Algebră",
           "colectii": [
             {
-              "id": "test-1",
-              "nume": "Test 1",
-              "fisier": "data/12/algebra/test-1.json"
-            },
-            {
               "id": "introducere",
               "nume": "Introducere",
               "fisier": "data/12/algebra/introducere.json"
