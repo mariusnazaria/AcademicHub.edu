@@ -10,5 +10,21 @@
       "3"
     ],
     "corect": 1
+  },
+  {
+    "id": "introducere-1788718039855",
+    "tip": "multiplu",
+    "intrebare": "Vă place imagine?",
+    "variante": [
+      "Da",
+      "Super",
+      "Poate",
+      "Nu"
+    ],
+    "corect": [
+      0,
+      1
+    ],
+    "imagine": "data/imagini/introducere-1788718037118.png"
   }
 ]
