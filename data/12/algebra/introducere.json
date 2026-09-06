@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "introducere-1788717971323",
+    "tip": "simplu",
+    "intrebare": "Cât face 2²",
+    "variante": [
+      "2",
+      "4",
+      "8",
+      "3"
+    ],
+    "corect": 1
+  }
+]
