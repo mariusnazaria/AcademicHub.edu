@@ -11,6 +11,41 @@ const btnLogout = document.getElementById('btn-logout');
 
 let manifest = null;
 
+// ----------------------------------------------------------
+// Randare matematică — fracții și puteri adevărate.
+// Sintaxă în textul întrebărilor: \frac{sus}{jos}  și  ^{putere}
+// (și ^x pentru un singur caracter, ex. x^2). Textul e mai
+// întâi scăpat de caractere HTML, ca să rămână sigur, apoi se
+// transformă doar aceste construcții în elemente vizuale.
+// ----------------------------------------------------------
+
+function scapaHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function randMatematic(text) {
+  if (!text) return '';
+  let s = scapaHtml(text);
+
+  // Fracții: \frac{a}{b} -> bloc cu numărător deasupra numitorului
+  // (acceptă un nivel de acolade imbricate în interior, ex. \frac{e^x}{1+e^{2x}})
+  s = s.replace(/\\frac\{((?:[^{}]|\{[^{}]*\})*)\}\{((?:[^{}]|\{[^{}]*\})*)\}/g,
+    '<span class="frac"><span class="frac-num">$1</span><span class="frac-den">$2</span></span>');
+
+  // Puteri: ^{...} (orice conținut) sau ^x (un singur caracter)
+  s = s.replace(/\^\{([^{}]+)\}/g, '<sup>$1</sup>');
+  s = s.replace(/\^([^\s{}<])/g, '<sup>$1</sup>');
+
+  // Indici: _{...} sau _x (util pentru a_n, x_1 etc.)
+  s = s.replace(/_\{([^{}]+)\}/g, '<sub>$1</sub>');
+  s = s.replace(/_([^\s{}<])/g, '<sub>$1</sub>');
+
+  return s;
+}
+
 const state = {
   rol: null,            // 'elev' | 'profesor'
   clasa: null,
@@ -423,7 +458,7 @@ function renderIntrebare() {
   state.verificat = false;
 
   document.getElementById('question-number').textContent = `Întrebarea ${state.index + 1} din ${state.intrebari.length}`;
-  document.getElementById('question-text').textContent = q.intrebare;
+  document.getElementById('question-text').innerHTML = randMatematic(q.intrebare);
   document.getElementById('question-hint').textContent = tip === 'multiplu'
     ? 'Bifează toate variantele corecte, apoi apasă Verifică.'
     : 'Alege o variantă, apoi apasă Verifică.';
@@ -441,7 +476,7 @@ function renderIntrebare() {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
     btn.dataset.tip = tip;
-    btn.innerHTML = `<span class="opt-marker"></span><span>${varianta}</span>`;
+    btn.innerHTML = `<span class="opt-marker"></span><span>${randMatematic(varianta)}</span>`;
     btn.addEventListener('click', () => alegeVarianta(i, tip));
     list.appendChild(btn);
   });
@@ -530,7 +565,7 @@ function verificaRaspuns(intrebare, tip) {
 
   if (intrebare.explicatie) {
     const exp = document.getElementById('explanation');
-    exp.textContent = intrebare.explicatie;
+    exp.innerHTML = randMatematic(intrebare.explicatie);
     exp.hidden = false;
   }
   document.getElementById('btn-next').disabled = false;
@@ -611,7 +646,7 @@ function renderRezumat() {
       if (eCorect && eAles) { clasa += ' rez-bun'; marcaj = 'ai bifat · corect'; }
       else if (eCorect && !eAles) { clasa += ' rez-ratat'; marcaj = 'corect · nebifat'; }
       else if (!eCorect && eAles) { clasa += ' rez-rau'; marcaj = 'ai bifat · greșit'; }
-      return `<li class="${clasa}"><span>${v}</span>${marcaj ? `<em>${marcaj}</em>` : ''}</li>`;
+      return `<li class="${clasa}"><span>${randMatematic(v)}</span>${marcaj ? `<em>${marcaj}</em>` : ''}</li>`;
     }).join('');
 
     card.innerHTML = `
@@ -623,9 +658,9 @@ function renderRezumat() {
       <ul class="rez-variante">${varianteHtml}</ul>
       ${item.explicatie ? '<p class="rezumat-explicatie"></p>' : ''}`;
 
-    // textul îl punem separat, ca să nu fie interpretat ca HTML
-    card.querySelector('.rezumat-intrebare').textContent = item.intrebare;
-    if (item.explicatie) card.querySelector('.rezumat-explicatie').textContent = item.explicatie;
+    // textul îl randăm cu suport pentru fracții/puteri (randMatematic scapă și HTML-ul, e sigur)
+    card.querySelector('.rezumat-intrebare').innerHTML = randMatematic(item.intrebare);
+    if (item.explicatie) card.querySelector('.rezumat-explicatie').innerHTML = randMatematic(item.explicatie);
 
     lista.appendChild(card);
   });
@@ -859,6 +894,14 @@ function renderIntrebareNoua() {
 
   imagineSelectata = null;
 
+  const inEnunt = document.getElementById('in-enunt');
+  const inEnuntPreview = document.getElementById('in-enunt-preview');
+  inEnunt.addEventListener('input', () => {
+    inEnuntPreview.innerHTML = inEnunt.value.trim()
+      ? 'Previzualizare: ' + randMatematic(inEnunt.value)
+      : '';
+  });
+
   const selClasa = document.getElementById('in-clasa');
   const selMaterie = document.getElementById('in-materie');
   const selColectie = document.getElementById('in-colectie');
@@ -988,6 +1031,7 @@ function renderIntrebareNoua() {
 
       // Golește formularul pentru următoarea întrebare
       document.getElementById('in-enunt').value = '';
+      inEnuntPreview.innerHTML = '';
       document.getElementById('in-explicatie').value = '';
       varianteWrap.innerHTML = '';
       adaugaVarianta(); adaugaVarianta(); adaugaVarianta(); adaugaVarianta();
@@ -1196,6 +1240,14 @@ function renderEditareIntrebari() {
   const lista = document.getElementById('ed-lista');
   const formWrap = document.getElementById('ed-form-wrap');
   const listaWrap = document.getElementById('ed-lista-wrap');
+  const edEnunt = document.getElementById('ed-enunt');
+  const edEnuntPreview = document.getElementById('ed-enunt-preview');
+  function actualizeazaPreviewEnunt() {
+    edEnuntPreview.innerHTML = edEnunt.value.trim()
+      ? 'Previzualizare: ' + randMatematic(edEnunt.value)
+      : '';
+  }
+  edEnunt.addEventListener('input', actualizeazaPreviewEnunt);
   const varianteWrap = document.getElementById('ed-variante');
   const err = document.getElementById('ed-error');
   const ok = document.getElementById('ed-ok');
@@ -1312,6 +1364,7 @@ function renderEditareIntrebari() {
     document.querySelector(`input[name="ed-tip"][value="${tip}"]`).checked = true;
     document.getElementById('ed-enunt').value = q.intrebare || '';
     document.getElementById('ed-explicatie').value = q.explicatie || '';
+    actualizeazaPreviewEnunt();
 
     const corecte = new Set(Array.isArray(q.corect) ? q.corect : [q.corect]);
     varianteWrap.innerHTML = '';
