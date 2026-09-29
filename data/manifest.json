@@ -166,6 +166,11 @@
               "id": "substitutie-b",
               "nume": "Substituție B",
               "fisier": "data/12/integrale/substitutie-b.json"
+            },
+            {
+              "id": "integrarea-prin-parti-a",
+              "nume": "Integrarea prin părți A",
+              "fisier": "data/12/integrale/integrarea-prin-parti-a.json"
             }
           ]
         }
