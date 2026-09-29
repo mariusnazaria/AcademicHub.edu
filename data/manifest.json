@@ -161,6 +161,11 @@
               "id": "metoda-substitutiei-test-1",
               "nume": "Metoda substituției Test 1",
               "fisier": "data/12/integrale/metoda-substitutiei-test-1.json"
+            },
+            {
+              "id": "metoda-substitutiei-test-2",
+              "nume": "Metoda substituției Test 2",
+              "fisier": "data/12/integrale/metoda-substitutiei-test-2.json"
             }
           ]
         }
