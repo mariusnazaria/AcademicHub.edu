@@ -151,6 +151,11 @@
               "id": "primitive-si-notiuni-de-baza",
               "nume": "Primitive și noțiuni de bază",
               "fisier": "data/12/integrale/primitive-si-notiuni-de-baza.json"
+            },
+            {
+              "id": "formule-de-baza",
+              "nume": "Formule de bază",
+              "fisier": "data/12/integrale/formule-de-baza.json"
             }
           ]
         }
