@@ -156,6 +156,11 @@
               "id": "formule-de-baza",
               "nume": "Formule de bază",
               "fisier": "data/12/integrale/formule-de-baza.json"
+            },
+            {
+              "id": "integrare-prin-parti-2",
+              "nume": "Integrare prin părți 2",
+              "fisier": "data/12/integrale/integrare-prin-parti-2.json"
             }
           ]
         }
