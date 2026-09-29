@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "tab-001",
+    "tip": "simplu",
+    "intrebare": "∫ x^5 dx =",
+    "variante": [
+      "\\frac{1}{5}x^6 + C",
+      "5x^4 + C",
+      "\\frac{1}{6}x^6 + C",
+      "x^6 + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-002",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{x} dx, x ∈ (0, +∞), este:",
+    "variante": [
+      "−\\frac{1}{x^2} + C",
+      "x ln|x| + C",
+      "ln|x| + C",
+      "\\frac{1}{x} + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-003",
+    "tip": "simplu",
+    "intrebare": "∫ e^x dx =",
+    "variante": [
+      "x·e^x + C",
+      "ln x + C",
+      "e^x + C",
+      "e^{x+1} + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-004",
+    "tip": "simplu",
+    "intrebare": "∫ cos x dx =",
+    "variante": [
+      "tg x + C",
+      "−sin x + C",
+      "sin x + C",
+      "−cos x + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-005",
+    "tip": "simplu",
+    "intrebare": "∫ sin x dx =",
+    "variante": [
+      "−cos x + C",
+      "−sin x + C",
+      "sin x + C",
+      "cos x + C"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tab-006",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{cos^2x} dx =",
+    "variante": [
+      "−ctg x + C",
+      "−tg x + C",
+      "ctg x + C",
+      "tg x + C"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tab-007",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{sin^2x} dx =",
+    "variante": [
+      "−ctg x + C",
+      "−tg x + C",
+      "ctg x + C",
+      "tg x + C"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tab-008",
+    "tip": "simplu",
+    "intrebare": "∫ a^x dx, a > 0, a ≠ 1, este:",
+    "variante": [
+      "x·a^{x-1} + C",
+      "\\frac{a^{x+1}}{x+1} + C",
+      "\\frac{a^x}{ln a} + C",
+      "a^x·ln a + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-009",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{√x} dx, x ∈ (0, +∞), este:",
+    "variante": [
+      "√x + C",
+      "\\frac{1}{2}√x + C",
+      "\\frac{2}{3}x√x + C",
+      "2√x + C"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tab-010",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{x^3} dx, x ∈ (0, +∞), este:",
+    "variante": [
+      "\\frac{2}{3}x^{-2} + C",
+      "−\\frac{1}{2}x^{-2} + C",
+      "\\frac{1}{2}x^{-2} + C",
+      "−3x^{-4} + C"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tab-011",
+    "tip": "simplu",
+    "intrebare": "Pentru k ∈ ℝ*, integrala ∫ k·f(x) dx este egală cu:",
+    "variante": [
+      "k + ∫ f(x) dx",
+      "k · ∫ f(x) dx",
+      "∫ f(kx) dx",
+      "\\frac{1}{k} ∫ f(x) dx"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tab-012",
+    "tip": "simplu",
+    "intrebare": "Fie f și g funcții care admit primitive. Care egalitate este adevărată?",
+    "variante": [
+      "∫ [f(x) + g(x)] dx = ∫ f(x) dx · ∫ g(x) dx",
+      "∫ [f(x) + g(x)] dx = ∫ f(x) dx + ∫ g(x) dx",
+      "∫ f(x)·g(x) dx = ∫ f(x) dx · ∫ g(x) dx",
+      "∫ [f(x) − g(x)] dx = ∫ f(x) dx + ∫ g(x) dx"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tab-013",
+    "tip": "simplu",
+    "intrebare": "∫ (6x^2 − 3x + 5) dx =",
+    "variante": [
+      "12x − 3 + C",
+      "2x^3 − 3x^2 + 5x + C",
+      "2x^3 − \\frac{3}{_2x^2} + 5x + C",
+      "6x^3 − 3x^2 + 5x + C"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tab-014",
+    "tip": "simplu",
+    "intrebare": "∫ sin 5x dx =",
+    "variante": [
+      "5cos 5x + C",
+      "−5cos 5x + C",
+      "\\frac{1}{5}cos 5x + C",
+      "−\\frac{1}{5}cos 5x + C"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tab-015",
+    "tip": "simplu",
+    "intrebare": "∫ (2x − 1)^{100} dx =",
+    "variante": [
+      "\\frac{1}{202}(2x − 1)^{101} + C",
+      "\\frac{1}{101}(2x − 1)^{101} + C",
+      "(2x − 1)^{101} + C",
+      "100(2x − 1)^{99} + C"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tab-016",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{3x−1} dx =",
+    "variante": [
+      "ln|3x − 1| + C",
+      "\\frac{1}{3}ln|3x − 1| + C",
+      "3ln|3x − 1| + C",
+      "−\\frac{1}{3x − 1}^2 + C"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tab-017",
+    "tip": "simplu",
+    "intrebare": "∫ e^{4-3x} dx =",
+    "variante": [
+      "−\\frac{1}{3}e^{4-3x} + C",
+      "\\frac{1}{3}e^{4-3x} + C",
+      "e^{4-3x} + C",
+      "−3e^{4-3x} + C"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tab-018",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{x^2+4} dx =",
+    "variante": [
+      "arctg \\frac{x}{2} + C",
+      "\\frac{1}{2}arctg \\frac{x}{2} + C",
+      "2arctg \\frac{x}{2} + C",
+      "\\frac{1}{2}arctg 2x + C"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tab-019",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{1}{√(9 − x^2)} dx =",
+    "variante": [
+      "arcsin \\frac{x}{3} + C",
+      "\\frac{1}{3}arcsin \\frac{x}{3} + C",
+      "arctg \\frac{x}{3} + C",
+      "3arcsin \\frac{x}{3} + C"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tab-020",
+    "tip": "simplu",
+    "intrebare": "∫ \\frac{2x}{x^2+1} dx =",
+    "variante": [
+      "\\frac{1}{2}ln(x^2 + 1) + C",
+      "arctg x + C",
+      "ln(x^2 + 1) + C",
+      "2arctg x + C"
+    ],
+    "corect": 2
+  }
+]
