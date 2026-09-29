@@ -1,1 +1,274 @@
-[]
+[
+  {
+    "id": "prim-001",
+    "tip": "simplu",
+    "intrebare": "Fie I un interval deschis și f: I → ℝ. Funcția F: I → ℝ este primitivă a lui f pe I dacă:",
+    "variante": [
+      "F este derivabilă pe I și F′(x) = f(x), ∀x ∈ I",
+      "f este derivabilă pe I și f′(x) = F(x), ∀x ∈ I",
+      "F este continuă pe I și F(x) = f′(x), ∀x ∈ I",
+      "F(x) = f(x) + C, ∀x ∈ I"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "prim-002",
+    "tip": "simplu",
+    "intrebare": "Dacă F este o primitivă a funcției f pe intervalul I, atunci mulțimea tuturor primitivelor lui f pe I este:",
+    "variante": [
+      "{C · F | C ∈ ℝ}",
+      "{F + C | C ∈ ℝ}",
+      "{F′ + C | C ∈ ℝ}",
+      "{F}, deoarece primitiva este unică"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "prim-003",
+    "tip": "simplu",
+    "intrebare": "Care dintre funcțiile următoare este o primitivă a funcției f: ℝ → ℝ, f(x) = 4x^3?",
+    "variante": [
+      "x^4",
+      "x^3",
+      "4x^4",
+      "12x^2"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "prim-004",
+    "tip": "simplu",
+    "intrebare": "Orice funcție f: [a, b] → ℝ continuă pe [a, b]:",
+    "variante": [
+      "admite primitive doar dacă este și derivabilă",
+      "admite o singură primitivă pe [a, b]",
+      "admite primitive pe [a, b]",
+      "nu admite primitive pe [a, b]"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "prim-005",
+    "tip": "simplu",
+    "intrebare": "Integrala nedefinită ∫ f(x) dx a unei funcții f care admite primitive este:",
+    "variante": [
+      "o singură primitivă a funcției f",
+      "derivata funcției f",
+      "mulțimea primitivelor funcției f",
+      "un număr real"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "prim-006",
+    "tip": "simplu",
+    "intrebare": "Care este primitiva F a funcției f: ℝ → ℝ, f(x) = cos x, pentru care F(0) = 1?",
+    "variante": [
+      "cos x + 1",
+      "sin x",
+      "−sin x + 1",
+      "sin x + 1"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "prim-007",
+    "tip": "simplu",
+    "intrebare": "Graficul primitivei F a funcției f: ℝ → ℝ, f(x) = 2x + 1, trece prin punctul M(1, 3). Atunci F(x) este:",
+    "variante": [
+      "x^2 + x + 3",
+      "x^2 + x + 1",
+      "x^2 + x",
+      "2x^2 + x"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "prim-008",
+    "tip": "simplu",
+    "intrebare": "Derivata integralei nedefinite, (∫ f(x) dx)′, este egală cu:",
+    "variante": [
+      "f′(x)",
+      "0",
+      "F(x) + C",
+      "f(x)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "prim-009",
+    "tip": "simplu",
+    "intrebare": "Pentru care funcție f: ℝ → ℝ funcția F(x) = x·e^x este o primitivă?",
+    "variante": [
+      "e^x",
+      "x·e^x",
+      "(x − 1)e^x",
+      "(x + 1)e^x"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "prim-010",
+    "tip": "simplu",
+    "intrebare": "Graficele a două primitive ale aceleiași funcții f se obțin una din alta printr-o:",
+    "variante": [
+      "simetrie față de origine",
+      "translație de-a lungul axei Oy",
+      "simetrie față de axa Ox",
+      "translație de-a lungul axei Ox"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "prim-011",
+    "tip": "multiplu",
+    "intrebare": "Fie F o primitivă a lui f pe un interval deschis I. Care afirmații sunt adevărate?",
+    "variante": [
+      "F este derivabilă pe I",
+      "F(x) = f′(x), ∀x ∈ I",
+      "F′(x) = f(x), ∀x ∈ I",
+      "F(x) = f(x) + C, ∀x ∈ I"
+    ],
+    "corect": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "prim-012",
+    "tip": "multiplu",
+    "intrebare": "Care dintre funcțiile următoare sunt primitive ale funcției f: ℝ → ℝ, f(x) = cos x?",
+    "variante": [
+      "−sin x",
+      "sin x",
+      "sin x − 2",
+      "sin x + 5"
+    ],
+    "corect": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "prim-013",
+    "tip": "multiplu",
+    "intrebare": "Care dintre funcțiile următoare sunt primitive ale funcției f: ℝ → ℝ, f(x) = e^x?",
+    "variante": [
+      "x·e^x",
+      "e^x",
+      "e^x + 2",
+      "e^{2x}"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "prim-014",
+    "tip": "multiplu",
+    "intrebare": "Care afirmații despre integrala nedefinită ∫ f(x) dx sunt adevărate?",
+    "variante": [
+      "există pentru orice funcție f",
+      "este un număr real",
+      "se scrie F(x) + C, unde F este o primitivă a lui f și C ∈ ℝ",
+      "este mulțimea primitivelor lui f"
+    ],
+    "corect": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "prim-015",
+    "tip": "multiplu",
+    "intrebare": "Care dintre funcțiile următoare sunt continue pe [0, 1], deci admit primitive pe [0, 1]?",
+    "variante": [
+      "f(x) = \\frac{1}{x−2}",
+      "f(x) = x^3 + 1",
+      "f(x) = \\frac{1}{x−1}",
+      "f(x) = ln(x − 1)"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "prim-016",
+    "tip": "multiplu",
+    "intrebare": "Funcția F(x) = (ax + b)e^x este o primitivă a funcției f(x) = (2x + 3)e^x. Care afirmații sunt adevărate?",
+    "variante": [
+      "a · b = 3",
+      "a = 2",
+      "b = 1",
+      "a + b = 4"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "prim-017",
+    "tip": "multiplu",
+    "intrebare": "Funcția F(x) = x^2 + ax + b este o primitivă a funcției f(x) = 2x + 4 și F(0) = 1. Care afirmații sunt adevărate?",
+    "variante": [
+      "b = 1",
+      "F(−1) = 2",
+      "a = 4",
+      "F(1) = 6"
+    ],
+    "corect": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "prim-018",
+    "tip": "multiplu",
+    "intrebare": "Fie F și G două primitive ale aceleiași funcții f pe un interval I. Care afirmații sunt adevărate?",
+    "variante": [
+      "F(x) = G(x) pentru orice x ∈ I",
+      "f nu are alte primitive în afară de F și G",
+      "F + 2 este de asemenea primitivă a lui f",
+      "F − G este funcție constantă"
+    ],
+    "corect": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "prim-019",
+    "tip": "multiplu",
+    "intrebare": "Care dintre funcțiile F: (0, +∞) → ℝ sunt primitive ale funcției f(x) = ln x?",
+    "variante": [
+      "\\frac{1}{x}",
+      "x ln x − x",
+      "x ln x",
+      "x ln x − x + 3"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "prim-020",
+    "tip": "multiplu",
+    "intrebare": "Care dintre funcțiile F: ℝ → ℝ au derivata egală cu f(x) = 3x^2 + 2?",
+    "variante": [
+      "x^3 + 2x − 7",
+      "6x",
+      "x^3 + 2",
+      "x^3 + 2x"
+    ],
+    "corect": [
+      0,
+      3
+    ]
+  }
+]
