@@ -161,6 +161,11 @@
               "id": "substitutie-a",
               "nume": "Substituție A",
               "fisier": "data/12/integrale/substitutie-a.json"
+            },
+            {
+              "id": "substitutie-b",
+              "nume": "Substituție B",
+              "fisier": "data/12/integrale/substitutie-b.json"
             }
           ]
         }
