@@ -176,6 +176,11 @@
               "id": "integrare-prin-parti-b",
               "nume": "Integrare prin părți B",
               "fisier": "data/12/integrale/integrare-prin-parti-b.json"
+            },
+            {
+              "id": "integrala-definita-aplicatii",
+              "nume": "Integrala definită, aplicații",
+              "fisier": "data/12/integrale/integrala-definita-aplicatii.json"
             }
           ]
         }
