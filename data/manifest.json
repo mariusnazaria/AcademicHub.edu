@@ -142,6 +142,11 @@
               "fisier": "data/12/geometrie/generale.json"
             }
           ]
+        },
+        {
+          "id": "integrale",
+          "nume": "Integrale",
+          "colectii": []
         }
       ]
     }
