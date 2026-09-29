@@ -142,47 +142,6 @@
               "fisier": "data/12/geometrie/generale.json"
             }
           ]
-        },
-        {
-          "id": "integrale",
-          "nume": "Integrale",
-          "colectii": [
-            {
-              "id": "primitive-si-notiuni-de-baza",
-              "nume": "Primitive și noțiuni de bază",
-              "fisier": "data/12/integrale/primitive-si-notiuni-de-baza.json"
-            },
-            {
-              "id": "formule-de-baza",
-              "nume": "Formule de bază",
-              "fisier": "data/12/integrale/formule-de-baza.json"
-            },
-            {
-              "id": "substitutie-a",
-              "nume": "Substituție A",
-              "fisier": "data/12/integrale/substitutie-a.json"
-            },
-            {
-              "id": "substitutie-b",
-              "nume": "Substituție B",
-              "fisier": "data/12/integrale/substitutie-b.json"
-            },
-            {
-              "id": "integrarea-prin-parti-a",
-              "nume": "Integrarea prin părți A",
-              "fisier": "data/12/integrale/integrarea-prin-parti-a.json"
-            },
-            {
-              "id": "integrare-prin-parti-b",
-              "nume": "Integrare prin părți B",
-              "fisier": "data/12/integrale/integrare-prin-parti-b.json"
-            },
-            {
-              "id": "integrala-definita-aplicatii",
-              "nume": "Integrala definită, aplicații",
-              "fisier": "data/12/integrale/integrala-definita-aplicatii.json"
-            }
-          ]
         }
       ]
     }
