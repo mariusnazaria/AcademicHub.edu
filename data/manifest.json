@@ -156,6 +156,11 @@
               "id": "formule-de-baza",
               "nume": "Formule de bază",
               "fisier": "data/12/integrale/formule-de-baza.json"
+            },
+            {
+              "id": "substitutie-a",
+              "nume": "Substituție A",
+              "fisier": "data/12/integrale/substitutie-a.json"
             }
           ]
         }
