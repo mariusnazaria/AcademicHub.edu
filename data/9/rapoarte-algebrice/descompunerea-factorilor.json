@@ -197,5 +197,17 @@
       "(x+2)(x+3)"
     ],
     "corect": 2
+  },
+  {
+    "id": "descompunerea-factorilor-1792251223304",
+    "tip": "simplu",
+    "intrebare": "x²+6x+8",
+    "variante": [
+      "(x-2)(x-4)",
+      "x(x-6+8)",
+      "(x+2)(x+4)",
+      "(x+4)²"
+    ],
+    "corect": 2
   }
 ]
