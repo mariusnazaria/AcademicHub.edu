@@ -87,7 +87,13 @@
         {
           "id": "frac-ii",
           "nume": "Fracţii",
-          "colectii": []
+          "colectii": [
+            {
+              "id": "frac-ii-de-gradul-i-panta-i-termenul-lib",
+              "nume": "Fracţii de gradul I, panta şi termenul liber",
+              "fisier": "data/9/frac-ii/frac-ii-de-gradul-i-panta-i-termenul-lib.json"
+            }
+          ]
         }
       ]
     },
