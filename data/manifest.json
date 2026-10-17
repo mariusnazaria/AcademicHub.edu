@@ -82,7 +82,13 @@
         {
           "id": "rapoarte-algebrice",
           "nume": "Rapoarte algebrice",
-          "colectii": []
+          "colectii": [
+            {
+              "id": "descompunerea-factorilor",
+              "nume": "Descompunerea factorilor",
+              "fisier": "data/9/rapoarte-algebrice/descompunerea-factorilor.json"
+            }
+          ]
         }
       ]
     },
