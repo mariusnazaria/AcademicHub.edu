@@ -10,5 +10,17 @@
       "x(x-1)"
     ],
     "corect": 1
+  },
+  {
+    "id": "descompunerea-factorilor-1792245736750",
+    "tip": "simplu",
+    "intrebare": "x²-1=",
+    "variante": [
+      "x(x+1)",
+      "(x-1)(x+1)",
+      "(x-1)²",
+      "x(x-1)"
+    ],
+    "corect": 1
   }
 ]
