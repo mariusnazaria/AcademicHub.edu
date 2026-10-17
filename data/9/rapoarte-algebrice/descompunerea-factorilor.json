@@ -110,5 +110,18 @@
       "(x+4)²"
     ],
     "corect": 2
+  },
+  {
+    "id": "descompunerea-factorilor-1792250112310",
+    "tip": "simplu",
+    "intrebare": "x²+1",
+    "variante": [
+      "(x-1)(x+1)",
+      "x(x+1)",
+      "(x-1)²",
+      "nu se descompune",
+      "(x+1)²"
+    ],
+    "corect": 3
   }
 ]
