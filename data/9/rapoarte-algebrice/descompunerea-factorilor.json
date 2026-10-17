@@ -97,5 +97,18 @@
       "x²(x-16)"
     ],
     "corect": 0
+  },
+  {
+    "id": "descompunerea-factorilor-1792249999878",
+    "tip": "simplu",
+    "intrebare": "x²-8x+16",
+    "variante": [
+      "(x-4)(x+4)",
+      "x(x-8+16)",
+      "(x-4)²",
+      "x(x-8-16)",
+      "(x+4)²"
+    ],
+    "corect": 2
   }
 ]
