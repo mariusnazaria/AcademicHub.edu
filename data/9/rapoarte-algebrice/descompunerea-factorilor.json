@@ -58,5 +58,18 @@
       "x(x+x)"
     ],
     "corect": 1
+  },
+  {
+    "id": "descompunerea-factorilor-1792246141783",
+    "tip": "simplu",
+    "intrebare": "x²-2x+1=",
+    "variante": [
+      "(x-1)²",
+      "x(x+1)",
+      "(x-1)(x+1)",
+      "(x+1)²",
+      "x(x-2)+1"
+    ],
+    "corect": 0
   }
 ]
