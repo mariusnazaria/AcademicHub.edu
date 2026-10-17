@@ -64,11 +64,6 @@
       "nume": "Clasa 9",
       "materii": [
         {
-          "id": "geometrie",
-          "nume": "Geometrie",
-          "colectii": []
-        },
-        {
           "id": "rapoarte-algebrice",
           "nume": "Rapoarte algebrice",
           "colectii": [
