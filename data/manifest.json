@@ -83,6 +83,11 @@
           "id": "opera-ii-cu-numere-intregi",
           "nume": "Operaţii cu numere întregi",
           "colectii": []
+        },
+        {
+          "id": "frac-ii",
+          "nume": "Fracţii",
+          "colectii": []
         }
       ]
     },
