@@ -161,5 +161,17 @@
       "2x(x-2)"
     ],
     "corect": 0
+  },
+  {
+    "id": "descompunerea-factorilor-1792250998985",
+    "tip": "simplu",
+    "intrebare": "x²-10x+25",
+    "variante": [
+      "x(x-10+25)",
+      "(x-5)(x+5)",
+      "(x-5)²",
+      "(x+5)²"
+    ],
+    "corect": 2
   }
 ]
