@@ -71,11 +71,6 @@
               "id": "functii",
               "nume": "Funcția de gradul I",
               "fisier": "data/9/algebra/functii.json"
-            },
-            {
-              "id": "puteri",
-              "nume": "Puteri",
-              "fisier": "data/9/algebra/puteri.json"
             }
           ]
         },
