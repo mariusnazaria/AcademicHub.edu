@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "descompunerea-factorilor-1792245671250",
+    "tip": "simplu",
+    "intrebare": "Descompune în factori x²-1",
+    "variante": [
+      "x(x+1)",
+      "(x-1)(x+1)",
+      "(x-1)²",
+      "x(x-1)"
+    ],
+    "corect": 1
+  }
+]
