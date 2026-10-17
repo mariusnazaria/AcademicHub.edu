@@ -64,17 +64,6 @@
       "nume": "Clasa 9",
       "materii": [
         {
-          "id": "algebra",
-          "nume": "Algebră",
-          "colectii": [
-            {
-              "id": "functii",
-              "nume": "Funcția de gradul I",
-              "fisier": "data/9/algebra/functii.json"
-            }
-          ]
-        },
-        {
           "id": "geometrie",
           "nume": "Geometrie",
           "colectii": []
