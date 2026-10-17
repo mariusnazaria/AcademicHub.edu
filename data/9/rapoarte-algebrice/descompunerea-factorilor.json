@@ -185,5 +185,17 @@
       "(x+6)²"
     ],
     "corect": 3
+  },
+  {
+    "id": "descompunerea-factorilor-1792251119665",
+    "tip": "simplu",
+    "intrebare": "x²-5x+6",
+    "variante": [
+      "(x-3)²",
+      "x(x-5+6)",
+      "(x-2)(x-3)",
+      "(x+2)(x+3)"
+    ],
+    "corect": 2
   }
 ]
