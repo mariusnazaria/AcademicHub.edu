@@ -78,6 +78,11 @@
           "id": "func-ii",
           "nume": "Funcţii",
           "colectii": []
+        },
+        {
+          "id": "opera-ii-cu-numere-intregi",
+          "nume": "Operaţii cu numere întregi",
+          "colectii": []
         }
       ]
     },
