@@ -149,5 +149,17 @@
       "x(x+9)"
     ],
     "corect": 3
+  },
+  {
+    "id": "descompunerea-factorilor-1792250684577",
+    "tip": "simplu",
+    "intrebare": "x³-4x",
+    "variante": [
+      "x(x-2)(x+2)",
+      "x²(x-4)",
+      "(x-2)³",
+      "2x(x-2)"
+    ],
+    "corect": 0
   }
 ]
