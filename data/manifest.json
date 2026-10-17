@@ -78,6 +78,11 @@
               "fisier": "data/9/rapoarte-algebrice/descompunerea-factorilor.json"
             }
           ]
+        },
+        {
+          "id": "func-ii",
+          "nume": "Funcţii",
+          "colectii": []
         }
       ]
     },
