@@ -71,5 +71,18 @@
       "x(x-2)+1"
     ],
     "corect": 0
+  },
+  {
+    "id": "descompunerea-factorilor-1792246210546",
+    "tip": "simplu",
+    "intrebare": "x²-6x+9",
+    "variante": [
+      "(x-3)²",
+      "(x-2)(x-3)",
+      "(x-3)(x+3)",
+      "(x+3)²",
+      "x(x-6)+3"
+    ],
+    "corect": 0
   }
 ]
