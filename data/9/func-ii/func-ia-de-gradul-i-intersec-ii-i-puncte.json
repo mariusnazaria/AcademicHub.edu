@@ -115,5 +115,18 @@
     ],
     "corect": 2,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356918069.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792356982898",
+    "tip": "simplu",
+    "intrebare": "Punctul E(-6, ?) aparţine graficului funcţiei f(x)",
+    "variante": [
+      "-2",
+      "-3",
+      "0",
+      "2"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356979755.png"
   }
 ]
