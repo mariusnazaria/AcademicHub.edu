@@ -190,5 +190,22 @@
       4
     ],
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792352367197.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792352486971",
+    "tip": "multiplu",
+    "intrebare": "Fie funcţia f(x)=ax+b. Selectează valorile posibile pentru  panta a=",
+    "variante": [
+      "0",
+      "1",
+      "-2",
+      "-1",
+      "2"
+    ],
+    "corect": [
+      1,
+      4
+    ],
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792352481593.png"
   }
 ]
