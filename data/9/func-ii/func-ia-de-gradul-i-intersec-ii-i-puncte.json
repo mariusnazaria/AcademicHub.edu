@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792355815215",
+    "tip": "simplu",
+    "intrebare": "Funcţia f(x)=ax+b intersectează axa Ox în punctul cu abscisa",
+    "variante": [
+      "3",
+      "-3",
+      "2",
+      "0"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792355813489.png"
+  }
+]
