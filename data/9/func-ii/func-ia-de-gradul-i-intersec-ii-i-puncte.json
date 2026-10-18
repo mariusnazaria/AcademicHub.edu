@@ -128,5 +128,18 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356979755.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792357050976",
+    "tip": "simplu",
+    "intrebare": "Punctul M(0, ?) aparţine graficului funcţiei f(x)",
+    "variante": [
+      "-2",
+      "-3",
+      "0",
+      "2"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792357048450.png"
   }
 ]
