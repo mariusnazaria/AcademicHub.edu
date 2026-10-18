@@ -69,5 +69,20 @@
       2
     ],
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350839521.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792350917632",
+    "tip": "multiplu",
+    "intrebare": "Funcţia f(x)=ax+b este monoton",
+    "variante": [
+      "descrescătoare",
+      "crescătoare",
+      "negativă",
+      "pozitivă"
+    ],
+    "corect": [
+      1
+    ],
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350915780.png"
   }
 ]
