@@ -84,5 +84,18 @@
       1
     ],
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350915780.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792350988170",
+    "tip": "simplu",
+    "intrebare": "Panta funcţiei f(x)=ax+b este un număr",
+    "variante": [
+      "descrescător",
+      "crescător",
+      "negativ",
+      "pozitiv"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350986230.png"
   }
 ]
