@@ -11,5 +11,18 @@
     ],
     "corect": 1,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792355813489.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792355875612",
+    "tip": "simplu",
+    "intrebare": "Funcţia f(x)=ax+b intersectează axa Oy în punctul cu ordonata",
+    "variante": [
+      "3",
+      "-3",
+      "2",
+      "0"
+    ],
+    "corect": 2,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792355873794.png"
   }
 ]
