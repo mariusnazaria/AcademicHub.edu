@@ -27,5 +27,18 @@
       3
     ],
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350313802.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792350421109",
+    "tip": "simplu",
+    "intrebare": "Funcţia f(x)=ax+b este",
+    "variante": [
+      "monoton crescătoare",
+      "monoton descrescătoare",
+      "pozitivă",
+      "negativă"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350419147.png"
   }
 ]
