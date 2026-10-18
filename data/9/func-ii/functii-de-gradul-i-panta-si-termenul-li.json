@@ -11,5 +11,21 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792303070503.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792350316269",
+    "tip": "multiplu",
+    "intrebare": "Funcţia f(x)=ax+b",
+    "variante": [
+      "a<0",
+      "a>0",
+      "b<0",
+      "b>0"
+    ],
+    "corect": [
+      1,
+      3
+    ],
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350313802.png"
   }
 ]
