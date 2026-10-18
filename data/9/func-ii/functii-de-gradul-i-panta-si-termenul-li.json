@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792303072546",
+    "tip": "simplu",
+    "intrebare": "Funcţia f(x) este monoton",
+    "variante": [
+      "crescătoare",
+      "descrescătoare",
+      "negativă",
+      "pozitivă"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792303070503.png"
+  }
+]
