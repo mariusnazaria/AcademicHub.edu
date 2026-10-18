@@ -89,5 +89,18 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356782201.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792356848350",
+    "tip": "simplu",
+    "intrebare": "Punctul B(?, 4) aparţine graficului funcţiei f(x)",
+    "variante": [
+      "4",
+      "-3",
+      "2",
+      "3"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356846402.png"
   }
 ]
