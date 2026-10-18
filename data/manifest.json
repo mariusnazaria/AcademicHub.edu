@@ -77,7 +77,13 @@
         {
           "id": "func-ii",
           "nume": "Funcţii",
-          "colectii": []
+          "colectii": [
+            {
+              "id": "functii-de-gradul-i-panta-si-termenul-li",
+              "nume": "Funcții de gradul I, panta și termenul liber",
+              "fisier": "data/9/func-ii/functii-de-gradul-i-panta-si-termenul-li.json"
+            }
+          ]
         },
         {
           "id": "opera-ii-cu-numere-intregi",
