@@ -82,6 +82,11 @@
               "id": "functii-de-gradul-i-panta-si-termenul-li",
               "nume": "Funcții de gradul I, panta și termenul liber",
               "fisier": "data/9/func-ii/functii-de-gradul-i-panta-si-termenul-li.json"
+            },
+            {
+              "id": "func-ia-de-gradul-i-intersec-ii-i-puncte",
+              "nume": "Funcţia de gradul I, intersecţii şi puncte",
+              "fisier": "data/9/func-ii/func-ia-de-gradul-i-intersec-ii-i-puncte.json"
             }
           ]
         },
