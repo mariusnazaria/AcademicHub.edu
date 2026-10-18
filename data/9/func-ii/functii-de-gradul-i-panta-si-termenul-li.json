@@ -97,5 +97,18 @@
     ],
     "corect": 3,
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792350986230.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792351133024",
+    "tip": "simplu",
+    "intrebare": "Alegeţi un număr ce ar putea fi panta funcţiei f(x)=ax+b.      a=",
+    "variante": [
+      "0",
+      "-2",
+      "2",
+      "-1"
+    ],
+    "corect": 2,
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792351131437.png"
   }
 ]
