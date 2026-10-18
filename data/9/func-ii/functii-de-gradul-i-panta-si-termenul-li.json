@@ -224,5 +224,16 @@
       3
     ],
     "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792352651277.png"
+  },
+  {
+    "id": "functii-de-gradul-i-panta-si-termenul-li-1792352735147",
+    "tip": "simplu",
+    "intrebare": "Funcţia f(x)=ax+b este monoton",
+    "variante": [
+      "crescătoare",
+      "descrescătoare"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/functii-de-gradul-i-panta-si-termenul-li-1792352733052.png"
   }
 ]
