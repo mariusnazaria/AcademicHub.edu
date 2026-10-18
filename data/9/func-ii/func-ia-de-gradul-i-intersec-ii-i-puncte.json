@@ -50,5 +50,18 @@
     ],
     "corect": 1,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356005662.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1792356099186",
+    "tip": "simplu",
+    "intrebare": "Punctul A(3, ?) aparţine graficului funcţiei f(x)",
+    "variante": [
+      "5",
+      "-3",
+      "2",
+      "0"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1792356096724.png"
   }
 ]
