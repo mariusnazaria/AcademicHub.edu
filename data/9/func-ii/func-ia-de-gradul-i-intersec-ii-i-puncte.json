@@ -167,5 +167,18 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1793448407971.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1793448797271",
+    "tip": "simplu",
+    "intrebare": "Punctul  B(3; ?) aparţine graficului funcţiei f(x)=ax+b",
+    "variante": [
+      "6",
+      "-1",
+      "-2",
+      "0"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1793448795354.png"
   }
 ]
