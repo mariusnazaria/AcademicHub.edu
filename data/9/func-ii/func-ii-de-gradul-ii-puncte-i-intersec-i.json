@@ -121,5 +121,18 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793454757835.png"
+  },
+  {
+    "id": "func-ii-de-gradul-ii-puncte-i-intersec-i-1793455061199",
+    "tip": "simplu",
+    "intrebare": "Punctul (5; ?)",
+    "variante": [
+      "3",
+      "-1",
+      "2",
+      "8"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793455059044.png"
   }
 ]
