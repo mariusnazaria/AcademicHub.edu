@@ -53,5 +53,21 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793454149906.png"
+  },
+  {
+    "id": "func-ii-de-gradul-ii-puncte-i-intersec-i-1793454353543",
+    "tip": "multiplu",
+    "intrebare": "Selectaţi afirmaţiile corecte",
+    "variante": [
+      "Funcţia este descrescătoare pe intervalul (-∞; -1]",
+      "Funcţia este crescătoare pe intervalul (-1; -∞]",
+      "Funcţia este descrescătoare pe intervalul (-1; -∞]",
+      "Funcţia este crescătoare pe intervalul (-∞; -1]"
+    ],
+    "corect": [
+      0,
+      1
+    ],
+    "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793454351547.png"
   }
 ]
