@@ -87,6 +87,11 @@
               "id": "func-ia-de-gradul-i-intersec-ii-i-puncte",
               "nume": "Funcţia de gradul I, intersecţii şi puncte",
               "fisier": "data/9/func-ii/func-ia-de-gradul-i-intersec-ii-i-puncte.json"
+            },
+            {
+              "id": "func-ii-de-gradul-ii-puncte-i-intersec-i",
+              "nume": "Funcţii de gradul II, puncte şi intersecţii",
+              "fisier": "data/9/func-ii/func-ii-de-gradul-ii-puncte-i-intersec-i.json"
             }
           ]
         },
