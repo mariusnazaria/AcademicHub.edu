@@ -141,5 +141,18 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1793447883545.png"
+  },
+  {
+    "id": "func-ia-de-gradul-i-intersec-ii-i-puncte-1793448339826",
+    "tip": "simplu",
+    "intrebare": "Zeroul funcţiei f(x)=ax+b este",
+    "variante": [
+      "4",
+      "-8",
+      "1",
+      "0"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/func-ia-de-gradul-i-intersec-ii-i-puncte-1793448338059.png"
   }
 ]
