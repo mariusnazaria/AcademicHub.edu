@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "func-ii-de-gradul-ii-puncte-i-intersec-i-1793453826136",
+    "tip": "simplu",
+    "intrebare": "Fie funcţia f(x)=ax²+bx+c. Termenul liber c va fi egal cu",
+    "variante": [
+      "8",
+      "2",
+      "4",
+      "0"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793453823961.png"
+  }
+]
