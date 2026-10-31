@@ -95,5 +95,18 @@
     ],
     "corect": 3,
     "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793454578921.png"
+  },
+  {
+    "id": "func-ii-de-gradul-ii-puncte-i-intersec-i-1793454679403",
+    "tip": "simplu",
+    "intrebare": "Selectaţi afirmaţiile corecte",
+    "variante": [
+      "Valoarea minimă a funcţiei este 3",
+      "Valoarea maximă a funcţiei este 3",
+      "Valoarea minimă a funcţiei este -1",
+      "Valoarea maximă a funcţiei este +1"
+    ],
+    "corect": 2,
+    "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793454677455.png"
   }
 ]
