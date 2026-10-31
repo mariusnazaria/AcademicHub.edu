@@ -11,5 +11,21 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793453823961.png"
+  },
+  {
+    "id": "func-ii-de-gradul-ii-puncte-i-intersec-i-1793453886640",
+    "tip": "multiplu",
+    "intrebare": "Zerourile funcţiei f(x) sunt",
+    "variante": [
+      "8",
+      "2",
+      "4",
+      "0"
+    ],
+    "corect": [
+      1,
+      2
+    ],
+    "imagine": "data/imagini/func-ii-de-gradul-ii-puncte-i-intersec-i-1793453884792.png"
   }
 ]
