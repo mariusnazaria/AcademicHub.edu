@@ -198,6 +198,11 @@
               "nume": "§3.4 Studiul funcției f(x) = ax² + bx + c",
               "fisier": "data/9/functii/studiul-functiei-de-gradul-2.json",
               "nr": 20
+            },
+            {
+              "id": "func-ii-de-gradul-i-panta-i-termenul-lib",
+              "nume": "Funcţii de gradul I, panta şi termenul liber",
+              "fisier": "data/9/functii/func-ii-de-gradul-i-panta-i-termenul-lib.json"
             }
           ]
         },
