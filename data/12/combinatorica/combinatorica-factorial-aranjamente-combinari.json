@@ -1,0 +1,305 @@
+[
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-001",
+    "tip": "simplu",
+    "intrebare": "$n!=?$",
+    "variante": [
+      "$n^2$",
+      "$n+(n-1)+\\ldots+1$",
+      "$n\\cdot n\\cdots n$",
+      "$1\\cdot2\\cdot3\\cdots n$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-002",
+    "tip": "simplu",
+    "intrebare": "$0!=?$",
+    "variante": [
+      "nu există",
+      "$-1$",
+      "$1$",
+      "$0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-003",
+    "tip": "simplu",
+    "intrebare": "$(n+1)!=?$",
+    "variante": [
+      "$(n+1)\\cdot n!$",
+      "$n\\cdot(n+1)$",
+      "$n!+1$",
+      "$(n+1)+n!$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-004",
+    "tip": "simplu",
+    "intrebare": "$5!=?$",
+    "variante": [
+      "$120$",
+      "$720$",
+      "$60$",
+      "$25$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-005",
+    "tip": "simplu",
+    "intrebare": "$\\frac{7!}{5!}=?$",
+    "variante": [
+      "$42$",
+      "$2$",
+      "$14$",
+      "$35$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-006",
+    "tip": "simplu",
+    "intrebare": "$\\frac{(n+1)!}{n!}=?$",
+    "variante": [
+      "$(n+1)^2$",
+      "$n+1$",
+      "$1$",
+      "$n$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-007",
+    "tip": "simplu",
+    "intrebare": "$\\frac{n!}{(n-1)!}=?$",
+    "variante": [
+      "$n-1$",
+      "$n$",
+      "$1$",
+      "$n!$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-008",
+    "tip": "simplu",
+    "intrebare": "$\\frac{(n+2)!}{n!}=?$",
+    "variante": [
+      "$(n+2)^2$",
+      "$(n+1)(n+2)$",
+      "$n(n+1)$",
+      "$n+2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-009",
+    "tip": "simplu",
+    "intrebare": "Numărul de permutări ale $n$ elemente:",
+    "variante": [
+      "$P_n=n^n$",
+      "$P_n=n$",
+      "$P_n=2^n$",
+      "$P_n=n!$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-010",
+    "tip": "simplu",
+    "intrebare": "Aranjamente: $A_n^k=?$",
+    "variante": [
+      "$\\frac{n!}{k!}$",
+      "$\\frac{(n-k)!}{n!}$",
+      "$\\frac{n!}{k!(n-k)!}$",
+      "$\\frac{n!}{(n-k)!}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-011",
+    "tip": "simplu",
+    "intrebare": "Combinări: $C_n^k=?$",
+    "variante": [
+      "$\\frac{n!}{k!(n-k)!}$",
+      "$\\frac{n!}{(n-k)!}$",
+      "$\\frac{n!}{k!}$",
+      "$\\frac{k!}{n!(n-k)!}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-012",
+    "tip": "simplu",
+    "intrebare": "Relația dintre $A_n^k$ și $C_n^k$:",
+    "variante": [
+      "$A_n^k=C_n^k$",
+      "$C_n^k=A_n^k\\cdot k!$",
+      "$A_n^k=C_n^k\\cdot k!$",
+      "$A_n^k=C_n^k+k!$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-013",
+    "tip": "simplu",
+    "intrebare": "$C_n^k=?$ (simetria)",
+    "variante": [
+      "$A_n^k$",
+      "$C_n^{n-k}$",
+      "$C_{n-k}^k$",
+      "$C_n^{k+1}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-014",
+    "tip": "simplu",
+    "intrebare": "$C_n^0=C_n^n=?$",
+    "variante": [
+      "$0$",
+      "$1$",
+      "$n!$",
+      "$n$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-015",
+    "tip": "simplu",
+    "intrebare": "$C_n^1=?$",
+    "variante": [
+      "$n$",
+      "$n-1$",
+      "$1$",
+      "$n!$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-016",
+    "tip": "simplu",
+    "intrebare": "$C_n^k+C_n^{k+1}=?$",
+    "variante": [
+      "$C_{n+1}^{k}$",
+      "$C_n^{2k+1}$",
+      "$C_{n+1}^{k+1}$",
+      "$C_{n}^{k+1}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-017",
+    "tip": "simplu",
+    "intrebare": "Condițiile de existență pentru $A_n^k$ și $C_n^k$:",
+    "variante": [
+      "$k=0$ doar",
+      "$n,k\\in\\mathbb{N}$ și $k\\leq n$",
+      "$k>n$",
+      "$n<0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-018",
+    "tip": "simplu",
+    "intrebare": "$A_5^2=?$",
+    "variante": [
+      "$10$",
+      "$25$",
+      "$20$",
+      "$120$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-019",
+    "tip": "simplu",
+    "intrebare": "$A_6^3=?$",
+    "variante": [
+      "$120$",
+      "$60$",
+      "$216$",
+      "$20$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-020",
+    "tip": "simplu",
+    "intrebare": "$C_5^2=?$",
+    "variante": [
+      "$20$",
+      "$10$",
+      "$5$",
+      "$25$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-021",
+    "tip": "simplu",
+    "intrebare": "$C_6^3=?$",
+    "variante": [
+      "$120$",
+      "$20$",
+      "$18$",
+      "$10$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-022",
+    "tip": "simplu",
+    "intrebare": "$C_n^2=?$",
+    "variante": [
+      "$\\frac{n^2}{2}$",
+      "$\\frac{n(n-1)}{2}$",
+      "$\\frac{n(n+1)}{2}$",
+      "$n(n-1)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-023",
+    "tip": "simplu",
+    "intrebare": "$A_n^2=?$",
+    "variante": [
+      "$n(n+1)$",
+      "$n^2$",
+      "$\\frac{n(n-1)}{2}$",
+      "$n(n-1)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-024",
+    "tip": "simplu",
+    "intrebare": "Dacă ordinea elementelor CONTEAZĂ și alegem $k$ din $n$, folosim:",
+    "variante": [
+      "aranjamente $A_n^k$",
+      "permutări $P_n$",
+      "combinări $C_n^k$",
+      "$2^n$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "combinatorica-factorial-aranjamente-combinari-025",
+    "tip": "multiplu",
+    "intrebare": "Care egalități sunt adevărate?",
+    "variante": [
+      "$C_n^k=A_n^k$",
+      "$C_n^k=C_n^{n-k}$",
+      "$A_n^k=C_n^k\\cdot k!$",
+      "$0!=0$"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

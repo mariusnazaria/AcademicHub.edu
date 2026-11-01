@@ -1,0 +1,269 @@
+[
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-001",
+    "tip": "simplu",
+    "intrebare": "$\\sin(a+b)=?$",
+    "variante": [
+      "$\\sin a\\cos b-\\cos a\\sin b$",
+      "$\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\sin a\\cos b+\\cos a\\sin b$",
+      "$\\sin a+\\sin b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-002",
+    "tip": "simplu",
+    "intrebare": "$\\sin(a-b)=?$",
+    "variante": [
+      "$\\sin a\\cos b-\\cos a\\sin b$",
+      "$\\sin a-\\sin b$",
+      "$\\cos a\\cos b-\\sin a\\sin b$",
+      "$\\sin a\\cos b+\\cos a\\sin b$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-003",
+    "tip": "simplu",
+    "intrebare": "$\\cos(a+b)=?$",
+    "variante": [
+      "$\\cos a\\cos b-\\sin a\\sin b$",
+      "$\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\sin a\\cos b+\\cos a\\sin b$",
+      "$\\cos a+\\cos b$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-004",
+    "tip": "simplu",
+    "intrebare": "$\\cos(a-b)=?$",
+    "variante": [
+      "$\\cos a\\cos b-\\sin a\\sin b$",
+      "$\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\cos a-\\cos b$",
+      "$\\sin a\\cos b-\\cos a\\sin b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-005",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{tg}(a+b)=?$",
+    "variante": [
+      "$\\frac{\\operatorname{tg}a-\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
+      "$\\frac{\\operatorname{tg}a+\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
+      "$\\operatorname{tg}a+\\operatorname{tg}b$",
+      "$\\frac{\\operatorname{tg}a+\\operatorname{tg}b}{1+\\operatorname{tg}a\\operatorname{tg}b}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-006",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{tg}2x=?$",
+    "variante": [
+      "$2\\operatorname{tg}x$",
+      "$\\frac{\\operatorname{tg}x}{1-\\operatorname{tg}^2x}$",
+      "$\\frac{2\\operatorname{tg}x}{1-\\operatorname{tg}^2x}$",
+      "$\\frac{2\\operatorname{tg}x}{1+\\operatorname{tg}^2x}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-007",
+    "tip": "simplu",
+    "intrebare": "$\\sin\\left(x+\\frac{\\pi}{3}\\right)=?$",
+    "variante": [
+      "$\\frac{\\sqrt{3}}{2}\\sin x+\\frac{1}{2}\\cos x$",
+      "$\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x$",
+      "$\\sin x+\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{1}{2}\\sin x+\\frac{\\sqrt{3}}{2}\\cos x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-008",
+    "tip": "simplu",
+    "intrebare": "$\\cos\\left(x-\\frac{\\pi}{3}\\right)=?$",
+    "variante": [
+      "$\\cos x-\\frac{1}{2}$",
+      "$\\frac{\\sqrt{3}}{2}\\cos x+\\frac{1}{2}\\sin x$",
+      "$\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x$",
+      "$\\frac{1}{2}\\cos x+\\frac{\\sqrt{3}}{2}\\sin x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-009",
+    "tip": "simplu",
+    "intrebare": "$\\sin\\left(x-\\frac{\\pi}{4}\\right)=?$",
+    "variante": [
+      "$\\sin x-\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{2}}{2}(\\cos x-\\sin x)$",
+      "$\\frac{\\sqrt{2}}{2}(\\sin x+\\cos x)$",
+      "$\\frac{\\sqrt{2}}{2}(\\sin x-\\cos x)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-010",
+    "tip": "simplu",
+    "intrebare": "$\\cos\\left(\\frac{\\pi}{6}+x\\right)=?$",
+    "variante": [
+      "$\\cos x+\\frac{\\pi}{6}$",
+      "$\\frac{\\sqrt{3}}{2}\\cos x-\\frac{1}{2}\\sin x$",
+      "$\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x$",
+      "$\\frac{\\sqrt{3}}{2}\\cos x+\\frac{1}{2}\\sin x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-011",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $x$ e în cadranul I, atunci $\\cos x=?$",
+    "variante": [
+      "$\\frac{2}{5}$",
+      "$\\frac{4}{5}$",
+      "$-\\frac{4}{5}$",
+      "$\\frac{3}{4}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-012",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $x$ e în cadranul II, atunci $\\cos x=?$",
+    "variante": [
+      "$-\\frac{3}{4}$",
+      "$-\\frac{4}{5}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{4}{5}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-013",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$, $\\cos x=\\frac{4}{5}$, atunci $\\operatorname{tg}x=?$",
+    "variante": [
+      "$\\frac{12}{25}$",
+      "$\\frac{4}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{3}{5}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-014",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$, $\\cos x=\\frac{4}{5}$, atunci $\\sin2x=?$",
+    "variante": [
+      "$\\frac{12}{25}$",
+      "$\\frac{24}{25}$",
+      "$\\frac{6}{5}$",
+      "$\\frac{7}{25}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-015",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$, $\\cos x=\\frac{4}{5}$, atunci $\\cos2x=?$",
+    "variante": [
+      "$\\frac{7}{25}$",
+      "$\\frac{24}{25}$",
+      "$1$",
+      "$-\\frac{7}{25}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-016",
+    "tip": "simplu",
+    "intrebare": "Cunoscând $\\sin x$ și intervalul lui $x$, pașii pentru $\\cos x$ sunt:",
+    "variante": [
+      "$\\cos x=1-\\sin x$",
+      "$\\cos x=\\sin x$",
+      "derivăm $\\sin x$",
+      "stabilim cadranul (semnul) și calculăm $\\cos x=\\pm\\sqrt{1-\\sin^2x}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-017",
+    "tip": "simplu",
+    "intrebare": "Semnul lui $\\cos x$ la $\\sqrt{1-\\sin^2x}$ se alege:",
+    "variante": [
+      "după cadranul în care se află $x$",
+      "după semnul lui $\\sin x$ doar",
+      "mereu $+$",
+      "mereu $-$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-018",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{tg}x$ când se cunosc $\\sin x$ și $\\cos x$:",
+    "variante": [
+      "$\\operatorname{tg}x=\\frac{\\sin x}{\\cos x}$",
+      "$\\frac{\\cos x}{\\sin x}$",
+      "$\\sin x+\\cos x$",
+      "$\\sin x\\cos x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-019",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{ctg}x$ când se cunosc $\\sin x$ și $\\cos x$:",
+    "variante": [
+      "$\\sin x\\cos x$",
+      "$\\cos x-\\sin x$",
+      "$\\frac{\\sin x}{\\cos x}$",
+      "$\\operatorname{ctg}x=\\frac{\\cos x}{\\sin x}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-020",
+    "tip": "simplu",
+    "intrebare": "$\\sin75^\\circ$ se calculează ca:",
+    "variante": [
+      "$\\sin(90^\\circ-30^\\circ)$",
+      "$\\sin45^\\circ+\\sin30^\\circ$",
+      "$\\sin(45^\\circ+30^\\circ)$",
+      "$2\\sin45^\\circ$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-021",
+    "tip": "simplu",
+    "intrebare": "$\\cos15^\\circ$ se calculează ca:",
+    "variante": [
+      "$\\frac{\\cos30^\\circ}{2}$",
+      "$\\cos45^\\circ-\\cos30^\\circ$",
+      "$\\cos(45^\\circ-30^\\circ)$",
+      "$\\cos(60^\\circ+30^\\circ)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "formule-de-adunare-si-calcul-cu-sin-cos-022",
+    "tip": "multiplu",
+    "intrebare": "Care formule sunt corecte?",
+    "variante": [
+      "$\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b$",
+      "$\\sin(a-b)=\\sin a\\cos b+\\cos a\\sin b$",
+      "$\\cos(a+b)=\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b$"
+    ],
+    "corect": [
+      0,
+      3
+    ]
+  }
+]

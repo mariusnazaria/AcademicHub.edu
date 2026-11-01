@@ -1,0 +1,257 @@
+[
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-001",
+    "tip": "simplu",
+    "intrebare": "„Panta tangentei este $2$” înseamnă că rezolvăm:",
+    "variante": [
+      "$f(x)=2$",
+      "$f^{\\prime}(x)=2$",
+      "$f^{\\prime\\prime}(x)=2$",
+      "$f^{\\prime}(2)=x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-002",
+    "tip": "simplu",
+    "intrebare": "După ce aflăm abscisa $a$ din $f^{\\prime}(a)=m$, urmează:",
+    "variante": [
+      "calculăm $f^{\\prime}(m)$",
+      "derivăm din nou",
+      "ne oprim",
+      "calculăm $f(a)$ și formăm ecuația tangentei"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-003",
+    "tip": "simplu",
+    "intrebare": "„Punctele de pe grafic în care panta este $9$”: aflăm $x$ din $f^{\\prime}(x)=9$ și apoi:",
+    "variante": [
+      "$y=9$",
+      "ordonata $y=f(x)$ pentru fiecare $x$",
+      "nimic, $x$ e suficient",
+      "derivata a doua"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-004",
+    "tip": "simplu",
+    "intrebare": "„Tangenta formează unghiul $45^\\circ$ cu $Ox$” înseamnă:",
+    "variante": [
+      "$f^{\\prime}(x)=45$",
+      "$f^{\\prime}(x)=0$",
+      "$f(x)=1$",
+      "$f^{\\prime}(x)=\\operatorname{tg}45^\\circ=1$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-005",
+    "tip": "simplu",
+    "intrebare": "„Tangenta formează unghiul $60^\\circ$ cu $Ox$” înseamnă:",
+    "variante": [
+      "$f^{\\prime}(x)=\\frac{\\sqrt{3}}{3}$",
+      "$f^{\\prime}(x)=\\frac{1}{2}$",
+      "$f^{\\prime}(x)=\\sqrt{3}$",
+      "$f^{\\prime}(x)=60$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-006",
+    "tip": "simplu",
+    "intrebare": "„Tangenta formează unghiul $\\operatorname{arctg}2$ cu $Ox$” înseamnă:",
+    "variante": [
+      "$f(x)=2$",
+      "$f^{\\prime}(x)=\\frac{1}{2}$",
+      "$f^{\\prime}(x)=2$",
+      "$f^{\\prime}(x)=\\operatorname{arctg}2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-007",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$, $f^{\\prime}(x)=4$ pentru:",
+    "variante": [
+      "$x=1$",
+      "$x=2$",
+      "$x=\\frac{1}{2}$",
+      "$x=4$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-008",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^3$, $f^{\\prime}(x)=3$ pentru:",
+    "variante": [
+      "$x=3$",
+      "$x=1$ doar",
+      "$x=\\pm1$",
+      "$x=0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-009",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=e^x$, $f^{\\prime}(x)=1$ pentru:",
+    "variante": [
+      "$x=1$",
+      "$x=e$",
+      "$x=0$",
+      "nicio valoare"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-010",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=\\ln x$, $f^{\\prime}(x)=1$ pentru:",
+    "variante": [
+      "$x=0$",
+      "$x=e$",
+      "nicio valoare",
+      "$x=1$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-011",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2-3x$, $f^{\\prime}(x)=1$ pentru:",
+    "variante": [
+      "$x=2$",
+      "$x=-2$",
+      "$x=1$",
+      "$x=3$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-012",
+    "tip": "simplu",
+    "intrebare": "Pașii pentru tangenta care trece printr-un punct $M(p;q)$:",
+    "variante": [
+      "egalăm $f(p)=q$ doar",
+      "derivăm de două ori",
+      "tangenta în punctul necunoscut $a$, înlocuim $M$ în ecuație, aflăm $a$, scriem ecuația",
+      "înlocuim $M$ în $f^{\\prime}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-013",
+    "tip": "simplu",
+    "intrebare": "Tangenta în punctul necunoscut de abscisă $a$ se scrie:",
+    "variante": [
+      "$y=f^{\\prime}(a)+f(a)(x-a)$",
+      "$y=f(a)(x-a)$",
+      "$y=f(a)+f^{\\prime}(a)(x-a)$",
+      "$y=f(x)+f^{\\prime}(a)(x-a)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-014",
+    "tip": "simplu",
+    "intrebare": "Înlocuind $M(p;q)$ în ecuația tangentei obținem:",
+    "variante": [
+      "$p=f(a)+f^{\\prime}(a)(q-a)$",
+      "$q=p\\cdot a$",
+      "$q=f(a)+f^{\\prime}(a)(p-a)$ (ecuație în $a$)",
+      "$q=f^{\\prime}(p)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-015",
+    "tip": "simplu",
+    "intrebare": "Dacă punctul $M$ este pe grafic, atunci tangenta în $M$ este:",
+    "variante": [
+      "infinit de tangente",
+      "nicio tangentă",
+      "două tangente mereu",
+      "una singură (cu $a$ abscisa lui $M$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-016",
+    "tip": "simplu",
+    "intrebare": "Dacă punctul $M$ este exterior graficului, pot exista:",
+    "variante": [
+      "exact două mereu",
+      "doar una mereu",
+      "infinit mereu",
+      "mai multe tangente (sau niciuna)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-017",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$, tangentele prin $A(0;-1)$ se obțin pentru:",
+    "variante": [
+      "$a=1$ doar",
+      "$a=\\pm1$",
+      "$a=\\pm2$",
+      "$a=0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-018",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$, tangenta prin $A(0;-1)$ cu $a=1$ este:",
+    "variante": [
+      "$y=-2x-1$",
+      "$y=2x+1$",
+      "$y=2x-1$",
+      "$y=x-1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-019",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$, tangenta prin $A(0;-1)$ cu $a=-1$ este:",
+    "variante": [
+      "$y=-x-1$",
+      "$y=2x-1$",
+      "$y=-2x+1$",
+      "$y=-2x-1$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-020",
+    "tip": "simplu",
+    "intrebare": "Ecuația generală a unei drepte cu panta $m$ prin $(x_0;y_0)$:",
+    "variante": [
+      "$y-y_0=m(x-x_0)$",
+      "$y=m(x-y_0)$",
+      "$y+y_0=m(x-x_0)$",
+      "$y-y_0=m(x+x_0)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "tangenta-pe-panta-si-prin-punct-021",
+    "tip": "multiplu",
+    "intrebare": "Care sunt corecte pentru unghiul tangentei cu $Ox$?",
+    "variante": [
+      "$60^\\circ\\Rightarrow m=\\sqrt{3}$",
+      "$45^\\circ\\Rightarrow m=1$",
+      "$60^\\circ\\Rightarrow m=\\frac{\\sqrt{3}}{3}$",
+      "$45^\\circ\\Rightarrow m=45$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  }
+]

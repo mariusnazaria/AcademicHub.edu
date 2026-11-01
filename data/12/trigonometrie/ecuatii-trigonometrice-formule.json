@@ -1,0 +1,293 @@
+[
+  {
+    "id": "ecuatii-trigonometrice-formule-001",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=a$ are soluțiile (pentru $|a|\\leq1$):",
+    "variante": [
+      "$x=\\pm\\arcsin a+2\\pi k$",
+      "$x=(-1)^k\\arcsin a+\\pi k$, $k\\in\\mathbb{Z}$",
+      "$x=(-1)^k\\arccos a+\\pi k$",
+      "$x=\\arcsin a+\\pi k$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-002",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=a$ are soluțiile (pentru $|a|\\leq1$):",
+    "variante": [
+      "$x=(-1)^k\\arccos a+\\pi k$",
+      "$x=\\arccos a+\\pi k$",
+      "$x=\\pm\\arcsin a+2\\pi k$",
+      "$x=\\pm\\arccos a+2\\pi k$, $k\\in\\mathbb{Z}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-003",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{tg}x=a$ are soluțiile:",
+    "variante": [
+      "$x=\\operatorname{arctg}a+\\pi k$, $k\\in\\mathbb{Z}$",
+      "$x=\\pm\\operatorname{arctg}a+2\\pi k$",
+      "$x=(-1)^k\\operatorname{arctg}a+\\pi k$",
+      "$x=\\operatorname{arctg}a+2\\pi k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-004",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{ctg}x=a$ are soluțiile:",
+    "variante": [
+      "$x=\\pm\\operatorname{arcctg}a+2\\pi k$",
+      "$x=(-1)^k\\operatorname{arcctg}a+\\pi k$",
+      "$x=\\operatorname{arcctg}a+2\\pi k$",
+      "$x=\\operatorname{arcctg}a+\\pi k$, $k\\in\\mathbb{Z}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-005",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=2$ are:",
+    "variante": [
+      "infinit de soluții",
+      "soluția $x=2$",
+      "soluția $x=\\frac{\\pi}{2}$",
+      "nicio soluție (valorile lui $\\sin$ sunt în $[-1,1]$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-006",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=-3$ are:",
+    "variante": [
+      "soluția $x=-3$",
+      "nicio soluție",
+      "infinit de soluții",
+      "soluția $x=\\pi$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-007",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=0$ are soluțiile:",
+    "variante": [
+      "$x=\\pi k$",
+      "$x=\\frac{\\pi}{2}+2\\pi k$",
+      "$x=2\\pi k$",
+      "$x=\\frac{\\pi}{2}+\\pi k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-008",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=1$ are soluțiile:",
+    "variante": [
+      "$x=2\\pi k$",
+      "$x=\\frac{\\pi}{2}+\\pi k$",
+      "$x=\\frac{\\pi}{2}+2\\pi k$",
+      "$x=\\pi k$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-009",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=-1$ are soluțiile:",
+    "variante": [
+      "$x=-\\frac{\\pi}{2}+\\pi k$",
+      "$x=\\frac{\\pi}{2}+2\\pi k$",
+      "$x=\\pi+2\\pi k$",
+      "$x=-\\frac{\\pi}{2}+2\\pi k$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-010",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=0$ are soluțiile:",
+    "variante": [
+      "$x=2\\pi k$",
+      "$x=\\frac{\\pi}{2}+\\pi k$",
+      "$x=\\pi k$",
+      "$x=\\frac{\\pi}{2}+2\\pi k$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-011",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=1$ are soluțiile:",
+    "variante": [
+      "$x=2\\pi k$",
+      "$x=\\pi k$",
+      "$x=\\frac{\\pi}{2}+2\\pi k$",
+      "$x=\\pi+2\\pi k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-012",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=-1$ are soluțiile:",
+    "variante": [
+      "$x=\\pi+2\\pi k$",
+      "$x=-\\pi+\\pi k$",
+      "$x=2\\pi k$",
+      "$x=\\pi k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-013",
+    "tip": "simplu",
+    "intrebare": "$\\sin x=\\frac{1}{2}$ are soluțiile:",
+    "variante": [
+      "$x=\\pm\\frac{\\pi}{6}+2\\pi k$",
+      "$x=\\frac{\\pi}{6}+\\pi k$",
+      "$x=(-1)^k\\frac{\\pi}{6}+\\pi k$",
+      "$x=(-1)^k\\frac{\\pi}{3}+\\pi k$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-014",
+    "tip": "simplu",
+    "intrebare": "$\\cos x=\\frac{1}{2}$ are soluțiile:",
+    "variante": [
+      "$x=(-1)^k\\frac{\\pi}{3}+\\pi k$",
+      "$x=\\pm\\frac{\\pi}{3}+2\\pi k$",
+      "$x=\\frac{\\pi}{3}+\\pi k$",
+      "$x=\\pm\\frac{\\pi}{6}+2\\pi k$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-015",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{tg}x=1$ are soluțiile:",
+    "variante": [
+      "$x=\\frac{\\pi}{2}+\\pi k$",
+      "$x=\\pm\\frac{\\pi}{4}+2\\pi k$",
+      "$x=\\frac{\\pi}{4}+\\pi k$",
+      "$x=\\frac{\\pi}{4}+2\\pi k$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-016",
+    "tip": "simplu",
+    "intrebare": "$\\arcsin\\frac{1}{2}=?$",
+    "variante": [
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{\\pi}{2}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-017",
+    "tip": "simplu",
+    "intrebare": "$\\arccos0=?$",
+    "variante": [
+      "$\\frac{\\pi}{4}$",
+      "$0$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-018",
+    "tip": "simplu",
+    "intrebare": "$\\operatorname{arctg}1=?$",
+    "variante": [
+      "$\\frac{\\pi}{2}$",
+      "$1$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-019",
+    "tip": "simplu",
+    "intrebare": "$\\arcsin(-a)=?$",
+    "variante": [
+      "$\\arccos a$",
+      "$\\arcsin a$",
+      "$\\pi-\\arcsin a$",
+      "$-\\arcsin a$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-020",
+    "tip": "simplu",
+    "intrebare": "$\\arccos(-a)=?$",
+    "variante": [
+      "$\\pi-\\arccos a$",
+      "$\\arccos a$",
+      "$-\\arccos a$",
+      "$\\frac{\\pi}{2}-\\arccos a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-021",
+    "tip": "simplu",
+    "intrebare": "Mulțimea de valori a lui $\\arcsin$ este:",
+    "variante": [
+      "$[0,\\pi]$",
+      "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+      "$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$",
+      "$[-1,1]$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-022",
+    "tip": "simplu",
+    "intrebare": "Mulțimea de valori a lui $\\arccos$ este:",
+    "variante": [
+      "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+      "$[0,\\pi]$",
+      "$(0,\\pi)$",
+      "$[-1,1]$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-023",
+    "tip": "simplu",
+    "intrebare": "Mulțimea de valori a lui $\\operatorname{arctg}$ este:",
+    "variante": [
+      "$[0,\\pi]$",
+      "$\\mathbb{R}$",
+      "$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$",
+      "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-formule-024",
+    "tip": "multiplu",
+    "intrebare": "Care soluții generale sunt corecte?",
+    "variante": [
+      "$\\cos x=a$: $x=(-1)^k\\arccos a+\\pi k$",
+      "$\\operatorname{tg}x=a$: $x=\\operatorname{arctg}a+\\pi k$",
+      "$\\cos x=a$: $x=\\pm\\arccos a+2\\pi k$",
+      "$\\sin x=a$: $x=\\pm\\arcsin a+2\\pi k$"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

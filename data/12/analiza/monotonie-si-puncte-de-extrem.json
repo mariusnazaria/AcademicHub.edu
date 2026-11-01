@@ -1,0 +1,305 @@
+[
+  {
+    "id": "monotonie-si-puncte-de-extrem-001",
+    "tip": "simplu",
+    "intrebare": "Pașii pentru monotonie și extreme locale:",
+    "variante": [
+      "calculăm $f^{\\prime}(x)$, rezolvăm $f^{\\prime}(x)=0$, completăm tabelul",
+      "calculăm $f^{\\prime\\prime}$ și o egalăm cu $1$",
+      "egalăm $f$ cu $0$ doar",
+      "DVA, ridicăm la pătrat"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-002",
+    "tip": "simplu",
+    "intrebare": "Dacă $f^{\\prime}(x)>0$ pe un interval, atunci $f$ este:",
+    "variante": [
+      "descrescătoare",
+      "crescătoare",
+      "constantă",
+      "convexă"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-003",
+    "tip": "simplu",
+    "intrebare": "Dacă $f^{\\prime}(x)<0$ pe un interval, atunci $f$ este:",
+    "variante": [
+      "crescătoare",
+      "constantă",
+      "descrescătoare",
+      "concavă"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-004",
+    "tip": "simplu",
+    "intrebare": "Punct de maxim local: $f^{\\prime}$ își schimbă semnul:",
+    "variante": [
+      "din $+$ în $-$",
+      "din $-$ în $+$",
+      "din $0$ în $+$",
+      "nu își schimbă semnul"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-005",
+    "tip": "simplu",
+    "intrebare": "Punct de minim local: $f^{\\prime}$ își schimbă semnul:",
+    "variante": [
+      "nu își schimbă semnul",
+      "din $+$ în $-$",
+      "din $-$ în $+$",
+      "din $0$ în $-$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-006",
+    "tip": "simplu",
+    "intrebare": "Dacă $f^{\\prime}$ nu își schimbă semnul în $x_0$, atunci $x_0$ este:",
+    "variante": [
+      "punct de maxim",
+      "nu este punct de extrem",
+      "punct de inflexiune mereu",
+      "punct de minim"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-007",
+    "tip": "simplu",
+    "intrebare": "Punctele în care $f^{\\prime}(x)=0$ se numesc:",
+    "variante": [
+      "puncte de inflexiune sigur",
+      "zerouri ale lui $f$",
+      "asimptote",
+      "puncte critice (candidate la extrem)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-008",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$, punctul $x=0$ este:",
+    "variante": [
+      "minim local (și global)",
+      "maxim local",
+      "inflexiune",
+      "nu este extrem"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-009",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=-x^2$, punctul $x=0$ este:",
+    "variante": [
+      "minim local",
+      "maxim local (și global)",
+      "nu este extrem",
+      "inflexiune"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-010",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^3$, punctul $x=0$ este:",
+    "variante": [
+      "minim local",
+      "maxim global",
+      "maxim local",
+      "nu este extrem ($f$ este crescătoare)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-011",
+    "tip": "simplu",
+    "intrebare": "$f(x)=x^2-4x$: $f^{\\prime}(x)=0$ pentru:",
+    "variante": [
+      "$x=2$ (minim)",
+      "$x=-2$ (maxim)",
+      "$x=4$ (minim)",
+      "$x=0$ (maxim)"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-012",
+    "tip": "simplu",
+    "intrebare": "$f(x)=x^3-3x$: punctele critice sunt:",
+    "variante": [
+      "$x=3$",
+      "$x=\\pm3$",
+      "$x=\\pm1$",
+      "$x=0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-013",
+    "tip": "simplu",
+    "intrebare": "$f(x)=x^3-3x$: în $x=-1$ avem:",
+    "variante": [
+      "inflexiune",
+      "nimic",
+      "minim local",
+      "maxim local"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-014",
+    "tip": "simplu",
+    "intrebare": "$f(x)=x^3-3x$: în $x=1$ avem:",
+    "variante": [
+      "nimic",
+      "inflexiune",
+      "maxim local",
+      "minim local"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-015",
+    "tip": "simplu",
+    "intrebare": "$f(x)=e^x$ este:",
+    "variante": [
+      "constantă",
+      "are un minim în $0$",
+      "crescătoare pe $\\mathbb{R}$ (fără extreme)",
+      "descrescătoare"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-016",
+    "tip": "simplu",
+    "intrebare": "$f(x)=\\ln x$ este:",
+    "variante": [
+      "constantă",
+      "are maxim în $1$",
+      "descrescătoare",
+      "crescătoare pe $(0,+\\infty)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-017",
+    "tip": "simplu",
+    "intrebare": "$f(x)=\\frac{1}{x}$ pe $(0,+\\infty)$ este:",
+    "variante": [
+      "crescătoare",
+      "constantă",
+      "are minim în $1$",
+      "descrescătoare"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-018",
+    "tip": "simplu",
+    "intrebare": "Punctele de extrem GLOBAL se cer când domeniul este:",
+    "variante": [
+      "doar $(0,+\\infty)$",
+      "închis, $[a;b]$ (cu capete)",
+      "un interval deschis mereu",
+      "toată axa $\\mathbb{R}$ mereu"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-019",
+    "tip": "simplu",
+    "intrebare": "La extreme globale pe $[a;b]$, calculăm valoarea lui $f$ în:",
+    "variante": [
+      "capete și în punctele critice din interval",
+      "doar în capete",
+      "doar în punctele critice",
+      "în $x=0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-020",
+    "tip": "simplu",
+    "intrebare": "Maximul global este:",
+    "variante": [
+      "prima valoare",
+      "media valorilor",
+      "cea mai mică valoare",
+      "cea mai mare dintre valorile calculate"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-021",
+    "tip": "simplu",
+    "intrebare": "Minimul global este:",
+    "variante": [
+      "cea mai mare valoare",
+      "media valorilor",
+      "prima valoare",
+      "cea mai mică dintre valorile calculate"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-022",
+    "tip": "simplu",
+    "intrebare": "Un punct critic care nu aparține intervalului $[a;b]$:",
+    "variante": [
+      "devine capăt",
+      "se folosește oricum",
+      "se înmulțește cu $-1$",
+      "se ignoră la extremele globale pe $[a;b]$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-023",
+    "tip": "simplu",
+    "intrebare": "În tabel, săgeata $\\nearrow$ înseamnă:",
+    "variante": [
+      "$f$ convexă",
+      "$f$ descrescătoare",
+      "$f$ crescătoare",
+      "$f$ concavă"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-024",
+    "tip": "simplu",
+    "intrebare": "Tabelul de variație are rândurile:",
+    "variante": [
+      "$x$, $f^{\\prime\\prime}(x)$, $f(x)$",
+      "$x$, $f^{\\prime}(x)$, $f(x)$",
+      "$f(x)$ doar",
+      "$x$ doar"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-025",
+    "tip": "multiplu",
+    "intrebare": "Care afirmații sunt adevărate?",
+    "variante": [
+      "maxim local: $f^{\\prime}$ trece de la $-$ la $+$",
+      "minim local: $f^{\\prime}$ trece de la $-$ la $+$",
+      "maxim local: $f^{\\prime}$ trece de la $+$ la $-$",
+      "$f^{\\prime}(x_0)=0$ implică mereu extrem"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "derivate-formule-de-baza-001",
+    "tip": "simplu",
+    "intrebare": "$c^{\\prime}=?$ ($c$ constantă)",
+    "variante": [
+      "$x$",
+      "$0$",
+      "$1$",
+      "$c$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-002",
+    "tip": "simplu",
+    "intrebare": "$x^{\\prime}=?$",
+    "variante": [
+      "$x$",
+      "$0$",
+      "$1$",
+      "$2x$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "derivate-formule-de-baza-003",
+    "tip": "simplu",
+    "intrebare": "$(x^n)^{\\prime}=?$",
+    "variante": [
+      "$nx^{n}$",
+      "$x^{n-1}$",
+      "$(n-1)x^{n}$",
+      "$nx^{n-1}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-004",
+    "tip": "simplu",
+    "intrebare": "$(x^7)^{\\prime}=?$",
+    "variante": [
+      "$7x^7$",
+      "$7x^6$",
+      "$6x^7$",
+      "$x^6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-005",
+    "tip": "simplu",
+    "intrebare": "$(x^2)^{\\prime}=?$",
+    "variante": [
+      "$x$",
+      "$x^2$",
+      "$2x$",
+      "$2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "derivate-formule-de-baza-006",
+    "tip": "simplu",
+    "intrebare": "$(5)^{\\prime}=?$",
+    "variante": [
+      "$0$",
+      "$1$",
+      "$5x$",
+      "$5$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "derivate-formule-de-baza-007",
+    "tip": "simplu",
+    "intrebare": "$(3x)^{\\prime}=?$",
+    "variante": [
+      "$x$",
+      "$3$",
+      "$0$",
+      "$3x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-008",
+    "tip": "simplu",
+    "intrebare": "$(\\sqrt{x})^{\\prime}=?$",
+    "variante": [
+      "$\\frac{2}{\\sqrt{x}}$",
+      "$\\frac{1}{\\sqrt{x}}$",
+      "$2\\sqrt{x}$",
+      "$\\frac{1}{2\\sqrt{x}}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-009",
+    "tip": "simplu",
+    "intrebare": "$(\\sqrt[n]{x})^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{\\sqrt[n]{x^{n-1}}}$",
+      "$\\frac{n}{\\sqrt[n]{x}}$",
+      "$n\\sqrt[n]{x^{n-1}}$",
+      "$\\frac{1}{n\\sqrt[n]{x^{n-1}}}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-010",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\frac{1}{x}\\right)^{\\prime}=?$",
+    "variante": [
+      "$\\ln x$",
+      "$-\\frac{1}{x}$",
+      "$-\\frac{1}{x^2}$",
+      "$\\frac{1}{x^2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "derivate-formule-de-baza-011",
+    "tip": "simplu",
+    "intrebare": "$(e^x)^{\\prime}=?$",
+    "variante": [
+      "$e^{x-1}$",
+      "$1$",
+      "$e^x$",
+      "$xe^{x-1}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "derivate-formule-de-baza-012",
+    "tip": "simplu",
+    "intrebare": "$(a^x)^{\\prime}=?$",
+    "variante": [
+      "$xa^{x-1}$",
+      "$a^x\\ln a$",
+      "$a^x$",
+      "$\\frac{a^x}{\\ln a}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-013",
+    "tip": "simplu",
+    "intrebare": "$(\\ln x)^{\\prime}=?$",
+    "variante": [
+      "$x$",
+      "$\\frac{1}{x}$",
+      "$-\\frac{1}{x}$",
+      "$\\ln\\frac{1}{x}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-014",
+    "tip": "simplu",
+    "intrebare": "$(\\log_a x)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{x\\ln a}$",
+      "$\\frac{1}{a\\ln x}$",
+      "$\\frac{1}{x}$",
+      "$\\frac{\\ln a}{x}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "derivate-formule-de-baza-015",
+    "tip": "simplu",
+    "intrebare": "$(\\sin x)^{\\prime}=?$",
+    "variante": [
+      "$\\cos x$",
+      "$-\\cos x$",
+      "$\\sin x$",
+      "$-\\sin x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "derivate-formule-de-baza-016",
+    "tip": "simplu",
+    "intrebare": "$(\\cos x)^{\\prime}=?$",
+    "variante": [
+      "$-\\cos x$",
+      "$\\sin x$",
+      "$\\cos x$",
+      "$-\\sin x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-017",
+    "tip": "simplu",
+    "intrebare": "$(\\operatorname{tg}x)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{\\sin^2x}$",
+      "$\\operatorname{ctg}x$",
+      "$-\\frac{1}{\\cos^2x}$",
+      "$\\frac{1}{\\cos^2x}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-018",
+    "tip": "simplu",
+    "intrebare": "$(\\operatorname{ctg}x)^{\\prime}=?$",
+    "variante": [
+      "$-\\frac{1}{\\sin^2x}$",
+      "$\\frac{1}{\\sin^2x}$",
+      "$-\\frac{1}{\\cos^2x}$",
+      "$-\\operatorname{tg}x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "derivate-formule-de-baza-019",
+    "tip": "simplu",
+    "intrebare": "$(\\arcsin x)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{1+x^2}$",
+      "$-\\frac{1}{\\sqrt{1-x^2}}$",
+      "$\\frac{1}{\\sqrt{1+x^2}}$",
+      "$\\frac{1}{\\sqrt{1-x^2}}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-020",
+    "tip": "simplu",
+    "intrebare": "$(\\arccos x)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{\\sqrt{1-x^2}}$",
+      "$-\\frac{1}{1+x^2}$",
+      "$-\\frac{1}{\\sqrt{1-x^2}}$",
+      "$\\frac{1}{x^2+1}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "derivate-formule-de-baza-021",
+    "tip": "simplu",
+    "intrebare": "$(\\operatorname{arctg}x)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{x^2-1}$",
+      "$\\frac{1}{x^2+1}$",
+      "$\\frac{1}{\\sqrt{1-x^2}}$",
+      "$-\\frac{1}{x^2+1}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-022",
+    "tip": "simplu",
+    "intrebare": "$(\\operatorname{arcctg}x)^{\\prime}=?$",
+    "variante": [
+      "$-\\frac{1}{\\sqrt{1-x^2}}$",
+      "$-\\frac{1}{x^2+1}$",
+      "$\\frac{1}{x^2-1}$",
+      "$\\frac{1}{x^2+1}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-023",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\sqrt{x^2+a^2}\\right)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{1}{2\\sqrt{x^2+a^2}}$",
+      "$\\frac{x}{\\sqrt{x^2-a^2}}$",
+      "$-\\frac{x}{\\sqrt{x^2+a^2}}$",
+      "$\\frac{x}{\\sqrt{x^2+a^2}}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "derivate-formule-de-baza-024",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\sqrt{a^2-x^2}\\right)^{\\prime}=?$",
+    "variante": [
+      "$\\frac{-x}{\\sqrt{a^2-x^2}}$",
+      "$\\frac{-x}{\\sqrt{a^2+x^2}}$",
+      "$\\frac{x}{\\sqrt{a^2-x^2}}$",
+      "$\\frac{1}{2\\sqrt{a^2-x^2}}$"
+    ],
+    "corect": 0
+  }
+]

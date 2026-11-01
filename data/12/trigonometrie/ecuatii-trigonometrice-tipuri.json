@@ -1,0 +1,293 @@
+[
+  {
+    "id": "ecuatii-trigonometrice-tipuri-001",
+    "tip": "simplu",
+    "intrebare": "$2\\sin^2x+5\\sin x+2=0$: substituția este:",
+    "variante": [
+      "$t=\\sin x$, cu $|t|\\leq1$",
+      "$t=2x$",
+      "$t=\\sin^2x$ cu $t<0$",
+      "$t=\\cos x$ mereu"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-002",
+    "tip": "simplu",
+    "intrebare": "La $3\\cos^2x+10\\cos x+3=0$, cu $t=\\cos x$ se obține $t=-3$ sau $t=-\\frac{1}{3}$. Ce faci cu $t=-3$?",
+    "variante": [
+      "o transformi în $+3$",
+      "o respingi ($|t|\\leq1$), păstrezi $t=-\\frac{1}{3}$",
+      "o păstrezi",
+      "o împarți la $3$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-003",
+    "tip": "simplu",
+    "intrebare": "La substituția $t=\\sin x$ sau $t=\\cos x$ trebuie ca soluțiile $t$ să verifice:",
+    "variante": [
+      "$t\\geq0$ doar",
+      "$-1\\leq t\\leq1$",
+      "$t=0$",
+      "$t>1$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-004",
+    "tip": "simplu",
+    "intrebare": "Ecuația $a\\sin^2x+b\\sin x\\cos x+c\\cos^2x=0$ se numește:",
+    "variante": [
+      "omogenă; se împarte la $\\cos^2x$ și se obține o ecuație în $\\operatorname{tg}x$",
+      "exponențială",
+      "liniară; se derivează",
+      "irațională; se ridică la pătrat"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-005",
+    "tip": "simplu",
+    "intrebare": "$\\sin x+\\cos x=0$: împărțim la $\\cos x$ și obținem:",
+    "variante": [
+      "$\\operatorname{ctg}x=0$",
+      "$\\operatorname{tg}x=1$",
+      "$\\sin x=-1$",
+      "$\\operatorname{tg}x=-1$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-006",
+    "tip": "simplu",
+    "intrebare": "$\\sin x+\\cos x=0$ are soluțiile:",
+    "variante": [
+      "$x=\\frac{\\pi}{2}+\\pi k$",
+      "$x=-\\frac{\\pi}{4}+\\pi k$",
+      "$x=\\frac{\\pi}{4}+\\pi k$",
+      "$x=-\\frac{\\pi}{4}+2\\pi k$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-007",
+    "tip": "simplu",
+    "intrebare": "La $\\operatorname{tg}x+3\\operatorname{ctg}x=4$ folosim:",
+    "variante": [
+      "$\\operatorname{ctg}x=\\frac{1}{\\operatorname{tg}x}$ și substituția $t=\\operatorname{tg}x$ (cu $t\\neq0$)",
+      "$t=\\sin x\\cos x$",
+      "derivarea",
+      "$\\operatorname{ctg}x=\\operatorname{tg}x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-008",
+    "tip": "simplu",
+    "intrebare": "La ecuațiile cu $\\operatorname{tg}x$ și $\\operatorname{ctg}x$ DVA este:",
+    "variante": [
+      "nu avem DVA",
+      "$\\sin x\\neq0$ și $\\cos x\\neq0$",
+      "$\\sin x>0$",
+      "$\\cos x=0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-009",
+    "tip": "simplu",
+    "intrebare": "Dacă ecuația conține $\\sin2x$, primul pas poate fi:",
+    "variante": [
+      "$\\sin2x=2\\sin x$",
+      "logaritmarea",
+      "$\\sin2x=2\\sin x\\cos x$ și scoaterea factorului comun",
+      "derivarea"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-010",
+    "tip": "simplu",
+    "intrebare": "La $\\sqrt{3}\\cos x-\\sin2x=0$ scoatem factor comun:",
+    "variante": [
+      "$\\sin2x$",
+      "$\\sin x$",
+      "$\\cos x$",
+      "$\\sqrt{3}$ doar"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-011",
+    "tip": "simplu",
+    "intrebare": "La $\\frac{\\sin x+\\cos x}{\\sqrt{2x-x^2+3}}=0$ DVA este:",
+    "variante": [
+      "$2x-x^2+3\\geq0$",
+      "$2x-x^2+3<0$",
+      "$2x-x^2+3>0$",
+      "$x\\neq0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-012",
+    "tip": "simplu",
+    "intrebare": "Fracția $\\frac{A}{\\sqrt{B}}=0$ se rezolvă prin:",
+    "variante": [
+      "$A=B$",
+      "$A=0$ și $B<0$",
+      "$B=0$",
+      "$A=0$ și $B>0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-013",
+    "tip": "simplu",
+    "intrebare": "La $\\cos\\left(\\frac{\\pi x}{4}\\right)\\sqrt{3x-x^2}=0$ DVA este:",
+    "variante": [
+      "$3x-x^2\\geq0$",
+      "$x\\neq0$",
+      "$3x-x^2>0$ doar",
+      "$3x-x^2\\leq0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-014",
+    "tip": "simplu",
+    "intrebare": "Produsul $A\\cdot B=0$ se rezolvă prin:",
+    "variante": [
+      "$A=B$",
+      "$A=0$ sau $B=0$ (cu verificarea DVA)",
+      "$A=1$ și $B=1$",
+      "$A+B=0$ doar"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-015",
+    "tip": "simplu",
+    "intrebare": "La ecuațiile cu condiția $|x|<2$ după aflarea soluțiilor generale:",
+    "variante": [
+      "le păstrăm pe toate",
+      "le înmulțim cu $2$",
+      "le ridicăm la pătrat",
+      "alegem doar soluțiile care aparțin intervalului"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-016",
+    "tip": "simplu",
+    "intrebare": "$|x|<2$ înseamnă:",
+    "variante": [
+      "$x<2$",
+      "$x\\in[-2,2]$",
+      "$x\\in(-\\infty,-2)\\cup(2,+\\infty)$",
+      "$x\\in(-2,2)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-017",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\frac{1}{9}\\right)^{\\sin^2x}=\\frac{1}{\\sqrt{3}}$: aducem la aceeași bază și obținem:",
+    "variante": [
+      "$\\sin^2x=\\frac{1}{2}$",
+      "$\\sin^2x=\\frac{1}{3}$",
+      "$\\sin x=2$",
+      "$\\sin^2x=\\frac{1}{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-018",
+    "tip": "simplu",
+    "intrebare": "La $\\sin^2x=\\cos x$ (de ex.) folosim $\\sin^2x=?$ pentru a avea o singură funcție:",
+    "variante": [
+      "$1-\\cos x$",
+      "$\\cos^2x-1$",
+      "$1+\\cos^2x$",
+      "$1-\\cos^2x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-019",
+    "tip": "simplu",
+    "intrebare": "La ecuațiile cu $\\sin^2x$ și $\\cos x$ trecem totul la:",
+    "variante": [
+      "logaritm",
+      "derivată",
+      "o singură funcție ($\\cos x$) cu $\\sin^2x=1-\\cos^2x$",
+      "$\\operatorname{tg}x$ mereu"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-020",
+    "tip": "simplu",
+    "intrebare": "$\\sin x+\\sin3x$ se transformă prin formula sumei în:",
+    "variante": [
+      "$2\\cos2x\\cos x$",
+      "$\\sin4x$",
+      "$2\\sin2x\\cos x$",
+      "$2\\sin x\\cos2x$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-021",
+    "tip": "simplu",
+    "intrebare": "La $5\\sin^2x-2\\cos^2x-3\\sin x\\cos x=0$ împărțim la $\\cos^2x$ și obținem:",
+    "variante": [
+      "$5\\operatorname{tg}^2x-3\\operatorname{tg}x-2=0$",
+      "$5-2-3=0$",
+      "$5\\operatorname{tg}^2x+3\\operatorname{tg}x-2=0$",
+      "$5\\operatorname{tg}^2x-2\\operatorname{tg}x-3=0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-022",
+    "tip": "simplu",
+    "intrebare": "$2\\sin^2x+3\\cos^2x$ se poate scrie ca:",
+    "variante": [
+      "$3+\\sin^2x$",
+      "$5$",
+      "$2+\\sin^2x$",
+      "$2+\\cos^2x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-023",
+    "tip": "simplu",
+    "intrebare": "La ecuații de forma $\\sin2x+5\\cos^2x=4$ scriem $4=?$ pentru a obține omogenă:",
+    "variante": [
+      "$4\\sin^2x$",
+      "$4\\cos2x$",
+      "$2\\sin2x$",
+      "$4(\\sin^2x+\\cos^2x)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-trigonometrice-tipuri-024",
+    "tip": "multiplu",
+    "intrebare": "Care sunt etape corecte la ecuații trigonometrice?",
+    "variante": [
+      "verificăm DVA",
+      "aducem la o singură funcție și facem substituția",
+      "ignorăm intervalul dat",
+      "ridicăm mereu la pătrat"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  }
+]

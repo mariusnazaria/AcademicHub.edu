@@ -331,6 +331,109 @@
               "fisier": "data/12/integrale/metoda-substitutiei-teorie.json"
             }
           ]
+        },
+        {
+          "id": "trigonometrie",
+          "nume": "Trigonometrie",
+          "colectii": [
+            {
+              "id": "identitati-trigonometrice",
+              "nume": "Identități trigonometrice",
+              "fisier": "data/12/trigonometrie/identitati-trigonometrice.json"
+            },
+            {
+              "id": "tabelul-de-valori-trigonometrice",
+              "nume": "Tabelul de valori trigonometrice",
+              "fisier": "data/12/trigonometrie/tabelul-de-valori-trigonometrice.json"
+            },
+            {
+              "id": "cercul-trigonometric",
+              "nume": "Cercul trigonometric, cadrane și reducere",
+              "fisier": "data/12/trigonometrie/cercul-trigonometric.json"
+            },
+            {
+              "id": "formule-de-adunare-si-calcul-cu-sin-cos",
+              "nume": "Formule de adunare, unghi dublu și calcul din sin/cos dat",
+              "fisier": "data/12/trigonometrie/formule-de-adunare-si-calcul-cu-sin-cos.json"
+            },
+            {
+              "id": "ecuatii-trigonometrice-formule",
+              "nume": "Ecuații trigonometrice: formulele soluțiilor",
+              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-formule.json"
+            },
+            {
+              "id": "ecuatii-trigonometrice-tipuri",
+              "nume": "Ecuații trigonometrice: tipuri și pași",
+              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-tipuri.json"
+            }
+          ]
+        },
+        {
+          "id": "analiza",
+          "nume": "Analiză",
+          "colectii": [
+            {
+              "id": "derivate-formule-de-baza",
+              "nume": "Derivate: formulele funcțiilor elementare",
+              "fisier": "data/12/analiza/derivate-formule-de-baza.json"
+            },
+            {
+              "id": "reguli-de-derivare",
+              "nume": "Reguli de derivare: sumă, produs, cât, compusă",
+              "fisier": "data/12/analiza/reguli-de-derivare.json"
+            },
+            {
+              "id": "monotonie-si-puncte-de-extrem",
+              "nume": "Monotonie și puncte de extrem",
+              "fisier": "data/12/analiza/monotonie-si-puncte-de-extrem.json"
+            },
+            {
+              "id": "convexitate-si-puncte-de-inflexiune",
+              "nume": "Convexitate și puncte de inflexiune",
+              "fisier": "data/12/analiza/convexitate-si-puncte-de-inflexiune.json"
+            },
+            {
+              "id": "tangenta-in-punct-si-pante",
+              "nume": "Ecuația tangentei: în punct, panta și unghiul",
+              "fisier": "data/12/analiza/tangenta-in-punct-si-pante.json"
+            },
+            {
+              "id": "tangenta-pe-panta-si-prin-punct",
+              "nume": "Ecuația tangentei: din pantă și prin punct dat",
+              "fisier": "data/12/analiza/tangenta-pe-panta-si-prin-punct.json"
+            },
+            {
+              "id": "limite-la-infinit",
+              "nume": "Limite la infinit: raționale și cu radicali",
+              "fisier": "data/12/analiza/limite-la-infinit.json"
+            },
+            {
+              "id": "limite-in-punct-si-lhospital",
+              "nume": "Limite într-un punct, nedeterminări și l’Hospital",
+              "fisier": "data/12/analiza/limite-in-punct-si-lhospital.json"
+            },
+            {
+              "id": "asimptote",
+              "nume": "Asimptote: orizontală, verticală, oblică",
+              "fisier": "data/12/analiza/asimptote.json"
+            }
+          ]
+        },
+        {
+          "id": "combinatorica",
+          "nume": "Combinatorică",
+          "colectii": [
+            {
+              "id": "combinatorica-factorial-aranjamente-combinari",
+              "nume": "Factorial, permutări, aranjamente, combinări",
+              "fisier": "data/12/combinatorica/combinatorica-factorial-aranjamente-combinari.json"
+            },
+            {
+              "id": "binomul-lui-newton",
+              "nume": "Binomul lui Newton",
+              "fisier": "data/12/combinatorica/binomul-lui-newton.json"
+            }
+          ]
         }
       ]
     }
