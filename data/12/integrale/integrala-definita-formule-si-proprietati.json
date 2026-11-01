@@ -1,371 +1,308 @@
 [
-  {
-    "id": "integrala-definita-formule-si-proprietati-001",
-    "tip": "simplu",
-    "intrebare": "Formula Leibniz–Newton: $\\int_a^b f(x)\\,dx = ?$",
-    "variante": [
-      "$f(b)-f(a)$",
-      "$F(a)-F(b)$",
-      "$F(b)-F(a)$",
-      "$F(b)+F(a)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-002",
-    "tip": "simplu",
-    "intrebare": "În formula Leibniz–Newton, $F$ este:",
-    "variante": [
-      "inversa lui $f$",
-      "o primitivă a lui $f$",
-      "o constantă",
-      "derivata lui $f$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-003",
-    "tip": "simplu",
-    "intrebare": "Dacă $f\\geq 0$ pe $[a,b]$, atunci $\\int_a^b f(x)\\,dx$ reprezintă:",
-    "variante": [
-      "aria de sub grafic",
-      "lungimea graficului",
-      "panta graficului",
-      "valoarea maximă a lui $f$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-004",
-    "tip": "simplu",
-    "intrebare": "Constanta $C$ într-o integrală definită:",
-    "variante": [
-      "se dublează",
-      "rămâne mereu",
-      "devine $0$ doar dacă $a=0$",
-      "dispare (se reduce în $F(b)-F(a)$)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-005",
-    "tip": "simplu",
-    "intrebare": "Suma integrală $\\sigma$ este:",
-    "variante": [
-      "$\\sum \\Delta x_k^2$",
-      "$\\prod f(\\xi_k)$",
-      "$\\sum f^{\\prime}(x_k)$",
-      "$\\sum f(\\xi_k)\\Delta x_k$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-006",
-    "tip": "simplu",
-    "intrebare": "Integrala definită este limita sumelor integrale când:",
-    "variante": [
-      "$a\\to b$ mereu",
-      "$x\\to\\infty$",
-      "norma diviziunii $\\|T\\|\\to 0$",
-      "$f\\to 0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-007",
-    "tip": "simplu",
-    "intrebare": "Care funcții sunt sigur integrabile pe $[a,b]$?",
-    "variante": [
-      "orice funcție",
-      "cele continue (și cele monotone)",
-      "doar polinoamele",
-      "doar funcțiile pozitive"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-008",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^2 x^2\\,dx = ?$",
-    "variante": [
-      "$\\frac{8}{3}$",
-      "$\\frac{2}{3}$",
-      "$8$",
-      "$\\frac{4}{3}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-009",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^1 x\\,dx = ?$",
-    "variante": [
-      "$\\frac{1}{2}$",
-      "$1$",
-      "$0$",
-      "$\\frac{1}{3}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-010",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^1 1\\,dx = ?$",
-    "variante": [
-      "$\\frac{1}{2}$",
-      "$2$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-011",
-    "tip": "simplu",
-    "intrebare": "$\\int_a^a f(x)\\,dx = ?$",
-    "variante": [
-      "$0$",
-      "$f(a)$",
-      "$1$",
-      "$F(a)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-012",
-    "tip": "simplu",
-    "intrebare": "$\\int_b^a f(x)\\,dx = ?$",
-    "variante": [
-      "$0$",
-      "$\\int_a^b f(x)\\,dx$",
-      "$-\\int_a^b f(x)\\,dx$",
-      "$\\frac{1}{\\int_a^b f}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-013",
-    "tip": "simplu",
-    "intrebare": "Aditivitatea: $\\int_a^b f(x)\\,dx = ?$ (cu $c\\in[a,b]$)",
-    "variante": [
-      "$\\int_a^c f(x)\\,dx-\\int_c^b f(x)\\,dx$",
-      "$\\int_c^a f(x)\\,dx+\\int_c^b f(x)\\,dx$",
-      "$\\int_a^c f(x)\\,dx+\\int_c^b f(x)\\,dx$",
-      "$\\int_a^c f(x)\\,dx\\cdot\\int_c^b f(x)\\,dx$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-014",
-    "tip": "simplu",
-    "intrebare": "Liniaritatea: $\\int_a^b(\\lambda f+\\mu g)\\,dx = ?$",
-    "variante": [
-      "$\\lambda\\int_a^b f\\,dx+\\mu\\int_a^b g\\,dx$",
-      "$\\int_a^b f\\,dx+\\lambda\\mu$",
-      "$\\lambda\\mu\\int_a^b fg\\,dx$",
-      "$(\\lambda+\\mu)\\int_a^b f\\,dx$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-015",
-    "tip": "simplu",
-    "intrebare": "Monotonia: dacă $f\\leq g$ pe $[a,b]$, atunci:",
-    "variante": [
-      "$\\int_a^b f=\\int_a^b g$",
-      "$\\int_a^b f\\geq\\int_a^b g$",
-      "$\\int_a^b f\\cdot\\int_a^b g=0$",
-      "$\\int_a^b f\\leq\\int_a^b g$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-016",
-    "tip": "simplu",
-    "intrebare": "Inegalitatea modulului: $\\left|\\int_a^b f\\,dx\\right|\\ \\ ?\\ \\int_a^b|f|\\,dx$",
-    "variante": [
-      "$\\leq$",
-      "$\\geq$",
-      "$=$",
-      "$<$ strict mereu"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-017",
-    "tip": "simplu",
-    "intrebare": "Dacă $m\\leq f\\leq M$ pe $[a,b]$, atunci $\\int_a^b f\\,dx$ se află între:",
-    "variante": [
-      "$\\frac{m}{b-a}$ și $\\frac{M}{b-a}$",
-      "$m+(b-a)$ și $M+(b-a)$",
-      "$m$ și $M$",
-      "$m(b-a)$ și $M(b-a)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-018",
-    "tip": "simplu",
-    "intrebare": "Valoarea medie a lui $f$ pe $[a,b]$ este:",
-    "variante": [
-      "$M[f]=(b-a)\\int_a^b f(x)\\,dx$",
-      "$M[f]=\\frac{1}{b-a}\\int_a^b f(x)\\,dx$",
-      "$M[f]=\\frac{f(a)+f(b)}{2}$ mereu",
-      "$M[f]=\\int_a^b f^{\\prime}(x)\\,dx$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-019",
-    "tip": "simplu",
-    "intrebare": "Teorema de medie: dacă $f$ este continuă pe $[a,b]$, atunci există $c\\in[a,b]$ cu:",
-    "variante": [
-      "$f(c)=0$",
-      "$f^{\\prime}(c)=M[f]$",
-      "$f(c)=M[f]$",
-      "$c=\\frac{a+b}{2}$ mereu"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-020",
-    "tip": "simplu",
-    "intrebare": "Integrarea prin părți la integrala definită: $\\int_a^b u\\,dv = ?$",
-    "variante": [
-      "$u(b)-u(a)-\\int_a^b v\\,du$",
-      "$u(b)v(b)+u(a)v(a)-\\int_a^b v\\,du$",
-      "$uv-\\int_a^b v\\,du$",
-      "$u(b)v(b)-u(a)v(a)-\\int_a^b v\\,du$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-021",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^1 2x(x^2+1)^3\\,dx = ?$ (cu $u=x^2+1$, limitele devin $1$ și $2$)",
-    "variante": [
-      "$\\frac{1}{4}$",
-      "$15$",
-      "$\\frac{16}{4}$",
-      "$\\frac{15}{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-022",
-    "tip": "simplu",
-    "intrebare": "$\\int_{-1}^{1} x\\,dx = ?$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$-1$",
-      "$2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-023",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^{\\pi}\\sin x\\,dx = ?$",
-    "variante": [
-      "$0$",
-      "$-2$",
-      "$1$",
-      "$2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-024",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^{\\pi/2}\\cos x\\,dx = ?$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$-1$",
-      "$\\frac{\\pi}{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-025",
-    "tip": "simplu",
-    "intrebare": "$\\int_1^e \\frac{1}{x}\\,dx = ?$",
-    "variante": [
-      "$0$",
-      "$e-1$",
-      "$e$",
-      "$1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-026",
-    "tip": "simplu",
-    "intrebare": "$\\int_0^1 e^x\\,dx = ?$",
-    "variante": [
-      "$1-e$",
-      "$e$",
-      "$e-1$",
-      "$e+1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-027",
-    "tip": "simplu",
-    "intrebare": "Pașii calculului unei integrale definite sunt:",
-    "variante": [
-      "aflăm doar $F(b)$",
-      "derivăm $f$, adunăm $F(a)$ și $F(b)$",
-      "aflăm $F$, calculăm $F(b)$, calculăm $F(a)$, scădem",
-      "aflăm $F$, calculăm $F(b)+F(a)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-028",
-    "tip": "multiplu",
-    "intrebare": "Care dintre acestea sunt proprietăți ale integralei definite?",
-    "variante": [
-      "$\\int_b^a f=-\\int_a^b f$",
-      "$\\int_a^b f=F(a)-F(b)$",
-      "$\\int_a^b fg=\\int_a^b f\\cdot\\int_a^b g$",
-      "$\\int_a^a f=0$"
-    ],
-    "corect": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-029",
-    "tip": "multiplu",
-    "intrebare": "Care funcții sunt integrabile pe $[a,b]$?",
-    "variante": [
-      "orice funcție nemărginită",
-      "doar funcțiile constante",
-      "funcțiile continue",
-      "funcțiile monotone"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "integrala-definita-formule-si-proprietati-030",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt adevărate pentru substituție la integrala definită?",
-    "variante": [
-      "limitele rămân neschimbate",
-      "rezultatul conține $+C$",
-      "nu mai revenim la variabila $x$",
-      "limitele se schimbă"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  }
+ {
+  "id": "integrala-definita-formule-si-proprietati-001",
+  "tip": "simplu",
+  "intrebare": "Formula Leibniz–Newton: $\\int_a^b f(x)\\,dx = ?$",
+  "variante": [
+   "$f(b)-f(a)$",
+   "$F(a)-F(b)$",
+   "$F(b)-F(a)$",
+   "$F(b)+F(a)$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-002",
+  "tip": "simplu",
+  "intrebare": "Dacă $f\\geq 0$ pe $[a,b]$, atunci $\\int_a^b f(x)\\,dx$ reprezintă:",
+  "variante": [
+   "aria de sub grafic",
+   "lungimea graficului",
+   "panta graficului",
+   "valoarea maximă a lui $f$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-003",
+  "tip": "simplu",
+  "intrebare": "Suma integrală $\\sigma$ este:",
+  "variante": [
+   "$\\sum \\Delta x_k^2$",
+   "$\\prod f(\\xi_k)$",
+   "$\\sum f^{\\prime}(x_k)$",
+   "$\\sum f(\\xi_k)\\Delta x_k$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-004",
+  "tip": "simplu",
+  "intrebare": "Integrala definită este limita sumelor integrale când:",
+  "variante": [
+   "$a\\to b$ mereu",
+   "$x\\to\\infty$",
+   "norma diviziunii $\\|T\\|\\to 0$",
+   "$f\\to 0$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-005",
+  "tip": "simplu",
+  "intrebare": "Care funcții sunt sigur integrabile pe $[a,b]$?",
+  "variante": [
+   "orice funcție",
+   "cele continue (și cele monotone)",
+   "doar polinoamele",
+   "doar funcțiile pozitive"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-006",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^2 x^2\\,dx = ?$",
+  "variante": [
+   "$\\frac{8}{3}$",
+   "$\\frac{2}{3}$",
+   "$8$",
+   "$\\frac{4}{3}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-007",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^1 x\\,dx = ?$",
+  "variante": [
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$0$",
+   "$\\frac{1}{3}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-008",
+  "tip": "simplu",
+  "intrebare": "$\\int_a^a f(x)\\,dx = ?$",
+  "variante": [
+   "$0$",
+   "$f(a)$",
+   "$1$",
+   "$F(a)$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-009",
+  "tip": "simplu",
+  "intrebare": "$\\int_b^a f(x)\\,dx = ?$",
+  "variante": [
+   "$0$",
+   "$\\int_a^b f(x)\\,dx$",
+   "$-\\int_a^b f(x)\\,dx$",
+   "$\\frac{1}{\\int_a^b f}$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-010",
+  "tip": "simplu",
+  "intrebare": "Aditivitatea: $\\int_a^b f(x)\\,dx = ?$ (cu $c\\in[a,b]$)",
+  "variante": [
+   "$\\int_a^c f(x)\\,dx-\\int_c^b f(x)\\,dx$",
+   "$\\int_c^a f(x)\\,dx+\\int_c^b f(x)\\,dx$",
+   "$\\int_a^c f(x)\\,dx+\\int_c^b f(x)\\,dx$",
+   "$\\int_a^c f(x)\\,dx\\cdot\\int_c^b f(x)\\,dx$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-011",
+  "tip": "simplu",
+  "intrebare": "Liniaritatea: $\\int_a^b(\\lambda f+\\mu g)\\,dx = ?$",
+  "variante": [
+   "$\\lambda\\int_a^b f\\,dx+\\mu\\int_a^b g\\,dx$",
+   "$\\int_a^b f\\,dx+\\lambda\\mu$",
+   "$\\lambda\\mu\\int_a^b fg\\,dx$",
+   "$(\\lambda+\\mu)\\int_a^b f\\,dx$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-012",
+  "tip": "simplu",
+  "intrebare": "Monotonia: dacă $f\\leq g$ pe $[a,b]$, atunci:",
+  "variante": [
+   "$\\int_a^b f=\\int_a^b g$",
+   "$\\int_a^b f\\geq\\int_a^b g$",
+   "$\\int_a^b f\\cdot\\int_a^b g=0$",
+   "$\\int_a^b f\\leq\\int_a^b g$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-013",
+  "tip": "simplu",
+  "intrebare": "Inegalitatea modulului: $\\left|\\int_a^b f\\,dx\\right|\\ \\ ?\\ \\int_a^b|f|\\,dx$",
+  "variante": [
+   "$\\leq$",
+   "$\\geq$",
+   "$=$",
+   "$<$ strict mereu"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-014",
+  "tip": "simplu",
+  "intrebare": "Dacă $m\\leq f\\leq M$ pe $[a,b]$, atunci $\\int_a^b f\\,dx$ se află între:",
+  "variante": [
+   "$\\frac{m}{b-a}$ și $\\frac{M}{b-a}$",
+   "$m+(b-a)$ și $M+(b-a)$",
+   "$m$ și $M$",
+   "$m(b-a)$ și $M(b-a)$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-015",
+  "tip": "simplu",
+  "intrebare": "Valoarea medie a lui $f$ pe $[a,b]$ este:",
+  "variante": [
+   "$M[f]=(b-a)\\int_a^b f(x)\\,dx$",
+   "$M[f]=\\frac{1}{b-a}\\int_a^b f(x)\\,dx$",
+   "$M[f]=\\frac{f(a)+f(b)}{2}$ mereu",
+   "$M[f]=\\int_a^b f^{\\prime}(x)\\,dx$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-016",
+  "tip": "simplu",
+  "intrebare": "Teorema de medie: dacă $f$ este continuă pe $[a,b]$, atunci există $c\\in[a,b]$ cu:",
+  "variante": [
+   "$f(c)=0$",
+   "$f^{\\prime}(c)=M[f]$",
+   "$f(c)=M[f]$",
+   "$c=\\frac{a+b}{2}$ mereu"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-017",
+  "tip": "simplu",
+  "intrebare": "Integrarea prin părți la integrala definită: $\\int_a^b u\\,dv = ?$",
+  "variante": [
+   "$u(b)-u(a)-\\int_a^b v\\,du$",
+   "$u(b)v(b)+u(a)v(a)-\\int_a^b v\\,du$",
+   "$uv-\\int_a^b v\\,du$",
+   "$u(b)v(b)-u(a)v(a)-\\int_a^b v\\,du$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-018",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^1 2x(x^2+1)^3\\,dx = ?$ (cu $u=x^2+1$, limitele devin $1$ și $2$)",
+  "variante": [
+   "$\\frac{1}{4}$",
+   "$15$",
+   "$\\frac{16}{4}$",
+   "$\\frac{15}{4}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-019",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^{\\pi}\\sin x\\,dx = ?$",
+  "variante": [
+   "$0$",
+   "$-2$",
+   "$1$",
+   "$2$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-020",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^{\\pi/2}\\cos x\\,dx = ?$",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$-1$",
+   "$\\frac{\\pi}{2}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-021",
+  "tip": "simplu",
+  "intrebare": "$\\int_1^e \\frac{1}{x}\\,dx = ?$",
+  "variante": [
+   "$0$",
+   "$e-1$",
+   "$e$",
+   "$1$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-022",
+  "tip": "simplu",
+  "intrebare": "$\\int_0^1 e^x\\,dx = ?$",
+  "variante": [
+   "$1-e$",
+   "$e$",
+   "$e-1$",
+   "$e+1$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-023",
+  "tip": "simplu",
+  "intrebare": "Pașii calculului unei integrale definite sunt:",
+  "variante": [
+   "aflăm doar $F(b)$",
+   "derivăm $f$, adunăm $F(a)$ și $F(b)$",
+   "aflăm $F$, calculăm $F(b)$, calculăm $F(a)$, scădem",
+   "aflăm $F$, calculăm $F(b)+F(a)$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-024",
+  "tip": "multiplu",
+  "intrebare": "Care dintre acestea sunt proprietăți ale integralei definite?",
+  "variante": [
+   "$\\int_b^a f=-\\int_a^b f$",
+   "$\\int_a^b f=F(a)-F(b)$",
+   "$\\int_a^b fg=\\int_a^b f\\cdot\\int_a^b g$",
+   "$\\int_a^a f=0$"
+  ],
+  "corect": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "integrala-definita-formule-si-proprietati-025",
+  "tip": "multiplu",
+  "intrebare": "Care afirmații sunt adevărate pentru substituție la integrala definită?",
+  "variante": [
+   "limitele rămân neschimbate",
+   "rezultatul conține $+C$",
+   "nu mai revenim la variabila $x$",
+   "limitele se schimbă"
+  ],
+  "corect": [
+   2,
+   3
+  ]
+ }
 ]

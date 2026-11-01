@@ -1,323 +1,311 @@
 [
-  {
-    "id": "reguli-de-integrare-001",
-    "tip": "simplu",
-    "intrebare": "Dacă $F$ este o primitivă a lui $f$, atunci $F$ satisface:",
-    "variante": [
-      "$F^{\\prime}(x)=0$",
-      "$F(x)=f(x)+C$",
-      "$F^{\\prime}(x)=f(x)$",
-      "$F(x)=f^{\\prime}(x)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-002",
-    "tip": "simplu",
-    "intrebare": "Două primitive ale aceleiași funcții pe un interval diferă printr-o:",
-    "variante": [
-      "constantă",
-      "funcție pozitivă",
-      "funcție liniară",
-      "nu diferă (sunt egale)"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-003",
-    "tip": "simplu",
-    "intrebare": "$\\int k f(x)\\,dx = ?$ ($k$ constantă)",
-    "variante": [
-      "$k\\int f(x)\\,dx$",
-      "$k+\\int f(x)\\,dx$",
-      "$\\int f(x)\\,dx + k$",
-      "$f(kx)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-004",
-    "tip": "simplu",
-    "intrebare": "$\\int [f(x)\\pm g(x)]\\,dx = ?$",
-    "variante": [
-      "$\\frac{\\int f(x)\\,dx}{\\int g(x)\\,dx}$",
-      "$\\int f(x)\\,dx \\pm \\int g(x)\\,dx$",
-      "$\\int f(x)\\,dx \\cdot \\int g(x)\\,dx$",
-      "$\\int f(x)\\,dx \\pm g(x)$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-005",
-    "tip": "simplu",
-    "intrebare": "Se poate scrie $\\int f(x)g(x)\\,dx = \\int f(x)\\,dx\\cdot\\int g(x)\\,dx$?",
-    "variante": [
-      "Da, dacă $g$ este constantă și $f$ oarecare",
-      "Nu, integrala produsului nu este produsul integralelor",
-      "Da, dacă $f$ este continuă",
-      "Da, întotdeauna"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-006",
-    "tip": "simplu",
-    "intrebare": "$\\int f(kx+b)\\,dx = ?$ ($F$ primitivă a lui $f$, $k\\neq 0$)",
-    "variante": [
-      "$F(kx+b)+C$",
-      "$kF(kx+b)+C$",
-      "$\\frac{F(kx+b)}{k}+C$",
-      "$\\frac{F(x)}{k}+b+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-007",
-    "tip": "simplu",
-    "intrebare": "$\\int \\cos 2x\\,dx = ?$",
-    "variante": [
-      "$2\\sin 2x+C$",
-      "$\\sin 2x+C$",
-      "$\\frac{\\sin 2x}{2}+C$",
-      "$-\\frac{\\sin 2x}{2}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-008",
-    "tip": "simplu",
-    "intrebare": "$\\int e^{3x}\\,dx = ?$",
-    "variante": [
-      "$e^{3x}+C$",
-      "$\\frac{e^{3x}}{3}+C$",
-      "$3e^{3x}+C$",
-      "$\\frac{e^{3x}}{x}+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-009",
-    "tip": "simplu",
-    "intrebare": "$\\int (x+1)^2\\,dx = ?$ (regula argumentului liniar)",
-    "variante": [
-      "$\\frac{(x+1)^2}{2}+C$",
-      "$(x+1)^3+C$",
-      "$2(x+1)+C$",
-      "$\\frac{(x+1)^3}{3}+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-010",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{1}{x+2}\\,dx = ?$",
-    "variante": [
-      "$\\frac{1}{2}\\ln|x+2|+C$",
-      "$-\\frac{1}{(x+2)^2}+C$",
-      "$\\ln|x|+2+C$",
-      "$\\ln|x+2|+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-011",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{f^{\\prime}(x)}{f(x)}\\,dx = ?$",
-    "variante": [
-      "$\\ln|f^{\\prime}(x)|+C$",
-      "$\\frac{1}{f(x)}+C$",
-      "$\\ln|f(x)|+C$",
-      "$f(x)\\ln f^{\\prime}(x)+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-012",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{2x}{x^2+1}\\,dx = ?$",
-    "variante": [
-      "$\\ln(x^2+1)+C$",
-      "$\\frac{1}{x^2+1}+C$",
-      "$\\operatorname{arctg}x+C$",
-      "$2\\ln x+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-013",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{dx}{a^2+x^2} = ?$ ($a\\neq 0$)",
-    "variante": [
-      "$\\frac{1}{a}\\arcsin\\frac{x}{a}+C$",
-      "$a\\operatorname{arctg}\\frac{x}{a}+C$",
-      "$\\frac{1}{a}\\operatorname{arctg}\\frac{x}{a}+C$",
-      "$\\operatorname{arctg}\\frac{x}{a}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-014",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{dx}{\\sqrt{a^2-x^2}} = ?$ ($a\\neq 0$)",
-    "variante": [
-      "$a\\arcsin\\frac{x}{a}+C$",
-      "$\\arcsin\\frac{x}{a}+C$",
-      "$\\operatorname{arctg}\\frac{x}{a}+C$",
-      "$\\frac{1}{a}\\arcsin\\frac{x}{a}+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-015",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{dx}{a^2-x^2} = ?$ ($a\\neq 0$)",
-    "variante": [
-      "$\\arcsin\\frac{x}{a}+C$",
-      "$\\frac{1}{2a}\\ln\\left|\\frac{a-x}{a+x}\\right|+C$",
-      "$\\frac{1}{2a}\\ln\\left|\\frac{a+x}{a-x}\\right|+C$",
-      "$\\frac{1}{a}\\operatorname{arctg}\\frac{x}{a}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-016",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{dx}{4+x^2} = ?$",
-    "variante": [
-      "$2\\operatorname{arctg}\\frac{x}{2}+C$",
-      "$\\frac{1}{4}\\operatorname{arctg}x+C$",
-      "$\\operatorname{arctg}\\frac{x}{2}+C$",
-      "$\\frac{1}{2}\\operatorname{arctg}\\frac{x}{2}+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-017",
-    "tip": "simplu",
-    "intrebare": "$\\int \\frac{dx}{\\sqrt{9-x^2}} = ?$",
-    "variante": [
-      "$\\arcsin\\frac{x}{3}+C$",
-      "$\\operatorname{arctg}\\frac{x}{3}+C$",
-      "$\\arcsin 3x+C$",
-      "$\\frac{1}{3}\\arcsin\\frac{x}{3}+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-018",
-    "tip": "simplu",
-    "intrebare": "Cum se verifică rapid o integrală nedefinită?",
-    "variante": [
-      "Se derivează rezultatul și trebuie să obținem funcția de sub integrală",
-      "Se integrează încă o dată",
-      "Se împarte rezultatul la $C$",
-      "Se înlocuiește $x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-019",
-    "tip": "simplu",
-    "intrebare": "$\\left(\\int f(x)\\,dx\\right)^{\\prime} = ?$",
-    "variante": [
-      "$0$",
-      "$f(x)+C$",
-      "$f(x)$",
-      "$F(x)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-020",
-    "tip": "simplu",
-    "intrebare": "$\\int F^{\\prime}(x)\\,dx = ?$",
-    "variante": [
-      "$F(x)$",
-      "$f(x)+C$",
-      "$F^{\\prime}(x)+C$",
-      "$F(x)+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-021",
-    "tip": "simplu",
-    "intrebare": "Dacă $F(x_0)=y_0$ este o condiție inițială, ea servește la aflarea lui:",
-    "variante": [
-      "constantei $C$",
-      "domeniului lui $f$",
-      "derivatei $F^{\\prime}$",
-      "lui $x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-022",
-    "tip": "simplu",
-    "intrebare": "Dacă $s^{\\prime}(t)=v(t)$ (viteza), atunci spațiul este:",
-    "variante": [
-      "$s(t)=v^{\\prime}(t)$",
-      "$s(t)=\\int v(t)\\,dt$",
-      "$s(t)=v(t)\\cdot C$",
-      "$s(t)=\\int s(t)\\,dt$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-023",
-    "tip": "simplu",
-    "intrebare": "Dacă $v^{\\prime}(t)=a(t)$ (accelerația), atunci viteza este:",
-    "variante": [
-      "$v(t)=\\int a(t)\\,dt$",
-      "$v(t)=a(t)+s(t)$",
-      "$v(t)=\\int v(t)\\,dt$",
-      "$v(t)=a^{\\prime}(t)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-024",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații despre integrala nedefinită sunt adevărate?",
-    "variante": [
-      "$\\int fg=\\int f\\cdot\\int g$",
-      "Orice funcție are o singură primitivă",
-      "$\\int k f=k\\int f$",
-      "Rezultatul conține constanta $C$"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "reguli-de-integrare-025",
-    "tip": "multiplu",
-    "intrebare": "Care sunt corecte?",
-    "variante": [
-      "$\\int e^{2x}\\,dx=\\frac{e^{2x}}{2}+C$",
-      "$\\int \\sin 2x\\,dx=-\\frac{\\cos 2x}{2}+C$",
-      "$\\int e^{2x}\\,dx=2e^{2x}+C$",
-      "$\\int \\sin 2x\\,dx=\\frac{\\cos 2x}{2}+C$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "reguli-de-integrare-026",
-    "tip": "multiplu",
-    "intrebare": "Pentru ce expresii se aplică formula $\\int \\frac{f^{\\prime}}{f}=\\ln|f|+C$?",
-    "variante": [
-      "$\\int \\frac{x}{\\sqrt{x^2+3}}\\,dx$",
-      "$\\int \\frac{1}{x^2+3}\\,dx$",
-      "$\\int \\frac{2x}{x^2+3}\\,dx$",
-      "$\\int \\frac{\\cos x}{\\sin x}\\,dx$"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  }
+ {
+  "id": "reguli-de-integrare-001",
+  "tip": "simplu",
+  "intrebare": "Dacă $F$ este o primitivă a lui $f$, atunci $F$ satisface:",
+  "variante": [
+   "$F^{\\prime}(x)=0$",
+   "$F(x)=f(x)+C$",
+   "$F^{\\prime}(x)=f(x)$",
+   "$F(x)=f^{\\prime}(x)$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-002",
+  "tip": "simplu",
+  "intrebare": "Două primitive ale aceleiași funcții pe un interval diferă printr-o:",
+  "variante": [
+   "constantă",
+   "funcție pozitivă",
+   "funcție liniară",
+   "nu diferă (sunt egale)"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-003",
+  "tip": "simplu",
+  "intrebare": "$\\int k f(x)\\,dx = ?$ ($k$ constantă)",
+  "variante": [
+   "$k\\int f(x)\\,dx$",
+   "$k+\\int f(x)\\,dx$",
+   "$\\int f(x)\\,dx + k$",
+   "$f(kx)$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-004",
+  "tip": "simplu",
+  "intrebare": "$\\int [f(x)\\pm g(x)]\\,dx = ?$",
+  "variante": [
+   "$\\frac{\\int f(x)\\,dx}{\\int g(x)\\,dx}$",
+   "$\\int f(x)\\,dx \\pm \\int g(x)\\,dx$",
+   "$\\int f(x)\\,dx \\cdot \\int g(x)\\,dx$",
+   "$\\int f(x)\\,dx \\pm g(x)$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "reguli-de-integrare-005",
+  "tip": "simplu",
+  "intrebare": "Se poate scrie $\\int f(x)g(x)\\,dx = \\int f(x)\\,dx\\cdot\\int g(x)\\,dx$?",
+  "variante": [
+   "Da, dacă $g$ este constantă și $f$ oarecare",
+   "Nu, integrala produsului nu este produsul integralelor",
+   "Da, dacă $f$ este continuă",
+   "Da, întotdeauna"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "reguli-de-integrare-006",
+  "tip": "simplu",
+  "intrebare": "$\\int f(kx+b)\\,dx = ?$ ($F$ primitivă a lui $f$, $k\\neq 0$)",
+  "variante": [
+   "$F(kx+b)+C$",
+   "$kF(kx+b)+C$",
+   "$\\frac{F(kx+b)}{k}+C$",
+   "$\\frac{F(x)}{k}+b+C$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-007",
+  "tip": "simplu",
+  "intrebare": "$\\int \\cos 2x\\,dx = ?$",
+  "variante": [
+   "$2\\sin 2x+C$",
+   "$\\sin 2x+C$",
+   "$\\frac{\\sin 2x}{2}+C$",
+   "$-\\frac{\\sin 2x}{2}+C$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-008",
+  "tip": "simplu",
+  "intrebare": "$\\int e^{3x}\\,dx = ?$",
+  "variante": [
+   "$e^{3x}+C$",
+   "$\\frac{e^{3x}}{3}+C$",
+   "$3e^{3x}+C$",
+   "$\\frac{e^{3x}}{x}+C$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "reguli-de-integrare-009",
+  "tip": "simplu",
+  "intrebare": "$\\int (x+1)^2\\,dx = ?$ (regula argumentului liniar)",
+  "variante": [
+   "$\\frac{(x+1)^2}{2}+C$",
+   "$(x+1)^3+C$",
+   "$2(x+1)+C$",
+   "$\\frac{(x+1)^3}{3}+C$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "reguli-de-integrare-010",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{1}{x+2}\\,dx = ?$",
+  "variante": [
+   "$\\frac{1}{2}\\ln|x+2|+C$",
+   "$-\\frac{1}{(x+2)^2}+C$",
+   "$\\ln|x|+2+C$",
+   "$\\ln|x+2|+C$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "reguli-de-integrare-011",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{f^{\\prime}(x)}{f(x)}\\,dx = ?$",
+  "variante": [
+   "$\\ln|f^{\\prime}(x)|+C$",
+   "$\\frac{1}{f(x)}+C$",
+   "$\\ln|f(x)|+C$",
+   "$f(x)\\ln f^{\\prime}(x)+C$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-012",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{2x}{x^2+1}\\,dx = ?$",
+  "variante": [
+   "$\\ln(x^2+1)+C$",
+   "$\\frac{1}{x^2+1}+C$",
+   "$\\operatorname{arctg}x+C$",
+   "$2\\ln x+C$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-013",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{dx}{a^2+x^2} = ?$ ($a\\neq 0$)",
+  "variante": [
+   "$\\frac{1}{a}\\arcsin\\frac{x}{a}+C$",
+   "$a\\operatorname{arctg}\\frac{x}{a}+C$",
+   "$\\frac{1}{a}\\operatorname{arctg}\\frac{x}{a}+C$",
+   "$\\operatorname{arctg}\\frac{x}{a}+C$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-014",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{dx}{\\sqrt{a^2-x^2}} = ?$ ($a\\neq 0$)",
+  "variante": [
+   "$a\\arcsin\\frac{x}{a}+C$",
+   "$\\arcsin\\frac{x}{a}+C$",
+   "$\\operatorname{arctg}\\frac{x}{a}+C$",
+   "$\\frac{1}{a}\\arcsin\\frac{x}{a}+C$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "reguli-de-integrare-015",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{dx}{a^2-x^2} = ?$ ($a\\neq 0$)",
+  "variante": [
+   "$\\arcsin\\frac{x}{a}+C$",
+   "$\\frac{1}{2a}\\ln\\left|\\frac{a-x}{a+x}\\right|+C$",
+   "$\\frac{1}{2a}\\ln\\left|\\frac{a+x}{a-x}\\right|+C$",
+   "$\\frac{1}{a}\\operatorname{arctg}\\frac{x}{a}+C$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-016",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{dx}{4+x^2} = ?$",
+  "variante": [
+   "$2\\operatorname{arctg}\\frac{x}{2}+C$",
+   "$\\frac{1}{4}\\operatorname{arctg}x+C$",
+   "$\\operatorname{arctg}\\frac{x}{2}+C$",
+   "$\\frac{1}{2}\\operatorname{arctg}\\frac{x}{2}+C$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "reguli-de-integrare-017",
+  "tip": "simplu",
+  "intrebare": "$\\int \\frac{dx}{\\sqrt{9-x^2}} = ?$",
+  "variante": [
+   "$\\arcsin\\frac{x}{3}+C$",
+   "$\\operatorname{arctg}\\frac{x}{3}+C$",
+   "$\\arcsin 3x+C$",
+   "$\\frac{1}{3}\\arcsin\\frac{x}{3}+C$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-018",
+  "tip": "simplu",
+  "intrebare": "Cum se verifică rapid o integrală nedefinită?",
+  "variante": [
+   "Se derivează rezultatul și trebuie să obținem funcția de sub integrală",
+   "Se integrează încă o dată",
+   "Se împarte rezultatul la $C$",
+   "Se înlocuiește $x=0$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-019",
+  "tip": "simplu",
+  "intrebare": "$\\left(\\int f(x)\\,dx\\right)^{\\prime} = ?$",
+  "variante": [
+   "$0$",
+   "$f(x)+C$",
+   "$f(x)$",
+   "$F(x)$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "reguli-de-integrare-020",
+  "tip": "simplu",
+  "intrebare": "$\\int F^{\\prime}(x)\\,dx = ?$",
+  "variante": [
+   "$F(x)$",
+   "$f(x)+C$",
+   "$F^{\\prime}(x)+C$",
+   "$F(x)+C$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "reguli-de-integrare-021",
+  "tip": "simplu",
+  "intrebare": "Dacă $F(x_0)=y_0$ este o condiție inițială, ea servește la aflarea lui:",
+  "variante": [
+   "constantei $C$",
+   "domeniului lui $f$",
+   "derivatei $F^{\\prime}$",
+   "lui $x$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "reguli-de-integrare-022",
+  "tip": "simplu",
+  "intrebare": "Dacă $s^{\\prime}(t)=v(t)$ (viteza), atunci spațiul este:",
+  "variante": [
+   "$s(t)=v^{\\prime}(t)$",
+   "$s(t)=\\int v(t)\\,dt$",
+   "$s(t)=v(t)\\cdot C$",
+   "$s(t)=\\int s(t)\\,dt$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "reguli-de-integrare-023",
+  "tip": "multiplu",
+  "intrebare": "Care afirmații despre integrala nedefinită sunt adevărate?",
+  "variante": [
+   "$\\int fg=\\int f\\cdot\\int g$",
+   "Orice funcție are o singură primitivă",
+   "$\\int k f=k\\int f$",
+   "Rezultatul conține constanta $C$"
+  ],
+  "corect": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "reguli-de-integrare-024",
+  "tip": "multiplu",
+  "intrebare": "Care sunt corecte?",
+  "variante": [
+   "$\\int e^{2x}\\,dx=\\frac{e^{2x}}{2}+C$",
+   "$\\int \\sin 2x\\,dx=-\\frac{\\cos 2x}{2}+C$",
+   "$\\int e^{2x}\\,dx=2e^{2x}+C$",
+   "$\\int \\sin 2x\\,dx=\\frac{\\cos 2x}{2}+C$"
+  ],
+  "corect": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "reguli-de-integrare-025",
+  "tip": "multiplu",
+  "intrebare": "Pentru ce expresii se aplică formula $\\int \\frac{f^{\\prime}}{f}=\\ln|f|+C$?",
+  "variante": [
+   "$\\int \\frac{x}{\\sqrt{x^2+3}}\\,dx$",
+   "$\\int \\frac{1}{x^2+3}\\,dx$",
+   "$\\int \\frac{2x}{x^2+3}\\,dx$",
+   "$\\int \\frac{\\cos x}{\\sin x}\\,dx$"
+  ],
+  "corect": [
+   2,
+   3
+  ]
+ }
 ]

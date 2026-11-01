@@ -1,399 +1,305 @@
 [
-  {
-    "id": "piramida-formule-si-cazuri-001",
-    "tip": "simplu",
-    "intrebare": "Volumul unei piramide: $V=?$",
-    "variante": [
-      "$\\frac{P_b\\cdot H}{3}$",
-      "$\\frac{A_b\\cdot H}{2}$",
-      "$A_b\\cdot H$",
-      "$\\frac{A_b\\cdot H}{3}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-002",
-    "tip": "simplu",
-    "intrebare": "Piramida are față de prisma cu aceeași bază și înălțime un volum:",
-    "variante": [
-      "a patra parte",
-      "egal",
-      "a treia parte",
-      "jumătate"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "piramida-formule-si-cazuri-003",
-    "tip": "simplu",
-    "intrebare": "Piramida regulată are baza:",
-    "variante": [
-      "un dreptunghi cu înălțimea în vârf",
-      "un triunghi oarecare",
-      "un poligon oarecare cu muchii laterale diferite",
-      "un poligon regulat, iar piciorul înălțimii e în centrul bazei"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-004",
-    "tip": "simplu",
-    "intrebare": "La piramida regulată, muchia laterală $l$ satisface:",
-    "variante": [
-      "$l^2=H^2-R^2$",
-      "$l^2=H^2+r^2$",
-      "$l=H+R$",
-      "$l^2=H^2+R^2$ ($R$ = raza cercului circumscris bazei)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-005",
-    "tip": "simplu",
-    "intrebare": "La piramida regulată, apotema $a_p$ satisface:",
-    "variante": [
-      "$a_p^2=H^2-r^2$",
-      "$a_p^2=H^2+R^2$",
-      "$a_p=H+r$",
-      "$a_p^2=H^2+r^2$ ($r$ = raza cercului înscris bazei)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-006",
-    "tip": "simplu",
-    "intrebare": "Aria laterală a piramidei regulate: $A_l=?$",
-    "variante": [
-      "$\\frac{P_b\\cdot a_p}{2}$",
-      "$\\frac{P_b\\cdot H}{2}$",
-      "$\\frac{A_b\\cdot a_p}{2}$",
-      "$P_b\\cdot a_p$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-007",
-    "tip": "simplu",
-    "intrebare": "Aria totală a piramidei regulate: $A_t=?$",
-    "variante": [
-      "$A_l+2A_b$",
-      "$A_l\\cdot A_b$",
-      "$A_l-A_b$",
-      "$A_l+A_b$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-008",
-    "tip": "simplu",
-    "intrebare": "Pătrat de latură $a$: raza cercului înscris $r=?$",
-    "variante": [
-      "$\\frac{a\\sqrt{2}}{2}$",
-      "$a$",
-      "$\\frac{a\\sqrt{3}}{6}$",
-      "$\\frac{a}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-009",
-    "tip": "simplu",
-    "intrebare": "Pătrat de latură $a$: raza cercului circumscris $R=?$",
-    "variante": [
-      "$a\\sqrt{2}$",
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt{2}}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-010",
-    "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $a$: $r=?$",
-    "variante": [
-      "$\\frac{a\\sqrt{3}}{6}$",
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a\\sqrt{3}}{3}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-011",
-    "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $a$: $R=?$",
-    "variante": [
-      "$\\frac{a}{3}$",
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a\\sqrt{3}}{6}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-012",
-    "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $a$: $r=?$",
-    "variante": [
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a}{2}$",
-      "$a$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-013",
-    "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $a$: $R=?$",
-    "variante": [
-      "$2a$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a}{2}$",
-      "$a$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-014",
-    "tip": "simplu",
-    "intrebare": "Dacă fețele laterale fac unghiuri egale cu baza (sau apotemele sunt egale), piciorul înălțimii este:",
-    "variante": [
-      "un vârf al bazei",
-      "ortocentrul mereu",
-      "centrul cercului înscris bazei",
-      "centrul cercului circumscris"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "piramida-formule-si-cazuri-015",
-    "tip": "simplu",
-    "intrebare": "Dacă muchiile laterale sunt egale (sau fac unghiuri egale cu baza), piciorul înălțimii este:",
-    "variante": [
-      "centrul cercului înscris",
-      "centrul cercului circumscris bazei",
-      "un vârf al bazei",
-      "mijlocul unei laturi mereu"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-016",
-    "tip": "simplu",
-    "intrebare": "Pentru piramida cu fețe laterale la unghi egal $\\alpha$ față de bază: $\\operatorname{tg}\\alpha=?$",
-    "variante": [
-      "$\\frac{H}{R}$",
-      "$\\frac{r}{H}$",
-      "$\\frac{R}{H}$",
-      "$\\frac{H}{r}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-017",
-    "tip": "simplu",
-    "intrebare": "Pentru piramida cu muchii laterale egale ce fac unghiul $\\alpha$ cu baza: $\\operatorname{tg}\\alpha=?$",
-    "variante": [
-      "$\\frac{H}{R}$",
-      "$\\frac{R}{H}$",
-      "$\\frac{H}{r}$",
-      "$\\frac{r}{H}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-018",
-    "tip": "simplu",
-    "intrebare": "Raza cercului înscris într-un poligon: $r=?$ ($A_b$ aria, $p$ semiperimetrul)",
-    "variante": [
-      "$\\frac{A_b}{2p}$",
-      "$\\frac{p}{A_b}$",
-      "$A_b\\cdot p$",
-      "$\\frac{A_b}{p}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-019",
-    "tip": "simplu",
-    "intrebare": "Raza cercului circumscris triunghiului cu laturile $a,b,c$ și aria $S$:",
-    "variante": [
-      "$R=\\frac{abc}{S}$",
-      "$R=\\frac{abc}{4S}$",
-      "$R=\\frac{abc}{2S}$",
-      "$R=\\frac{4S}{abc}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-020",
-    "tip": "simplu",
-    "intrebare": "Într-un triunghi dreptunghic, raza cercului circumscris este:",
-    "variante": [
-      "jumătate din ipotenuză",
-      "o treime din ipotenuză",
-      "ipotenuza",
-      "jumătate din o catetă"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-021",
-    "tip": "simplu",
-    "intrebare": "Aria laterală când fețele fac unghiul $\\alpha$ cu baza: $A_l=?$",
-    "variante": [
-      "$\\frac{A_b}{\\cos\\alpha}$",
-      "$A_b\\operatorname{tg}\\alpha$",
-      "$\\frac{A_b}{\\sin\\alpha}$",
-      "$A_b\\cos\\alpha$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-022",
-    "tip": "simplu",
-    "intrebare": "Secțiune paralelă cu baza, la distanța $h$ de vârf (înălțimea $H$), $k=\\frac{h}{H}$: laturile se înmulțesc cu:",
-    "variante": [
-      "$\\frac{1}{k}$",
-      "$k^2$",
-      "$k^3$",
-      "$k$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-023",
-    "tip": "simplu",
-    "intrebare": "La secțiune paralelă cu baza (raport $k$), ariile se înmulțesc cu:",
-    "variante": [
-      "$2k$",
-      "$k$",
-      "$k^2$",
-      "$k^3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "piramida-formule-si-cazuri-024",
-    "tip": "simplu",
-    "intrebare": "La secțiune paralelă cu baza (raport $k$), volumele se înmulțesc cu:",
-    "variante": [
-      "$k^2$",
-      "$k^3$",
-      "$3k$",
-      "$k$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-025",
-    "tip": "simplu",
-    "intrebare": "Tetraedru cu trei muchii perpendiculare între ele de lungimi $a,b,c$: $V=?$",
-    "variante": [
-      "$\\frac{abc}{6}$",
-      "$abc$",
-      "$\\frac{abc}{2}$",
-      "$\\frac{abc}{3}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-026",
-    "tip": "simplu",
-    "intrebare": "Secțiunea diagonală a piramidei patrulatere regulate este:",
-    "variante": [
-      "un triunghi isoscel cu baza egală cu diagonala bazei",
-      "un trapez",
-      "un triunghi echilateral mereu",
-      "un dreptunghi"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-027",
-    "tip": "simplu",
-    "intrebare": "Fețele laterale ale piramidei regulate sunt:",
-    "variante": [
-      "dreptunghiuri",
-      "triunghiuri isoscele congruente",
-      "trapeze",
-      "triunghiuri dreptunghice mereu"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-028",
-    "tip": "simplu",
-    "intrebare": "Apotema piramidei regulate este:",
-    "variante": [
-      "muchia laterală",
-      "raza cercului circumscris bazei",
-      "înălțimea unei fețe laterale",
-      "înălțimea piramidei"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "piramida-formule-si-cazuri-029",
-    "tip": "multiplu",
-    "intrebare": "La piramida regulată sunt adevărate:",
-    "variante": [
-      "$a_p^2=H^2+R^2$",
-      "$a_p^2=H^2+r^2$",
-      "$l^2=H^2+r^2$",
-      "$l^2=H^2+R^2$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "piramida-formule-si-cazuri-030",
-    "tip": "multiplu",
-    "intrebare": "Pentru triunghiul echilateral de latură $a$:",
-    "variante": [
-      "$R=\\frac{a\\sqrt3}{6}$",
-      "$r=\\frac{a\\sqrt3}{3}$",
-      "$R=\\frac{a\\sqrt3}{3}$",
-      "$r=\\frac{a\\sqrt3}{6}$"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "piramida-formule-si-cazuri-031",
-    "tip": "multiplu",
-    "intrebare": "Care sunt corecte pentru volumul/aria piramidei regulate?",
-    "variante": [
-      "$V=A_bH$",
-      "$V=\\frac{A_bH}{3}$",
-      "$A_t=A_l+A_b$",
-      "$A_l=\\frac{P_ba_p}{2}$"
-    ],
-    "corect": [
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "piramida-formule-si-cazuri-032",
-    "tip": "multiplu",
-    "intrebare": "Piciorul înălțimii coincide cu centrul cercului circumscris când:",
-    "variante": [
-      "muchiile laterale sunt egale",
-      "fețele laterale fac unghiuri egale cu baza",
-      "muchiile laterale fac unghiuri egale cu baza",
-      "apotemele sunt egale"
-    ],
-    "corect": [
-      0,
-      2
-    ]
-  }
+ {
+  "id": "piramida-formule-si-cazuri-001",
+  "tip": "simplu",
+  "intrebare": "Volumul unei piramide: $V=?$",
+  "variante": [
+   "$\\frac{P_b\\cdot H}{3}$",
+   "$\\frac{A_b\\cdot H}{2}$",
+   "$A_b\\cdot H$",
+   "$\\frac{A_b\\cdot H}{3}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-002",
+  "tip": "simplu",
+  "intrebare": "Piramida regulată are baza:",
+  "variante": [
+   "un dreptunghi cu înălțimea în vârf",
+   "un triunghi oarecare",
+   "un poligon oarecare cu muchii laterale diferite",
+   "un poligon regulat, iar piciorul înălțimii e în centrul bazei"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-003",
+  "tip": "simplu",
+  "intrebare": "La piramida regulată, muchia laterală $l$ satisface:",
+  "variante": [
+   "$l^2=H^2-R^2$",
+   "$l^2=H^2+r^2$",
+   "$l=H+R$",
+   "$l^2=H^2+R^2$ ($R$ = raza cercului circumscris bazei)"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-004",
+  "tip": "simplu",
+  "intrebare": "La piramida regulată, apotema $a_p$ satisface:",
+  "variante": [
+   "$a_p^2=H^2-r^2$",
+   "$a_p^2=H^2+R^2$",
+   "$a_p=H+r$",
+   "$a_p^2=H^2+r^2$ ($r$ = raza cercului înscris bazei)"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-005",
+  "tip": "simplu",
+  "intrebare": "Aria laterală a piramidei regulate: $A_l=?$",
+  "variante": [
+   "$\\frac{P_b\\cdot a_p}{2}$",
+   "$\\frac{P_b\\cdot H}{2}$",
+   "$\\frac{A_b\\cdot a_p}{2}$",
+   "$P_b\\cdot a_p$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-006",
+  "tip": "simplu",
+  "intrebare": "Aria totală a piramidei regulate: $A_t=?$",
+  "variante": [
+   "$A_l+2A_b$",
+   "$A_l\\cdot A_b$",
+   "$A_l-A_b$",
+   "$A_l+A_b$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-007",
+  "tip": "simplu",
+  "intrebare": "Pătrat de latură $a$: raza cercului înscris $r=?$",
+  "variante": [
+   "$\\frac{a\\sqrt{2}}{2}$",
+   "$a$",
+   "$\\frac{a\\sqrt{3}}{6}$",
+   "$\\frac{a}{2}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-008",
+  "tip": "simplu",
+  "intrebare": "Pătrat de latură $a$: raza cercului circumscris $R=?$",
+  "variante": [
+   "$a\\sqrt{2}$",
+   "$\\frac{a\\sqrt{3}}{3}$",
+   "$\\frac{a}{2}$",
+   "$\\frac{a\\sqrt{2}}{2}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-009",
+  "tip": "simplu",
+  "intrebare": "Triunghi echilateral de latură $a$: $r=?$",
+  "variante": [
+   "$\\frac{a\\sqrt{3}}{6}$",
+   "$\\frac{a}{2}$",
+   "$\\frac{a\\sqrt{3}}{2}$",
+   "$\\frac{a\\sqrt{3}}{3}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-010",
+  "tip": "simplu",
+  "intrebare": "Triunghi echilateral de latură $a$: $R=?$",
+  "variante": [
+   "$\\frac{a}{3}$",
+   "$\\frac{a\\sqrt{3}}{3}$",
+   "$\\frac{a\\sqrt{3}}{2}$",
+   "$\\frac{a\\sqrt{3}}{6}$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "piramida-formule-si-cazuri-011",
+  "tip": "simplu",
+  "intrebare": "Hexagon regulat de latură $a$: $r=?$",
+  "variante": [
+   "$\\frac{a\\sqrt{3}}{3}$",
+   "$\\frac{a\\sqrt{3}}{2}$",
+   "$\\frac{a}{2}$",
+   "$a$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "piramida-formule-si-cazuri-012",
+  "tip": "simplu",
+  "intrebare": "Hexagon regulat de latură $a$: $R=?$",
+  "variante": [
+   "$2a$",
+   "$\\frac{a\\sqrt{3}}{2}$",
+   "$\\frac{a}{2}$",
+   "$a$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-013",
+  "tip": "simplu",
+  "intrebare": "Dacă fețele laterale fac unghiuri egale cu baza (sau apotemele sunt egale), piciorul înălțimii este:",
+  "variante": [
+   "un vârf al bazei",
+   "ortocentrul mereu",
+   "centrul cercului înscris bazei",
+   "centrul cercului circumscris"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "piramida-formule-si-cazuri-014",
+  "tip": "simplu",
+  "intrebare": "Dacă muchiile laterale sunt egale (sau fac unghiuri egale cu baza), piciorul înălțimii este:",
+  "variante": [
+   "centrul cercului înscris",
+   "centrul cercului circumscris bazei",
+   "un vârf al bazei",
+   "mijlocul unei laturi mereu"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "piramida-formule-si-cazuri-015",
+  "tip": "simplu",
+  "intrebare": "Pentru piramida cu fețe laterale la unghi egal $\\alpha$ față de bază: $\\operatorname{tg}\\alpha=?$",
+  "variante": [
+   "$\\frac{H}{R}$",
+   "$\\frac{r}{H}$",
+   "$\\frac{R}{H}$",
+   "$\\frac{H}{r}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-016",
+  "tip": "simplu",
+  "intrebare": "Pentru piramida cu muchii laterale egale ce fac unghiul $\\alpha$ cu baza: $\\operatorname{tg}\\alpha=?$",
+  "variante": [
+   "$\\frac{H}{R}$",
+   "$\\frac{R}{H}$",
+   "$\\frac{H}{r}$",
+   "$\\frac{r}{H}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-017",
+  "tip": "simplu",
+  "intrebare": "Raza cercului înscris într-un poligon: $r=?$ ($A_b$ aria, $p$ semiperimetrul)",
+  "variante": [
+   "$\\frac{A_b}{2p}$",
+   "$\\frac{p}{A_b}$",
+   "$A_b\\cdot p$",
+   "$\\frac{A_b}{p}$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-018",
+  "tip": "simplu",
+  "intrebare": "Raza cercului circumscris triunghiului cu laturile $a,b,c$ și aria $S$:",
+  "variante": [
+   "$R=\\frac{abc}{S}$",
+   "$R=\\frac{abc}{4S}$",
+   "$R=\\frac{abc}{2S}$",
+   "$R=\\frac{4S}{abc}$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "piramida-formule-si-cazuri-019",
+  "tip": "simplu",
+  "intrebare": "Într-un triunghi dreptunghic, raza cercului circumscris este:",
+  "variante": [
+   "jumătate din ipotenuză",
+   "o treime din ipotenuză",
+   "ipotenuza",
+   "jumătate din o catetă"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-020",
+  "tip": "simplu",
+  "intrebare": "Aria laterală când fețele fac unghiul $\\alpha$ cu baza: $A_l=?$",
+  "variante": [
+   "$\\frac{A_b}{\\cos\\alpha}$",
+   "$A_b\\operatorname{tg}\\alpha$",
+   "$\\frac{A_b}{\\sin\\alpha}$",
+   "$A_b\\cos\\alpha$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-021",
+  "tip": "simplu",
+  "intrebare": "Secțiune paralelă cu baza, la distanța $h$ de vârf (înălțimea $H$), $k=\\frac{h}{H}$: laturile se înmulțesc cu:",
+  "variante": [
+   "$\\frac{1}{k}$",
+   "$k^2$",
+   "$k^3$",
+   "$k$"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "piramida-formule-si-cazuri-022",
+  "tip": "simplu",
+  "intrebare": "La secțiune paralelă cu baza (raport $k$), ariile se înmulțesc cu:",
+  "variante": [
+   "$2k$",
+   "$k$",
+   "$k^2$",
+   "$k^3$"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "piramida-formule-si-cazuri-023",
+  "tip": "simplu",
+  "intrebare": "La secțiune paralelă cu baza (raport $k$), volumele se înmulțesc cu:",
+  "variante": [
+   "$k^2$",
+   "$k^3$",
+   "$3k$",
+   "$k$"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "piramida-formule-si-cazuri-024",
+  "tip": "simplu",
+  "intrebare": "Tetraedru cu trei muchii perpendiculare între ele de lungimi $a,b,c$: $V=?$",
+  "variante": [
+   "$\\frac{abc}{6}$",
+   "$abc$",
+   "$\\frac{abc}{2}$",
+   "$\\frac{abc}{3}$"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "piramida-formule-si-cazuri-025",
+  "tip": "multiplu",
+  "intrebare": "Piciorul înălțimii coincide cu centrul cercului circumscris când:",
+  "variante": [
+   "muchiile laterale sunt egale",
+   "fețele laterale fac unghiuri egale cu baza",
+   "muchiile laterale fac unghiuri egale cu baza",
+   "apotemele sunt egale"
+  ],
+  "corect": [
+   0,
+   2
+  ]
+ }
 ]
