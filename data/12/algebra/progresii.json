@@ -1,0 +1,305 @@
+[
+  {
+    "id": "progresii-001",
+    "tip": "simplu",
+    "intrebare": "Progresiile aritmetice sunt șiruri cu:",
+    "variante": [
+      "înmulțiri",
+      "puteri",
+      "adunări (rația $r$ se adaugă)",
+      "împărțiri"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "progresii-002",
+    "tip": "simplu",
+    "intrebare": "Progresiile geometrice sunt șiruri cu:",
+    "variante": [
+      "adunări",
+      "înmulțiri (rația $q$ se înmulțește)",
+      "scăderi",
+      "rădăcini"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-003",
+    "tip": "simplu",
+    "intrebare": "P.A.: termenul general $a_n=?$",
+    "variante": [
+      "$a_1+(n+1)r$",
+      "$a_1+nr$",
+      "$a_1\\cdot r^{n-1}$",
+      "$a_1+(n-1)r$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-004",
+    "tip": "simplu",
+    "intrebare": "P.A.: rația $r=?$",
+    "variante": [
+      "$a_{n+1}-a_n$",
+      "$\\frac{a_{n+1}}{a_n}$",
+      "$a_n-a_1$",
+      "$a_{n+1}+a_n$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-005",
+    "tip": "simplu",
+    "intrebare": "P.A.: suma primilor $n$ termeni $S_n=?$",
+    "variante": [
+      "$(a_1+a_n)\\cdot n$",
+      "$a_1\\cdot\\frac{r^n-1}{r-1}$",
+      "$\\frac{(a_1+a_n)\\cdot n}{2}$",
+      "$\\frac{a_1+a_n}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "progresii-006",
+    "tip": "simplu",
+    "intrebare": "P.A.: $S_n=?$ (cu $a_1$ și $r$)",
+    "variante": [
+      "$(2a_1+(n-1)r)\\cdot n$",
+      "$\\frac{(2a_1+(n-1)r)\\cdot n}{2}$",
+      "$\\frac{(a_1+(n-1)r)\\cdot n}{2}$",
+      "$\\frac{(2a_1+nr)\\cdot n}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-007",
+    "tip": "simplu",
+    "intrebare": "P.A.: orice termen este media aritmetică a vecinilor:",
+    "variante": [
+      "$a_n=\\sqrt{a_{n-1}a_{n+1}}$",
+      "$a_n=\\frac{a_{n-1}+a_{n+1}}{2}$",
+      "$a_n^2=a_{n-1}a_{n+1}$",
+      "$a_n=a_{n-1}+a_{n+1}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-008",
+    "tip": "simplu",
+    "intrebare": "P.G.: termenul general $b_n=?$",
+    "variante": [
+      "$b_1\\cdot q^{n-1}$",
+      "$b_1\\cdot q^n$",
+      "$b_1\\cdot(n-1)q$",
+      "$b_1+(n-1)q$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-009",
+    "tip": "simplu",
+    "intrebare": "P.G.: rația $q=?$",
+    "variante": [
+      "$b_{n+1}-b_n$",
+      "$b_{n+1}\\cdot b_n$",
+      "$\\frac{b_n}{b_{n+1}}$",
+      "$\\frac{b_{n+1}}{b_n}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-010",
+    "tip": "simplu",
+    "intrebare": "P.G.: suma primilor $n$ termeni ($q\\neq1$) $S_n=?$",
+    "variante": [
+      "$b_1\\cdot\\frac{q^{n}-1}{q}$",
+      "$b_1\\cdot\\frac{q^n+1}{q+1}$",
+      "$b_1\\cdot\\frac{q^n-1}{q-1}$",
+      "$\\frac{(b_1+b_n)n}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "progresii-011",
+    "tip": "simplu",
+    "intrebare": "P.G.: dacă $q=1$, atunci $S_n=?$",
+    "variante": [
+      "$b_1^n$",
+      "$n\\cdot b_1$",
+      "$b_1$",
+      "$0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-012",
+    "tip": "simplu",
+    "intrebare": "P.G.: pătratul unui termen este:",
+    "variante": [
+      "$b_n=\\frac{b_{n-1}+b_{n+1}}{2}$",
+      "$b_n^2=b_{n-1}+b_{n+1}$",
+      "$b_n^2=b_{n-1}\\cdot b_{n+1}$",
+      "$b_n=b_{n-1}\\cdot b_{n+1}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "progresii-013",
+    "tip": "simplu",
+    "intrebare": "$a,b,c$ sunt în P.A. dacă și numai dacă:",
+    "variante": [
+      "$b=a+c$",
+      "$b^2=ac$",
+      "$2b=ac$",
+      "$2b=a+c$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-014",
+    "tip": "simplu",
+    "intrebare": "$a,b,c$ sunt în P.G. dacă și numai dacă:",
+    "variante": [
+      "$2b=a+c$",
+      "$b^2=ac$",
+      "$b^2=a+c$",
+      "$b=ac$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-015",
+    "tip": "simplu",
+    "intrebare": "Șirul $2,5,8,\\ldots$ este P.A. cu rația:",
+    "variante": [
+      "$2$",
+      "$\\frac{5}{2}$",
+      "$3$",
+      "$5$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "progresii-016",
+    "tip": "simplu",
+    "intrebare": "Pentru $a_1=1$, $r=2$: $a_5=?$",
+    "variante": [
+      "$11$",
+      "$7$",
+      "$10$",
+      "$9$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-017",
+    "tip": "simplu",
+    "intrebare": "$1+2+\\ldots+10=?$",
+    "variante": [
+      "$110$",
+      "$50$",
+      "$45$",
+      "$55$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-018",
+    "tip": "simplu",
+    "intrebare": "Șirul $3,6,12,\\ldots$ este P.G. cu rația:",
+    "variante": [
+      "$2$",
+      "$4$",
+      "$3$",
+      "$6$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-019",
+    "tip": "simplu",
+    "intrebare": "Pentru $b_1=1$, $q=3$: $b_4=?$",
+    "variante": [
+      "$27$",
+      "$12$",
+      "$81$",
+      "$9$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-020",
+    "tip": "simplu",
+    "intrebare": "Pentru $a_1=2$, $r=4$: $a_3=?$",
+    "variante": [
+      "$8$",
+      "$6$",
+      "$14$",
+      "$10$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "progresii-021",
+    "tip": "simplu",
+    "intrebare": "Dacă $r=0$ într-o P.A., șirul este:",
+    "variante": [
+      "descrescător",
+      "constant",
+      "nu există",
+      "crescător"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-022",
+    "tip": "simplu",
+    "intrebare": "O P.A. cu $r>0$ este:",
+    "variante": [
+      "crescătoare",
+      "descrescătoare",
+      "alternantă",
+      "constantă"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-023",
+    "tip": "simplu",
+    "intrebare": "O P.A. cu $r<0$ este:",
+    "variante": [
+      "constantă",
+      "descrescătoare",
+      "crescătoare",
+      "alternantă"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "progresii-024",
+    "tip": "simplu",
+    "intrebare": "Dacă $p+q=m+k$ într-o P.A., atunci:",
+    "variante": [
+      "$a_p+a_q=a_m+a_k$",
+      "$a_p-a_q=a_m-a_k$",
+      "$a_p=a_m$",
+      "$a_p\\cdot a_q=a_m\\cdot a_k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "progresii-025",
+    "tip": "multiplu",
+    "intrebare": "Care formule sunt corecte?",
+    "variante": [
+      "P.G.: $b_n=b_1+(n-1)q$",
+      "P.A.: $a_n=a_1+(n-1)r$",
+      "P.A.: $a_n=a_1q^{n-1}$",
+      "P.G.: $b_n=b_1q^{n-1}$"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  }
+]

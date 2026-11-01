@@ -1,0 +1,305 @@
+[
+  {
+    "id": "puteri-si-radicali-001",
+    "tip": "simplu",
+    "intrebare": "$a^m\\cdot a^n=?$",
+    "variante": [
+      "$a^{m+n}$",
+      "$a^{mn}$",
+      "$a^{m-n}$",
+      "$(2a)^{m+n}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-002",
+    "tip": "simplu",
+    "intrebare": "$a^m : a^n=?$ ($a\\neq0$)",
+    "variante": [
+      "$a^{m+n}$",
+      "$a^{\\frac{m}{n}}$",
+      "$a^{m-n}$",
+      "$a^{mn}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-003",
+    "tip": "simplu",
+    "intrebare": "$(a^m)^n=?$",
+    "variante": [
+      "$a^{m-n}$",
+      "$a^{mn}$",
+      "$a^{m^n}$",
+      "$a^{m+n}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-004",
+    "tip": "simplu",
+    "intrebare": "$(ab)^n=?$",
+    "variante": [
+      "$ab^n$",
+      "$a^nb^n$",
+      "$a^{n}b$",
+      "$a^n+b^n$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-005",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\frac{a}{b}\\right)^n=?$ ($b\\neq0$)",
+    "variante": [
+      "$\\frac{a^n}{n b}$",
+      "$\\frac{a^n}{b^n}$",
+      "$\\frac{a}{b^n}$",
+      "$\\frac{a^n}{b}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-006",
+    "tip": "simplu",
+    "intrebare": "$a^0=?$ ($a\\neq0$)",
+    "variante": [
+      "$1$",
+      "$a$",
+      "nu este definit",
+      "$0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-007",
+    "tip": "simplu",
+    "intrebare": "$a^{-n}=?$ ($a\\neq0$)",
+    "variante": [
+      "$a^{n}$",
+      "$\\frac{1}{a^n}$",
+      "$-a^n$",
+      "$-\\frac{1}{a^n}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-008",
+    "tip": "simplu",
+    "intrebare": "$a^{\\frac{m}{n}}=?$",
+    "variante": [
+      "$\\sqrt[n]{a^m}$",
+      "$\\sqrt[m]{a^n}$",
+      "$\\sqrt[n]{a}\\cdot m$",
+      "$a^{m-n}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-009",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt[n]{a}=?$",
+    "variante": [
+      "$a^{n}$",
+      "$\\frac{a}{n}$",
+      "$a^{\\frac{1}{n}}$",
+      "$a^{-n}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-010",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{a}\\cdot\\sqrt{b}=?$ ($a,b\\geq0$)",
+    "variante": [
+      "$\\sqrt{ab}$",
+      "$\\sqrt{a+b}$",
+      "$ab$",
+      "$\\sqrt{a}+\\sqrt{b}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-011",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{a^2}=?$",
+    "variante": [
+      "$|a|$",
+      "$a$",
+      "$a^2$",
+      "$-a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-012",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt[3]{a^3}=?$",
+    "variante": [
+      "$a^3$",
+      "$3a$",
+      "$|a|$",
+      "$a$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-013",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt[m]{\\sqrt[n]{a}}=?$",
+    "variante": [
+      "$\\sqrt[n-m]{a}$",
+      "$\\sqrt[m]{a^n}$",
+      "$\\sqrt[mn]{a}$",
+      "$\\sqrt[m+n]{a}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-014",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\frac{a}{b}\\right)^{-n}=?$",
+    "variante": [
+      "$\\frac{1}{ab^n}$",
+      "$-\\frac{a^n}{b^n}$",
+      "$\\left(\\frac{b}{a}\\right)^n$",
+      "$\\frac{a^n}{b^n}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-015",
+    "tip": "simplu",
+    "intrebare": "$(-2)^4=?$",
+    "variante": [
+      "$16$",
+      "$-16$",
+      "$-8$",
+      "$8$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-016",
+    "tip": "simplu",
+    "intrebare": "$-2^4=?$",
+    "variante": [
+      "$-8$",
+      "$-16$",
+      "$16$",
+      "$8$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-017",
+    "tip": "simplu",
+    "intrebare": "$2^{-3}=?$",
+    "variante": [
+      "$-8$",
+      "$\\frac{1}{8}$",
+      "$-\\frac{1}{8}$",
+      "$\\frac{1}{6}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-018",
+    "tip": "simplu",
+    "intrebare": "$8^{\\frac{1}{3}}=?$",
+    "variante": [
+      "$\\frac{8}{3}$",
+      "$4$",
+      "$2$",
+      "$\\frac{1}{8}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-019",
+    "tip": "simplu",
+    "intrebare": "$4^{\\frac{3}{2}}=?$",
+    "variante": [
+      "$4$",
+      "$16$",
+      "$6$",
+      "$8$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-020",
+    "tip": "simplu",
+    "intrebare": "$16^{-\\frac{1}{2}}=?$",
+    "variante": [
+      "$4$",
+      "$\\frac{1}{8}$",
+      "$-4$",
+      "$\\frac{1}{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-021",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{12}=?$",
+    "variante": [
+      "$6$",
+      "$4\\sqrt{3}$",
+      "$3\\sqrt{2}$",
+      "$2\\sqrt{3}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-022",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{50}=?$",
+    "variante": [
+      "$25\\sqrt{2}$",
+      "$10\\sqrt{5}$",
+      "$2\\sqrt{5}$",
+      "$5\\sqrt{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-023",
+    "tip": "simplu",
+    "intrebare": "Rationalizare: $\\frac{1}{\\sqrt{2}}=?$",
+    "variante": [
+      "$2\\sqrt{2}$",
+      "$\\sqrt{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-024",
+    "tip": "simplu",
+    "intrebare": "Conjugata expresiei $\\sqrt{a}+\\sqrt{b}$ este:",
+    "variante": [
+      "$\\sqrt{a}-\\sqrt{b}$",
+      "$\\frac{1}{\\sqrt{a}+\\sqrt{b}}$",
+      "$\\sqrt{b}+\\sqrt{a}$",
+      "$-\\sqrt{a}-\\sqrt{b}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-025",
+    "tip": "multiplu",
+    "intrebare": "Care egalități sunt adevărate (pentru $a>0$)?",
+    "variante": [
+      "$a^m\\cdot a^n=a^{mn}$",
+      "$(a^m)^n=a^{mn}$",
+      "$a^0=0$",
+      "$a^m\\cdot a^n=a^{m+n}$"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  }
+]

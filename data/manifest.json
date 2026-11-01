@@ -152,7 +152,68 @@
         {
           "id": "algebra",
           "nume": "Algebră",
-          "colectii": []
+          "colectii": [
+            {
+              "id": "puteri-si-radicali",
+              "nume": "Puteri și radicali: proprietăți",
+              "fisier": "data/12/algebra/puteri-si-radicali.json"
+            },
+            {
+              "id": "logaritmi",
+              "nume": "Logaritmi: definiție și proprietăți",
+              "fisier": "data/12/algebra/logaritmi.json"
+            },
+            {
+              "id": "ecuatii-rationale-si-cu-radicali",
+              "nume": "Ecuații raționale și cu radicali",
+              "fisier": "data/12/algebra/ecuatii-rationale-si-cu-radicali.json"
+            },
+            {
+              "id": "ecuatii-cu-logaritmi-si-exponentiale",
+              "nume": "Ecuații cu logaritmi și exponențiale",
+              "fisier": "data/12/algebra/ecuatii-cu-logaritmi-si-exponentiale.json"
+            },
+            {
+              "id": "inecuatii-de-gradul-2",
+              "nume": "Inecuații de gradul II",
+              "fisier": "data/12/algebra/inecuatii-de-gradul-2.json"
+            },
+            {
+              "id": "inecuatii-rationale-radicali-logaritmi",
+              "nume": "Inecuații raționale, cu radicali, cu logaritmi",
+              "fisier": "data/12/algebra/inecuatii-rationale-radicali-logaritmi.json"
+            },
+            {
+              "id": "inecuatii-exponentiale",
+              "nume": "Inecuații exponențiale",
+              "fisier": "data/12/algebra/inecuatii-exponentiale.json"
+            },
+            {
+              "id": "matrici-si-determinanti",
+              "nume": "Matrici și determinanți",
+              "fisier": "data/12/algebra/matrici-si-determinanti.json"
+            },
+            {
+              "id": "polinoame",
+              "nume": "Polinoame: Bézout, rădăcini, Viète",
+              "fisier": "data/12/algebra/polinoame.json"
+            },
+            {
+              "id": "numere-complexe",
+              "nume": "Numere complexe",
+              "fisier": "data/12/algebra/numere-complexe.json"
+            },
+            {
+              "id": "progresii",
+              "nume": "Progresii aritmetice și geometrice",
+              "fisier": "data/12/algebra/progresii.json"
+            },
+            {
+              "id": "siruri-si-paritatea-functiei",
+              "nume": "Șiruri, mulțimea de valori și paritatea funcției",
+              "fisier": "data/12/algebra/siruri-si-paritatea-functiei.json"
+            }
+          ]
         },
         {
           "id": "geometrie",

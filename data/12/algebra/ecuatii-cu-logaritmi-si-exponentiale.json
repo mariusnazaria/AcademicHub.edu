@@ -1,0 +1,305 @@
+[
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-001",
+    "tip": "simplu",
+    "intrebare": "Primul pas la o ecuație cu logaritmi este:",
+    "variante": [
+      "ridicarea la pătrat",
+      "trecerea la baza $10$",
+      "derivarea",
+      "DVA (argumentul $>0$, baza $>0$ și $\\neq1$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-002",
+    "tip": "simplu",
+    "intrebare": "La ecuația cu logaritm, logaritmul se scrie:",
+    "variante": [
+      "în dreapta",
+      "în stânga, iar expresia fără logaritm în dreapta",
+      "nu contează",
+      "în ambele părți mereu"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-003",
+    "tip": "simplu",
+    "intrebare": "$\\log_a f=b\\Rightarrow ?$",
+    "variante": [
+      "$f=ab$",
+      "$f=b^a$",
+      "$f=a^b$",
+      "$f=\\frac{b}{a}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-004",
+    "tip": "simplu",
+    "intrebare": "DVA pentru $\\log_2(x-3)$:",
+    "variante": [
+      "$x<3$",
+      "$x\\geq3$",
+      "$x>2$",
+      "$x>3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-005",
+    "tip": "simplu",
+    "intrebare": "$\\log_2 x=3$ are soluția:",
+    "variante": [
+      "$x=9$",
+      "$x=\\frac{3}{2}$",
+      "$x=6$",
+      "$x=8$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-006",
+    "tip": "simplu",
+    "intrebare": "$\\log_3 x=2$ are soluția:",
+    "variante": [
+      "$x=8$",
+      "$x=9$",
+      "$x=6$",
+      "$x=\\frac{2}{3}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-007",
+    "tip": "simplu",
+    "intrebare": "$\\log_5 x=0$ are soluția:",
+    "variante": [
+      "nu are soluții",
+      "$x=5$",
+      "$x=1$",
+      "$x=0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-008",
+    "tip": "simplu",
+    "intrebare": "$\\log_2 x=-1$ are soluția:",
+    "variante": [
+      "$x=\\frac{1}{2}$",
+      "$x=2$",
+      "$x=-2$",
+      "$x=-\\frac{1}{2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-009",
+    "tip": "simplu",
+    "intrebare": "$\\lg x=2$ are soluția:",
+    "variante": [
+      "$x=10$",
+      "$x=20$",
+      "$x=100$",
+      "$x=2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-010",
+    "tip": "simplu",
+    "intrebare": "$\\ln x=1$ are soluția:",
+    "variante": [
+      "$x=10$",
+      "$x=0$",
+      "$x=1$",
+      "$x=e$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-011",
+    "tip": "simplu",
+    "intrebare": "$\\log_2(x+1)=3$ are soluția:",
+    "variante": [
+      "$x=8$",
+      "$x=2$",
+      "$x=7$",
+      "$x=5$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-012",
+    "tip": "simplu",
+    "intrebare": "$\\log_a f=\\log_a g\\Rightarrow ?$",
+    "variante": [
+      "$f=ag$",
+      "$f=g$ (cu $f,g>0$)",
+      "$f=g^a$",
+      "$f+g=a$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-013",
+    "tip": "simplu",
+    "intrebare": "$\\log_a f+\\log_a g$ se transformă în:",
+    "variante": [
+      "$\\log_a(f+g)$",
+      "$\\log_a\\frac{f}{g}$",
+      "$\\log_a(fg)$",
+      "$\\log_a f\\cdot\\log_a g$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-014",
+    "tip": "simplu",
+    "intrebare": "La ecuația $\\log_2 x=\\log_2(3)$ soluția este:",
+    "variante": [
+      "$x=\\frac{3}{2}$",
+      "$x=8$",
+      "$x=3$",
+      "$x=9$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-015",
+    "tip": "simplu",
+    "intrebare": "Primul pas la o ecuație exponențială este:",
+    "variante": [
+      "aducerea la aceeași bază în stânga și dreapta",
+      "DVA obligatoriu cu logaritmi",
+      "ridicarea la pătrat",
+      "derivarea"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-016",
+    "tip": "simplu",
+    "intrebare": "$a^f=a^g\\Rightarrow ?$ ($a>0,\\ a\\neq1$)",
+    "variante": [
+      "$f\\cdot g=a$",
+      "$f=\\ln g$",
+      "$f=g$",
+      "$f=g+a$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-017",
+    "tip": "simplu",
+    "intrebare": "$2^x=8$ are soluția:",
+    "variante": [
+      "$x=6$",
+      "$x=4$",
+      "$x=2$",
+      "$x=3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-018",
+    "tip": "simplu",
+    "intrebare": "$3^x=\\frac{1}{9}$ are soluția:",
+    "variante": [
+      "$x=2$",
+      "$x=-2$",
+      "$x=\\frac{1}{2}$",
+      "$x=-3$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-019",
+    "tip": "simplu",
+    "intrebare": "$5^x=1$ are soluția:",
+    "variante": [
+      "$x=5$",
+      "$x=1$",
+      "$x=0$",
+      "nu are soluții"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-020",
+    "tip": "simplu",
+    "intrebare": "$2^x=-4$ are:",
+    "variante": [
+      "soluția $x=2$",
+      "soluția $x=-2$",
+      "nicio soluție (puterea unui număr pozitiv este $>0$)",
+      "soluția $x=-4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-021",
+    "tip": "simplu",
+    "intrebare": "$4^x=2$ are soluția:",
+    "variante": [
+      "$x=\\frac{1}{2}$",
+      "$x=\\frac{1}{4}$",
+      "$x=1$",
+      "$x=2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-022",
+    "tip": "simplu",
+    "intrebare": "$9^x$ cu baza $3$ se scrie:",
+    "variante": [
+      "$3^{x+2}$",
+      "$3^{x^2}$",
+      "$3^{\\frac{x}{2}}$",
+      "$3^{2x}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-023",
+    "tip": "simplu",
+    "intrebare": "$a^{x+1}=?$",
+    "variante": [
+      "$a^x+a$",
+      "$x\\cdot a^{x}$",
+      "$a^x+1$",
+      "$a\\cdot a^x$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-024",
+    "tip": "simplu",
+    "intrebare": "La $2^{2x}-3\\cdot2^x+2=0$ facem substituția:",
+    "variante": [
+      "$t=2^x$ cu $t>0$",
+      "$t=x^2$",
+      "$t=2x$",
+      "$t=\\log_2 x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-cu-logaritmi-si-exponentiale-025",
+    "tip": "multiplu",
+    "intrebare": "Care sunt corecte?",
+    "variante": [
+      "$\\log_a f=\\log_a g\\Rightarrow f=g$ (cu $f,g>0$)",
+      "$a^f=a^g\\Rightarrow f=g$",
+      "$a^x$ poate fi negativ",
+      "$\\log_a f=b\\Rightarrow f=b^a$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  }
+]

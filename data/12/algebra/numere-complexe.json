@@ -1,0 +1,305 @@
+[
+  {
+    "id": "numere-complexe-001",
+    "tip": "simplu",
+    "intrebare": "$i^2=?$",
+    "variante": [
+      "$-1$",
+      "$i$",
+      "$1$",
+      "$-i$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-002",
+    "tip": "simplu",
+    "intrebare": "$i^3=?$",
+    "variante": [
+      "$-1$",
+      "$-i$",
+      "$1$",
+      "$i$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "numere-complexe-003",
+    "tip": "simplu",
+    "intrebare": "$i^4=?$",
+    "variante": [
+      "$1$",
+      "$i$",
+      "$0$",
+      "$-1$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-004",
+    "tip": "simplu",
+    "intrebare": "Puterile lui $i$ se repetă din:",
+    "variante": [
+      "$2$ în $2$",
+      "$6$ în $6$",
+      "$3$ în $3$",
+      "$4$ în $4$ (după restul lui $n$ la $4$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-005",
+    "tip": "simplu",
+    "intrebare": "$i^{2024}=?$",
+    "variante": [
+      "$1$",
+      "$-1$",
+      "$i$",
+      "$-i$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-006",
+    "tip": "simplu",
+    "intrebare": "$i^{2023}=?$",
+    "variante": [
+      "$-1$",
+      "$i$",
+      "$1$",
+      "$-i$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-007",
+    "tip": "simplu",
+    "intrebare": "Pentru $z=a+bi$, $\\operatorname{Re}z=?$",
+    "variante": [
+      "$bi$",
+      "$a$",
+      "$b$",
+      "$a+b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "numere-complexe-008",
+    "tip": "simplu",
+    "intrebare": "Pentru $z=a+bi$, $\\operatorname{Im}z=?$",
+    "variante": [
+      "$bi$",
+      "$a-b$",
+      "$a$",
+      "$b$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-009",
+    "tip": "simplu",
+    "intrebare": "Conjugatul lui $z=a+bi$ este:",
+    "variante": [
+      "$b+ai$",
+      "$-a+bi$",
+      "$\\bar z=a-bi$",
+      "$-a-bi$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-complexe-010",
+    "tip": "simplu",
+    "intrebare": "Modulul lui $z=a+bi$ este:",
+    "variante": [
+      "$|z|=\\sqrt{a^2+b^2}$",
+      "$|z|=\\sqrt{a^2-b^2}$",
+      "$|z|=a^2+b^2$",
+      "$|z|=a+b$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-011",
+    "tip": "simplu",
+    "intrebare": "$z\\cdot\\bar z=?$",
+    "variante": [
+      "$a^2+b^2$",
+      "$a^2-b^2$",
+      "$2a$",
+      "$(a+b)^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-012",
+    "tip": "simplu",
+    "intrebare": "$z+\\bar z=?$",
+    "variante": [
+      "$2a$",
+      "$a^2+b^2$",
+      "$0$",
+      "$2bi$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-013",
+    "tip": "simplu",
+    "intrebare": "$z-\\bar z=?$",
+    "variante": [
+      "$2a$",
+      "$0$",
+      "$2bi$",
+      "$2b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-complexe-014",
+    "tip": "simplu",
+    "intrebare": "$z$ este pur real când:",
+    "variante": [
+      "$a=0$",
+      "$a=1$",
+      "$a=b$",
+      "$b=0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-015",
+    "tip": "simplu",
+    "intrebare": "$z$ este pur imaginar când:",
+    "variante": [
+      "$a=0$ (și $b\\neq0$)",
+      "$a=b$",
+      "$b=1$",
+      "$b=0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-016",
+    "tip": "simplu",
+    "intrebare": "$\\frac{1}{z}=?$",
+    "variante": [
+      "$\\frac{z}{|z|^2}$",
+      "$\\frac{\\bar z}{|z|}$",
+      "$-\\bar z$",
+      "$\\frac{\\bar z}{|z|^2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-017",
+    "tip": "simplu",
+    "intrebare": "Inversul lui $z=1+i$ este:",
+    "variante": [
+      "$\\frac{1-i}{\\sqrt{2}}$",
+      "$1-i$",
+      "$\\frac{1-i}{2}$",
+      "$\\frac{1+i}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-complexe-018",
+    "tip": "simplu",
+    "intrebare": "La împărțirea numerelor complexe amplificăm cu:",
+    "variante": [
+      "conjugatul numitorului",
+      "numitorul",
+      "$i$",
+      "modulul numărătorului"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-019",
+    "tip": "simplu",
+    "intrebare": "$(a+bi)(c+di)=?$",
+    "variante": [
+      "$(ac+bd)+(ad+bc)i$",
+      "$(ac-bd)+(ad-bc)i$",
+      "$(ac-bd)+(ad+bc)i$",
+      "$(ac+bd)+(ad-bc)i$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-complexe-020",
+    "tip": "simplu",
+    "intrebare": "$(1+i)^2=?$",
+    "variante": [
+      "$1+2i$",
+      "$2$",
+      "$2i$",
+      "$-2i$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-complexe-021",
+    "tip": "simplu",
+    "intrebare": "$(1-i)^2=?$",
+    "variante": [
+      "$2$",
+      "$-2$",
+      "$2i$",
+      "$-2i$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-022",
+    "tip": "simplu",
+    "intrebare": "$|3+4i|=?$",
+    "variante": [
+      "$5$",
+      "$25$",
+      "$1$",
+      "$7$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-complexe-023",
+    "tip": "simplu",
+    "intrebare": "$\\frac{1}{i}=?$",
+    "variante": [
+      "$-1$",
+      "$1$",
+      "$i$",
+      "$-i$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-complexe-024",
+    "tip": "simplu",
+    "intrebare": "Două numere complexe sunt egale dacă:",
+    "variante": [
+      "au aceeași parte reală doar",
+      "au aceeași parte reală și aceeași parte imaginară",
+      "au același modul",
+      "au același conjugat"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "numere-complexe-025",
+    "tip": "multiplu",
+    "intrebare": "Care egalități sunt adevărate?",
+    "variante": [
+      "$i^3=i$",
+      "$i^2=-1$",
+      "$i^4=1$",
+      "$i^2=1$"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

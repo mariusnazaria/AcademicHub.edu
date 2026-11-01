@@ -1,0 +1,305 @@
+[
+  {
+    "id": "logaritmi-001",
+    "tip": "simplu",
+    "intrebare": "$\\log_a b=x \\iff ?$",
+    "variante": [
+      "$a^x=b$",
+      "$x^a=b$",
+      "$a\\cdot x=b$",
+      "$b^x=a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-002",
+    "tip": "simplu",
+    "intrebare": "Condițiile de existență pentru $\\log_a b$:",
+    "variante": [
+      "$a>0,\\ a\\neq1,\\ b>0$",
+      "$a>0,\\ b\\geq0$",
+      "$a>1,\\ b\\in\\mathbb{R}$",
+      "$a\\neq0,\\ b>0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-003",
+    "tip": "simplu",
+    "intrebare": "$\\log_a 1=?$",
+    "variante": [
+      "$0$",
+      "$a$",
+      "$1$",
+      "nu există"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-004",
+    "tip": "simplu",
+    "intrebare": "$\\log_a a=?$",
+    "variante": [
+      "$a$",
+      "$\\frac{1}{a}$",
+      "$1$",
+      "$0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "logaritmi-005",
+    "tip": "simplu",
+    "intrebare": "$a^{\\log_a b}=?$",
+    "variante": [
+      "$ab$",
+      "$b$",
+      "$a$",
+      "$\\log_a b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-006",
+    "tip": "simplu",
+    "intrebare": "$\\log_a(bc)=?$",
+    "variante": [
+      "$\\log_a b\\cdot\\log_a c$",
+      "$\\log_a b+\\log_a c$",
+      "$\\log_a b-\\log_a c$",
+      "$\\log_a(b+c)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-007",
+    "tip": "simplu",
+    "intrebare": "$\\log_a\\frac{b}{c}=?$",
+    "variante": [
+      "$\\log_a c-\\log_a b$",
+      "$\\log_a b-\\log_a c$",
+      "$\\log_a b+\\log_a c$",
+      "$\\frac{\\log_a b}{\\log_a c}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-008",
+    "tip": "simplu",
+    "intrebare": "$\\log_a b^n=?$",
+    "variante": [
+      "$(\\log_a b)^n$",
+      "$\\log_a b+n$",
+      "$\\frac{\\log_a b}{n}$",
+      "$n\\log_a b$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "logaritmi-009",
+    "tip": "simplu",
+    "intrebare": "Schimbarea bazei: $\\log_a b=?$",
+    "variante": [
+      "$\\frac{\\log_c b}{\\log_c a}$",
+      "$\\log_c b-\\log_c a$",
+      "$\\log_c b\\cdot\\log_c a$",
+      "$\\frac{\\log_c a}{\\log_c b}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-010",
+    "tip": "simplu",
+    "intrebare": "$\\log_a b=?$ (în funcție de $\\log_b a$)",
+    "variante": [
+      "$\\log_b a$",
+      "$-\\log_b a$",
+      "$\\frac{1}{\\log_b a}$",
+      "$\\frac{1}{\\log_a b}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "logaritmi-011",
+    "tip": "simplu",
+    "intrebare": "$\\log_{a^n}b^m=?$",
+    "variante": [
+      "$\\frac{n}{m}\\log_a b$",
+      "$\\log_a b^{m+n}$",
+      "$\\frac{m}{n}\\log_a b$",
+      "$mn\\log_a b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "logaritmi-012",
+    "tip": "simplu",
+    "intrebare": "Logaritmul zecimal $\\lg x$ este logaritm în baza:",
+    "variante": [
+      "$1$",
+      "$2$",
+      "$e$",
+      "$10$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "logaritmi-013",
+    "tip": "simplu",
+    "intrebare": "Logaritmul natural $\\ln x$ este logaritm în baza:",
+    "variante": [
+      "$10$",
+      "$e$",
+      "$\\pi$",
+      "$2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-014",
+    "tip": "simplu",
+    "intrebare": "$\\log_2 8=?$",
+    "variante": [
+      "$16$",
+      "$4$",
+      "$2$",
+      "$3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "logaritmi-015",
+    "tip": "simplu",
+    "intrebare": "$\\log_3 81=?$",
+    "variante": [
+      "$3$",
+      "$27$",
+      "$4$",
+      "$9$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "logaritmi-016",
+    "tip": "simplu",
+    "intrebare": "$\\log_5\\frac{1}{5}=?$",
+    "variante": [
+      "$1$",
+      "$5$",
+      "$-1$",
+      "$-5$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "logaritmi-017",
+    "tip": "simplu",
+    "intrebare": "$\\log_2\\frac{1}{4}=?$",
+    "variante": [
+      "$-4$",
+      "$-2$",
+      "$2$",
+      "$\\frac{1}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-018",
+    "tip": "simplu",
+    "intrebare": "$\\lg 1000=?$",
+    "variante": [
+      "$10$",
+      "$3$",
+      "$2$",
+      "$4$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-019",
+    "tip": "simplu",
+    "intrebare": "$\\lg 0{,}01=?$",
+    "variante": [
+      "$-1$",
+      "$-2$",
+      "$-100$",
+      "$2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-020",
+    "tip": "simplu",
+    "intrebare": "$\\ln e=?$",
+    "variante": [
+      "$1$",
+      "$e$",
+      "$\\frac{1}{e}$",
+      "$0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-021",
+    "tip": "simplu",
+    "intrebare": "$e^{\\ln 5}=?$",
+    "variante": [
+      "$5e$",
+      "$\\ln 5$",
+      "$e^5$",
+      "$5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "logaritmi-022",
+    "tip": "simplu",
+    "intrebare": "$\\log_6 2+\\log_6 3=?$",
+    "variante": [
+      "$1$",
+      "$\\frac{3}{2}$",
+      "$6$",
+      "$\\log_6 5$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "logaritmi-023",
+    "tip": "simplu",
+    "intrebare": "$\\log_4 2=?$",
+    "variante": [
+      "$2$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{4}$",
+      "$-\\frac{1}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "logaritmi-024",
+    "tip": "simplu",
+    "intrebare": "Este adevărat că $\\log_a(b+c)=\\log_a b+\\log_a c$?",
+    "variante": [
+      "Da, întotdeauna",
+      "Da, dacă $a>1$",
+      "Da, dacă $b=c$",
+      "Nu, nu există o astfel de formulă pentru sumă"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "logaritmi-025",
+    "tip": "multiplu",
+    "intrebare": "Care egalități sunt adevărate?",
+    "variante": [
+      "$\\log_a a=1$",
+      "$\\log_a a=0$",
+      "$\\log_a 1=1$",
+      "$\\log_a 1=0$"
+    ],
+    "corect": [
+      0,
+      3
+    ]
+  }
+]

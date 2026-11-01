@@ -1,0 +1,305 @@
+[
+  {
+    "id": "matrici-si-determinanti-001",
+    "tip": "simplu",
+    "intrebare": "Determinantul de ordinul II: $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=?$",
+    "variante": [
+      "$ad+bc$",
+      "$ab-cd$",
+      "$ac-bd$",
+      "$ad-bc$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-002",
+    "tip": "simplu",
+    "intrebare": "Determinantul de ordinul III se calculează prin:",
+    "variante": [
+      "adunarea tuturor elementelor",
+      "regula triunghiului (sau Sarrus: copiem primele două rânduri)",
+      "regula lui Cramer doar",
+      "înmulțirea elementelor diagonalei"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-003",
+    "tip": "simplu",
+    "intrebare": "La regula lui Sarrus copiem sub determinant:",
+    "variante": [
+      "ultimul rând",
+      "primele două rânduri",
+      "diagonala principală",
+      "ultima coloană"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-004",
+    "tip": "simplu",
+    "intrebare": "La Sarrus, produsele pe diagonalele paralele cu cea principală se iau cu semnul:",
+    "variante": [
+      "$+$",
+      "$-$",
+      "$\\pm$ alternat",
+      "nu se iau"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-005",
+    "tip": "simplu",
+    "intrebare": "La Sarrus, produsele pe diagonalele paralele cu cea secundară se iau cu semnul:",
+    "variante": [
+      "$+$",
+      "$-$",
+      "nu se iau",
+      "$\\pm$ alternat"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-006",
+    "tip": "simplu",
+    "intrebare": "Matricea este inversabilă dacă:",
+    "variante": [
+      "$\\det A=0$",
+      "$\\det A=1$ doar",
+      "$\\det A\\neq0$",
+      "$\\det A>0$ doar"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "matrici-si-determinanti-007",
+    "tip": "simplu",
+    "intrebare": "Matricea NU este inversabilă dacă:",
+    "variante": [
+      "$\\det A=1$",
+      "$\\det A\\neq0$",
+      "$\\det A<0$",
+      "$\\det A=0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-008",
+    "tip": "simplu",
+    "intrebare": "Pentru „valorile lui $x$ pentru care matricea este inversabilă” procedăm:",
+    "variante": [
+      "calculăm $A^2$",
+      "derivăm $A$",
+      "punem $\\det A=0$",
+      "calculăm $\\det A$ și punem condiția $\\det A\\neq0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-009",
+    "tip": "simplu",
+    "intrebare": "Pentru „valorile lui $x$ pentru care matricea NU este inversabilă” procedăm:",
+    "variante": [
+      "punem $\\det A=1$",
+      "punem $\\det A\\neq0$",
+      "calculăm $A^T$",
+      "calculăm $\\det A$ și punem $\\det A=0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-010",
+    "tip": "simplu",
+    "intrebare": "$\\det\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}=?$",
+    "variante": [
+      "$-10$",
+      "$2$",
+      "$10$",
+      "$-2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-011",
+    "tip": "simplu",
+    "intrebare": "$\\det\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}=?$",
+    "variante": [
+      "$-6$",
+      "$6$",
+      "$0$",
+      "$5$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-012",
+    "tip": "simplu",
+    "intrebare": "$\\det\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}=?$",
+    "variante": [
+      "$0$",
+      "$1$",
+      "$-1$",
+      "$2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-013",
+    "tip": "simplu",
+    "intrebare": "$\\det\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}=?$",
+    "variante": [
+      "$-1$",
+      "$2$",
+      "$0$",
+      "$1$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-014",
+    "tip": "simplu",
+    "intrebare": "$\\det I_2=?$",
+    "variante": [
+      "$0$",
+      "$2$",
+      "$1$",
+      "$-1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "matrici-si-determinanti-015",
+    "tip": "simplu",
+    "intrebare": "Un determinant cu un rând de zerouri este:",
+    "variante": [
+      "nu se poate calcula",
+      "$-1$",
+      "$0$",
+      "$1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "matrici-si-determinanti-016",
+    "tip": "simplu",
+    "intrebare": "Un determinant cu două rânduri egale este:",
+    "variante": [
+      "$0$",
+      "$1$",
+      "nedefinit",
+      "dublul unui rând"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-017",
+    "tip": "simplu",
+    "intrebare": "Dacă schimbăm între ele două rânduri, determinantul:",
+    "variante": [
+      "își schimbă semnul",
+      "se dublează",
+      "devine $0$",
+      "rămâne la fel"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-018",
+    "tip": "simplu",
+    "intrebare": "$\\det A^T=?$",
+    "variante": [
+      "$(\\det A)^2$",
+      "$\\frac{1}{\\det A}$",
+      "$\\det A$",
+      "$-\\det A$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "matrici-si-determinanti-019",
+    "tip": "simplu",
+    "intrebare": "$\\det(AB)=?$",
+    "variante": [
+      "$\\frac{\\det A}{\\det B}$",
+      "$\\det A\\cdot\\det B$",
+      "$\\det A-\\det B$",
+      "$\\det A+\\det B$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-020",
+    "tip": "simplu",
+    "intrebare": "Inversa unei matrici $A$ satisface:",
+    "variante": [
+      "$A\\cdot A^{-1}=A$",
+      "$A\\cdot A^{-1}=I$",
+      "$A\\cdot A^{-1}=0$",
+      "$A+A^{-1}=I$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "matrici-si-determinanti-021",
+    "tip": "simplu",
+    "intrebare": "Pentru $A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$, $A^{-1}=?$",
+    "variante": [
+      "$\\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$",
+      "$\\frac{1}{ad-bc}\\begin{pmatrix}a&-b\\\\-c&d\\end{pmatrix}$",
+      "$(ad-bc)\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$",
+      "$\\frac{1}{ad+bc}\\begin{pmatrix}d&b\\\\c&a\\end{pmatrix}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "matrici-si-determinanti-022",
+    "tip": "simplu",
+    "intrebare": "Produsul $AB$ există dacă:",
+    "variante": [
+      "$\\det A=\\det B$",
+      "$A$ și $B$ au același număr de rânduri",
+      "$A$ și $B$ sunt pătratice mereu",
+      "numărul de coloane ale lui $A$ este egal cu numărul de rânduri ale lui $B$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-023",
+    "tip": "simplu",
+    "intrebare": "Este adevărat că $AB=BA$ întotdeauna?",
+    "variante": [
+      "Da, întotdeauna",
+      "Da, dacă $\\det A\\neq0$",
+      "Nu, în general $AB\\neq BA$",
+      "Da, dacă matricile sunt $2\\times2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "matrici-si-determinanti-024",
+    "tip": "simplu",
+    "intrebare": "Matricea transpusă $A^T$ se obține:",
+    "variante": [
+      "înmulțind cu $\\det A$",
+      "adunând matricea cu ea însăși",
+      "schimbând semnul elementelor",
+      "schimbând rândurile cu coloanele"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "matrici-si-determinanti-025",
+    "tip": "multiplu",
+    "intrebare": "Care determinanți sunt egali cu $0$?",
+    "variante": [
+      "cu un rând de zerouri",
+      "$\\det I_2$",
+      "$\\det\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$",
+      "cu două rânduri egale"
+    ],
+    "corect": [
+      0,
+      3
+    ]
+  }
+]
