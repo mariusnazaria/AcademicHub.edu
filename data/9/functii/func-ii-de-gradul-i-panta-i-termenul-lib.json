@@ -99,5 +99,21 @@
       1
     ],
     "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558760792.png"
+  },
+  {
+    "id": "func-ii-de-gradul-i-panta-i-termenul-lib-1793558881590",
+    "tip": "multiplu",
+    "intrebare": "Fie funcţia ƒ(x)=ax+b. Selectaţi valorile posibile pentru panta a",
+    "variante": [
+      "3",
+      "5",
+      "-1",
+      "-2"
+    ],
+    "corect": [
+      2,
+      3
+    ],
+    "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558879657.png"
   }
 ]
