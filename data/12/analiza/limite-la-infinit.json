@@ -2,191 +2,205 @@
   {
     "id": "limite-la-infinit-001",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac1x$?",
+    "intrebare": "Pentru $f(x)=\\frac1x$, cât este $\\lim_{x\\to+\\infty}f(x)$ (citește graficul)?",
     "variante": [
+      "$-\\infty$",
       "$+\\infty$",
-      "$1$",
       "$0$",
-      "$-\\infty$"
+      "$1$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-lim1.svg"
   },
   {
     "id": "limite-la-infinit-002",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}x^2$?",
+    "intrebare": "Cât este $\\lim_{x\\to-\\infty}f(x)$?",
+    "variante": [
+      "$-\\infty$",
+      "$+\\infty$",
+      "$0$",
+      "$1$"
+    ],
+    "corect": 2,
+    "imagine": "data/imagini/g-lim1.svg"
+  },
+  {
+    "id": "limite-la-infinit-003",
+    "tip": "simplu",
+    "intrebare": "Cât este $\\lim_{x\\to0^+}f(x)$?",
+    "variante": [
+      "$+\\infty$",
+      "$0$",
+      "$1$",
+      "$-\\infty$"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/g-lim1.svg"
+  },
+  {
+    "id": "limite-la-infinit-004",
+    "tip": "simplu",
+    "intrebare": "Cât este $\\lim_{x\\to0^-}f(x)$?",
+    "variante": [
+      "$+\\infty$",
+      "$0$",
+      "$1$",
+      "$-\\infty$"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/g-lim1.svg"
+  },
+  {
+    "id": "limite-la-infinit-005",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^2$: $\\lim_{x\\to+\\infty}f(x)=$",
+    "variante": [
+      "$0$",
+      "$-\\infty$",
+      "$+\\infty$",
+      "$1$"
+    ],
+    "corect": 2,
+    "imagine": "data/imagini/g-lim2.svg"
+  },
+  {
+    "id": "limite-la-infinit-006",
+    "tip": "simplu",
+    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+    "variante": [
+      "$1$",
+      "$+\\infty$",
+      "$-\\infty$",
+      "$0$"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/g-lim2.svg"
+  },
+  {
+    "id": "limite-la-infinit-007",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=x^3$: $\\lim_{x\\to+\\infty}f(x)=$",
+    "variante": [
+      "$-\\infty$",
+      "$+\\infty$",
+      "$1$",
+      "$0$"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/g-lim3.svg"
+  },
+  {
+    "id": "limite-la-infinit-008",
+    "tip": "simplu",
+    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+    "variante": [
+      "$1$",
+      "$-\\infty$",
+      "$+\\infty$",
+      "$0$"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/g-lim3.svg"
+  },
+  {
+    "id": "limite-la-infinit-009",
+    "tip": "simplu",
+    "intrebare": "Pentru $f(x)=e^x$: $\\lim_{x\\to+\\infty}f(x)=$",
     "variante": [
       "$1$",
       "$0$",
       "$+\\infty$",
       "$-\\infty$"
     ],
-    "corect": 2
-  },
-  {
-    "id": "limite-la-infinit-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}(-x^2)$?",
-    "variante": [
-      "$-\\infty$",
-      "$0$",
-      "$-1$",
-      "$+\\infty$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-la-infinit-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{5}{x^2}$?",
-    "variante": [
-      "$5$",
-      "$+\\infty$",
-      "$\\frac52$",
-      "$0$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "limite-la-infinit-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}e^x$?",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$+\\infty$",
-      "$e$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "limite-la-infinit-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to-\\infty}e^x$?",
-    "variante": [
-      "$-\\infty$",
-      "$0$",
-      "$+\\infty$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-la-infinit-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\ln x$?",
-    "variante": [
-      "$0$",
-      "$+\\infty$",
-      "$-\\infty$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-la-infinit-008",
-    "tip": "simplu",
-    "intrebare": "Fracție cu gradul numărătorului egal cu al numitorului. Limita la $\\infty$ este:",
-    "variante": [
-      "$1$ mereu",
-      "raportul coeficienților dominanți",
-      "$0$",
-      "$+\\infty$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-la-infinit-009",
-    "tip": "simplu",
-    "intrebare": "Fracție cu gradul numărătorului mai mic decât al numitorului. Limita la $\\infty$ este:",
-    "variante": [
-      "$1$",
-      "$+\\infty$",
-      "$0$",
-      "raportul coeficienților"
-    ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-lim4.svg"
   },
   {
     "id": "limite-la-infinit-010",
     "tip": "simplu",
-    "intrebare": "Fracție cu gradul numărătorului mai mare decât al numitorului. Limita la $\\infty$ este:",
+    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
     "variante": [
       "$1$",
-      "$\\pm\\infty$",
       "$0$",
-      "raportul coeficienților"
+      "$+\\infty$",
+      "$-\\infty$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lim4.svg"
   },
   {
     "id": "limite-la-infinit-011",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{3x+1}{x+2}$?",
+    "intrebare": "Pentru $f(x)=\\left(\\frac12\\right)^x$: $\\lim_{x\\to+\\infty}f(x)=$",
     "variante": [
-      "$1$",
-      "$3$",
       "$+\\infty$",
-      "$\\frac12$"
+      "$0$",
+      "$-\\infty$",
+      "$1$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lim5.svg"
   },
   {
     "id": "limite-la-infinit-012",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{x^2+1}{x^2-1}$?",
+    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
     "variante": [
-      "$+\\infty$",
+      "$-\\infty$",
       "$0$",
-      "$-1$",
-      "$1$"
+      "$1$",
+      "$+\\infty$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-lim5.svg"
   },
   {
     "id": "limite-la-infinit-013",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{3x^2-1}{x^2+5}$?",
+    "intrebare": "Pentru $f(x)=\\ln x$: $\\lim_{x\\to+\\infty}f(x)=$",
     "variante": [
+      "$-\\infty$",
       "$+\\infty$",
-      "$3$",
-      "$0$",
-      "$-\\frac15$"
+      "$1$",
+      "$0$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lim6.svg"
   },
   {
     "id": "limite-la-infinit-014",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{x+1}{2x-3}$?",
+    "intrebare": "$\\lim_{x\\to0^+}f(x)=$",
     "variante": [
-      "$-\\frac13$",
-      "$\\frac12$",
-      "$2$",
+      "$1$",
+      "$-\\infty$",
+      "$+\\infty$",
       "$0$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lim6.svg"
   },
   {
     "id": "limite-la-infinit-015",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{x}{x^2+1}$?",
+    "intrebare": "$\\lim_{x\\to\\infty}\\frac{1}{x}=$",
     "variante": [
       "$1$",
       "$0$",
       "$-1$",
-      "$+\\infty$"
+      "$\\infty$"
     ],
     "corect": 1
   },
   {
     "id": "limite-la-infinit-016",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{x^3}{x^2+1}$?",
+    "intrebare": "$\\lim_{x\\to\\infty}x^2=$",
     "variante": [
-      "$-\\infty$",
-      "$0$",
       "$1$",
+      "$0$",
+      "$-\\infty$",
       "$+\\infty$"
     ],
     "corect": 3
@@ -194,24 +208,24 @@
   {
     "id": "limite-la-infinit-017",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\frac{\\sqrt{x^2+1}}{x}$?",
+    "intrebare": "$\\lim_{x\\to\\infty}\\frac{3x+1}{x}=$",
     "variante": [
+      "$3$",
+      "$\\infty$",
       "$1$",
-      "$\\sqrt2$",
-      "$0$",
-      "$+\\infty$"
+      "$0$"
     ],
     "corect": 0
   },
   {
     "id": "limite-la-infinit-018",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to\\infty}\\left(1+\\frac1x\\right)^x$?",
+    "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^3}{x^2}=$",
     "variante": [
-      "$0$",
-      "$e$",
       "$1$",
-      "$+\\infty$"
+      "$+\\infty$",
+      "$0$",
+      "$-\\infty$"
     ],
     "corect": 1
   }

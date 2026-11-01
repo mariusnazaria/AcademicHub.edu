@@ -2,196 +2,232 @@
   {
     "id": "inecuatii-de-gradul-1-001",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $3x>9$.",
+    "intrebare": "Citește graficul lui $f(x)=2x-4$. Rezolvă $f(x)>0$.",
     "variante": [
-      "$x>6$",
-      "$x>3$",
-      "$x<3$",
-      "$x>27$"
+      "$x>4$",
+      "$x>2$",
+      "$x<2$",
+      "$x>-4$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q1.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-002",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $-2x>6$.",
+    "intrebare": "Rezolvă $f(x)<0$.",
     "variante": [
-      "$x>-3$",
-      "$x<-3$",
-      "$x>3$",
-      "$x<3$"
+      "$x>2$",
+      "$x<2$",
+      "$x<-4$",
+      "$x<4$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q1.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-003",
     "tip": "simplu",
-    "intrebare": "Ce facem cu semnul inegalității când împărțim la un număr negativ?",
+    "intrebare": "Rezolvă $f(x)\\geq0$.",
     "variante": [
-      "îl schimbăm",
-      "îl dublăm",
-      "îl anulăm",
-      "îl păstrăm"
+      "$x\\geq2$",
+      "$x\\geq-4$",
+      "$x>2$",
+      "$x\\leq2$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-q1.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-004",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x+2\\leq5$.",
+    "intrebare": "Citește graficul lui $f(x)=-x+3$. Rezolvă $f(x)>0$.",
     "variante": [
+      "$x<-3$",
+      "$x>-3$",
       "$x<3$",
-      "$x\\leq7$",
-      "$x\\leq3$",
-      "$x\\geq3$"
+      "$x>3$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-q2.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-005",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $2x-1<5$.",
+    "intrebare": "Rezolvă $f(x)<0$.",
     "variante": [
-      "$x<2$",
-      "$x<3$",
+      "$x>-3$",
       "$x>3$",
-      "$x<9$"
+      "$x<3$",
+      "$x<-3$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q2.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-006",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac x3\\geq2$.",
+    "intrebare": "Rezolvă $f(x)\\leq0$.",
     "variante": [
-      "$x\\geq5$",
-      "$x\\geq6$",
-      "$x\\geq\\frac23$",
-      "$x\\leq6$"
+      "$x>3$",
+      "$x\\geq3$",
+      "$x\\leq-3$",
+      "$x\\leq3$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q2.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-007",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $-x<4$.",
+    "intrebare": "Citește graficul lui $f(x)=x+2$. Rezolvă $f(x)>0$.",
     "variante": [
-      "$x>-4$",
-      "$x<-4$",
-      "$x>4$",
-      "$x<4$"
+      "$x>-2$",
+      "$x<-2$",
+      "$x>2$",
+      "$x<2$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-q3.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-008",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $5x\\leq-10$.",
+    "intrebare": "Rezolvă $f(x)<0$.",
     "variante": [
-      "$x\\leq2$",
-      "$x\\leq-2$",
-      "$x\\geq-2$",
-      "$x\\leq-50$"
+      "$x<2$",
+      "$x<-2$",
+      "$x>-2$",
+      "$x>2$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q3.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-009",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $-3x\\leq9$.",
+    "intrebare": "Rezolvă $f(x)\\geq0$.",
     "variante": [
-      "$x\\geq3$",
-      "$x\\leq-3$",
-      "$x\\geq-3$",
-      "$x\\geq-27$"
+      "$x\\geq2$",
+      "$x\\leq-2$",
+      "$x\\geq-2$",
+      "$x>-2$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-q3.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-010",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $4x-3>1$.",
+    "intrebare": "Citește graficul lui $f(x)=-2x-2$. Rezolvă $f(x)>0$.",
     "variante": [
+      "$x<-1$",
+      "$x>-1$",
       "$x>1$",
-      "$x<1$",
-      "$x>\\frac12$",
-      "$x>-1$"
+      "$x<1$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-q4.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-011",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $-2x<-8$.",
+    "intrebare": "Rezolvă $f(x)\\leq0$.",
     "variante": [
-      "$x<-4$",
-      "$x<4$",
-      "$x>-4$",
-      "$x>4$"
+      "$x<-1$",
+      "$x\\leq-1$",
+      "$x\\geq1$",
+      "$x\\geq-1$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-q4.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-012",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x-3\\geq0$.",
+    "intrebare": "Graficul lui $y=x-1$ și dreapta $y=2$ (roșie). Rezolvă $x-1>2$.",
     "variante": [
-      "$x\\geq-3$",
-      "$x\\geq3$",
-      "$x\\leq3$",
-      "$x>3$"
+      "$x>1$",
+      "$x>3$",
+      "$x<3$",
+      "$x>2$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q5.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-013",
     "tip": "simplu",
-    "intrebare": "Cum scriem soluția $x>3$ ca interval?",
+    "intrebare": "Rezolvă $x-1<2$.",
     "variante": [
-      "$(-\\infty;3]$",
-      "$(3;+\\infty)$",
-      "$[3;+\\infty)$",
-      "$(-\\infty;3)$"
+      "$x<2$",
+      "$x<3$",
+      "$x>3$",
+      "$x<1$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-q5.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-014",
     "tip": "simplu",
-    "intrebare": "Cum scriem soluția $x\\geq2$ ca interval?",
+    "intrebare": "Graficul lui $y=2x$ și dreapta $y=4$ (roșie). Rezolvă $2x>4$.",
     "variante": [
-      "$(2;+\\infty)$",
-      "$(-\\infty;2]$",
-      "$[2;+\\infty)$",
-      "$(-\\infty;2)$"
+      "$x<2$",
+      "$x>4$",
+      "$x>2$",
+      "$x>8$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-q6.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-015",
     "tip": "simplu",
-    "intrebare": "Cum scriem soluția $x<-1$ ca interval?",
+    "intrebare": "Rezolvă $2x\\leq4$.",
     "variante": [
-      "$(-\\infty;-1)$",
-      "$[-1;+\\infty)$",
-      "$(-\\infty;-1]$",
-      "$(-1;+\\infty)$"
+      "$x\\leq2$",
+      "$x\\leq8$",
+      "$x\\geq2$",
+      "$x\\leq4$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-q6.svg"
   },
   {
     "id": "inecuatii-de-gradul-1-016",
-    "tip": "multiplu",
-    "intrebare": "Care inecuații au soluția $x>2$?",
+    "tip": "simplu",
+    "intrebare": "Ce facem cu semnul inegalității când împărțim la un număr negativ?",
     "variante": [
-      "$\\frac x2<1$",
-      "$-x>2$",
-      "$x+1>3$",
-      "$3x>6$"
+      "îl dublăm",
+      "îl anulăm",
+      "îl păstrăm",
+      "îl schimbăm"
     ],
-    "corect": [
-      2,
-      3
-    ]
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-1-017",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $-2x>6$.",
+    "variante": [
+      "$x<3$",
+      "$x>3$",
+      "$x>-3$",
+      "$x<-3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-1-018",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $3x>9$.",
+    "variante": [
+      "$x>3$",
+      "$x>6$",
+      "$x<3$",
+      "$x>27$"
+    ],
+    "corect": 0
   }
 ]

@@ -535,6 +535,11 @@
               "id": "ecuatii-trigonometrice-tipuri",
               "nume": "Ecuații trigonometrice: tipuri și pași",
               "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-tipuri.json"
+            },
+            {
+              "id": "functii-trigonometrice-din-grafic",
+              "fisier": "data/12/trigonometrie/functii-trigonometrice-din-grafic.json",
+              "nume": "Funcții trigonometrice din grafic"
             }
           ]
         },

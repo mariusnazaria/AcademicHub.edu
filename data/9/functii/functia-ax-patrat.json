@@ -2,244 +2,248 @@
   {
     "id": "functia-ax-patrat-001",
     "tip": "simplu",
-    "intrebare": "Ramurile parabolei $y=ax^2$ merg în sus când:",
+    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
     "variante": [
-      "$a=1$ doar",
-      "$a=0$",
-      "$a<0$",
-      "$a>0$"
+      "întoarsă în jos",
+      "la fel de largă",
+      "mai largă",
+      "mai îngustă"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-a1.svg"
   },
   {
     "id": "functia-ax-patrat-002",
     "tip": "simplu",
-    "intrebare": "Ramurile parabolei $y=ax^2$ merg în jos când:",
+    "intrebare": "Coeficientul $a$ al parabolei albastre este:",
     "variante": [
-      "$a=-1$ doar",
-      "$a>0$",
-      "$a=0$",
-      "$a<0$"
+      "nu se poate ști",
+      "negativ",
+      "zero",
+      "pozitiv"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-a1.svg"
   },
   {
     "id": "functia-ax-patrat-003",
     "tip": "simplu",
-    "intrebare": "Parabola $y=-2x^2$ are ramurile:",
+    "intrebare": "Încotro merg ramurile parabolei albastre?",
     "variante": [
-      "în sus",
-      "nu e parabolă",
       "în jos",
+      "spre stânga",
+      "în sus",
       "spre dreapta"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a1.svg"
   },
   {
     "id": "functia-ax-patrat-004",
     "tip": "simplu",
-    "intrebare": "Parabola $y=5x^2$ are ramurile:",
+    "intrebare": "Încotro merg ramurile parabolei?",
     "variante": [
-      "în jos",
+      "în sus",
       "spre dreapta",
-      "nu e parabolă",
-      "în sus"
+      "spre stânga",
+      "în jos"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-a2.svg"
   },
   {
     "id": "functia-ax-patrat-005",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $y=ax^2$?",
+    "intrebare": "Coeficientul $a$ este:",
     "variante": [
-      "$(a;a)$",
-      "$(0;0)$",
-      "$(a;0)$",
-      "$(0;a)$"
+      "nu se poate ști",
+      "negativ",
+      "pozitiv",
+      "zero"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-a2.svg"
   },
   {
     "id": "functia-ax-patrat-006",
     "tip": "simplu",
-    "intrebare": "Care parabolă este mai îngustă decât $y=x^2$?",
+    "intrebare": "Care este cea mai mare valoare a funcției?",
     "variante": [
-      "$y=-\\frac13x^2$",
-      "$y=0{,}1x^2$",
-      "$y=3x^2$",
-      "$y=\\frac12x^2$"
+      "nu există",
+      "$1$",
+      "$0$",
+      "$-1$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a2.svg"
   },
   {
     "id": "functia-ax-patrat-007",
     "tip": "simplu",
-    "intrebare": "Care parabolă este mai largă decât $y=x^2$?",
+    "intrebare": "Care este imaginea funcției?",
     "variante": [
-      "$y=2x^2$",
-      "$y=\\frac12x^2$",
-      "$y=5x^2$",
-      "$y=3x^2$"
+      "$\\mathbb{R}$",
+      "$(-\\infty;0]$",
+      "$[-1;1]$",
+      "$[0;+\\infty)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-a2.svg"
   },
   {
     "id": "functia-ax-patrat-008",
     "tip": "simplu",
-    "intrebare": "Cu cât $|a|$ este mai mare, parabola este:",
+    "intrebare": "Pe ce interval funcția crește?",
     "variante": [
-      "mai largă",
-      "mai îngustă",
-      "la fel",
-      "nu se schimbă"
+      "$[0;+\\infty)$",
+      "$(-\\infty;0]$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;-1]$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-a2.svg"
   },
   {
     "id": "functia-ax-patrat-009",
     "tip": "simplu",
-    "intrebare": "Cât este $f(3)$ la $f(x)=2x^2$?",
+    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
     "variante": [
-      "$6$",
-      "$18$",
-      "$36$",
-      "$12$"
+      "întoarsă în jos",
+      "mai largă",
+      "la fel de largă",
+      "mai îngustă"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-a3.svg"
   },
   {
     "id": "functia-ax-patrat-010",
     "tip": "simplu",
-    "intrebare": "Cât este $f(2)$ la $f(x)=-x^2$?",
+    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Ce putem spune despre ea?",
     "variante": [
-      "$-4$",
-      "$-2$",
-      "$4$",
-      "$2$"
+      "este mai îngustă și are ramurile în jos",
+      "este mai îngustă și are ramurile în sus",
+      "este mai largă și are ramurile în jos",
+      "este mai largă și are ramurile în sus"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-a4.svg"
   },
   {
     "id": "functia-ax-patrat-011",
     "tip": "simplu",
-    "intrebare": "Cât este $f(1)$ la $f(x)=-3x^2$?",
+    "intrebare": "Semnul coeficientului $a$ pentru parabola albastră:",
     "variante": [
-      "$9$",
-      "$-3$",
-      "$3$",
-      "$-9$"
+      "zero",
+      "minus",
+      "plus",
+      "nu se poate ști"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-a4.svg"
   },
   {
     "id": "functia-ax-patrat-012",
     "tip": "simplu",
-    "intrebare": "Cât este $f(4)$ la $f(x)=\\frac12x^2$?",
+    "intrebare": "Care parabolă are $|a|$ mai mare?",
     "variante": [
-      "$2$",
-      "$4$",
-      "$8$",
-      "$16$"
+      "cea portocalie",
+      "nu se poate ști",
+      "cea albastră (e mai îngustă)",
+      "sunt egale"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a5.svg"
   },
   {
     "id": "functia-ax-patrat-013",
     "tip": "simplu",
-    "intrebare": "Dacă $a>0$, valoarea cea mai mică a funcției $ax^2$ este:",
+    "intrebare": "Punctul $A$ este pe graficul lui $y=ax^2$. Cât este $a$?",
     "variante": [
-      "nu există",
-      "$a$",
-      "$0$ (minim)",
-      "$0$ (maxim)"
+      "$-3$",
+      "$9$",
+      "$3$",
+      "$1$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a6.svg"
   },
   {
     "id": "functia-ax-patrat-014",
     "tip": "simplu",
-    "intrebare": "Dacă $a<0$, valoarea cea mai mare a funcției $ax^2$ este:",
+    "intrebare": "Cât este $f(1)$?",
     "variante": [
-      "$0$ (maxim)",
-      "nu există",
-      "$0$ (minim)",
-      "$a$"
+      "$3$",
+      "$-3$",
+      "$1$",
+      "$9$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-a6.svg"
   },
   {
     "id": "functia-ax-patrat-015",
     "tip": "simplu",
-    "intrebare": "Imaginea lui $y=-x^2$ este:",
+    "intrebare": "Punctul $A$ este pe grafic. Care este ordonata lui?",
     "variante": [
-      "$\\mathbb{R}$",
-      "$[0;+\\infty)$",
-      "$(-\\infty;0]$",
-      "$[-1;+\\infty)$"
+      "$-4$",
+      "$2$",
+      "$-2$",
+      "$4$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a7.svg"
   },
   {
     "id": "functia-ax-patrat-016",
     "tip": "simplu",
-    "intrebare": "Graficul lui $y=-x^2$ este simetricul lui $y=x^2$ față de:",
+    "intrebare": "Ce semn are $a$?",
     "variante": [
-      "origine",
-      "axa $Oy$",
-      "axa $Ox$",
-      "dreapta $y=x$"
+      "zero",
+      "plus",
+      "minus",
+      "nu se poate ști"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a7.svg"
   },
   {
     "id": "functia-ax-patrat-017",
     "tip": "simplu",
-    "intrebare": "Punctul $(2;8)$ aparține graficului lui $y=2x^2$?",
+    "intrebare": "Care este vârful parabolei?",
     "variante": [
-      "nu, pentru că $2\\cdot2=4$",
-      "da, pentru că $2+8=10$",
-      "da, pentru că $2\\cdot4=8$",
-      "nu, pentru că $2\\cdot8=16$"
+      "$(0;2)$",
+      "$(1;2)$",
+      "$(0;0)$",
+      "$(2;0)$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a8.svg"
   },
   {
     "id": "functia-ax-patrat-018",
     "tip": "simplu",
-    "intrebare": "Punctul $(1;-2)$ aparține graficului lui:",
+    "intrebare": "Care este axa de simetrie?",
     "variante": [
-      "$y=x^2$",
-      "$y=2x^2$",
-      "$y=-2x^2$",
-      "$y=-x^2$"
+      "dreapta $x=2$",
+      "axa $Ox$",
+      "axa $Oy$",
+      "dreapta $y=2$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-a8.svg"
   },
   {
     "id": "functia-ax-patrat-019",
     "tip": "simplu",
-    "intrebare": "Axa de simetrie a parabolei $y=ax^2$ este:",
+    "intrebare": "Câte zerouri are funcția?",
     "variante": [
-      "axa $Ox$",
-      "axa $Oy$",
-      "dreapta $y=a$",
-      "dreapta $x=a$"
+      "două",
+      "unul",
+      "niciunul",
+      "trei"
     ],
-    "corect": 1
-  },
-  {
-    "id": "functia-ax-patrat-020",
-    "tip": "multiplu",
-    "intrebare": "Care parabole au ramurile în jos?",
-    "variante": [
-      "$y=-4x^2$",
-      "$y=x^2$",
-      "$y=-x^2$",
-      "$y=\\frac12x^2$"
-    ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 1,
+    "imagine": "data/imagini/g-a8.svg"
   }
 ]

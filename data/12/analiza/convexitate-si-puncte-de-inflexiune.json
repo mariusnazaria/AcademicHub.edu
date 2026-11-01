@@ -2,205 +2,206 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-001",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)>0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Pe ce interval este funcția convexă (graficul „zâmbește”)?",
     "variante": [
-      "constantă",
-      "convexă",
-      "liniară",
-      "concavă"
+      "$\\mathbb{R}$",
+      "$[0;+\\infty)$",
+      "$[-1;1]$",
+      "$(-\\infty;0]$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c1.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-002",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)<0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Pe ce interval este funcția concavă?",
     "variante": [
-      "liniară",
-      "constantă",
-      "convexă",
-      "concavă"
+      "$[-1;1]$",
+      "$\\mathbb{R}$",
+      "$[0;+\\infty)$",
+      "$(-\\infty;0]$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-c1.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-003",
     "tip": "simplu",
-    "intrebare": "Când $x_0$ este punct de inflexiune?",
+    "intrebare": "Care este punctul de inflexiune?",
     "variante": [
-      "$f^{\\prime\\prime}(x_0)>0$",
-      "$f(x_0)=0$",
-      "$f^{\\prime}(x_0)=0$",
-      "$f^{\\prime\\prime}(x_0)=0$ și $f^{\\prime\\prime}$ își schimbă semnul"
+      "nu are",
+      "$x=-1$",
+      "$x=1$",
+      "$x=0$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-c1.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-004",
     "tip": "simplu",
-    "intrebare": "Ce este derivata a doua?",
+    "intrebare": "Funcția este:",
     "variante": [
-      "dublul derivatei",
-      "derivata derivatei",
-      "integrala lui $f$",
-      "derivata la pătrat"
+      "convexă doar pe $[0;+\\infty)$",
+      "convexă pe $\\mathbb{R}$",
+      "cu inflexiune în $0$",
+      "concavă pe $\\mathbb{R}$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c2.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-005",
     "tip": "simplu",
-    "intrebare": "Cât este $f^{\\prime\\prime}$ pentru $f(x)=x^2$?",
+    "intrebare": "Are funcția puncte de inflexiune?",
     "variante": [
-      "$2x$",
-      "$2$",
-      "$0$",
-      "$x$"
+      "da, în $x=0$",
+      "nu",
+      "da, două",
+      "da, în $x=1$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c2.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-006",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^2$ este:",
+    "intrebare": "Funcția din grafic este:",
     "variante": [
-      "cu inflexiune",
-      "convexă",
+      "cu inflexiune în $0$",
+      "concavă",
       "liniară",
-      "concavă"
+      "convexă"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c3.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-007",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=-x^2$ este:",
+    "intrebare": "Funcția $e^x$ din grafic este:",
     "variante": [
       "liniară",
-      "concavă",
-      "cu inflexiune",
-      "convexă"
+      "convexă",
+      "cu inflexiune în $0$",
+      "concavă"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c4.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-008",
     "tip": "simplu",
-    "intrebare": "Cât este $f^{\\prime\\prime}$ pentru $f(x)=x^3$?",
+    "intrebare": "Funcția $\\ln x$ din grafic este:",
     "variante": [
-      "$x$",
-      "$3x^2$",
-      "$6x$",
-      "$6$"
+      "cu inflexiune în $1$",
+      "convexă",
+      "concavă",
+      "liniară"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-c5.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-009",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^3$ are punct de inflexiune în:",
+    "intrebare": "Care este punctul de inflexiune (unde graficul trece de la concav la convex)?",
     "variante": [
-      "$x=0$",
-      "nu are",
-      "$x=-1$",
-      "$x=1$"
+      "$x=1$",
+      "$x=3$",
+      "$x=2$",
+      "$x=0$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-c6.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-010",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=e^x$ este:",
+    "intrebare": "Pe ce interval este funcția convexă?",
     "variante": [
-      "convexă",
-      "concavă",
-      "liniară",
-      "cu inflexiune în $0$"
+      "$[1;+\\infty)$",
+      "$(-\\infty;1]$",
+      "$\\mathbb{R}$",
+      "$[0;2]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-c6.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-011",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=\\ln x$ este:",
+    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ concavă?",
     "variante": [
-      "concavă",
-      "liniară",
-      "cu inflexiune în $1$",
-      "convexă"
+      "$[0;\\pi]$",
+      "$[0;2\\pi]$",
+      "$\\left[\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right]$",
+      "$[\\pi;2\\pi]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-c7.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-012",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^4$ este:",
+    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ convexă?",
     "variante": [
-      "liniară",
-      "concavă",
-      "convexă",
-      "cu inflexiune în $0$"
+      "$\\left[0;\\frac{\\pi}{2}\\right]$",
+      "$[0;\\pi]$",
+      "$[\\pi;2\\pi]$",
+      "$[0;2\\pi]$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-c7.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-013",
     "tip": "simplu",
-    "intrebare": "Cât este punctul de inflexiune al lui $f(x)=x^3-3x^2$?",
+    "intrebare": "Care este punctul de inflexiune al lui $\\sin x$ pe $(0;2\\pi)$?",
     "variante": [
-      "$x=3$",
-      "$x=1$",
-      "$x=2$",
-      "$x=0$"
+      "$x=2\\pi$",
+      "$x=\\pi$",
+      "$x=\\frac{3\\pi}{2}$",
+      "$x=\\frac{\\pi}{2}$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-c7.svg"
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-014",
     "tip": "simplu",
-    "intrebare": "Cât este $f^{\\prime\\prime}$ pentru $f(x)=x^3-3x^2$?",
+    "intrebare": "Dacă $f^{\\prime\\prime}(x)>0$ pe un interval, atunci $f$ este:",
     "variante": [
-      "$6x$",
-      "$6$",
-      "$6x-6$",
-      "$3x^2-6x$"
+      "constantă",
+      "liniară",
+      "convexă",
+      "concavă"
     ],
     "corect": 2
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-015",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^3-6x$ are inflexiune în:",
+    "intrebare": "Dacă $f^{\\prime\\prime}(x)<0$ pe un interval, atunci $f$ este:",
     "variante": [
-      "$x=0$",
-      "$x=\\sqrt2$",
-      "$x=6$",
-      "$x=-6$"
+      "concavă",
+      "convexă",
+      "constantă",
+      "liniară"
     ],
     "corect": 0
   },
   {
     "id": "convexitate-si-puncte-de-inflexiune-016",
     "tip": "simplu",
-    "intrebare": "Funcția liniară $f(x)=2x+1$ are $f^{\\prime\\prime}$ egal cu:",
+    "intrebare": "Când $x_0$ este punct de inflexiune?",
     "variante": [
-      "$1$",
-      "$0$",
-      "$2$",
-      "$x$"
+      "$f(x_0)=0$",
+      "$f^{\\prime\\prime}$ își schimbă semnul în $x_0$",
+      "$f^{\\prime}(x_0)=0$",
+      "$f^{\\prime\\prime}(x_0)>0$"
     ],
     "corect": 1
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-017",
-    "tip": "simplu",
-    "intrebare": "Funcția $\\sqrt{x}$ este:",
-    "variante": [
-      "cu inflexiune în $0$",
-      "liniară",
-      "convexă",
-      "concavă"
-    ],
-    "corect": 3
   }
 ]

@@ -2,244 +2,261 @@
   {
     "id": "functia-liniara-001",
     "tip": "simplu",
-    "intrebare": "Cum arată graficul funcției liniare $f(x)=ax+b$?",
+    "intrebare": "Funcția din grafic este:",
     "variante": [
-      "o hiperbolă",
-      "un cerc",
-      "o dreaptă",
-      "o parabolă"
+      "nu se poate ști",
+      "constantă",
+      "crescătoare",
+      "descrescătoare"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-l1.svg"
   },
   {
     "id": "functia-liniara-002",
     "tip": "simplu",
-    "intrebare": "La $f(x)=ax+b$, cum se numește $a$?",
+    "intrebare": "În ce punct taie graficul axa $Oy$?",
     "variante": [
-      "vârful",
-      "panta",
-      "zeroul",
-      "ordonata la origine"
+      "$(2;0)$",
+      "$(0;1)$",
+      "$(0;2)$",
+      "$(1;0)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-l1.svg"
   },
   {
     "id": "functia-liniara-003",
     "tip": "simplu",
-    "intrebare": "La $f(x)=ax+b$, ce arată $b$?",
+    "intrebare": "Cât este $f(1)$?",
     "variante": [
-      "unde taie dreapta axa $Oy$",
-      "zeroul funcției",
-      "panta dreptei",
-      "unde taie dreapta axa $Ox$"
+      "$3$",
+      "$-1$",
+      "$2$",
+      "$1$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l1.svg"
   },
   {
     "id": "functia-liniara-004",
     "tip": "simplu",
-    "intrebare": "Dacă $a>0$, funcția $f(x)=ax+b$:",
+    "intrebare": "Care este formula funcției?",
     "variante": [
-      "este constantă",
-      "nu are grafic",
-      "scade",
-      "crește"
+      "$y=-2x+1$",
+      "$y=2x-1$",
+      "$y=x+2$",
+      "$y=2x+1$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l1.svg"
   },
   {
     "id": "functia-liniara-005",
     "tip": "simplu",
-    "intrebare": "Dacă $a<0$, funcția $f(x)=ax+b$:",
+    "intrebare": "Funcția din grafic este:",
     "variante": [
-      "este mereu pozitivă",
-      "crește",
-      "este constantă",
-      "scade"
+      "nu se poate ști",
+      "crescătoare",
+      "constantă",
+      "descrescătoare"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l2.svg"
   },
   {
     "id": "functia-liniara-006",
     "tip": "simplu",
-    "intrebare": "Dacă $a=0$, funcția $f(x)=ax+b$:",
+    "intrebare": "În ce punct taie graficul axa $Ox$ (zeroul funcției)?",
     "variante": [
-      "nu există",
-      "este constantă",
-      "crește",
-      "scade"
+      "$(1;0)$",
+      "$(3;0)$",
+      "$(0;3)$",
+      "$(-3;0)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-l2.svg"
   },
   {
     "id": "functia-liniara-007",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=3x+2$ este:",
+    "intrebare": "Cât este $f(1)$?",
     "variante": [
-      "crescătoare",
-      "nici una dintre ele",
-      "constantă",
-      "descrescătoare"
+      "$2$",
+      "$1$",
+      "$4$",
+      "$3$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l2.svg"
   },
   {
     "id": "functia-liniara-008",
     "tip": "simplu",
-    "intrebare": "Funcția $f(x)=-2x+5$ este:",
+    "intrebare": "Care este formula funcției?",
     "variante": [
-      "descrescătoare",
-      "constantă",
-      "nici una dintre ele",
-      "crescătoare"
+      "$y=-x+3$",
+      "$y=-x-3$",
+      "$y=3x$",
+      "$y=x+3$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l2.svg"
   },
   {
     "id": "functia-liniara-009",
     "tip": "simplu",
-    "intrebare": "Care este panta lui $y=4x-1$?",
+    "intrebare": "Ce semn are panta dreptei din grafic?",
     "variante": [
-      "$-1$",
-      "$4$",
-      "$\\frac14$",
-      "$-4$"
+      "pozitiv",
+      "negativ",
+      "zero",
+      "nu are pantă"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-l3.svg"
   },
   {
     "id": "functia-liniara-010",
     "tip": "simplu",
-    "intrebare": "Care este panta lui $y=-3x+7$?",
+    "intrebare": "Prin ce punct special trece dreapta?",
     "variante": [
-      "$7$",
-      "$3$",
-      "$-7$",
-      "$-3$"
+      "prin $(0;1)$",
+      "prin $(1;0)$",
+      "prin $(0;-2)$",
+      "prin origine $(0;0)$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l3.svg"
   },
   {
     "id": "functia-liniara-011",
     "tip": "simplu",
-    "intrebare": "Unde taie axa $Oy$ dreapta $y=2x+5$?",
+    "intrebare": "Cât este $f(1)$?",
     "variante": [
-      "$(2;0)$",
-      "$(0;2)$",
-      "$(5;0)$",
-      "$(0;5)$"
+      "$1$",
+      "$-1$",
+      "$2$",
+      "$-2$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l3.svg"
   },
   {
     "id": "functia-liniara-012",
     "tip": "simplu",
-    "intrebare": "Unde taie axa $Ox$ dreapta $y=2x-4$?",
+    "intrebare": "Ce fel de funcție este cea din grafic?",
     "variante": [
-      "$(2;0)$",
-      "$(0;-4)$",
-      "$(-4;0)$",
-      "$(0;2)$"
+      "constantă",
+      "nu este funcție",
+      "descrescătoare",
+      "crescătoare"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l4.svg"
   },
   {
     "id": "functia-liniara-013",
     "tip": "simplu",
-    "intrebare": "Două drepte sunt paralele dacă au:",
+    "intrebare": "Cât este panta dreptei?",
     "variante": [
-      "același termen liber $b$",
-      "aceeași ordonată",
-      "pante opuse",
-      "aceeași pantă"
+      "$3$",
+      "$-3$",
+      "$1$",
+      "$0$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l4.svg"
   },
   {
     "id": "functia-liniara-014",
     "tip": "simplu",
-    "intrebare": "Care dreaptă este paralelă cu $y=3x+1$?",
+    "intrebare": "Funcția din grafic este:",
     "variante": [
-      "$y=3x-4$",
-      "$y=x+1$",
-      "$y=-3x+1$",
-      "$y=\\frac13x+1$"
+      "crescătoare",
+      "nu se poate ști",
+      "descrescătoare",
+      "constantă"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l5.svg"
   },
   {
     "id": "functia-liniara-015",
     "tip": "simplu",
-    "intrebare": "Cum aflăm zeroul lui $ax+b$?",
+    "intrebare": "Care este zeroul funcției?",
     "variante": [
-      "$x=\\frac{b}{a}$",
-      "$x=a\\cdot b$",
-      "$x=-\\frac{a}{b}$",
-      "$x=-\\frac{b}{a}$"
+      "$x=-2$",
+      "$x=1$",
+      "$x=0$",
+      "$x=2$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l5.svg"
   },
   {
     "id": "functia-liniara-016",
     "tip": "simplu",
-    "intrebare": "Câte puncte ne trebuie ca să desenăm o dreaptă?",
+    "intrebare": "În ce punct taie graficul axa $Oy$?",
     "variante": [
-      "unul",
-      "două",
-      "patru",
-      "trei"
+      "$(-2;0)$",
+      "$(0;-2)$",
+      "$(2;0)$",
+      "$(0;2)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-l5.svg"
   },
   {
     "id": "functia-liniara-017",
     "tip": "simplu",
-    "intrebare": "Care funcție este descrescătoare?",
+    "intrebare": "Care este formula funcției?",
     "variante": [
-      "$y=2x-1$",
-      "$y=-x+4$",
-      "$y=x+3$",
-      "$y=5x$"
+      "$y=x+2$",
+      "$y=x-2$",
+      "$y=-x-2$",
+      "$y=2x$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-l5.svg"
   },
   {
     "id": "functia-liniara-018",
     "tip": "simplu",
-    "intrebare": "Graficul lui $y=5$ este:",
+    "intrebare": "Care dreaptă este crescătoare?",
     "variante": [
-      "o parabolă",
-      "un punct",
-      "o dreaptă verticală",
-      "o dreaptă orizontală"
+      "amândouă",
+      "niciuna",
+      "cea portocalie",
+      "cea albastră"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-l6.svg"
   },
   {
     "id": "functia-liniara-019",
     "tip": "simplu",
-    "intrebare": "Dacă $f(x)=\\frac12x$, panta este:",
+    "intrebare": "Care dreaptă este descrescătoare?",
     "variante": [
-      "$\\frac12$",
-      "$0$",
-      "$2$",
-      "$-\\frac12$"
+      "cea portocalie",
+      "niciuna",
+      "cea albastră",
+      "amândouă"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-l6.svg"
   },
   {
     "id": "functia-liniara-020",
-    "tip": "multiplu",
-    "intrebare": "Care funcții sunt crescătoare?",
+    "tip": "simplu",
+    "intrebare": "În ce punct se intersectează dreptele?",
     "variante": [
-      "$y=x$",
-      "$y=7$",
-      "$y=2x+1$",
-      "$y=-x$"
+      "$(1;2)$",
+      "$(0;1)$",
+      "$(1;1)$",
+      "$(2;1)$"
     ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 2,
+    "imagine": "data/imagini/g-l6.svg"
   }
 ]

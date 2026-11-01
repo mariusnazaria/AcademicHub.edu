@@ -2,94 +2,97 @@
   {
     "id": "limite-in-punct-si-lhospital-001",
     "tip": "simplu",
-    "intrebare": "Ce prim pas facem la o limită în punctul $a$?",
+    "intrebare": "Graficul lui $f(x)=\\frac{x^2-1}{x-1}$ este dreapta $y=x+1$ cu un punct lipsă în $x=1$ (cerc gol). Cât este $\\lim_{x\\to1}f(x)$?",
     "variante": [
-      "integrăm",
-      "înlocuim $x$ cu $a$",
-      "derivăm",
-      "împărțim la $x$"
+      "$0$",
+      "$2$",
+      "$1$",
+      "nu există"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lp1.svg"
   },
   {
     "id": "limite-in-punct-si-lhospital-002",
     "tip": "simplu",
-    "intrebare": "Care sunt nedeterminările de bază?",
+    "intrebare": "Citind graficul lui $\\frac1x$: $\\lim_{x\\to0}\\frac1x$",
     "variante": [
-      "$\\frac{1}{\\infty}$",
-      "$\\frac00$, $\\frac\\infty\\infty$, $0\\cdot\\infty$, $\\infty-\\infty$",
-      "$0+\\infty$",
-      "$\\frac10$, $\\frac01$"
+      "$-\\infty$",
+      "nu există (limitele laterale diferă)",
+      "$+\\infty$",
+      "$0$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-lp2.svg"
   },
   {
     "id": "limite-in-punct-si-lhospital-003",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to2}(x+1)$?",
+    "intrebare": "Citind graficul lui $\\frac{1}{x^2}$: $\\lim_{x\\to0}\\frac{1}{x^2}=$",
     "variante": [
-      "$\\infty$",
-      "$1$",
-      "$2$",
-      "$3$"
+      "nu există",
+      "$0$",
+      "$-\\infty$",
+      "$+\\infty$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-lp3.svg"
   },
   {
     "id": "limite-in-punct-si-lhospital-004",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to1}\\frac{x^2-1}{x-1}$?",
+    "intrebare": "Forma $\\frac{0}{0}$ este:",
     "variante": [
-      "$0$",
-      "$+\\infty$",
-      "$1$",
-      "$2$"
+      "egală cu $0$",
+      "imposibilă",
+      "egală cu $1$",
+      "nedeterminare"
     ],
     "corect": 3
   },
   {
     "id": "limite-in-punct-si-lhospital-005",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$?",
+    "intrebare": "Forma $\\frac{\\infty}{\\infty}$ este:",
     "variante": [
-      "$4$",
-      "$2$",
-      "$0$",
-      "$+\\infty$"
+      "nedeterminare",
+      "egală cu $1$",
+      "egală cu $0$",
+      "egală cu $\\infty$"
     ],
     "corect": 0
   },
   {
     "id": "limite-in-punct-si-lhospital-006",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to2}\\frac{x^3-8}{x-2}$?",
+    "intrebare": "Regula lui l'Hospital se aplică la:",
     "variante": [
-      "$0$",
-      "$12$",
-      "$4$",
-      "$8$"
+      "doar la sume",
+      "$\\frac00$ și $\\frac\\infty\\infty$",
+      "doar la $\\frac{1}{x}$",
+      "orice limită"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-007",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\sin x}{x}$?",
+    "intrebare": "Cu l'Hospital derivăm:",
     "variante": [
-      "$1$",
-      "$+\\infty$",
-      "$0$",
-      "$-1$"
+      "numărătorul și numitorul separat",
+      "doar numitorul",
+      "fracția ca întreg",
+      "doar numărătorul"
     ],
     "corect": 0
   },
   {
     "id": "limite-in-punct-si-lhospital-008",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{e^x-1}{x}$?",
+    "intrebare": "$\\lim_{x\\to0}\\frac{\\sin x}{x}=$",
     "variante": [
-      "$+\\infty$",
-      "$e$",
+      "$-1$",
+      "$\\infty$",
       "$0$",
       "$1$"
     ],
@@ -98,11 +101,11 @@
   {
     "id": "limite-in-punct-si-lhospital-009",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}$?",
+    "intrebare": "$\\lim_{x\\to0}\\frac{e^x-1}{x}=$",
     "variante": [
       "$1$",
       "$e$",
-      "$+\\infty$",
+      "$\\infty$",
       "$0$"
     ],
     "corect": 0
@@ -110,85 +113,13 @@
   {
     "id": "limite-in-punct-si-lhospital-010",
     "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0^+}\\frac1x$?",
+    "intrebare": "$\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}=$",
     "variante": [
-      "$-\\infty$",
-      "$+\\infty$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0^-}\\frac1x$?",
-    "variante": [
-      "$+\\infty$",
-      "$1$",
-      "$-\\infty$",
-      "$0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-012",
-    "tip": "simplu",
-    "intrebare": "Ce spune regula lui l’Hospital?",
-    "variante": [
-      "$\\lim\\frac fg=\\lim f\\cdot\\lim g$",
-      "$\\lim\\frac{f}{g}=\\lim\\frac{f^{\\prime}}{g^{\\prime}}$",
-      "$\\lim\\frac fg=\\lim\\frac{f}{g^{\\prime}}$",
-      "$\\lim\\frac{f}{g}=\\lim\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-013",
-    "tip": "simplu",
-    "intrebare": "Când putem aplica regula lui l’Hospital?",
-    "variante": [
-      "doar la $\\frac10$",
-      "la orice limită",
-      "la $\\frac00$ sau $\\frac\\infty\\infty$",
-      "doar la $0\\cdot\\infty$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-014",
-    "tip": "simplu",
-    "intrebare": "La l’Hospital derivăm:",
-    "variante": [
-      "separat numărătorul și numitorul",
-      "doar numitorul",
-      "doar numărătorul",
-      "fracția ca pe un cât"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\sin x}{x}$ prin l’Hospital?",
-    "variante": [
-      "$\\frac{\\sin0}{0}=0$",
-      "$\\frac{\\cos0}{1}=1$",
-      "$\\frac{\\cos0}{0}=\\infty$",
-      "$\\frac{-\\cos0}{1}=-1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{x^2}{x}$?",
-    "variante": [
-      "$x$",
-      "$1$",
       "$0$",
-      "$+\\infty$"
+      "$1$",
+      "$\\infty$",
+      "$e$"
     ],
-    "corect": 2
+    "corect": 1
   }
 ]

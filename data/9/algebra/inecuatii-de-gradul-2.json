@@ -2,217 +2,261 @@
   {
     "id": "inecuatii-de-gradul-2-001",
     "tip": "simplu",
-    "intrebare": "Primul pas la o inecuație de gradul $2$:",
+    "intrebare": "Rezolvă $f(x)>0$ citind graficul lui $f(x)=x^2-4$.",
     "variante": [
-      "aflăm rădăcinile ecuației asociate",
-      "împărțim la $x$",
-      "o derivăm",
-      "o ridicăm la pătrat"
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$(-\\infty;-2]\\cup[2;+\\infty)$",
+      "$(-2;2)$",
+      "$[-2;2]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-1.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-002",
     "tip": "simplu",
-    "intrebare": "Dacă $a>0$, funcția de gradul $2$ este pozitivă:",
+    "intrebare": "Rezolvă $f(x)<0$ citind graficul lui $f(x)=x^2-4$.",
     "variante": [
-      "niciodată",
-      "doar în rădăcini",
-      "între rădăcini",
-      "în afara rădăcinilor"
+      "$[-2;2]$",
+      "$(-\\infty;-2]\\cup[2;+\\infty)$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$(-2;2)$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-i9-1.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-003",
     "tip": "simplu",
-    "intrebare": "Dacă $a>0$, funcția de gradul $2$ este negativă:",
+    "intrebare": "Rezolvă $f(x)\\geq0$ citind graficul lui $f(x)=x^2-4$.",
     "variante": [
-      "niciodată",
-      "peste tot",
-      "între rădăcini",
-      "în afara rădăcinilor"
+      "$[-2;2]$",
+      "$(-2;2)$",
+      "$(-\\infty;-2]\\cup[2;+\\infty)$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-i9-1.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-004",
     "tip": "simplu",
-    "intrebare": "Dacă $a<0$, funcția de gradul $2$ este pozitivă:",
+    "intrebare": "Rezolvă $f(x)\\leq0$ citind graficul lui $f(x)=x^2-4$.",
     "variante": [
-      "peste tot",
-      "în afara rădăcinilor",
-      "între rădăcini",
-      "niciodată"
+      "$(-2;2)$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$[-2;2]$",
+      "$(-\\infty;-2]\\cup[2;+\\infty)$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-i9-1.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-005",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-4>0$.",
+    "intrebare": "Rezolvă $f(x)>0$ citind graficul lui $f(x)=x^2-5x+6$.",
     "variante": [
-      "$(-2;2)$",
-      "$(2;+\\infty)$",
-      "$(-\\infty;2)$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$"
+      "$(2;3)$",
+      "$(-\\infty;2]\\cup[3;+\\infty)$",
+      "$[2;3]$",
+      "$(-\\infty;2)\\cup(3;+\\infty)$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-i9-2.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-006",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-4<0$.",
+    "intrebare": "Rezolvă $f(x)<0$ citind graficul lui $f(x)=x^2-5x+6$.",
     "variante": [
-      "$(-2;2)$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$",
-      "$(2;+\\infty)$",
-      "$(-\\infty;2)$"
+      "$(2;3)$",
+      "$(-\\infty;2)\\cup(3;+\\infty)$",
+      "$(-\\infty;2]\\cup[3;+\\infty)$",
+      "$[2;3]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-2.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-007",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-5x+6<0$.",
+    "intrebare": "Rezolvă $f(x)\\geq0$ citind graficul lui $f(x)=x^2-5x+6$.",
     "variante": [
-      "$(2;3)$",
+      "$(-\\infty;2]\\cup[3;+\\infty)$",
       "$(-\\infty;2)\\cup(3;+\\infty)$",
-      "$(-3;-2)$",
-      "$(2;+\\infty)$"
+      "$(2;3)$",
+      "$[2;3]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-2.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-008",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-5x+6>0$.",
+    "intrebare": "Rezolvă $f(x)\\leq0$ citind graficul lui $f(x)=x^2-5x+6$.",
     "variante": [
-      "$(-3;-2)$",
-      "$(3;+\\infty)$",
-      "$(-\\infty;2)\\cup(3;+\\infty)$",
-      "$(2;3)$"
+      "$(2;3)$",
+      "$(-\\infty;2]\\cup[3;+\\infty)$",
+      "$[2;3]$",
+      "$(-\\infty;2)\\cup(3;+\\infty)$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-i9-2.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-009",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-1\\geq0$.",
+    "intrebare": "Rezolvă $f(x)>0$ citind graficul lui $f(x)=-x^2+1$.",
     "variante": [
-      "$(-\\infty;-1)\\cup(1;+\\infty)$",
       "$(-\\infty;-1]\\cup[1;+\\infty)$",
+      "$(-1;1)$",
       "$[-1;1]$",
-      "$(-1;1)$"
+      "$(-\\infty;-1)\\cup(1;+\\infty)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-i9-3.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-010",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-3x>0$.",
+    "intrebare": "Rezolvă $f(x)<0$ citind graficul lui $f(x)=-x^2+1$.",
     "variante": [
-      "$(0;+\\infty)$",
-      "$(0;3)$",
-      "$(-\\infty;0)\\cup(3;+\\infty)$",
-      "$(-\\infty;3)$"
+      "$(-\\infty;-1]\\cup[1;+\\infty)$",
+      "$(-1;1)$",
+      "$(-\\infty;-1)\\cup(1;+\\infty)$",
+      "$[-1;1]$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-i9-3.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-011",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-9\\leq0$.",
+    "intrebare": "Rezolvă $f(x)\\geq0$ citind graficul lui $f(x)=-x^2+1$.",
     "variante": [
-      "$(-\\infty;-3]\\cup[3;+\\infty)$",
-      "$[-3;3]$",
-      "$(-3;3)$",
-      "$[0;3]$"
+      "$(-\\infty;-1)\\cup(1;+\\infty)$",
+      "$[-1;1]$",
+      "$(-1;1)$",
+      "$(-\\infty;-1]\\cup[1;+\\infty)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-i9-3.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-012",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $-x^2+4>0$.",
+    "intrebare": "Rezolvă $f(x)\\leq0$ citind graficul lui $f(x)=-x^2+1$.",
     "variante": [
-      "$(-\\infty;-2)\\cup(2;+\\infty)$",
-      "$\\varnothing$",
-      "$\\mathbb{R}$",
-      "$(-2;2)$"
+      "$(-1;1)$",
+      "$[-1;1]$",
+      "$(-\\infty;-1)\\cup(1;+\\infty)$",
+      "$(-\\infty;-1]\\cup[1;+\\infty)$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-i9-3.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-013",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $(x-1)(x-4)<0$.",
+    "intrebare": "Rezolvă $f(x)>0$ citind graficul lui $f(x)=x^2+1$.",
     "variante": [
-      "$(1;+\\infty)$",
-      "$(1;4)$",
-      "$(-4;-1)$",
-      "$(-\\infty;1)\\cup(4;+\\infty)$"
+      "$\\{0\\}$",
+      "$\\mathbb{R}$",
+      "$(-1;1)$",
+      "$\\varnothing$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-i9-4.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-014",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2+1>0$.",
+    "intrebare": "Rezolvă $f(x)<0$ citind graficul lui $f(x)=x^2+1$.",
     "variante": [
-      "$(0;+\\infty)$",
+      "$\\{0\\}$",
       "$(-1;1)$",
-      "$\\mathbb{R}$",
-      "$\\varnothing$"
+      "$\\varnothing$",
+      "$\\mathbb{R}$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-i9-4.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-015",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2\\geq0$.",
+    "intrebare": "Rezolvă $f(x)\\geq0$ citind graficul lui $f(x)=x^2+1$.",
     "variante": [
       "$\\mathbb{R}$",
+      "$(-1;1)$",
       "$\\{0\\}$",
-      "$(0;+\\infty)$",
       "$\\varnothing$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-4.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-016",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2\\leq0$.",
+    "intrebare": "Rezolvă $f(x)\\leq0$ citind graficul lui $f(x)=x^2+1$.",
     "variante": [
-      "$\\{0\\}$",
-      "$(-\\infty;0)$",
       "$\\varnothing$",
-      "$\\mathbb{R}$"
+      "$\\{0\\}$",
+      "$\\mathbb{R}$",
+      "$(-1;1)$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-4.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-017",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2<0$.",
+    "intrebare": "Rezolvă $f(x)>0$ citind graficul lui $f(x)=(x-1)^2$.",
     "variante": [
-      "$\\{0\\}$",
       "$\\varnothing$",
+      "$(-\\infty;1)\\cup(1;+\\infty)$",
       "$\\mathbb{R}$",
-      "$(-\\infty;0)$"
+      "$\\{1\\}$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-i9-5.svg"
   },
   {
     "id": "inecuatii-de-gradul-2-018",
     "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2-2x+1\\geq0$.",
+    "intrebare": "Rezolvă $f(x)<0$ citind graficul lui $f(x)=(x-1)^2$.",
     "variante": [
-      "$\\varnothing$",
-      "$(1;+\\infty)$",
+      "$(-\\infty;1)\\cup(1;+\\infty)$",
       "$\\{1\\}$",
-      "$\\mathbb{R}$"
+      "$\\mathbb{R}$",
+      "$\\varnothing$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-i9-5.svg"
+  },
+  {
+    "id": "inecuatii-de-gradul-2-019",
+    "tip": "simplu",
+    "intrebare": "Rezolvă $f(x)\\geq0$ citind graficul lui $f(x)=(x-1)^2$.",
+    "variante": [
+      "$\\mathbb{R}$",
+      "$\\varnothing$",
+      "$\\{1\\}$",
+      "$(-\\infty;1)\\cup(1;+\\infty)$"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/g-i9-5.svg"
+  },
+  {
+    "id": "inecuatii-de-gradul-2-020",
+    "tip": "simplu",
+    "intrebare": "Rezolvă $f(x)\\leq0$ citind graficul lui $f(x)=(x-1)^2$.",
+    "variante": [
+      "$\\mathbb{R}$",
+      "$(-\\infty;1)\\cup(1;+\\infty)$",
+      "$\\varnothing$",
+      "$\\{1\\}$"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/g-i9-5.svg"
   }
 ]

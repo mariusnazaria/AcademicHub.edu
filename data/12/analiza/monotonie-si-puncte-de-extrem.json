@@ -2,217 +2,261 @@
   {
     "id": "monotonie-si-puncte-de-extrem-001",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}(x)>0$ pe un interval, atunci $f$:",
+    "intrebare": "Pe ce mulțime este funcția crescătoare?",
     "variante": [
-      "crește",
-      "scade",
-      "are maxim",
-      "este constantă"
+      "$(-\\infty;-1]\\cup[1;+\\infty)$",
+      "$[-1;1]$",
+      "$[-1;+\\infty)$",
+      "$(-\\infty;1]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-m1.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-002",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}(x)<0$ pe un interval, atunci $f$:",
+    "intrebare": "Pe ce interval este funcția descrescătoare?",
     "variante": [
-      "crește",
-      "scade",
-      "este constantă",
-      "are minim"
+      "$(-\\infty;-1]\\cup[1;+\\infty)$",
+      "$[-1;1]$",
+      "$[0;+\\infty)$",
+      "$(-\\infty;0]$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-m1.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-003",
     "tip": "simplu",
-    "intrebare": "Când $x_0$ este punct de extrem?",
+    "intrebare": "În ce punct are funcția maxim local?",
     "variante": [
-      "$f^{\\prime}(x_0)>0$",
-      "$f(x_0)=0$",
-      "$f^{\\prime}(x_0)=0$ și $f^{\\prime}$ își schimbă semnul",
-      "$f^{\\prime}(x_0)=1$"
+      "$x=1$",
+      "$x=0$",
+      "$x=-1$",
+      "$x=2$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-m1.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-004",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}$ trece de la $+$ la $-$, avem:",
+    "intrebare": "În ce punct are funcția minim local?",
     "variante": [
-      "maxim",
-      "minim",
-      "nimic",
-      "inflexiune"
+      "$x=1$",
+      "$x=-1$",
+      "$x=-2$",
+      "$x=0$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-m1.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-005",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}$ trece de la $-$ la $+$, avem:",
+    "intrebare": "Cât este valoarea maximului local?",
     "variante": [
-      "inflexiune",
-      "maxim",
-      "minim",
-      "nimic"
+      "$1$",
+      "$-2$",
+      "$2$",
+      "$0$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-m1.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-006",
     "tip": "simplu",
-    "intrebare": "Care este primul pas la studiul monotoniei?",
+    "intrebare": "În ce punct are funcția punct de extrem?",
     "variante": [
-      "calculăm $f(0)$",
-      "calculăm $f^{\\prime}$",
-      "desenăm cercul",
-      "calculăm limitele"
+      "$x=0$",
+      "$x=2$",
+      "$x=-2$",
+      "$x=4$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-m2.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-007",
     "tip": "simplu",
-    "intrebare": "Al doilea pas la studiul monotoniei:",
+    "intrebare": "Ce fel de extrem este?",
     "variante": [
-      "calculăm $f^{\\prime\\prime}$",
-      "împărțim la $x$",
-      "rezolvăm $f(x)=0$",
-      "rezolvăm $f^{\\prime}(x)=0$"
+      "inflexiune",
+      "nu are extrem",
+      "minim",
+      "maxim"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m2.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-008",
     "tip": "simplu",
-    "intrebare": "Care este derivata lui $f(x)=x^2$?",
+    "intrebare": "Pe ce interval funcția crește?",
     "variante": [
-      "$2x$",
-      "$x$",
-      "$2$",
-      "$x^2$"
+      "$(-\\infty;2]$",
+      "$[2;+\\infty)$",
+      "$[0;4]$",
+      "$(-\\infty;4]$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-m2.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-009",
     "tip": "simplu",
-    "intrebare": "Unde are $f(x)=x^2$ punct de extrem?",
+    "intrebare": "Câte puncte de extrem local are funcția?",
     "variante": [
-      "în $x=0$, maxim",
-      "în $x=0$, minim",
-      "nu are",
-      "în $x=1$, minim"
+      "$1$",
+      "$3$",
+      "$4$",
+      "$2$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-m3.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-010",
     "tip": "simplu",
-    "intrebare": "Unde are $f(x)=-x^2+4x$ punct de extrem?",
+    "intrebare": "În ce puncte are funcția minim local?",
     "variante": [
-      "în $x=2$, minim",
-      "în $x=-2$, minim",
-      "în $x=4$, maxim",
-      "în $x=2$, maxim"
+      "$x=0$",
+      "$x=1$",
+      "$x=-1$ și $x=0$",
+      "$x=-1$ și $x=1$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m3.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-011",
     "tip": "simplu",
-    "intrebare": "Care este derivata lui $f(x)=x^3-3x$?",
+    "intrebare": "În ce punct are funcția maxim local?",
     "variante": [
-      "$3x^2-3$",
-      "$3x^2$",
-      "$x^2-3$",
-      "$3x-3$"
+      "$x=0$",
+      "$x=1$",
+      "$x=-1$",
+      "$x=2$"
     ],
-    "corect": 0
+    "corect": 0,
+    "imagine": "data/imagini/g-m3.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-012",
     "tip": "simplu",
-    "intrebare": "Care sunt punctele critice ale lui $f(x)=x^3-3x$?",
+    "intrebare": "Are funcția puncte de extrem?",
     "variante": [
-      "$x=\\pm3$",
-      "$x=3$",
-      "$x=\\pm1$",
-      "$x=0$"
+      "da, două",
+      "da, un maxim",
+      "nu",
+      "da, un minim"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-m4.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-013",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3-3x$, ce are în $x=-1$?",
+    "intrebare": "Pe ce mulțime este funcția crescătoare?",
     "variante": [
-      "inflexiune",
-      "nimic",
-      "minim",
-      "maxim"
+      "$(-\\infty;0]$",
+      "$\\varnothing$",
+      "$[0;+\\infty)$",
+      "$\\mathbb{R}$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m4.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-014",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3-3x$, ce are în $x=1$?",
+    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce mulțime crește $f$?",
     "variante": [
-      "nimic",
-      "inflexiune",
-      "maxim",
-      "minim"
+      "$(-\\infty;-1)$",
+      "$(1;+\\infty)$",
+      "$(-1;1)$",
+      "$(-\\infty;-1)\\cup(1;+\\infty)$"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m5.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-015",
     "tip": "simplu",
-    "intrebare": "Are $f(x)=2x+1$ puncte de extrem?",
+    "intrebare": "Graficul este al lui $f^{\\prime}$. Pe ce interval scade $f$?",
     "variante": [
-      "da, în $x=1$",
-      "da, în $x=-\\frac12$",
-      "nu, pentru că $f^{\\prime}=2>0$",
-      "da, în $x=0$"
+      "$(-\\infty;-1)$",
+      "$(1;+\\infty)$",
+      "$(-1;1)$",
+      "$(-\\infty;-1)\\cup(1;+\\infty)$"
     ],
-    "corect": 2
+    "corect": 2,
+    "imagine": "data/imagini/g-m5.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-016",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3$ avem $f^{\\prime}(0)=0$. Este $x=0$ punct de extrem?",
+    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=1$?",
     "variante": [
-      "da, maxim",
-      "nu se știe",
-      "da, minim",
-      "nu, pentru că $f^{\\prime}$ nu schimbă semnul"
+      "inflexiune",
+      "nimic",
+      "maxim",
+      "minim"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m5.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-017",
     "tip": "simplu",
-    "intrebare": "Care este valoarea minimă a lui $f(x)=x^2-4x$?",
+    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=-1$?",
     "variante": [
-      "$0$",
-      "$2$",
-      "$-2$",
-      "$-4$"
+      "minim",
+      "inflexiune",
+      "nimic",
+      "maxim"
     ],
-    "corect": 3
+    "corect": 3,
+    "imagine": "data/imagini/g-m5.svg"
   },
   {
     "id": "monotonie-si-puncte-de-extrem-018",
     "tip": "simplu",
-    "intrebare": "Unde își atinge $f(x)=x^2-6x+5$ minimul?",
+    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce interval crește $f$?",
     "variante": [
-      "în $x=6$",
-      "în $x=3$",
-      "în $x=5$",
-      "în $x=-3$"
+      "$(0;+\\infty)$",
+      "$(-\\infty;2)$",
+      "$(-\\infty;0)$",
+      "$(2;+\\infty)$"
     ],
-    "corect": 1
+    "corect": 1,
+    "imagine": "data/imagini/g-m6.svg"
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-019",
+    "tip": "simplu",
+    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=2$?",
+    "variante": [
+      "maxim",
+      "minim",
+      "inflexiune",
+      "nimic"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/g-m6.svg"
+  },
+  {
+    "id": "monotonie-si-puncte-de-extrem-020",
+    "tip": "simplu",
+    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$ (atinge axa $Ox$ în $0$). Este $x=0$ punct de extrem pentru $f$?",
+    "variante": [
+      "da, minim",
+      "nu se poate ști",
+      "da, maxim",
+      "nu, $f^{\\prime}$ nu schimbă semnul"
+    ],
+    "corect": 3,
+    "imagine": "data/imagini/g-m7.svg"
   }
 ]
