@@ -50,5 +50,16 @@
     ],
     "corect": 1,
     "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558394446.png"
+  },
+  {
+    "id": "func-ii-de-gradul-i-panta-i-termenul-lib-1793558473838",
+    "tip": "simplu",
+    "intrebare": "Funcţia ƒ(x)=ax+b este monoton",
+    "variante": [
+      "crescătoare",
+      "descrescătoare"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558472036.png"
   }
 ]
