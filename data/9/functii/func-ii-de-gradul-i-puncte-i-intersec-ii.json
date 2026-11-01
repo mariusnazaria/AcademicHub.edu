@@ -36,5 +36,18 @@
     ],
     "corect": 2,
     "imagine": "data/imagini/func-ii-de-gradul-i-puncte-i-intersec-ii-1793562195661.png"
+  },
+  {
+    "id": "func-ii-de-gradul-i-puncte-i-intersec-ii-1793563972067",
+    "tip": "simplu",
+    "intrebare": "Punctul A(-4; ?) aparţine graficului funcţiei",
+    "variante": [
+      "1",
+      "-6",
+      "4",
+      "5"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ii-de-gradul-i-puncte-i-intersec-ii-1793563969984.png"
   }
 ]
