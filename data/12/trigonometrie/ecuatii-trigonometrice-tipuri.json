@@ -1,206 +1,223 @@
 [
-  {
-    "id": "ecuatii-trigonometrice-tipuri-001",
-    "tip": "simplu",
-    "intrebare": "La $2\\sin^2x+5\\sin x+2=0$, ce substituție folosim?",
-    "variante": [
-      "$t=\\sin x$",
-      "$t=x^2$",
-      "$t=\\cos x$",
-      "$t=2x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-002",
-    "tip": "simplu",
-    "intrebare": "La substituția $t=\\sin x$, soluțiile $t$ trebuie să verifice:",
-    "variante": [
-      "$t<0$",
-      "$|t|\\leq1$",
-      "$t\\geq0$",
-      "$t=1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-003",
-    "tip": "simplu",
-    "intrebare": "La $t=\\cos x$ am obținut $t=-3$. Ce facem cu ea?",
-    "variante": [
-      "o împărțim la $3$",
-      "o respingem, pentru că $|t|>1$",
-      "o facem $3$",
-      "o păstrăm"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-004",
-    "tip": "simplu",
-    "intrebare": "Cum se numește ecuația $a\\sin^2x+b\\sin x\\cos x+c\\cos^2x=0$?",
-    "variante": [
-      "omogenă",
-      "exponențială",
-      "biquadratică",
-      "reciprocă"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-005",
-    "tip": "simplu",
-    "intrebare": "La o ecuație omogenă de gradul $2$ împărțim la:",
-    "variante": [
-      "$x$",
-      "$\\sin x$",
-      "$1$",
-      "$\\cos^2x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-006",
-    "tip": "simplu",
-    "intrebare": "Din $\\sin x+\\cos x=0$, împărțind la $\\cos x$, obținem:",
-    "variante": [
-      "$\\operatorname{ctg}x=1$",
-      "$\\operatorname{tg}x=-1$",
-      "$\\operatorname{tg}x=1$",
-      "$\\operatorname{tg}x=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-007",
-    "tip": "simplu",
-    "intrebare": "Care sunt soluțiile lui $\\sin x+\\cos x=0$?",
-    "variante": [
-      "$x=-\\frac{\\pi}{4}+\\pi k$",
-      "$x=-\\frac{\\pi}{4}+2\\pi k$",
-      "$x=\\frac{\\pi}{4}+2\\pi k$",
-      "$x=\\frac{\\pi}{4}+\\pi k$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-008",
-    "tip": "simplu",
-    "intrebare": "La $\\sin^2x=\\cos x$, cum avem o singură funcție?",
-    "variante": [
-      "$\\sin^2x=2\\cos x$",
-      "$\\sin^2x=1-\\cos^2x$",
-      "$\\sin^2x=1+\\cos^2x$",
-      "$\\sin^2x=\\cos^2x-1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-009",
-    "tip": "simplu",
-    "intrebare": "Dacă ecuația conține $\\sin2x$, primul pas poate fi:",
-    "variante": [
-      "$\\sin2x=\\sin^2x$",
-      "$\\sin2x=\\cos^2x$",
-      "$\\sin2x=2\\sin x\\cos x$",
-      "$\\sin2x=2\\sin x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-010",
-    "tip": "simplu",
-    "intrebare": "Cum se rezolvă $A\\cdot B=0$?",
-    "variante": [
-      "$A+B=0$",
-      "$A=0$ și $B=0$",
-      "$A=0$ sau $B=0$",
-      "$A=B$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-011",
-    "tip": "simplu",
-    "intrebare": "Cum se rezolvă $\\frac{A}{B}=0$?",
-    "variante": [
-      "$B=0$",
-      "$A=B$",
-      "$A=0$ și $B\\neq0$",
-      "$A\\neq0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-012",
-    "tip": "simplu",
-    "intrebare": "La ecuațiile cu $\\operatorname{tg}x$ și $\\operatorname{ctg}x$, DVA cere:",
-    "variante": [
-      "$x\\neq0$",
-      "$\\cos x=0$",
-      "$\\sin x=0$",
-      "$\\cos x\\neq0$ și $\\sin x\\neq0$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-013",
-    "tip": "simplu",
-    "intrebare": "Cum transformăm $\\sin x+\\sin3x$?",
-    "variante": [
-      "cu formula sumei în produs",
-      "cu $t=x$",
-      "cu formula sinusului sumei",
-      "prin derivare"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-014",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă $|x|<2$?",
-    "variante": [
-      "$x<-2$",
-      "$-2<x<2$",
-      "$x\\neq2$",
-      "$x>2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-015",
-    "tip": "simplu",
-    "intrebare": "La condiția $|x|<2$, după soluțiile generale:",
-    "variante": [
-      "le ignorăm",
-      "le ridicăm la pătrat",
-      "le adunăm",
-      "dăm valori lui $k$ și verificăm intervalul"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-016",
-    "tip": "simplu",
-    "intrebare": "La $\\left(\\frac19\\right)^{\\sin^2x}=\\frac{1}{\\sqrt3}$, aducem la baza $3$ și obținem:",
-    "variante": [
-      "$\\sin x=\\frac14$",
-      "$\\sin^2x=\\frac12$",
-      "$\\sin^2x=2$",
-      "$\\sin^2x=\\frac14$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-trigonometrice-tipuri-017",
-    "tip": "simplu",
-    "intrebare": "Cum scriem $4$ ca să obținem o ecuație omogenă?",
-    "variante": [
-      "$4=4\\sin x$",
-      "$4=4\\cos^2x$",
-      "$4=4(\\sin x+\\cos x)$",
-      "$4=4(\\sin^2x+\\cos^2x)$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "ecuatii-trigonometrice-tipuri-001",
+  "tip": "simplu",
+  "intrebare": "La $2\\sin^2x+5\\sin x+2=0$, ce substituție folosim?",
+  "variante": [
+   "$t=\\sin x$",
+   "$t=x^2$",
+   "$t=\\cos x$",
+   "$t=2x$"
+  ],
+  "corect": 0,
+  "explicatie": "Ecuația conține doar $\\sin x$ (și $\\sin^2x$), deci notăm $t=\\sin x$ și obținem $2t^2+5t+2=0$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-002",
+  "tip": "simplu",
+  "intrebare": "La substituția $t=\\sin x$, soluțiile $t$ trebuie să verifice:",
+  "variante": [
+   "$t<0$",
+   "$|t|\\leq1$",
+   "$t\\geq0$",
+   "$t=1$"
+  ],
+  "corect": 1,
+  "explicatie": "Sinusul ia valori doar în $[-1;1]$, deci orice $t=\\sin x$ trebuie să verifice $|t|\\leq1$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-003",
+  "tip": "simplu",
+  "intrebare": "La $t=\\cos x$ am obținut $t=-3$. Ce facem cu ea?",
+  "variante": [
+   "o împărțim la $3$",
+   "o respingem, pentru că $|t|>1$",
+   "o facem $3$",
+   "o păstrăm"
+  ],
+  "corect": 1,
+  "explicatie": "Cosinusul nu poate fi $-3$, deoarece $|t|>1$. Soluția $t=-3$ se respinge, ea nu dă niciun $x$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-004",
+  "tip": "simplu",
+  "intrebare": "Cum se numește ecuația $a\\sin^2x+b\\sin x\\cos x+c\\cos^2x=0$?",
+  "variante": [
+   "omogenă",
+   "exponențială",
+   "biquadratică",
+   "reciprocă"
+  ],
+  "corect": 0,
+  "explicatie": "Toți termenii au gradul $2$ în $\\sin x$ și $\\cos x$, iar membrul drept e $0$: ecuația se numește omogenă."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-005",
+  "tip": "simplu",
+  "intrebare": "La o ecuație omogenă de gradul $2$ împărțim la:",
+  "variante": [
+   "$x$",
+   "$\\sin x$",
+   "$1$",
+   "$\\cos^2x$"
+  ],
+  "corect": 3,
+  "explicatie": "Împărțim la $\\cos^2x$ și obținem o ecuație de gradul $2$ în $\\operatorname{tg}x$ (după verificarea cazului $\\cos x=0$)."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-006",
+  "tip": "simplu",
+  "intrebare": "Din $\\sin x+\\cos x=0$, împărțind la $\\cos x$, obținem:",
+  "variante": [
+   "$\\operatorname{ctg}x=1$",
+   "$\\operatorname{tg}x=-1$",
+   "$\\operatorname{tg}x=1$",
+   "$\\operatorname{tg}x=0$"
+  ],
+  "corect": 1,
+  "explicatie": "Din $\\sin x=-\\cos x$, împărțind la $\\cos x\\neq0$, obținem $\\operatorname{tg}x=-1$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-007",
+  "tip": "simplu",
+  "intrebare": "Care sunt soluțiile lui $\\sin x+\\cos x=0$?",
+  "variante": [
+   "$x=-\\frac{\\pi}{4}+\\pi k$",
+   "$x=-\\frac{\\pi}{4}+2\\pi k$",
+   "$x=\\frac{\\pi}{4}+2\\pi k$",
+   "$x=\\frac{\\pi}{4}+\\pi k$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\operatorname{tg}x=-1$ dă $x=\\operatorname{arctg}(-1)+\\pi k=-\\frac{\\pi}{4}+\\pi k$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-008",
+  "tip": "simplu",
+  "intrebare": "La $\\sin^2x=\\cos x$, cum avem o singură funcție?",
+  "variante": [
+   "$\\sin^2x=2\\cos x$",
+   "$\\sin^2x=1-\\cos^2x$",
+   "$\\sin^2x=1+\\cos^2x$",
+   "$\\sin^2x=\\cos^2x-1$"
+  ],
+  "corect": 1,
+  "explicatie": "Din $\\sin^2x+\\cos^2x=1$ rezultă $\\sin^2x=1-\\cos^2x$, și ecuația rămâne doar cu $\\cos x$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-009",
+  "tip": "simplu",
+  "intrebare": "Dacă ecuația conține $\\sin2x$, primul pas poate fi:",
+  "variante": [
+   "$\\sin2x=\\sin^2x$",
+   "$\\sin2x=\\cos^2x$",
+   "$\\sin2x=2\\sin x\\cos x$",
+   "$\\sin2x=2\\sin x$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\sin2x=2\\sin x\\cos x$ aduce ecuația la $\\sin x$ și $\\cos x$ (unghi simplu $x$), ceea ce permite să o rezolvăm."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-010",
+  "tip": "simplu",
+  "intrebare": "Cum se rezolvă $A\\cdot B=0$?",
+  "variante": [
+   "$A+B=0$",
+   "$A=0$ și $B=0$",
+   "$A=0$ sau $B=0$",
+   "$A=B$"
+  ],
+  "corect": 2,
+  "explicatie": "Un produs este $0$ când cel puțin un factor este $0$: $A=0$ sau $B=0$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-011",
+  "tip": "simplu",
+  "intrebare": "Cum se rezolvă $\\frac{A}{B}=0$?",
+  "variante": [
+   "$B=0$",
+   "$A=B$",
+   "$A=0$ și $B\\neq0$",
+   "$A\\neq0$"
+  ],
+  "corect": 2,
+  "explicatie": "O fracție e $0$ când numărătorul e $0$, dar numitorul trebuie să fie diferit de $0$ (altfel fracția nu există)."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-012",
+  "tip": "simplu",
+  "intrebare": "La ecuațiile cu $\\operatorname{tg}x$ și $\\operatorname{ctg}x$, DVA cere:",
+  "variante": [
+   "$x\\neq0$",
+   "$\\cos x=0$",
+   "$\\sin x=0$",
+   "$\\cos x\\neq0$ și $\\sin x\\neq0$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\operatorname{tg}x=\\frac{\\sin x}{\\cos x}$ cere $\\cos x\\neq0$, iar $\\operatorname{ctg}x=\\frac{\\cos x}{\\sin x}$ cere $\\sin x\\neq0$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-013",
+  "tip": "simplu",
+  "intrebare": "Cum transformăm $\\sin x+\\sin3x$?",
+  "variante": [
+   "cu formula sumei în produs",
+   "cu $t=x$",
+   "cu formula sinusului sumei",
+   "prin derivare"
+  ],
+  "corect": 0,
+  "explicatie": "Suma $\\sin x+\\sin3x$ se transformă în produs: $2\\sin2x\\cos x$. Un produs se rezolvă apoi factor cu factor."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-014",
+  "tip": "simplu",
+  "intrebare": "Ce înseamnă $|x|<2$?",
+  "variante": [
+   "$x<-2$",
+   "$-2<x<2$",
+   "$x\\neq2$",
+   "$x>2$"
+  ],
+  "corect": 1,
+  "explicatie": "$|x|<2$ înseamnă că distanța de la $x$ la $0$ este mai mică decât $2$, deci $-2<x<2$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-015",
+  "tip": "simplu",
+  "intrebare": "La condiția $|x|<2$, după soluțiile generale:",
+  "variante": [
+   "le ignorăm",
+   "le ridicăm la pătrat",
+   "le adunăm",
+   "dăm valori lui $k$ și verificăm intervalul"
+  ],
+  "corect": 3,
+  "explicatie": "Soluțiile generale au parametrul $k$. Dăm valori lui $k$ și păstrăm doar $x$ care se află în intervalul cerut."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-016",
+  "tip": "simplu",
+  "intrebare": "La $\\left(\\frac19\\right)^{\\sin^2x}=\\frac{1}{\\sqrt3}$, aducem la baza $3$ și obținem:",
+  "variante": [
+   "$\\sin x=\\frac14$",
+   "$\\sin^2x=\\frac12$",
+   "$\\sin^2x=2$",
+   "$\\sin^2x=\\frac14$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\left(3^{-2}\\right)^{\\sin^2x}=3^{-\\frac12}$, deci $-2\\sin^2x=-\\frac12$, adică $\\sin^2x=\\frac14$."
+ },
+ {
+  "id": "ecuatii-trigonometrice-tipuri-017",
+  "tip": "simplu",
+  "intrebare": "Cum scriem $4$ ca să obținem o ecuație omogenă?",
+  "variante": [
+   "$4=4\\sin x$",
+   "$4=4\\cos^2x$",
+   "$4=4(\\sin x+\\cos x)$",
+   "$4=4(\\sin^2x+\\cos^2x)$"
+  ],
+  "corect": 3,
+  "explicatie": "$4=4\\cdot1=4(\\sin^2x+\\cos^2x)$, astfel toți termenii devin de gradul $2$ și ecuația e omogenă."
+ }
 ]

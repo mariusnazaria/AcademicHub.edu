@@ -1,218 +1,236 @@
 [
-  {
-    "id": "matrici-si-determinanti-001",
-    "tip": "simplu",
-    "intrebare": "Cum se adună două matrici?",
-    "variante": [
-      "linie cu coloană",
-      "doar diagonalele",
-      "se înmulțesc",
-      "element cu element"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "matrici-si-determinanti-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}+\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$?",
-    "variante": [
-      "$\\begin{pmatrix}2&3\\\\2&5\\end{pmatrix}$",
-      "$\\begin{pmatrix}2&2\\\\3&5\\end{pmatrix}$",
-      "$\\begin{pmatrix}2&2\\\\3&4\\end{pmatrix}$",
-      "$\\begin{pmatrix}1&2\\\\3&5\\end{pmatrix}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "matrici-si-determinanti-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $2\\cdot\\begin{pmatrix}1&3\\\\0&2\\end{pmatrix}$?",
-    "variante": [
-      "$\\begin{pmatrix}2&3\\\\0&2\\end{pmatrix}$",
-      "$\\begin{pmatrix}2&6\\\\0&4\\end{pmatrix}$",
-      "$\\begin{pmatrix}3&5\\\\2&4\\end{pmatrix}$",
-      "$\\begin{pmatrix}2&6\\\\2&4\\end{pmatrix}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "matrici-si-determinanti-004",
-    "tip": "simplu",
-    "intrebare": "Cum se înmulțesc două matrici?",
-    "variante": [
-      "linie cu coloană",
-      "element cu element",
-      "se adună",
-      "coloană cu coloană"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "matrici-si-determinanti-005",
-    "tip": "simplu",
-    "intrebare": "Ce dimensiune are produsul unei matrici $2\\times3$ cu una $3\\times2$?",
-    "variante": [
-      "$3\\times3$",
-      "$2\\times2$",
-      "$2\\times3$",
-      "$3\\times2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "matrici-si-determinanti-006",
-    "tip": "simplu",
-    "intrebare": "Se poate înmulți o matrice $2\\times3$ cu una $2\\times3$?",
-    "variante": [
-      "da",
-      "doar dacă sunt egale",
-      "nu",
-      "doar dacă au zerouri"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "matrici-si-determinanti-007",
-    "tip": "simplu",
-    "intrebare": "Cât este determinantul $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}$?",
-    "variante": [
-      "$ab-cd$",
-      "$ad+bc$",
-      "$ac-bd$",
-      "$ad-bc$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "matrici-si-determinanti-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{vmatrix}1&2\\\\3&4\\end{vmatrix}$?",
-    "variante": [
-      "$10$",
-      "$-10$",
-      "$2$",
-      "$-2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "matrici-si-determinanti-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{vmatrix}2&0\\\\0&3\\end{vmatrix}$?",
-    "variante": [
-      "$-6$",
-      "$5$",
-      "$0$",
-      "$6$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "matrici-si-determinanti-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{vmatrix}1&0\\\\0&1\\end{vmatrix}$?",
-    "variante": [
-      "$-1$",
-      "$0$",
-      "$2$",
-      "$1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "matrici-si-determinanti-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{vmatrix}2&4\\\\1&2\\end{vmatrix}$?",
-    "variante": [
-      "$-4$",
-      "$0$",
-      "$4$",
-      "$8$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "matrici-si-determinanti-012",
-    "tip": "simplu",
-    "intrebare": "Dacă un determinant are două linii egale, el este:",
-    "variante": [
-      "$0$",
-      "$1$",
-      "nedefinit",
-      "$-1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "matrici-si-determinanti-013",
-    "tip": "simplu",
-    "intrebare": "Când este o matrice inversabilă?",
-    "variante": [
-      "când $\\det A\\neq0$",
-      "mereu",
-      "când $\\det A=1$",
-      "când $\\det A=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "matrici-si-determinanti-014",
-    "tip": "simplu",
-    "intrebare": "Ce este matricea unitate $I_2$?",
-    "variante": [
-      "$\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$",
-      "$\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$",
-      "$\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
-      "$\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "matrici-si-determinanti-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $A\\cdot I_2$?",
-    "variante": [
-      "$2A$",
-      "$0$",
-      "$A$",
-      "$I_2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "matrici-si-determinanti-016",
-    "tip": "simplu",
-    "intrebare": "Cum se obține transpusa unei matrici?",
-    "variante": [
-      "schimbăm liniile cu coloanele",
-      "înmulțim cu $-1$",
-      "ștergem diagonala",
-      "adunăm $1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "matrici-si-determinanti-017",
-    "tip": "simplu",
-    "intrebare": "Cât este determinantul matricei diagonale $\\begin{pmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{pmatrix}$?",
-    "variante": [
-      "$24$",
-      "$1$",
-      "$0$",
-      "$9$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "matrici-si-determinanti-018",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\begin{vmatrix}1&1\\\\1&1\\end{vmatrix}$?",
-    "variante": [
-      "$-1$",
-      "$2$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "matrici-si-determinanti-001",
+  "tip": "simplu",
+  "intrebare": "Cum se adună două matrici?",
+  "variante": [
+   "linie cu coloană",
+   "doar diagonalele",
+   "se înmulțesc",
+   "element cu element"
+  ],
+  "corect": 3,
+  "explicatie": "Adunarea matricilor (de aceeași dimensiune) se face pe poziții: adunăm elementele de pe aceeași linie și coloană."
+ },
+ {
+  "id": "matrici-si-determinanti-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}+\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$?",
+  "variante": [
+   "$\\begin{pmatrix}2&3\\\\2&5\\end{pmatrix}$",
+   "$\\begin{pmatrix}2&2\\\\3&5\\end{pmatrix}$",
+   "$\\begin{pmatrix}2&2\\\\3&4\\end{pmatrix}$",
+   "$\\begin{pmatrix}1&2\\\\3&5\\end{pmatrix}$"
+  ],
+  "corect": 1,
+  "explicatie": "Adunăm element cu element: $1+1=2$, $2+0=2$, $3+0=3$, $4+1=5$."
+ },
+ {
+  "id": "matrici-si-determinanti-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $2\\cdot\\begin{pmatrix}1&3\\\\0&2\\end{pmatrix}$?",
+  "variante": [
+   "$\\begin{pmatrix}2&3\\\\0&2\\end{pmatrix}$",
+   "$\\begin{pmatrix}2&6\\\\0&4\\end{pmatrix}$",
+   "$\\begin{pmatrix}3&5\\\\2&4\\end{pmatrix}$",
+   "$\\begin{pmatrix}2&6\\\\2&4\\end{pmatrix}$"
+  ],
+  "corect": 1,
+  "explicatie": "Înmulțirea cu un scalar multiplică fiecare element: $2\\cdot1,2\\cdot3,2\\cdot0,2\\cdot2$."
+ },
+ {
+  "id": "matrici-si-determinanti-004",
+  "tip": "simplu",
+  "intrebare": "Cum se înmulțesc două matrici?",
+  "variante": [
+   "linie cu coloană",
+   "element cu element",
+   "se adună",
+   "coloană cu coloană"
+  ],
+  "corect": 0,
+  "explicatie": "Elementul din linia $i$, coloana $j$ al produsului se obține înmulțind linia $i$ cu coloana $j$ și adunând produsele."
+ },
+ {
+  "id": "matrici-si-determinanti-005",
+  "tip": "simplu",
+  "intrebare": "Ce dimensiune are produsul unei matrici $2\\times3$ cu una $3\\times2$?",
+  "variante": [
+   "$3\\times3$",
+   "$2\\times2$",
+   "$2\\times3$",
+   "$3\\times2$"
+  ],
+  "corect": 1,
+  "explicatie": "Produsul unei matrici $m\\times n$ cu una $n\\times p$ are dimensiunea $m\\times p$, deci aici $2\\times2$."
+ },
+ {
+  "id": "matrici-si-determinanti-006",
+  "tip": "simplu",
+  "intrebare": "Se poate înmulți o matrice $2\\times3$ cu una $2\\times3$?",
+  "variante": [
+   "da",
+   "doar dacă sunt egale",
+   "nu",
+   "doar dacă au zerouri"
+  ],
+  "corect": 2,
+  "explicatie": "Numărul de coloane ale primei matrici (3) trebuie să fie egal cu numărul de linii ale celei de-a doua (2). Nu e egal, deci nu se poate."
+ },
+ {
+  "id": "matrici-si-determinanti-007",
+  "tip": "simplu",
+  "intrebare": "Cât este determinantul $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}$?",
+  "variante": [
+   "$ab-cd$",
+   "$ad+bc$",
+   "$ac-bd$",
+   "$ad-bc$"
+  ],
+  "corect": 3,
+  "explicatie": "Formula: $ad-bc$ (produsul diagonalei principale minus produsul diagonalei secundare)."
+ },
+ {
+  "id": "matrici-si-determinanti-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{vmatrix}1&2\\\\3&4\\end{vmatrix}$?",
+  "variante": [
+   "$10$",
+   "$-10$",
+   "$2$",
+   "$-2$"
+  ],
+  "corect": 3,
+  "explicatie": "$ad-bc=1\\cdot4-2\\cdot3=4-6=-2$."
+ },
+ {
+  "id": "matrici-si-determinanti-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{vmatrix}2&0\\\\0&3\\end{vmatrix}$?",
+  "variante": [
+   "$-6$",
+   "$5$",
+   "$0$",
+   "$6$"
+  ],
+  "corect": 3,
+  "explicatie": "$ad-bc=2\\cdot3-0\\cdot0=6$."
+ },
+ {
+  "id": "matrici-si-determinanti-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{vmatrix}1&0\\\\0&1\\end{vmatrix}$?",
+  "variante": [
+   "$-1$",
+   "$0$",
+   "$2$",
+   "$1$"
+  ],
+  "corect": 3,
+  "explicatie": "$ad-bc=1\\cdot1-0\\cdot0=1$."
+ },
+ {
+  "id": "matrici-si-determinanti-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{vmatrix}2&4\\\\1&2\\end{vmatrix}$?",
+  "variante": [
+   "$-4$",
+   "$0$",
+   "$4$",
+   "$8$"
+  ],
+  "corect": 1,
+  "explicatie": "$2\\cdot2-4\\cdot1=4-4=0$. Liniile sunt proporționale."
+ },
+ {
+  "id": "matrici-si-determinanti-012",
+  "tip": "simplu",
+  "intrebare": "Dacă un determinant are două linii egale, el este:",
+  "variante": [
+   "$0$",
+   "$1$",
+   "nedefinit",
+   "$-1$"
+  ],
+  "corect": 0,
+  "explicatie": "Dacă două linii sunt egale, scăzându-le obținem o linie de zerouri, deci determinantul este 0."
+ },
+ {
+  "id": "matrici-si-determinanti-013",
+  "tip": "simplu",
+  "intrebare": "Când este o matrice inversabilă?",
+  "variante": [
+   "când $\\det A\\neq0$",
+   "mereu",
+   "când $\\det A=1$",
+   "când $\\det A=0$"
+  ],
+  "corect": 0,
+  "explicatie": "O matrice are inversă exact când determinantul ei este nenul."
+ },
+ {
+  "id": "matrici-si-determinanti-014",
+  "tip": "simplu",
+  "intrebare": "Ce este matricea unitate $I_2$?",
+  "variante": [
+   "$\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$",
+   "$\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$",
+   "$\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
+   "$\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$"
+  ],
+  "corect": 2,
+  "explicatie": "Matricea unitate are 1 pe diagonala principală și 0 în rest."
+ },
+ {
+  "id": "matrici-si-determinanti-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $A\\cdot I_2$?",
+  "variante": [
+   "$2A$",
+   "$0$",
+   "$A$",
+   "$I_2$"
+  ],
+  "corect": 2,
+  "explicatie": "Matricea unitate este elementul neutru la înmulțire: $A\\cdot I_2=A$."
+ },
+ {
+  "id": "matrici-si-determinanti-016",
+  "tip": "simplu",
+  "intrebare": "Cum se obține transpusa unei matrici?",
+  "variante": [
+   "schimbăm liniile cu coloanele",
+   "înmulțim cu $-1$",
+   "ștergem diagonala",
+   "adunăm $1$"
+  ],
+  "corect": 0,
+  "explicatie": "Transpusa se obține scriind liniile ca coloane (și invers)."
+ },
+ {
+  "id": "matrici-si-determinanti-017",
+  "tip": "simplu",
+  "intrebare": "Cât este determinantul matricei diagonale $\\begin{pmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{pmatrix}$?",
+  "variante": [
+   "$24$",
+   "$1$",
+   "$0$",
+   "$9$"
+  ],
+  "corect": 0,
+  "explicatie": "La o matrice diagonală determinantul este produsul elementelor de pe diagonală: $2\\cdot3\\cdot4=24$."
+ },
+ {
+  "id": "matrici-si-determinanti-018",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\begin{vmatrix}1&1\\\\1&1\\end{vmatrix}$?",
+  "variante": [
+   "$-1$",
+   "$2$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 2,
+  "explicatie": "$1\\cdot1-1\\cdot1=0$. Liniile sunt egale, deci determinantul este 0."
+ }
 ]

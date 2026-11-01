@@ -1,242 +1,262 @@
 [
-  {
-    "id": "logaritmi-001",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă $\\log_ab=x$?",
-    "variante": [
-      "$a^x=b$",
-      "$b^x=a$",
-      "$a\\cdot x=b$",
-      "$x^a=b$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "logaritmi-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_28$?",
-    "variante": [
-      "$3$",
-      "$4$",
-      "$2$",
-      "$16$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "logaritmi-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_39$?",
-    "variante": [
-      "$2$",
-      "$27$",
-      "$3$",
-      "$6$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "logaritmi-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_51$?",
-    "variante": [
-      "$5$",
-      "$-1$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "logaritmi-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_aa$?",
-    "variante": [
-      "$a$",
-      "$1$",
-      "$0$",
-      "$a^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lg1000$?",
-    "variante": [
-      "$2$",
-      "$3$",
-      "$1000$",
-      "$10$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_2\\frac12$?",
-    "variante": [
-      "$-2$",
-      "$-1$",
-      "$\\frac12$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_2\\frac18$?",
-    "variante": [
-      "$3$",
-      "$-8$",
-      "$\\frac18$",
-      "$-3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "logaritmi-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\ln e$?",
-    "variante": [
-      "$1$",
-      "$10$",
-      "$e$",
-      "$0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "logaritmi-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_42$?",
-    "variante": [
-      "$8$",
-      "$2$",
-      "$\\frac12$",
-      "$-\\frac12$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "logaritmi-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_93$?",
-    "variante": [
-      "$3$",
-      "$2$",
-      "$\\frac12$",
-      "$27$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "logaritmi-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_a(bc)$?",
-    "variante": [
-      "$\\log_a(b+c)$",
-      "$\\log_ab-\\log_ac$",
-      "$\\log_ab\\cdot\\log_ac$",
-      "$\\log_ab+\\log_ac$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "logaritmi-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_a\\frac bc$?",
-    "variante": [
-      "$\\log_ab+\\log_ac$",
-      "$\\log_ab-\\log_ac$",
-      "$\\log_ab:c$",
-      "$\\frac{\\log_ab}{\\log_ac}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_ab^n$?",
-    "variante": [
-      "$b\\log_an$",
-      "$\\log_ab+n$",
-      "$(\\log_ab)^n$",
-      "$n\\log_ab$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "logaritmi-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_24+\\log_28$?",
-    "variante": [
-      "$12$",
-      "$32$",
-      "$5$",
-      "$6$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "logaritmi-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\log_318-\\log_32$?",
-    "variante": [
-      "$16$",
-      "$9$",
-      "$2$",
-      "$3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "logaritmi-017",
-    "tip": "simplu",
-    "intrebare": "Cât este $2^{\\log_27}$?",
-    "variante": [
-      "$14$",
-      "$7$",
-      "$2$",
-      "$49$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-018",
-    "tip": "simplu",
-    "intrebare": "Cum se schimbă baza logaritmului?",
-    "variante": [
-      "$\\log_ab=\\ln a\\cdot\\ln b$",
-      "$\\log_ab=\\frac{\\ln b}{\\ln a}$",
-      "$\\log_ab=\\frac{\\ln a}{\\ln b}$",
-      "$\\log_ab=\\ln b-\\ln a$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-019",
-    "tip": "simplu",
-    "intrebare": "Care este condiția de existență pentru $\\log_ab$?",
-    "variante": [
-      "$a\\neq0$, $b\\neq0$",
-      "$a>0$, $a\\neq1$, $b>0$",
-      "$a>1$, $b<0$",
-      "$a>0$, $b\\geq0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "logaritmi-020",
-    "tip": "simplu",
-    "intrebare": "Pentru ce $x$ există $\\lg x$?",
-    "variante": [
-      "$x>0$",
-      "$x\\neq0$",
-      "$x<0$",
-      "$x\\geq0$"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "logaritmi-001",
+  "tip": "simplu",
+  "intrebare": "Ce înseamnă $\\log_ab=x$?",
+  "variante": [
+   "$a^x=b$",
+   "$b^x=a$",
+   "$a\\cdot x=b$",
+   "$x^a=b$"
+  ],
+  "corect": 0,
+  "explicatie": "Definiția logaritmului: $\\log_ab=x$ înseamnă că $a^x=b$."
+ },
+ {
+  "id": "logaritmi-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_28$?",
+  "variante": [
+   "$3$",
+   "$4$",
+   "$2$",
+   "$16$"
+  ],
+  "corect": 0,
+  "explicatie": "$2^3=8$, deci $\\log_28=3$."
+ },
+ {
+  "id": "logaritmi-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_39$?",
+  "variante": [
+   "$2$",
+   "$27$",
+   "$3$",
+   "$6$"
+  ],
+  "corect": 0,
+  "explicatie": "$3^2=9$, deci $\\log_39=2$."
+ },
+ {
+  "id": "logaritmi-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_51$?",
+  "variante": [
+   "$5$",
+   "$-1$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 2,
+  "explicatie": "$5^0=1$, deci $\\log_51=0$."
+ },
+ {
+  "id": "logaritmi-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_aa$?",
+  "variante": [
+   "$a$",
+   "$1$",
+   "$0$",
+   "$a^2$"
+  ],
+  "corect": 1,
+  "explicatie": "$a^1=a$, deci $\\log_aa=1$."
+ },
+ {
+  "id": "logaritmi-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\lg1000$?",
+  "variante": [
+   "$2$",
+   "$3$",
+   "$1000$",
+   "$10$"
+  ],
+  "corect": 1,
+  "explicatie": "$\\lg$ are baza 10 și $10^3=1000$, deci $\\lg1000=3$."
+ },
+ {
+  "id": "logaritmi-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_2\\frac12$?",
+  "variante": [
+   "$-2$",
+   "$-1$",
+   "$\\frac12$",
+   "$1$"
+  ],
+  "corect": 1,
+  "explicatie": "$\\frac12=2^{-1}$, deci $\\log_2\\frac12=-1$."
+ },
+ {
+  "id": "logaritmi-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_2\\frac18$?",
+  "variante": [
+   "$3$",
+   "$-8$",
+   "$\\frac18$",
+   "$-3$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\frac18=2^{-3}$, deci $\\log_2\\frac18=-3$."
+ },
+ {
+  "id": "logaritmi-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\ln e$?",
+  "variante": [
+   "$1$",
+   "$10$",
+   "$e$",
+   "$0$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\ln$ are baza $e$ și $e^1=e$, deci $\\ln e=1$."
+ },
+ {
+  "id": "logaritmi-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_42$?",
+  "variante": [
+   "$8$",
+   "$2$",
+   "$\\frac12$",
+   "$-\\frac12$"
+  ],
+  "corect": 2,
+  "explicatie": "$4^{\\frac12}=2$ (radicalul lui $4$), deci $\\log_42=\\frac12$."
+ },
+ {
+  "id": "logaritmi-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_93$?",
+  "variante": [
+   "$3$",
+   "$2$",
+   "$\\frac12$",
+   "$27$"
+  ],
+  "corect": 2,
+  "explicatie": "$9^{\\frac12}=3$, deci $\\log_93=\\frac12$."
+ },
+ {
+  "id": "logaritmi-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_a(bc)$?",
+  "variante": [
+   "$\\log_a(b+c)$",
+   "$\\log_ab-\\log_ac$",
+   "$\\log_ab\\cdot\\log_ac$",
+   "$\\log_ab+\\log_ac$"
+  ],
+  "corect": 3,
+  "explicatie": "Logaritmul unui produs este suma logaritmilor: $\\log_a(bc)=\\log_ab+\\log_ac$."
+ },
+ {
+  "id": "logaritmi-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_a\\frac bc$?",
+  "variante": [
+   "$\\log_ab+\\log_ac$",
+   "$\\log_ab-\\log_ac$",
+   "$\\log_ab:c$",
+   "$\\frac{\\log_ab}{\\log_ac}$"
+  ],
+  "corect": 1,
+  "explicatie": "Logaritmul unui cât este diferența logaritmilor: $\\log_a\\frac bc=\\log_ab-\\log_ac$."
+ },
+ {
+  "id": "logaritmi-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_ab^n$?",
+  "variante": [
+   "$b\\log_an$",
+   "$\\log_ab+n$",
+   "$(\\log_ab)^n$",
+   "$n\\log_ab$"
+  ],
+  "corect": 3,
+  "explicatie": "Exponentul argumentului iese în fața logaritmului: $\\log_ab^n=n\\log_ab$."
+ },
+ {
+  "id": "logaritmi-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_24+\\log_28$?",
+  "variante": [
+   "$12$",
+   "$32$",
+   "$5$",
+   "$6$"
+  ],
+  "corect": 2,
+  "explicatie": "Suma devine logaritm de produs: $\\log_2(4\\cdot8)=\\log_232=5$."
+ },
+ {
+  "id": "logaritmi-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\log_318-\\log_32$?",
+  "variante": [
+   "$16$",
+   "$9$",
+   "$2$",
+   "$3$"
+  ],
+  "corect": 2,
+  "explicatie": "Diferența devine logaritm de cât: $\\log_3\\frac{18}{2}=\\log_39=2$."
+ },
+ {
+  "id": "logaritmi-017",
+  "tip": "simplu",
+  "intrebare": "Cât este $2^{\\log_27}$?",
+  "variante": [
+   "$14$",
+   "$7$",
+   "$2$",
+   "$49$"
+  ],
+  "corect": 1,
+  "explicatie": "Identitatea $a^{\\log_ab}=b$ dă $2^{\\log_27}=7$."
+ },
+ {
+  "id": "logaritmi-018",
+  "tip": "simplu",
+  "intrebare": "Cum se schimbă baza logaritmului?",
+  "variante": [
+   "$\\log_ab=\\ln a\\cdot\\ln b$",
+   "$\\log_ab=\\frac{\\ln b}{\\ln a}$",
+   "$\\log_ab=\\frac{\\ln a}{\\ln b}$",
+   "$\\log_ab=\\ln b-\\ln a$"
+  ],
+  "corect": 1,
+  "explicatie": "Formula schimbării bazei: $\\log_ab=\\frac{\\log_cb}{\\log_ca}$, aici cu $c=e$: $\\frac{\\ln b}{\\ln a}$."
+ },
+ {
+  "id": "logaritmi-019",
+  "tip": "simplu",
+  "intrebare": "Care este condiția de existență pentru $\\log_ab$?",
+  "variante": [
+   "$a\\neq0$, $b\\neq0$",
+   "$a>0$, $a\\neq1$, $b>0$",
+   "$a>1$, $b<0$",
+   "$a>0$, $b\\geq0$"
+  ],
+  "corect": 1,
+  "explicatie": "Baza trebuie să fie pozitivă și diferită de 1, iar argumentul strict pozitiv."
+ },
+ {
+  "id": "logaritmi-020",
+  "tip": "simplu",
+  "intrebare": "Pentru ce $x$ există $\\lg x$?",
+  "variante": [
+   "$x>0$",
+   "$x\\neq0$",
+   "$x<0$",
+   "$x\\geq0$"
+  ],
+  "corect": 0,
+  "explicatie": "Argumentul logaritmului trebuie să fie strict pozitiv, deci $x>0$."
+ }
 ]

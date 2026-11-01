@@ -1,218 +1,236 @@
 [
-  {
-    "id": "triunghiul-dreptunghic-001",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie teorema lui Pitagora (ipotenuza $c$, catetele $a,b$)?",
-    "variante": [
-      "$c=a+b$",
-      "$c^2=a^2+b^2$",
-      "$c^2=a^2-b^2$",
-      "$a^2=b^2+c^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "triunghiul-dreptunghic-002",
-    "tip": "simplu",
-    "intrebare": "Catetele sunt $3$ și $4$. Cât este ipotenuza?",
-    "variante": [
-      "$5$",
-      "$25$",
-      "$7$",
-      "$6$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "triunghiul-dreptunghic-003",
-    "tip": "simplu",
-    "intrebare": "Catetele sunt $5$ și $12$. Cât este ipotenuza?",
-    "variante": [
-      "$13$",
-      "$169$",
-      "$15$",
-      "$17$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "triunghiul-dreptunghic-004",
-    "tip": "simplu",
-    "intrebare": "Catetele sunt $6$ și $8$. Cât este ipotenuza?",
-    "variante": [
-      "$12$",
-      "$10$",
-      "$14$",
-      "$100$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "triunghiul-dreptunghic-005",
-    "tip": "simplu",
-    "intrebare": "Catetele sunt $8$ și $15$. Cât este ipotenuza?",
-    "variante": [
-      "$289$",
-      "$19$",
-      "$23$",
-      "$17$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "triunghiul-dreptunghic-006",
-    "tip": "simplu",
-    "intrebare": "Ipotenuza este $13$, o catetă este $5$. Cât este cealaltă?",
-    "variante": [
-      "$8$",
-      "$18$",
-      "$144$",
-      "$12$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "triunghiul-dreptunghic-007",
-    "tip": "simplu",
-    "intrebare": "Ipotenuza este $10$, o catetă este $6$. Cât este cealaltă?",
-    "variante": [
-      "$4$",
-      "$64$",
-      "$16$",
-      "$8$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "triunghiul-dreptunghic-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin\\alpha$ într-un triunghi dreptunghic?",
-    "variante": [
-      "ipotenuză $/$ cateta opusă",
-      "cateta opusă $/$ cateta alăturată",
-      "cateta alăturată $/$ ipotenuză",
-      "cateta opusă $/$ ipotenuză"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "triunghiul-dreptunghic-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\cos\\alpha$ într-un triunghi dreptunghic?",
-    "variante": [
-      "cateta alăturată $/$ ipotenuză",
-      "cateta opusă $/$ ipotenuză",
-      "ipotenuză $/$ cateta alăturată",
-      "cateta opusă $/$ cateta alăturată"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "triunghiul-dreptunghic-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}\\alpha$ într-un triunghi dreptunghic?",
-    "variante": [
-      "cateta alăturată $/$ ipotenuză",
-      "ipotenuză $/$ cateta opusă",
-      "cateta opusă $/$ cateta alăturată",
-      "cateta opusă $/$ ipotenuză"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "triunghiul-dreptunghic-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin30^\\circ$?",
-    "variante": [
-      "$\\frac{\\sqrt3}{2}$",
-      "$\\frac12$",
-      "$\\frac{\\sqrt2}{2}$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "triunghiul-dreptunghic-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\cos60^\\circ$?",
-    "variante": [
-      "$\\frac12$",
-      "$\\frac{\\sqrt3}{2}$",
-      "$0$",
-      "$\\frac{\\sqrt2}{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "triunghiul-dreptunghic-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin45^\\circ$?",
-    "variante": [
-      "$\\frac12$",
-      "$\\frac{\\sqrt3}{2}$",
-      "$1$",
-      "$\\frac{\\sqrt2}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "triunghiul-dreptunghic-014",
-    "tip": "simplu",
-    "intrebare": "Care este teorema înălțimii ($h$, proiecțiile $p$ și $q$ ale catetelor pe ipotenuză)?",
-    "variante": [
-      "$h^2=p+q$",
-      "$h^2=p\\cdot q$",
-      "$h=p\\cdot q$",
-      "$h=p+q$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "triunghiul-dreptunghic-015",
-    "tip": "simplu",
-    "intrebare": "Cât este mediana dusă spre ipotenuză?",
-    "variante": [
-      "ipotenuza întreagă",
-      "dublul ipotenuzei",
-      "jumătate din ipotenuză",
-      "o treime din ipotenuză"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "triunghiul-dreptunghic-016",
-    "tip": "simplu",
-    "intrebare": "În triunghiul dreptunghic cu un unghi de $30^\\circ$, cateta opusă lui este:",
-    "variante": [
-      "egală cu cealaltă catetă",
-      "jumătate din ipotenuză",
-      "dublul ipotenuzei",
-      "ipotenuza"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "triunghiul-dreptunghic-017",
-    "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic isoscel cu cateta $a$. Cât este ipotenuza?",
-    "variante": [
-      "$2a$",
-      "$a^2$",
-      "$a\\sqrt2$",
-      "$a\\sqrt3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "triunghiul-dreptunghic-018",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria triunghiului dreptunghic?",
-    "variante": [
-      "$\\text{cateta}_1\\cdot\\text{cateta}_2$",
-      "$\\text{cateta}_1+\\text{cateta}_2$",
-      "$\\frac{\\text{cateta}_1\\cdot\\text{cateta}_2}{2}$",
-      "$\\frac{\\text{ipotenuza}\\cdot\\text{cateta}}{2}$"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "triunghiul-dreptunghic-001",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie teorema lui Pitagora (ipotenuza $c$, catetele $a,b$)?",
+  "variante": [
+   "$c=a+b$",
+   "$c^2=a^2+b^2$",
+   "$c^2=a^2-b^2$",
+   "$a^2=b^2+c^2$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema lui Pitagora: pătratul ipotenuzei este egal cu suma pătratelor catetelor, $c^2=a^2+b^2$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-002",
+  "tip": "simplu",
+  "intrebare": "Catetele sunt $3$ și $4$. Cât este ipotenuza?",
+  "variante": [
+   "$5$",
+   "$25$",
+   "$7$",
+   "$6$"
+  ],
+  "corect": 0,
+  "explicatie": "$c^2=3^2+4^2=9+16=25$, deci $c=5$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-003",
+  "tip": "simplu",
+  "intrebare": "Catetele sunt $5$ și $12$. Cât este ipotenuza?",
+  "variante": [
+   "$13$",
+   "$169$",
+   "$15$",
+   "$17$"
+  ],
+  "corect": 0,
+  "explicatie": "$c^2=5^2+12^2=25+144=169$, deci $c=13$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-004",
+  "tip": "simplu",
+  "intrebare": "Catetele sunt $6$ și $8$. Cât este ipotenuza?",
+  "variante": [
+   "$12$",
+   "$10$",
+   "$14$",
+   "$100$"
+  ],
+  "corect": 1,
+  "explicatie": "$c^2=6^2+8^2=36+64=100$, deci $c=10$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-005",
+  "tip": "simplu",
+  "intrebare": "Catetele sunt $8$ și $15$. Cât este ipotenuza?",
+  "variante": [
+   "$289$",
+   "$19$",
+   "$23$",
+   "$17$"
+  ],
+  "corect": 3,
+  "explicatie": "$c^2=8^2+15^2=64+225=289$, deci $c=17$ (nu uita rădăcina pătrată)."
+ },
+ {
+  "id": "triunghiul-dreptunghic-006",
+  "tip": "simplu",
+  "intrebare": "Ipotenuza este $13$, o catetă este $5$. Cât este cealaltă?",
+  "variante": [
+   "$8$",
+   "$18$",
+   "$144$",
+   "$12$"
+  ],
+  "corect": 3,
+  "explicatie": "Cateta lipsă: $b^2=13^2-5^2=169-25=144$, deci $b=12$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-007",
+  "tip": "simplu",
+  "intrebare": "Ipotenuza este $10$, o catetă este $6$. Cât este cealaltă?",
+  "variante": [
+   "$4$",
+   "$64$",
+   "$16$",
+   "$8$"
+  ],
+  "corect": 3,
+  "explicatie": "Cateta lipsă: $b^2=10^2-6^2=100-36=64$, deci $b=8$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\sin\\alpha$ într-un triunghi dreptunghic?",
+  "variante": [
+   "ipotenuză $/$ cateta opusă",
+   "cateta opusă $/$ cateta alăturată",
+   "cateta alăturată $/$ ipotenuză",
+   "cateta opusă $/$ ipotenuză"
+  ],
+  "corect": 3,
+  "explicatie": "Sinusul unui unghi ascuțit este raportul dintre cateta opusă lui și ipotenuză."
+ },
+ {
+  "id": "triunghiul-dreptunghic-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\cos\\alpha$ într-un triunghi dreptunghic?",
+  "variante": [
+   "cateta alăturată $/$ ipotenuză",
+   "cateta opusă $/$ ipotenuză",
+   "ipotenuză $/$ cateta alăturată",
+   "cateta opusă $/$ cateta alăturată"
+  ],
+  "corect": 0,
+  "explicatie": "Cosinusul unui unghi ascuțit este raportul dintre cateta alăturată lui și ipotenuză."
+ },
+ {
+  "id": "triunghiul-dreptunghic-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\operatorname{tg}\\alpha$ într-un triunghi dreptunghic?",
+  "variante": [
+   "cateta alăturată $/$ ipotenuză",
+   "ipotenuză $/$ cateta opusă",
+   "cateta opusă $/$ cateta alăturată",
+   "cateta opusă $/$ ipotenuză"
+  ],
+  "corect": 2,
+  "explicatie": "Tangenta unui unghi ascuțit este raportul dintre cateta opusă și cateta alăturată."
+ },
+ {
+  "id": "triunghiul-dreptunghic-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\sin30^\\circ$?",
+  "variante": [
+   "$\\frac{\\sqrt3}{2}$",
+   "$\\frac12$",
+   "$\\frac{\\sqrt2}{2}$",
+   "$1$"
+  ],
+  "corect": 1,
+  "explicatie": "Este o valoare remarcabilă: $\\sin30^\\circ=\\frac12$ (cateta opusă lui $30^\\circ$ este jumătate din ipotenuză)."
+ },
+ {
+  "id": "triunghiul-dreptunghic-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\cos60^\\circ$?",
+  "variante": [
+   "$\\frac12$",
+   "$\\frac{\\sqrt3}{2}$",
+   "$0$",
+   "$\\frac{\\sqrt2}{2}$"
+  ],
+  "corect": 0,
+  "explicatie": "Este o valoare remarcabilă: $\\cos60^\\circ=\\frac12$ (cosinusul lui $60^\\circ$ este sinusul complementului său, $30^\\circ$)."
+ },
+ {
+  "id": "triunghiul-dreptunghic-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\sin45^\\circ$?",
+  "variante": [
+   "$\\frac12$",
+   "$\\frac{\\sqrt3}{2}$",
+   "$1$",
+   "$\\frac{\\sqrt2}{2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Valoare remarcabilă: $\\sin45^\\circ=\\frac{\\sqrt2}{2}$, din triunghiul dreptunghic isoscel cu catetele $1$ și ipotenuza $\\sqrt2$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-014",
+  "tip": "simplu",
+  "intrebare": "Care este teorema înălțimii ($h$, proiecțiile $p$ și $q$ ale catetelor pe ipotenuză)?",
+  "variante": [
+   "$h^2=p+q$",
+   "$h^2=p\\cdot q$",
+   "$h=p\\cdot q$",
+   "$h=p+q$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema înălțimii: pătratul înălțimii duse pe ipotenuză este egal cu produsul proiecțiilor catetelor pe ipotenuză, $h^2=p\\cdot q$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-015",
+  "tip": "simplu",
+  "intrebare": "Cât este mediana dusă spre ipotenuză?",
+  "variante": [
+   "ipotenuza întreagă",
+   "dublul ipotenuzei",
+   "jumătate din ipotenuză",
+   "o treime din ipotenuză"
+  ],
+  "corect": 2,
+  "explicatie": "Mediana spre ipotenuză este jumătate din ipotenuză, deoarece mijlocul ipotenuzei este centrul cercului circumscris."
+ },
+ {
+  "id": "triunghiul-dreptunghic-016",
+  "tip": "simplu",
+  "intrebare": "În triunghiul dreptunghic cu un unghi de $30^\\circ$, cateta opusă lui este:",
+  "variante": [
+   "egală cu cealaltă catetă",
+   "jumătate din ipotenuză",
+   "dublul ipotenuzei",
+   "ipotenuza"
+  ],
+  "corect": 1,
+  "explicatie": "Cateta opusă unghiului de $30^\\circ$ este jumătate din ipotenuză (de aici $\\sin30^\\circ=\\frac12$)."
+ },
+ {
+  "id": "triunghiul-dreptunghic-017",
+  "tip": "simplu",
+  "intrebare": "Triunghi dreptunghic isoscel cu cateta $a$. Cât este ipotenuza?",
+  "variante": [
+   "$2a$",
+   "$a^2$",
+   "$a\\sqrt2$",
+   "$a\\sqrt3$"
+  ],
+  "corect": 2,
+  "explicatie": "Cu Pitagora: $c^2=a^2+a^2=2a^2$, deci $c=a\\sqrt2$."
+ },
+ {
+  "id": "triunghiul-dreptunghic-018",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria triunghiului dreptunghic?",
+  "variante": [
+   "$\\text{cateta}_1\\cdot\\text{cateta}_2$",
+   "$\\text{cateta}_1+\\text{cateta}_2$",
+   "$\\frac{\\text{cateta}_1\\cdot\\text{cateta}_2}{2}$",
+   "$\\frac{\\text{ipotenuza}\\cdot\\text{cateta}}{2}$"
+  ],
+  "corect": 2,
+  "explicatie": "Catetele sunt perpendiculare, deci una este baza și cealaltă înălțimea: $\\mathcal{A}=\\frac{c_1\\cdot c_2}{2}$."
+ }
 ]

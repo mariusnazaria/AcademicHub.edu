@@ -1,242 +1,262 @@
 [
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-001",
-    "tip": "simplu",
-    "intrebare": "Admitere: $P(\\text{Ion})=\\frac56$, $P(\\text{Mihai})=\\frac37$. Evenimentul: doar unul dintre ei este admis. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=\\frac56+\\frac37$",
-      "$P=1-\\frac56\\cdot\\frac37$",
-      "$P=\\frac56\\cdot\\frac47+\\frac16\\cdot\\frac37$",
-      "$P=\\frac56\\cdot\\frac37$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-002",
-    "tip": "simplu",
-    "intrebare": "Două examene: $P(\\text{fizic}_1)=\\frac45$, $P(\\text{fizic}_2)=\\frac34$. Evenimentul: cel puțin un examen cu prezență fizică. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=\\frac45+\\frac34$",
-      "$P=1-\\frac15\\cdot\\frac14$",
-      "$P=\\frac45\\cdot\\frac34$",
-      "$P=1-\\frac45\\cdot\\frac34$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-003",
-    "tip": "simplu",
-    "intrebare": "Două companii: oferta de la prima cu probabilitatea $\\frac{3}{10}$, de la a doua $\\frac35$. Evenimentul: cel puțin o ofertă. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=1-\\frac{3}{10}\\cdot\\frac35$",
-      "$P=\\frac{3}{10}\\cdot\\frac35$",
-      "$P=\\frac{3}{10}+\\frac35$",
-      "$P=1-\\frac{7}{10}\\cdot\\frac25$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-004",
-    "tip": "simplu",
-    "intrebare": "Luni plouă cu probabilitatea $\\frac25$, marți cu $\\frac79$. Evenimentul: va ploua în cel puțin una din zile. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=\\frac25+\\frac79$",
-      "$P=\\frac25\\cdot\\frac79$",
-      "$P=1-\\frac35\\cdot\\frac29$",
-      "$P=1-\\frac25\\cdot\\frac79$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-005",
-    "tip": "simplu",
-    "intrebare": "Trei prieteni nimeresc coșul cu probabilitățile $0{,}7$; $0{,}5$; $0{,}4$. Evenimentul: mingea intră exact de două ori. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}7\\cdot0{,}5\\cdot0{,}4$",
-      "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4+0{,}7\\cdot0{,}5\\cdot0{,}4$",
-      "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4$",
-      "$P=3\\cdot0{,}7\\cdot0{,}5\\cdot0{,}4$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-006",
-    "tip": "simplu",
-    "intrebare": "Un utilaj este defect cu probabilitatea $0{,}2$; se cumpără $4$ utilaje. Evenimentul: cel puțin $3$ sunt defecte. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8$",
-      "$P=C_4^3\\cdot0{,}8^3\\cdot0{,}2+C_4^4\\cdot0{,}8^4$",
-      "$P=C_4^3\\cdot0{,}2^3+C_4^4\\cdot0{,}2^4$",
-      "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8+C_4^4\\cdot0{,}2^4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-007",
-    "tip": "simplu",
-    "intrebare": "Două servere funcționează corect cu probabilitățile $0{,}95$ și $0{,}9$. Evenimentul: cel puțin un server nu funcționează corect. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}95\\cdot0{,}9$",
-      "$P=1-0{,}95\\cdot0{,}9$",
-      "$P=0{,}05\\cdot0{,}1$",
-      "$P=0{,}95+0{,}9$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-008",
-    "tip": "simplu",
-    "intrebare": "Un trăgător nimerește cu probabilitatea $0{,}8$ la o tragere și trage până la prima nimerire. Evenimentul: se fac patru trageri. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}8^4$",
-      "$P=0{,}2^4$",
-      "$P=0{,}8^3\\cdot0{,}2$",
-      "$P=0{,}2^3\\cdot0{,}8$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-009",
-    "tip": "simplu",
-    "intrebare": "Troleibuzul vine la timp cu probabilitatea $0{,}8$, microbuzul cu $0{,}7$. Evenimentul: exact unul dintre ele vine la timp. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}8+0{,}7$",
-      "$P=0{,}8\\cdot0{,}7$",
-      "$P=0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7$",
-      "$P=1-0{,}8\\cdot0{,}7$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-010",
-    "tip": "simplu",
-    "intrebare": "Ilie nimerește coșul cu probabilitatea $0{,}3$ și aruncă până nimerește de $2$ ori consecutiv. Evenimentul: face $4$ aruncări. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}3^4$",
-      "$P=0{,}7\\cdot0{,}3^2$",
-      "$P=0{,}7^3\\cdot0{,}3$",
-      "$P=0{,}7^2\\cdot0{,}3^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-011",
-    "tip": "simplu",
-    "intrebare": "Sâmbătă plouă cu probabilitatea $60\\%$, duminică cu $30\\%$. Evenimentul: cel puțin o zi fără ploaie. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=1-0{,}6\\cdot0{,}3$",
-      "$P=0{,}6\\cdot0{,}3$",
-      "$P=0{,}4\\cdot0{,}7$",
-      "$P=0{,}4+0{,}7$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-012",
-    "tip": "simplu",
-    "intrebare": "Echipa câștigă un meci cu probabilitatea $60\\%$. Evenimentul: se califică dacă câștigă cel puțin $2$ din $3$ meciuri. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4+0{,}6^3$",
-      "$P=C_3^2\\cdot0{,}4^2\\cdot0{,}6+0{,}4^3$",
-      "$P=C_3^2\\cdot0{,}6^2+0{,}6^3$",
-      "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-013",
-    "tip": "simplu",
-    "intrebare": "Trei jucători marchează cu probabilitățile $80\\%$, $70\\%$, $60\\%$. Evenimentul: exact doi dintre ei marchează. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}8\\cdot0{,}7\\cdot0{,}4+0{,}8\\cdot0{,}3\\cdot0{,}6+0{,}2\\cdot0{,}7\\cdot0{,}6$",
-      "$P=3\\cdot0{,}8\\cdot0{,}7\\cdot0{,}4$",
-      "$P=0{,}8\\cdot0{,}7\\cdot0{,}6$",
-      "$P=0{,}8\\cdot0{,}7\\cdot0{,}4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-014",
-    "tip": "simplu",
-    "intrebare": "Alina este acceptată cu probabilitatea $8\\%$, Ioana cu $4\\%$. Evenimentul: cel puțin una este acceptată. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}92\\cdot0{,}96$",
-      "$P=1-0{,}92\\cdot0{,}96$",
-      "$P=0{,}08+0{,}04$",
-      "$P=0{,}08\\cdot0{,}04$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-015",
-    "tip": "simplu",
-    "intrebare": "Igor este tatăl primului copil cu probabilitatea $30\\%$ și al celui de-al doilea cu $50\\%$. Evenimentul: cel puțin un copil este al lui Igor. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}3+0{,}5$",
-      "$P=1-0{,}7\\cdot0{,}5$",
-      "$P=0{,}3\\cdot0{,}5$",
-      "$P=0{,}7\\cdot0{,}5$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-016",
-    "tip": "simplu",
-    "intrebare": "Mihai câștigă un meci cu probabilitatea $70\\%$ și joacă până la prima pierdere. Evenimentul: joacă $5$ meciuri. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=0{,}3^4\\cdot0{,}7$",
-      "$P=0{,}7^4\\cdot0{,}3$",
-      "$P=0{,}7^5$",
-      "$P=0{,}7^5\\cdot0{,}3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-017",
-    "tip": "simplu",
-    "intrebare": "Dacă evenimentele $A$ și $B$ sunt independente, cât este $P(A\\cap B)$?",
-    "variante": [
-      "$\\frac{P(A)}{P(B)}$",
-      "$P(A)+P(B)$",
-      "$P(A)\\cdot P(B)$",
-      "$P(A)-P(B)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-018",
-    "tip": "simplu",
-    "intrebare": "În cazul general, cât este $P(A\\cup B)$ (probabilitatea ca să se întâmple $A$ sau $B$)?",
-    "variante": [
-      "$P(A)\\cdot P(B)$",
-      "$P(A)+P(B)$ mereu",
-      "$P(A)+P(B)-P(A\\cap B)$",
-      "$P(A)+P(B)+P(A\\cap B)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-019",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează probabilitatea ca să se întâmple „cel puțin unul” dintre evenimente?",
-    "variante": [
-      "$P(\\text{toate})$",
-      "$1-P(\\text{niciunul})$",
-      "$P(\\text{niciunul})$",
-      "$1-P(\\text{toate})$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-probabilitati-prestabilite-020",
-    "tip": "simplu",
-    "intrebare": "Dacă $A$ și $B$ sunt independente, cum se scrie probabilitatea ca să se întâmple „exact unul” dintre ele?",
-    "variante": [
-      "$1-p_1p_2$",
-      "$p_1+p_2$",
-      "$p_1p_2$",
-      "$p_1(1-p_2)+(1-p_1)p_2$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-001",
+  "tip": "simplu",
+  "intrebare": "Admitere: $P(\\text{Ion})=\\frac56$, $P(\\text{Mihai})=\\frac37$. Evenimentul: doar unul dintre ei este admis. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=\\frac56+\\frac37$",
+   "$P=1-\\frac56\\cdot\\frac37$",
+   "$P=\\frac56\\cdot\\frac47+\\frac16\\cdot\\frac37$",
+   "$P=\\frac56\\cdot\\frac37$"
+  ],
+  "corect": 2,
+  "explicatie": "Exact unul admis: Ion da și Mihai nu, sau invers. Evenimentele sunt independente, deci înmulțim și adunăm: $\\frac56\\cdot\\frac47+\\frac16\\cdot\\frac37$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-002",
+  "tip": "simplu",
+  "intrebare": "Două examene: $P(\\text{fizic}_1)=\\frac45$, $P(\\text{fizic}_2)=\\frac34$. Evenimentul: cel puțin un examen cu prezență fizică. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=\\frac45+\\frac34$",
+   "$P=1-\\frac15\\cdot\\frac14$",
+   "$P=\\frac45\\cdot\\frac34$",
+   "$P=1-\\frac45\\cdot\\frac34$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin unul = contrarul lui „niciunul”. Probabilitatea ca niciunul să nu fie fizic este $\\frac15\\cdot\\frac14$, deci $P=1-\\frac15\\cdot\\frac14$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-003",
+  "tip": "simplu",
+  "intrebare": "Două companii: oferta de la prima cu probabilitatea $\\frac{3}{10}$, de la a doua $\\frac35$. Evenimentul: cel puțin o ofertă. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=1-\\frac{3}{10}\\cdot\\frac35$",
+   "$P=\\frac{3}{10}\\cdot\\frac35$",
+   "$P=\\frac{3}{10}+\\frac35$",
+   "$P=1-\\frac{7}{10}\\cdot\\frac25$"
+  ],
+  "corect": 3,
+  "explicatie": "Cel puțin o ofertă este contrarul lui „nicio ofertă”. Probabilitățile de a nu primi ofertă sunt $\\frac7{10}$ și $\\frac25$: $P=1-\\frac7{10}\\cdot\\frac25$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-004",
+  "tip": "simplu",
+  "intrebare": "Luni plouă cu probabilitatea $\\frac25$, marți cu $\\frac79$. Evenimentul: va ploua în cel puțin una din zile. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=\\frac25+\\frac79$",
+   "$P=\\frac25\\cdot\\frac79$",
+   "$P=1-\\frac35\\cdot\\frac29$",
+   "$P=1-\\frac25\\cdot\\frac79$"
+  ],
+  "corect": 2,
+  "explicatie": "Cel puțin o zi cu ploaie = $1-P(\\text{nicio ploaie})$. Nu plouă luni cu $\\frac35$ și marți cu $\\frac29$: $P=1-\\frac35\\cdot\\frac29$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-005",
+  "tip": "simplu",
+  "intrebare": "Trei prieteni nimeresc coșul cu probabilitățile $0{,}7$; $0{,}5$; $0{,}4$. Evenimentul: mingea intră exact de două ori. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}7\\cdot0{,}5\\cdot0{,}4$",
+   "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4+0{,}7\\cdot0{,}5\\cdot0{,}4$",
+   "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4$",
+   "$P=3\\cdot0{,}7\\cdot0{,}5\\cdot0{,}4$"
+  ],
+  "corect": 2,
+  "explicatie": "Exact doi nimeresc: trei cazuri (primii doi, primul și al treilea, ultimii doi). Înmulțim probabilitățile din fiecare caz și adunăm cele trei produse."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-006",
+  "tip": "simplu",
+  "intrebare": "Un utilaj este defect cu probabilitatea $0{,}2$; se cumpără $4$ utilaje. Evenimentul: cel puțin $3$ sunt defecte. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8$",
+   "$P=C_4^3\\cdot0{,}8^3\\cdot0{,}2+C_4^4\\cdot0{,}8^4$",
+   "$P=C_4^3\\cdot0{,}2^3+C_4^4\\cdot0{,}2^4$",
+   "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8+C_4^4\\cdot0{,}2^4$"
+  ],
+  "corect": 3,
+  "explicatie": "Cel puțin $3$ defecte înseamnă exact $3$ sau $4$ defecte. Se adună $C_4^3\\cdot0{,}2^3\\cdot0{,}8$ (3 defecte, 1 bun) și $C_4^4\\cdot0{,}2^4$ (toate 4 defecte)."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-007",
+  "tip": "simplu",
+  "intrebare": "Două servere funcționează corect cu probabilitățile $0{,}95$ și $0{,}9$. Evenimentul: cel puțin un server nu funcționează corect. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}95\\cdot0{,}9$",
+   "$P=1-0{,}95\\cdot0{,}9$",
+   "$P=0{,}05\\cdot0{,}1$",
+   "$P=0{,}95+0{,}9$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin un server defect este contrarul lui „ambele funcționează”: $P=1-0{,}95\\cdot0{,}9$ (evenimente independente)."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-008",
+  "tip": "simplu",
+  "intrebare": "Un trăgător nimerește cu probabilitatea $0{,}8$ la o tragere și trage până la prima nimerire. Evenimentul: se fac patru trageri. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}8^4$",
+   "$P=0{,}2^4$",
+   "$P=0{,}8^3\\cdot0{,}2$",
+   "$P=0{,}2^3\\cdot0{,}8$"
+  ],
+  "corect": 3,
+  "explicatie": "Se fac patru trageri dacă primele trei ratează și a patra nimerește: $0{,}2^3\\cdot0{,}8$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-009",
+  "tip": "simplu",
+  "intrebare": "Troleibuzul vine la timp cu probabilitatea $0{,}8$, microbuzul cu $0{,}7$. Evenimentul: exact unul dintre ele vine la timp. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}8+0{,}7$",
+   "$P=0{,}8\\cdot0{,}7$",
+   "$P=0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7$",
+   "$P=1-0{,}8\\cdot0{,}7$"
+  ],
+  "corect": 2,
+  "explicatie": "Exact unul la timp: troleibuzul da și microbuzul nu, sau invers. Înmulțim și adunăm: $0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-010",
+  "tip": "simplu",
+  "intrebare": "Ilie nimerește coșul cu probabilitatea $0{,}3$ și aruncă până nimerește de $2$ ori consecutiv. Evenimentul: face $4$ aruncări. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}3^4$",
+   "$P=0{,}7\\cdot0{,}3^2$",
+   "$P=0{,}7^3\\cdot0{,}3$",
+   "$P=0{,}7^2\\cdot0{,}3^2$"
+  ],
+  "corect": 1,
+  "explicatie": "Patru aruncări: a doua ratează ($0{,}7$), a treia și a patra nimeresc ($0{,}3^2$). Prima aruncare nu influențează: $P=0{,}7\\cdot0{,}3^2$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-011",
+  "tip": "simplu",
+  "intrebare": "Sâmbătă plouă cu probabilitatea $60\\%$, duminică cu $30\\%$. Evenimentul: cel puțin o zi fără ploaie. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=1-0{,}6\\cdot0{,}3$",
+   "$P=0{,}6\\cdot0{,}3$",
+   "$P=0{,}4\\cdot0{,}7$",
+   "$P=0{,}4+0{,}7$"
+  ],
+  "corect": 0,
+  "explicatie": "Cel puțin o zi fără ploaie este contrarul lui „plouă în ambele zile”: $P=1-0{,}6\\cdot0{,}3$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-012",
+  "tip": "simplu",
+  "intrebare": "Echipa câștigă un meci cu probabilitatea $60\\%$. Evenimentul: se califică dacă câștigă cel puțin $2$ din $3$ meciuri. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4+0{,}6^3$",
+   "$P=C_3^2\\cdot0{,}4^2\\cdot0{,}6+0{,}4^3$",
+   "$P=C_3^2\\cdot0{,}6^2+0{,}6^3$",
+   "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4$"
+  ],
+  "corect": 0,
+  "explicatie": "Cel puțin $2$ victorii din $3$: exact $2$ ($C_3^2\\cdot0{,}6^2\\cdot0{,}4$) sau $3$ ($0{,}6^3$). Adunăm cele două cazuri."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-013",
+  "tip": "simplu",
+  "intrebare": "Trei jucători marchează cu probabilitățile $80\\%$, $70\\%$, $60\\%$. Evenimentul: exact doi dintre ei marchează. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}8\\cdot0{,}7\\cdot0{,}4+0{,}8\\cdot0{,}3\\cdot0{,}6+0{,}2\\cdot0{,}7\\cdot0{,}6$",
+   "$P=3\\cdot0{,}8\\cdot0{,}7\\cdot0{,}4$",
+   "$P=0{,}8\\cdot0{,}7\\cdot0{,}6$",
+   "$P=0{,}8\\cdot0{,}7\\cdot0{,}4$"
+  ],
+  "corect": 0,
+  "explicatie": "Exact doi marchează: trei cazuri, în care unul dintre jucători ratează. Înmulțim probabilitățile din fiecare caz și adunăm cele trei produse."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-014",
+  "tip": "simplu",
+  "intrebare": "Alina este acceptată cu probabilitatea $8\\%$, Ioana cu $4\\%$. Evenimentul: cel puțin una este acceptată. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}92\\cdot0{,}96$",
+   "$P=1-0{,}92\\cdot0{,}96$",
+   "$P=0{,}08+0{,}04$",
+   "$P=0{,}08\\cdot0{,}04$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin una acceptată este contrarul lui „niciuna acceptată”: $P=1-0{,}92\\cdot0{,}96$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-015",
+  "tip": "simplu",
+  "intrebare": "Igor este tatăl primului copil cu probabilitatea $30\\%$ și al celui de-al doilea cu $50\\%$. Evenimentul: cel puțin un copil este al lui Igor. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}3+0{,}5$",
+   "$P=1-0{,}7\\cdot0{,}5$",
+   "$P=0{,}3\\cdot0{,}5$",
+   "$P=0{,}7\\cdot0{,}5$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin un copil al lui Igor este contrarul lui „niciunul”: $P=1-0{,}7\\cdot0{,}5$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-016",
+  "tip": "simplu",
+  "intrebare": "Mihai câștigă un meci cu probabilitatea $70\\%$ și joacă până la prima pierdere. Evenimentul: joacă $5$ meciuri. Alege formula pentru această probabilitate.",
+  "variante": [
+   "$P=0{,}3^4\\cdot0{,}7$",
+   "$P=0{,}7^4\\cdot0{,}3$",
+   "$P=0{,}7^5$",
+   "$P=0{,}7^5\\cdot0{,}3$"
+  ],
+  "corect": 1,
+  "explicatie": "Joacă $5$ meciuri dacă primele $4$ le câștigă și al $5$-lea îl pierde: $0{,}7^4\\cdot0{,}3$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-017",
+  "tip": "simplu",
+  "intrebare": "Dacă evenimentele $A$ și $B$ sunt independente, cât este $P(A\\cap B)$?",
+  "variante": [
+   "$\\frac{P(A)}{P(B)}$",
+   "$P(A)+P(B)$",
+   "$P(A)\\cdot P(B)$",
+   "$P(A)-P(B)$"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru evenimente independente, probabilitatea ca ambele să se întâmple este produsul: $P(A\\cap B)=P(A)\\cdot P(B)$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-018",
+  "tip": "simplu",
+  "intrebare": "În cazul general, cât este $P(A\\cup B)$ (probabilitatea ca să se întâmple $A$ sau $B$)?",
+  "variante": [
+   "$P(A)\\cdot P(B)$",
+   "$P(A)+P(B)$ mereu",
+   "$P(A)+P(B)-P(A\\cap B)$",
+   "$P(A)+P(B)+P(A\\cap B)$"
+  ],
+  "corect": 2,
+  "explicatie": "Formula este $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$: cazurile comune ar fi numărate de două ori, deci le scădem o dată."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-019",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează probabilitatea ca să se întâmple „cel puțin unul” dintre evenimente?",
+  "variante": [
+   "$P(\\text{toate})$",
+   "$1-P(\\text{niciunul})$",
+   "$P(\\text{niciunul})$",
+   "$1-P(\\text{toate})$"
+  ],
+  "corect": 1,
+  "explicatie": "„Cel puțin unul” este contrarul lui „niciunul”, deci $P=1-P(\\text{niciunul})$."
+ },
+ {
+  "id": "probleme-cu-probabilitati-prestabilite-020",
+  "tip": "simplu",
+  "intrebare": "Dacă $A$ și $B$ sunt independente, cum se scrie probabilitatea ca să se întâmple „exact unul” dintre ele?",
+  "variante": [
+   "$1-p_1p_2$",
+   "$p_1+p_2$",
+   "$p_1p_2$",
+   "$p_1(1-p_2)+(1-p_1)p_2$"
+  ],
+  "corect": 3,
+  "explicatie": "Exact unul: $A$ se întâmplă și $B$ nu ($p_1(1-p_2)$), sau invers ($(1-p_1)p_2$). Cazurile se exclud, deci le adunăm."
+ }
 ]

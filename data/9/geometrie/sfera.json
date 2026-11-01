@@ -1,206 +1,223 @@
 [
-  {
-    "id": "sfera-001",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează volumul sferei?",
-    "variante": [
-      "$V=\\frac{4\\pi R^2}{3}$",
-      "$V=4\\pi R^2$",
-      "$V=\\pi R^3$",
-      "$V=\\frac{4\\pi R^3}{3}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "sfera-002",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria sferei?",
-    "variante": [
-      "$A=2\\pi R^2$",
-      "$A=\\pi R^2$",
-      "$A=\\frac{4\\pi R^3}{3}$",
-      "$A=4\\pi R^2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "sfera-003",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=3$. Cât este volumul?",
-    "variante": [
-      "$36\\pi$",
-      "$12\\pi$",
-      "$108\\pi$",
-      "$27\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "sfera-004",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=3$. Cât este aria?",
-    "variante": [
-      "$36\\pi$",
-      "$27\\pi$",
-      "$12\\pi$",
-      "$9\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "sfera-005",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=6$. Cât este aria?",
-    "variante": [
-      "$288\\pi$",
-      "$36\\pi$",
-      "$144\\pi$",
-      "$72\\pi$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-006",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=6$. Cât este volumul?",
-    "variante": [
-      "$144\\pi$",
-      "$72\\pi$",
-      "$288\\pi$",
-      "$864\\pi$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-007",
-    "tip": "simplu",
-    "intrebare": "Sferă cu diametrul $10$. Cât este raza?",
-    "variante": [
-      "$10$",
-      "$2{,}5$",
-      "$20$",
-      "$5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "sfera-008",
-    "tip": "simplu",
-    "intrebare": "Sferă cu diametrul $10$. Cât este aria?",
-    "variante": [
-      "$100\\pi$",
-      "$50\\pi$",
-      "$400\\pi$",
-      "$25\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "sfera-009",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=2$. Cât este volumul?",
-    "variante": [
-      "$\\frac{8\\pi}{3}$",
-      "$\\frac{16\\pi}{3}$",
-      "$\\frac{32\\pi}{3}$",
-      "$16\\pi$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-010",
-    "tip": "simplu",
-    "intrebare": "Cum este secțiunea unei sfere cu un plan?",
-    "variante": [
-      "un pătrat",
-      "o elipsă",
-      "un cerc",
-      "un triunghi"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-011",
-    "tip": "simplu",
-    "intrebare": "Care secțiune a sferei este cea mai mare?",
-    "variante": [
-      "cercul mare (planul trece prin centru)",
-      "toate sunt egale",
-      "un punct",
-      "cercul mic"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "sfera-012",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului mare al sferei?",
-    "variante": [
-      "$R^2$",
-      "$\\frac R2$",
-      "$R$",
-      "$2R$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-013",
-    "tip": "simplu",
-    "intrebare": "Plan la distanța $d$ de centrul sferei de rază $R$: raza secțiunii este:",
-    "variante": [
-      "$\\sqrt{R^2+d^2}$",
-      "$R-d$",
-      "$\\sqrt{R^2-d^2}$",
-      "$R+d$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-014",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=5$, plan la distanța $d=3$. Cât este raza secțiunii?",
-    "variante": [
-      "$2$",
-      "$8$",
-      "$\\sqrt{34}$",
-      "$4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "sfera-015",
-    "tip": "simplu",
-    "intrebare": "Sferă cu $R=13$, plan la distanța $d=5$. Cât este raza secțiunii?",
-    "variante": [
-      "$18$",
-      "$\\sqrt{194}$",
-      "$12$",
-      "$8$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sfera-016",
-    "tip": "simplu",
-    "intrebare": "Cum se obține sfera prin rotire?",
-    "variante": [
-      "rotim un dreptunghi",
-      "rotim un semicerc în jurul diametrului",
-      "rotim un pătrat",
-      "rotim un triunghi"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "sfera-017",
-    "tip": "simplu",
-    "intrebare": "Aria sferei este de câte ori aria cercului mare?",
-    "variante": [
-      "egală",
-      "de $2$ ori",
-      "de $4$ ori",
-      "de $3$ ori"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "sfera-001",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează volumul sferei?",
+  "variante": [
+   "$V=\\frac{4\\pi R^2}{3}$",
+   "$V=4\\pi R^2$",
+   "$V=\\pi R^3$",
+   "$V=\\frac{4\\pi R^3}{3}$"
+  ],
+  "corect": 3,
+  "explicatie": "Volumul sferei de rază $R$ este $V=\\frac{4\\pi R^3}{3}$ (apare $R^3$, deoarece este volum)."
+ },
+ {
+  "id": "sfera-002",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria sferei?",
+  "variante": [
+   "$A=2\\pi R^2$",
+   "$A=\\pi R^2$",
+   "$A=\\frac{4\\pi R^3}{3}$",
+   "$A=4\\pi R^2$"
+  ],
+  "corect": 3,
+  "explicatie": "Aria sferei este de $4$ ori aria cercului mare: $A=4\\pi R^2$."
+ },
+ {
+  "id": "sfera-003",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=3$. Cât este volumul?",
+  "variante": [
+   "$36\\pi$",
+   "$12\\pi$",
+   "$108\\pi$",
+   "$27\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=\\frac{4\\pi\\cdot27}{3}=36\\pi$."
+ },
+ {
+  "id": "sfera-004",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=3$. Cât este aria?",
+  "variante": [
+   "$36\\pi$",
+   "$27\\pi$",
+   "$12\\pi$",
+   "$9\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$A=4\\pi R^2=4\\pi\\cdot9=36\\pi$."
+ },
+ {
+  "id": "sfera-005",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=6$. Cât este aria?",
+  "variante": [
+   "$288\\pi$",
+   "$36\\pi$",
+   "$144\\pi$",
+   "$72\\pi$"
+  ],
+  "corect": 2,
+  "explicatie": "$A=4\\pi\\cdot6^2=4\\pi\\cdot36=144\\pi$."
+ },
+ {
+  "id": "sfera-006",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=6$. Cât este volumul?",
+  "variante": [
+   "$144\\pi$",
+   "$72\\pi$",
+   "$288\\pi$",
+   "$864\\pi$"
+  ],
+  "corect": 2,
+  "explicatie": "$V=\\frac{4\\pi\\cdot216}{3}=4\\pi\\cdot72=288\\pi$."
+ },
+ {
+  "id": "sfera-007",
+  "tip": "simplu",
+  "intrebare": "Sferă cu diametrul $10$. Cât este raza?",
+  "variante": [
+   "$10$",
+   "$2{,}5$",
+   "$20$",
+   "$5$"
+  ],
+  "corect": 3,
+  "explicatie": "Raza este jumătate din diametru: $\\frac{10}{2}=5$."
+ },
+ {
+  "id": "sfera-008",
+  "tip": "simplu",
+  "intrebare": "Sferă cu diametrul $10$. Cât este aria?",
+  "variante": [
+   "$100\\pi$",
+   "$50\\pi$",
+   "$400\\pi$",
+   "$25\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "Raza este $5$, deci $A=4\\pi\\cdot25=100\\pi$."
+ },
+ {
+  "id": "sfera-009",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=2$. Cât este volumul?",
+  "variante": [
+   "$\\frac{8\\pi}{3}$",
+   "$\\frac{16\\pi}{3}$",
+   "$\\frac{32\\pi}{3}$",
+   "$16\\pi$"
+  ],
+  "corect": 2,
+  "explicatie": "$V=\\frac{4\\pi\\cdot2^3}{3}=\\frac{32\\pi}{3}$."
+ },
+ {
+  "id": "sfera-010",
+  "tip": "simplu",
+  "intrebare": "Cum este secțiunea unei sfere cu un plan?",
+  "variante": [
+   "un pătrat",
+   "o elipsă",
+   "un cerc",
+   "un triunghi"
+  ],
+  "corect": 2,
+  "explicatie": "Orice plan care taie sfera o intersectează după un cerc."
+ },
+ {
+  "id": "sfera-011",
+  "tip": "simplu",
+  "intrebare": "Care secțiune a sferei este cea mai mare?",
+  "variante": [
+   "cercul mare (planul trece prin centru)",
+   "toate sunt egale",
+   "un punct",
+   "cercul mic"
+  ],
+  "corect": 0,
+  "explicatie": "Când planul trece prin centru, secțiunea are raza $R$ (maximă); se numește cerc mare."
+ },
+ {
+  "id": "sfera-012",
+  "tip": "simplu",
+  "intrebare": "Cât este raza cercului mare al sferei?",
+  "variante": [
+   "$R^2$",
+   "$\\frac R2$",
+   "$R$",
+   "$2R$"
+  ],
+  "corect": 2,
+  "explicatie": "Planul trece prin centru, deci cercul mare are aceeași rază ca sfera: $R$."
+ },
+ {
+  "id": "sfera-013",
+  "tip": "simplu",
+  "intrebare": "Plan la distanța $d$ de centrul sferei de rază $R$: raza secțiunii este:",
+  "variante": [
+   "$\\sqrt{R^2+d^2}$",
+   "$R-d$",
+   "$\\sqrt{R^2-d^2}$",
+   "$R+d$"
+  ],
+  "corect": 2,
+  "explicatie": "Raza secțiunii, $d$ și $R$ formează un triunghi dreptunghic cu ipotenuza $R$: $r=\\sqrt{R^2-d^2}$."
+ },
+ {
+  "id": "sfera-014",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=5$, plan la distanța $d=3$. Cât este raza secțiunii?",
+  "variante": [
+   "$2$",
+   "$8$",
+   "$\\sqrt{34}$",
+   "$4$"
+  ],
+  "corect": 3,
+  "explicatie": "$r=\\sqrt{5^2-3^2}=\\sqrt{16}=4$."
+ },
+ {
+  "id": "sfera-015",
+  "tip": "simplu",
+  "intrebare": "Sferă cu $R=13$, plan la distanța $d=5$. Cât este raza secțiunii?",
+  "variante": [
+   "$18$",
+   "$\\sqrt{194}$",
+   "$12$",
+   "$8$"
+  ],
+  "corect": 2,
+  "explicatie": "$r=\\sqrt{13^2-5^2}=\\sqrt{144}=12$."
+ },
+ {
+  "id": "sfera-016",
+  "tip": "simplu",
+  "intrebare": "Cum se obține sfera prin rotire?",
+  "variante": [
+   "rotim un dreptunghi",
+   "rotim un semicerc în jurul diametrului",
+   "rotim un pătrat",
+   "rotim un triunghi"
+  ],
+  "corect": 1,
+  "explicatie": "Rotind un semicerc în jurul diametrului său, arcul descrie suprafața sferei."
+ },
+ {
+  "id": "sfera-017",
+  "tip": "simplu",
+  "intrebare": "Aria sferei este de câte ori aria cercului mare?",
+  "variante": [
+   "egală",
+   "de $2$ ori",
+   "de $4$ ori",
+   "de $3$ ori"
+  ],
+  "corect": 2,
+  "explicatie": "Aria sferei este $4\\pi R^2$, iar a cercului mare $\\pi R^2$, deci raportul este $4$."
+ }
 ]

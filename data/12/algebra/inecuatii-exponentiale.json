@@ -1,247 +1,266 @@
 [
-  {
-    "id": "inecuatii-exponentiale-001",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2^x$ și dreapta $y=4$ (roșie). Rezolvă $2^x>4$.",
-    "variante": [
-      "$x>2$",
-      "$x>4$",
-      "$x<2$",
-      "$x<4$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ex-1.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-002",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<4$.",
-    "variante": [
-      "$x>4$",
-      "$x<2$",
-      "$x<4$",
-      "$x>2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ex-1.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-003",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x\\geq4$.",
-    "variante": [
-      "$x\\geq4$",
-      "$x\\leq2$",
-      "$x\\geq2$",
-      "$x>2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ex-1.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-004",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2^x$ și dreapta $y=2$ (roșie). Rezolvă $2^x>2$.",
-    "variante": [
-      "$x<2$",
-      "$x>2$",
-      "$x<1$",
-      "$x>1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-2.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-005",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<2$.",
-    "variante": [
-      "$x<2$",
-      "$x>2$",
-      "$x<1$",
-      "$x>1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ex-2.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-006",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2^x$ și dreapta $y=8$ (roșie). Rezolvă $2^x>8$.",
-    "variante": [
-      "$x<3$",
-      "$x>3$",
-      "$x<8$",
-      "$x>8$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ex-3.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-007",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x\\leq8$.",
-    "variante": [
-      "$x\\geq3$",
-      "$x\\leq3$",
-      "$x\\leq8$",
-      "$x\\geq8$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ex-3.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-008",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2^x$ și dreapta $y=1$ (roșie). Rezolvă $2^x>1$.",
-    "variante": [
-      "$x>1$",
-      "$x<1$",
-      "$x<0$",
-      "$x>0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-4.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-009",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<1$.",
-    "variante": [
-      "$x<0$",
-      "$x<1$",
-      "$x>0$",
-      "$x>1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ex-4.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-010",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\left(\\frac12\\right)^x$ și dreapta $y=4$ (roșie). Rezolvă $\\left(\\frac12\\right)^x>4$.",
-    "variante": [
-      "$x<-2$",
-      "$x<2$",
-      "$x>2$",
-      "$x>-2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ex-5.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-011",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\left(\\frac12\\right)^x<4$.",
-    "variante": [
-      "$x<2$",
-      "$x>2$",
-      "$x<-2$",
-      "$x>-2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-5.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-012",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\left(\\frac12\\right)^x$ și dreapta $y=2$ (roșie). Rezolvă $\\left(\\frac12\\right)^x>2$.",
-    "variante": [
-      "$x<-1$",
-      "$x>1$",
-      "$x<1$",
-      "$x>-1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ex-6.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-013",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\left(\\frac12\\right)^x<2$.",
-    "variante": [
-      "$x>1$",
-      "$x<1$",
-      "$x<-1$",
-      "$x>-1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-6.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-014",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=3^x$ și dreapta $y=9$ (roșie). Rezolvă $3^x>9$.",
-    "variante": [
-      "$x>9$",
-      "$x<2$",
-      "$x<9$",
-      "$x>2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-7.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-015",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $3^x\\leq9$.",
-    "variante": [
-      "$x\\geq9$",
-      "$x\\leq2$",
-      "$x\\geq2$",
-      "$x\\leq9$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ex-7.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-016",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2^x$ este mereu deasupra axei $Ox$. Rezolvă $2^x>0$.",
-    "variante": [
-      "$x<0$",
-      "$x>0$",
-      "$\\mathbb{R}$",
-      "$\\varnothing$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ex-8.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-017",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<0$.",
-    "variante": [
-      "$x>0$",
-      "$\\mathbb{R}$",
-      "$x<0$",
-      "$\\varnothing$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ex-8.svg"
-  },
-  {
-    "id": "inecuatii-exponentiale-018",
-    "tip": "simplu",
-    "intrebare": "La baza $a>1$, când trecem la exponenți, sensul inegalității:",
-    "variante": [
-      "dispare",
-      "se schimbă",
-      "se păstrează",
-      "se dublează"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "inecuatii-exponentiale-019",
-    "tip": "simplu",
-    "intrebare": "La baza $0<a<1$, când trecem la exponenți, sensul inegalității:",
-    "variante": [
-      "se păstrează",
-      "se schimbă",
-      "se dublează",
-      "dispare"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "inecuatii-exponentiale-001",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2^x$ și dreapta $y=4$ (roșie). Rezolvă $2^x>4$.",
+  "variante": [
+   "$x>2$",
+   "$x>4$",
+   "$x<2$",
+   "$x<4$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ex-1.svg",
+  "explicatie": "Funcția $2^x$ crește și $2^2=4$. Graficul e deasupra dreptei $y=4$ pentru $x>2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-002",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x<4$.",
+  "variante": [
+   "$x>4$",
+   "$x<2$",
+   "$x<4$",
+   "$x>2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ex-1.svg",
+  "explicatie": "Graficul lui $2^x$ e sub dreapta $y=4$ înainte de punctul de intersecție $x=2$, deci $x<2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-003",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x\\geq4$.",
+  "variante": [
+   "$x\\geq4$",
+   "$x\\leq2$",
+   "$x\\geq2$",
+   "$x>2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ex-1.svg",
+  "explicatie": "$2^x\\geq4=2^2$ și baza $2>1$ păstrează sensul: $x\\geq2$ (inclusiv punctul de intersecție)."
+ },
+ {
+  "id": "inecuatii-exponentiale-004",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2^x$ și dreapta $y=2$ (roșie). Rezolvă $2^x>2$.",
+  "variante": [
+   "$x<2$",
+   "$x>2$",
+   "$x<1$",
+   "$x>1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-2.svg",
+  "explicatie": "$2=2^1$, iar $2^x$ crește: graficul e deasupra dreptei $y=2$ pentru $x>1$."
+ },
+ {
+  "id": "inecuatii-exponentiale-005",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x<2$.",
+  "variante": [
+   "$x<2$",
+   "$x>2$",
+   "$x<1$",
+   "$x>1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ex-2.svg",
+  "explicatie": "$2=2^1$ și baza $2>1$ păstrează sensul inegalității: $2^x<2^1$ dă $x<1$."
+ },
+ {
+  "id": "inecuatii-exponentiale-006",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2^x$ și dreapta $y=8$ (roșie). Rezolvă $2^x>8$.",
+  "variante": [
+   "$x<3$",
+   "$x>3$",
+   "$x<8$",
+   "$x>8$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ex-3.svg",
+  "explicatie": "$8=2^3$, iar $2^x$ crește: $2^x>2^3$ înseamnă $x>3$."
+ },
+ {
+  "id": "inecuatii-exponentiale-007",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x\\leq8$.",
+  "variante": [
+   "$x\\geq3$",
+   "$x\\leq3$",
+   "$x\\leq8$",
+   "$x\\geq8$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ex-3.svg",
+  "explicatie": "$8=2^3$ și baza $2>1$ păstrează sensul: $2^x\\leq2^3$ dă $x\\leq3$."
+ },
+ {
+  "id": "inecuatii-exponentiale-008",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2^x$ și dreapta $y=1$ (roșie). Rezolvă $2^x>1$.",
+  "variante": [
+   "$x>1$",
+   "$x<1$",
+   "$x<0$",
+   "$x>0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-4.svg",
+  "explicatie": "$1=2^0$, iar $2^x$ crește: $2^x>2^0$ înseamnă $x>0$."
+ },
+ {
+  "id": "inecuatii-exponentiale-009",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x<1$.",
+  "variante": [
+   "$x<0$",
+   "$x<1$",
+   "$x>0$",
+   "$x>1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ex-4.svg",
+  "explicatie": "$1=2^0$ și baza $2>1$ păstrează sensul: $2^x<2^0$ dă $x<0$."
+ },
+ {
+  "id": "inecuatii-exponentiale-010",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\left(\\frac12\\right)^x$ și dreapta $y=4$ (roșie). Rezolvă $\\left(\\frac12\\right)^x>4$.",
+  "variante": [
+   "$x<-2$",
+   "$x<2$",
+   "$x>2$",
+   "$x>-2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ex-5.svg",
+  "explicatie": "Baza $\\frac12$ e subunitară, graficul scade. $4=\\left(\\frac12\\right)^{-2}$, deci sensul se schimbă: $x<-2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-011",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\left(\\frac12\\right)^x<4$.",
+  "variante": [
+   "$x<2$",
+   "$x>2$",
+   "$x<-2$",
+   "$x>-2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-5.svg",
+  "explicatie": "Funcția scade și $\\left(\\frac12\\right)^{-2}=4$. Graficul e sub dreapta $y=4$ pentru $x>-2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-012",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\left(\\frac12\\right)^x$ și dreapta $y=2$ (roșie). Rezolvă $\\left(\\frac12\\right)^x>2$.",
+  "variante": [
+   "$x<-1$",
+   "$x>1$",
+   "$x<1$",
+   "$x>-1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ex-6.svg",
+  "explicatie": "Baza $\\frac12<1$ schimbă sensul. $2=\\left(\\frac12\\right)^{-1}$, deci $x<-1$."
+ },
+ {
+  "id": "inecuatii-exponentiale-013",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\left(\\frac12\\right)^x<2$.",
+  "variante": [
+   "$x>1$",
+   "$x<1$",
+   "$x<-1$",
+   "$x>-1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-6.svg",
+  "explicatie": "Baza $\\frac12<1$ schimbă sensul: $\\left(\\frac12\\right)^x<\\left(\\frac12\\right)^{-1}$ dă $x>-1$."
+ },
+ {
+  "id": "inecuatii-exponentiale-014",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=3^x$ și dreapta $y=9$ (roșie). Rezolvă $3^x>9$.",
+  "variante": [
+   "$x>9$",
+   "$x<2$",
+   "$x<9$",
+   "$x>2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-7.svg",
+  "explicatie": "$9=3^2$, iar $3^x$ crește: $3^x>3^2$ înseamnă $x>2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-015",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $3^x\\leq9$.",
+  "variante": [
+   "$x\\geq9$",
+   "$x\\leq2$",
+   "$x\\geq2$",
+   "$x\\leq9$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ex-7.svg",
+  "explicatie": "$9=3^2$ și baza $3>1$ păstrează sensul: $3^x\\leq3^2$ dă $x\\leq2$."
+ },
+ {
+  "id": "inecuatii-exponentiale-016",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2^x$ este mereu deasupra axei $Ox$. Rezolvă $2^x>0$.",
+  "variante": [
+   "$x<0$",
+   "$x>0$",
+   "$\\mathbb{R}$",
+   "$\\varnothing$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ex-8.svg",
+  "explicatie": "Graficul lui $2^x$ e mereu deasupra axei $Ox$ (valorile sunt pozitive), deci inegalitatea e adevărată pentru orice $x$."
+ },
+ {
+  "id": "inecuatii-exponentiale-017",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2^x<0$.",
+  "variante": [
+   "$x>0$",
+   "$\\mathbb{R}$",
+   "$x<0$",
+   "$\\varnothing$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ex-8.svg",
+  "explicatie": "Graficul lui $2^x$ nu coboară niciodată sub axa $Ox$, deci $2^x<0$ nu are soluții: $\\varnothing$."
+ },
+ {
+  "id": "inecuatii-exponentiale-018",
+  "tip": "simplu",
+  "intrebare": "La baza $a>1$, când trecem la exponenți, sensul inegalității:",
+  "variante": [
+   "dispare",
+   "se schimbă",
+   "se păstrează",
+   "se dublează"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $a>1$ funcția $a^x$ este crescătoare, deci inegalitatea dintre exponenți are același sens."
+ },
+ {
+  "id": "inecuatii-exponentiale-019",
+  "tip": "simplu",
+  "intrebare": "La baza $0<a<1$, când trecem la exponenți, sensul inegalității:",
+  "variante": [
+   "se păstrează",
+   "se schimbă",
+   "se dublează",
+   "dispare"
+  ],
+  "corect": 1,
+  "explicatie": "Pentru $0<a<1$ funcția $a^x$ este descrescătoare, deci sensul inegalității se schimbă."
+ }
 ]

@@ -1,206 +1,223 @@
 [
-  {
-    "id": "cercul-elemente-pozitii-001",
-    "tip": "simplu",
-    "intrebare": "Cum se află diametrul când știm raza $r$?",
-    "variante": [
-      "$d=\\frac r2$",
-      "$d=2r$",
-      "$d=r$",
-      "$d=r^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-elemente-pozitii-002",
-    "tip": "simplu",
-    "intrebare": "Raza cercului este $5$. Cât este diametrul?",
-    "variante": [
-      "$2{,}5$",
-      "$25$",
-      "$5$",
-      "$10$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-elemente-pozitii-003",
-    "tip": "simplu",
-    "intrebare": "Care este lungimea cercului?",
-    "variante": [
-      "$2\\pi r$",
-      "$\\pi r$",
-      "$\\pi r^2$",
-      "$2r^2$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercul-elemente-pozitii-004",
-    "tip": "simplu",
-    "intrebare": "Care este aria cercului?",
-    "variante": [
-      "$2\\pi r^2$",
-      "$2\\pi r$",
-      "$\\pi r$",
-      "$\\pi r^2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-elemente-pozitii-005",
-    "tip": "simplu",
-    "intrebare": "Cât este lungimea cercului cu $r=3$?",
-    "variante": [
-      "$3\\pi$",
-      "$6\\pi$",
-      "$9\\pi$",
-      "$12\\pi$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-elemente-pozitii-006",
-    "tip": "simplu",
-    "intrebare": "Cât este aria cercului cu $r=5$?",
-    "variante": [
-      "$25\\pi$",
-      "$5\\pi$",
-      "$10\\pi$",
-      "$50\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercul-elemente-pozitii-007",
-    "tip": "simplu",
-    "intrebare": "Care este coarda cea mai lungă a unui cerc?",
-    "variante": [
-      "arcul",
-      "raza",
-      "diametrul",
-      "tangenta"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercul-elemente-pozitii-008",
-    "tip": "simplu",
-    "intrebare": "Raza dusă în punctul de tangență este față de tangentă:",
-    "variante": [
-      "oblică",
-      "paralelă",
-      "egală",
-      "perpendiculară"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-elemente-pozitii-009",
-    "tip": "simplu",
-    "intrebare": "Tangentele duse dintr-un punct exterior la cerc sunt:",
-    "variante": [
-      "perpendiculare",
-      "paralele",
-      "diferite",
-      "egale"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-elemente-pozitii-010",
-    "tip": "simplu",
-    "intrebare": "Perpendiculara din centru pe o coardă:",
-    "variante": [
-      "o împarte în două părți egale",
-      "este egală cu coarda",
-      "e tangentă",
-      "e paralelă cu coarda"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercul-elemente-pozitii-011",
-    "tip": "simplu",
-    "intrebare": "Dreapta este exterioară cercului când distanța $d$ de la centru la dreaptă este:",
-    "variante": [
-      "$d>r$",
-      "$d<r$",
-      "$d=0$",
-      "$d=r$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercul-elemente-pozitii-012",
-    "tip": "simplu",
-    "intrebare": "Dreapta este tangentă cercului când:",
-    "variante": [
-      "$d>r$",
-      "$d=r$",
-      "$d=0$",
-      "$d<r$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-elemente-pozitii-013",
-    "tip": "simplu",
-    "intrebare": "Dreapta este secantă cercului când:",
-    "variante": [
-      "$d<r$",
-      "$d>r$",
-      "$d=2r$",
-      "$d=r$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercul-elemente-pozitii-014",
-    "tip": "simplu",
-    "intrebare": "Două cercuri (razele $R$ și $r$) sunt tangente exterior când distanța dintre centre este:",
-    "variante": [
-      "$R-r$",
-      "$0$",
-      "$R\\cdot r$",
-      "$R+r$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-elemente-pozitii-015",
-    "tip": "simplu",
-    "intrebare": "Două cercuri (razele $R>r$) sunt tangente interior când distanța dintre centre este:",
-    "variante": [
-      "$R+r$",
-      "$R-r$",
-      "$0$",
-      "$R\\cdot r$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-elemente-pozitii-016",
-    "tip": "simplu",
-    "intrebare": "Cercuri cu $R=5$ și $r=3$ tangente exterior: distanța dintre centre este:",
-    "variante": [
-      "$2$",
-      "$4$",
-      "$8$",
-      "$15$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercul-elemente-pozitii-017",
-    "tip": "simplu",
-    "intrebare": "Cercuri cu $R=5$ și $r=3$ tangente interior: distanța dintre centre este:",
-    "variante": [
-      "$15$",
-      "$2$",
-      "$4$",
-      "$8$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "cercul-elemente-pozitii-001",
+  "tip": "simplu",
+  "intrebare": "Cum se află diametrul când știm raza $r$?",
+  "variante": [
+   "$d=\\frac r2$",
+   "$d=2r$",
+   "$d=r$",
+   "$d=r^2$"
+  ],
+  "corect": 1,
+  "explicatie": "Diametrul trece prin centru și este format din două raze, deci $d=2r$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-002",
+  "tip": "simplu",
+  "intrebare": "Raza cercului este $5$. Cât este diametrul?",
+  "variante": [
+   "$2{,}5$",
+   "$25$",
+   "$5$",
+   "$10$"
+  ],
+  "corect": 3,
+  "explicatie": "$d=2r=2\\cdot5=10$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-003",
+  "tip": "simplu",
+  "intrebare": "Care este lungimea cercului?",
+  "variante": [
+   "$2\\pi r$",
+   "$\\pi r$",
+   "$\\pi r^2$",
+   "$2r^2$"
+  ],
+  "corect": 0,
+  "explicatie": "Lungimea cercului este $L=2\\pi r$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-004",
+  "tip": "simplu",
+  "intrebare": "Care este aria cercului?",
+  "variante": [
+   "$2\\pi r^2$",
+   "$2\\pi r$",
+   "$\\pi r$",
+   "$\\pi r^2$"
+  ],
+  "corect": 3,
+  "explicatie": "Aria discului este $\\mathcal{A}=\\pi r^2$. Nu o confunda cu lungimea $2\\pi r$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-005",
+  "tip": "simplu",
+  "intrebare": "Cât este lungimea cercului cu $r=3$?",
+  "variante": [
+   "$3\\pi$",
+   "$6\\pi$",
+   "$9\\pi$",
+   "$12\\pi$"
+  ],
+  "corect": 1,
+  "explicatie": "$L=2\\pi r=2\\pi\\cdot3=6\\pi$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-006",
+  "tip": "simplu",
+  "intrebare": "Cât este aria cercului cu $r=5$?",
+  "variante": [
+   "$25\\pi$",
+   "$5\\pi$",
+   "$10\\pi$",
+   "$50\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\mathcal{A}=\\pi r^2=\\pi\\cdot5^2=25\\pi$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-007",
+  "tip": "simplu",
+  "intrebare": "Care este coarda cea mai lungă a unui cerc?",
+  "variante": [
+   "arcul",
+   "raza",
+   "diametrul",
+   "tangenta"
+  ],
+  "corect": 2,
+  "explicatie": "Diametrul este coarda care trece prin centru și are lungimea $2r$, cea mai mare posibilă pentru o coardă."
+ },
+ {
+  "id": "cercul-elemente-pozitii-008",
+  "tip": "simplu",
+  "intrebare": "Raza dusă în punctul de tangență este față de tangentă:",
+  "variante": [
+   "oblică",
+   "paralelă",
+   "egală",
+   "perpendiculară"
+  ],
+  "corect": 3,
+  "explicatie": "Tangenta este perpendiculară pe raza dusă în punctul de tangență."
+ },
+ {
+  "id": "cercul-elemente-pozitii-009",
+  "tip": "simplu",
+  "intrebare": "Tangentele duse dintr-un punct exterior la cerc sunt:",
+  "variante": [
+   "perpendiculare",
+   "paralele",
+   "diferite",
+   "egale"
+  ],
+  "corect": 3,
+  "explicatie": "Cele două tangente dintr-un punct exterior au lungimi egale (segmentele de tangență sunt congruente)."
+ },
+ {
+  "id": "cercul-elemente-pozitii-010",
+  "tip": "simplu",
+  "intrebare": "Perpendiculara din centru pe o coardă:",
+  "variante": [
+   "o împarte în două părți egale",
+   "este egală cu coarda",
+   "e tangentă",
+   "e paralelă cu coarda"
+  ],
+  "corect": 0,
+  "explicatie": "Perpendiculara din centru pe o coardă trece prin mijlocul ei, deci o împarte în două segmente egale."
+ },
+ {
+  "id": "cercul-elemente-pozitii-011",
+  "tip": "simplu",
+  "intrebare": "Dreapta este exterioară cercului când distanța $d$ de la centru la dreaptă este:",
+  "variante": [
+   "$d>r$",
+   "$d<r$",
+   "$d=0$",
+   "$d=r$"
+  ],
+  "corect": 0,
+  "explicatie": "Dreapta este exterioară când este mai departe de centru decât raza: $d>r$, deci nu atinge cercul."
+ },
+ {
+  "id": "cercul-elemente-pozitii-012",
+  "tip": "simplu",
+  "intrebare": "Dreapta este tangentă cercului când:",
+  "variante": [
+   "$d>r$",
+   "$d=r$",
+   "$d=0$",
+   "$d<r$"
+  ],
+  "corect": 1,
+  "explicatie": "Dreapta este tangentă când distanța de la centru la ea este exact raza: $d=r$, deci are un singur punct comun cu cercul."
+ },
+ {
+  "id": "cercul-elemente-pozitii-013",
+  "tip": "simplu",
+  "intrebare": "Dreapta este secantă cercului când:",
+  "variante": [
+   "$d<r$",
+   "$d>r$",
+   "$d=2r$",
+   "$d=r$"
+  ],
+  "corect": 0,
+  "explicatie": "Dreapta este secantă când intră în cerc: distanța de la centru este mai mică decât raza, $d<r$, deci taie cercul în două puncte."
+ },
+ {
+  "id": "cercul-elemente-pozitii-014",
+  "tip": "simplu",
+  "intrebare": "Două cercuri (razele $R$ și $r$) sunt tangente exterior când distanța dintre centre este:",
+  "variante": [
+   "$R-r$",
+   "$0$",
+   "$R\\cdot r$",
+   "$R+r$"
+  ],
+  "corect": 3,
+  "explicatie": "La tangenta exterioară cercurile se ating într-un punct, iar centrele sunt la distanța $R+r$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-015",
+  "tip": "simplu",
+  "intrebare": "Două cercuri (razele $R>r$) sunt tangente interior când distanța dintre centre este:",
+  "variante": [
+   "$R+r$",
+   "$R-r$",
+   "$0$",
+   "$R\\cdot r$"
+  ],
+  "corect": 1,
+  "explicatie": "La tangenta interioară cercul mic este în cel mare și se ating într-un punct, deci distanța dintre centre este $R-r$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-016",
+  "tip": "simplu",
+  "intrebare": "Cercuri cu $R=5$ și $r=3$ tangente exterior: distanța dintre centre este:",
+  "variante": [
+   "$2$",
+   "$4$",
+   "$8$",
+   "$15$"
+  ],
+  "corect": 2,
+  "explicatie": "Tangente exterior: $d=R+r=5+3=8$."
+ },
+ {
+  "id": "cercul-elemente-pozitii-017",
+  "tip": "simplu",
+  "intrebare": "Cercuri cu $R=5$ și $r=3$ tangente interior: distanța dintre centre este:",
+  "variante": [
+   "$15$",
+   "$2$",
+   "$4$",
+   "$8$"
+  ],
+  "corect": 1,
+  "explicatie": "Tangente interior: $d=R-r=5-3=2$."
+ }
 ]

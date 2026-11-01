@@ -1,242 +1,262 @@
 [
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-001",
-    "tip": "simplu",
-    "intrebare": "Cât este $n!$?",
-    "variante": [
-      "$n\\cdot2$",
-      "$n+(n-1)$",
-      "$n\\cdot n$",
-      "$1\\cdot2\\cdot3\\cdots n$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $0!$?",
-    "variante": [
-      "nu există",
-      "$-1$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $3!$?",
-    "variante": [
-      "$6$",
-      "$12$",
-      "$9$",
-      "$3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $4!$?",
-    "variante": [
-      "$24$",
-      "$12$",
-      "$16$",
-      "$10$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $5!$?",
-    "variante": [
-      "$120$",
-      "$60$",
-      "$25$",
-      "$100$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $6!$?",
-    "variante": [
-      "$120$",
-      "$720$",
-      "$36$",
-      "$360$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac{7!}{5!}$?",
-    "variante": [
-      "$2$",
-      "$42$",
-      "$14$",
-      "$7$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac{(n+1)!}{n!}$?",
-    "variante": [
-      "$(n+1)!$",
-      "$n+1$",
-      "$n$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $(n+1)!$?",
-    "variante": [
-      "$n!+1$",
-      "$(n!)^2$",
-      "$n\\cdot(n+1)$",
-      "$(n+1)\\cdot n!$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-010",
-    "tip": "simplu",
-    "intrebare": "Câte permutări au $n$ elemente?",
-    "variante": [
-      "$2n$",
-      "$n$",
-      "$n^2$",
-      "$n!$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-011",
-    "tip": "simplu",
-    "intrebare": "Când folosim aranjamentele?",
-    "variante": [
-      "când ordinea elementelor contează",
-      "când ordinea nu contează",
-      "când alegem toate elementele",
-      "niciodată"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-012",
-    "tip": "simplu",
-    "intrebare": "Când folosim combinările?",
-    "variante": [
-      "niciodată",
-      "când repetăm elemente",
-      "când ordinea elementelor nu contează",
-      "când ordinea contează"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $A_n^k$?",
-    "variante": [
-      "$n^k$",
-      "$\\frac{n!}{(n-k)!}$",
-      "$\\frac{n!}{k!}$",
-      "$\\frac{n!}{k!(n-k)!}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_n^k$?",
-    "variante": [
-      "$\\frac{n!}{(n-k)!}$",
-      "$\\frac{n!}{k!(n-k)!}$",
-      "$\\frac{k!}{n!}$",
-      "$\\frac{n!}{k!}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $A_5^2$?",
-    "variante": [
-      "$20$",
-      "$120$",
-      "$10$",
-      "$25$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $A_6^3$?",
-    "variante": [
-      "$20$",
-      "$216$",
-      "$120$",
-      "$720$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-017",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_5^2$?",
-    "variante": [
-      "$5$",
-      "$10$",
-      "$20$",
-      "$25$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-018",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_6^3$?",
-    "variante": [
-      "$120$",
-      "$18$",
-      "$20$",
-      "$216$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-019",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_n^k$ în funcție de $C_n^{n-k}$?",
-    "variante": [
-      "sunt egale",
-      "nu au legătură",
-      "$C_n^k=2C_n^{n-k}$",
-      "sunt opuse"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-020",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_n^1$?",
-    "variante": [
-      "$1$",
-      "$n$",
-      "$0$",
-      "$n!$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-001",
+  "tip": "simplu",
+  "intrebare": "Cât este $n!$?",
+  "variante": [
+   "$n\\cdot2$",
+   "$n+(n-1)$",
+   "$n\\cdot n$",
+   "$1\\cdot2\\cdot3\\cdots n$"
+  ],
+  "corect": 3,
+  "explicatie": "Prin definiție, $n!=1\\cdot2\\cdot3\\cdots n$, produsul numerelor naturale de la $1$ la $n$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $0!$?",
+  "variante": [
+   "nu există",
+   "$-1$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 2,
+  "explicatie": "Prin convenție $0!=1$. Astfel formulele cu factoriale funcționează și pentru $C_n^n$ sau $C_n^0$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $3!$?",
+  "variante": [
+   "$6$",
+   "$12$",
+   "$9$",
+   "$3$"
+  ],
+  "corect": 0,
+  "explicatie": "$3!=1\\cdot2\\cdot3=6$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $4!$?",
+  "variante": [
+   "$24$",
+   "$12$",
+   "$16$",
+   "$10$"
+  ],
+  "corect": 0,
+  "explicatie": "$4!=1\\cdot2\\cdot3\\cdot4=24$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $5!$?",
+  "variante": [
+   "$120$",
+   "$60$",
+   "$25$",
+   "$100$"
+  ],
+  "corect": 0,
+  "explicatie": "$5!=1\\cdot2\\cdot3\\cdot4\\cdot5=120$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $6!$?",
+  "variante": [
+   "$120$",
+   "$720$",
+   "$36$",
+   "$360$"
+  ],
+  "corect": 1,
+  "explicatie": "$6!=5!\\cdot6=120\\cdot6=720$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac{7!}{5!}$?",
+  "variante": [
+   "$2$",
+   "$42$",
+   "$14$",
+   "$7$"
+  ],
+  "corect": 1,
+  "explicatie": "$\\frac{7!}{5!}=\\frac{5!\\cdot6\\cdot7}{5!}=6\\cdot7=42$ (simplificăm $5!$)."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac{(n+1)!}{n!}$?",
+  "variante": [
+   "$(n+1)!$",
+   "$n+1$",
+   "$n$",
+   "$1$"
+  ],
+  "corect": 1,
+  "explicatie": "$(n+1)!=(n+1)\\cdot n!$, deci prin simplificare cu $n!$ rămâne $n+1$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $(n+1)!$?",
+  "variante": [
+   "$n!+1$",
+   "$(n!)^2$",
+   "$n\\cdot(n+1)$",
+   "$(n+1)\\cdot n!$"
+  ],
+  "corect": 3,
+  "explicatie": "Factorialul lui $n+1$ are un factor în plus față de $n!$, anume $n+1$: $(n+1)!=(n+1)\\cdot n!$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-010",
+  "tip": "simplu",
+  "intrebare": "Câte permutări au $n$ elemente?",
+  "variante": [
+   "$2n$",
+   "$n$",
+   "$n^2$",
+   "$n!$"
+  ],
+  "corect": 3,
+  "explicatie": "Permutările a $n$ elemente sunt toate ordonările lor: $n$ alegeri pentru primul loc, $n-1$ pentru al doilea etc., deci $n!$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-011",
+  "tip": "simplu",
+  "intrebare": "Când folosim aranjamentele?",
+  "variante": [
+   "când ordinea elementelor contează",
+   "când ordinea nu contează",
+   "când alegem toate elementele",
+   "niciodată"
+  ],
+  "corect": 0,
+  "explicatie": "Aranjamentele $A_n^k$ numără submulțimile ordonate: $\\{a,b\\}$ și $\\{b,a\\}$ sunt diferite, deci ordinea contează."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-012",
+  "tip": "simplu",
+  "intrebare": "Când folosim combinările?",
+  "variante": [
+   "niciodată",
+   "când repetăm elemente",
+   "când ordinea elementelor nu contează",
+   "când ordinea contează"
+  ],
+  "corect": 2,
+  "explicatie": "Combinările $C_n^k$ numără submulțimile fără ordine: $\\{a,b\\}$ și $\\{b,a\\}$ sunt aceeași alegere."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $A_n^k$?",
+  "variante": [
+   "$n^k$",
+   "$\\frac{n!}{(n-k)!}$",
+   "$\\frac{n!}{k!}$",
+   "$\\frac{n!}{k!(n-k)!}$"
+  ],
+  "corect": 1,
+  "explicatie": "Formula este $A_n^k=\\frac{n!}{(n-k)!}=n(n-1)\\cdots(n-k+1)$, produs de $k$ factori."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $C_n^k$?",
+  "variante": [
+   "$\\frac{n!}{(n-k)!}$",
+   "$\\frac{n!}{k!(n-k)!}$",
+   "$\\frac{k!}{n!}$",
+   "$\\frac{n!}{k!}$"
+  ],
+  "corect": 1,
+  "explicatie": "Formula este $C_n^k=\\frac{n!}{k!(n-k)!}$. Se împarte $A_n^k$ la $k!$, pentru că ordinea nu mai contează."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $A_5^2$?",
+  "variante": [
+   "$20$",
+   "$120$",
+   "$10$",
+   "$25$"
+  ],
+  "corect": 0,
+  "explicatie": "$A_5^2=5\\cdot4=20$ (produs de $2$ factori, începând de la $5$)."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $A_6^3$?",
+  "variante": [
+   "$20$",
+   "$216$",
+   "$120$",
+   "$720$"
+  ],
+  "corect": 2,
+  "explicatie": "$A_6^3=6\\cdot5\\cdot4=120$ (produs de $3$ factori, începând de la $6$)."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-017",
+  "tip": "simplu",
+  "intrebare": "Cât este $C_5^2$?",
+  "variante": [
+   "$5$",
+   "$10$",
+   "$20$",
+   "$25$"
+  ],
+  "corect": 1,
+  "explicatie": "$C_5^2=\\frac{A_5^2}{2!}=\\frac{20}{2}=10$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-018",
+  "tip": "simplu",
+  "intrebare": "Cât este $C_6^3$?",
+  "variante": [
+   "$120$",
+   "$18$",
+   "$20$",
+   "$216$"
+  ],
+  "corect": 2,
+  "explicatie": "$C_6^3=\\frac{6\\cdot5\\cdot4}{3!}=\\frac{120}{6}=20$."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-019",
+  "tip": "simplu",
+  "intrebare": "Cât este $C_n^k$ în funcție de $C_n^{n-k}$?",
+  "variante": [
+   "sunt egale",
+   "nu au legătură",
+   "$C_n^k=2C_n^{n-k}$",
+   "sunt opuse"
+  ],
+  "corect": 0,
+  "explicatie": "$C_n^k=C_n^{n-k}$: alegând $k$ elemente, le alegem de fapt și pe cele $n-k$ rămase."
+ },
+ {
+  "id": "combinatorica-factorial-aranjamente-combinari-020",
+  "tip": "simplu",
+  "intrebare": "Cât este $C_n^1$?",
+  "variante": [
+   "$1$",
+   "$n$",
+   "$0$",
+   "$n!$"
+  ],
+  "corect": 1,
+  "explicatie": "$C_n^1=\\frac{n!}{1!\\,(n-1)!}=n$: există $n$ moduri de a alege un element."
+ }
 ]

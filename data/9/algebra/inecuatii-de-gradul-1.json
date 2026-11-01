@@ -1,233 +1,251 @@
 [
-  {
-    "id": "inecuatii-de-gradul-1-001",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=2x-4$. Rezolvă $f(x)>0$.",
-    "variante": [
-      "$x>4$",
-      "$x>2$",
-      "$x<2$",
-      "$x>-4$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q1.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-002",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)<0$.",
-    "variante": [
-      "$x>2$",
-      "$x<2$",
-      "$x<-4$",
-      "$x<4$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q1.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-003",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)\\geq0$.",
-    "variante": [
-      "$x\\geq2$",
-      "$x\\geq-4$",
-      "$x>2$",
-      "$x\\leq2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-q1.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-004",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=-x+3$. Rezolvă $f(x)>0$.",
-    "variante": [
-      "$x<-3$",
-      "$x>-3$",
-      "$x<3$",
-      "$x>3$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-q2.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-005",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)<0$.",
-    "variante": [
-      "$x>-3$",
-      "$x>3$",
-      "$x<3$",
-      "$x<-3$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q2.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-006",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)\\leq0$.",
-    "variante": [
-      "$x>3$",
-      "$x\\geq3$",
-      "$x\\leq-3$",
-      "$x\\leq3$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q2.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-007",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=x+2$. Rezolvă $f(x)>0$.",
-    "variante": [
-      "$x>-2$",
-      "$x<-2$",
-      "$x>2$",
-      "$x<2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-q3.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-008",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)<0$.",
-    "variante": [
-      "$x<2$",
-      "$x<-2$",
-      "$x>-2$",
-      "$x>2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q3.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-009",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)\\geq0$.",
-    "variante": [
-      "$x\\geq2$",
-      "$x\\leq-2$",
-      "$x\\geq-2$",
-      "$x>-2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-q3.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-010",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=-2x-2$. Rezolvă $f(x)>0$.",
-    "variante": [
-      "$x<-1$",
-      "$x>-1$",
-      "$x>1$",
-      "$x<1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-q4.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-011",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)\\leq0$.",
-    "variante": [
-      "$x<-1$",
-      "$x\\leq-1$",
-      "$x\\geq1$",
-      "$x\\geq-1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-q4.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-012",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=x-1$ și dreapta $y=2$ (roșie). Rezolvă $x-1>2$.",
-    "variante": [
-      "$x>1$",
-      "$x>3$",
-      "$x<3$",
-      "$x>2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q5.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-013",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $x-1<2$.",
-    "variante": [
-      "$x<2$",
-      "$x<3$",
-      "$x>3$",
-      "$x<1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-q5.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-014",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=2x$ și dreapta $y=4$ (roșie). Rezolvă $2x>4$.",
-    "variante": [
-      "$x<2$",
-      "$x>4$",
-      "$x>2$",
-      "$x>8$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-q6.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-015",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $2x\\leq4$.",
-    "variante": [
-      "$x\\leq2$",
-      "$x\\leq8$",
-      "$x\\geq2$",
-      "$x\\leq4$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-q6.svg"
-  },
-  {
-    "id": "inecuatii-de-gradul-1-016",
-    "tip": "simplu",
-    "intrebare": "Ce facem cu semnul inegalității când împărțim la un număr negativ?",
-    "variante": [
-      "îl dublăm",
-      "îl anulăm",
-      "îl păstrăm",
-      "îl schimbăm"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "inecuatii-de-gradul-1-017",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $-2x>6$.",
-    "variante": [
-      "$x<3$",
-      "$x>3$",
-      "$x>-3$",
-      "$x<-3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "inecuatii-de-gradul-1-018",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $3x>9$.",
-    "variante": [
-      "$x>3$",
-      "$x>6$",
-      "$x<3$",
-      "$x>27$"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "inecuatii-de-gradul-1-001",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=2x-4$. Rezolvă $f(x)>0$.",
+  "variante": [
+   "$x>4$",
+   "$x>2$",
+   "$x<2$",
+   "$x>-4$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q1.svg",
+  "explicatie": "Dreapta $f(x)=2x-4$ taie axa $Ox$ în $x=2$ și e deasupra axei (valori pozitive) la dreapta lui $2$, deci $x>2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-002",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)<0$.",
+  "variante": [
+   "$x>2$",
+   "$x<2$",
+   "$x<-4$",
+   "$x<4$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q1.svg",
+  "explicatie": "Graficul este sub axa $Ox$ la stânga punctului $x=2$, unde dreapta taie axa, deci $x<2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-003",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)\\geq0$.",
+  "variante": [
+   "$x\\geq2$",
+   "$x\\geq-4$",
+   "$x>2$",
+   "$x\\leq2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-q1.svg",
+  "explicatie": "Graficul este pe axă sau deasupra ei pentru $x\\geq2$; includem $2$ pentru că $f(2)=0$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-004",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=-x+3$. Rezolvă $f(x)>0$.",
+  "variante": [
+   "$x<-3$",
+   "$x>-3$",
+   "$x<3$",
+   "$x>3$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-q2.svg",
+  "explicatie": "Dreapta $f(x)=-x+3$ taie axa $Ox$ în $x=3$ și este deasupra axei la stânga lui $3$, deci $x<3$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-005",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)<0$.",
+  "variante": [
+   "$x>-3$",
+   "$x>3$",
+   "$x<3$",
+   "$x<-3$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q2.svg",
+  "explicatie": "Graficul este sub axa $Ox$ la dreapta punctului $x=3$, deci $x>3$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-006",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)\\leq0$.",
+  "variante": [
+   "$x>3$",
+   "$x\\geq3$",
+   "$x\\leq-3$",
+   "$x\\leq3$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q2.svg",
+  "explicatie": "Graficul este pe axă sau sub ea pentru $x\\geq3$; includem $3$ pentru că $f(3)=0$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-007",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=x+2$. Rezolvă $f(x)>0$.",
+  "variante": [
+   "$x>-2$",
+   "$x<-2$",
+   "$x>2$",
+   "$x<2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-q3.svg",
+  "explicatie": "Dreapta $f(x)=x+2$ taie axa $Ox$ în $x=-2$ și e deasupra axei la dreapta lui $-2$, deci $x>-2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-008",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)<0$.",
+  "variante": [
+   "$x<2$",
+   "$x<-2$",
+   "$x>-2$",
+   "$x>2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q3.svg",
+  "explicatie": "Graficul este sub axa $Ox$ la stânga lui $x=-2$, deci $x<-2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-009",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)\\geq0$.",
+  "variante": [
+   "$x\\geq2$",
+   "$x\\leq-2$",
+   "$x\\geq-2$",
+   "$x>-2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-q3.svg",
+  "explicatie": "Graficul este pe axă sau deasupra ei pentru $x\\geq-2$; includem $-2$ pentru că $f(-2)=0$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-010",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=-2x-2$. Rezolvă $f(x)>0$.",
+  "variante": [
+   "$x<-1$",
+   "$x>-1$",
+   "$x>1$",
+   "$x<1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-q4.svg",
+  "explicatie": "Dreapta $f(x)=-2x-2$ taie axa $Ox$ în $x=-1$ și e deasupra axei la stânga lui $-1$, deci $x<-1$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-011",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)\\leq0$.",
+  "variante": [
+   "$x<-1$",
+   "$x\\leq-1$",
+   "$x\\geq1$",
+   "$x\\geq-1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-q4.svg",
+  "explicatie": "Graficul este pe axă sau sub ea pentru $x\\geq-1$; includem $-1$ pentru că $f(-1)=0$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-012",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=x-1$ și dreapta $y=2$ (roșie). Rezolvă $x-1>2$.",
+  "variante": [
+   "$x>1$",
+   "$x>3$",
+   "$x<3$",
+   "$x>2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q5.svg",
+  "explicatie": "Dreapta $y=x-1$ este deasupra dreptei $y=2$ la dreapta punctului de intersecție $x=3$, deci $x>3$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-013",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $x-1<2$.",
+  "variante": [
+   "$x<2$",
+   "$x<3$",
+   "$x>3$",
+   "$x<1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-q5.svg",
+  "explicatie": "Dreapta $y=x-1$ este sub dreapta $y=2$ la stânga punctului de intersecție $x=3$, deci $x<3$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-014",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=2x$ și dreapta $y=4$ (roșie). Rezolvă $2x>4$.",
+  "variante": [
+   "$x<2$",
+   "$x>4$",
+   "$x>2$",
+   "$x>8$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-q6.svg",
+  "explicatie": "Dreapta $y=2x$ se intersectează cu $y=4$ în $x=2$ și o depășește pentru $x>2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-015",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $2x\\leq4$.",
+  "variante": [
+   "$x\\leq2$",
+   "$x\\leq8$",
+   "$x\\geq2$",
+   "$x\\leq4$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-q6.svg",
+  "explicatie": "Dreapta $y=2x$ este sub $y=4$ sau o atinge până la $x=2$, deci $x\\leq2$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-016",
+  "tip": "simplu",
+  "intrebare": "Ce facem cu semnul inegalității când împărțim la un număr negativ?",
+  "variante": [
+   "îl dublăm",
+   "îl anulăm",
+   "îl păstrăm",
+   "îl schimbăm"
+  ],
+  "corect": 3,
+  "explicatie": "Împărțirea cu un număr negativ schimbă sensul inegalității (de exemplu $>$ devine $<$)."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-017",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $-2x>6$.",
+  "variante": [
+   "$x<3$",
+   "$x>3$",
+   "$x>-3$",
+   "$x<-3$"
+  ],
+  "corect": 3,
+  "explicatie": "Împărțim la $-2$ și schimbăm sensul inegalității: $x<-3$."
+ },
+ {
+  "id": "inecuatii-de-gradul-1-018",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $3x>9$.",
+  "variante": [
+   "$x>3$",
+   "$x>6$",
+   "$x<3$",
+   "$x>27$"
+  ],
+  "corect": 0,
+  "explicatie": "Împărțim la $3$ (număr pozitiv, semnul rămâne): $x>3$."
+ }
 ]

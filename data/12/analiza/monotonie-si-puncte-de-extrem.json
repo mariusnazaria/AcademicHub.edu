@@ -1,262 +1,282 @@
 [
-  {
-    "id": "monotonie-si-puncte-de-extrem-001",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este funcția crescătoare?",
-    "variante": [
-      "$(-\\infty;-1]\\cup[1;+\\infty)$",
-      "$[-1;1]$",
-      "$[-1;+\\infty)$",
-      "$(-\\infty;1]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-m1.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-002",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția descrescătoare?",
-    "variante": [
-      "$(-\\infty;-1]\\cup[1;+\\infty)$",
-      "$[-1;1]$",
-      "$[0;+\\infty)$",
-      "$(-\\infty;0]$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-m1.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-003",
-    "tip": "simplu",
-    "intrebare": "În ce punct are funcția maxim local?",
-    "variante": [
-      "$x=1$",
-      "$x=0$",
-      "$x=-1$",
-      "$x=2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-m1.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-004",
-    "tip": "simplu",
-    "intrebare": "În ce punct are funcția minim local?",
-    "variante": [
-      "$x=1$",
-      "$x=-1$",
-      "$x=-2$",
-      "$x=0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-m1.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-005",
-    "tip": "simplu",
-    "intrebare": "Cât este valoarea maximului local?",
-    "variante": [
-      "$1$",
-      "$-2$",
-      "$2$",
-      "$0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-m1.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-006",
-    "tip": "simplu",
-    "intrebare": "În ce punct are funcția punct de extrem?",
-    "variante": [
-      "$x=0$",
-      "$x=2$",
-      "$x=-2$",
-      "$x=4$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-m2.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-007",
-    "tip": "simplu",
-    "intrebare": "Ce fel de extrem este?",
-    "variante": [
-      "inflexiune",
-      "nu are extrem",
-      "minim",
-      "maxim"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m2.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-008",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval funcția crește?",
-    "variante": [
-      "$(-\\infty;2]$",
-      "$[2;+\\infty)$",
-      "$[0;4]$",
-      "$(-\\infty;4]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-m2.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-009",
-    "tip": "simplu",
-    "intrebare": "Câte puncte de extrem local are funcția?",
-    "variante": [
-      "$1$",
-      "$3$",
-      "$4$",
-      "$2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-m3.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-010",
-    "tip": "simplu",
-    "intrebare": "În ce puncte are funcția minim local?",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=-1$ și $x=0$",
-      "$x=-1$ și $x=1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m3.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-011",
-    "tip": "simplu",
-    "intrebare": "În ce punct are funcția maxim local?",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=-1$",
-      "$x=2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-m3.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-012",
-    "tip": "simplu",
-    "intrebare": "Are funcția puncte de extrem?",
-    "variante": [
-      "da, două",
-      "da, un maxim",
-      "nu",
-      "da, un minim"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-m4.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-013",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este funcția crescătoare?",
-    "variante": [
-      "$(-\\infty;0]$",
-      "$\\varnothing$",
-      "$[0;+\\infty)$",
-      "$\\mathbb{R}$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m4.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-014",
-    "tip": "simplu",
-    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce mulțime crește $f$?",
-    "variante": [
-      "$(-\\infty;-1)$",
-      "$(1;+\\infty)$",
-      "$(-1;1)$",
-      "$(-\\infty;-1)\\cup(1;+\\infty)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m5.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-015",
-    "tip": "simplu",
-    "intrebare": "Graficul este al lui $f^{\\prime}$. Pe ce interval scade $f$?",
-    "variante": [
-      "$(-\\infty;-1)$",
-      "$(1;+\\infty)$",
-      "$(-1;1)$",
-      "$(-\\infty;-1)\\cup(1;+\\infty)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-m5.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-016",
-    "tip": "simplu",
-    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=1$?",
-    "variante": [
-      "inflexiune",
-      "nimic",
-      "maxim",
-      "minim"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m5.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-017",
-    "tip": "simplu",
-    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=-1$?",
-    "variante": [
-      "minim",
-      "inflexiune",
-      "nimic",
-      "maxim"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m5.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-018",
-    "tip": "simplu",
-    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce interval crește $f$?",
-    "variante": [
-      "$(0;+\\infty)$",
-      "$(-\\infty;2)$",
-      "$(-\\infty;0)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-m6.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-019",
-    "tip": "simplu",
-    "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=2$?",
-    "variante": [
-      "maxim",
-      "minim",
-      "inflexiune",
-      "nimic"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-m6.svg"
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-020",
-    "tip": "simplu",
-    "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$ (atinge axa $Ox$ în $0$). Este $x=0$ punct de extrem pentru $f$?",
-    "variante": [
-      "da, minim",
-      "nu se poate ști",
-      "da, maxim",
-      "nu, $f^{\\prime}$ nu schimbă semnul"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-m7.svg"
-  }
+ {
+  "id": "monotonie-si-puncte-de-extrem-001",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este funcția crescătoare?",
+  "variante": [
+   "$(-\\infty;-1]\\cup[1;+\\infty)$",
+   "$[-1;1]$",
+   "$[-1;+\\infty)$",
+   "$(-\\infty;1]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-m1.svg",
+  "explicatie": "Graficul urcă pe $(-\\infty;-1]$ și pe $[1;+\\infty)$, iar între ele coboară: crescătoare pe reuniunea celor două."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-002",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția descrescătoare?",
+  "variante": [
+   "$(-\\infty;-1]\\cup[1;+\\infty)$",
+   "$[-1;1]$",
+   "$[0;+\\infty)$",
+   "$(-\\infty;0]$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-m1.svg",
+  "explicatie": "Între cele două puncte de extrem, de la $x=-1$ la $x=1$, graficul coboară: funcția e descrescătoare pe $[-1;1]$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-003",
+  "tip": "simplu",
+  "intrebare": "În ce punct are funcția maxim local?",
+  "variante": [
+   "$x=1$",
+   "$x=0$",
+   "$x=-1$",
+   "$x=2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-m1.svg",
+  "explicatie": "În $x=-1$ graficul urcă până la un vârf și apoi coboară: acolo este un maxim local."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-004",
+  "tip": "simplu",
+  "intrebare": "În ce punct are funcția minim local?",
+  "variante": [
+   "$x=1$",
+   "$x=-1$",
+   "$x=-2$",
+   "$x=0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-m1.svg",
+  "explicatie": "În $x=1$ graficul coboară până la un fund de vale și apoi urcă: acolo este un minim local."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-005",
+  "tip": "simplu",
+  "intrebare": "Cât este valoarea maximului local?",
+  "variante": [
+   "$1$",
+   "$-2$",
+   "$2$",
+   "$0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-m1.svg",
+  "explicatie": "Vârful maximului local se află la înălțimea $y=2$ pe grafic, deci valoarea maximului local este $2$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-006",
+  "tip": "simplu",
+  "intrebare": "În ce punct are funcția punct de extrem?",
+  "variante": [
+   "$x=0$",
+   "$x=2$",
+   "$x=-2$",
+   "$x=4$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-m2.svg",
+  "explicatie": "Graficul își schimbă direcția (urcă-coboară sau invers) o singură dată, în $x=2$: acolo este punctul de extrem."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-007",
+  "tip": "simplu",
+  "intrebare": "Ce fel de extrem este?",
+  "variante": [
+   "inflexiune",
+   "nu are extrem",
+   "minim",
+   "maxim"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m2.svg",
+  "explicatie": "Graficul urcă până în $x=2$ și apoi coboară (vârf de deal), deci este un maxim."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-008",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval funcția crește?",
+  "variante": [
+   "$(-\\infty;2]$",
+   "$[2;+\\infty)$",
+   "$[0;4]$",
+   "$(-\\infty;4]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-m2.svg",
+  "explicatie": "Graficul urcă la stânga lui $x=2$ (până la maxim), deci funcția crește pe $(-\\infty;2]$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-009",
+  "tip": "simplu",
+  "intrebare": "Câte puncte de extrem local are funcția?",
+  "variante": [
+   "$1$",
+   "$3$",
+   "$4$",
+   "$2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-m3.svg",
+  "explicatie": "Graficul are trei locuri unde schimbă direcția (vârfuri și văi), deci $3$ puncte de extrem local."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-010",
+  "tip": "simplu",
+  "intrebare": "În ce puncte are funcția minim local?",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=-1$ și $x=0$",
+   "$x=-1$ și $x=1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m3.svg",
+  "explicatie": "Văile (fundurile) graficului sunt în $x=-1$ și $x=1$, deci acestea sunt punctele de minim local."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-011",
+  "tip": "simplu",
+  "intrebare": "În ce punct are funcția maxim local?",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=-1$",
+   "$x=2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-m3.svg",
+  "explicatie": "Singurul vârf de deal al graficului este în $x=0$, deci acolo este maximul local."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-012",
+  "tip": "simplu",
+  "intrebare": "Are funcția puncte de extrem?",
+  "variante": [
+   "da, două",
+   "da, un maxim",
+   "nu",
+   "da, un minim"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-m4.svg",
+  "explicatie": "Graficul urcă sau coboară monoton, fără să schimbe direcția, deci nu are puncte de extrem."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-013",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este funcția crescătoare?",
+  "variante": [
+   "$(-\\infty;0]$",
+   "$\\varnothing$",
+   "$[0;+\\infty)$",
+   "$\\mathbb{R}$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m4.svg",
+  "explicatie": "Graficul urcă pe toată dreapta reală, fără să coboare nicăieri: funcția e crescătoare pe $\\mathbb{R}$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-014",
+  "tip": "simplu",
+  "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce mulțime crește $f$?",
+  "variante": [
+   "$(-\\infty;-1)$",
+   "$(1;+\\infty)$",
+   "$(-1;1)$",
+   "$(-\\infty;-1)\\cup(1;+\\infty)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m5.svg",
+  "explicatie": "Funcția crește unde $f^{\\prime}>0$, adică unde graficul lui $f^{\\prime}$ e deasupra axei $Ox$: pe $(-\\infty;-1)\\cup(1;+\\infty)$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-015",
+  "tip": "simplu",
+  "intrebare": "Graficul este al lui $f^{\\prime}$. Pe ce interval scade $f$?",
+  "variante": [
+   "$(-\\infty;-1)$",
+   "$(1;+\\infty)$",
+   "$(-1;1)$",
+   "$(-\\infty;-1)\\cup(1;+\\infty)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-m5.svg",
+  "explicatie": "Funcția scade unde $f^{\\prime}<0$, adică unde graficul lui $f^{\\prime}$ e sub axa $Ox$: pe $(-1;1)$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-016",
+  "tip": "simplu",
+  "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=1$?",
+  "variante": [
+   "inflexiune",
+   "nimic",
+   "maxim",
+   "minim"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m5.svg",
+  "explicatie": "În $x=1$, $f^{\\prime}$ trece de la minus la plus, deci $f$ trece de la scădere la creștere: minim."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-017",
+  "tip": "simplu",
+  "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=-1$?",
+  "variante": [
+   "minim",
+   "inflexiune",
+   "nimic",
+   "maxim"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m5.svg",
+  "explicatie": "În $x=-1$, $f^{\\prime}$ trece de la plus la minus, deci $f$ trece de la creștere la scădere: maxim."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-018",
+  "tip": "simplu",
+  "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$. Pe ce interval crește $f$?",
+  "variante": [
+   "$(0;+\\infty)$",
+   "$(-\\infty;2)$",
+   "$(-\\infty;0)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-m6.svg",
+  "explicatie": "Funcția crește unde $f^{\\prime}>0$, adică unde graficul lui $f^{\\prime}$ e deasupra axei $Ox$: pe $(-\\infty;2)$."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-019",
+  "tip": "simplu",
+  "intrebare": "Graficul este al lui $f^{\\prime}$. Ce are $f$ în $x=2$?",
+  "variante": [
+   "maxim",
+   "minim",
+   "inflexiune",
+   "nimic"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-m6.svg",
+  "explicatie": "În $x=2$, $f^{\\prime}$ trece de la plus la minus, deci $f$ trece de la creștere la scădere: maxim."
+ },
+ {
+  "id": "monotonie-si-puncte-de-extrem-020",
+  "tip": "simplu",
+  "intrebare": "Graficul din figură este al derivatei $f^{\\prime}$ (atinge axa $Ox$ în $0$). Este $x=0$ punct de extrem pentru $f$?",
+  "variante": [
+   "da, minim",
+   "nu se poate ști",
+   "da, maxim",
+   "nu, $f^{\\prime}$ nu schimbă semnul"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-m7.svg",
+  "explicatie": "Graficul lui $f^{\\prime}$ atinge axa $Ox$ fără s-o treacă, deci $f^{\\prime}$ păstrează semnul. Fără schimbare de semn nu există extrem."
+ }
 ]

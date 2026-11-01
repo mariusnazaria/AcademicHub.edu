@@ -1,218 +1,236 @@
 [
-  {
-    "id": "patrulatere-si-poligoane-001",
-    "tip": "simplu",
-    "intrebare": "Cât este suma unghiurilor unui patrulater?",
-    "variante": [
-      "$360^\\circ$",
-      "$270^\\circ$",
-      "$180^\\circ$",
-      "$540^\\circ$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-002",
-    "tip": "simplu",
-    "intrebare": "Ce are un paralelogram?",
-    "variante": [
-      "toate laturile egale",
-      "doar o pereche de laturi paralele",
-      "laturile opuse paralele și egale",
-      "toate unghiurile drepte"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "patrulatere-si-poligoane-003",
-    "tip": "simplu",
-    "intrebare": "Diagonalele paralelogramului:",
-    "variante": [
-      "sunt paralele",
-      "se înjumătățesc",
-      "sunt egale",
-      "sunt perpendiculare"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "patrulatere-si-poligoane-004",
-    "tip": "simplu",
-    "intrebare": "Ce are un dreptunghi în plus față de paralelogram?",
-    "variante": [
-      "toate laturile egale",
-      "unghiuri drepte (diagonale egale)",
-      "o singură pereche de laturi paralele",
-      "diagonale perpendiculare"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "patrulatere-si-poligoane-005",
-    "tip": "simplu",
-    "intrebare": "Ce are un romb în plus față de paralelogram?",
-    "variante": [
-      "toate laturile egale (diagonale perpendiculare)",
-      "trei laturi egale",
-      "unghiuri drepte",
-      "diagonale egale"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-006",
-    "tip": "simplu",
-    "intrebare": "Ce are un pătrat?",
-    "variante": [
-      "și laturi egale, și unghiuri drepte",
-      "doar o pereche de laturi paralele",
-      "doar laturi egale",
-      "doar unghiuri drepte"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-007",
-    "tip": "simplu",
-    "intrebare": "Ce are un trapez?",
-    "variante": [
-      "toate laturile egale",
-      "două laturi paralele (bazele)",
-      "unghiuri drepte",
-      "toate laturile paralele"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "patrulatere-si-poligoane-008",
-    "tip": "simplu",
-    "intrebare": "Diagonalele trapezului isoscel sunt:",
-    "variante": [
-      "perpendiculare",
-      "paralele",
-      "neegale",
-      "egale"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "patrulatere-si-poligoane-009",
-    "tip": "simplu",
-    "intrebare": "Cât este linia mijlocie a trapezului cu bazele $a$ și $b$?",
-    "variante": [
-      "$a+b$",
-      "$a\\cdot b$",
-      "$\\frac{a-b}{2}$",
-      "$\\frac{a+b}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "patrulatere-si-poligoane-010",
-    "tip": "simplu",
-    "intrebare": "Un trapez are bazele $6$ și $10$. Cât este linia mijlocie?",
-    "variante": [
-      "$8$",
-      "$4$",
-      "$16$",
-      "$60$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-011",
-    "tip": "simplu",
-    "intrebare": "Cât este suma unghiurilor unui poligon cu $n$ laturi?",
-    "variante": [
-      "$(n-2)\\cdot180^\\circ$",
-      "$n\\cdot180^\\circ$",
-      "$(n+2)\\cdot180^\\circ$",
-      "$(n-1)\\cdot180^\\circ$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-012",
-    "tip": "simplu",
-    "intrebare": "Cât este suma unghiurilor unui pentagon?",
-    "variante": [
-      "$720^\\circ$",
-      "$900^\\circ$",
-      "$360^\\circ$",
-      "$540^\\circ$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "patrulatere-si-poligoane-013",
-    "tip": "simplu",
-    "intrebare": "Cât este suma unghiurilor unui hexagon?",
-    "variante": [
-      "$900^\\circ$",
-      "$720^\\circ$",
-      "$540^\\circ$",
-      "$360^\\circ$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "patrulatere-si-poligoane-014",
-    "tip": "simplu",
-    "intrebare": "Câte diagonale are un hexagon?",
-    "variante": [
-      "$12$",
-      "$9$",
-      "$6$",
-      "$15$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "patrulatere-si-poligoane-015",
-    "tip": "simplu",
-    "intrebare": "Cât este diagonala pătratului cu latura $4$?",
-    "variante": [
-      "$8$",
-      "$4$",
-      "$4\\sqrt2$",
-      "$16$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "patrulatere-si-poligoane-016",
-    "tip": "simplu",
-    "intrebare": "Un dreptunghi are laturile $3$ și $4$. Cât este diagonala?",
-    "variante": [
-      "$25$",
-      "$12$",
-      "$7$",
-      "$5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "patrulatere-si-poligoane-017",
-    "tip": "simplu",
-    "intrebare": "Unghiurile alăturate ale unui paralelogram sunt:",
-    "variante": [
-      "suplementare",
-      "complementare",
-      "egale",
-      "drepte mereu"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "patrulatere-si-poligoane-018",
-    "tip": "simplu",
-    "intrebare": "Un paralelogram are un unghi de $70^\\circ$. Unghiul alăturat este:",
-    "variante": [
-      "$70^\\circ$",
-      "$20^\\circ$",
-      "$290^\\circ$",
-      "$110^\\circ$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "patrulatere-si-poligoane-001",
+  "tip": "simplu",
+  "intrebare": "Cât este suma unghiurilor unui patrulater?",
+  "variante": [
+   "$360^\\circ$",
+   "$270^\\circ$",
+   "$180^\\circ$",
+   "$540^\\circ$"
+  ],
+  "corect": 0,
+  "explicatie": "Diagonala împarte patrulaterul în două triunghiuri, fiecare cu suma $180^\\circ$, deci $2\\cdot180^\\circ=360^\\circ$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-002",
+  "tip": "simplu",
+  "intrebare": "Ce are un paralelogram?",
+  "variante": [
+   "toate laturile egale",
+   "doar o pereche de laturi paralele",
+   "laturile opuse paralele și egale",
+   "toate unghiurile drepte"
+  ],
+  "corect": 2,
+  "explicatie": "Paralelogramul are ambele perechi de laturi opuse paralele, iar laturile opuse sunt și egale."
+ },
+ {
+  "id": "patrulatere-si-poligoane-003",
+  "tip": "simplu",
+  "intrebare": "Diagonalele paralelogramului:",
+  "variante": [
+   "sunt paralele",
+   "se înjumătățesc",
+   "sunt egale",
+   "sunt perpendiculare"
+  ],
+  "corect": 1,
+  "explicatie": "În paralelogram diagonalele se intersectează în mijlocul fiecăreia, adică se înjumătățesc. Nu sunt în general egale sau perpendiculare."
+ },
+ {
+  "id": "patrulatere-si-poligoane-004",
+  "tip": "simplu",
+  "intrebare": "Ce are un dreptunghi în plus față de paralelogram?",
+  "variante": [
+   "toate laturile egale",
+   "unghiuri drepte (diagonale egale)",
+   "o singură pereche de laturi paralele",
+   "diagonale perpendiculare"
+  ],
+  "corect": 1,
+  "explicatie": "Dreptunghiul este paralelogramul cu unghiuri drepte; consecința este că diagonalele lui sunt egale."
+ },
+ {
+  "id": "patrulatere-si-poligoane-005",
+  "tip": "simplu",
+  "intrebare": "Ce are un romb în plus față de paralelogram?",
+  "variante": [
+   "toate laturile egale (diagonale perpendiculare)",
+   "trei laturi egale",
+   "unghiuri drepte",
+   "diagonale egale"
+  ],
+  "corect": 0,
+  "explicatie": "Rombul este paralelogramul cu toate laturile egale; consecința este că diagonalele lui sunt perpendiculare."
+ },
+ {
+  "id": "patrulatere-si-poligoane-006",
+  "tip": "simplu",
+  "intrebare": "Ce are un pătrat?",
+  "variante": [
+   "și laturi egale, și unghiuri drepte",
+   "doar o pereche de laturi paralele",
+   "doar laturi egale",
+   "doar unghiuri drepte"
+  ],
+  "corect": 0,
+  "explicatie": "Pătratul este în același timp dreptunghi (unghiuri drepte) și romb (laturi egale)."
+ },
+ {
+  "id": "patrulatere-si-poligoane-007",
+  "tip": "simplu",
+  "intrebare": "Ce are un trapez?",
+  "variante": [
+   "toate laturile egale",
+   "două laturi paralele (bazele)",
+   "unghiuri drepte",
+   "toate laturile paralele"
+  ],
+  "corect": 1,
+  "explicatie": "Trapezul are exact două laturi paralele, numite baze; celelalte două se numesc laturi neparalele."
+ },
+ {
+  "id": "patrulatere-si-poligoane-008",
+  "tip": "simplu",
+  "intrebare": "Diagonalele trapezului isoscel sunt:",
+  "variante": [
+   "perpendiculare",
+   "paralele",
+   "neegale",
+   "egale"
+  ],
+  "corect": 3,
+  "explicatie": "Trapezul isoscel are laturile neparalele egale, iar diagonalele lui sunt egale."
+ },
+ {
+  "id": "patrulatere-si-poligoane-009",
+  "tip": "simplu",
+  "intrebare": "Cât este linia mijlocie a trapezului cu bazele $a$ și $b$?",
+  "variante": [
+   "$a+b$",
+   "$a\\cdot b$",
+   "$\\frac{a-b}{2}$",
+   "$\\frac{a+b}{2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Linia mijlocie a trapezului este media aritmetică a bazelor: $\\frac{a+b}{2}$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-010",
+  "tip": "simplu",
+  "intrebare": "Un trapez are bazele $6$ și $10$. Cât este linia mijlocie?",
+  "variante": [
+   "$8$",
+   "$4$",
+   "$16$",
+   "$60$"
+  ],
+  "corect": 0,
+  "explicatie": "Linia mijlocie este $\\frac{6+10}{2}=\\frac{16}{2}=8$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-011",
+  "tip": "simplu",
+  "intrebare": "Cât este suma unghiurilor unui poligon cu $n$ laturi?",
+  "variante": [
+   "$(n-2)\\cdot180^\\circ$",
+   "$n\\cdot180^\\circ$",
+   "$(n+2)\\cdot180^\\circ$",
+   "$(n-1)\\cdot180^\\circ$"
+  ],
+  "corect": 0,
+  "explicatie": "Poligonul se împarte din același vârf în $n-2$ triunghiuri, fiecare cu $180^\\circ$, deci suma este $(n-2)\\cdot180^\\circ$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-012",
+  "tip": "simplu",
+  "intrebare": "Cât este suma unghiurilor unui pentagon?",
+  "variante": [
+   "$720^\\circ$",
+   "$900^\\circ$",
+   "$360^\\circ$",
+   "$540^\\circ$"
+  ],
+  "corect": 3,
+  "explicatie": "Pentagonul are $n=5$: $(5-2)\\cdot180^\\circ=3\\cdot180^\\circ=540^\\circ$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-013",
+  "tip": "simplu",
+  "intrebare": "Cât este suma unghiurilor unui hexagon?",
+  "variante": [
+   "$900^\\circ$",
+   "$720^\\circ$",
+   "$540^\\circ$",
+   "$360^\\circ$"
+  ],
+  "corect": 1,
+  "explicatie": "Hexagonul are $n=6$: $(6-2)\\cdot180^\\circ=4\\cdot180^\\circ=720^\\circ$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-014",
+  "tip": "simplu",
+  "intrebare": "Câte diagonale are un hexagon?",
+  "variante": [
+   "$12$",
+   "$9$",
+   "$6$",
+   "$15$"
+  ],
+  "corect": 1,
+  "explicatie": "Numărul de diagonale este $\\frac{n(n-3)}{2}=\\frac{6\\cdot3}{2}=9$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-015",
+  "tip": "simplu",
+  "intrebare": "Cât este diagonala pătratului cu latura $4$?",
+  "variante": [
+   "$8$",
+   "$4$",
+   "$4\\sqrt2$",
+   "$16$"
+  ],
+  "corect": 2,
+  "explicatie": "Diagonala pătratului de latură $a$ este $a\\sqrt2$ (Pitagora), deci $4\\sqrt2$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-016",
+  "tip": "simplu",
+  "intrebare": "Un dreptunghi are laturile $3$ și $4$. Cât este diagonala?",
+  "variante": [
+   "$25$",
+   "$12$",
+   "$7$",
+   "$5$"
+  ],
+  "corect": 3,
+  "explicatie": "Diagonala este ipotenuza unui triunghi dreptunghic cu catetele $3$ și $4$: $\\sqrt{9+16}=5$."
+ },
+ {
+  "id": "patrulatere-si-poligoane-017",
+  "tip": "simplu",
+  "intrebare": "Unghiurile alăturate ale unui paralelogram sunt:",
+  "variante": [
+   "suplementare",
+   "complementare",
+   "egale",
+   "drepte mereu"
+  ],
+  "corect": 0,
+  "explicatie": "Într-un paralelogram unghiurile alăturate au suma $180^\\circ$ (unghiuri interne de aceeași parte a secantei), deci sunt suplementare."
+ },
+ {
+  "id": "patrulatere-si-poligoane-018",
+  "tip": "simplu",
+  "intrebare": "Un paralelogram are un unghi de $70^\\circ$. Unghiul alăturat este:",
+  "variante": [
+   "$70^\\circ$",
+   "$20^\\circ$",
+   "$290^\\circ$",
+   "$110^\\circ$"
+  ],
+  "corect": 3,
+  "explicatie": "Unghiurile alăturate sunt suplementare: $180^\\circ-70^\\circ=110^\\circ$."
+ }
 ]

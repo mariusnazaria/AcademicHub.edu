@@ -1,242 +1,262 @@
 [
-  {
-    "id": "probleme-cu-combinari-001",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $10$ bile albe și $10$ roșii. Se extrag $2$ bile. Evenimentul: ambele sunt albe. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{10}^{2};\\ n=A_{20}^{2}$",
-      "$m=2\\cdot C_{10}^{2};\\ n=C_{20}^{2}$",
-      "$m=C_{10}^{2};\\ n=C_{20}^{10}$",
-      "$m=C_{10}^{2};\\ n=C_{20}^{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-002",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $12$ bile albe și $8$ negre. Se extrag $3$ bile. Evenimentul: toate sunt negre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=8^{3};\\ n=20^{3}$",
-      "$m=C_{8}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{8}^{3};\\ n=C_{12}^{3}$",
-      "$m=A_{8}^{3};\\ n=C_{20}^{3}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-combinari-003",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $20$ de bile: $15$ roșii și $5$ albastre. Se extrag $3$ bile. Evenimentul: toate sunt roșii. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=A_{15}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{15}^{3};\\ n=20^{3}$",
-      "$m=C_{15}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{15}^{3};\\ n=C_{5}^{3}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-combinari-004",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $7$ bile albe și $5$ roșii. Se extrag $2$ bile. Evenimentul: cel puțin o bilă este roșie. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{5}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
-      "$m=C_{5}^{1}\\cdot C_{7}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
-      "$m=C_{5}^{1}\\cdot C_{7}^{1};\\ n=C_{12}^{2}$",
-      "$m=C_{5}^{1}\\cdot C_{11}^{1};\\ n=C_{12}^{2}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-combinari-005",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $13$ bile verzi și $7$ albastre. Se extrag $3$ bile. Evenimentul: cel puțin $2$ sunt albastre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{7}^{2}\\cdot C_{13}^{1}+C_{7}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{7}^{2}+C_{7}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{7}^{2}\\cdot C_{18}^{1};\\ n=C_{20}^{3}$",
-      "$m=C_{7}^{2}\\cdot C_{13}^{1};\\ n=C_{20}^{3}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-combinari-006",
-    "tip": "simplu",
-    "intrebare": "Într-un coș sunt $20$ de ouă: $15$ roșii și $5$ galbene. Se scot $3$ ouă. Evenimentul: cel mult două sunt galbene. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
-      "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
-      "$m=C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
-      "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1}+C_{5}^{3};\\ n=C_{20}^{3}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-combinari-007",
-    "tip": "simplu",
-    "intrebare": "Dintre $22$ de flori ($14$ trandafiri și $8$ lalele) se formează un buchet de $20$ de flori. Evenimentul: buchetul are cel puțin $19$ trandafiri. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{14}^{19};\\ n=C_{22}^{20}$",
-      "$m=C_{14}^{19}\\cdot C_{8}^{1};\\ n=C_{22}^{20}$",
-      "$m=C_{22}^{19};\\ n=C_{22}^{20}$",
-      "$m=0$ (nu pot fi $19$ trandafiri din $14$);\\ $n=C_{22}^{20}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-008",
-    "tip": "simplu",
-    "intrebare": "Sunt $20$ de bomboane: $11$ „Răcușor” și $9$ „Fulgușor”. Fiecare copil primește $4$. Evenimentul: cel puțin jumătate din bomboanele lui Sabin sunt „Răcușor”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{11}^{2}+C_{11}^{3}+C_{11}^{4};\\ n=C_{20}^{4}$",
-      "$m=C_{11}^{2}\\cdot C_{9}^{2};\\ n=C_{20}^{4}$",
-      "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1}+C_{11}^{4};\\ n=C_{20}^{4}$",
-      "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1};\\ n=C_{20}^{4}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-combinari-009",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $7$ bile albe și $3$ roșii. Se extrag $2$ bile. Evenimentul: bilele au culori diferite. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=C_{10}^{2}$",
-      "$m=C_{7}^{1}+C_{3}^{1};\\ n=C_{10}^{2}$",
-      "$m=C_{7}^{2}+C_{3}^{2};\\ n=C_{10}^{2}$",
-      "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=A_{10}^{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-combinari-010",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $5$ bile verzi, $7$ galbene și $8$ albastre. Se extrag $3$ bile. Evenimentul: apar toate cele trei culori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=5\\cdot 7\\cdot 8;\\ n=A_{20}^{3}$",
-      "$m=C_{5}^{3}\\cdot C_{7}^{3}\\cdot C_{8}^{3};\\ n=C_{20}^{3}$",
-      "$m=C_{5}^{1}\\cdot C_{7}^{1}\\cdot C_{8}^{1};\\ n=C_{20}^{3}$",
-      "$m=C_{5}^{1}+C_{7}^{1}+C_{8}^{1};\\ n=C_{20}^{3}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-combinari-011",
-    "tip": "simplu",
-    "intrebare": "Într-o urnă sunt $3$ bile albe, $3$ roșii și $4$ negre. Se extrag $3$ bile. Evenimentul: cel puțin $2$ sunt negre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{4}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
-      "$m=C_{4}^{2}\\cdot C_{6}^{1}+C_{4}^{3};\\ n=C_{10}^{3}$",
-      "$m=C_{4}^{2}\\cdot C_{6}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
-      "$m=C_{4}^{2}\\cdot C_{6}^{1};\\ n=C_{10}^{3}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-combinari-012",
-    "tip": "simplu",
-    "intrebare": "Într-o clasă sunt $6$ fete și $10$ băieți. Se alege o echipă de $3$ elevi. Evenimentul: echipa are doar băieți. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{10}^{3};\\ n=16^{3}$",
-      "$m=C_{10}^{3};\\ n=C_{16}^{3}$",
-      "$m=A_{10}^{3};\\ n=C_{16}^{3}$",
-      "$m=C_{6}^{3};\\ n=C_{16}^{3}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-combinari-013",
-    "tip": "simplu",
-    "intrebare": "Într-o clasă sunt $12$ fete și $8$ băieți. Se alege o echipă de $4$ elevi. Evenimentul: niciun sex nu are majoritate. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=A_{20}^{4}$",
-      "$m=C_{12}^{4}+C_{8}^{4};\\ n=C_{20}^{4}$",
-      "$m=C_{12}^{2}+C_{8}^{2};\\ n=C_{20}^{4}$",
-      "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=C_{20}^{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-014",
-    "tip": "simplu",
-    "intrebare": "Un juriu de $4$ persoane se alege dintre $5$ dansatori, $4$ cântăreți și $1$ actor. Evenimentul: în juriu este cel puțin câte un reprezentant din fiecare domeniu. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
-      "$m=C_{5}^{1}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
-      "$m=C_{5}^{2}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
-      "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1}+C_{5}^{1}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-015",
-    "tip": "simplu",
-    "intrebare": "$12$ copii, printre care Ana și Ionuț, se împart în $2$ grupe egale de câte $6$. Evenimentul: Ana și Ionuț sunt în aceeași grupă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{10}^{4};\\ n=C_{12}^{6}$",
-      "$m=C_{10}^{5};\\ n=C_{12}^{6}$",
-      "$m=2\\cdot C_{10}^{4};\\ n=C_{12}^{6}$",
-      "$m=2\\cdot C_{10}^{4};\\ n=2\\cdot C_{12}^{6}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-combinari-016",
-    "tip": "simplu",
-    "intrebare": "$22$ de copii, printre care $2$ surori gemene, se împart în $2$ clase egale de câte $11$. Evenimentul: surorile sunt în aceeași clasă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=2\\cdot C_{20}^{9};\\ n=C_{22}^{11}$",
-      "$m=C_{20}^{10};\\ n=C_{22}^{11}$",
-      "$m=2\\cdot C_{20}^{9};\\ n=2\\cdot C_{22}^{11}$",
-      "$m=C_{20}^{9};\\ n=C_{22}^{11}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-combinari-017",
-    "tip": "simplu",
-    "intrebare": "Sunt $15$ teme și se dau $3$ la examen. Anton a învățat $10$ teme. Evenimentul: Anton rezolvă corect cel puțin $2$ dintre cele $3$ teme. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{10}^{3};\\ n=C_{15}^{3}$",
-      "$m=C_{10}^{2}\\cdot C_{5}^{1};\\ n=C_{15}^{3}$",
-      "$m=C_{10}^{2}+C_{10}^{3};\\ n=C_{15}^{3}$",
-      "$m=C_{10}^{2}\\cdot C_{5}^{1}+C_{10}^{3};\\ n=C_{15}^{3}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-018",
-    "tip": "simplu",
-    "intrebare": "Dintre $12$ piese auto, $4$ sunt defecte. Se inspectează $4$ piese. Evenimentul: cel puțin două sunt defecte. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{4}^{2}+C_{4}^{3}+C_{4}^{4};\\ n=C_{12}^{4}$",
-      "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1};\\ n=C_{12}^{4}$",
-      "$m=C_{4}^{2}\\cdot C_{8}^{2};\\ n=C_{12}^{4}$",
-      "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1}+C_{4}^{4};\\ n=C_{12}^{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-combinari-019",
-    "tip": "simplu",
-    "intrebare": "$16$ jucători se împart în $2$ echipe de câte $8$. Evenimentul: Pavel, Petru și Paul sunt în aceeași echipă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=2\\cdot C_{13}^{3};\\ n=C_{16}^{8}$",
-      "$m=C_{13}^{5};\\ n=C_{16}^{8}$",
-      "$m=2\\cdot C_{13}^{5};\\ n=C_{16}^{8}$",
-      "$m=2\\cdot C_{13}^{5};\\ n=A_{16}^{8}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-combinari-020",
-    "tip": "simplu",
-    "intrebare": "Într-un coș sunt $6$ mere roșii, $5$ verzi și $4$ galbene. Se extrag $3$ mere deodată. Evenimentul: toate au aceeași culoare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{6}^{3}+C_{5}^{3};\\ n=C_{15}^{3}$",
-      "$m=3\\cdot C_{5}^{3};\\ n=C_{15}^{3}$",
-      "$m=C_{6}^{3}\\cdot C_{5}^{3}\\cdot C_{4}^{3};\\ n=C_{15}^{3}$",
-      "$m=C_{6}^{3}+C_{5}^{3}+C_{4}^{3};\\ n=C_{15}^{3}$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "probleme-cu-combinari-001",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $10$ bile albe și $10$ roșii. Se extrag $2$ bile. Evenimentul: ambele sunt albe. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{10}^{2};\\ n=A_{20}^{2}$",
+   "$m=2\\cdot C_{10}^{2};\\ n=C_{20}^{2}$",
+   "$m=C_{10}^{2};\\ n=C_{20}^{10}$",
+   "$m=C_{10}^{2};\\ n=C_{20}^{2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Alegem $2$ bile din $20$ deodată: $n=C_{20}^{2}$. Cele $2$ bile albe se aleg dintre cele $10$ albe: $m=C_{10}^{2}$."
+ },
+ {
+  "id": "probleme-cu-combinari-002",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $12$ bile albe și $8$ negre. Se extrag $3$ bile. Evenimentul: toate sunt negre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=8^{3};\\ n=20^{3}$",
+   "$m=C_{8}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{8}^{3};\\ n=C_{12}^{3}$",
+   "$m=A_{8}^{3};\\ n=C_{20}^{3}$"
+  ],
+  "corect": 1,
+  "explicatie": "Ordinea nu contează, deci $n=C_{20}^{3}$. Cele $3$ bile negre se aleg dintre cele $8$ negre: $m=C_{8}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-003",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $20$ de bile: $15$ roșii și $5$ albastre. Se extrag $3$ bile. Evenimentul: toate sunt roșii. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=A_{15}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{15}^{3};\\ n=20^{3}$",
+   "$m=C_{15}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{15}^{3};\\ n=C_{5}^{3}$"
+  ],
+  "corect": 2,
+  "explicatie": "Cazuri posibile: $n=C_{20}^{3}$. Cele $3$ bile roșii se aleg dintre cele $15$ roșii: $m=C_{15}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-004",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $7$ bile albe și $5$ roșii. Se extrag $2$ bile. Evenimentul: cel puțin o bilă este roșie. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{5}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
+   "$m=C_{5}^{1}\\cdot C_{7}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
+   "$m=C_{5}^{1}\\cdot C_{7}^{1};\\ n=C_{12}^{2}$",
+   "$m=C_{5}^{1}\\cdot C_{11}^{1};\\ n=C_{12}^{2}$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin o roșie înseamnă $1$ roșie și $1$ albă ($C_5^1C_7^1$) sau $2$ roșii ($C_5^2$). Adunăm cazurile, iar $n=C_{12}^{2}$."
+ },
+ {
+  "id": "probleme-cu-combinari-005",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $13$ bile verzi și $7$ albastre. Se extrag $3$ bile. Evenimentul: cel puțin $2$ sunt albastre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{7}^{2}\\cdot C_{13}^{1}+C_{7}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{7}^{2}+C_{7}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{7}^{2}\\cdot C_{18}^{1};\\ n=C_{20}^{3}$",
+   "$m=C_{7}^{2}\\cdot C_{13}^{1};\\ n=C_{20}^{3}$"
+  ],
+  "corect": 0,
+  "explicatie": "Cel puțin $2$ albastre înseamnă exact $2$ albastre și $1$ verde ($C_7^2C_{13}^1$) sau $3$ albastre ($C_7^3$). Adunăm cazurile; $n=C_{20}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-006",
+  "tip": "simplu",
+  "intrebare": "Într-un coș sunt $20$ de ouă: $15$ roșii și $5$ galbene. Se scot $3$ ouă. Evenimentul: cel mult două sunt galbene. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+   "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+   "$m=C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+   "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1}+C_{5}^{3};\\ n=C_{20}^{3}$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel mult $2$ galbene exclude doar cazul cu $3$ galbene. Adunăm cazurile cu $0$, $1$ și $2$ galbene; $n=C_{20}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-007",
+  "tip": "simplu",
+  "intrebare": "Dintre $22$ de flori ($14$ trandafiri și $8$ lalele) se formează un buchet de $20$ de flori. Evenimentul: buchetul are cel puțin $19$ trandafiri. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{14}^{19};\\ n=C_{22}^{20}$",
+   "$m=C_{14}^{19}\\cdot C_{8}^{1};\\ n=C_{22}^{20}$",
+   "$m=C_{22}^{19};\\ n=C_{22}^{20}$",
+   "$m=0$ (nu pot fi $19$ trandafiri din $14$);\\ $n=C_{22}^{20}$"
+  ],
+  "corect": 3,
+  "explicatie": "Sunt doar $14$ trandafiri, deci nu pot fi $19$ într-un buchet. Nu există cazuri favorabile: $m=0$, iar $n=C_{22}^{20}$."
+ },
+ {
+  "id": "probleme-cu-combinari-008",
+  "tip": "simplu",
+  "intrebare": "Sunt $20$ de bomboane: $11$ „Răcușor” și $9$ „Fulgușor”. Fiecare copil primește $4$. Evenimentul: cel puțin jumătate din bomboanele lui Sabin sunt „Răcușor”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{11}^{2}+C_{11}^{3}+C_{11}^{4};\\ n=C_{20}^{4}$",
+   "$m=C_{11}^{2}\\cdot C_{9}^{2};\\ n=C_{20}^{4}$",
+   "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1}+C_{11}^{4};\\ n=C_{20}^{4}$",
+   "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1};\\ n=C_{20}^{4}$"
+  ],
+  "corect": 2,
+  "explicatie": "Cel puțin jumătate din $4$ înseamnă $2$, $3$ sau $4$ „Răcușor”. Pentru fiecare caz alegem și bomboanele „Fulgușor” rămase, apoi adunăm."
+ },
+ {
+  "id": "probleme-cu-combinari-009",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $7$ bile albe și $3$ roșii. Se extrag $2$ bile. Evenimentul: bilele au culori diferite. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=C_{10}^{2}$",
+   "$m=C_{7}^{1}+C_{3}^{1};\\ n=C_{10}^{2}$",
+   "$m=C_{7}^{2}+C_{3}^{2};\\ n=C_{10}^{2}$",
+   "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=A_{10}^{2}$"
+  ],
+  "corect": 0,
+  "explicatie": "Culori diferite: o bilă albă și una roșie, deci $m=C_7^1C_3^1$. Cele două bile se extrag deodată: $n=C_{10}^{2}$."
+ },
+ {
+  "id": "probleme-cu-combinari-010",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $5$ bile verzi, $7$ galbene și $8$ albastre. Se extrag $3$ bile. Evenimentul: apar toate cele trei culori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=5\\cdot 7\\cdot 8;\\ n=A_{20}^{3}$",
+   "$m=C_{5}^{3}\\cdot C_{7}^{3}\\cdot C_{8}^{3};\\ n=C_{20}^{3}$",
+   "$m=C_{5}^{1}\\cdot C_{7}^{1}\\cdot C_{8}^{1};\\ n=C_{20}^{3}$",
+   "$m=C_{5}^{1}+C_{7}^{1}+C_{8}^{1};\\ n=C_{20}^{3}$"
+  ],
+  "corect": 2,
+  "explicatie": "Toate cele trei culori înseamnă câte o bilă din fiecare: $m=C_5^1C_7^1C_8^1$. Cazuri posibile: $n=C_{20}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-011",
+  "tip": "simplu",
+  "intrebare": "Într-o urnă sunt $3$ bile albe, $3$ roșii și $4$ negre. Se extrag $3$ bile. Evenimentul: cel puțin $2$ sunt negre. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{4}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
+   "$m=C_{4}^{2}\\cdot C_{6}^{1}+C_{4}^{3};\\ n=C_{10}^{3}$",
+   "$m=C_{4}^{2}\\cdot C_{6}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
+   "$m=C_{4}^{2}\\cdot C_{6}^{1};\\ n=C_{10}^{3}$"
+  ],
+  "corect": 1,
+  "explicatie": "Cel puțin $2$ negre înseamnă $2$ negre și $1$ dintre cele $6$ nenegre ($C_4^2C_6^1$) sau $3$ negre ($C_4^3$). Adunăm; $n=C_{10}^{3}$."
+ },
+ {
+  "id": "probleme-cu-combinari-012",
+  "tip": "simplu",
+  "intrebare": "Într-o clasă sunt $6$ fete și $10$ băieți. Se alege o echipă de $3$ elevi. Evenimentul: echipa are doar băieți. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{10}^{3};\\ n=16^{3}$",
+   "$m=C_{10}^{3};\\ n=C_{16}^{3}$",
+   "$m=A_{10}^{3};\\ n=C_{16}^{3}$",
+   "$m=C_{6}^{3};\\ n=C_{16}^{3}$"
+  ],
+  "corect": 1,
+  "explicatie": "Doar băieți: echipa se alege dintre cei $10$ băieți, $m=C_{10}^{3}$. Echipele posibile sunt $n=C_{16}^{3}$ (ordinea nu contează)."
+ },
+ {
+  "id": "probleme-cu-combinari-013",
+  "tip": "simplu",
+  "intrebare": "Într-o clasă sunt $12$ fete și $8$ băieți. Se alege o echipă de $4$ elevi. Evenimentul: niciun sex nu are majoritate. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=A_{20}^{4}$",
+   "$m=C_{12}^{4}+C_{8}^{4};\\ n=C_{20}^{4}$",
+   "$m=C_{12}^{2}+C_{8}^{2};\\ n=C_{20}^{4}$",
+   "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=C_{20}^{4}$"
+  ],
+  "corect": 3,
+  "explicatie": "Nicio majoritate la $4$ elevi înseamnă $2$ fete și $2$ băieți: $m=C_{12}^{2}C_{8}^{2}$. Cazuri posibile: $n=C_{20}^{4}$."
+ },
+ {
+  "id": "probleme-cu-combinari-014",
+  "tip": "simplu",
+  "intrebare": "Un juriu de $4$ persoane se alege dintre $5$ dansatori, $4$ cântăreți și $1$ actor. Evenimentul: în juriu este cel puțin câte un reprezentant din fiecare domeniu. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+   "$m=C_{5}^{1}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+   "$m=C_{5}^{2}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+   "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1}+C_{5}^{1}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$"
+  ],
+  "corect": 3,
+  "explicatie": "Actorul este singurul, deci intră în juriu. Rămân $3$ locuri: $2$ dansatori și $1$ cântăreț sau invers. Adunăm cele două cazuri; $n=C_{10}^{4}$."
+ },
+ {
+  "id": "probleme-cu-combinari-015",
+  "tip": "simplu",
+  "intrebare": "$12$ copii, printre care Ana și Ionuț, se împart în $2$ grupe egale de câte $6$. Evenimentul: Ana și Ionuț sunt în aceeași grupă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{10}^{4};\\ n=C_{12}^{6}$",
+   "$m=C_{10}^{5};\\ n=C_{12}^{6}$",
+   "$m=2\\cdot C_{10}^{4};\\ n=C_{12}^{6}$",
+   "$m=2\\cdot C_{10}^{4};\\ n=2\\cdot C_{12}^{6}$"
+  ],
+  "corect": 2,
+  "explicatie": "Punem Ana și Ionuț în aceeași grupă: grupa poate fi oricare din $2$, iar ceilalți $4$ se aleg din $10$. Deci $m=2\\cdot C_{10}^{4}$, iar $n=C_{12}^{6}$."
+ },
+ {
+  "id": "probleme-cu-combinari-016",
+  "tip": "simplu",
+  "intrebare": "$22$ de copii, printre care $2$ surori gemene, se împart în $2$ clase egale de câte $11$. Evenimentul: surorile sunt în aceeași clasă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=2\\cdot C_{20}^{9};\\ n=C_{22}^{11}$",
+   "$m=C_{20}^{10};\\ n=C_{22}^{11}$",
+   "$m=2\\cdot C_{20}^{9};\\ n=2\\cdot C_{22}^{11}$",
+   "$m=C_{20}^{9};\\ n=C_{22}^{11}$"
+  ],
+  "corect": 0,
+  "explicatie": "Surorile sunt în aceeași clasă: alegem clasa ($2$ moduri) și completăm cu $9$ copii din cei $20$ rămași. Deci $m=2C_{20}^{9}$, iar $n=C_{22}^{11}$."
+ },
+ {
+  "id": "probleme-cu-combinari-017",
+  "tip": "simplu",
+  "intrebare": "Sunt $15$ teme și se dau $3$ la examen. Anton a învățat $10$ teme. Evenimentul: Anton rezolvă corect cel puțin $2$ dintre cele $3$ teme. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{10}^{3};\\ n=C_{15}^{3}$",
+   "$m=C_{10}^{2}\\cdot C_{5}^{1};\\ n=C_{15}^{3}$",
+   "$m=C_{10}^{2}+C_{10}^{3};\\ n=C_{15}^{3}$",
+   "$m=C_{10}^{2}\\cdot C_{5}^{1}+C_{10}^{3};\\ n=C_{15}^{3}$"
+  ],
+  "corect": 3,
+  "explicatie": "Cel puțin $2$ teme învățate din $3$: exact $2$ învățate și $1$ neînvățată ($C_{10}^2C_5^1$) sau toate $3$ învățate ($C_{10}^3$). Adunăm cazurile."
+ },
+ {
+  "id": "probleme-cu-combinari-018",
+  "tip": "simplu",
+  "intrebare": "Dintre $12$ piese auto, $4$ sunt defecte. Se inspectează $4$ piese. Evenimentul: cel puțin două sunt defecte. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{4}^{2}+C_{4}^{3}+C_{4}^{4};\\ n=C_{12}^{4}$",
+   "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1};\\ n=C_{12}^{4}$",
+   "$m=C_{4}^{2}\\cdot C_{8}^{2};\\ n=C_{12}^{4}$",
+   "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1}+C_{4}^{4};\\ n=C_{12}^{4}$"
+  ],
+  "corect": 3,
+  "explicatie": "Cel puțin $2$ defecte din $4$ înseamnă $2$, $3$ sau $4$ defecte. Completăm cu piese bune și adunăm cele trei cazuri; $n=C_{12}^{4}$."
+ },
+ {
+  "id": "probleme-cu-combinari-019",
+  "tip": "simplu",
+  "intrebare": "$16$ jucători se împart în $2$ echipe de câte $8$. Evenimentul: Pavel, Petru și Paul sunt în aceeași echipă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=2\\cdot C_{13}^{3};\\ n=C_{16}^{8}$",
+   "$m=C_{13}^{5};\\ n=C_{16}^{8}$",
+   "$m=2\\cdot C_{13}^{5};\\ n=C_{16}^{8}$",
+   "$m=2\\cdot C_{13}^{5};\\ n=A_{16}^{8}$"
+  ],
+  "corect": 2,
+  "explicatie": "Cei trei prieteni sunt în aceeași echipă: alegem echipa ($2$ moduri) și restul de $5$ locuri din cei $13$ rămași. Deci $m=2C_{13}^{5}$, iar $n=C_{16}^{8}$."
+ },
+ {
+  "id": "probleme-cu-combinari-020",
+  "tip": "simplu",
+  "intrebare": "Într-un coș sunt $6$ mere roșii, $5$ verzi și $4$ galbene. Se extrag $3$ mere deodată. Evenimentul: toate au aceeași culoare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
+  "variante": [
+   "$m=C_{6}^{3}+C_{5}^{3};\\ n=C_{15}^{3}$",
+   "$m=3\\cdot C_{5}^{3};\\ n=C_{15}^{3}$",
+   "$m=C_{6}^{3}\\cdot C_{5}^{3}\\cdot C_{4}^{3};\\ n=C_{15}^{3}$",
+   "$m=C_{6}^{3}+C_{5}^{3}+C_{4}^{3};\\ n=C_{15}^{3}$"
+  ],
+  "corect": 3,
+  "explicatie": "Toate de aceeași culoare înseamnă $3$ roșii, $3$ verzi sau $3$ galbene. Cazurile se exclud, deci le adunăm: $m=C_6^3+C_5^3+C_4^3$."
+ }
 ]

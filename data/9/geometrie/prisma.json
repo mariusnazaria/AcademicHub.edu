@@ -1,194 +1,210 @@
 [
-  {
-    "id": "prisma-001",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează volumul prismei?",
-    "variante": [
-      "$V=A_b\\cdot h$",
-      "$V=\\frac{A_b\\cdot h}{3}$",
-      "$V=P_b\\cdot h$",
-      "$V=A_b+h$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-002",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria laterală a prismei drepte?",
-    "variante": [
-      "$A_l=P_b\\cdot h$",
-      "$A_l=2A_b$",
-      "$A_l=A_b\\cdot h$",
-      "$A_l=\\frac{P_b\\cdot h}{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-003",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria totală a prismei?",
-    "variante": [
-      "$A_t=A_l+2A_b$",
-      "$A_t=A_l\\cdot A_b$",
-      "$A_t=2A_l+A_b$",
-      "$A_t=A_l+A_b$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-004",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă prismă dreaptă?",
-    "variante": [
-      "toate fețele sunt egale",
-      "bazele sunt pătrate",
-      "muchiile laterale sunt perpendiculare pe baze",
-      "muchiile laterale sunt oblice"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "prisma-005",
-    "tip": "simplu",
-    "intrebare": "Ce baze are o prismă triunghiulară regulată?",
-    "variante": [
-      "triunghiuri echilaterale",
-      "hexagoane",
-      "triunghiuri dreptunghice",
-      "pătrate"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-006",
-    "tip": "simplu",
-    "intrebare": "Ce baze are o prismă patrulateră regulată?",
-    "variante": [
-      "triunghiuri",
-      "dreptunghiuri oarecare",
-      "romburi oarecare",
-      "pătrate"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "prisma-007",
-    "tip": "simplu",
-    "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este volumul?",
-    "variante": [
-      "$45$",
-      "$60$",
-      "$15$",
-      "$30$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-008",
-    "tip": "simplu",
-    "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este aria laterală?",
-    "variante": [
-      "$30$",
-      "$15$",
-      "$60$",
-      "$45$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "prisma-009",
-    "tip": "simplu",
-    "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este aria totală?",
-    "variante": [
-      "$69$",
-      "$78$",
-      "$105$",
-      "$60$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "prisma-010",
-    "tip": "simplu",
-    "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este aria laterală?",
-    "variante": [
-      "$6$",
-      "$18$",
-      "$12$",
-      "$9$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "prisma-011",
-    "tip": "simplu",
-    "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este aria bazei?",
-    "variante": [
-      "$\\sqrt3$",
-      "$2\\sqrt3$",
-      "$3$",
-      "$4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-012",
-    "tip": "simplu",
-    "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este volumul?",
-    "variante": [
-      "$6$",
-      "$12$",
-      "$3\\sqrt3$",
-      "$6\\sqrt3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "prisma-013",
-    "tip": "simplu",
-    "intrebare": "Hexagonală regulată cu $a=2$, $h=1$. Cât este aria laterală?",
-    "variante": [
-      "$6$",
-      "$2$",
-      "$12$",
-      "$24$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "prisma-014",
-    "tip": "simplu",
-    "intrebare": "Câte fețe laterale are o prismă $n$-gonală?",
-    "variante": [
-      "$n$",
-      "$2n$",
-      "$n+2$",
-      "$n-1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-015",
-    "tip": "simplu",
-    "intrebare": "Câte vârfuri are o prismă $n$-gonală?",
-    "variante": [
-      "$2n$",
-      "$3n$",
-      "$n+2$",
-      "$n$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prisma-016",
-    "tip": "simplu",
-    "intrebare": "Câte muchii are o prismă $n$-gonală?",
-    "variante": [
-      "$n$",
-      "$3n$",
-      "$2n$",
-      "$n+2$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "prisma-001",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează volumul prismei?",
+  "variante": [
+   "$V=A_b\\cdot h$",
+   "$V=\\frac{A_b\\cdot h}{3}$",
+   "$V=P_b\\cdot h$",
+   "$V=A_b+h$"
+  ],
+  "corect": 0,
+  "explicatie": "Volumul prismei este aria bazei înmulțită cu înălțimea: $V=A_b\\cdot h$."
+ },
+ {
+  "id": "prisma-002",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria laterală a prismei drepte?",
+  "variante": [
+   "$A_l=P_b\\cdot h$",
+   "$A_l=2A_b$",
+   "$A_l=A_b\\cdot h$",
+   "$A_l=\\frac{P_b\\cdot h}{2}$"
+  ],
+  "corect": 0,
+  "explicatie": "Fețele laterale sunt dreptunghiuri cu înălțimea $h$ care acoperă perimetrul bazei: $A_l=P_b\\cdot h$."
+ },
+ {
+  "id": "prisma-003",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria totală a prismei?",
+  "variante": [
+   "$A_t=A_l+2A_b$",
+   "$A_t=A_l\\cdot A_b$",
+   "$A_t=2A_l+A_b$",
+   "$A_t=A_l+A_b$"
+  ],
+  "corect": 0,
+  "explicatie": "Aria totală este aria laterală plus cele două baze: $A_t=A_l+2A_b$."
+ },
+ {
+  "id": "prisma-004",
+  "tip": "simplu",
+  "intrebare": "Ce înseamnă prismă dreaptă?",
+  "variante": [
+   "toate fețele sunt egale",
+   "bazele sunt pătrate",
+   "muchiile laterale sunt perpendiculare pe baze",
+   "muchiile laterale sunt oblice"
+  ],
+  "corect": 2,
+  "explicatie": "La prisma dreaptă muchiile laterale sunt perpendiculare pe planele bazelor."
+ },
+ {
+  "id": "prisma-005",
+  "tip": "simplu",
+  "intrebare": "Ce baze are o prismă triunghiulară regulată?",
+  "variante": [
+   "triunghiuri echilaterale",
+   "hexagoane",
+   "triunghiuri dreptunghice",
+   "pătrate"
+  ],
+  "corect": 0,
+  "explicatie": "Prisma regulată este dreaptă și are baze poligoane regulate; la cea triunghiulară bazele sunt triunghiuri echilaterale."
+ },
+ {
+  "id": "prisma-006",
+  "tip": "simplu",
+  "intrebare": "Ce baze are o prismă patrulateră regulată?",
+  "variante": [
+   "triunghiuri",
+   "dreptunghiuri oarecare",
+   "romburi oarecare",
+   "pătrate"
+  ],
+  "corect": 3,
+  "explicatie": "Poligonul regulat cu $4$ laturi este pătratul, deci bazele sunt pătrate."
+ },
+ {
+  "id": "prisma-007",
+  "tip": "simplu",
+  "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este volumul?",
+  "variante": [
+   "$45$",
+   "$60$",
+   "$15$",
+   "$30$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=A_b\\cdot h=3^2\\cdot5=45$."
+ },
+ {
+  "id": "prisma-008",
+  "tip": "simplu",
+  "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este aria laterală?",
+  "variante": [
+   "$30$",
+   "$15$",
+   "$60$",
+   "$45$"
+  ],
+  "corect": 2,
+  "explicatie": "$P_b=4\\cdot3=12$, deci $A_l=12\\cdot5=60$."
+ },
+ {
+  "id": "prisma-009",
+  "tip": "simplu",
+  "intrebare": "Prismă patrulateră regulată cu $a=3$, $h=5$. Cât este aria totală?",
+  "variante": [
+   "$69$",
+   "$78$",
+   "$105$",
+   "$60$"
+  ],
+  "corect": 1,
+  "explicatie": "$A_t=A_l+2A_b=60+2\\cdot9=78$."
+ },
+ {
+  "id": "prisma-010",
+  "tip": "simplu",
+  "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este aria laterală?",
+  "variante": [
+   "$6$",
+   "$18$",
+   "$12$",
+   "$9$"
+  ],
+  "corect": 1,
+  "explicatie": "$P_b=3\\cdot2=6$, deci $A_l=P_b\\cdot h=6\\cdot3=18$."
+ },
+ {
+  "id": "prisma-011",
+  "tip": "simplu",
+  "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este aria bazei?",
+  "variante": [
+   "$\\sqrt3$",
+   "$2\\sqrt3$",
+   "$3$",
+   "$4$"
+  ],
+  "corect": 0,
+  "explicatie": "Baza este triunghi echilateral: $A_b=\\frac{a^2\\sqrt3}{4}=\\frac{4\\sqrt3}{4}=\\sqrt3$."
+ },
+ {
+  "id": "prisma-012",
+  "tip": "simplu",
+  "intrebare": "Prismă triunghiulară regulată cu $a=2$, $h=3$. Cât este volumul?",
+  "variante": [
+   "$6$",
+   "$12$",
+   "$3\\sqrt3$",
+   "$6\\sqrt3$"
+  ],
+  "corect": 2,
+  "explicatie": "$V=A_b\\cdot h=\\sqrt3\\cdot3=3\\sqrt3$."
+ },
+ {
+  "id": "prisma-013",
+  "tip": "simplu",
+  "intrebare": "Hexagonală regulată cu $a=2$, $h=1$. Cât este aria laterală?",
+  "variante": [
+   "$6$",
+   "$2$",
+   "$12$",
+   "$24$"
+  ],
+  "corect": 2,
+  "explicatie": "$P_b=6\\cdot2=12$, deci $A_l=12\\cdot1=12$."
+ },
+ {
+  "id": "prisma-014",
+  "tip": "simplu",
+  "intrebare": "Câte fețe laterale are o prismă $n$-gonală?",
+  "variante": [
+   "$n$",
+   "$2n$",
+   "$n+2$",
+   "$n-1$"
+  ],
+  "corect": 0,
+  "explicatie": "Fiecare latură a bazei dă o față laterală, deci sunt $n$ fețe laterale."
+ },
+ {
+  "id": "prisma-015",
+  "tip": "simplu",
+  "intrebare": "Câte vârfuri are o prismă $n$-gonală?",
+  "variante": [
+   "$2n$",
+   "$3n$",
+   "$n+2$",
+   "$n$"
+  ],
+  "corect": 0,
+  "explicatie": "Fiecare dintre cele două baze are $n$ vârfuri, deci în total $2n$."
+ },
+ {
+  "id": "prisma-016",
+  "tip": "simplu",
+  "intrebare": "Câte muchii are o prismă $n$-gonală?",
+  "variante": [
+   "$n$",
+   "$3n$",
+   "$2n$",
+   "$n+2$"
+  ],
+  "corect": 1,
+  "explicatie": "Sunt $n$ muchii la fiecare bază și $n$ muchii laterale: $n+n+n=3n$."
+ }
 ]

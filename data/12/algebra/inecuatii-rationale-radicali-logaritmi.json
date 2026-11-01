@@ -1,245 +1,264 @@
 [
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-001",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\log_2x$ și dreapta $y=3$ (roșie). Rezolvă $\\log_2x>3$.",
-    "variante": [
-      "$(0;8)$",
-      "$(8;+\\infty)$",
-      "$(3;+\\infty)$",
-      "$(0;3)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ir-1.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-002",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\log_2x<3$.",
-    "variante": [
-      "$(8;+\\infty)$",
-      "$(3;+\\infty)$",
-      "$(0;3)$",
-      "$(0;8)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ir-1.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-003",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\log_2x$ și dreapta $y=1$ (roșie). Rezolvă $\\log_2x>1$.",
-    "variante": [
-      "$(0;2)$",
-      "$(1;+\\infty)$",
-      "$(0;1)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ir-2.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-004",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\log_2x<1$.",
-    "variante": [
-      "$(0;2)$",
-      "$(1;+\\infty)$",
-      "$(0;1)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ir-2.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-005",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\log_2x$ și axa $Ox$. Rezolvă $\\log_2x>0$.",
-    "variante": [
-      "$(1;+\\infty)$",
-      "$(0;1)$",
-      "$(0;+\\infty)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ir-3.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-006",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\log_2x<0$.",
-    "variante": [
-      "$(1;+\\infty)$",
-      "$(0;1)$",
-      "$(-\\infty;1)$",
-      "$(0;2)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ir-3.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-007",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\sqrt{x}$ și dreapta $y=2$ (roșie). Rezolvă $\\sqrt{x}<2$.",
-    "variante": [
-      "$(4;+\\infty)$",
-      "$[0;2)$",
-      "$(-\\infty;4)$",
-      "$[0;4)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ir-4.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-008",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\sqrt{x}>2$.",
-    "variante": [
-      "$[0;2)$",
-      "$[0;4)$",
-      "$(4;+\\infty)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ir-4.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-009",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\sqrt{x}$ și dreapta $y=3$ (roșie). Rezolvă $\\sqrt{x}>3$.",
-    "variante": [
-      "$[0;3)$",
-      "$(9;+\\infty)$",
-      "$(3;+\\infty)$",
-      "$[0;9)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ir-5.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-010",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=\\frac1x$. Rezolvă $\\frac1x>0$.",
-    "variante": [
-      "$(-\\infty;0)$",
-      "$(0;+\\infty)$",
-      "$\\mathbb{R}\\setminus\\{0\\}$",
-      "$\\mathbb{R}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ir-6.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-011",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\frac1x<0$.",
-    "variante": [
-      "$(0;+\\infty)$",
-      "$(-\\infty;0)$",
-      "$\\mathbb{R}$",
-      "$\\mathbb{R}\\setminus\\{0\\}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-ir-6.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-012",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=\\frac{x-1}{x+2}$ (dreptele roșii sunt asimptote). Rezolvă $f(x)>0$.",
-    "variante": [
-      "$(1;+\\infty)$",
-      "$(-2;1)$",
-      "$(-\\infty;-2)\\cup(1;+\\infty)$",
-      "$(-\\infty;-2)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ir-7.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-013",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)<0$.",
-    "variante": [
-      "$(-2;1)$",
-      "$(-\\infty;-2)$",
-      "$(-\\infty;-2)\\cup(1;+\\infty)$",
-      "$(1;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-ir-7.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-014",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=\\frac{x}{x-2}$ (dreptele roșii sunt asimptote). Rezolvă $f(x)<0$.",
-    "variante": [
-      "$(-\\infty;0)\\cup(2;+\\infty)$",
-      "$(-\\infty;0)$",
-      "$(2;+\\infty)$",
-      "$(0;2)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-ir-8.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-015",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $f(x)>0$.",
-    "variante": [
-      "$(2;+\\infty)$",
-      "$(0;2)$",
-      "$(-\\infty;0)\\cup(2;+\\infty)$",
-      "$(-\\infty;0)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-ir-8.svg"
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-016",
-    "tip": "simplu",
-    "intrebare": "Ce condiție cerem la $\\log_a f(x)$?",
-    "variante": [
-      "$f(x)\\neq1$",
-      "$f(x)>0$",
-      "$f(x)\\geq0$",
-      "$f(x)<0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-017",
-    "tip": "simplu",
-    "intrebare": "Ce condiție cerem la $\\sqrt{f(x)}$?",
-    "variante": [
-      "$f(x)\\leq0$",
-      "$f(x)>0$",
-      "$f(x)\\geq0$",
-      "$f(x)\\neq0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-018",
-    "tip": "simplu",
-    "intrebare": "Ce facem cu valorile care anulează numitorul?",
-    "variante": [
-      "le includem",
-      "le dublăm",
-      "le ignorăm",
-      "le excludem mereu"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "inecuatii-rationale-radicali-logaritmi-019",
-    "tip": "simplu",
-    "intrebare": "La baza $0<a<1$, logaritmul este descrescător, deci sensul inegalității:",
-    "variante": [
-      "se păstrează",
-      "se dublează",
-      "se schimbă",
-      "dispare"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-001",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\log_2x$ și dreapta $y=3$ (roșie). Rezolvă $\\log_2x>3$.",
+  "variante": [
+   "$(0;8)$",
+   "$(8;+\\infty)$",
+   "$(3;+\\infty)$",
+   "$(0;3)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ir-1.svg",
+  "explicatie": "$\\log_2x$ crește și $\\log_28=3$. Graficul e deasupra dreptei $y=3$ pentru $x>8$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-002",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\log_2x<3$.",
+  "variante": [
+   "$(8;+\\infty)$",
+   "$(3;+\\infty)$",
+   "$(0;3)$",
+   "$(0;8)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ir-1.svg",
+  "explicatie": "Cu $x>0$ (condiția de existență) și $\\log_2x<\\log_28$, rezultă $0<x<8$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-003",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\log_2x$ și dreapta $y=1$ (roșie). Rezolvă $\\log_2x>1$.",
+  "variante": [
+   "$(0;2)$",
+   "$(1;+\\infty)$",
+   "$(0;1)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ir-2.svg",
+  "explicatie": "$\\log_22=1$ și funcția crește: graficul e deasupra dreptei $y=1$ pentru $x>2$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-004",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\log_2x<1$.",
+  "variante": [
+   "$(0;2)$",
+   "$(1;+\\infty)$",
+   "$(0;1)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ir-2.svg",
+  "explicatie": "Cu $x>0$ și $\\log_2x<\\log_22$, baza $2>1$ păstrează sensul: $x\\in(0;2)$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-005",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\log_2x$ și axa $Ox$. Rezolvă $\\log_2x>0$.",
+  "variante": [
+   "$(1;+\\infty)$",
+   "$(0;1)$",
+   "$(0;+\\infty)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ir-3.svg",
+  "explicatie": "Graficul lui $\\log_2x$ trece prin $(1;0)$ și crește, deci e deasupra axei $Ox$ pentru $x>1$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-006",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\log_2x<0$.",
+  "variante": [
+   "$(1;+\\infty)$",
+   "$(0;1)$",
+   "$(-\\infty;1)$",
+   "$(0;2)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ir-3.svg",
+  "explicatie": "Graficul e sub axa $Ox$ între $0$ și $1$ (el trece prin $(1;0)$), deci $x\\in(0;1)$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-007",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\sqrt{x}$ și dreapta $y=2$ (roșie). Rezolvă $\\sqrt{x}<2$.",
+  "variante": [
+   "$(4;+\\infty)$",
+   "$[0;2)$",
+   "$(-\\infty;4)$",
+   "$[0;4)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ir-4.svg",
+  "explicatie": "Cu $x\\geq0$ pentru existența radicalului: $\\sqrt x<2$ dă $x<4$, deci $[0;4)$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-008",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\sqrt{x}>2$.",
+  "variante": [
+   "$[0;2)$",
+   "$[0;4)$",
+   "$(4;+\\infty)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ir-4.svg",
+  "explicatie": "Funcția $\\sqrt x$ crește și $\\sqrt4=2$. Graficul e deasupra dreptei $y=2$ pentru $x>4$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-009",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\sqrt{x}$ și dreapta $y=3$ (roșie). Rezolvă $\\sqrt{x}>3$.",
+  "variante": [
+   "$[0;3)$",
+   "$(9;+\\infty)$",
+   "$(3;+\\infty)$",
+   "$[0;9)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ir-5.svg",
+  "explicatie": "$\\sqrt x>3$ se ridică la pătrat (ambii membri pozitivi): $x>9$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-010",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=\\frac1x$. Rezolvă $\\frac1x>0$.",
+  "variante": [
+   "$(-\\infty;0)$",
+   "$(0;+\\infty)$",
+   "$\\mathbb{R}\\setminus\\{0\\}$",
+   "$\\mathbb{R}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ir-6.svg",
+  "explicatie": "Graficul hiperbolei e deasupra axei $Ox$ doar în dreapta axei $Oy$, adică pentru $x>0$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-011",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $\\frac1x<0$.",
+  "variante": [
+   "$(0;+\\infty)$",
+   "$(-\\infty;0)$",
+   "$\\mathbb{R}$",
+   "$\\mathbb{R}\\setminus\\{0\\}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-ir-6.svg",
+  "explicatie": "Graficul hiperbolei e sub axa $Ox$ doar pentru $x<0$ (ramura din stânga)."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-012",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $f(x)=\\frac{x-1}{x+2}$ (dreptele roșii sunt asimptote). Rezolvă $f(x)>0$.",
+  "variante": [
+   "$(1;+\\infty)$",
+   "$(-2;1)$",
+   "$(-\\infty;-2)\\cup(1;+\\infty)$",
+   "$(-\\infty;-2)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ir-7.svg",
+  "explicatie": "Graficul e deasupra axei $Ox$ la stânga asimptotei $x=-2$ și la dreapta lui $x=1$ (zeroul funcției)."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-013",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)<0$.",
+  "variante": [
+   "$(-2;1)$",
+   "$(-\\infty;-2)$",
+   "$(-\\infty;-2)\\cup(1;+\\infty)$",
+   "$(1;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-ir-7.svg",
+  "explicatie": "Graficul e sub axa $Ox$ între asimptota $x=-2$ și zeroul $x=1$, deci $x\\in(-2;1)$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-014",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $f(x)=\\frac{x}{x-2}$ (dreptele roșii sunt asimptote). Rezolvă $f(x)<0$.",
+  "variante": [
+   "$(-\\infty;0)\\cup(2;+\\infty)$",
+   "$(-\\infty;0)$",
+   "$(2;+\\infty)$",
+   "$(0;2)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-ir-8.svg",
+  "explicatie": "Graficul e sub axa $Ox$ între zeroul $x=0$ și asimptota $x=2$, deci $x\\in(0;2)$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-015",
+  "tip": "simplu",
+  "intrebare": "Rezolvă $f(x)>0$.",
+  "variante": [
+   "$(2;+\\infty)$",
+   "$(0;2)$",
+   "$(-\\infty;0)\\cup(2;+\\infty)$",
+   "$(-\\infty;0)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-ir-8.svg",
+  "explicatie": "Graficul e deasupra axei $Ox$ pentru $x<0$ și pentru $x>2$ (în afara intervalului dintre zero și asimptotă)."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-016",
+  "tip": "simplu",
+  "intrebare": "Ce condiție cerem la $\\log_a f(x)$?",
+  "variante": [
+   "$f(x)\\neq1$",
+   "$f(x)>0$",
+   "$f(x)\\geq0$",
+   "$f(x)<0$"
+  ],
+  "corect": 1,
+  "explicatie": "Logaritmul există doar pentru argument strict pozitiv: $f(x)>0$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-017",
+  "tip": "simplu",
+  "intrebare": "Ce condiție cerem la $\\sqrt{f(x)}$?",
+  "variante": [
+   "$f(x)\\leq0$",
+   "$f(x)>0$",
+   "$f(x)\\geq0$",
+   "$f(x)\\neq0$"
+  ],
+  "corect": 2,
+  "explicatie": "Radicalul de ordin par există când expresia de sub el este pozitivă sau zero: $f(x)\\geq0$."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-018",
+  "tip": "simplu",
+  "intrebare": "Ce facem cu valorile care anulează numitorul?",
+  "variante": [
+   "le includem",
+   "le dublăm",
+   "le ignorăm",
+   "le excludem mereu"
+  ],
+  "corect": 3,
+  "explicatie": "Fracția nu are sens când numitorul este 0, deci aceste valori se exclud mereu din soluție."
+ },
+ {
+  "id": "inecuatii-rationale-radicali-logaritmi-019",
+  "tip": "simplu",
+  "intrebare": "La baza $0<a<1$, logaritmul este descrescător, deci sensul inegalității:",
+  "variante": [
+   "se păstrează",
+   "se dublează",
+   "se schimbă",
+   "dispare"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $0<a<1$ logaritmul este descrescător, deci la trecerea la argumente sensul inegalității se schimbă."
+ }
 ]

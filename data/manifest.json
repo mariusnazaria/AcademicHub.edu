@@ -70,77 +70,92 @@
             {
               "id": "numere-reale",
               "nume": "§1 Mulțimea numerelor reale",
-              "fisier": "data/9/algebra/numere-reale.json"
+              "fisier": "data/9/algebra/numere-reale.json",
+              "nr": 19
             },
             {
               "id": "operatii-cu-numere-reale",
               "nume": "§2 Operații cu numere reale",
-              "fisier": "data/9/algebra/operatii-cu-numere-reale.json"
+              "fisier": "data/9/algebra/operatii-cu-numere-reale.json",
+              "nr": 19
             },
             {
               "id": "puteri-si-radicali",
               "nume": "§3 Puteri și radicali",
-              "fisier": "data/9/algebra/puteri-si-radicali.json"
+              "fisier": "data/9/algebra/puteri-si-radicali.json",
+              "nr": 20
             },
             {
               "id": "monoame",
               "nume": "Monoame. Operații cu monoame",
-              "fisier": "data/9/algebra/monoame.json"
+              "fisier": "data/9/algebra/monoame.json",
+              "nr": 17
             },
             {
               "id": "polinoame",
               "nume": "Polinoame. Operații cu polinoame",
-              "fisier": "data/9/algebra/polinoame.json"
+              "fisier": "data/9/algebra/polinoame.json",
+              "nr": 20
             },
             {
               "id": "impartirea-polinoamelor",
               "nume": "Împărțirea polinoamelor",
-              "fisier": "data/9/algebra/impartirea-polinoamelor.json"
+              "fisier": "data/9/algebra/impartirea-polinoamelor.json",
+              "nr": 18
             },
             {
               "id": "radacinile-polinoamelor",
               "nume": "Rădăcinile polinoamelor",
-              "fisier": "data/9/algebra/radacinile-polinoamelor.json"
+              "fisier": "data/9/algebra/radacinile-polinoamelor.json",
+              "nr": 19
             },
             {
               "id": "fractii-algebrice",
               "nume": "Operații cu fracții algebrice",
-              "fisier": "data/9/algebra/fractii-algebrice.json"
+              "fisier": "data/9/algebra/fractii-algebrice.json",
+              "nr": 18
             },
             {
               "id": "ecuatii-ax-plus-b",
               "nume": "Ecuații de forma ax + b = 0",
-              "fisier": "data/9/algebra/ecuatii-ax-plus-b.json"
+              "fisier": "data/9/algebra/ecuatii-ax-plus-b.json",
+              "nr": 18
             },
             {
               "id": "ecuatii-de-gradul-2",
               "nume": "Ecuații de gradul II",
-              "fisier": "data/9/algebra/ecuatii-de-gradul-2.json"
+              "fisier": "data/9/algebra/ecuatii-de-gradul-2.json",
+              "nr": 19
             },
             {
               "id": "ecuatii-rationale",
               "nume": "Ecuații raționale",
-              "fisier": "data/9/algebra/ecuatii-rationale.json"
+              "fisier": "data/9/algebra/ecuatii-rationale.json",
+              "nr": 16
             },
             {
               "id": "sisteme-de-ecuatii",
               "nume": "Sisteme de ecuații",
-              "fisier": "data/9/algebra/sisteme-de-ecuatii.json"
+              "fisier": "data/9/algebra/sisteme-de-ecuatii.json",
+              "nr": 16
             },
             {
               "id": "probleme-cu-ecuatii",
               "nume": "Rezolvarea problemelor cu ecuații",
-              "fisier": "data/9/algebra/probleme-cu-ecuatii.json"
+              "fisier": "data/9/algebra/probleme-cu-ecuatii.json",
+              "nr": 16
             },
             {
               "id": "inecuatii-de-gradul-1",
               "nume": "Inecuații de gradul I",
-              "fisier": "data/9/algebra/inecuatii-de-gradul-1.json"
+              "fisier": "data/9/algebra/inecuatii-de-gradul-1.json",
+              "nr": 18
             },
             {
               "id": "inecuatii-de-gradul-2",
               "nume": "Inecuații de gradul II",
-              "fisier": "data/9/algebra/inecuatii-de-gradul-2.json"
+              "fisier": "data/9/algebra/inecuatii-de-gradul-2.json",
+              "nr": 20
             }
           ]
         },
@@ -151,32 +166,38 @@
             {
               "id": "proprietati-ale-functiilor",
               "nume": "§2.1 Proprietăți ale funcțiilor numerice",
-              "fisier": "data/9/functii/proprietati-ale-functiilor.json"
+              "fisier": "data/9/functii/proprietati-ale-functiilor.json",
+              "nr": 20
             },
             {
               "id": "functia-liniara",
               "nume": "§2.2 Funcția liniară f(x) = ax + b",
-              "fisier": "data/9/functii/functia-liniara.json"
+              "fisier": "data/9/functii/functia-liniara.json",
+              "nr": 20
             },
             {
               "id": "functia-x-patrat",
               "nume": "§3.1 Funcția f(x) = x²",
-              "fisier": "data/9/functii/functia-x-patrat.json"
+              "fisier": "data/9/functii/functia-x-patrat.json",
+              "nr": 18
             },
             {
               "id": "functia-ax-patrat",
               "nume": "§3.2 Funcția f(x) = ax²",
-              "fisier": "data/9/functii/functia-ax-patrat.json"
+              "fisier": "data/9/functii/functia-ax-patrat.json",
+              "nr": 19
             },
             {
               "id": "transformarea-graficelor",
               "nume": "§3.3 Transformarea graficelor",
-              "fisier": "data/9/functii/transformarea-graficelor.json"
+              "fisier": "data/9/functii/transformarea-graficelor.json",
+              "nr": 18
             },
             {
               "id": "studiul-functiei-de-gradul-2",
               "nume": "§3.4 Studiul funcției f(x) = ax² + bx + c",
-              "fisier": "data/9/functii/studiul-functiei-de-gradul-2.json"
+              "fisier": "data/9/functii/studiul-functiei-de-gradul-2.json",
+              "nr": 20
             }
           ]
         },
@@ -187,102 +208,122 @@
             {
               "id": "puncte-drepte-unghiuri",
               "nume": "Puncte, drepte, unghiuri",
-              "fisier": "data/9/geometrie/puncte-drepte-unghiuri.json"
+              "fisier": "data/9/geometrie/puncte-drepte-unghiuri.json",
+              "nr": 17
             },
             {
               "id": "triunghiul",
               "nume": "Triunghiul",
-              "fisier": "data/9/geometrie/triunghiul.json"
+              "fisier": "data/9/geometrie/triunghiul.json",
+              "nr": 19
             },
             {
               "id": "congruenta-si-asemanare",
               "nume": "Congruența și asemănarea triunghiurilor",
-              "fisier": "data/9/geometrie/congruenta-si-asemanare.json"
+              "fisier": "data/9/geometrie/congruenta-si-asemanare.json",
+              "nr": 16
             },
             {
               "id": "triunghiul-dreptunghic",
               "nume": "Triunghiul dreptunghic",
-              "fisier": "data/9/geometrie/triunghiul-dreptunghic.json"
+              "fisier": "data/9/geometrie/triunghiul-dreptunghic.json",
+              "nr": 18
             },
             {
               "id": "patrulatere-si-poligoane",
               "nume": "Patrulatere. Poligoane regulate",
-              "fisier": "data/9/geometrie/patrulatere-si-poligoane.json"
+              "fisier": "data/9/geometrie/patrulatere-si-poligoane.json",
+              "nr": 18
             },
             {
               "id": "cercul-elemente-pozitii",
               "nume": "Cercul: elemente și poziții relative",
-              "fisier": "data/9/geometrie/cercul-elemente-pozitii.json"
+              "fisier": "data/9/geometrie/cercul-elemente-pozitii.json",
+              "nr": 17
             },
             {
               "id": "unghiuri-in-cerc",
               "nume": "Unghiuri în cerc",
-              "fisier": "data/9/geometrie/unghiuri-in-cerc.json"
+              "fisier": "data/9/geometrie/unghiuri-in-cerc.json",
+              "nr": 15
             },
             {
               "id": "cercuri-inscrise-circumscrise",
               "nume": "Cercuri înscrise și circumscrise",
-              "fisier": "data/9/geometrie/cercuri-inscrise-circumscrise.json"
+              "fisier": "data/9/geometrie/cercuri-inscrise-circumscrise.json",
+              "nr": 16
             },
             {
               "id": "aria-paralelogramelor",
               "nume": "Noțiunea de arie. Aria paralelogramelor",
-              "fisier": "data/9/geometrie/aria-paralelogramelor.json"
+              "fisier": "data/9/geometrie/aria-paralelogramelor.json",
+              "nr": 15
             },
             {
               "id": "aria-triunghiului",
               "nume": "Aria triunghiului",
-              "fisier": "data/9/geometrie/aria-triunghiului.json"
+              "fisier": "data/9/geometrie/aria-triunghiului.json",
+              "nr": 16
             },
             {
               "id": "aria-trapezului",
               "nume": "Aria trapezului",
-              "fisier": "data/9/geometrie/aria-trapezului.json"
+              "fisier": "data/9/geometrie/aria-trapezului.json",
+              "nr": 14
             },
             {
               "id": "poligoane-regulate-cerc",
               "nume": "Poligoane regulate. Lungimea cercului. Aria discului",
-              "fisier": "data/9/geometrie/poligoane-regulate-cerc.json"
+              "fisier": "data/9/geometrie/poligoane-regulate-cerc.json",
+              "nr": 17
             },
             {
               "id": "poliedre",
               "nume": "Poliedre",
-              "fisier": "data/9/geometrie/poliedre.json"
+              "fisier": "data/9/geometrie/poliedre.json",
+              "nr": 16
             },
             {
               "id": "prisma",
               "nume": "Prisma",
-              "fisier": "data/9/geometrie/prisma.json"
+              "fisier": "data/9/geometrie/prisma.json",
+              "nr": 16
             },
             {
               "id": "piramida",
               "nume": "Piramida",
-              "fisier": "data/9/geometrie/piramida.json"
+              "fisier": "data/9/geometrie/piramida.json",
+              "nr": 16
             },
             {
               "id": "trunchiul-de-piramida",
               "nume": "Trunchiul de piramidă",
-              "fisier": "data/9/geometrie/trunchiul-de-piramida.json"
+              "fisier": "data/9/geometrie/trunchiul-de-piramida.json",
+              "nr": 13
             },
             {
               "id": "cilindrul",
               "nume": "Cilindrul circular drept",
-              "fisier": "data/9/geometrie/cilindrul.json"
+              "fisier": "data/9/geometrie/cilindrul.json",
+              "nr": 16
             },
             {
               "id": "conul",
               "nume": "Conul circular drept",
-              "fisier": "data/9/geometrie/conul.json"
+              "fisier": "data/9/geometrie/conul.json",
+              "nr": 16
             },
             {
               "id": "trunchiul-de-con",
               "nume": "Trunchiul de con circular drept",
-              "fisier": "data/9/geometrie/trunchiul-de-con.json"
+              "fisier": "data/9/geometrie/trunchiul-de-con.json",
+              "nr": 14
             },
             {
               "id": "sfera",
               "nume": "Sfera",
-              "fisier": "data/9/geometrie/sfera.json"
+              "fisier": "data/9/geometrie/sfera.json",
+              "nr": 17
             }
           ]
         }
@@ -331,62 +372,74 @@
             {
               "id": "puteri-si-radicali",
               "nume": "Puteri și radicali: proprietăți",
-              "fisier": "data/12/algebra/puteri-si-radicali.json"
+              "fisier": "data/12/algebra/puteri-si-radicali.json",
+              "nr": 19
             },
             {
               "id": "logaritmi",
               "nume": "Logaritmi: definiție și proprietăți",
-              "fisier": "data/12/algebra/logaritmi.json"
+              "fisier": "data/12/algebra/logaritmi.json",
+              "nr": 20
             },
             {
               "id": "ecuatii-rationale-si-cu-radicali",
               "nume": "Ecuații raționale și cu radicali",
-              "fisier": "data/12/algebra/ecuatii-rationale-si-cu-radicali.json"
+              "fisier": "data/12/algebra/ecuatii-rationale-si-cu-radicali.json",
+              "nr": 16
             },
             {
               "id": "ecuatii-cu-logaritmi-si-exponentiale",
               "nume": "Ecuații cu logaritmi și exponențiale",
-              "fisier": "data/12/algebra/ecuatii-cu-logaritmi-si-exponentiale.json"
+              "fisier": "data/12/algebra/ecuatii-cu-logaritmi-si-exponentiale.json",
+              "nr": 18
             },
             {
               "id": "inecuatii-de-gradul-2",
               "nume": "Inecuații de gradul II",
-              "fisier": "data/12/algebra/inecuatii-de-gradul-2.json"
+              "fisier": "data/12/algebra/inecuatii-de-gradul-2.json",
+              "nr": 20
             },
             {
               "id": "inecuatii-rationale-radicali-logaritmi",
               "nume": "Inecuații raționale, cu radicali, cu logaritmi",
-              "fisier": "data/12/algebra/inecuatii-rationale-radicali-logaritmi.json"
+              "fisier": "data/12/algebra/inecuatii-rationale-radicali-logaritmi.json",
+              "nr": 19
             },
             {
               "id": "inecuatii-exponentiale",
               "nume": "Inecuații exponențiale",
-              "fisier": "data/12/algebra/inecuatii-exponentiale.json"
+              "fisier": "data/12/algebra/inecuatii-exponentiale.json",
+              "nr": 19
             },
             {
               "id": "matrici-si-determinanti",
               "nume": "Matrici și determinanți",
-              "fisier": "data/12/algebra/matrici-si-determinanti.json"
+              "fisier": "data/12/algebra/matrici-si-determinanti.json",
+              "nr": 18
             },
             {
               "id": "polinoame",
               "nume": "Polinoame: Bézout, rădăcini, Viète",
-              "fisier": "data/12/algebra/polinoame.json"
+              "fisier": "data/12/algebra/polinoame.json",
+              "nr": 16
             },
             {
               "id": "numere-complexe",
               "nume": "Numere complexe",
-              "fisier": "data/12/algebra/numere-complexe.json"
+              "fisier": "data/12/algebra/numere-complexe.json",
+              "nr": 20
             },
             {
               "id": "progresii",
               "nume": "Progresii aritmetice și geometrice",
-              "fisier": "data/12/algebra/progresii.json"
+              "fisier": "data/12/algebra/progresii.json",
+              "nr": 20
             },
             {
               "id": "siruri-si-paritatea-functiei",
               "nume": "Șiruri, mulțimea de valori și paritatea funcției",
-              "fisier": "data/12/algebra/siruri-si-paritatea-functiei.json"
+              "fisier": "data/12/algebra/siruri-si-paritatea-functiei.json",
+              "nr": 19
             }
           ]
         },
@@ -397,57 +450,68 @@
             {
               "id": "generale",
               "nume": "Întrebări generale",
-              "fisier": "data/12/geometrie/generale.json"
+              "fisier": "data/12/geometrie/generale.json",
+              "nr": 16
             },
             {
               "id": "asemanare-thales-si-ortocentru",
               "nume": "Asemănare, Thales, bisectoare, ortocentru",
-              "fisier": "data/12/geometrie/asemanare-thales-si-ortocentru.json"
+              "fisier": "data/12/geometrie/asemanare-thales-si-ortocentru.json",
+              "nr": 16
             },
             {
               "id": "relatii-metrice-in-triunghi",
               "nume": "Relații metrice: Pitagora, sinusuri, cosinusuri, patrulatere",
-              "fisier": "data/12/geometrie/relatii-metrice-in-triunghi.json"
+              "fisier": "data/12/geometrie/relatii-metrice-in-triunghi.json",
+              "nr": 18
             },
             {
               "id": "arii-figuri-plane",
               "nume": "Arii ale figurilor plane",
-              "fisier": "data/12/geometrie/arii-figuri-plane.json"
+              "fisier": "data/12/geometrie/arii-figuri-plane.json",
+              "nr": 17
             },
             {
               "id": "prisma-formule",
               "nume": "Prisma: formule și proprietăți",
-              "fisier": "data/12/geometrie/prisma-formule.json"
+              "fisier": "data/12/geometrie/prisma-formule.json",
+              "nr": 16
             },
             {
               "id": "piramida-formule-si-cazuri",
               "nume": "Piramida: formule, cele 3 cazuri și secțiuni",
-              "fisier": "data/12/geometrie/piramida-formule-si-cazuri.json"
+              "fisier": "data/12/geometrie/piramida-formule-si-cazuri.json",
+              "nr": 16
             },
             {
               "id": "trunchiul-de-piramida",
               "nume": "Trunchiul de piramidă",
-              "fisier": "data/12/geometrie/trunchiul-de-piramida.json"
+              "fisier": "data/12/geometrie/trunchiul-de-piramida.json",
+              "nr": 14
             },
             {
               "id": "cilindrul",
               "nume": "Cilindrul: formule și secțiuni",
-              "fisier": "data/12/geometrie/cilindrul.json"
+              "fisier": "data/12/geometrie/cilindrul.json",
+              "nr": 15
             },
             {
               "id": "conul",
               "nume": "Conul: formule, secțiuni și dezvoltare",
-              "fisier": "data/12/geometrie/conul.json"
+              "fisier": "data/12/geometrie/conul.json",
+              "nr": 16
             },
             {
               "id": "trunchiul-de-con",
               "nume": "Trunchiul de con",
-              "fisier": "data/12/geometrie/trunchiul-de-con.json"
+              "fisier": "data/12/geometrie/trunchiul-de-con.json",
+              "nr": 14
             },
             {
               "id": "sfera-si-calota",
               "nume": "Sfera și calota sferică",
-              "fisier": "data/12/geometrie/sfera-si-calota.json"
+              "fisier": "data/12/geometrie/sfera-si-calota.json",
+              "nr": 16
             }
           ]
         },
@@ -458,47 +522,56 @@
             {
               "id": "primitive-si-notiuni-de-baza",
               "nume": "Primitive și noțiuni de bază",
-              "fisier": "data/12/integrale/primitive-si-notiuni-de-baza.json"
+              "fisier": "data/12/integrale/primitive-si-notiuni-de-baza.json",
+              "nr": 20
             },
             {
               "id": "tabelul-primitivelor",
               "nume": "Tabelul primitivelor",
-              "fisier": "data/12/integrale/tabelul-primitivelor.json"
+              "fisier": "data/12/integrale/tabelul-primitivelor.json",
+              "nr": 20
             },
             {
               "id": "formule-de-baza",
               "nume": "Formule de bază",
-              "fisier": "data/12/integrale/formule-de-baza.json"
+              "fisier": "data/12/integrale/formule-de-baza.json",
+              "nr": 20
             },
             {
               "id": "reguli-de-integrare",
               "nume": "Reguli de integrare și primitive",
-              "fisier": "data/12/integrale/reguli-de-integrare.json"
+              "fisier": "data/12/integrale/reguli-de-integrare.json",
+              "nr": 20
             },
             {
               "id": "metoda-substitutiei-test-1",
               "nume": "Metoda substituției: ce notăm cu t",
-              "fisier": "data/12/integrale/metoda-substitutiei-test-1.json"
+              "fisier": "data/12/integrale/metoda-substitutiei-test-1.json",
+              "nr": 20
             },
             {
               "id": "metoda-substitutiei-test-2",
               "nume": "Metoda substituției: dt și pașii",
-              "fisier": "data/12/integrale/metoda-substitutiei-test-2.json"
+              "fisier": "data/12/integrale/metoda-substitutiei-test-2.json",
+              "nr": 20
             },
             {
               "id": "metoda-integrarii-prin-parti-test-1",
               "nume": "Integrarea prin părți: u și dv",
-              "fisier": "data/12/integrale/metoda-integrarii-prin-parti-test-1.json"
+              "fisier": "data/12/integrale/metoda-integrarii-prin-parti-test-1.json",
+              "nr": 19
             },
             {
               "id": "integrala-definita-formule-si-proprietati",
               "nume": "Integrala definită: formule și proprietăți",
-              "fisier": "data/12/integrale/integrala-definita-formule-si-proprietati.json"
+              "fisier": "data/12/integrale/integrala-definita-formule-si-proprietati.json",
+              "nr": 20
             },
             {
               "id": "aplicatii-arii-si-volume",
               "nume": "Aplicații: arii și volume de rotație",
-              "fisier": "data/12/integrale/aplicatii-arii-si-volume.json"
+              "fisier": "data/12/integrale/aplicatii-arii-si-volume.json",
+              "nr": 20
             }
           ]
         },
@@ -509,37 +582,44 @@
             {
               "id": "identitati-trigonometrice",
               "nume": "Identități trigonometrice",
-              "fisier": "data/12/trigonometrie/identitati-trigonometrice.json"
+              "fisier": "data/12/trigonometrie/identitati-trigonometrice.json",
+              "nr": 19
             },
             {
               "id": "tabelul-de-valori-trigonometrice",
               "nume": "Tabelul de valori trigonometrice",
-              "fisier": "data/12/trigonometrie/tabelul-de-valori-trigonometrice.json"
+              "fisier": "data/12/trigonometrie/tabelul-de-valori-trigonometrice.json",
+              "nr": 20
             },
             {
               "id": "cercul-trigonometric",
               "nume": "Cercul trigonometric, cadrane și reducere",
-              "fisier": "data/12/trigonometrie/cercul-trigonometric.json"
+              "fisier": "data/12/trigonometrie/cercul-trigonometric.json",
+              "nr": 20
             },
             {
               "id": "formule-de-adunare-si-calcul-cu-sin-cos",
               "nume": "Formule de adunare, unghi dublu și calcul din sin/cos dat",
-              "fisier": "data/12/trigonometrie/formule-de-adunare-si-calcul-cu-sin-cos.json"
+              "fisier": "data/12/trigonometrie/formule-de-adunare-si-calcul-cu-sin-cos.json",
+              "nr": 19
             },
             {
               "id": "ecuatii-trigonometrice-formule",
               "nume": "Ecuații trigonometrice: formulele soluțiilor",
-              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-formule.json"
+              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-formule.json",
+              "nr": 20
             },
             {
               "id": "ecuatii-trigonometrice-tipuri",
               "nume": "Ecuații trigonometrice: tipuri și pași",
-              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-tipuri.json"
+              "fisier": "data/12/trigonometrie/ecuatii-trigonometrice-tipuri.json",
+              "nr": 17
             },
             {
               "id": "functii-trigonometrice-din-grafic",
               "fisier": "data/12/trigonometrie/functii-trigonometrice-din-grafic.json",
-              "nume": "Funcții trigonometrice din grafic"
+              "nume": "Funcții trigonometrice din grafic",
+              "nr": 20
             }
           ]
         },
@@ -550,47 +630,56 @@
             {
               "id": "derivate-formule-de-baza",
               "nume": "Derivate: formulele funcțiilor elementare",
-              "fisier": "data/12/analiza/derivate-formule-de-baza.json"
+              "fisier": "data/12/analiza/derivate-formule-de-baza.json",
+              "nr": 20
             },
             {
               "id": "reguli-de-derivare",
               "nume": "Reguli de derivare: sumă, produs, cât, compusă",
-              "fisier": "data/12/analiza/reguli-de-derivare.json"
+              "fisier": "data/12/analiza/reguli-de-derivare.json",
+              "nr": 18
             },
             {
               "id": "monotonie-si-puncte-de-extrem",
               "nume": "Monotonie și puncte de extrem",
-              "fisier": "data/12/analiza/monotonie-si-puncte-de-extrem.json"
+              "fisier": "data/12/analiza/monotonie-si-puncte-de-extrem.json",
+              "nr": 20
             },
             {
               "id": "convexitate-si-puncte-de-inflexiune",
               "nume": "Convexitate și puncte de inflexiune",
-              "fisier": "data/12/analiza/convexitate-si-puncte-de-inflexiune.json"
+              "fisier": "data/12/analiza/convexitate-si-puncte-de-inflexiune.json",
+              "nr": 16
             },
             {
               "id": "tangenta-in-punct-si-pante",
               "nume": "Ecuația tangentei: în punct, panta și unghiul",
-              "fisier": "data/12/analiza/tangenta-in-punct-si-pante.json"
+              "fisier": "data/12/analiza/tangenta-in-punct-si-pante.json",
+              "nr": 19
             },
             {
               "id": "tangenta-pe-panta-si-prin-punct",
               "nume": "Ecuația tangentei: din pantă și prin punct dat",
-              "fisier": "data/12/analiza/tangenta-pe-panta-si-prin-punct.json"
+              "fisier": "data/12/analiza/tangenta-pe-panta-si-prin-punct.json",
+              "nr": 10
             },
             {
               "id": "limite-la-infinit",
               "nume": "Limite la infinit: raționale și cu radicali",
-              "fisier": "data/12/analiza/limite-la-infinit.json"
+              "fisier": "data/12/analiza/limite-la-infinit.json",
+              "nr": 18
             },
             {
               "id": "limite-in-punct-si-lhospital",
               "nume": "Limite într-un punct, nedeterminări și l’Hospital",
-              "fisier": "data/12/analiza/limite-in-punct-si-lhospital.json"
+              "fisier": "data/12/analiza/limite-in-punct-si-lhospital.json",
+              "nr": 10
             },
             {
               "id": "asimptote",
               "nume": "Asimptote: orizontală, verticală, oblică",
-              "fisier": "data/12/analiza/asimptote.json"
+              "fisier": "data/12/analiza/asimptote.json",
+              "nr": 20
             }
           ]
         },
@@ -601,12 +690,14 @@
             {
               "id": "combinatorica-factorial-aranjamente-combinari",
               "nume": "Factorial, permutări, aranjamente, combinări",
-              "fisier": "data/12/combinatorica/combinatorica-factorial-aranjamente-combinari.json"
+              "fisier": "data/12/combinatorica/combinatorica-factorial-aranjamente-combinari.json",
+              "nr": 20
             },
             {
               "id": "binomul-lui-newton",
               "nume": "Binomul lui Newton",
-              "fisier": "data/12/combinatorica/binomul-lui-newton.json"
+              "fisier": "data/12/combinatorica/binomul-lui-newton.json",
+              "nr": 19
             }
           ]
         },
@@ -617,32 +708,38 @@
             {
               "id": "probabilitate-formule-si-algoritm",
               "nume": "Probabilitate: formule și cum găsim m și n",
-              "fisier": "data/12/probabilitate/probabilitate-formule-si-algoritm.json"
+              "fisier": "data/12/probabilitate/probabilitate-formule-si-algoritm.json",
+              "nr": 20
             },
             {
               "id": "probleme-cu-combinari",
               "nume": "Probleme cu combinări (bile, cărți, comisii)",
-              "fisier": "data/12/probabilitate/probleme-cu-combinari.json"
+              "fisier": "data/12/probabilitate/probleme-cu-combinari.json",
+              "nr": 20
             },
             {
               "id": "probleme-cu-zaruri-si-monede",
               "nume": "Probleme cu zaruri și monede",
-              "fisier": "data/12/probabilitate/probleme-cu-zaruri-si-monede.json"
+              "fisier": "data/12/probabilitate/probleme-cu-zaruri-si-monede.json",
+              "nr": 20
             },
             {
               "id": "probleme-cu-numere-coduri-litere",
               "nume": "Probleme cu numere, coduri și litere",
-              "fisier": "data/12/probabilitate/probleme-cu-numere-coduri-litere.json"
+              "fisier": "data/12/probabilitate/probleme-cu-numere-coduri-litere.json",
+              "nr": 17
             },
             {
               "id": "probleme-cu-ordine-locuri-pozitii",
               "nume": "Probleme cu ordine, locuri și poziții",
-              "fisier": "data/12/probabilitate/probleme-cu-ordine-locuri-pozitii.json"
+              "fisier": "data/12/probabilitate/probleme-cu-ordine-locuri-pozitii.json",
+              "nr": 18
             },
             {
               "id": "probleme-cu-probabilitati-prestabilite",
               "nume": "Probleme cu probabilități prestabilite",
-              "fisier": "data/12/probabilitate/probleme-cu-probabilitati-prestabilite.json"
+              "fisier": "data/12/probabilitate/probleme-cu-probabilitati-prestabilite.json",
+              "nr": 20
             }
           ]
         }

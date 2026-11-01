@@ -1,194 +1,210 @@
 [
-  {
-    "id": "ecuatii-rationale-001",
-    "tip": "simplu",
-    "intrebare": "Primul pas la ecuația $\\frac{1}{x-1}=2$:",
-    "variante": [
-      "scriem condiția $x\\neq1$",
-      "o rezolvăm direct",
-      "o derivăm",
-      "înmulțim cu $x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-rationale-002",
-    "tip": "simplu",
-    "intrebare": "Care este condiția de existență la $\\frac{3}{x-4}$?",
-    "variante": [
-      "$x\\neq3$",
-      "$x\\neq-4$",
-      "$x\\neq0$",
-      "$x\\neq4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-003",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac1x=3$.",
-    "variante": [
-      "$x=-3$",
-      "$x=\\frac13$",
-      "$x=\\frac19$",
-      "$x=3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-004",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac6x=2$.",
-    "variante": [
-      "$x=12$",
-      "$x=-3$",
-      "$x=\\frac13$",
-      "$x=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-005",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{4}=\\frac32$.",
-    "variante": [
-      "$x=\\frac38$",
-      "$x=5$",
-      "$x=6$",
-      "$x=\\frac23$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-006",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x+1}{3}=2$.",
-    "variante": [
-      "$x=7$",
-      "$x=3$",
-      "$x=5$",
-      "$x=1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-007",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{2}+\\frac{x}{3}=5$.",
-    "variante": [
-      "$x=\\frac56$",
-      "$x=6$",
-      "$x=10$",
-      "$x=30$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-008",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{2}{x}=\\frac46$.",
-    "variante": [
-      "$x=\\frac13$",
-      "$x=3$",
-      "$x=\\frac43$",
-      "$x=12$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-009",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{1}{x+1}=\\frac12$.",
-    "variante": [
-      "$x=0$",
-      "$x=2$",
-      "$x=-1$",
-      "$x=1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-010",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{x-1}=2$.",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=2$",
-      "$x=-2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-011",
-    "tip": "simplu",
-    "intrebare": "Când este o fracție egală cu $0$?",
-    "variante": [
-      "când numitorul este $0$",
-      "niciodată",
-      "când ambii sunt $0$",
-      "când numărătorul este $0$ (și numitorul diferit de $0$)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-012",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{x+1}=0$.",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "nu are soluții",
-      "$x=-1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-rationale-013",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x^2-1}{x-1}=0$.",
-    "variante": [
-      "$x=1$",
-      "$x=-1$",
-      "$x=\\pm1$",
-      "$x=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-014",
-    "tip": "simplu",
-    "intrebare": "Cu ce amplificăm ecuația ca să scăpăm de fracții?",
-    "variante": [
-      "cu $x^2$",
-      "cu numărătorul",
-      "cu numitorul comun",
-      "cu $0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-015",
-    "tip": "simplu",
-    "intrebare": "Dacă soluția găsită anulează un numitor, atunci:",
-    "variante": [
-      "o păstrăm",
-      "ecuația are infinit de multe soluții",
-      "o dublăm",
-      "o excludem"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-016",
-    "tip": "simplu",
-    "intrebare": "Proporția $\\frac ab=\\frac cd$ înseamnă că:",
-    "variante": [
-      "$ac=bd$",
-      "$a+d=b+c$",
-      "$ab=cd$",
-      "$ad=bc$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "ecuatii-rationale-001",
+  "tip": "simplu",
+  "intrebare": "Primul pas la ecuația $\\frac{1}{x-1}=2$:",
+  "variante": [
+   "scriem condiția $x\\neq1$",
+   "o rezolvăm direct",
+   "o derivăm",
+   "înmulțim cu $x$"
+  ],
+  "corect": 0,
+  "explicatie": "Numitorul nu poate fi $0$, deci întâi scriem condiția de existență: $x-1\\neq0$, adică $x\\neq1$."
+ },
+ {
+  "id": "ecuatii-rationale-002",
+  "tip": "simplu",
+  "intrebare": "Care este condiția de existență la $\\frac{3}{x-4}$?",
+  "variante": [
+   "$x\\neq3$",
+   "$x\\neq-4$",
+   "$x\\neq0$",
+   "$x\\neq4$"
+  ],
+  "corect": 3,
+  "explicatie": "Numitorul trebuie diferit de $0$: $x-4\\neq0$, deci $x\\neq4$."
+ },
+ {
+  "id": "ecuatii-rationale-003",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac1x=3$.",
+  "variante": [
+   "$x=-3$",
+   "$x=\\frac13$",
+   "$x=\\frac19$",
+   "$x=3$"
+  ],
+  "corect": 1,
+  "explicatie": "Din $\\frac1x=3$ rezultă $1=3x$, deci $x=\\frac13$."
+ },
+ {
+  "id": "ecuatii-rationale-004",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac6x=2$.",
+  "variante": [
+   "$x=12$",
+   "$x=-3$",
+   "$x=\\frac13$",
+   "$x=3$"
+  ],
+  "corect": 3,
+  "explicatie": "Din $\\frac6x=2$ rezultă $6=2x$, deci $x=3$."
+ },
+ {
+  "id": "ecuatii-rationale-005",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{4}=\\frac32$.",
+  "variante": [
+   "$x=\\frac38$",
+   "$x=5$",
+   "$x=6$",
+   "$x=\\frac23$"
+  ],
+  "corect": 2,
+  "explicatie": "Înmulțim pe diagonală: $2x=4\\cdot3=12$, deci $x=6$."
+ },
+ {
+  "id": "ecuatii-rationale-006",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x+1}{3}=2$.",
+  "variante": [
+   "$x=7$",
+   "$x=3$",
+   "$x=5$",
+   "$x=1$"
+  ],
+  "corect": 2,
+  "explicatie": "Înmulțim cu $3$: $x+1=6$, deci $x=5$."
+ },
+ {
+  "id": "ecuatii-rationale-007",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{2}+\\frac{x}{3}=5$.",
+  "variante": [
+   "$x=\\frac56$",
+   "$x=6$",
+   "$x=10$",
+   "$x=30$"
+  ],
+  "corect": 1,
+  "explicatie": "Numitor comun $6$: $\\frac{3x+2x}{6}=5$, deci $5x=30$ și $x=6$."
+ },
+ {
+  "id": "ecuatii-rationale-008",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{2}{x}=\\frac46$.",
+  "variante": [
+   "$x=\\frac13$",
+   "$x=3$",
+   "$x=\\frac43$",
+   "$x=12$"
+  ],
+  "corect": 1,
+  "explicatie": "Înmulțim pe diagonală: $2\\cdot6=4x$, deci $12=4x$ și $x=3$."
+ },
+ {
+  "id": "ecuatii-rationale-009",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{1}{x+1}=\\frac12$.",
+  "variante": [
+   "$x=0$",
+   "$x=2$",
+   "$x=-1$",
+   "$x=1$"
+  ],
+  "corect": 3,
+  "explicatie": "Înmulțim pe diagonală: $x+1=2$, deci $x=1$."
+ },
+ {
+  "id": "ecuatii-rationale-010",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{x-1}=2$.",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=2$",
+   "$x=-2$"
+  ],
+  "corect": 2,
+  "explicatie": "Cu $x\\neq1$: $x=2(x-1)=2x-2$, deci $x=2$, care respectă condiția."
+ },
+ {
+  "id": "ecuatii-rationale-011",
+  "tip": "simplu",
+  "intrebare": "Când este o fracție egală cu $0$?",
+  "variante": [
+   "când numitorul este $0$",
+   "niciodată",
+   "când ambii sunt $0$",
+   "când numărătorul este $0$ (și numitorul diferit de $0$)"
+  ],
+  "corect": 3,
+  "explicatie": "O fracție este $0$ doar când numărătorul este $0$, iar numitorul este nenul (altfel fracția nu există)."
+ },
+ {
+  "id": "ecuatii-rationale-012",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{x+1}=0$.",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "nu are soluții",
+   "$x=-1$"
+  ],
+  "corect": 0,
+  "explicatie": "Fracția este $0$ când numărătorul $x=0$; numitorul $0+1=1$ este nenul, deci soluția e bună."
+ },
+ {
+  "id": "ecuatii-rationale-013",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x^2-1}{x-1}=0$.",
+  "variante": [
+   "$x=1$",
+   "$x=-1$",
+   "$x=\\pm1$",
+   "$x=0$"
+  ],
+  "corect": 1,
+  "explicatie": "Numărătorul $(x-1)(x+1)$ se anulează pentru $x=\\pm1$, dar $x=1$ anulează numitorul și se exclude; rămâne $x=-1$."
+ },
+ {
+  "id": "ecuatii-rationale-014",
+  "tip": "simplu",
+  "intrebare": "Cu ce amplificăm ecuația ca să scăpăm de fracții?",
+  "variante": [
+   "cu $x^2$",
+   "cu numărătorul",
+   "cu numitorul comun",
+   "cu $0$"
+  ],
+  "corect": 2,
+  "explicatie": "Înmulțim cu numitorul comun, pentru ca fiecare numitor să se simplifice și să dispară fracțiile."
+ },
+ {
+  "id": "ecuatii-rationale-015",
+  "tip": "simplu",
+  "intrebare": "Dacă soluția găsită anulează un numitor, atunci:",
+  "variante": [
+   "o păstrăm",
+   "ecuația are infinit de multe soluții",
+   "o dublăm",
+   "o excludem"
+  ],
+  "corect": 3,
+  "explicatie": "O valoare care anulează un numitor nu respectă condiția de existență, deci nu poate fi soluție."
+ },
+ {
+  "id": "ecuatii-rationale-016",
+  "tip": "simplu",
+  "intrebare": "Proporția $\\frac ab=\\frac cd$ înseamnă că:",
+  "variante": [
+   "$ac=bd$",
+   "$a+d=b+c$",
+   "$ab=cd$",
+   "$ad=bc$"
+  ],
+  "corect": 3,
+  "explicatie": "Prin înmulțire pe diagonală (produsul mezilor = produsul extremilor) obținem $ad=bc$."
+ }
 ]

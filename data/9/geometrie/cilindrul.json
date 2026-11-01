@@ -1,194 +1,210 @@
 [
-  {
-    "id": "cilindrul-001",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează volumul cilindrului?",
-    "variante": [
-      "$V=\\frac{\\pi r^2h}{3}$",
-      "$V=2\\pi rh$",
-      "$V=\\pi r^2h$",
-      "$V=\\pi rh$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cilindrul-002",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria laterală a cilindrului?",
-    "variante": [
-      "$A_l=2\\pi r^2$",
-      "$A_l=\\pi rh$",
-      "$A_l=\\pi r^2h$",
-      "$A_l=2\\pi rh$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-003",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria totală a cilindrului?",
-    "variante": [
-      "$A_t=2\\pi r(r+h)$",
-      "$A_t=2\\pi r^2h$",
-      "$A_t=2\\pi rh$",
-      "$A_t=\\pi r(r+h)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cilindrul-004",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este volumul?",
-    "variante": [
-      "$20\\pi$",
-      "$60\\pi$",
-      "$40\\pi$",
-      "$10\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cilindrul-005",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este aria laterală?",
-    "variante": [
-      "$20\\pi$",
-      "$40\\pi$",
-      "$10\\pi$",
-      "$28\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cilindrul-006",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este aria totală?",
-    "variante": [
-      "$20\\pi$",
-      "$48\\pi$",
-      "$24\\pi$",
-      "$28\\pi$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-007",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu $r=3$, $h=4$. Cât este volumul?",
-    "variante": [
-      "$36\\pi$",
-      "$24\\pi$",
-      "$12\\pi$",
-      "$48\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cilindrul-008",
-    "tip": "simplu",
-    "intrebare": "Cum arată secțiunea axială a cilindrului?",
-    "variante": [
-      "trapez",
-      "dreptunghi $2r\\times h$",
-      "triunghi",
-      "cerc"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cilindrul-009",
-    "tip": "simplu",
-    "intrebare": "Cum arată desfășurata laterală a cilindrului?",
-    "variante": [
-      "cerc",
-      "triunghi",
-      "sector de cerc",
-      "dreptunghi $2\\pi r\\times h$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-010",
-    "tip": "simplu",
-    "intrebare": "Ce este generatoarea cilindrului?",
-    "variante": [
-      "diagonala bazei",
-      "diametrul bazei",
-      "raza bazei",
-      "segment paralel cu axa, egal cu înălțimea"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-011",
-    "tip": "simplu",
-    "intrebare": "Ce formă au bazele cilindrului?",
-    "variante": [
-      "elipse",
-      "cercuri egale",
-      "pătrate",
-      "triunghiuri"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cilindrul-012",
-    "tip": "simplu",
-    "intrebare": "Cilindru echilateral înseamnă:",
-    "variante": [
-      "$h=\\pi r$",
-      "$h=r^2$",
-      "$h=r$",
-      "$h=2r$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-013",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu diametrul bazei $10$. Cât este raza?",
-    "variante": [
-      "$2{,}5$",
-      "$10$",
-      "$20$",
-      "$5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cilindrul-014",
-    "tip": "simplu",
-    "intrebare": "Cum se obține cilindrul prin rotire?",
-    "variante": [
-      "rotim un semicerc în jurul diametrului",
-      "rotim un dreptunghi în jurul unei laturi",
-      "rotim un triunghi dreptunghic în jurul unei catete",
-      "rotim un pătrat în diagonală"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cilindrul-015",
-    "tip": "simplu",
-    "intrebare": "Cât este aria unei baze a cilindrului?",
-    "variante": [
-      "$\\pi r^2$",
-      "$2\\pi r$",
-      "$2\\pi r^2$",
-      "$\\pi r$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cilindrul-016",
-    "tip": "simplu",
-    "intrebare": "Cilindru cu $r=1$, $h=1$. Cât este volumul?",
-    "variante": [
-      "$\\pi$",
-      "$2\\pi$",
-      "$\\frac{\\pi}{3}$",
-      "$1$"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "cilindrul-001",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează volumul cilindrului?",
+  "variante": [
+   "$V=\\frac{\\pi r^2h}{3}$",
+   "$V=2\\pi rh$",
+   "$V=\\pi r^2h$",
+   "$V=\\pi rh$"
+  ],
+  "corect": 2,
+  "explicatie": "Volumul este aria bazei înmulțită cu înălțimea: $V=\\pi r^2\\cdot h$."
+ },
+ {
+  "id": "cilindrul-002",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria laterală a cilindrului?",
+  "variante": [
+   "$A_l=2\\pi r^2$",
+   "$A_l=\\pi rh$",
+   "$A_l=\\pi r^2h$",
+   "$A_l=2\\pi rh$"
+  ],
+  "corect": 3,
+  "explicatie": "Desfășurata laterală este un dreptunghi $2\\pi r\\times h$, deci $A_l=2\\pi rh$."
+ },
+ {
+  "id": "cilindrul-003",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria totală a cilindrului?",
+  "variante": [
+   "$A_t=2\\pi r(r+h)$",
+   "$A_t=2\\pi r^2h$",
+   "$A_t=2\\pi rh$",
+   "$A_t=\\pi r(r+h)$"
+  ],
+  "corect": 0,
+  "explicatie": "$A_t=A_l+2A_b=2\\pi rh+2\\pi r^2=2\\pi r(r+h)$."
+ },
+ {
+  "id": "cilindrul-004",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este volumul?",
+  "variante": [
+   "$20\\pi$",
+   "$60\\pi$",
+   "$40\\pi$",
+   "$10\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=\\pi r^2h=\\pi\\cdot4\\cdot5=20\\pi$."
+ },
+ {
+  "id": "cilindrul-005",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este aria laterală?",
+  "variante": [
+   "$20\\pi$",
+   "$40\\pi$",
+   "$10\\pi$",
+   "$28\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$A_l=2\\pi rh=2\\pi\\cdot2\\cdot5=20\\pi$."
+ },
+ {
+  "id": "cilindrul-006",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu $r=2$, $h=5$. Cât este aria totală?",
+  "variante": [
+   "$20\\pi$",
+   "$48\\pi$",
+   "$24\\pi$",
+   "$28\\pi$"
+  ],
+  "corect": 3,
+  "explicatie": "$A_t=2\\pi r(r+h)=2\\pi\\cdot2\\cdot7=28\\pi$."
+ },
+ {
+  "id": "cilindrul-007",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu $r=3$, $h=4$. Cât este volumul?",
+  "variante": [
+   "$36\\pi$",
+   "$24\\pi$",
+   "$12\\pi$",
+   "$48\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=\\pi r^2h=\\pi\\cdot9\\cdot4=36\\pi$."
+ },
+ {
+  "id": "cilindrul-008",
+  "tip": "simplu",
+  "intrebare": "Cum arată secțiunea axială a cilindrului?",
+  "variante": [
+   "trapez",
+   "dreptunghi $2r\\times h$",
+   "triunghi",
+   "cerc"
+  ],
+  "corect": 1,
+  "explicatie": "Planul prin axă taie bazele după diametre ($2r$) și suprafața laterală după două generatoare ($h$): un dreptunghi."
+ },
+ {
+  "id": "cilindrul-009",
+  "tip": "simplu",
+  "intrebare": "Cum arată desfășurata laterală a cilindrului?",
+  "variante": [
+   "cerc",
+   "triunghi",
+   "sector de cerc",
+   "dreptunghi $2\\pi r\\times h$"
+  ],
+  "corect": 3,
+  "explicatie": "Suprafața laterală se desface într-un dreptunghi cu o latură lungimea cercului bazei ($2\\pi r$) și cealaltă $h$."
+ },
+ {
+  "id": "cilindrul-010",
+  "tip": "simplu",
+  "intrebare": "Ce este generatoarea cilindrului?",
+  "variante": [
+   "diagonala bazei",
+   "diametrul bazei",
+   "raza bazei",
+   "segment paralel cu axa, egal cu înălțimea"
+  ],
+  "corect": 3,
+  "explicatie": "Generatoarea este segmentul de pe suprafața laterală paralel cu axa, de lungime egală cu înălțimea."
+ },
+ {
+  "id": "cilindrul-011",
+  "tip": "simplu",
+  "intrebare": "Ce formă au bazele cilindrului?",
+  "variante": [
+   "elipse",
+   "cercuri egale",
+   "pătrate",
+   "triunghiuri"
+  ],
+  "corect": 1,
+  "explicatie": "Bazele sunt discuri (cercuri) paralele și congruente, de aceeași rază $r$."
+ },
+ {
+  "id": "cilindrul-012",
+  "tip": "simplu",
+  "intrebare": "Cilindru echilateral înseamnă:",
+  "variante": [
+   "$h=\\pi r$",
+   "$h=r^2$",
+   "$h=r$",
+   "$h=2r$"
+  ],
+  "corect": 3,
+  "explicatie": "Cilindrul echilateral are secțiunea axială pătrat, deci înălțimea egală cu diametrul: $h=2r$."
+ },
+ {
+  "id": "cilindrul-013",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu diametrul bazei $10$. Cât este raza?",
+  "variante": [
+   "$2{,}5$",
+   "$10$",
+   "$20$",
+   "$5$"
+  ],
+  "corect": 3,
+  "explicatie": "Raza este jumătate din diametru: $\\frac{10}{2}=5$."
+ },
+ {
+  "id": "cilindrul-014",
+  "tip": "simplu",
+  "intrebare": "Cum se obține cilindrul prin rotire?",
+  "variante": [
+   "rotim un semicerc în jurul diametrului",
+   "rotim un dreptunghi în jurul unei laturi",
+   "rotim un triunghi dreptunghic în jurul unei catete",
+   "rotim un pătrat în diagonală"
+  ],
+  "corect": 1,
+  "explicatie": "Rotind un dreptunghi în jurul uneia dintre laturi, latura opusă generează suprafața laterală, iar celelalte două bazele."
+ },
+ {
+  "id": "cilindrul-015",
+  "tip": "simplu",
+  "intrebare": "Cât este aria unei baze a cilindrului?",
+  "variante": [
+   "$\\pi r^2$",
+   "$2\\pi r$",
+   "$2\\pi r^2$",
+   "$\\pi r$"
+  ],
+  "corect": 0,
+  "explicatie": "Baza este un cerc de rază $r$, deci $A_b=\\pi r^2$."
+ },
+ {
+  "id": "cilindrul-016",
+  "tip": "simplu",
+  "intrebare": "Cilindru cu $r=1$, $h=1$. Cât este volumul?",
+  "variante": [
+   "$\\pi$",
+   "$2\\pi$",
+   "$\\frac{\\pi}{3}$",
+   "$1$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=\\pi r^2h=\\pi\\cdot1\\cdot1=\\pi$."
+ }
 ]

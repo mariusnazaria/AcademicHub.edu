@@ -1,194 +1,210 @@
 [
-  {
-    "id": "probleme-cu-ecuatii-001",
-    "tip": "simplu",
-    "intrebare": "Dublul unui număr este $18$. Ce ecuație scriem?",
-    "variante": [
-      "$\\frac x2=18$",
-      "$x^2=18$",
-      "$x+2=18$",
-      "$2x=18$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-ecuatii-002",
-    "tip": "simplu",
-    "intrebare": "Un număr mărit cu $5$ dă $12$. Care este numărul?",
-    "variante": [
-      "$60$",
-      "$7$",
-      "$5$",
-      "$17$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-ecuatii-003",
-    "tip": "simplu",
-    "intrebare": "Triplul unui număr, micșorat cu $2$, este $10$. Ce ecuație scriem?",
-    "variante": [
-      "$3+x-2=10$",
-      "$x-6=10$",
-      "$3x-2=10$",
-      "$3(x-2)=10$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-ecuatii-004",
-    "tip": "simplu",
-    "intrebare": "Rezolvă ecuația $3x-2=10$.",
-    "variante": [
-      "$x=6$",
-      "$x=\\frac83$",
-      "$x=12$",
-      "$x=4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-ecuatii-005",
-    "tip": "simplu",
-    "intrebare": "Suma a două numere consecutive este $11$. Dacă primul este $x$, al doilea este:",
-    "variante": [
-      "$2x$",
-      "$x-11$",
-      "$x+1$",
-      "$x+2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-ecuatii-006",
-    "tip": "simplu",
-    "intrebare": "Care sunt două numere consecutive cu suma $11$?",
-    "variante": [
-      "$5$ și $6$",
-      "$4$ și $7$",
-      "$3$ și $8$",
-      "$5$ și $5$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-ecuatii-007",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie perimetrul unui dreptunghi cu laturile $L$ și $l$?",
-    "variante": [
-      "$L+l$",
-      "$4L$",
-      "$2(L+l)$",
-      "$L\\cdot l$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-ecuatii-008",
-    "tip": "simplu",
-    "intrebare": "Un dreptunghi are perimetrul $20$ și lungimea $6$. Care este lățimea?",
-    "variante": [
-      "$8$",
-      "$14$",
-      "$4$",
-      "$10$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-ecuatii-009",
-    "tip": "simplu",
-    "intrebare": "Ana are $x$ lei, iar Maria are cu $5$ lei mai mult. Cât are Maria?",
-    "variante": [
-      "$x+5$",
-      "$5x$",
-      "$\\frac x5$",
-      "$x-5$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-ecuatii-010",
-    "tip": "simplu",
-    "intrebare": "Ana are $x$ lei, iar Maria de $3$ ori mai mult. Cât au împreună?",
-    "variante": [
-      "$x\\cdot3x$",
-      "$x+3x$",
-      "$x+3$",
-      "$3x$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probleme-cu-ecuatii-011",
-    "tip": "simplu",
-    "intrebare": "Un număr este cu $3$ mai mare decât $y$. Cum scriem?",
-    "variante": [
-      "$x=y+3$",
-      "$x=y-3$",
-      "$x=3y$",
-      "$x=\\frac y3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-ecuatii-012",
-    "tip": "simplu",
-    "intrebare": "O treime dintr-un număr este $4$. Care este numărul?",
-    "variante": [
-      "$1$",
-      "$\\frac43$",
-      "$7$",
-      "$12$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probleme-cu-ecuatii-013",
-    "tip": "simplu",
-    "intrebare": "Suma a trei numere consecutive este $12$. Care este numărul din mijloc?",
-    "variante": [
-      "$6$",
-      "$3$",
-      "$4$",
-      "$5$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probleme-cu-ecuatii-014",
-    "tip": "simplu",
-    "intrebare": "Un caiet costă $x$ lei, iar $4$ caiete costă $20$ de lei. Ce ecuație scriem?",
-    "variante": [
-      "$4x=20$",
-      "$\\frac x4=20$",
-      "$x-4=20$",
-      "$x+4=20$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-ecuatii-015",
-    "tip": "simplu",
-    "intrebare": "Care este primul pas la o problemă cu ecuație?",
-    "variante": [
-      "notăm necunoscuta cu $x$",
-      "rezolvăm ecuația",
-      "verificăm",
-      "scriem răspunsul"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-ecuatii-016",
-    "tip": "simplu",
-    "intrebare": "Care este ultimul pas la o problemă cu ecuație?",
-    "variante": [
-      "verificăm dacă soluția are sens în problemă",
-      "desenăm graficul",
-      "scriem ecuația",
-      "notăm necunoscuta"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "probleme-cu-ecuatii-001",
+  "tip": "simplu",
+  "intrebare": "Dublul unui număr este $18$. Ce ecuație scriem?",
+  "variante": [
+   "$\\frac x2=18$",
+   "$x^2=18$",
+   "$x+2=18$",
+   "$2x=18$"
+  ],
+  "corect": 3,
+  "explicatie": "Dublul unui număr $x$ este $2x$, deci ecuația este $2x=18$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-002",
+  "tip": "simplu",
+  "intrebare": "Un număr mărit cu $5$ dă $12$. Care este numărul?",
+  "variante": [
+   "$60$",
+   "$7$",
+   "$5$",
+   "$17$"
+  ],
+  "corect": 1,
+  "explicatie": "Din $x+5=12$ obținem $x=12-5=7$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-003",
+  "tip": "simplu",
+  "intrebare": "Triplul unui număr, micșorat cu $2$, este $10$. Ce ecuație scriem?",
+  "variante": [
+   "$3+x-2=10$",
+   "$x-6=10$",
+   "$3x-2=10$",
+   "$3(x-2)=10$"
+  ],
+  "corect": 2,
+  "explicatie": "Triplul este $3x$, micșorat cu $2$ înseamnă $3x-2$, deci $3x-2=10$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-004",
+  "tip": "simplu",
+  "intrebare": "Rezolvă ecuația $3x-2=10$.",
+  "variante": [
+   "$x=6$",
+   "$x=\\frac83$",
+   "$x=12$",
+   "$x=4$"
+  ],
+  "corect": 3,
+  "explicatie": "$3x=12$, deci $x=4$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-005",
+  "tip": "simplu",
+  "intrebare": "Suma a două numere consecutive este $11$. Dacă primul este $x$, al doilea este:",
+  "variante": [
+   "$2x$",
+   "$x-11$",
+   "$x+1$",
+   "$x+2$"
+  ],
+  "corect": 2,
+  "explicatie": "Numerele consecutive diferă prin $1$, deci după $x$ urmează $x+1$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-006",
+  "tip": "simplu",
+  "intrebare": "Care sunt două numere consecutive cu suma $11$?",
+  "variante": [
+   "$5$ și $6$",
+   "$4$ și $7$",
+   "$3$ și $8$",
+   "$5$ și $5$"
+  ],
+  "corect": 0,
+  "explicatie": "$x+(x+1)=11$ dă $2x=10$, deci $x=5$; numerele sunt $5$ și $6$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-007",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie perimetrul unui dreptunghi cu laturile $L$ și $l$?",
+  "variante": [
+   "$L+l$",
+   "$4L$",
+   "$2(L+l)$",
+   "$L\\cdot l$"
+  ],
+  "corect": 2,
+  "explicatie": "Perimetrul este suma celor patru laturi: $L+l+L+l=2(L+l)$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-008",
+  "tip": "simplu",
+  "intrebare": "Un dreptunghi are perimetrul $20$ și lungimea $6$. Care este lățimea?",
+  "variante": [
+   "$8$",
+   "$14$",
+   "$4$",
+   "$10$"
+  ],
+  "corect": 2,
+  "explicatie": "$2(6+l)=20$ dă $6+l=10$, deci $l=4$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-009",
+  "tip": "simplu",
+  "intrebare": "Ana are $x$ lei, iar Maria are cu $5$ lei mai mult. Cât are Maria?",
+  "variante": [
+   "$x+5$",
+   "$5x$",
+   "$\\frac x5$",
+   "$x-5$"
+  ],
+  "corect": 0,
+  "explicatie": "Maria are cu $5$ lei mai mult, deci $x+5$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-010",
+  "tip": "simplu",
+  "intrebare": "Ana are $x$ lei, iar Maria de $3$ ori mai mult. Cât au împreună?",
+  "variante": [
+   "$x\\cdot3x$",
+   "$x+3x$",
+   "$x+3$",
+   "$3x$"
+  ],
+  "corect": 1,
+  "explicatie": "Maria are $3x$, deci împreună au $x+3x$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-011",
+  "tip": "simplu",
+  "intrebare": "Un număr este cu $3$ mai mare decât $y$. Cum scriem?",
+  "variante": [
+   "$x=y+3$",
+   "$x=y-3$",
+   "$x=3y$",
+   "$x=\\frac y3$"
+  ],
+  "corect": 0,
+  "explicatie": "Numărul $x$ este cu $3$ mai mare decât $y$, deci $x=y+3$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-012",
+  "tip": "simplu",
+  "intrebare": "O treime dintr-un număr este $4$. Care este numărul?",
+  "variante": [
+   "$1$",
+   "$\\frac43$",
+   "$7$",
+   "$12$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\frac x3=4$, deci $x=4\\cdot3=12$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-013",
+  "tip": "simplu",
+  "intrebare": "Suma a trei numere consecutive este $12$. Care este numărul din mijloc?",
+  "variante": [
+   "$6$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "corect": 2,
+  "explicatie": "Numerele sunt $x-1$, $x$, $x+1$, iar suma lor este $3x=12$, deci mijlocul este $4$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-014",
+  "tip": "simplu",
+  "intrebare": "Un caiet costă $x$ lei, iar $4$ caiete costă $20$ de lei. Ce ecuație scriem?",
+  "variante": [
+   "$4x=20$",
+   "$\\frac x4=20$",
+   "$x-4=20$",
+   "$x+4=20$"
+  ],
+  "corect": 0,
+  "explicatie": "Prețul total este numărul de caiete înmulțit cu prețul unuia: $4x=20$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-015",
+  "tip": "simplu",
+  "intrebare": "Care este primul pas la o problemă cu ecuație?",
+  "variante": [
+   "notăm necunoscuta cu $x$",
+   "rezolvăm ecuația",
+   "verificăm",
+   "scriem răspunsul"
+  ],
+  "corect": 0,
+  "explicatie": "Începem prin a stabili ce căutăm și a-l nota cu $x$."
+ },
+ {
+  "id": "probleme-cu-ecuatii-016",
+  "tip": "simplu",
+  "intrebare": "Care este ultimul pas la o problemă cu ecuație?",
+  "variante": [
+   "verificăm dacă soluția are sens în problemă",
+   "desenăm graficul",
+   "scriem ecuația",
+   "notăm necunoscuta"
+  ],
+  "corect": 0,
+  "explicatie": "La final verificăm dacă soluția are sens în problemă (de exemplu, un număr de persoane nu poate fi negativ)."
+ }
 ]

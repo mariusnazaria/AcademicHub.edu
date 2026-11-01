@@ -1,218 +1,236 @@
 [
-  {
-    "id": "ecuatii-ax-plus-b-001",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $3x=12$.",
-    "variante": [
-      "$x=-4$",
-      "$x=9$",
-      "$x=36$",
-      "$x=4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-002",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $x+5=9$.",
-    "variante": [
-      "$x=4$",
-      "$x=45$",
-      "$x=-4$",
-      "$x=14$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-003",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2x-6=0$.",
-    "variante": [
-      "$x=-3$",
-      "$x=6$",
-      "$x=-6$",
-      "$x=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-004",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{2}=5$.",
-    "variante": [
-      "$x=10$",
-      "$x=3$",
-      "$x=\\frac52$",
-      "$x=7$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-005",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $5x+3=18$.",
-    "variante": [
-      "$x=\\frac{21}{5}$",
-      "$x=15$",
-      "$x=-3$",
-      "$x=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-006",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2x-1=7$.",
-    "variante": [
-      "$x=4$",
-      "$x=6$",
-      "$x=3$",
-      "$x=8$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-007",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $x-7=-2$.",
-    "variante": [
-      "$x=-5$",
-      "$x=9$",
-      "$x=-9$",
-      "$x=5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-008",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $-x=4$.",
-    "variante": [
-      "$x=\\frac14$",
-      "$x=4$",
-      "$x=-4$",
-      "$x=0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-ax-plus-b-009",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $4x=-8$.",
-    "variante": [
-      "$x=-2$",
-      "$x=-32$",
-      "$x=2$",
-      "$x=-12$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-010",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\frac{x}{3}=-2$.",
-    "variante": [
-      "$x=-6$",
-      "$x=-\\frac16$",
-      "$x=6$",
-      "$x=-\\frac23$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-011",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $3(x+1)=9$.",
-    "variante": [
-      "$x=2$",
-      "$x=3$",
-      "$x=6$",
-      "$x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-012",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2x+1=x+4$.",
-    "variante": [
-      "$x=5$",
-      "$x=3$",
-      "$x=-3$",
-      "$x=1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-ax-plus-b-013",
-    "tip": "simplu",
-    "intrebare": "Dacă $ax=b$ și $a\\neq0$, atunci:",
-    "variante": [
-      "$x=\\frac{b}{a}$",
-      "$x=b-a$",
-      "$x=\\frac{a}{b}$",
-      "$x=ab$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-014",
-    "tip": "simplu",
-    "intrebare": "Ce soluții are $0\\cdot x=5$?",
-    "variante": [
-      "nu are soluții",
-      "$x=5$",
-      "o infinitate",
-      "$x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-015",
-    "tip": "simplu",
-    "intrebare": "Ce soluții are $0\\cdot x=0$?",
-    "variante": [
-      "o infinitate",
-      "nu are soluții",
-      "doar $x=1$",
-      "doar $x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-ax-plus-b-016",
-    "tip": "simplu",
-    "intrebare": "Când mutăm un termen în cealaltă parte a egalului, semnul lui:",
-    "variante": [
-      "devine $0$",
-      "se dublează",
-      "rămâne la fel",
-      "se schimbă"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-017",
-    "tip": "simplu",
-    "intrebare": "Primul pas la $2(x+3)=10$:",
-    "variante": [
-      "împărțim la $x$",
-      "ridicăm la pătrat",
-      "adunăm $2$ cu $3$",
-      "desfacem parantezele"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-ax-plus-b-018",
-    "tip": "simplu",
-    "intrebare": "Cum verificăm soluția unei ecuații?",
-    "variante": [
-      "o înlocuim în ecuație",
-      "o derivăm",
-      "o adunăm la ecuație",
-      "o ridicăm la pătrat"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "ecuatii-ax-plus-b-001",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $3x=12$.",
+  "variante": [
+   "$x=-4$",
+   "$x=9$",
+   "$x=36$",
+   "$x=4$"
+  ],
+  "corect": 3,
+  "explicatie": "Împărțim ambii membri la $3$: $x=12:3=4$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-002",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $x+5=9$.",
+  "variante": [
+   "$x=4$",
+   "$x=45$",
+   "$x=-4$",
+   "$x=14$"
+  ],
+  "corect": 0,
+  "explicatie": "Scădem $5$ din ambii membri: $x=9-5=4$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-003",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2x-6=0$.",
+  "variante": [
+   "$x=-3$",
+   "$x=6$",
+   "$x=-6$",
+   "$x=3$"
+  ],
+  "corect": 3,
+  "explicatie": "Mutăm $-6$ în dreapta: $2x=6$, deci $x=3$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-004",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{2}=5$.",
+  "variante": [
+   "$x=10$",
+   "$x=3$",
+   "$x=\\frac52$",
+   "$x=7$"
+  ],
+  "corect": 0,
+  "explicatie": "Înmulțim ambii membri cu $2$: $x=5\\cdot2=10$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-005",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $5x+3=18$.",
+  "variante": [
+   "$x=\\frac{21}{5}$",
+   "$x=15$",
+   "$x=-3$",
+   "$x=3$"
+  ],
+  "corect": 3,
+  "explicatie": "Scădem $3$: $5x=15$, apoi împărțim la $5$ și obținem $x=3$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-006",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2x-1=7$.",
+  "variante": [
+   "$x=4$",
+   "$x=6$",
+   "$x=3$",
+   "$x=8$"
+  ],
+  "corect": 0,
+  "explicatie": "Adunăm $1$: $2x=8$, deci $x=4$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-007",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $x-7=-2$.",
+  "variante": [
+   "$x=-5$",
+   "$x=9$",
+   "$x=-9$",
+   "$x=5$"
+  ],
+  "corect": 3,
+  "explicatie": "Adunăm $7$ în ambii membri: $x=-2+7=5$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-008",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $-x=4$.",
+  "variante": [
+   "$x=\\frac14$",
+   "$x=4$",
+   "$x=-4$",
+   "$x=0$"
+  ],
+  "corect": 2,
+  "explicatie": "Înmulțim cu $-1$ ambii membri: din $-x=4$ rezultă $x=-4$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-009",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $4x=-8$.",
+  "variante": [
+   "$x=-2$",
+   "$x=-32$",
+   "$x=2$",
+   "$x=-12$"
+  ],
+  "corect": 0,
+  "explicatie": "Împărțim la $4$: $x=-8:4=-2$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-010",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\frac{x}{3}=-2$.",
+  "variante": [
+   "$x=-6$",
+   "$x=-\\frac16$",
+   "$x=6$",
+   "$x=-\\frac23$"
+  ],
+  "corect": 0,
+  "explicatie": "Înmulțim cu $3$: $x=-2\\cdot3=-6$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-011",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $3(x+1)=9$.",
+  "variante": [
+   "$x=2$",
+   "$x=3$",
+   "$x=6$",
+   "$x=0$"
+  ],
+  "corect": 0,
+  "explicatie": "Împărțim la $3$: $x+1=3$, deci $x=2$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-012",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2x+1=x+4$.",
+  "variante": [
+   "$x=5$",
+   "$x=3$",
+   "$x=-3$",
+   "$x=1$"
+  ],
+  "corect": 1,
+  "explicatie": "Adunăm termenii cu $x$ într-o parte: $2x-x=4-1$, deci $x=3$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-013",
+  "tip": "simplu",
+  "intrebare": "Dacă $ax=b$ și $a\\neq0$, atunci:",
+  "variante": [
+   "$x=\\frac{b}{a}$",
+   "$x=b-a$",
+   "$x=\\frac{a}{b}$",
+   "$x=ab$"
+  ],
+  "corect": 0,
+  "explicatie": "Pentru $a\\neq0$ împărțim ambii membri la $a$ și obținem $x=\\frac{b}{a}$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-014",
+  "tip": "simplu",
+  "intrebare": "Ce soluții are $0\\cdot x=5$?",
+  "variante": [
+   "nu are soluții",
+   "$x=5$",
+   "o infinitate",
+   "$x=0$"
+  ],
+  "corect": 0,
+  "explicatie": "$0\\cdot x$ este mereu $0$, iar $0\\neq5$, deci egalitatea nu se verifică pentru niciun $x$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-015",
+  "tip": "simplu",
+  "intrebare": "Ce soluții are $0\\cdot x=0$?",
+  "variante": [
+   "o infinitate",
+   "nu are soluții",
+   "doar $x=1$",
+   "doar $x=0$"
+  ],
+  "corect": 0,
+  "explicatie": "$0\\cdot x=0$ este adevărată pentru orice $x$, deci are o infinitate de soluții."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-016",
+  "tip": "simplu",
+  "intrebare": "Când mutăm un termen în cealaltă parte a egalului, semnul lui:",
+  "variante": [
+   "devine $0$",
+   "se dublează",
+   "rămâne la fel",
+   "se schimbă"
+  ],
+  "corect": 3,
+  "explicatie": "Când un termen trece în cealaltă parte a egalului, își schimbă semnul (adunarea devine scădere și invers)."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-017",
+  "tip": "simplu",
+  "intrebare": "Primul pas la $2(x+3)=10$:",
+  "variante": [
+   "împărțim la $x$",
+   "ridicăm la pătrat",
+   "adunăm $2$ cu $3$",
+   "desfacem parantezele"
+  ],
+  "corect": 3,
+  "explicatie": "Când ai paranteză cu număr în față, începi prin a o desface: $2x+6=10$."
+ },
+ {
+  "id": "ecuatii-ax-plus-b-018",
+  "tip": "simplu",
+  "intrebare": "Cum verificăm soluția unei ecuații?",
+  "variante": [
+   "o înlocuim în ecuație",
+   "o derivăm",
+   "o adunăm la ecuație",
+   "o ridicăm la pătrat"
+  ],
+  "corect": 0,
+  "explicatie": "Punem valoarea găsită în locul lui $x$ și vedem dacă obținem o egalitate adevărată."
+ }
 ]

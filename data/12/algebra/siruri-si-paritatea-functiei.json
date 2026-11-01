@@ -1,230 +1,249 @@
 [
-  {
-    "id": "siruri-si-paritatea-functiei-001",
-    "tip": "simplu",
-    "intrebare": "Funcția $f$ este pară dacă:",
-    "variante": [
-      "$f(-x)=f(x)$",
-      "$f(-x)=-f(x)$",
-      "$f(x)=0$",
-      "$f(x)=x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-002",
-    "tip": "simplu",
-    "intrebare": "Funcția $f$ este impară dacă:",
-    "variante": [
-      "$f(-x)=f(x)$",
-      "$f(x)=0$",
-      "$f(-x)=-f(x)$",
-      "$f(x)=-x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-003",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^2$ este:",
-    "variante": [
-      "nici pară, nici impară",
-      "impară",
-      "pară",
-      "constantă"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-004",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^3$ este:",
-    "variante": [
-      "pară",
-      "impară",
-      "constantă",
-      "nici pară, nici impară"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-005",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^4+1$ este:",
-    "variante": [
-      "constantă",
-      "nici pară, nici impară",
-      "impară",
-      "pară"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-006",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x+1$ este:",
-    "variante": [
-      "nici pară, nici impară",
-      "constantă",
-      "impară",
-      "pară"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-007",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^3+x$ este:",
-    "variante": [
-      "impară",
-      "pară",
-      "constantă",
-      "nici pară, nici impară"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-008",
-    "tip": "simplu",
-    "intrebare": "Funcția $f(x)=x^2+x$ este:",
-    "variante": [
-      "constantă",
-      "nici pară, nici impară",
-      "pară",
-      "impară"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-009",
-    "tip": "simplu",
-    "intrebare": "Funcția $\\sin x$ este:",
-    "variante": [
-      "impară",
-      "pară",
-      "nici pară, nici impară",
-      "constantă"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-010",
-    "tip": "simplu",
-    "intrebare": "Funcția $\\cos x$ este:",
-    "variante": [
-      "pară",
-      "nici pară, nici impară",
-      "constantă",
-      "impară"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-011",
-    "tip": "simplu",
-    "intrebare": "Funcția $|x|$ este:",
-    "variante": [
-      "constantă",
-      "nici pară, nici impară",
-      "pară",
-      "impară"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-012",
-    "tip": "simplu",
-    "intrebare": "Graficul unei funcții pare este simetric față de:",
-    "variante": [
-      "origine",
-      "dreapta $y=x$",
-      "axa $Oy$",
-      "axa $Ox$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-013",
-    "tip": "simplu",
-    "intrebare": "Graficul unei funcții impare este simetric față de:",
-    "variante": [
-      "origine",
-      "axa $Oy$",
-      "dreapta $y=x$",
-      "axa $Ox$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-014",
-    "tip": "simplu",
-    "intrebare": "Care este mulțimea valorilor lui $\\sin x$?",
-    "variante": [
-      "$[0;1]$",
-      "$(-1;1)$",
-      "$[-1;1]$",
-      "$\\mathbb{R}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-015",
-    "tip": "simplu",
-    "intrebare": "Care este mulțimea valorilor lui $x^2$?",
-    "variante": [
-      "$(0;+\\infty)$",
-      "$[0;+\\infty)$",
-      "$\\mathbb{R}$",
-      "$(-\\infty;0]$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-016",
-    "tip": "simplu",
-    "intrebare": "Șirul $a_n=2n+1$. Cât este $a_3$?",
-    "variante": [
-      "$9$",
-      "$7$",
-      "$6$",
-      "$5$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-017",
-    "tip": "simplu",
-    "intrebare": "Șirul $a_n$ este crescător dacă:",
-    "variante": [
-      "$a_{n+1}=a_n$",
-      "$a_{n+1}<a_n$",
-      "$a_n>0$",
-      "$a_{n+1}>a_n$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-018",
-    "tip": "simplu",
-    "intrebare": "Șirul $a_n=(-1)^n$. Cât este $a_3$?",
-    "variante": [
-      "$3$",
-      "$-3$",
-      "$-1$",
-      "$1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "siruri-si-paritatea-functiei-019",
-    "tip": "simplu",
-    "intrebare": "Către ce număr tinde șirul $a_n=\\frac1n$?",
-    "variante": [
-      "$-1$",
-      "$0$",
-      "$1$",
-      "$+\\infty$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "siruri-si-paritatea-functiei-001",
+  "tip": "simplu",
+  "intrebare": "Funcția $f$ este pară dacă:",
+  "variante": [
+   "$f(-x)=f(x)$",
+   "$f(-x)=-f(x)$",
+   "$f(x)=0$",
+   "$f(x)=x$"
+  ],
+  "corect": 0,
+  "explicatie": "Definiția funcției pare: $f(-x)=f(x)$ pentru orice $x$ din domeniu (graficul e simetric față de $Oy$)."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-002",
+  "tip": "simplu",
+  "intrebare": "Funcția $f$ este impară dacă:",
+  "variante": [
+   "$f(-x)=f(x)$",
+   "$f(x)=0$",
+   "$f(-x)=-f(x)$",
+   "$f(x)=-x$"
+  ],
+  "corect": 2,
+  "explicatie": "Definiția funcției impare: $f(-x)=-f(x)$ pentru orice $x$ din domeniu."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-003",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x^2$ este:",
+  "variante": [
+   "nici pară, nici impară",
+   "impară",
+   "pară",
+   "constantă"
+  ],
+  "corect": 2,
+  "explicatie": "$f(-x)=(-x)^2=x^2=f(x)$, deci funcția este pară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-004",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x^3$ este:",
+  "variante": [
+   "pară",
+   "impară",
+   "constantă",
+   "nici pară, nici impară"
+  ],
+  "corect": 1,
+  "explicatie": "$f(-x)=(-x)^3=-x^3=-f(x)$, deci funcția este impară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-005",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x^4+1$ este:",
+  "variante": [
+   "constantă",
+   "nici pară, nici impară",
+   "impară",
+   "pară"
+  ],
+  "corect": 3,
+  "explicatie": "$f(-x)=(-x)^4+1=x^4+1=f(x)$, deci funcția este pară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-006",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x+1$ este:",
+  "variante": [
+   "nici pară, nici impară",
+   "constantă",
+   "impară",
+   "pară"
+  ],
+  "corect": 0,
+  "explicatie": "$f(-x)=-x+1$ nu este nici $f(x)=x+1$, nici $-f(x)=-x-1$, deci nu e nici pară, nici impară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-007",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x^3+x$ este:",
+  "variante": [
+   "impară",
+   "pară",
+   "constantă",
+   "nici pară, nici impară"
+  ],
+  "corect": 0,
+  "explicatie": "$f(-x)=-x^3-x=-(x^3+x)=-f(x)$, deci funcția este impară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-008",
+  "tip": "simplu",
+  "intrebare": "Funcția $f(x)=x^2+x$ este:",
+  "variante": [
+   "constantă",
+   "nici pară, nici impară",
+   "pară",
+   "impară"
+  ],
+  "corect": 1,
+  "explicatie": "$f(-x)=x^2-x$ nu este nici $x^2+x$, nici $-x^2-x$, deci nu e nici pară, nici impară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-009",
+  "tip": "simplu",
+  "intrebare": "Funcția $\\sin x$ este:",
+  "variante": [
+   "impară",
+   "pară",
+   "nici pară, nici impară",
+   "constantă"
+  ],
+  "corect": 0,
+  "explicatie": "Sinusul este impar: $\\sin(-x)=-\\sin x$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-010",
+  "tip": "simplu",
+  "intrebare": "Funcția $\\cos x$ este:",
+  "variante": [
+   "pară",
+   "nici pară, nici impară",
+   "constantă",
+   "impară"
+  ],
+  "corect": 0,
+  "explicatie": "Cosinusul este par: $\\cos(-x)=\\cos x$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-011",
+  "tip": "simplu",
+  "intrebare": "Funcția $|x|$ este:",
+  "variante": [
+   "constantă",
+   "nici pară, nici impară",
+   "pară",
+   "impară"
+  ],
+  "corect": 2,
+  "explicatie": "$|-x|=|x|$, deci funcția modul este pară."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-012",
+  "tip": "simplu",
+  "intrebare": "Graficul unei funcții pare este simetric față de:",
+  "variante": [
+   "origine",
+   "dreapta $y=x$",
+   "axa $Oy$",
+   "axa $Ox$"
+  ],
+  "corect": 2,
+  "explicatie": "Funcțiile pare au graficul simetric față de axa $Oy$, pentru că $f(-x)=f(x)$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-013",
+  "tip": "simplu",
+  "intrebare": "Graficul unei funcții impare este simetric față de:",
+  "variante": [
+   "origine",
+   "axa $Oy$",
+   "dreapta $y=x$",
+   "axa $Ox$"
+  ],
+  "corect": 0,
+  "explicatie": "Funcțiile impare au graficul simetric față de origine, pentru că $f(-x)=-f(x)$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-014",
+  "tip": "simplu",
+  "intrebare": "Care este mulțimea valorilor lui $\\sin x$?",
+  "variante": [
+   "$[0;1]$",
+   "$(-1;1)$",
+   "$[-1;1]$",
+   "$\\mathbb{R}$"
+  ],
+  "corect": 2,
+  "explicatie": "Sinusul oscilează între $-1$ și $1$ și atinge ambele valori, deci mulțimea valorilor este $[-1;1]$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-015",
+  "tip": "simplu",
+  "intrebare": "Care este mulțimea valorilor lui $x^2$?",
+  "variante": [
+   "$(0;+\\infty)$",
+   "$[0;+\\infty)$",
+   "$\\mathbb{R}$",
+   "$(-\\infty;0]$"
+  ],
+  "corect": 1,
+  "explicatie": "Un pătrat este mereu $\\geq0$ și atinge 0 în $x=0$, deci valorile sunt $[0;+\\infty)$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-016",
+  "tip": "simplu",
+  "intrebare": "Șirul $a_n=2n+1$. Cât este $a_3$?",
+  "variante": [
+   "$9$",
+   "$7$",
+   "$6$",
+   "$5$"
+  ],
+  "corect": 1,
+  "explicatie": "Înlocuim $n=3$: $a_3=2\\cdot3+1=7$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-017",
+  "tip": "simplu",
+  "intrebare": "Șirul $a_n$ este crescător dacă:",
+  "variante": [
+   "$a_{n+1}=a_n$",
+   "$a_{n+1}<a_n$",
+   "$a_n>0$",
+   "$a_{n+1}>a_n$"
+  ],
+  "corect": 3,
+  "explicatie": "Șirul este crescător dacă fiecare termen este mai mare decât precedentul: $a_{n+1}>a_n$."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-018",
+  "tip": "simplu",
+  "intrebare": "Șirul $a_n=(-1)^n$. Cât este $a_3$?",
+  "variante": [
+   "$3$",
+   "$-3$",
+   "$-1$",
+   "$1$"
+  ],
+  "corect": 2,
+  "explicatie": "$a_3=(-1)^3=-1$, deoarece $3$ este impar."
+ },
+ {
+  "id": "siruri-si-paritatea-functiei-019",
+  "tip": "simplu",
+  "intrebare": "Către ce număr tinde șirul $a_n=\\frac1n$?",
+  "variante": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$+\\infty$"
+  ],
+  "corect": 1,
+  "explicatie": "Pe măsură ce $n$ crește, $\\frac1n$ se apropie de 0, deci limita este 0."
+ }
 ]

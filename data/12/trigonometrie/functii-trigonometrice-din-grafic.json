@@ -1,262 +1,282 @@
 [
-  {
-    "id": "functii-trigonometrice-din-grafic-001",
-    "tip": "simplu",
-    "intrebare": "Graficul din figură este al funcției:",
-    "variante": [
-      "$\\sin x$",
-      "$-\\sin x$",
-      "$\\cos x$",
-      "$\\operatorname{tg}x$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr1.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-002",
-    "tip": "simplu",
-    "intrebare": "Cât este valoarea maximă a funcției?",
-    "variante": [
-      "$0$",
-      "$-1$",
-      "$2$",
-      "$1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tr1.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-003",
-    "tip": "simplu",
-    "intrebare": "Cât este valoarea minimă?",
-    "variante": [
-      "$-1$",
-      "$-2$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr1.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-004",
-    "tip": "simplu",
-    "intrebare": "În ce punct din $[0;2\\pi]$ atinge maximul?",
-    "variante": [
-      "$\\frac{3\\pi}{2}$",
-      "$\\frac{\\pi}{2}$",
-      "$0$",
-      "$\\pi$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tr1.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-005",
-    "tip": "simplu",
-    "intrebare": "Care este perioada principală?",
-    "variante": [
-      "$\\pi$",
-      "$2\\pi$",
-      "$4\\pi$",
-      "$\\frac{\\pi}{2}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tr1.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-006",
-    "tip": "simplu",
-    "intrebare": "Graficul din figură este al funcției:",
-    "variante": [
-      "$\\cos x$",
-      "$\\operatorname{tg}x$",
-      "$-\\cos x$",
-      "$\\sin x$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr2.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-007",
-    "tip": "simplu",
-    "intrebare": "Cât este valoarea funcției în $x=0$?",
-    "variante": [
-      "$-1$",
-      "$1$",
-      "$\\frac12$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tr2.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-008",
-    "tip": "simplu",
-    "intrebare": "Cât este valoarea în $x=\\pi$?",
-    "variante": [
-      "$0$",
-      "$\\pi$",
-      "$-1$",
-      "$1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tr2.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-009",
-    "tip": "simplu",
-    "intrebare": "În ce puncte din $[0;2\\pi]$ se anulează funcția?",
-    "variante": [
-      "$\\frac{\\pi}{2}$ și $\\frac{3\\pi}{2}$",
-      "$0$ și $2\\pi$",
-      "$\\pi$ și $2\\pi$",
-      "$0$ și $\\pi$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr2.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-010",
-    "tip": "simplu",
-    "intrebare": "Dreapta roșie este $y=0{,}5$. Câte soluții are $\\sin x=0{,}5$ pe $[0;2\\pi]$?",
-    "variante": [
-      "$1$",
-      "$4$",
-      "$2$",
-      "$3$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tr3.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-011",
-    "tip": "simplu",
-    "intrebare": "Pentru $\\sin x=0{,}5$, soluțiile sunt simetrice față de dreapta:",
-    "variante": [
-      "$x=\\frac{\\pi}{2}$",
-      "$x=\\pi$",
-      "$x=0$",
-      "$x=\\frac{3\\pi}{2}$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr3.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-012",
-    "tip": "simplu",
-    "intrebare": "Graficul portocaliu este $y=2\\sin x$. Cât este valoarea sa maximă?",
-    "variante": [
-      "$1$",
-      "$\\frac12$",
-      "$4$",
-      "$2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tr7.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-013",
-    "tip": "simplu",
-    "intrebare": "Perioada lui $2\\sin x$ este:",
-    "variante": [
-      "$\\pi$",
-      "$2\\pi$",
-      "$4\\pi$",
-      "$\\frac{\\pi}{2}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tr7.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-014",
-    "tip": "simplu",
-    "intrebare": "Graficul portocaliu este $y=\\sin 2x$. Cât este perioada lui?",
-    "variante": [
-      "$2\\pi$",
-      "$4\\pi$",
-      "$\\pi$",
-      "$\\frac{\\pi}{2}$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tr8.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-015",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, $\\sin2x$ face:",
-    "variante": [
-      "$4$ oscilații",
-      "$1$ oscilație",
-      "jumătate de oscilație",
-      "$2$ oscilații complete"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tr8.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-016",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x>0$?",
-    "variante": [
-      "$(0;2\\pi)$",
-      "$(\\pi;2\\pi)$",
-      "$\\left(0;\\frac{\\pi}{2}\\right)$",
-      "$(0;\\pi)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tr10.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-017",
-    "tip": "simplu",
-    "intrebare": "Unde este $\\sin x<0$?",
-    "variante": [
-      "$(0;\\pi)$",
-      "$(\\pi;2\\pi)$",
-      "$(0;2\\pi)$",
-      "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tr10.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-018",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ crescătoare?",
-    "variante": [
-      "$\\left[\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right]$",
-      "$\\left[0;\\pi\\right]$",
-      "$[0;2\\pi]$",
-      "$\\left[0;\\frac{\\pi}{2}\\right]\\cup\\left[\\frac{3\\pi}{2};2\\pi\\right]$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tr10.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-019",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, unde este $\\cos x>0$?",
-    "variante": [
-      "$\\left[0;\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{3\\pi}{2};2\\pi\\right]$",
-      "$(\\pi;2\\pi)$",
-      "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$",
-      "$(0;\\pi)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr11.svg"
-  },
-  {
-    "id": "functii-trigonometrice-din-grafic-020",
-    "tip": "simplu",
-    "intrebare": "Unde este $\\cos x<0$?",
-    "variante": [
-      "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$",
-      "$(0;\\pi)$",
-      "$\\left(0;\\frac{\\pi}{2}\\right)$",
-      "$(\\pi;2\\pi)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tr11.svg"
-  }
+ {
+  "id": "functii-trigonometrice-din-grafic-001",
+  "tip": "simplu",
+  "intrebare": "Graficul din figură este al funcției:",
+  "variante": [
+   "$\\sin x$",
+   "$-\\sin x$",
+   "$\\cos x$",
+   "$\\operatorname{tg}x$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr1.svg",
+  "explicatie": "Graficul trece prin origine și urcă până la $1$ în $\\frac{\\pi}{2}$: este sinusoida $\\sin x$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-002",
+  "tip": "simplu",
+  "intrebare": "Cât este valoarea maximă a funcției?",
+  "variante": [
+   "$0$",
+   "$-1$",
+   "$2$",
+   "$1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tr1.svg",
+  "explicatie": "Cea mai de sus valoare a graficului este $1$, deci maximul este $1$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-003",
+  "tip": "simplu",
+  "intrebare": "Cât este valoarea minimă?",
+  "variante": [
+   "$-1$",
+   "$-2$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr1.svg",
+  "explicatie": "Cea mai de jos valoare a graficului este $-1$, deci minimul este $-1$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-004",
+  "tip": "simplu",
+  "intrebare": "În ce punct din $[0;2\\pi]$ atinge maximul?",
+  "variante": [
+   "$\\frac{3\\pi}{2}$",
+   "$\\frac{\\pi}{2}$",
+   "$0$",
+   "$\\pi$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tr1.svg",
+  "explicatie": "Vârful cel mai înalt al graficului pe $[0;2\\pi]$ apare la $x=\\frac{\\pi}{2}$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-005",
+  "tip": "simplu",
+  "intrebare": "Care este perioada principală?",
+  "variante": [
+   "$\\pi$",
+   "$2\\pi$",
+   "$4\\pi$",
+   "$\\frac{\\pi}{2}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tr1.svg",
+  "explicatie": "Graficul se repetă identic după fiecare $2\\pi$, deci perioada principală este $2\\pi$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-006",
+  "tip": "simplu",
+  "intrebare": "Graficul din figură este al funcției:",
+  "variante": [
+   "$\\cos x$",
+   "$\\operatorname{tg}x$",
+   "$-\\cos x$",
+   "$\\sin x$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr2.svg",
+  "explicatie": "Graficul pornește de sus, din $(0;1)$, și coboară: este cosinusoida $\\cos x$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-007",
+  "tip": "simplu",
+  "intrebare": "Cât este valoarea funcției în $x=0$?",
+  "variante": [
+   "$-1$",
+   "$1$",
+   "$\\frac12$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tr2.svg",
+  "explicatie": "Graficul începe în punctul $(0;1)$, deci valoarea în $x=0$ este $1$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-008",
+  "tip": "simplu",
+  "intrebare": "Cât este valoarea în $x=\\pi$?",
+  "variante": [
+   "$0$",
+   "$\\pi$",
+   "$-1$",
+   "$1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tr2.svg",
+  "explicatie": "În $x=\\pi$ graficul trece prin punctul de jos, deci valoarea este $-1$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-009",
+  "tip": "simplu",
+  "intrebare": "În ce puncte din $[0;2\\pi]$ se anulează funcția?",
+  "variante": [
+   "$\\frac{\\pi}{2}$ și $\\frac{3\\pi}{2}$",
+   "$0$ și $2\\pi$",
+   "$\\pi$ și $2\\pi$",
+   "$0$ și $\\pi$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr2.svg",
+  "explicatie": "Graficul taie axa $Ox$ la $\\frac{\\pi}{2}$ și $\\frac{3\\pi}{2}$, deci acolo funcția se anulează."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-010",
+  "tip": "simplu",
+  "intrebare": "Dreapta roșie este $y=0{,}5$. Câte soluții are $\\sin x=0{,}5$ pe $[0;2\\pi]$?",
+  "variante": [
+   "$1$",
+   "$4$",
+   "$2$",
+   "$3$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tr3.svg",
+  "explicatie": "Dreapta $y=0{,}5$ intersectează sinusoida în două puncte pe $[0;2\\pi]$, deci sunt $2$ soluții."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-011",
+  "tip": "simplu",
+  "intrebare": "Pentru $\\sin x=0{,}5$, soluțiile sunt simetrice față de dreapta:",
+  "variante": [
+   "$x=\\frac{\\pi}{2}$",
+   "$x=\\pi$",
+   "$x=0$",
+   "$x=\\frac{3\\pi}{2}$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr3.svg",
+  "explicatie": "Cele două soluții sunt simetrice față de dreapta $x=\\frac{\\pi}{2}$, unde sinusul își atinge maximul."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-012",
+  "tip": "simplu",
+  "intrebare": "Graficul portocaliu este $y=2\\sin x$. Cât este valoarea sa maximă?",
+  "variante": [
+   "$1$",
+   "$\\frac12$",
+   "$4$",
+   "$2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tr7.svg",
+  "explicatie": "Factorul $2$ întinde graficul pe verticală: valorile merg de la $-2$ la $2$, deci maximul este $2$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-013",
+  "tip": "simplu",
+  "intrebare": "Perioada lui $2\\sin x$ este:",
+  "variante": [
+   "$\\pi$",
+   "$2\\pi$",
+   "$4\\pi$",
+   "$\\frac{\\pi}{2}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tr7.svg",
+  "explicatie": "Factorul $2$ din fața lui $\\sin x$ nu modifică perioada, rămâne $2\\pi$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-014",
+  "tip": "simplu",
+  "intrebare": "Graficul portocaliu este $y=\\sin 2x$. Cât este perioada lui?",
+  "variante": [
+   "$2\\pi$",
+   "$4\\pi$",
+   "$\\pi$",
+   "$\\frac{\\pi}{2}$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tr8.svg",
+  "explicatie": "$\\sin2x$ se repetă de două ori mai repede, deci perioada este $\\frac{2\\pi}{2}=\\pi$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-015",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, $\\sin2x$ face:",
+  "variante": [
+   "$4$ oscilații",
+   "$1$ oscilație",
+   "jumătate de oscilație",
+   "$2$ oscilații complete"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tr8.svg",
+  "explicatie": "Perioada lui $\\sin2x$ este $\\pi$, deci pe lungimea $2\\pi$ încap $2$ oscilații complete."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-016",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x>0$?",
+  "variante": [
+   "$(0;2\\pi)$",
+   "$(\\pi;2\\pi)$",
+   "$\\left(0;\\frac{\\pi}{2}\\right)$",
+   "$(0;\\pi)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tr10.svg",
+  "explicatie": "Sinusoida este deasupra axei $Ox$ între $0$ și $\\pi$, deci $\\sin x>0$ pe $(0;\\pi)$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-017",
+  "tip": "simplu",
+  "intrebare": "Unde este $\\sin x<0$?",
+  "variante": [
+   "$(0;\\pi)$",
+   "$(\\pi;2\\pi)$",
+   "$(0;2\\pi)$",
+   "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tr10.svg",
+  "explicatie": "Sinusoida este sub axa $Ox$ între $\\pi$ și $2\\pi$, deci $\\sin x<0$ pe $(\\pi;2\\pi)$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-018",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ crescătoare?",
+  "variante": [
+   "$\\left[\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right]$",
+   "$\\left[0;\\pi\\right]$",
+   "$[0;2\\pi]$",
+   "$\\left[0;\\frac{\\pi}{2}\\right]\\cup\\left[\\frac{3\\pi}{2};2\\pi\\right]$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tr10.svg",
+  "explicatie": "Graficul urcă de la $0$ la $\\frac{\\pi}{2}$, coboară până la $\\frac{3\\pi}{2}$ și urcă iar până la $2\\pi$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-019",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, unde este $\\cos x>0$?",
+  "variante": [
+   "$\\left[0;\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{3\\pi}{2};2\\pi\\right]$",
+   "$(\\pi;2\\pi)$",
+   "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$",
+   "$(0;\\pi)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr11.svg",
+  "explicatie": "Cosinusoida este deasupra axei $Ox$ la început și la sfârșit, în afara intervalului dintre $\\frac{\\pi}{2}$ și $\\frac{3\\pi}{2}$."
+ },
+ {
+  "id": "functii-trigonometrice-din-grafic-020",
+  "tip": "simplu",
+  "intrebare": "Unde este $\\cos x<0$?",
+  "variante": [
+   "$\\left(\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right)$",
+   "$(0;\\pi)$",
+   "$\\left(0;\\frac{\\pi}{2}\\right)$",
+   "$(\\pi;2\\pi)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tr11.svg",
+  "explicatie": "Cosinusoida este sub axa $Ox$ între zerourile $\\frac{\\pi}{2}$ și $\\frac{3\\pi}{2}$."
+ }
 ]

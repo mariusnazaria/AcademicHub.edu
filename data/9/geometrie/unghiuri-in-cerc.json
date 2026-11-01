@@ -1,182 +1,197 @@
 [
-  {
-    "id": "unghiuri-in-cerc-001",
-    "tip": "simplu",
-    "intrebare": "Cât este măsura unui cerc întreg (în grade)?",
-    "variante": [
-      "$360^\\circ$",
-      "$180^\\circ$",
-      "$90^\\circ$",
-      "$720^\\circ$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "unghiuri-in-cerc-002",
-    "tip": "simplu",
-    "intrebare": "Unghiul la centru este egal cu:",
-    "variante": [
-      "măsura arcului pe care îl subîntinde",
-      "$90^\\circ$",
-      "jumătate din arc",
-      "dublul arcului"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "unghiuri-in-cerc-003",
-    "tip": "simplu",
-    "intrebare": "Unghiul înscris în cerc este egal cu:",
-    "variante": [
-      "arcul subîntins",
-      "dublul arcului",
-      "$90^\\circ$",
-      "jumătate din arcul subîntins"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "unghiuri-in-cerc-004",
-    "tip": "simplu",
-    "intrebare": "Un arc are $80^\\circ$. Cât este unghiul înscris care îl subîntinde?",
-    "variante": [
-      "$80^\\circ$",
-      "$20^\\circ$",
-      "$40^\\circ$",
-      "$160^\\circ$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "unghiuri-in-cerc-005",
-    "tip": "simplu",
-    "intrebare": "Un arc are $80^\\circ$. Cât este unghiul la centru?",
-    "variante": [
-      "$160^\\circ$",
-      "$40^\\circ$",
-      "$20^\\circ$",
-      "$80^\\circ$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "unghiuri-in-cerc-006",
-    "tip": "simplu",
-    "intrebare": "Un unghi la centru are $100^\\circ$. Cât este unghiul înscris pe același arc?",
-    "variante": [
-      "$25^\\circ$",
-      "$200^\\circ$",
-      "$100^\\circ$",
-      "$50^\\circ$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "unghiuri-in-cerc-007",
-    "tip": "simplu",
-    "intrebare": "Un unghi înscris are $30^\\circ$. Cât este arcul subîntins?",
-    "variante": [
-      "$30^\\circ$",
-      "$15^\\circ$",
-      "$60^\\circ$",
-      "$90^\\circ$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "unghiuri-in-cerc-008",
-    "tip": "simplu",
-    "intrebare": "Cât este unghiul înscris care subîntinde un diametru?",
-    "variante": [
-      "$45^\\circ$",
-      "$180^\\circ$",
-      "$90^\\circ$",
-      "$60^\\circ$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "unghiuri-in-cerc-009",
-    "tip": "simplu",
-    "intrebare": "Cât este un semicerc (în grade)?",
-    "variante": [
-      "$270^\\circ$",
-      "$90^\\circ$",
-      "$360^\\circ$",
-      "$180^\\circ$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "unghiuri-in-cerc-010",
-    "tip": "simplu",
-    "intrebare": "Unghiurile înscrise care subîntind același arc sunt:",
-    "variante": [
-      "complementare",
-      "diferite",
-      "egale",
-      "suplementare"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "unghiuri-in-cerc-011",
-    "tip": "simplu",
-    "intrebare": "Într-un patrulater înscris în cerc, unghiurile opuse sunt:",
-    "variante": [
-      "complementare",
-      "egale",
-      "suplementare (suma $180^\\circ$)",
-      "drepte"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "unghiuri-in-cerc-012",
-    "tip": "simplu",
-    "intrebare": "Un patrulater înscris în cerc are $\\hat A=70^\\circ$. Cât este unghiul opus $\\hat C$?",
-    "variante": [
-      "$20^\\circ$",
-      "$110^\\circ$",
-      "$70^\\circ$",
-      "$290^\\circ$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "unghiuri-in-cerc-013",
-    "tip": "simplu",
-    "intrebare": "Unghiul format de o tangentă și o coardă este egal cu:",
-    "variante": [
-      "dublul arcului",
-      "jumătate din arcul subîntins",
-      "$90^\\circ$",
-      "arcul întreg"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "unghiuri-in-cerc-014",
-    "tip": "simplu",
-    "intrebare": "Un triunghi are un vârf pe cerc și latura opusă este diametru. Unghiul din acel vârf este:",
-    "variante": [
-      "$180^\\circ$",
-      "$90^\\circ$",
-      "$45^\\circ$",
-      "$60^\\circ$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "unghiuri-in-cerc-015",
-    "tip": "simplu",
-    "intrebare": "Un arc are $120^\\circ$. Unghiul înscris care îl subîntinde este:",
-    "variante": [
-      "$60^\\circ$",
-      "$30^\\circ$",
-      "$240^\\circ$",
-      "$120^\\circ$"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "unghiuri-in-cerc-001",
+  "tip": "simplu",
+  "intrebare": "Cât este măsura unui cerc întreg (în grade)?",
+  "variante": [
+   "$360^\\circ$",
+   "$180^\\circ$",
+   "$90^\\circ$",
+   "$720^\\circ$"
+  ],
+  "corect": 0,
+  "explicatie": "Un cerc întreg corespunde unei rotații complete, adică $360^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-002",
+  "tip": "simplu",
+  "intrebare": "Unghiul la centru este egal cu:",
+  "variante": [
+   "măsura arcului pe care îl subîntinde",
+   "$90^\\circ$",
+   "jumătate din arc",
+   "dublul arcului"
+  ],
+  "corect": 0,
+  "explicatie": "Unghiul la centru are vârful în centru și are aceeași măsură ca arcul cuprins între laturile sale."
+ },
+ {
+  "id": "unghiuri-in-cerc-003",
+  "tip": "simplu",
+  "intrebare": "Unghiul înscris în cerc este egal cu:",
+  "variante": [
+   "arcul subîntins",
+   "dublul arcului",
+   "$90^\\circ$",
+   "jumătate din arcul subîntins"
+  ],
+  "corect": 3,
+  "explicatie": "Unghiul înscris (vârful pe cerc) are măsura egală cu jumătate din arcul pe care îl subîntinde."
+ },
+ {
+  "id": "unghiuri-in-cerc-004",
+  "tip": "simplu",
+  "intrebare": "Un arc are $80^\\circ$. Cât este unghiul înscris care îl subîntinde?",
+  "variante": [
+   "$80^\\circ$",
+   "$20^\\circ$",
+   "$40^\\circ$",
+   "$160^\\circ$"
+  ],
+  "corect": 2,
+  "explicatie": "Unghiul înscris este jumătate din arc: $\\frac{80^\\circ}{2}=40^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-005",
+  "tip": "simplu",
+  "intrebare": "Un arc are $80^\\circ$. Cât este unghiul la centru?",
+  "variante": [
+   "$160^\\circ$",
+   "$40^\\circ$",
+   "$20^\\circ$",
+   "$80^\\circ$"
+  ],
+  "corect": 3,
+  "explicatie": "Unghiul la centru are aceeași măsură cu arcul: $80^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-006",
+  "tip": "simplu",
+  "intrebare": "Un unghi la centru are $100^\\circ$. Cât este unghiul înscris pe același arc?",
+  "variante": [
+   "$25^\\circ$",
+   "$200^\\circ$",
+   "$100^\\circ$",
+   "$50^\\circ$"
+  ],
+  "corect": 3,
+  "explicatie": "Unghiul înscris este jumătate din unghiul la centru de pe același arc: $\\frac{100^\\circ}{2}=50^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-007",
+  "tip": "simplu",
+  "intrebare": "Un unghi înscris are $30^\\circ$. Cât este arcul subîntins?",
+  "variante": [
+   "$30^\\circ$",
+   "$15^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$"
+  ],
+  "corect": 2,
+  "explicatie": "Arcul este dublul unghiului înscris: $2\\cdot30^\\circ=60^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-008",
+  "tip": "simplu",
+  "intrebare": "Cât este unghiul înscris care subîntinde un diametru?",
+  "variante": [
+   "$45^\\circ$",
+   "$180^\\circ$",
+   "$90^\\circ$",
+   "$60^\\circ$"
+  ],
+  "corect": 2,
+  "explicatie": "Diametrul subîntinde un semicerc de $180^\\circ$, iar unghiul înscris este jumătate din el: $90^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-009",
+  "tip": "simplu",
+  "intrebare": "Cât este un semicerc (în grade)?",
+  "variante": [
+   "$270^\\circ$",
+   "$90^\\circ$",
+   "$360^\\circ$",
+   "$180^\\circ$"
+  ],
+  "corect": 3,
+  "explicatie": "Un semicerc este jumătate din cerc: $\\frac{360^\\circ}{2}=180^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-010",
+  "tip": "simplu",
+  "intrebare": "Unghiurile înscrise care subîntind același arc sunt:",
+  "variante": [
+   "complementare",
+   "diferite",
+   "egale",
+   "suplementare"
+  ],
+  "corect": 2,
+  "explicatie": "Fiecare dintre ele este jumătate din același arc, deci sunt egale."
+ },
+ {
+  "id": "unghiuri-in-cerc-011",
+  "tip": "simplu",
+  "intrebare": "Într-un patrulater înscris în cerc, unghiurile opuse sunt:",
+  "variante": [
+   "complementare",
+   "egale",
+   "suplementare (suma $180^\\circ$)",
+   "drepte"
+  ],
+  "corect": 2,
+  "explicatie": "Unghiurile opuse subîntind arce care împreună fac $360^\\circ$, iar fiecare unghi e jumătate din arcul său: suma este $180^\\circ$, deci sunt suplementare."
+ },
+ {
+  "id": "unghiuri-in-cerc-012",
+  "tip": "simplu",
+  "intrebare": "Un patrulater înscris în cerc are $\\hat A=70^\\circ$. Cât este unghiul opus $\\hat C$?",
+  "variante": [
+   "$20^\\circ$",
+   "$110^\\circ$",
+   "$70^\\circ$",
+   "$290^\\circ$"
+  ],
+  "corect": 1,
+  "explicatie": "Unghiurile opuse sunt suplementare: $\\hat C=180^\\circ-70^\\circ=110^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-013",
+  "tip": "simplu",
+  "intrebare": "Unghiul format de o tangentă și o coardă este egal cu:",
+  "variante": [
+   "dublul arcului",
+   "jumătate din arcul subîntins",
+   "$90^\\circ$",
+   "arcul întreg"
+  ],
+  "corect": 1,
+  "explicatie": "Unghiul dintre tangentă și coardă se măsoară ca unghiul înscris: jumătate din arcul subîntins de coardă."
+ },
+ {
+  "id": "unghiuri-in-cerc-014",
+  "tip": "simplu",
+  "intrebare": "Un triunghi are un vârf pe cerc și latura opusă este diametru. Unghiul din acel vârf este:",
+  "variante": [
+   "$180^\\circ$",
+   "$90^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$"
+  ],
+  "corect": 1,
+  "explicatie": "Latura opusă este diametru, deci subîntinde un semicerc de $180^\\circ$; unghiul înscris este jumătate: $90^\\circ$."
+ },
+ {
+  "id": "unghiuri-in-cerc-015",
+  "tip": "simplu",
+  "intrebare": "Un arc are $120^\\circ$. Unghiul înscris care îl subîntinde este:",
+  "variante": [
+   "$60^\\circ$",
+   "$30^\\circ$",
+   "$240^\\circ$",
+   "$120^\\circ$"
+  ],
+  "corect": 0,
+  "explicatie": "Unghiul înscris este jumătate din arc: $\\frac{120^\\circ}{2}=60^\\circ$."
+ }
 ]

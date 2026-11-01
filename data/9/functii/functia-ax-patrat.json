@@ -1,249 +1,268 @@
 [
-  {
-    "id": "functia-ax-patrat-001",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
-    "variante": [
-      "întoarsă în jos",
-      "la fel de largă",
-      "mai largă",
-      "mai îngustă"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-a1.svg"
-  },
-  {
-    "id": "functia-ax-patrat-002",
-    "tip": "simplu",
-    "intrebare": "Coeficientul $a$ al parabolei albastre este:",
-    "variante": [
-      "nu se poate ști",
-      "negativ",
-      "zero",
-      "pozitiv"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-a1.svg"
-  },
-  {
-    "id": "functia-ax-patrat-003",
-    "tip": "simplu",
-    "intrebare": "Încotro merg ramurile parabolei albastre?",
-    "variante": [
-      "în jos",
-      "spre stânga",
-      "în sus",
-      "spre dreapta"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a1.svg"
-  },
-  {
-    "id": "functia-ax-patrat-004",
-    "tip": "simplu",
-    "intrebare": "Încotro merg ramurile parabolei?",
-    "variante": [
-      "în sus",
-      "spre dreapta",
-      "spre stânga",
-      "în jos"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-a2.svg"
-  },
-  {
-    "id": "functia-ax-patrat-005",
-    "tip": "simplu",
-    "intrebare": "Coeficientul $a$ este:",
-    "variante": [
-      "nu se poate ști",
-      "negativ",
-      "pozitiv",
-      "zero"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a2.svg"
-  },
-  {
-    "id": "functia-ax-patrat-006",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mare valoare a funcției?",
-    "variante": [
-      "nu există",
-      "$1$",
-      "$0$",
-      "$-1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a2.svg"
-  },
-  {
-    "id": "functia-ax-patrat-007",
-    "tip": "simplu",
-    "intrebare": "Care este imaginea funcției?",
-    "variante": [
-      "$\\mathbb{R}$",
-      "$(-\\infty;0]$",
-      "$[-1;1]$",
-      "$[0;+\\infty)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a2.svg"
-  },
-  {
-    "id": "functia-ax-patrat-008",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval funcția crește?",
-    "variante": [
-      "$[0;+\\infty)$",
-      "$(-\\infty;0]$",
-      "$\\mathbb{R}$",
-      "$(-\\infty;-1]$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a2.svg"
-  },
-  {
-    "id": "functia-ax-patrat-009",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
-    "variante": [
-      "întoarsă în jos",
-      "mai largă",
-      "la fel de largă",
-      "mai îngustă"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a3.svg"
-  },
-  {
-    "id": "functia-ax-patrat-010",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Ce putem spune despre ea?",
-    "variante": [
-      "este mai îngustă și are ramurile în jos",
-      "este mai îngustă și are ramurile în sus",
-      "este mai largă și are ramurile în jos",
-      "este mai largă și are ramurile în sus"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-a4.svg"
-  },
-  {
-    "id": "functia-ax-patrat-011",
-    "tip": "simplu",
-    "intrebare": "Semnul coeficientului $a$ pentru parabola albastră:",
-    "variante": [
-      "zero",
-      "minus",
-      "plus",
-      "nu se poate ști"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a4.svg"
-  },
-  {
-    "id": "functia-ax-patrat-012",
-    "tip": "simplu",
-    "intrebare": "Care parabolă are $|a|$ mai mare?",
-    "variante": [
-      "cea portocalie",
-      "nu se poate ști",
-      "cea albastră (e mai îngustă)",
-      "sunt egale"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a5.svg"
-  },
-  {
-    "id": "functia-ax-patrat-013",
-    "tip": "simplu",
-    "intrebare": "Punctul $A$ este pe graficul lui $y=ax^2$. Cât este $a$?",
-    "variante": [
-      "$-3$",
-      "$9$",
-      "$3$",
-      "$1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a6.svg"
-  },
-  {
-    "id": "functia-ax-patrat-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $f(1)$?",
-    "variante": [
-      "$3$",
-      "$-3$",
-      "$1$",
-      "$9$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-a6.svg"
-  },
-  {
-    "id": "functia-ax-patrat-015",
-    "tip": "simplu",
-    "intrebare": "Punctul $A$ este pe grafic. Care este ordonata lui?",
-    "variante": [
-      "$-4$",
-      "$2$",
-      "$-2$",
-      "$4$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a7.svg"
-  },
-  {
-    "id": "functia-ax-patrat-016",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $a$?",
-    "variante": [
-      "zero",
-      "plus",
-      "minus",
-      "nu se poate ști"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a7.svg"
-  },
-  {
-    "id": "functia-ax-patrat-017",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei?",
-    "variante": [
-      "$(0;2)$",
-      "$(1;2)$",
-      "$(0;0)$",
-      "$(2;0)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a8.svg"
-  },
-  {
-    "id": "functia-ax-patrat-018",
-    "tip": "simplu",
-    "intrebare": "Care este axa de simetrie?",
-    "variante": [
-      "dreapta $x=2$",
-      "axa $Ox$",
-      "axa $Oy$",
-      "dreapta $y=2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-a8.svg"
-  },
-  {
-    "id": "functia-ax-patrat-019",
-    "tip": "simplu",
-    "intrebare": "Câte zerouri are funcția?",
-    "variante": [
-      "două",
-      "unul",
-      "niciunul",
-      "trei"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-a8.svg"
-  }
+ {
+  "id": "functia-ax-patrat-001",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
+  "variante": [
+   "întoarsă în jos",
+   "la fel de largă",
+   "mai largă",
+   "mai îngustă"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-a1.svg",
+  "explicatie": "Parabola albastră e mai apropiată de axa $Oy$ decât $y=x^2$, deci e mai îngustă. Asta înseamnă $|a|>1$."
+ },
+ {
+  "id": "functia-ax-patrat-002",
+  "tip": "simplu",
+  "intrebare": "Coeficientul $a$ al parabolei albastre este:",
+  "variante": [
+   "nu se poate ști",
+   "negativ",
+   "zero",
+   "pozitiv"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-a1.svg",
+  "explicatie": "Ramurile parabolei merg în sus, iar asta se întâmplă doar când $a>0$."
+ },
+ {
+  "id": "functia-ax-patrat-003",
+  "tip": "simplu",
+  "intrebare": "Încotro merg ramurile parabolei albastre?",
+  "variante": [
+   "în jos",
+   "spre stânga",
+   "în sus",
+   "spre dreapta"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a1.svg",
+  "explicatie": "Parabola are forma de U, deschisă în sus. Ramurile se ridică de o parte și de alta a vârfului, deci $a>0$."
+ },
+ {
+  "id": "functia-ax-patrat-004",
+  "tip": "simplu",
+  "intrebare": "Încotro merg ramurile parabolei?",
+  "variante": [
+   "în sus",
+   "spre dreapta",
+   "spre stânga",
+   "în jos"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-a2.svg",
+  "explicatie": "Vârful este punctul cel mai de sus, iar de aici graficul coboară în ambele părți. Ramurile merg în jos."
+ },
+ {
+  "id": "functia-ax-patrat-005",
+  "tip": "simplu",
+  "intrebare": "Coeficientul $a$ este:",
+  "variante": [
+   "nu se poate ști",
+   "negativ",
+   "pozitiv",
+   "zero"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a2.svg",
+  "explicatie": "Ramurile sunt în jos, iar la $y=ax^2$ asta înseamnă $a<0$."
+ },
+ {
+  "id": "functia-ax-patrat-006",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mare valoare a funcției?",
+  "variante": [
+   "nu există",
+   "$1$",
+   "$0$",
+   "$-1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a2.svg",
+  "explicatie": "Parabola e deschisă în jos și vârful $(0;0)$ e punctul cel mai de sus. Valoarea maximă este $0$."
+ },
+ {
+  "id": "functia-ax-patrat-007",
+  "tip": "simplu",
+  "intrebare": "Care este imaginea funcției?",
+  "variante": [
+   "$\\mathbb{R}$",
+   "$(-\\infty;0]$",
+   "$[-1;1]$",
+   "$[0;+\\infty)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a2.svg",
+  "explicatie": "Imaginea e mulțimea valorilor $y$ atinse. Parabola e sub axa $Ox$, cu cel mai înalt punct în $y=0$, deci $(-\\infty;0]$."
+ },
+ {
+  "id": "functia-ax-patrat-008",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval funcția crește?",
+  "variante": [
+   "$[0;+\\infty)$",
+   "$(-\\infty;0]$",
+   "$\\mathbb{R}$",
+   "$(-\\infty;-1]$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a2.svg",
+  "explicatie": "Funcția crește cât timp graficul urcă. La parabola în jos asta se întâmplă în stânga vârfului, adică pe $(-\\infty;0]$."
+ },
+ {
+  "id": "functia-ax-patrat-009",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Cum este față de ea?",
+  "variante": [
+   "întoarsă în jos",
+   "mai largă",
+   "la fel de largă",
+   "mai îngustă"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a3.svg",
+  "explicatie": "Parabola albastră e mai depărtată de axa $Oy$ decât $y=x^2$, deci mai largă. Asta înseamnă $|a|<1$."
+ },
+ {
+  "id": "functia-ax-patrat-010",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este desenată împreună cu $y=x^2$ (punctată). Ce putem spune despre ea?",
+  "variante": [
+   "este mai îngustă și are ramurile în jos",
+   "este mai îngustă și are ramurile în sus",
+   "este mai largă și are ramurile în jos",
+   "este mai largă și are ramurile în sus"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-a4.svg",
+  "explicatie": "Ramurile sunt în jos, deci $a<0$. Parabola e mai îngustă decât $y=x^2$, deci $|a|>1$."
+ },
+ {
+  "id": "functia-ax-patrat-011",
+  "tip": "simplu",
+  "intrebare": "Semnul coeficientului $a$ pentru parabola albastră:",
+  "variante": [
+   "zero",
+   "minus",
+   "plus",
+   "nu se poate ști"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a4.svg",
+  "explicatie": "Ramurile merg în jos, deci coeficientul $a$ are semnul minus."
+ },
+ {
+  "id": "functia-ax-patrat-012",
+  "tip": "simplu",
+  "intrebare": "Care parabolă are $|a|$ mai mare?",
+  "variante": [
+   "cea portocalie",
+   "nu se poate ști",
+   "cea albastră (e mai îngustă)",
+   "sunt egale"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a5.svg",
+  "explicatie": "Cu cât parabola e mai îngustă, cu atât $|a|$ e mai mare. Parabola albastră e cea mai îngustă."
+ },
+ {
+  "id": "functia-ax-patrat-013",
+  "tip": "simplu",
+  "intrebare": "Punctul $A$ este pe graficul lui $y=ax^2$. Cât este $a$?",
+  "variante": [
+   "$-3$",
+   "$9$",
+   "$3$",
+   "$1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a6.svg",
+  "explicatie": "Punctul $A$ e pe grafic, deci coordonatele lui verifică $y=ax^2$. Înlocuind, obținem $a=3$."
+ },
+ {
+  "id": "functia-ax-patrat-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $f(1)$?",
+  "variante": [
+   "$3$",
+   "$-3$",
+   "$1$",
+   "$9$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-a6.svg",
+  "explicatie": "$f(1)=a\\cdot 1^2=a$. Din grafic $a=3$, deci $f(1)=3$."
+ },
+ {
+  "id": "functia-ax-patrat-015",
+  "tip": "simplu",
+  "intrebare": "Punctul $A$ este pe grafic. Care este ordonata lui?",
+  "variante": [
+   "$-4$",
+   "$2$",
+   "$-2$",
+   "$4$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a7.svg",
+  "explicatie": "Parabola e deschisă în jos, deci $A$ are ordonata negativă. Citim pe axa $Oy$ nivelul lui $A$: $-2$."
+ },
+ {
+  "id": "functia-ax-patrat-016",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $a$?",
+  "variante": [
+   "zero",
+   "plus",
+   "minus",
+   "nu se poate ști"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a7.svg",
+  "explicatie": "Ramurile merg în jos, deci $a<0$ (semnul minus)."
+ },
+ {
+  "id": "functia-ax-patrat-017",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei?",
+  "variante": [
+   "$(0;2)$",
+   "$(1;2)$",
+   "$(0;0)$",
+   "$(2;0)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a8.svg",
+  "explicatie": "La $y=ax^2$ vârful e mereu în origine, adică în $(0;0)$."
+ },
+ {
+  "id": "functia-ax-patrat-018",
+  "tip": "simplu",
+  "intrebare": "Care este axa de simetrie?",
+  "variante": [
+   "dreapta $x=2$",
+   "axa $Ox$",
+   "axa $Oy$",
+   "dreapta $y=2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-a8.svg",
+  "explicatie": "Pentru $y=ax^2$ axa de simetrie este axa $Oy$ (dreapta $x=0$), care trece prin vârf."
+ },
+ {
+  "id": "functia-ax-patrat-019",
+  "tip": "simplu",
+  "intrebare": "Câte zerouri are funcția?",
+  "variante": [
+   "două",
+   "unul",
+   "niciunul",
+   "trei"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-a8.svg",
+  "explicatie": "Vârful $(0;0)$ e singurul punct al parabolei de pe axa $Ox$. Funcția are un singur zero, $x=0$."
+ }
 ]

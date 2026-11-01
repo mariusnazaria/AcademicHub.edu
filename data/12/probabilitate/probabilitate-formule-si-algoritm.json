@@ -1,245 +1,265 @@
 [
-  {
-    "id": "probabilitate-formule-si-algoritm-001",
-    "tip": "simplu",
-    "intrebare": "Care este formula clasică a probabilității?",
-    "variante": [
-      "$P=m\\cdot n$",
-      "$P=\\frac{m}{n}$, $m$ = cazuri favorabile, $n$ = cazuri posibile",
-      "$P=\\frac{n}{m}$",
-      "$P=m-n$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-002",
-    "tip": "simplu",
-    "intrebare": "Ce reprezintă $n$ în $P=\\frac mn$?",
-    "variante": [
-      "probabilitatea evenimentului",
-      "numărul cazurilor imposibile",
-      "numărul cazurilor favorabile",
-      "numărul tuturor cazurilor posibile"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-003",
-    "tip": "simplu",
-    "intrebare": "Ce reprezintă $m$ în $P=\\frac mn$?",
-    "variante": [
-      "numărul tuturor cazurilor posibile",
-      "numărul cazurilor nefavorabile",
-      "numărul cazurilor favorabile evenimentului",
-      "numărul de încercări"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-004",
-    "tip": "multiplu",
-    "intrebare": "Între ce valori se află orice probabilitate $P$?",
-    "variante": [
-      "$P>1$ este posibil",
-      "$P\\le 1$",
-      "$P\\ge 0$",
-      "$P<0$ este posibil"
-    ],
-    "corect": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-005",
-    "tip": "simplu",
-    "intrebare": "Care este probabilitatea evenimentului sigur?",
-    "variante": [
-      "$\\frac12$",
-      "$1$",
-      "depinde de problemă",
-      "$0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-006",
-    "tip": "simplu",
-    "intrebare": "Care este probabilitatea evenimentului imposibil?",
-    "variante": [
-      "$0$",
-      "$1$",
-      "$-1$",
-      "$\\frac12$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $P$ dacă $m=0$?",
-    "variante": [
-      "$n$",
-      "$1$",
-      "$0$",
-      "nedefinită"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-008",
-    "tip": "simplu",
-    "intrebare": "Cât este probabilitatea evenimentului contrar, $P(\\overline A)$?",
-    "variante": [
-      "$P(A)$",
-      "$\\frac{1}{P(A)}$",
-      "$1-P(A)$",
-      "$P(A)-1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-009",
-    "tip": "simplu",
-    "intrebare": "În câte moduri alegem $k$ obiecte din $n$, fără să conteze ordinea?",
-    "variante": [
-      "$A_n^k$",
-      "$C_n^k$",
-      "$n^k$",
-      "$P_n$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-010",
-    "tip": "simplu",
-    "intrebare": "În câte moduri alegem $k$ obiecte din $n$, când contează ordinea?",
-    "variante": [
-      "$k^n$",
-      "$n\\cdot k$",
-      "$C_n^k$",
-      "$A_n^k$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-011",
-    "tip": "simplu",
-    "intrebare": "În câte moduri aranjăm $n$ obiecte distincte într-un rând?",
-    "variante": [
-      "$n^2$",
-      "$2n$",
-      "$C_n^2$",
-      "$n!$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-012",
-    "tip": "simplu",
-    "intrebare": "Se aruncă un zar de $k$ ori. Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$6^k$",
-      "$6k$",
-      "$C_6^k$",
-      "$k^6$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-013",
-    "tip": "simplu",
-    "intrebare": "Se aruncă o monedă de $k$ ori. Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$2^k$",
-      "$C_k^2$",
-      "$2k$",
-      "$k^2$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-014",
-    "tip": "simplu",
-    "intrebare": "Se aruncă două zaruri. Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$12$",
-      "$6$",
-      "$36$",
-      "$21$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-015",
-    "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ deodată (fără ordine). Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$k!$",
-      "$C_N^k$",
-      "$A_N^k$",
-      "$N^k$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-017",
-    "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ pe rând, cu întoarcere. Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$N^k$",
-      "$A_N^k$",
-      "$C_N^k$",
-      "$k^N$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-018",
-    "tip": "simplu",
-    "intrebare": "Se extrag $k$ bile din $a$ albe și $b$ negre, exact $j$ albe. Cât este $m$ (cazuri favorabile)?",
-    "variante": [
-      "$C_a^j\\cdot C_b^{k-j}$",
-      "$A_a^j\\cdot A_b^{k-j}$",
-      "$C_{a+b}^{j}$",
-      "$C_a^j+C_b^{k-j}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-019",
-    "tip": "simplu",
-    "intrebare": "Numere de $k$ cifre cu cifre distincte, formate din $N$ cifre (fără zero). Cât este $n$?",
-    "variante": [
-      "$k^N$",
-      "$A_N^k$",
-      "$N^k$",
-      "$C_N^k$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-020",
-    "tip": "simplu",
-    "intrebare": "Numere de $k$ cifre, în care cifrele se pot repeta, formate din $N$ cifre. Cât este $n$?",
-    "variante": [
-      "$N^k$",
-      "$A_N^k$",
-      "$N\\cdot k$",
-      "$C_N^k$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-023",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează de obicei „cel puțin unul”?",
-    "variante": [
-      "$1-P(\\text{toți})$",
-      "$P(\\text{unul})\\cdot k$",
-      "$1-P(\\text{niciunul})$",
-      "suma tuturor cazurilor"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "probabilitate-formule-si-algoritm-001",
+  "tip": "simplu",
+  "intrebare": "Care este formula clasică a probabilității?",
+  "variante": [
+   "$P=m\\cdot n$",
+   "$P=\\frac{m}{n}$, $m$ = cazuri favorabile, $n$ = cazuri posibile",
+   "$P=\\frac{n}{m}$",
+   "$P=m-n$"
+  ],
+  "corect": 1,
+  "explicatie": "Formula clasică este $P=\\frac mn$: cazuri favorabile împărțite la toate cazurile posibile (egal probabile)."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-002",
+  "tip": "simplu",
+  "intrebare": "Ce reprezintă $n$ în $P=\\frac mn$?",
+  "variante": [
+   "probabilitatea evenimentului",
+   "numărul cazurilor imposibile",
+   "numărul cazurilor favorabile",
+   "numărul tuturor cazurilor posibile"
+  ],
+  "corect": 3,
+  "explicatie": "În $P=\\frac mn$, $n$ este numărul tuturor cazurilor posibile, adică numitorul fracției."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-003",
+  "tip": "simplu",
+  "intrebare": "Ce reprezintă $m$ în $P=\\frac mn$?",
+  "variante": [
+   "numărul tuturor cazurilor posibile",
+   "numărul cazurilor nefavorabile",
+   "numărul cazurilor favorabile evenimentului",
+   "numărul de încercări"
+  ],
+  "corect": 2,
+  "explicatie": "În $P=\\frac mn$, $m$ este numărul cazurilor favorabile evenimentului, adică numărătorul fracției."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-004",
+  "tip": "multiplu",
+  "intrebare": "Între ce valori se află orice probabilitate $P$?",
+  "variante": [
+   "$P>1$ este posibil",
+   "$P\\le 1$",
+   "$P\\ge 0$",
+   "$P<0$ este posibil"
+  ],
+  "corect": [
+   1,
+   2
+  ],
+  "explicatie": "Din $0\\le m\\le n$ rezultă $0\\le\\frac mn\\le1$. Probabilitatea nu poate fi negativă și nu depășește $1$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-005",
+  "tip": "simplu",
+  "intrebare": "Care este probabilitatea evenimentului sigur?",
+  "variante": [
+   "$\\frac12$",
+   "$1$",
+   "depinde de problemă",
+   "$0$"
+  ],
+  "corect": 1,
+  "explicatie": "Evenimentul sigur se întâmplă în toate cazurile ($m=n$), deci $P=\\frac nn=1$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-006",
+  "tip": "simplu",
+  "intrebare": "Care este probabilitatea evenimentului imposibil?",
+  "variante": [
+   "$0$",
+   "$1$",
+   "$-1$",
+   "$\\frac12$"
+  ],
+  "corect": 0,
+  "explicatie": "Evenimentul imposibil nu are niciun caz favorabil ($m=0$), deci $P=\\frac0n=0$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $P$ dacă $m=0$?",
+  "variante": [
+   "$n$",
+   "$1$",
+   "$0$",
+   "nedefinită"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $m=0$, $P=\\frac0n=0$, cu $n\\ne0$: nu există cazuri favorabile."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-008",
+  "tip": "simplu",
+  "intrebare": "Cât este probabilitatea evenimentului contrar, $P(\\overline A)$?",
+  "variante": [
+   "$P(A)$",
+   "$\\frac{1}{P(A)}$",
+   "$1-P(A)$",
+   "$P(A)-1$"
+  ],
+  "corect": 2,
+  "explicatie": "Evenimentul contrar are cazurile rămase: $P(\\overline A)=1-P(A)$, pentru că $P(A)+P(\\overline A)=1$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-009",
+  "tip": "simplu",
+  "intrebare": "În câte moduri alegem $k$ obiecte din $n$, fără să conteze ordinea?",
+  "variante": [
+   "$A_n^k$",
+   "$C_n^k$",
+   "$n^k$",
+   "$P_n$"
+  ],
+  "corect": 1,
+  "explicatie": "Când ordinea nu contează, alegerea este o combinare: $C_n^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-010",
+  "tip": "simplu",
+  "intrebare": "În câte moduri alegem $k$ obiecte din $n$, când contează ordinea?",
+  "variante": [
+   "$k^n$",
+   "$n\\cdot k$",
+   "$C_n^k$",
+   "$A_n^k$"
+  ],
+  "corect": 3,
+  "explicatie": "Când ordinea contează, alegerea este un aranjament: $A_n^k=\\frac{n!}{(n-k)!}$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-011",
+  "tip": "simplu",
+  "intrebare": "În câte moduri aranjăm $n$ obiecte distincte într-un rând?",
+  "variante": [
+   "$n^2$",
+   "$2n$",
+   "$C_n^2$",
+   "$n!$"
+  ],
+  "corect": 3,
+  "explicatie": "Aranjarea tuturor celor $n$ obiecte distincte într-un rând este o permutare: $n!$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-012",
+  "tip": "simplu",
+  "intrebare": "Se aruncă un zar de $k$ ori. Câte cazuri posibile $n$ sunt?",
+  "variante": [
+   "$6^k$",
+   "$6k$",
+   "$C_6^k$",
+   "$k^6$"
+  ],
+  "corect": 0,
+  "explicatie": "Fiecare aruncare are $6$ rezultate și aruncările sunt independente, deci $n=6\\cdot6\\cdots6=6^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-013",
+  "tip": "simplu",
+  "intrebare": "Se aruncă o monedă de $k$ ori. Câte cazuri posibile $n$ sunt?",
+  "variante": [
+   "$2^k$",
+   "$C_k^2$",
+   "$2k$",
+   "$k^2$"
+  ],
+  "corect": 0,
+  "explicatie": "Fiecare aruncare are $2$ rezultate (stema sau banul), deci $n=2^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-014",
+  "tip": "simplu",
+  "intrebare": "Se aruncă două zaruri. Câte cazuri posibile $n$ sunt?",
+  "variante": [
+   "$12$",
+   "$6$",
+   "$36$",
+   "$21$"
+  ],
+  "corect": 2,
+  "explicatie": "Primul zar are $6$ fețe și al doilea la fel, deci $n=6\\cdot6=36$ (perechi ordonate)."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-015",
+  "tip": "simplu",
+  "intrebare": "Din $N$ bile se extrag $k$ deodată (fără ordine). Câte cazuri posibile $n$ sunt?",
+  "variante": [
+   "$k!$",
+   "$C_N^k$",
+   "$A_N^k$",
+   "$N^k$"
+  ],
+  "corect": 1,
+  "explicatie": "Bilele se extrag deodată, deci ordinea nu contează: numărul cazurilor posibile este $n=C_N^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-017",
+  "tip": "simplu",
+  "intrebare": "Din $N$ bile se extrag $k$ pe rând, cu întoarcere. Câte cazuri posibile $n$ sunt?",
+  "variante": [
+   "$N^k$",
+   "$A_N^k$",
+   "$C_N^k$",
+   "$k^N$"
+  ],
+  "corect": 0,
+  "explicatie": "Cu întoarcere, fiecare dintre cele $k$ extrageri se face din $N$ bile, deci $n=N\\cdot N\\cdots N=N^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-018",
+  "tip": "simplu",
+  "intrebare": "Se extrag $k$ bile din $a$ albe și $b$ negre, exact $j$ albe. Cât este $m$ (cazuri favorabile)?",
+  "variante": [
+   "$C_a^j\\cdot C_b^{k-j}$",
+   "$A_a^j\\cdot A_b^{k-j}$",
+   "$C_{a+b}^{j}$",
+   "$C_a^j+C_b^{k-j}$"
+  ],
+  "corect": 0,
+  "explicatie": "Alegem $j$ albe din $a$ ($C_a^j$) și restul $k-j$ negre din $b$ ($C_b^{k-j}$). Înmulțim, pentru că alegerile sunt independente: $m=C_a^j\\cdot C_b^{k-j}$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-019",
+  "tip": "simplu",
+  "intrebare": "Numere de $k$ cifre cu cifre distincte, formate din $N$ cifre (fără zero). Cât este $n$?",
+  "variante": [
+   "$k^N$",
+   "$A_N^k$",
+   "$N^k$",
+   "$C_N^k$"
+  ],
+  "corect": 1,
+  "explicatie": "Cifrele sunt distincte și contează ordinea în număr. Alegem și ordonăm $k$ cifre din $N$: $n=A_N^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-020",
+  "tip": "simplu",
+  "intrebare": "Numere de $k$ cifre, în care cifrele se pot repeta, formate din $N$ cifre. Cât este $n$?",
+  "variante": [
+   "$N^k$",
+   "$A_N^k$",
+   "$N\\cdot k$",
+   "$C_N^k$"
+  ],
+  "corect": 0,
+  "explicatie": "Pe fiecare dintre cele $k$ poziții putem pune oricare din cele $N$ cifre (cu repetare), deci $n=N^k$."
+ },
+ {
+  "id": "probabilitate-formule-si-algoritm-023",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează de obicei „cel puțin unul”?",
+  "variante": [
+   "$1-P(\\text{toți})$",
+   "$P(\\text{unul})\\cdot k$",
+   "$1-P(\\text{niciunul})$",
+   "suma tuturor cazurilor"
+  ],
+  "corect": 2,
+  "explicatie": "Evenimentul „cel puțin unul” este contrarul lui „niciunul”, deci $P=1-P(\\text{niciunul})$. E mai simplu decât să adunăm toate cazurile."
+ }
 ]

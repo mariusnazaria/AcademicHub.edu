@@ -1,207 +1,223 @@
 [
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-001",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția convexă (graficul „zâmbește”)?",
-    "variante": [
-      "$\\mathbb{R}$",
-      "$[0;+\\infty)$",
-      "$[-1;1]$",
-      "$(-\\infty;0]$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c1.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-002",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția concavă?",
-    "variante": [
-      "$[-1;1]$",
-      "$\\mathbb{R}$",
-      "$[0;+\\infty)$",
-      "$(-\\infty;0]$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-c1.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-003",
-    "tip": "simplu",
-    "intrebare": "Care este punctul de inflexiune?",
-    "variante": [
-      "nu are",
-      "$x=-1$",
-      "$x=1$",
-      "$x=0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-c1.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-004",
-    "tip": "simplu",
-    "intrebare": "Funcția este:",
-    "variante": [
-      "convexă doar pe $[0;+\\infty)$",
-      "convexă pe $\\mathbb{R}$",
-      "cu inflexiune în $0$",
-      "concavă pe $\\mathbb{R}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c2.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-005",
-    "tip": "simplu",
-    "intrebare": "Are funcția puncte de inflexiune?",
-    "variante": [
-      "da, în $x=0$",
-      "nu",
-      "da, două",
-      "da, în $x=1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c2.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-006",
-    "tip": "simplu",
-    "intrebare": "Funcția din grafic este:",
-    "variante": [
-      "cu inflexiune în $0$",
-      "concavă",
-      "liniară",
-      "convexă"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c3.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-007",
-    "tip": "simplu",
-    "intrebare": "Funcția $e^x$ din grafic este:",
-    "variante": [
-      "liniară",
-      "convexă",
-      "cu inflexiune în $0$",
-      "concavă"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c4.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-008",
-    "tip": "simplu",
-    "intrebare": "Funcția $\\ln x$ din grafic este:",
-    "variante": [
-      "cu inflexiune în $1$",
-      "convexă",
-      "concavă",
-      "liniară"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-c5.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-009",
-    "tip": "simplu",
-    "intrebare": "Care este punctul de inflexiune (unde graficul trece de la concav la convex)?",
-    "variante": [
-      "$x=1$",
-      "$x=3$",
-      "$x=2$",
-      "$x=0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-c6.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-010",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția convexă?",
-    "variante": [
-      "$[1;+\\infty)$",
-      "$(-\\infty;1]$",
-      "$\\mathbb{R}$",
-      "$[0;2]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-c6.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-011",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ concavă?",
-    "variante": [
-      "$[0;\\pi]$",
-      "$[0;2\\pi]$",
-      "$\\left[\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right]$",
-      "$[\\pi;2\\pi]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-c7.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-012",
-    "tip": "simplu",
-    "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ convexă?",
-    "variante": [
-      "$\\left[0;\\frac{\\pi}{2}\\right]$",
-      "$[0;\\pi]$",
-      "$[\\pi;2\\pi]$",
-      "$[0;2\\pi]$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-c7.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-013",
-    "tip": "simplu",
-    "intrebare": "Care este punctul de inflexiune al lui $\\sin x$ pe $(0;2\\pi)$?",
-    "variante": [
-      "$x=2\\pi$",
-      "$x=\\pi$",
-      "$x=\\frac{3\\pi}{2}$",
-      "$x=\\frac{\\pi}{2}$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-c7.svg"
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-014",
-    "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)>0$ pe un interval, atunci $f$ este:",
-    "variante": [
-      "constantă",
-      "liniară",
-      "convexă",
-      "concavă"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-015",
-    "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)<0$ pe un interval, atunci $f$ este:",
-    "variante": [
-      "concavă",
-      "convexă",
-      "constantă",
-      "liniară"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "convexitate-si-puncte-de-inflexiune-016",
-    "tip": "simplu",
-    "intrebare": "Când $x_0$ este punct de inflexiune?",
-    "variante": [
-      "$f(x_0)=0$",
-      "$f^{\\prime\\prime}$ își schimbă semnul în $x_0$",
-      "$f^{\\prime}(x_0)=0$",
-      "$f^{\\prime\\prime}(x_0)>0$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-001",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția convexă (graficul „zâmbește”)?",
+  "variante": [
+   "$\\mathbb{R}$",
+   "$[0;+\\infty)$",
+   "$[-1;1]$",
+   "$(-\\infty;0]$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c1.svg",
+  "explicatie": "Graficul se arcuiește în sus (ca un zâmbet) doar pe partea din dreapta, pentru $x\\geq0$: funcția e convexă pe $[0;+\\infty)$."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-002",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția concavă?",
+  "variante": [
+   "$[-1;1]$",
+   "$\\mathbb{R}$",
+   "$[0;+\\infty)$",
+   "$(-\\infty;0]$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-c1.svg",
+  "explicatie": "Pe partea din stânga ($x\\leq0$) graficul se arcuiește în jos (ca o mutră tristă): funcția e concavă pe $(-\\infty;0]$."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-003",
+  "tip": "simplu",
+  "intrebare": "Care este punctul de inflexiune?",
+  "variante": [
+   "nu are",
+   "$x=-1$",
+   "$x=1$",
+   "$x=0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-c1.svg",
+  "explicatie": "Punctul în care graficul trece de la concav la convex este în $x=0$: acolo este punctul de inflexiune."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-004",
+  "tip": "simplu",
+  "intrebare": "Funcția este:",
+  "variante": [
+   "convexă doar pe $[0;+\\infty)$",
+   "convexă pe $\\mathbb{R}$",
+   "cu inflexiune în $0$",
+   "concavă pe $\\mathbb{R}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c2.svg",
+  "explicatie": "Graficul se arcuiește în sus pe toată dreapta, fără schimbare de curbură: funcția este convexă pe $\\mathbb{R}$."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-005",
+  "tip": "simplu",
+  "intrebare": "Are funcția puncte de inflexiune?",
+  "variante": [
+   "da, în $x=0$",
+   "nu",
+   "da, două",
+   "da, în $x=1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c2.svg",
+  "explicatie": "Curbura rămâne aceeași pe tot graficul, deci nu există niciun punct în care să treacă de la concav la convex: nu are inflexiuni."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-006",
+  "tip": "simplu",
+  "intrebare": "Funcția din grafic este:",
+  "variante": [
+   "cu inflexiune în $0$",
+   "concavă",
+   "liniară",
+   "convexă"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c3.svg",
+  "explicatie": "Graficul se arcuiește în jos pe tot domeniul, ca un deal: funcția este concavă."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-007",
+  "tip": "simplu",
+  "intrebare": "Funcția $e^x$ din grafic este:",
+  "variante": [
+   "liniară",
+   "convexă",
+   "cu inflexiune în $0$",
+   "concavă"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c4.svg",
+  "explicatie": "Graficul lui $e^x$ se arcuiește în sus peste tot (pentru $(e^x)^{\\prime\\prime}=e^x>0$): funcția este convexă."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-008",
+  "tip": "simplu",
+  "intrebare": "Funcția $\\ln x$ din grafic este:",
+  "variante": [
+   "cu inflexiune în $1$",
+   "convexă",
+   "concavă",
+   "liniară"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-c5.svg",
+  "explicatie": "Graficul lui $\\ln x$ se arcuiește în jos peste tot (pentru $(\\ln x)^{\\prime\\prime}=-\\frac{1}{x^2}<0$): funcția este concavă."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-009",
+  "tip": "simplu",
+  "intrebare": "Care este punctul de inflexiune (unde graficul trece de la concav la convex)?",
+  "variante": [
+   "$x=1$",
+   "$x=3$",
+   "$x=2$",
+   "$x=0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-c6.svg",
+  "explicatie": "Graficul trece de la concav (arc în jos) la convex (arc în sus) în $x=1$: acesta este punctul de inflexiune."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-010",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția convexă?",
+  "variante": [
+   "$[1;+\\infty)$",
+   "$(-\\infty;1]$",
+   "$\\mathbb{R}$",
+   "$[0;2]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-c6.svg",
+  "explicatie": "Din punctul de inflexiune $x=1$ înainte graficul se arcuiește în sus: funcția e convexă pe $[1;+\\infty)$."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-011",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ concavă?",
+  "variante": [
+   "$[0;\\pi]$",
+   "$[0;2\\pi]$",
+   "$\\left[\\frac{\\pi}{2};\\frac{3\\pi}{2}\\right]$",
+   "$[\\pi;2\\pi]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-c7.svg",
+  "explicatie": "Pe $[0;\\pi]$ sinusoida se arcuiește în jos (arcul de deal), deci $\\sin x$ e concavă acolo."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-012",
+  "tip": "simplu",
+  "intrebare": "Pe $[0;2\\pi]$, unde este $\\sin x$ convexă?",
+  "variante": [
+   "$\\left[0;\\frac{\\pi}{2}\\right]$",
+   "$[0;\\pi]$",
+   "$[\\pi;2\\pi]$",
+   "$[0;2\\pi]$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-c7.svg",
+  "explicatie": "Pe $[\\pi;2\\pi]$ sinusoida se arcuiește în sus (arcul de vale), deci $\\sin x$ e convexă acolo."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-013",
+  "tip": "simplu",
+  "intrebare": "Care este punctul de inflexiune al lui $\\sin x$ pe $(0;2\\pi)$?",
+  "variante": [
+   "$x=2\\pi$",
+   "$x=\\pi$",
+   "$x=\\frac{3\\pi}{2}$",
+   "$x=\\frac{\\pi}{2}$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-c7.svg",
+  "explicatie": "În $x=\\pi$ sinusoida trece de la concavă la convexă (sinus se anulează, iar $(\\sin x)^{\\prime\\prime}=-\\sin x$ își schimbă semnul): inflexiune."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-014",
+  "tip": "simplu",
+  "intrebare": "Dacă $f^{\\prime\\prime}(x)>0$ pe un interval, atunci $f$ este:",
+  "variante": [
+   "constantă",
+   "liniară",
+   "convexă",
+   "concavă"
+  ],
+  "corect": 2,
+  "explicatie": "Dacă $f^{\\prime\\prime}(x)>0$, derivata $f^{\\prime}$ crește, iar graficul se arcuiește în sus: $f$ este convexă."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-015",
+  "tip": "simplu",
+  "intrebare": "Dacă $f^{\\prime\\prime}(x)<0$ pe un interval, atunci $f$ este:",
+  "variante": [
+   "concavă",
+   "convexă",
+   "constantă",
+   "liniară"
+  ],
+  "corect": 0,
+  "explicatie": "Dacă $f^{\\prime\\prime}(x)<0$, derivata $f^{\\prime}$ scade, iar graficul se arcuiește în jos: $f$ este concavă."
+ },
+ {
+  "id": "convexitate-si-puncte-de-inflexiune-016",
+  "tip": "simplu",
+  "intrebare": "Când $x_0$ este punct de inflexiune?",
+  "variante": [
+   "$f(x_0)=0$",
+   "$f^{\\prime\\prime}$ își schimbă semnul în $x_0$",
+   "$f^{\\prime}(x_0)=0$",
+   "$f^{\\prime\\prime}(x_0)>0$"
+  ],
+  "corect": 1,
+  "explicatie": "La inflexiune se schimbă tipul de curbură, adică $f^{\\prime\\prime}$ trece de la un semn la celălalt în $x_0$."
+ }
 ]

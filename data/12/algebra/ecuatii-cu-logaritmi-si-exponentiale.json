@@ -1,218 +1,236 @@
 [
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-001",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2^x=8$.",
-    "variante": [
-      "$x=4$",
-      "$x=2$",
-      "$x=16$",
-      "$x=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-002",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $3^x=9$.",
-    "variante": [
-      "$x=3$",
-      "$x=2$",
-      "$x=6$",
-      "$x=27$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-003",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $5^x=1$.",
-    "variante": [
-      "$x=5$",
-      "$x=1$",
-      "$x=0$",
-      "$x=-1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-004",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2^x=\\frac14$.",
-    "variante": [
-      "$x=-4$",
-      "$x=2$",
-      "$x=\\frac14$",
-      "$x=-2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-005",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2^{x+1}=16$.",
-    "variante": [
-      "$x=7$",
-      "$x=8$",
-      "$x=4$",
-      "$x=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-006",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $4^x=2$.",
-    "variante": [
-      "$x=8$",
-      "$x=\\frac12$",
-      "$x=2$",
-      "$x=-\\frac12$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-007",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $2^x=-4$.",
-    "variante": [
-      "$x=-4$",
-      "$x=2$",
-      "nu are soluții",
-      "$x=-2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-008",
-    "tip": "simplu",
-    "intrebare": "Metoda de bază la ecuații exponențiale:",
-    "variante": [
-      "aducem la aceeași bază",
-      "ridicăm la pătrat",
-      "derivăm",
-      "împărțim la $x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-009",
-    "tip": "simplu",
-    "intrebare": "Dacă $3^x=3^5$, atunci:",
-    "variante": [
-      "$x=\\frac53$",
-      "$x=3$",
-      "$x=5$",
-      "$x=15$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-010",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\log_2x=3$.",
-    "variante": [
-      "$x=\\frac32$",
-      "$x=9$",
-      "$x=6$",
-      "$x=8$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-011",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\log_3x=2$.",
-    "variante": [
-      "$x=6$",
-      "$x=\\frac23$",
-      "$x=9$",
-      "$x=8$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-012",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\lg x=2$.",
-    "variante": [
-      "$x=2$",
-      "$x=100$",
-      "$x=10$",
-      "$x=20$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-013",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\ln x=0$.",
-    "variante": [
-      "$x=0$",
-      "nu are soluții",
-      "$x=1$",
-      "$x=e$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-014",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\log_5x=1$.",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=5$",
-      "$x=\\frac15$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-015",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\log_2(x+1)=3$.",
-    "variante": [
-      "$x=7$",
-      "$x=5$",
-      "$x=8$",
-      "$x=9$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-016",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $\\log_x9=2$ (cu $x>0$).",
-    "variante": [
-      "$x=\\frac92$",
-      "$x=18$",
-      "$x=3$",
-      "$x=9$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-017",
-    "tip": "simplu",
-    "intrebare": "Ce condiție cerem la $\\log_2x$?",
-    "variante": [
-      "$x\\neq1$",
-      "$x\\geq0$",
-      "$x<0$",
-      "$x>0$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-cu-logaritmi-si-exponentiale-018",
-    "tip": "simplu",
-    "intrebare": "Cum rezolvăm $\\log_ax=b$?",
-    "variante": [
-      "$x=b^a$",
-      "$x=a^b$",
-      "$x=\\frac ba$",
-      "$x=ab$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-001",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2^x=8$.",
+  "variante": [
+   "$x=4$",
+   "$x=2$",
+   "$x=16$",
+   "$x=3$"
+  ],
+  "corect": 3,
+  "explicatie": "Scriem $8=2^3$, deci $2^x=2^3$ și, la aceeași bază, $x=3$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-002",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $3^x=9$.",
+  "variante": [
+   "$x=3$",
+   "$x=2$",
+   "$x=6$",
+   "$x=27$"
+  ],
+  "corect": 1,
+  "explicatie": "Scriem $9=3^2$, deci $3^x=3^2$ și $x=2$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-003",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $5^x=1$.",
+  "variante": [
+   "$x=5$",
+   "$x=1$",
+   "$x=0$",
+   "$x=-1$"
+  ],
+  "corect": 2,
+  "explicatie": "Orice număr nenul la puterea 0 face 1: $5^0=1$, deci $x=0$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-004",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2^x=\\frac14$.",
+  "variante": [
+   "$x=-4$",
+   "$x=2$",
+   "$x=\\frac14$",
+   "$x=-2$"
+  ],
+  "corect": 3,
+  "explicatie": "Scriem $\\frac14=2^{-2}$, deci $2^x=2^{-2}$ și $x=-2$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-005",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2^{x+1}=16$.",
+  "variante": [
+   "$x=7$",
+   "$x=8$",
+   "$x=4$",
+   "$x=3$"
+  ],
+  "corect": 3,
+  "explicatie": "$16=2^4$, deci $x+1=4$, de unde $x=3$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-006",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $4^x=2$.",
+  "variante": [
+   "$x=8$",
+   "$x=\\frac12$",
+   "$x=2$",
+   "$x=-\\frac12$"
+  ],
+  "corect": 1,
+  "explicatie": "Scriem $4=2^2$, deci $4^x=2^{2x}=2^1$, adică $2x=1$ și $x=\\frac12$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-007",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $2^x=-4$.",
+  "variante": [
+   "$x=-4$",
+   "$x=2$",
+   "nu are soluții",
+   "$x=-2$"
+  ],
+  "corect": 2,
+  "explicatie": "$2^x$ este mereu pozitiv, deci nu poate fi egal cu $-4$. Ecuația nu are soluții."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-008",
+  "tip": "simplu",
+  "intrebare": "Metoda de bază la ecuații exponențiale:",
+  "variante": [
+   "aducem la aceeași bază",
+   "ridicăm la pătrat",
+   "derivăm",
+   "împărțim la $x$"
+  ],
+  "corect": 0,
+  "explicatie": "Aducem ambii membri la aceeași bază, apoi egalăm exponenții (funcția exponențială este injectivă)."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-009",
+  "tip": "simplu",
+  "intrebare": "Dacă $3^x=3^5$, atunci:",
+  "variante": [
+   "$x=\\frac53$",
+   "$x=3$",
+   "$x=5$",
+   "$x=15$"
+  ],
+  "corect": 2,
+  "explicatie": "La aceeași bază, exponenții sunt egali: $3^x=3^5$ dă $x=5$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-010",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\log_2x=3$.",
+  "variante": [
+   "$x=\\frac32$",
+   "$x=9$",
+   "$x=6$",
+   "$x=8$"
+  ],
+  "corect": 3,
+  "explicatie": "Din definiția logaritmului: $\\log_2x=3$ înseamnă $x=2^3=8$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-011",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\log_3x=2$.",
+  "variante": [
+   "$x=6$",
+   "$x=\\frac23$",
+   "$x=9$",
+   "$x=8$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\log_3x=2$ înseamnă $x=3^2=9$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-012",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\lg x=2$.",
+  "variante": [
+   "$x=2$",
+   "$x=100$",
+   "$x=10$",
+   "$x=20$"
+  ],
+  "corect": 1,
+  "explicatie": "$\\lg$ este logaritm în baza 10, deci $\\lg x=2$ dă $x=10^2=100$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-013",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\ln x=0$.",
+  "variante": [
+   "$x=0$",
+   "nu are soluții",
+   "$x=1$",
+   "$x=e$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\ln x=0$ înseamnă $x=e^0=1$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-014",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\log_5x=1$.",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=5$",
+   "$x=\\frac15$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\log_5x=1$ înseamnă $x=5^1=5$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-015",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\log_2(x+1)=3$.",
+  "variante": [
+   "$x=7$",
+   "$x=5$",
+   "$x=8$",
+   "$x=9$"
+  ],
+  "corect": 0,
+  "explicatie": "Condiția: $x+1>0$. Apoi $x+1=2^3=8$, deci $x=7$, care verifică condiția."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-016",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $\\log_x9=2$ (cu $x>0$).",
+  "variante": [
+   "$x=\\frac92$",
+   "$x=18$",
+   "$x=3$",
+   "$x=9$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\log_x9=2$ înseamnă $x^2=9$; cu $x>0$ rezultă $x=3$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-017",
+  "tip": "simplu",
+  "intrebare": "Ce condiție cerem la $\\log_2x$?",
+  "variante": [
+   "$x\\neq1$",
+   "$x\\geq0$",
+   "$x<0$",
+   "$x>0$"
+  ],
+  "corect": 3,
+  "explicatie": "Logaritmul există doar pentru argument strict pozitiv, deci cerem $x>0$."
+ },
+ {
+  "id": "ecuatii-cu-logaritmi-si-exponentiale-018",
+  "tip": "simplu",
+  "intrebare": "Cum rezolvăm $\\log_ax=b$?",
+  "variante": [
+   "$x=b^a$",
+   "$x=a^b$",
+   "$x=\\frac ba$",
+   "$x=ab$"
+  ],
+  "corect": 1,
+  "explicatie": "Din definiție, $\\log_ax=b$ este echivalent cu $x=a^b$."
+ }
 ]

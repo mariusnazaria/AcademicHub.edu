@@ -1,242 +1,261 @@
 [
-  {
-    "id": "tangenta-in-punct-si-pante-001",
-    "tip": "simplu",
-    "intrebare": "Dreapta portocalie este tangenta la grafic în punctul marcat. Care este panta ei?",
-    "variante": [
-      "$2$",
-      "$1$",
-      "$0$",
-      "$-1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tg1.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $f^{\\prime}(1)$, dacă tangenta în $x=1$ este dreapta portocalie?",
-    "variante": [
-      "$1$",
-      "$-1$",
-      "$0$",
-      "$\\frac12$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg1.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-003",
-    "tip": "simplu",
-    "intrebare": "Panta tangentei este:",
-    "variante": [
-      "negativă",
-      "nu există",
-      "zero",
-      "pozitivă"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tg1.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-004",
-    "tip": "simplu",
-    "intrebare": "Tangenta portocalie în punctul marcat ($x=-1$): panta ei este:",
-    "variante": [
-      "negativă",
-      "nu există",
-      "zero",
-      "pozitivă"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg2.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $f^{\\prime}(-1)$?",
-    "variante": [
-      "$0$",
-      "$1$",
-      "$-1$",
-      "$2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tg2.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-006",
-    "tip": "simplu",
-    "intrebare": "Tangenta portocalie în origine este orizontală. Cât este $f^{\\prime}(0)$?",
-    "variante": [
-      "$0$",
-      "nu există",
-      "$1$",
-      "$-1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg3.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-007",
-    "tip": "simplu",
-    "intrebare": "Ce punct al graficului este $x=0$?",
-    "variante": [
-      "inflexiune",
-      "nimic",
-      "minim",
-      "maxim"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tg3.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-008",
-    "tip": "simplu",
-    "intrebare": "Tangenta orizontală $y=2$ atinge graficul în $x=-1$. Cât este $f^{\\prime}(-1)$?",
-    "variante": [
-      "$0$",
-      "$-1$",
-      "$2$",
-      "$-2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg4.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-009",
-    "tip": "simplu",
-    "intrebare": "Câte puncte are graficul cu tangentă orizontală?",
-    "variante": [
-      "$2$",
-      "$3$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg4.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-010",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=2x-1$ este o dreaptă. Care este panta tangentei în orice punct?",
-    "variante": [
-      "$2$",
-      "$1$",
-      "depinde de punct",
-      "$-1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg5.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-011",
-    "tip": "simplu",
-    "intrebare": "Tangenta în punctul marcat $(2;2)$ are panta:",
-    "variante": [
-      "$2$",
-      "$4$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-tg6.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-012",
-    "tip": "simplu",
-    "intrebare": "Ecuația tangentei $y-f(a)=f^{\\prime}(a)(x-a)$: ce înlocuim cu $f^{\\prime}(a)$?",
-    "variante": [
-      "abscisa punctului",
-      "$f(a)$",
-      "ordonata punctului",
-      "panta tangentei"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tg6.svg"
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-013",
-    "tip": "simplu",
-    "intrebare": "Panta tangentei la graficul lui $f$ în $x=a$ este:",
-    "variante": [
-      "$f(a)$",
-      "$f^{\\prime\\prime}(a)$",
-      "$f^{\\prime}(a)$",
-      "$a$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-014",
-    "tip": "simplu",
-    "intrebare": "Ecuația tangentei în $x=a$ este:",
-    "variante": [
-      "$y=f^{\\prime}(a)$",
-      "$y=f(a)x$",
-      "$y-f(a)=f^{\\prime}(a)(x-a)$",
-      "$y-a=f(a)(x-f(a))$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-015",
-    "tip": "simplu",
-    "intrebare": "Dacă tangenta este paralelă cu $Ox$, atunci $f^{\\prime}(a)=$",
-    "variante": [
-      "$0$",
-      "$1$",
-      "$-1$",
-      "nu există"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-016",
-    "tip": "simplu",
-    "intrebare": "Dacă tangenta formează cu $Ox$ un unghi de $45^\\circ$, panta este:",
-    "variante": [
-      "$\\sqrt3$",
-      "$-1$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-017",
-    "tip": "simplu",
-    "intrebare": "Dacă tangenta formează cu $Ox$ un unghi de $135^\\circ$, panta este:",
-    "variante": [
-      "$1$",
-      "$-1$",
-      "$0$",
-      "$-\\sqrt3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-018",
-    "tip": "simplu",
-    "intrebare": "Tangentă paralelă cu dreapta $y=3x+1$ înseamnă $f^{\\prime}(a)=$",
-    "variante": [
-      "$-3$",
-      "$1$",
-      "$-\\frac13$",
-      "$3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-019",
-    "tip": "simplu",
-    "intrebare": "Tangentă perpendiculară pe dreapta $y=2x$ înseamnă $f^{\\prime}(a)=$",
-    "variante": [
-      "$-2$",
-      "$2$",
-      "$-\\frac12$",
-      "$\\frac12$"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "tangenta-in-punct-si-pante-001",
+  "tip": "simplu",
+  "intrebare": "Dreapta portocalie este tangenta la grafic în punctul marcat. Care este panta ei?",
+  "variante": [
+   "$2$",
+   "$1$",
+   "$0$",
+   "$-1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tg1.svg",
+  "explicatie": "Tangenta urcă cu $1$ pe verticală la fiecare $1$ pe orizontală, deci panta ei este $1$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $f^{\\prime}(1)$, dacă tangenta în $x=1$ este dreapta portocalie?",
+  "variante": [
+   "$1$",
+   "$-1$",
+   "$0$",
+   "$\\frac12$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg1.svg",
+  "explicatie": "Panta tangentei este $f^{\\prime}(1)$, iar dreapta portocalie are panta $1$, deci $f^{\\prime}(1)=1$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-003",
+  "tip": "simplu",
+  "intrebare": "Panta tangentei este:",
+  "variante": [
+   "negativă",
+   "nu există",
+   "zero",
+   "pozitivă"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tg1.svg",
+  "explicatie": "Tangenta urcă de la stânga la dreapta, deci panta ei este pozitivă."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-004",
+  "tip": "simplu",
+  "intrebare": "Tangenta portocalie în punctul marcat ($x=-1$): panta ei este:",
+  "variante": [
+   "negativă",
+   "nu există",
+   "zero",
+   "pozitivă"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg2.svg",
+  "explicatie": "Tangenta coboară de la stânga la dreapta, deci panta ei este negativă."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $f^{\\prime}(-1)$?",
+  "variante": [
+   "$0$",
+   "$1$",
+   "$-1$",
+   "$2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tg2.svg",
+  "explicatie": "Tangenta coboară cu $1$ la fiecare $1$ spre dreapta, deci $f^{\\prime}(-1)=-1$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-006",
+  "tip": "simplu",
+  "intrebare": "Tangenta portocalie în origine este orizontală. Cât este $f^{\\prime}(0)$?",
+  "variante": [
+   "$0$",
+   "nu există",
+   "$1$",
+   "$-1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg3.svg",
+  "explicatie": "Tangenta orizontală are panta $0$, iar panta tangentei este derivata în punct: $f^{\\prime}(0)=0$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-007",
+  "tip": "simplu",
+  "intrebare": "Ce punct al graficului este $x=0$?",
+  "variante": [
+   "inflexiune",
+   "nimic",
+   "minim",
+   "maxim"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tg3.svg",
+  "explicatie": "Tangenta orizontală în $x=0$ și graficul care urcă de o parte și de alta arată un fund de vale: minim."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-008",
+  "tip": "simplu",
+  "intrebare": "Tangenta orizontală $y=2$ atinge graficul în $x=-1$. Cât este $f^{\\prime}(-1)$?",
+  "variante": [
+   "$0$",
+   "$-1$",
+   "$2$",
+   "$-2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg4.svg",
+  "explicatie": "Tangenta orizontală are panta $0$, iar panta este derivata în punct, deci $f^{\\prime}(-1)=0$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-009",
+  "tip": "simplu",
+  "intrebare": "Câte puncte are graficul cu tangentă orizontală?",
+  "variante": [
+   "$2$",
+   "$3$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg4.svg",
+  "explicatie": "Tangenta este orizontală acolo unde graficul are un vârf sau un fund de vale: graficul are două astfel de puncte."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-010",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $f(x)=2x-1$ este o dreaptă. Care este panta tangentei în orice punct?",
+  "variante": [
+   "$2$",
+   "$1$",
+   "depinde de punct",
+   "$-1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg5.svg",
+  "explicatie": "Pentru o dreaptă, tangenta este chiar dreapta: panta este mereu coeficientul lui $x$, adică $2$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-011",
+  "tip": "simplu",
+  "intrebare": "Tangenta în punctul marcat $(2;2)$ are panta:",
+  "variante": [
+   "$2$",
+   "$4$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-tg6.svg",
+  "explicatie": "Panta tangentei se citește din grafic: la fiecare $1$ spre dreapta tangenta urcă cu $2$, deci panta este $2$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-012",
+  "tip": "simplu",
+  "intrebare": "Ecuația tangentei $y-f(a)=f^{\\prime}(a)(x-a)$: ce înlocuim cu $f^{\\prime}(a)$?",
+  "variante": [
+   "abscisa punctului",
+   "$f(a)$",
+   "ordonata punctului",
+   "panta tangentei"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tg6.svg",
+  "explicatie": "$f^{\\prime}(a)$ este panta tangentei: în ecuația $y-f(a)=f^{\\prime}(a)(x-a)$ el joacă rolul pantei."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-013",
+  "tip": "simplu",
+  "intrebare": "Panta tangentei la graficul lui $f$ în $x=a$ este:",
+  "variante": [
+   "$f(a)$",
+   "$f^{\\prime\\prime}(a)$",
+   "$f^{\\prime}(a)$",
+   "$a$"
+  ],
+  "corect": 2,
+  "explicatie": "Panta tangentei la grafic în $x=a$ este, prin definiție, derivata $f^{\\prime}(a)$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-014",
+  "tip": "simplu",
+  "intrebare": "Ecuația tangentei în $x=a$ este:",
+  "variante": [
+   "$y=f^{\\prime}(a)$",
+   "$y=f(a)x$",
+   "$y-f(a)=f^{\\prime}(a)(x-a)$",
+   "$y-a=f(a)(x-f(a))$"
+  ],
+  "corect": 2,
+  "explicatie": "Ecuația tangentei: dreapta cu panta $f^{\\prime}(a)$ prin punctul $(a;f(a))$, adică $y-f(a)=f^{\\prime}(a)(x-a)$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-015",
+  "tip": "simplu",
+  "intrebare": "Dacă tangenta este paralelă cu $Ox$, atunci $f^{\\prime}(a)=$",
+  "variante": [
+   "$0$",
+   "$1$",
+   "$-1$",
+   "nu există"
+  ],
+  "corect": 0,
+  "explicatie": "O dreaptă paralelă cu $Ox$ are panta $0$, iar panta tangentei este $f^{\\prime}(a)$, deci $f^{\\prime}(a)=0$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-016",
+  "tip": "simplu",
+  "intrebare": "Dacă tangenta formează cu $Ox$ un unghi de $45^\\circ$, panta este:",
+  "variante": [
+   "$\\sqrt3$",
+   "$-1$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 3,
+  "explicatie": "Panta este tangenta unghiului cu $Ox$: $\\operatorname{tg}45^\\circ=1$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-017",
+  "tip": "simplu",
+  "intrebare": "Dacă tangenta formează cu $Ox$ un unghi de $135^\\circ$, panta este:",
+  "variante": [
+   "$1$",
+   "$-1$",
+   "$0$",
+   "$-\\sqrt3$"
+  ],
+  "corect": 1,
+  "explicatie": "Panta este $\\operatorname{tg}135^\\circ$, iar $135^\\circ$ este în cadranul II, deci $\\operatorname{tg}135^\\circ=-1$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-018",
+  "tip": "simplu",
+  "intrebare": "Tangentă paralelă cu dreapta $y=3x+1$ înseamnă $f^{\\prime}(a)=$",
+  "variante": [
+   "$-3$",
+   "$1$",
+   "$-\\frac13$",
+   "$3$"
+  ],
+  "corect": 3,
+  "explicatie": "Dreptele paralele au pante egale. Dreapta $y=3x+1$ are panta $3$, deci $f^{\\prime}(a)=3$."
+ },
+ {
+  "id": "tangenta-in-punct-si-pante-019",
+  "tip": "simplu",
+  "intrebare": "Tangentă perpendiculară pe dreapta $y=2x$ înseamnă $f^{\\prime}(a)=$",
+  "variante": [
+   "$-2$",
+   "$2$",
+   "$-\\frac12$",
+   "$\\frac12$"
+  ],
+  "corect": 2,
+  "explicatie": "Pantele dreptelor perpendiculare au produsul $-1$: $2\\cdot m=-1$, deci $m=-\\frac12$."
+ }
 ]

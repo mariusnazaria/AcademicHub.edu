@@ -1,206 +1,223 @@
 [
-  {
-    "id": "arii-figuri-plane-001",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria triunghiului?",
-    "variante": [
-      "$b\\cdot h$",
-      "$\\frac{b+h}{2}$",
-      "$\\frac{b\\cdot h}{2}$",
-      "$b+h$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "arii-figuri-plane-002",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria triunghiului echilateral cu latura $a$?",
-    "variante": [
-      "$\\frac{a^2}{2}$",
-      "$a^2\\sqrt3$",
-      "$\\frac{a\\sqrt3}{4}$",
-      "$\\frac{a^2\\sqrt3}{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-003",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria cu două laturi și unghiul dintre ele?",
-    "variante": [
-      "$ab\\sin C$",
-      "$\\frac{ab\\sin C}{2}$",
-      "$\\frac{a+b}{2}$",
-      "$\\frac{ab\\cos C}{2}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "arii-figuri-plane-004",
-    "tip": "simplu",
-    "intrebare": "Care este formula lui Heron?",
-    "variante": [
-      "$\\sqrt{a+b+c}$",
-      "$p(p-a)(p-b)(p-c)$",
-      "$\\frac{p\\cdot a}{2}$",
-      "$\\sqrt{p(p-a)(p-b)(p-c)}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-005",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria dreptunghiului?",
-    "variante": [
-      "$L+l$",
-      "$2(L+l)$",
-      "$L\\cdot l$",
-      "$\\frac{L\\cdot l}{2}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "arii-figuri-plane-006",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria rombului din diagonale?",
-    "variante": [
-      "$\\frac{d_1+d_2}{2}$",
-      "$d_1+d_2$",
-      "$\\frac{d_1\\cdot d_2}{2}$",
-      "$d_1\\cdot d_2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "arii-figuri-plane-007",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria paralelogramului cu laturile $a,b$ și unghiul $\\alpha$?",
-    "variante": [
-      "$\\frac{ab}{2}$",
-      "$a+b+\\alpha$",
-      "$ab\\cos\\alpha$",
-      "$ab\\sin\\alpha$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-008",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria trapezului?",
-    "variante": [
-      "$(B+b)h$",
-      "$B\\cdot b\\cdot h$",
-      "$\\frac{(B-b)h}{2}$",
-      "$\\frac{(B+b)h}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-009",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria poligonului regulat?",
-    "variante": [
-      "$\\frac{P}{a_p}$",
-      "$P+a_p$",
-      "$P\\cdot a_p$",
-      "$\\frac{P\\cdot a_p}{2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-010",
-    "tip": "simplu",
-    "intrebare": "Cât este aria hexagonului regulat cu latura $a$?",
-    "variante": [
-      "$\\frac{3a^2\\sqrt3}{2}$",
-      "$6a^2$",
-      "$3a^2$",
-      "$\\frac{a^2\\sqrt3}{4}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "arii-figuri-plane-011",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria cercului?",
-    "variante": [
-      "$2\\pi R$",
-      "$2\\pi R^2$",
-      "$\\pi R$",
-      "$\\pi R^2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "arii-figuri-plane-012",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria sectorului circular de unghi $\\alpha$ (în grade)?",
-    "variante": [
-      "$\\frac{\\alpha}{360}\\cdot\\pi R^2$",
-      "$\\frac{\\alpha}{180}\\cdot\\pi R$",
-      "$\\alpha\\cdot\\pi R^2$",
-      "$\\frac{\\alpha}{360}\\cdot2\\pi R$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "arii-figuri-plane-013",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează lungimea unui arc de unghi $\\alpha$ (în grade)?",
-    "variante": [
-      "$\\frac{\\alpha}{360}\\cdot\\pi R^2$",
-      "$\\frac{\\alpha}{360}\\cdot2\\pi R$",
-      "$\\frac{\\alpha}{180}\\cdot\\pi R^2$",
-      "$\\alpha\\cdot2\\pi R$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "arii-figuri-plane-014",
-    "tip": "simplu",
-    "intrebare": "Sector cu $R=6$ și $\\alpha=60^\\circ$. Cât este aria?",
-    "variante": [
-      "$12\\pi$",
-      "$6\\pi$",
-      "$36\\pi$",
-      "$3\\pi$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "arii-figuri-plane-015",
-    "tip": "simplu",
-    "intrebare": "Arc cu $R=6$ și $\\alpha=60^\\circ$. Cât este lungimea?",
-    "variante": [
-      "$2\\pi$",
-      "$12\\pi$",
-      "$6\\pi$",
-      "$\\pi$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "arii-figuri-plane-016",
-    "tip": "simplu",
-    "intrebare": "Aria triunghiului cu laturile $3,4,5$ este:",
-    "variante": [
-      "$60$",
-      "$6$",
-      "$7$",
-      "$12$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "arii-figuri-plane-017",
-    "tip": "simplu",
-    "intrebare": "Aria trapezului cu $B=10$, $b=6$, $h=5$ este:",
-    "variante": [
-      "$16$",
-      "$40$",
-      "$80$",
-      "$30$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "arii-figuri-plane-001",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria triunghiului?",
+  "variante": [
+   "$b\\cdot h$",
+   "$\\frac{b+h}{2}$",
+   "$\\frac{b\\cdot h}{2}$",
+   "$b+h$"
+  ],
+  "corect": 2,
+  "explicatie": "Triunghiul este jumătate dintr-un paralelogram cu aceeași bază și înălțime, deci aria este $\\frac{b\\cdot h}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-002",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria triunghiului echilateral cu latura $a$?",
+  "variante": [
+   "$\\frac{a^2}{2}$",
+   "$a^2\\sqrt3$",
+   "$\\frac{a\\sqrt3}{4}$",
+   "$\\frac{a^2\\sqrt3}{4}$"
+  ],
+  "corect": 3,
+  "explicatie": "Înălțimea este $\\frac{a\\sqrt3}{2}$, deci $A=\\frac{a\\cdot\\frac{a\\sqrt3}{2}}{2}=\\frac{a^2\\sqrt3}{4}$."
+ },
+ {
+  "id": "arii-figuri-plane-003",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria cu două laturi și unghiul dintre ele?",
+  "variante": [
+   "$ab\\sin C$",
+   "$\\frac{ab\\sin C}{2}$",
+   "$\\frac{a+b}{2}$",
+   "$\\frac{ab\\cos C}{2}$"
+  ],
+  "corect": 1,
+  "explicatie": "Înălțimea din $A$ pe latura $b$ este $a\\sin C$, deci aria $\\frac{b\\cdot a\\sin C}{2}$ devine $\\frac{ab\\sin C}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-004",
+  "tip": "simplu",
+  "intrebare": "Care este formula lui Heron?",
+  "variante": [
+   "$\\sqrt{a+b+c}$",
+   "$p(p-a)(p-b)(p-c)$",
+   "$\\frac{p\\cdot a}{2}$",
+   "$\\sqrt{p(p-a)(p-b)(p-c)}$"
+  ],
+  "corect": 3,
+  "explicatie": "Formula lui Heron folosește semiperimetrul $p=\\frac{a+b+c}{2}$ și dă aria ca radical din $p(p-a)(p-b)(p-c)$."
+ },
+ {
+  "id": "arii-figuri-plane-005",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria dreptunghiului?",
+  "variante": [
+   "$L+l$",
+   "$2(L+l)$",
+   "$L\\cdot l$",
+   "$\\frac{L\\cdot l}{2}$"
+  ],
+  "corect": 2,
+  "explicatie": "Aria dreptunghiului este numărul de pătrățele unitate: lungime ori lățime, adică $L\\cdot l$."
+ },
+ {
+  "id": "arii-figuri-plane-006",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria rombului din diagonale?",
+  "variante": [
+   "$\\frac{d_1+d_2}{2}$",
+   "$d_1+d_2$",
+   "$\\frac{d_1\\cdot d_2}{2}$",
+   "$d_1\\cdot d_2$"
+  ],
+  "corect": 2,
+  "explicatie": "Diagonalele rombului îl împart în 4 triunghiuri dreptunghice egale, deci $A=\\frac{d_1\\cdot d_2}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-007",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria paralelogramului cu laturile $a,b$ și unghiul $\\alpha$?",
+  "variante": [
+   "$\\frac{ab}{2}$",
+   "$a+b+\\alpha$",
+   "$ab\\cos\\alpha$",
+   "$ab\\sin\\alpha$"
+  ],
+  "corect": 3,
+  "explicatie": "Înălțimea paralelogramului este $b\\sin\\alpha$, iar aria este baza ori înălțimea: $ab\\sin\\alpha$."
+ },
+ {
+  "id": "arii-figuri-plane-008",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria trapezului?",
+  "variante": [
+   "$(B+b)h$",
+   "$B\\cdot b\\cdot h$",
+   "$\\frac{(B-b)h}{2}$",
+   "$\\frac{(B+b)h}{2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Aria trapezului este media bazelor înmulțită cu înălțimea: $\\frac{(B+b)h}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-009",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria poligonului regulat?",
+  "variante": [
+   "$\\frac{P}{a_p}$",
+   "$P+a_p$",
+   "$P\\cdot a_p$",
+   "$\\frac{P\\cdot a_p}{2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Poligonul se împarte în triunghiuri cu înălțimea $a_p$; suma lor dă $\\frac{P\\cdot a_p}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-010",
+  "tip": "simplu",
+  "intrebare": "Cât este aria hexagonului regulat cu latura $a$?",
+  "variante": [
+   "$\\frac{3a^2\\sqrt3}{2}$",
+   "$6a^2$",
+   "$3a^2$",
+   "$\\frac{a^2\\sqrt3}{4}$"
+  ],
+  "corect": 0,
+  "explicatie": "Hexagonul regulat are 6 triunghiuri echilaterale: $6\\cdot\\frac{a^2\\sqrt3}{4}=\\frac{3a^2\\sqrt3}{2}$."
+ },
+ {
+  "id": "arii-figuri-plane-011",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria cercului?",
+  "variante": [
+   "$2\\pi R$",
+   "$2\\pi R^2$",
+   "$\\pi R$",
+   "$\\pi R^2$"
+  ],
+  "corect": 3,
+  "explicatie": "Aria cercului de rază $R$ este $\\pi R^2$; $2\\pi R$ este lungimea cercului, nu aria."
+ },
+ {
+  "id": "arii-figuri-plane-012",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria sectorului circular de unghi $\\alpha$ (în grade)?",
+  "variante": [
+   "$\\frac{\\alpha}{360}\\cdot\\pi R^2$",
+   "$\\frac{\\alpha}{180}\\cdot\\pi R$",
+   "$\\alpha\\cdot\\pi R^2$",
+   "$\\frac{\\alpha}{360}\\cdot2\\pi R$"
+  ],
+  "corect": 0,
+  "explicatie": "Sectorul este fracțiunea $\\frac{\\alpha}{360}$ din cerc, deci aria lui este $\\frac{\\alpha}{360}$ din $\\pi R^2$."
+ },
+ {
+  "id": "arii-figuri-plane-013",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează lungimea unui arc de unghi $\\alpha$ (în grade)?",
+  "variante": [
+   "$\\frac{\\alpha}{360}\\cdot\\pi R^2$",
+   "$\\frac{\\alpha}{360}\\cdot2\\pi R$",
+   "$\\frac{\\alpha}{180}\\cdot\\pi R^2$",
+   "$\\alpha\\cdot2\\pi R$"
+  ],
+  "corect": 1,
+  "explicatie": "Arcul este fracțiunea $\\frac{\\alpha}{360}$ din lungimea cercului, adică $\\frac{\\alpha}{360}\\cdot2\\pi R$."
+ },
+ {
+  "id": "arii-figuri-plane-014",
+  "tip": "simplu",
+  "intrebare": "Sector cu $R=6$ și $\\alpha=60^\\circ$. Cât este aria?",
+  "variante": [
+   "$12\\pi$",
+   "$6\\pi$",
+   "$36\\pi$",
+   "$3\\pi$"
+  ],
+  "corect": 1,
+  "explicatie": "$A=\\frac{60}{360}\\cdot\\pi\\cdot6^2=\\frac16\\cdot36\\pi=6\\pi$."
+ },
+ {
+  "id": "arii-figuri-plane-015",
+  "tip": "simplu",
+  "intrebare": "Arc cu $R=6$ și $\\alpha=60^\\circ$. Cât este lungimea?",
+  "variante": [
+   "$2\\pi$",
+   "$12\\pi$",
+   "$6\\pi$",
+   "$\\pi$"
+  ],
+  "corect": 0,
+  "explicatie": "$L=\\frac{60}{360}\\cdot2\\pi\\cdot6=\\frac16\\cdot12\\pi=2\\pi$."
+ },
+ {
+  "id": "arii-figuri-plane-016",
+  "tip": "simplu",
+  "intrebare": "Aria triunghiului cu laturile $3,4,5$ este:",
+  "variante": [
+   "$60$",
+   "$6$",
+   "$7$",
+   "$12$"
+  ],
+  "corect": 1,
+  "explicatie": "Triunghiul $3,4,5$ este dreptunghic, deci $A=\\frac{3\\cdot4}{2}=6$."
+ },
+ {
+  "id": "arii-figuri-plane-017",
+  "tip": "simplu",
+  "intrebare": "Aria trapezului cu $B=10$, $b=6$, $h=5$ este:",
+  "variante": [
+   "$16$",
+   "$40$",
+   "$80$",
+   "$30$"
+  ],
+  "corect": 1,
+  "explicatie": "$A=\\frac{(10+6)\\cdot5}{2}=\\frac{16\\cdot5}{2}=40$."
+ }
 ]

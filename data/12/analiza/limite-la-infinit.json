@@ -1,232 +1,250 @@
 [
-  {
-    "id": "limite-la-infinit-001",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\frac1x$, cât este $\\lim_{x\\to+\\infty}f(x)$ (citește graficul)?",
-    "variante": [
-      "$-\\infty$",
-      "$+\\infty$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-lim1.svg"
-  },
-  {
-    "id": "limite-la-infinit-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to-\\infty}f(x)$?",
-    "variante": [
-      "$-\\infty$",
-      "$+\\infty$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-lim1.svg"
-  },
-  {
-    "id": "limite-la-infinit-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0^+}f(x)$?",
-    "variante": [
-      "$+\\infty$",
-      "$0$",
-      "$1$",
-      "$-\\infty$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-lim1.svg"
-  },
-  {
-    "id": "limite-la-infinit-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\lim_{x\\to0^-}f(x)$?",
-    "variante": [
-      "$+\\infty$",
-      "$0$",
-      "$1$",
-      "$-\\infty$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-lim1.svg"
-  },
-  {
-    "id": "limite-la-infinit-005",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$: $\\lim_{x\\to+\\infty}f(x)=$",
-    "variante": [
-      "$0$",
-      "$-\\infty$",
-      "$+\\infty$",
-      "$1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-lim2.svg"
-  },
-  {
-    "id": "limite-la-infinit-006",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
-    "variante": [
-      "$1$",
-      "$+\\infty$",
-      "$-\\infty$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim2.svg"
-  },
-  {
-    "id": "limite-la-infinit-007",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3$: $\\lim_{x\\to+\\infty}f(x)=$",
-    "variante": [
-      "$-\\infty$",
-      "$+\\infty$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim3.svg"
-  },
-  {
-    "id": "limite-la-infinit-008",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
-    "variante": [
-      "$1$",
-      "$-\\infty$",
-      "$+\\infty$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim3.svg"
-  },
-  {
-    "id": "limite-la-infinit-009",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=e^x$: $\\lim_{x\\to+\\infty}f(x)=$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$+\\infty$",
-      "$-\\infty$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-lim4.svg"
-  },
-  {
-    "id": "limite-la-infinit-010",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$+\\infty$",
-      "$-\\infty$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim4.svg"
-  },
-  {
-    "id": "limite-la-infinit-011",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\left(\\frac12\\right)^x$: $\\lim_{x\\to+\\infty}f(x)=$",
-    "variante": [
-      "$+\\infty$",
-      "$0$",
-      "$-\\infty$",
-      "$1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim5.svg"
-  },
-  {
-    "id": "limite-la-infinit-012",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
-    "variante": [
-      "$-\\infty$",
-      "$0$",
-      "$1$",
-      "$+\\infty$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-lim5.svg"
-  },
-  {
-    "id": "limite-la-infinit-013",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\ln x$: $\\lim_{x\\to+\\infty}f(x)=$",
-    "variante": [
-      "$-\\infty$",
-      "$+\\infty$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim6.svg"
-  },
-  {
-    "id": "limite-la-infinit-014",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to0^+}f(x)=$",
-    "variante": [
-      "$1$",
-      "$-\\infty$",
-      "$+\\infty$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lim6.svg"
-  },
-  {
-    "id": "limite-la-infinit-015",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{1}{x}=$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$-1$",
-      "$\\infty$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-la-infinit-016",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}x^2=$",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$-\\infty$",
-      "$+\\infty$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "limite-la-infinit-017",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{3x+1}{x}=$",
-    "variante": [
-      "$3$",
-      "$\\infty$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-la-infinit-018",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^3}{x^2}=$",
-    "variante": [
-      "$1$",
-      "$+\\infty$",
-      "$0$",
-      "$-\\infty$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "limite-la-infinit-001",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=\\frac1x$, cât este $\\lim_{x\\to+\\infty}f(x)$ (citește graficul)?",
+  "variante": [
+   "$-\\infty$",
+   "$+\\infty$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-lim1.svg",
+  "explicatie": "Graficul lui $\\frac1x$ se apropie de axa $Ox$ la dreapta, deci limita la $+\\infty$ este $0$."
+ },
+ {
+  "id": "limite-la-infinit-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\lim_{x\\to-\\infty}f(x)$?",
+  "variante": [
+   "$-\\infty$",
+   "$+\\infty$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-lim1.svg",
+  "explicatie": "Graficul lui $\\frac1x$ se apropie de axa $Ox$ și la stânga (pe sub ea), deci limita la $-\\infty$ este $0$."
+ },
+ {
+  "id": "limite-la-infinit-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\lim_{x\\to0^+}f(x)$?",
+  "variante": [
+   "$+\\infty$",
+   "$0$",
+   "$1$",
+   "$-\\infty$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-lim1.svg",
+  "explicatie": "La dreapta lui $0$ graficul urcă fără oprire, deci $\\lim_{x\\to0^+}\\frac1x=+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\lim_{x\\to0^-}f(x)$?",
+  "variante": [
+   "$+\\infty$",
+   "$0$",
+   "$1$",
+   "$-\\infty$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-lim1.svg",
+  "explicatie": "La stânga lui $0$ graficul coboară fără oprire, deci $\\lim_{x\\to0^-}\\frac1x=-\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-005",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=x^2$: $\\lim_{x\\to+\\infty}f(x)=$",
+  "variante": [
+   "$0$",
+   "$-\\infty$",
+   "$+\\infty$",
+   "$1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-lim2.svg",
+  "explicatie": "Parabola $x^2$ urcă la infinit la dreapta, deci limita la $+\\infty$ este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-006",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+  "variante": [
+   "$1$",
+   "$+\\infty$",
+   "$-\\infty$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim2.svg",
+  "explicatie": "Parabola $x^2$ urcă la infinit și la stânga (pătratul e pozitiv), deci limita la $-\\infty$ este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-007",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=x^3$: $\\lim_{x\\to+\\infty}f(x)=$",
+  "variante": [
+   "$-\\infty$",
+   "$+\\infty$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim3.svg",
+  "explicatie": "Graficul lui $x^3$ urcă fără oprire la dreapta, deci limita la $+\\infty$ este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-008",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+  "variante": [
+   "$1$",
+   "$-\\infty$",
+   "$+\\infty$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim3.svg",
+  "explicatie": "Graficul lui $x^3$ coboară fără oprire la stânga (cubul unui număr negativ mare e negativ), deci limita la $-\\infty$ este $-\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-009",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=e^x$: $\\lim_{x\\to+\\infty}f(x)=$",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$+\\infty$",
+   "$-\\infty$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-lim4.svg",
+  "explicatie": "Exponențiala $e^x$ crește foarte repede la dreapta, deci limita la $+\\infty$ este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-010",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$+\\infty$",
+   "$-\\infty$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim4.svg",
+  "explicatie": "La stânga, graficul lui $e^x$ se lipește de axa $Ox$, deci limita la $-\\infty$ este $0$."
+ },
+ {
+  "id": "limite-la-infinit-011",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=\\left(\\frac12\\right)^x$: $\\lim_{x\\to+\\infty}f(x)=$",
+  "variante": [
+   "$+\\infty$",
+   "$0$",
+   "$-\\infty$",
+   "$1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim5.svg",
+  "explicatie": "Baza $\\frac12$ este subunitară: puterile ei scad spre $0$, deci limita la $+\\infty$ este $0$."
+ },
+ {
+  "id": "limite-la-infinit-012",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to-\\infty}f(x)=$",
+  "variante": [
+   "$-\\infty$",
+   "$0$",
+   "$1$",
+   "$+\\infty$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-lim5.svg",
+  "explicatie": "La stânga, $\\left(\\frac12\\right)^x$ crește fără oprire (de exemplu $\\left(\\frac12\\right)^{-10}=2^{10}$), deci limita este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-013",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=\\ln x$: $\\lim_{x\\to+\\infty}f(x)=$",
+  "variante": [
+   "$-\\infty$",
+   "$+\\infty$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim6.svg",
+  "explicatie": "Graficul lui $\\ln x$ urcă lent, dar fără oprire, la dreapta, deci limita la $+\\infty$ este $+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-014",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to0^+}f(x)=$",
+  "variante": [
+   "$1$",
+   "$-\\infty$",
+   "$+\\infty$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lim6.svg",
+  "explicatie": "Când $x\\to0^+$, graficul lui $\\ln x$ coboară fără oprire lângă axa $Oy$, deci limita este $-\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-015",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to\\infty}\\frac{1}{x}=$",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$-1$",
+   "$\\infty$"
+  ],
+  "corect": 1,
+  "explicatie": "Împărțim la un număr foarte mare: $\\frac1x$ devine foarte mic, deci limita este $0$."
+ },
+ {
+  "id": "limite-la-infinit-016",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to\\infty}x^2=$",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$-\\infty$",
+   "$+\\infty$"
+  ],
+  "corect": 3,
+  "explicatie": "Pătratul unui număr foarte mare este și mai mare, deci $x^2\\to+\\infty$."
+ },
+ {
+  "id": "limite-la-infinit-017",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to\\infty}\\frac{3x+1}{x}=$",
+  "variante": [
+   "$3$",
+   "$\\infty$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\frac{3x+1}{x}=3+\\frac1x\\to3+0=3$."
+ },
+ {
+  "id": "limite-la-infinit-018",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^3}{x^2}=$",
+  "variante": [
+   "$1$",
+   "$+\\infty$",
+   "$0$",
+   "$-\\infty$"
+  ],
+  "corect": 1,
+  "explicatie": "$\\frac{x^3}{x^2}=x\\to+\\infty$ când $x\\to\\infty$."
+ }
 ]

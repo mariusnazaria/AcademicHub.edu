@@ -1618,3 +1618,19 @@ a.contact-value:hover { text-decoration: underline; }
 }
 
 .formula-hint { margin: 4px 0 0; }
+
+/* Progres pe teme, serie, statistici */
+.pick-card.pick-stapanit { border-color: #16a34a; }
+.pick-card.pick-stapanit .pick-meta { color: #4ade80; }
+.pick-card.pick-lucru .pick-meta { color: #fbbf24; }
+.pick-bar { display: block; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.12); margin-top: 8px; overflow: hidden; }
+.pick-bar > span { display: block; height: 100%; background: #16a34a; }
+.serie-zile { display: inline-block; margin: 0 0 14px; padding: 6px 12px; border-radius: 999px; background: rgba(251,191,36,0.15); color: #fbbf24; font-weight: 700; font-size: 0.9rem; }
+.st-h { font-size: 1.1rem; margin: 22px 0 10px; }
+.st-rand { display: flex; gap: 12px; align-items: flex-start; padding: 10px 12px; margin-bottom: 8px; border: 1px solid var(--border, rgba(255,255,255,0.12)); border-radius: 10px; }
+.st-pct { flex: 0 0 52px; font-weight: 800; color: #f87171; font-size: 1.05rem; }
+.st-text { display: block; min-width: 0; }
+.st-q { display: block; }
+.st-meta { display: block; margin-top: 3px; font-size: 0.8rem; color: var(--text-muted); }
+.st-nota { font-size: 0.85rem; }
+.st-img { display: block; max-width: 100%; max-height: 160px; margin-top: 6px; background: #fff; border-radius: 6px; }

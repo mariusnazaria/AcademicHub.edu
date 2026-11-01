@@ -1,242 +1,262 @@
 [
-  {
-    "id": "progresii-001",
-    "tip": "simplu",
-    "intrebare": "Care este formula termenului general al progresiei aritmetice?",
-    "variante": [
-      "$a_n=a_1+nr$",
-      "$a_n=a_1+r^n$",
-      "$a_n=a_1+(n-1)r$",
-      "$a_n=a_1\\cdot r^{n-1}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "progresii-002",
-    "tip": "simplu",
-    "intrebare": "Progresie aritmetică cu $a_1=2$, $r=3$. Cât este $a_5$?",
-    "variante": [
-      "$17$",
-      "$14$",
-      "$15$",
-      "$11$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "progresii-003",
-    "tip": "simplu",
-    "intrebare": "Progresia aritmetică $2,5,8,\\dots$ are rația:",
-    "variante": [
-      "$4$",
-      "$2$",
-      "$\\frac52$",
-      "$3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "progresii-004",
-    "tip": "simplu",
-    "intrebare": "Cât este suma $1+2+3+\\dots+10$?",
-    "variante": [
-      "$55$",
-      "$50$",
-      "$100$",
-      "$45$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "progresii-005",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează suma primilor $n$ termeni ai progresiei aritmetice?",
-    "variante": [
-      "$S_n=(a_1+a_n)\\cdot n$",
-      "$S_n=\\frac{(a_1+a_n)}{2n}$",
-      "$S_n=\\frac{(a_1+a_n)\\cdot n}{2}$",
-      "$S_n=\\frac{a_1\\cdot a_n}{2}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "progresii-006",
-    "tip": "simplu",
-    "intrebare": "Într-o progresie aritmetică, $a_n$ este:",
-    "variante": [
-      "diferența vecinilor",
-      "media aritmetică a vecinilor: $\\frac{a_{n-1}+a_{n+1}}{2}$",
-      "suma vecinilor",
-      "produsul vecinilor"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "progresii-007",
-    "tip": "simplu",
-    "intrebare": "Care este formula termenului general al progresiei geometrice?",
-    "variante": [
-      "$b_n=b_1\\cdot q^n$",
-      "$b_n=b_1\\cdot q^{n-1}$",
-      "$b_n=b_1^q$",
-      "$b_n=b_1+(n-1)q$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "progresii-008",
-    "tip": "simplu",
-    "intrebare": "Progresie geometrică cu $b_1=2$, $q=3$. Cât este $b_3$?",
-    "variante": [
-      "$18$",
-      "$12$",
-      "$8$",
-      "$54$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "progresii-009",
-    "tip": "simplu",
-    "intrebare": "Progresia geometrică $3,6,12,\\dots$ are rația:",
-    "variante": [
-      "$3$",
-      "$\\frac12$",
-      "$4$",
-      "$2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "progresii-010",
-    "tip": "simplu",
-    "intrebare": "Într-o progresie geometrică (cu termeni pozitivi), $b_n$ este:",
-    "variante": [
-      "diferența vecinilor",
-      "media aritmetică a vecinilor",
-      "media geometrică a vecinilor: $\\sqrt{b_{n-1}b_{n+1}}$",
-      "suma vecinilor"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "progresii-011",
-    "tip": "simplu",
-    "intrebare": "Cât este suma $1+2+4+8$?",
-    "variante": [
-      "$12$",
-      "$15$",
-      "$16$",
-      "$14$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "progresii-012",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează suma primilor $n$ termeni ai progresiei geometrice?",
-    "variante": [
-      "$S_n=\\frac{b_1(q^n+1)}{q+1}$",
-      "$S_n=\\frac{b_1q^n}{q-1}$",
-      "$S_n=\\frac{b_1(q^n-1)}{q-1}$",
-      "$S_n=\\frac{b_1(1-q)}{1-q^n}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "progresii-013",
-    "tip": "simplu",
-    "intrebare": "Care șir este progresie aritmetică?",
-    "variante": [
-      "$1,4,9,16$",
-      "$1,2,4,8$",
-      "$3,6,12,24$",
-      "$2,4,6,8$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "progresii-014",
-    "tip": "simplu",
-    "intrebare": "Care șir este progresie geometrică?",
-    "variante": [
-      "$2,4,6,8$",
-      "$1,3,9,27$",
-      "$5,10,15,20$",
-      "$1,2,3,5$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "progresii-015",
-    "tip": "simplu",
-    "intrebare": "Progresie aritmetică cu $a_1=1$, $r=2$. Cât este $a_4$?",
-    "variante": [
-      "$8$",
-      "$9$",
-      "$7$",
-      "$5$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "progresii-016",
-    "tip": "simplu",
-    "intrebare": "Progresie aritmetică cu $a_1=10$, $r=-2$. Cât este $a_3$?",
-    "variante": [
-      "$8$",
-      "$4$",
-      "$14$",
-      "$6$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "progresii-017",
-    "tip": "simplu",
-    "intrebare": "Progresia geometrică $1,\\frac12,\\frac14,\\dots$ are rația:",
-    "variante": [
-      "$\\frac14$",
-      "$2$",
-      "$-\\frac12$",
-      "$\\frac12$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "progresii-018",
-    "tip": "simplu",
-    "intrebare": "Cât este suma infinită $b_1+b_2+\\dots$ cu $|q|<1$?",
-    "variante": [
-      "$\\frac{b_1}{1-q}$",
-      "$b_1\\cdot q$",
-      "$\\frac{b_1}{1+q}$",
-      "$b_1(1-q)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "progresii-019",
-    "tip": "simplu",
-    "intrebare": "Cât este $1+\\frac12+\\frac14+\\dots$ (suma infinită)?",
-    "variante": [
-      "$2$",
-      "$\\frac32$",
-      "$1$",
-      "$\\frac52$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "progresii-020",
-    "tip": "simplu",
-    "intrebare": "Dacă $r>0$, progresia aritmetică este:",
-    "variante": [
-      "descrescătoare",
-      "alternantă",
-      "constantă",
-      "crescătoare"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "progresii-001",
+  "tip": "simplu",
+  "intrebare": "Care este formula termenului general al progresiei aritmetice?",
+  "variante": [
+   "$a_n=a_1+nr$",
+   "$a_n=a_1+r^n$",
+   "$a_n=a_1+(n-1)r$",
+   "$a_n=a_1\\cdot r^{n-1}$"
+  ],
+  "corect": 2,
+  "explicatie": "Fiecare termen se obține din $a_1$ adăugând rația de $n-1$ ori: $a_n=a_1+(n-1)r$."
+ },
+ {
+  "id": "progresii-002",
+  "tip": "simplu",
+  "intrebare": "Progresie aritmetică cu $a_1=2$, $r=3$. Cât este $a_5$?",
+  "variante": [
+   "$17$",
+   "$14$",
+   "$15$",
+   "$11$"
+  ],
+  "corect": 1,
+  "explicatie": "$a_5=a_1+4r=2+4\\cdot3=14$."
+ },
+ {
+  "id": "progresii-003",
+  "tip": "simplu",
+  "intrebare": "Progresia aritmetică $2,5,8,\\dots$ are rația:",
+  "variante": [
+   "$4$",
+   "$2$",
+   "$\\frac52$",
+   "$3$"
+  ],
+  "corect": 3,
+  "explicatie": "Rația este diferența a doi termeni consecutivi: $5-2=3$."
+ },
+ {
+  "id": "progresii-004",
+  "tip": "simplu",
+  "intrebare": "Cât este suma $1+2+3+\\dots+10$?",
+  "variante": [
+   "$55$",
+   "$50$",
+   "$100$",
+   "$45$"
+  ],
+  "corect": 0,
+  "explicatie": "Suma lui Gauss: $\\frac{10\\cdot11}{2}=55$."
+ },
+ {
+  "id": "progresii-005",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează suma primilor $n$ termeni ai progresiei aritmetice?",
+  "variante": [
+   "$S_n=(a_1+a_n)\\cdot n$",
+   "$S_n=\\frac{(a_1+a_n)}{2n}$",
+   "$S_n=\\frac{(a_1+a_n)\\cdot n}{2}$",
+   "$S_n=\\frac{a_1\\cdot a_n}{2}$"
+  ],
+  "corect": 2,
+  "explicatie": "Suma este media dintre primul și ultimul termen înmulțită cu numărul de termeni: $\\frac{(a_1+a_n)n}{2}$."
+ },
+ {
+  "id": "progresii-006",
+  "tip": "simplu",
+  "intrebare": "Într-o progresie aritmetică, $a_n$ este:",
+  "variante": [
+   "diferența vecinilor",
+   "media aritmetică a vecinilor: $\\frac{a_{n-1}+a_{n+1}}{2}$",
+   "suma vecinilor",
+   "produsul vecinilor"
+  ],
+  "corect": 1,
+  "explicatie": "Termenul din mijloc al trei termeni consecutivi este media aritmetică a vecinilor: $a_n=\\frac{a_{n-1}+a_{n+1}}{2}$."
+ },
+ {
+  "id": "progresii-007",
+  "tip": "simplu",
+  "intrebare": "Care este formula termenului general al progresiei geometrice?",
+  "variante": [
+   "$b_n=b_1\\cdot q^n$",
+   "$b_n=b_1\\cdot q^{n-1}$",
+   "$b_n=b_1^q$",
+   "$b_n=b_1+(n-1)q$"
+  ],
+  "corect": 1,
+  "explicatie": "Pornim de la $b_1$ și înmulțim cu rația de $n-1$ ori: $b_n=b_1q^{n-1}$."
+ },
+ {
+  "id": "progresii-008",
+  "tip": "simplu",
+  "intrebare": "Progresie geometrică cu $b_1=2$, $q=3$. Cât este $b_3$?",
+  "variante": [
+   "$18$",
+   "$12$",
+   "$8$",
+   "$54$"
+  ],
+  "corect": 0,
+  "explicatie": "$b_3=b_1q^2=2\\cdot9=18$."
+ },
+ {
+  "id": "progresii-009",
+  "tip": "simplu",
+  "intrebare": "Progresia geometrică $3,6,12,\\dots$ are rația:",
+  "variante": [
+   "$3$",
+   "$\\frac12$",
+   "$4$",
+   "$2$"
+  ],
+  "corect": 3,
+  "explicatie": "Rația este câtul a doi termeni consecutivi: $6:3=2$."
+ },
+ {
+  "id": "progresii-010",
+  "tip": "simplu",
+  "intrebare": "Într-o progresie geometrică (cu termeni pozitivi), $b_n$ este:",
+  "variante": [
+   "diferența vecinilor",
+   "media aritmetică a vecinilor",
+   "media geometrică a vecinilor: $\\sqrt{b_{n-1}b_{n+1}}$",
+   "suma vecinilor"
+  ],
+  "corect": 2,
+  "explicatie": "Într-o progresie geometrică $b_n^2=b_{n-1}b_{n+1}$, deci $b_n=\\sqrt{b_{n-1}b_{n+1}}$."
+ },
+ {
+  "id": "progresii-011",
+  "tip": "simplu",
+  "intrebare": "Cât este suma $1+2+4+8$?",
+  "variante": [
+   "$12$",
+   "$15$",
+   "$16$",
+   "$14$"
+  ],
+  "corect": 1,
+  "explicatie": "Progresie geometrică cu $b_1=1$, $q=2$: $S_4=\\frac{2^4-1}{2-1}=15$ (sau $1+2+4+8=15$)."
+ },
+ {
+  "id": "progresii-012",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează suma primilor $n$ termeni ai progresiei geometrice?",
+  "variante": [
+   "$S_n=\\frac{b_1(q^n+1)}{q+1}$",
+   "$S_n=\\frac{b_1q^n}{q-1}$",
+   "$S_n=\\frac{b_1(q^n-1)}{q-1}$",
+   "$S_n=\\frac{b_1(1-q)}{1-q^n}$"
+  ],
+  "corect": 2,
+  "explicatie": "Formula sumei: $S_n=\\frac{b_1(q^n-1)}{q-1}$, pentru $q\\neq1$."
+ },
+ {
+  "id": "progresii-013",
+  "tip": "simplu",
+  "intrebare": "Care șir este progresie aritmetică?",
+  "variante": [
+   "$1,4,9,16$",
+   "$1,2,4,8$",
+   "$3,6,12,24$",
+   "$2,4,6,8$"
+  ],
+  "corect": 3,
+  "explicatie": "Diferența dintre termeni consecutivi este constantă ($2$) la $2,4,6,8$."
+ },
+ {
+  "id": "progresii-014",
+  "tip": "simplu",
+  "intrebare": "Care șir este progresie geometrică?",
+  "variante": [
+   "$2,4,6,8$",
+   "$1,3,9,27$",
+   "$5,10,15,20$",
+   "$1,2,3,5$"
+  ],
+  "corect": 1,
+  "explicatie": "Câtul termenilor consecutivi este constant ($3$): $\\frac39=\\frac13$ și $\\frac{9}{27}=\\frac13$."
+ },
+ {
+  "id": "progresii-015",
+  "tip": "simplu",
+  "intrebare": "Progresie aritmetică cu $a_1=1$, $r=2$. Cât este $a_4$?",
+  "variante": [
+   "$8$",
+   "$9$",
+   "$7$",
+   "$5$"
+  ],
+  "corect": 2,
+  "explicatie": "$a_4=a_1+3r=1+6=7$."
+ },
+ {
+  "id": "progresii-016",
+  "tip": "simplu",
+  "intrebare": "Progresie aritmetică cu $a_1=10$, $r=-2$. Cât este $a_3$?",
+  "variante": [
+   "$8$",
+   "$4$",
+   "$14$",
+   "$6$"
+  ],
+  "corect": 3,
+  "explicatie": "$a_3=a_1+2r=10-4=6$."
+ },
+ {
+  "id": "progresii-017",
+  "tip": "simplu",
+  "intrebare": "Progresia geometrică $1,\\frac12,\\frac14,\\dots$ are rația:",
+  "variante": [
+   "$\\frac14$",
+   "$2$",
+   "$-\\frac12$",
+   "$\\frac12$"
+  ],
+  "corect": 3,
+  "explicatie": "Rația este câtul termenilor consecutivi: $\\frac12:1=\\frac12$."
+ },
+ {
+  "id": "progresii-018",
+  "tip": "simplu",
+  "intrebare": "Cât este suma infinită $b_1+b_2+\\dots$ cu $|q|<1$?",
+  "variante": [
+   "$\\frac{b_1}{1-q}$",
+   "$b_1\\cdot q$",
+   "$\\frac{b_1}{1+q}$",
+   "$b_1(1-q)$"
+  ],
+  "corect": 0,
+  "explicatie": "Pentru $|q|<1$ suma infinită este $\\frac{b_1}{1-q}$."
+ },
+ {
+  "id": "progresii-019",
+  "tip": "simplu",
+  "intrebare": "Cât este $1+\\frac12+\\frac14+\\dots$ (suma infinită)?",
+  "variante": [
+   "$2$",
+   "$\\frac32$",
+   "$1$",
+   "$\\frac52$"
+  ],
+  "corect": 0,
+  "explicatie": "Aici $b_1=1$, $q=\\frac12$, deci suma este $\\frac{1}{1-\\frac12}=2$."
+ },
+ {
+  "id": "progresii-020",
+  "tip": "simplu",
+  "intrebare": "Dacă $r>0$, progresia aritmetică este:",
+  "variante": [
+   "descrescătoare",
+   "alternantă",
+   "constantă",
+   "crescătoare"
+  ],
+  "corect": 3,
+  "explicatie": "Cu $r>0$ fiecare termen e mai mare decât precedentul, deci progresia este crescătoare."
+ }
 ]

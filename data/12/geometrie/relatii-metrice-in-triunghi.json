@@ -1,218 +1,236 @@
 [
-  {
-    "id": "relatii-metrice-in-triunghi-001",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie teorema sinusurilor?",
-    "variante": [
-      "$\\frac{a}{\\cos A}=2R$",
-      "$\\frac{a}{\\sin A}=2R$",
-      "$a\\sin A=2R$",
-      "$\\frac{a}{\\sin A}=R$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-002",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie teorema cosinusului?",
-    "variante": [
-      "$a^2=b^2+c^2-2bc\\sin A$",
-      "$a^2=b^2+c^2-2bc\\cos A$",
-      "$a=b+c-2\\cos A$",
-      "$a^2=b^2+c^2+2bc\\cos A$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-003",
-    "tip": "simplu",
-    "intrebare": "Ce devine teorema cosinusului când $A=90^\\circ$?",
-    "variante": [
-      "teorema lui Pitagora",
-      "teorema bisectoarei",
-      "teorema sinusurilor",
-      "teorema înălțimii"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-004",
-    "tip": "simplu",
-    "intrebare": "Triunghi cu $A=60^\\circ$ și $b=c=2$. Cât este $a$?",
-    "variante": [
-      "$\\sqrt{12}$",
-      "$4$",
-      "$\\sqrt{2}$",
-      "$2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-005",
-    "tip": "simplu",
-    "intrebare": "Triunghi cu $a=5$ și $\\sin A=\\frac12$. Cât este $R$?",
-    "variante": [
-      "$\\frac{5}{4}$",
-      "$2{,}5$",
-      "$5$",
-      "$10$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\cos90^\\circ$?",
-    "variante": [
-      "$0$",
-      "$-1$",
-      "$\\frac12$",
-      "$1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-007",
-    "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $3$ și $4$. Cât este înălțimea spre ipotenuză?",
-    "variante": [
-      "$3{,}5$",
-      "$5$",
-      "$2{,}4$",
-      "$2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-008",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează înălțimea spre ipotenuză?",
-    "variante": [
-      "$h=\\frac{ip}{2}$",
-      "$h=\\frac{c_1\\cdot c_2}{ip}$",
-      "$h=c_1\\cdot c_2$",
-      "$h=\\frac{c_1+c_2}{ip}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-009",
-    "tip": "simplu",
-    "intrebare": "Teorema catetei: $c^2=$",
-    "variante": [
-      "$ip+p_c$",
-      "$ip\\cdot p_c$ (proiecția catetei pe ipotenuză)",
-      "$\\frac{ip}{p_c}$",
-      "$p_c^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-010",
-    "tip": "simplu",
-    "intrebare": "Cât este mediana spre ipotenuză în triunghiul dreptunghic?",
-    "variante": [
-      "dublul ipotenuzei",
-      "o treime din ipotenuză",
-      "ipotenuza",
-      "jumătate din ipotenuză"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-011",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează $\\sin\\alpha$ în triunghiul dreptunghic?",
-    "variante": [
-      "cateta opusă $/$ cateta alăturată",
-      "cateta alăturată $/$ ipotenuză",
-      "ipotenuză $/$ cateta opusă",
-      "cateta opusă $/$ ipotenuză"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-012",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează $\\operatorname{tg}\\alpha$ în triunghiul dreptunghic?",
-    "variante": [
-      "cateta opusă $/$ cateta alăturată",
-      "cateta alăturată $/$ ipotenuză",
-      "ipotenuză $/$ cateta",
-      "cateta opusă $/$ ipotenuză"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin30^\\circ$?",
-    "variante": [
-      "$\\frac12$",
-      "$\\frac{\\sqrt3}{2}$",
-      "$1$",
-      "$\\frac{\\sqrt2}{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\cos60^\\circ$?",
-    "variante": [
-      "$\\frac{\\sqrt3}{2}$",
-      "$\\frac{\\sqrt2}{2}$",
-      "$0$",
-      "$\\frac12$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-015",
-    "tip": "simplu",
-    "intrebare": "Paralelogram cu laturile $3$ și $4$. Cât este $d_1^2+d_2^2$?",
-    "variante": [
-      "$14$",
-      "$49$",
-      "$25$",
-      "$50$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-016",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează $d_1^2+d_2^2$ la paralelogram?",
-    "variante": [
-      "$a^2+b^2$",
-      "$(a+b)^2$",
-      "$4ab$",
-      "$2(a^2+b^2)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-017",
-    "tip": "simplu",
-    "intrebare": "Cât este lungimea medianei $m_a$ în funcție de laturi?",
-    "variante": [
-      "$m_a=\\frac{\\sqrt{2b^2+2c^2-a^2}}{2}$",
-      "$m_a=\\sqrt{b^2+c^2}$",
-      "$m_a=\\frac{a}{2}$",
-      "$m_a=\\frac{b+c}{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-018",
-    "tip": "simplu",
-    "intrebare": "Într-un triunghi, latura mai mare se opune:",
-    "variante": [
-      "oricărui unghi",
-      "unghiului drept",
-      "unghiului mai mic",
-      "unghiului mai mare"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "relatii-metrice-in-triunghi-001",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie teorema sinusurilor?",
+  "variante": [
+   "$\\frac{a}{\\cos A}=2R$",
+   "$\\frac{a}{\\sin A}=2R$",
+   "$a\\sin A=2R$",
+   "$\\frac{a}{\\sin A}=R$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema sinusurilor: raportul dintre o latură și sinusul unghiului opus este egal cu diametrul cercului circumscris, $2R$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-002",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie teorema cosinusului?",
+  "variante": [
+   "$a^2=b^2+c^2-2bc\\sin A$",
+   "$a^2=b^2+c^2-2bc\\cos A$",
+   "$a=b+c-2\\cos A$",
+   "$a^2=b^2+c^2+2bc\\cos A$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema cosinusului este Pitagora generalizată: $a^2=b^2+c^2-2bc\\cos A$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-003",
+  "tip": "simplu",
+  "intrebare": "Ce devine teorema cosinusului când $A=90^\\circ$?",
+  "variante": [
+   "teorema lui Pitagora",
+   "teorema bisectoarei",
+   "teorema sinusurilor",
+   "teorema înălțimii"
+  ],
+  "corect": 0,
+  "explicatie": "Pentru $A=90^\\circ$, $\\cos A=0$ și rămâne $a^2=b^2+c^2$, adică Pitagora."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-004",
+  "tip": "simplu",
+  "intrebare": "Triunghi cu $A=60^\\circ$ și $b=c=2$. Cât este $a$?",
+  "variante": [
+   "$\\sqrt{12}$",
+   "$4$",
+   "$\\sqrt{2}$",
+   "$2$"
+  ],
+  "corect": 3,
+  "explicatie": "$a^2=4+4-2\\cdot2\\cdot2\\cdot\\cos60^\\circ=8-4=4$, deci $a=2$ (triunghi echilateral)."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-005",
+  "tip": "simplu",
+  "intrebare": "Triunghi cu $a=5$ și $\\sin A=\\frac12$. Cât este $R$?",
+  "variante": [
+   "$\\frac{5}{4}$",
+   "$2{,}5$",
+   "$5$",
+   "$10$"
+  ],
+  "corect": 2,
+  "explicatie": "$2R=\\frac{a}{\\sin A}=\\frac{5}{\\frac12}=10$, deci $R=5$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\cos90^\\circ$?",
+  "variante": [
+   "$0$",
+   "$-1$",
+   "$\\frac12$",
+   "$1$"
+  ],
+  "corect": 0,
+  "explicatie": "Din cercul trigonometric, $\\cos90^\\circ=0$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-007",
+  "tip": "simplu",
+  "intrebare": "Triunghi dreptunghic cu catetele $3$ și $4$. Cât este înălțimea spre ipotenuză?",
+  "variante": [
+   "$3{,}5$",
+   "$5$",
+   "$2{,}4$",
+   "$2$"
+  ],
+  "corect": 2,
+  "explicatie": "Ipotenuza este $5$, iar $h=\\frac{c_1\\cdot c_2}{ip}=\\frac{3\\cdot4}{5}=2{,}4$ (din aria calculată în două moduri)."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-008",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează înălțimea spre ipotenuză?",
+  "variante": [
+   "$h=\\frac{ip}{2}$",
+   "$h=\\frac{c_1\\cdot c_2}{ip}$",
+   "$h=c_1\\cdot c_2$",
+   "$h=\\frac{c_1+c_2}{ip}$"
+  ],
+  "corect": 1,
+  "explicatie": "Aria este $\\frac{c_1\\cdot c_2}{2}=\\frac{ip\\cdot h}{2}$, de unde $h=\\frac{c_1\\cdot c_2}{ip}$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-009",
+  "tip": "simplu",
+  "intrebare": "Teorema catetei: $c^2=$",
+  "variante": [
+   "$ip+p_c$",
+   "$ip\\cdot p_c$ (proiecția catetei pe ipotenuză)",
+   "$\\frac{ip}{p_c}$",
+   "$p_c^2$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema catetei: pătratul unei catete este produsul dintre ipotenuză și proiecția acelei catete pe ipotenuză."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-010",
+  "tip": "simplu",
+  "intrebare": "Cât este mediana spre ipotenuză în triunghiul dreptunghic?",
+  "variante": [
+   "dublul ipotenuzei",
+   "o treime din ipotenuză",
+   "ipotenuza",
+   "jumătate din ipotenuză"
+  ],
+  "corect": 3,
+  "explicatie": "Mijlocul ipotenuzei este centrul cercului circumscris, deci mediana este o rază, adică jumătate din ipotenuză."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-011",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează $\\sin\\alpha$ în triunghiul dreptunghic?",
+  "variante": [
+   "cateta opusă $/$ cateta alăturată",
+   "cateta alăturată $/$ ipotenuză",
+   "ipotenuză $/$ cateta opusă",
+   "cateta opusă $/$ ipotenuză"
+  ],
+  "corect": 3,
+  "explicatie": "Sinusul unui unghi ascuțit este raportul dintre cateta opusă și ipotenuză."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-012",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează $\\operatorname{tg}\\alpha$ în triunghiul dreptunghic?",
+  "variante": [
+   "cateta opusă $/$ cateta alăturată",
+   "cateta alăturată $/$ ipotenuză",
+   "ipotenuză $/$ cateta",
+   "cateta opusă $/$ ipotenuză"
+  ],
+  "corect": 0,
+  "explicatie": "Tangenta este raportul dintre cateta opusă și cateta alăturată unghiului."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\sin30^\\circ$?",
+  "variante": [
+   "$\\frac12$",
+   "$\\frac{\\sqrt3}{2}$",
+   "$1$",
+   "$\\frac{\\sqrt2}{2}$"
+  ],
+  "corect": 0,
+  "explicatie": "Valoare de memorat: $\\sin30^\\circ=\\frac12$ (cateta opusă este jumătate din ipotenuză)."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\cos60^\\circ$?",
+  "variante": [
+   "$\\frac{\\sqrt3}{2}$",
+   "$\\frac{\\sqrt2}{2}$",
+   "$0$",
+   "$\\frac12$"
+  ],
+  "corect": 3,
+  "explicatie": "Valoare de memorat: $\\cos60^\\circ=\\frac12$, adică $\\sin30^\\circ$ pentru unghiuri complementare."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-015",
+  "tip": "simplu",
+  "intrebare": "Paralelogram cu laturile $3$ și $4$. Cât este $d_1^2+d_2^2$?",
+  "variante": [
+   "$14$",
+   "$49$",
+   "$25$",
+   "$50$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula paralelogramului: $d_1^2+d_2^2=2(a^2+b^2)=2(9+16)=50$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-016",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează $d_1^2+d_2^2$ la paralelogram?",
+  "variante": [
+   "$a^2+b^2$",
+   "$(a+b)^2$",
+   "$4ab$",
+   "$2(a^2+b^2)$"
+  ],
+  "corect": 3,
+  "explicatie": "Suma pătratelor diagonalelor unui paralelogram este dublul sumei pătratelor laturilor: $2(a^2+b^2)$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-017",
+  "tip": "simplu",
+  "intrebare": "Cât este lungimea medianei $m_a$ în funcție de laturi?",
+  "variante": [
+   "$m_a=\\frac{\\sqrt{2b^2+2c^2-a^2}}{2}$",
+   "$m_a=\\sqrt{b^2+c^2}$",
+   "$m_a=\\frac{a}{2}$",
+   "$m_a=\\frac{b+c}{2}$"
+  ],
+  "corect": 0,
+  "explicatie": "Formula medianei (teorema medianei): $m_a=\\frac{\\sqrt{2b^2+2c^2-a^2}}{2}$."
+ },
+ {
+  "id": "relatii-metrice-in-triunghi-018",
+  "tip": "simplu",
+  "intrebare": "Într-un triunghi, latura mai mare se opune:",
+  "variante": [
+   "oricărui unghi",
+   "unghiului drept",
+   "unghiului mai mic",
+   "unghiului mai mare"
+  ],
+  "corect": 3,
+  "explicatie": "În orice triunghi, la latura mai mare se opune unghiul mai mare."
+ }
 ]

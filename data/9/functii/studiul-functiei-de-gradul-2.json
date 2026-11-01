@@ -1,262 +1,282 @@
 [
-  {
-    "id": "studiul-functiei-de-gradul-2-001",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției (unde taie axa $Ox$)?",
-    "variante": [
-      "$1$ și $3$",
-      "$0$ și $3$",
-      "$-1$ și $-3$",
-      "$2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-002",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei?",
-    "variante": [
-      "$(2;-1)$",
-      "$(-1;2)$",
-      "$(1;-2)$",
-      "$(2;1)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-003",
-    "tip": "simplu",
-    "intrebare": "Care este axa de simetrie?",
-    "variante": [
-      "dreapta $x=2$",
-      "dreapta $x=-1$",
-      "axa $Oy$",
-      "dreapta $x=3$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-004",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este $f(x)<0$?",
-    "variante": [
-      "$(1;3)$",
-      "$(-1;2)$",
-      "$(2;+\\infty)$",
-      "$(-\\infty;1)\\cup(3;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-005",
-    "tip": "simplu",
-    "intrebare": "În ce punct taie graficul axa $Oy$?",
-    "variante": [
-      "$(0;3)$",
-      "$(0;1)$",
-      "$(0;-1)$",
-      "$(3;0)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-006",
-    "tip": "simplu",
-    "intrebare": "Ce semn are discriminantul $\\Delta$?",
-    "variante": [
-      "nu se poate ști",
-      "$\\Delta=0$",
-      "$\\Delta<0$",
-      "$\\Delta>0$ (două zerouri)"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-s1.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-007",
-    "tip": "simplu",
-    "intrebare": "Ce semn are coeficientul $a$?",
-    "variante": [
-      "nu se poate ști",
-      "minus (ramuri în jos)",
-      "plus",
-      "zero"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-s2.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-008",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mare valoare a funcției?",
-    "variante": [
-      "$2$",
-      "$4$",
-      "nu există",
-      "$-2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-s2.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-009",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este $f(x)>0$?",
-    "variante": [
-      "$(-2;2)$",
-      "$(0;4)$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$",
-      "$(2;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s2.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-010",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției?",
-    "variante": [
-      "$4$",
-      "$-4$ și $4$",
-      "$0$ și $4$",
-      "$-2$ și $2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-s2.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-011",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval funcția crește?",
-    "variante": [
-      "$(-\\infty;0]$",
-      "$[-2;2]$",
-      "$(-\\infty;4]$",
-      "$[0;+\\infty)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s2.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-012",
-    "tip": "simplu",
-    "intrebare": "Câte zerouri are funcția?",
-    "variante": [
-      "niciunul",
-      "trei",
-      "unul",
-      "două"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-s3.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-013",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $\\Delta$?",
-    "variante": [
-      "$\\Delta>0$",
-      "$\\Delta=0$",
-      "nu se poate ști",
-      "$\\Delta<0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-s3.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-014",
-    "tip": "simplu",
-    "intrebare": "Este $f(x)\\geq0$ pentru orice $x$?",
-    "variante": [
-      "da",
-      "doar pentru $x<1$",
-      "doar pentru $x>1$",
-      "nu"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s3.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-015",
-    "tip": "simplu",
-    "intrebare": "Câte zerouri are funcția?",
-    "variante": [
-      "niciunul",
-      "trei",
-      "unul",
-      "două"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s4.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-016",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $\\Delta$?",
-    "variante": [
-      "$\\Delta<0$",
-      "nu se poate ști",
-      "$\\Delta=0$",
-      "$\\Delta>0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-s4.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-017",
-    "tip": "simplu",
-    "intrebare": "Este $f(x)>0$ pentru orice $x$?",
-    "variante": [
-      "doar pentru $x>0$",
-      "nu",
-      "da",
-      "doar pentru $x<0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-s4.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-018",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval funcția crește?",
-    "variante": [
-      "$(-\\infty;4]$",
-      "$(-\\infty;1]$",
-      "$[-1;3]$",
-      "$[1;+\\infty)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-s5.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-019",
-    "tip": "simplu",
-    "intrebare": "Care este valoarea maximă a funcției?",
-    "variante": [
-      "$3$",
-      "$1$",
-      "$-1$",
-      "$4$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-s5.svg"
-  },
-  {
-    "id": "studiul-functiei-de-gradul-2-020",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției?",
-    "variante": [
-      "$1$ și $4$",
-      "$0$ și $3$",
-      "$1$ și $-3$",
-      "$-1$ și $3$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-s5.svg"
-  }
+ {
+  "id": "studiul-functiei-de-gradul-2-001",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției (unde taie axa $Ox$)?",
+  "variante": [
+   "$1$ și $3$",
+   "$0$ și $3$",
+   "$-1$ și $-3$",
+   "$2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care parabola taie axa $Ox$: $x=1$ și $x=3$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-002",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei?",
+  "variante": [
+   "$(2;-1)$",
+   "$(-1;2)$",
+   "$(1;-2)$",
+   "$(2;1)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Vârful e punctul cel mai de jos al parabolei. Citit pe grafic, este $(2;-1)$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-003",
+  "tip": "simplu",
+  "intrebare": "Care este axa de simetrie?",
+  "variante": [
+   "dreapta $x=2$",
+   "dreapta $x=-1$",
+   "axa $Oy$",
+   "dreapta $x=3$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Axa de simetrie este dreapta verticală care trece prin vârf, adică $x=2$ (abscisa vârfului)."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-004",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este $f(x)<0$?",
+  "variante": [
+   "$(1;3)$",
+   "$(-1;2)$",
+   "$(2;+\\infty)$",
+   "$(-\\infty;1)\\cup(3;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Parabola are ramurile în sus, deci e sub axa $Ox$ între zerouri. Rezultă $f(x)<0$ pe $(1;3)$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-005",
+  "tip": "simplu",
+  "intrebare": "În ce punct taie graficul axa $Oy$?",
+  "variante": [
+   "$(0;3)$",
+   "$(0;1)$",
+   "$(0;-1)$",
+   "$(3;0)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Axa $Oy$ se taie la $x=0$. Din grafic punctul este $(0;3)$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-006",
+  "tip": "simplu",
+  "intrebare": "Ce semn are discriminantul $\\Delta$?",
+  "variante": [
+   "nu se poate ști",
+   "$\\Delta=0$",
+   "$\\Delta<0$",
+   "$\\Delta>0$ (două zerouri)"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-s1.svg",
+  "explicatie": "Parabola taie axa $Ox$ în două puncte, deci ecuația $f(x)=0$ are două soluții reale distincte: $\\Delta>0$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-007",
+  "tip": "simplu",
+  "intrebare": "Ce semn are coeficientul $a$?",
+  "variante": [
+   "nu se poate ști",
+   "minus (ramuri în jos)",
+   "plus",
+   "zero"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-s2.svg",
+  "explicatie": "Ramurile merg în jos, deci coeficientul $a$ este negativ."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-008",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mare valoare a funcției?",
+  "variante": [
+   "$2$",
+   "$4$",
+   "nu există",
+   "$-2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-s2.svg",
+  "explicatie": "Parabola e în jos, deci valoarea maximă este ordonata vârfului. Din grafic este $4$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-009",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este $f(x)>0$?",
+  "variante": [
+   "$(-2;2)$",
+   "$(0;4)$",
+   "$(-\\infty;-2)\\cup(2;+\\infty)$",
+   "$(2;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s2.svg",
+  "explicatie": "Parabola e în jos și taie $Ox$ în $-2$ și $2$. Ea e deasupra axei între zerouri: $f(x)>0$ pe $(-2;2)$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-010",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției?",
+  "variante": [
+   "$4$",
+   "$-4$ și $4$",
+   "$0$ și $4$",
+   "$-2$ și $2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-s2.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care parabola taie axa $Ox$: $-2$ și $2$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-011",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval funcția crește?",
+  "variante": [
+   "$(-\\infty;0]$",
+   "$[-2;2]$",
+   "$(-\\infty;4]$",
+   "$[0;+\\infty)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s2.svg",
+  "explicatie": "Parabola e în jos, deci crește până la vârf, adică în stânga lui. Vârful are abscisa $0$: $(-\\infty;0]$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-012",
+  "tip": "simplu",
+  "intrebare": "Câte zerouri are funcția?",
+  "variante": [
+   "niciunul",
+   "trei",
+   "unul",
+   "două"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-s3.svg",
+  "explicatie": "Parabola atinge axa $Ox$ într-un singur punct (vârful), deci funcția are un singur zero."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-013",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $\\Delta$?",
+  "variante": [
+   "$\\Delta>0$",
+   "$\\Delta=0$",
+   "nu se poate ști",
+   "$\\Delta<0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-s3.svg",
+  "explicatie": "Parabola atinge axa $Ox$ doar cu vârful, deci ecuația are o soluție dublă: $\\Delta=0$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-014",
+  "tip": "simplu",
+  "intrebare": "Este $f(x)\\geq0$ pentru orice $x$?",
+  "variante": [
+   "da",
+   "doar pentru $x<1$",
+   "doar pentru $x>1$",
+   "nu"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s3.svg",
+  "explicatie": "Ramurile sunt în sus și vârful e pe axa $Ox$. Graficul nu coboară sub axă, deci $f(x)\\ge0$ pentru orice $x$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-015",
+  "tip": "simplu",
+  "intrebare": "Câte zerouri are funcția?",
+  "variante": [
+   "niciunul",
+   "trei",
+   "unul",
+   "două"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s4.svg",
+  "explicatie": "Parabola nu atinge și nu taie axa $Ox$, deci $f(x)=0$ nu are soluții reale. Funcția nu are zerouri."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-016",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $\\Delta$?",
+  "variante": [
+   "$\\Delta<0$",
+   "nu se poate ști",
+   "$\\Delta=0$",
+   "$\\Delta>0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-s4.svg",
+  "explicatie": "Fără zerouri reale, ecuația $f(x)=0$ nu are soluții reale, deci $\\Delta<0$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-017",
+  "tip": "simplu",
+  "intrebare": "Este $f(x)>0$ pentru orice $x$?",
+  "variante": [
+   "doar pentru $x>0$",
+   "nu",
+   "da",
+   "doar pentru $x<0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-s4.svg",
+  "explicatie": "Ramurile sunt în sus și parabola nu atinge axa $Ox$, deci graficul e tot deasupra ei: $f(x)>0$ pentru orice $x$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-018",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval funcția crește?",
+  "variante": [
+   "$(-\\infty;4]$",
+   "$(-\\infty;1]$",
+   "$[-1;3]$",
+   "$[1;+\\infty)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-s5.svg",
+  "explicatie": "Parabola e în jos, deci crește până la vârf. Vârful are abscisa $1$, deci funcția crește pe $(-\\infty;1]$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-019",
+  "tip": "simplu",
+  "intrebare": "Care este valoarea maximă a funcției?",
+  "variante": [
+   "$3$",
+   "$1$",
+   "$-1$",
+   "$4$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-s5.svg",
+  "explicatie": "Parabola e în jos, deci valoarea maximă este ordonata vârfului. Din grafic ea este $4$."
+ },
+ {
+  "id": "studiul-functiei-de-gradul-2-020",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției?",
+  "variante": [
+   "$1$ și $4$",
+   "$0$ și $3$",
+   "$1$ și $-3$",
+   "$-1$ și $3$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-s5.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care parabola taie axa $Ox$: $-1$ și $3$."
+ }
 ]

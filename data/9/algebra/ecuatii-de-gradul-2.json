@@ -1,243 +1,262 @@
 [
-  {
-    "id": "ecuatii-de-gradul-2-001",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=x^2-5x+6$. Care sunt soluțiile ecuației $x^2-5x+6=0$?",
-    "variante": [
-      "$x=-2$ și $x=-3$",
-      "$x=0$ și $x=5$",
-      "$x=1$ și $x=6$",
-      "$x=2$ și $x=3$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-e1.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-002",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $\\Delta$ pentru această ecuație?",
-    "variante": [
-      "nu se poate ști",
-      "$\\Delta<0$",
-      "$\\Delta=0$",
-      "$\\Delta>0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-e1.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-003",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=x^2-4$. Care sunt soluțiile ecuației $x^2-4=0$?",
-    "variante": [
-      "$x=4$",
-      "$x=-4$ și $x=4$",
-      "$x=-2$ și $x=2$",
-      "$x=2$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-e2.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-004",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=x^2-2x+1$. Care este soluția ecuației $x^2-2x+1=0$?",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=1$ și $x=-1$",
-      "$x=-1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-e3.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-005",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $\\Delta$ pentru această ecuație?",
-    "variante": [
-      "nu se poate ști",
-      "$\\Delta<0$",
-      "$\\Delta=0$",
-      "$\\Delta>0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-e3.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-006",
-    "tip": "simplu",
-    "intrebare": "Câte soluții reale are ecuația $x^2+1=0$ (citește graficul)?",
-    "variante": [
-      "niciuna",
-      "una",
-      "trei",
-      "două"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-e4.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-007",
-    "tip": "simplu",
-    "intrebare": "Ce semn are $\\Delta$ pentru $x^2+1=0$?",
-    "variante": [
-      "$\\Delta<0$",
-      "$\\Delta=0$",
-      "$\\Delta>0$",
-      "nu se poate ști"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-e4.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-008",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=x^2-4x$. Care sunt soluțiile ecuației $x^2-4x=0$?",
-    "variante": [
-      "$x=-2$ și $x=2$",
-      "$x=-4$ și $x=0$",
-      "$x=0$ și $x=4$",
-      "$x=4$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-e5.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-009",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=-x^2+x+2$. Care sunt soluțiile ecuației $f(x)=0$?",
-    "variante": [
-      "$x=0$ și $x=2$",
-      "$x=2$",
-      "$x=1$ și $x=-2$",
-      "$x=-1$ și $x=2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-e6.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-010",
-    "tip": "simplu",
-    "intrebare": "Citește graficul lui $f(x)=2x^2-8$. Care sunt soluțiile ecuației $2x^2-8=0$?",
-    "variante": [
-      "$x=-4$ și $x=4$",
-      "$x=2$",
-      "$x=-2$ și $x=2$",
-      "$x=0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-e7.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-011",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=x^2$ și dreapta $y=4$ (roșie). Rezolvă $x^2=4$.",
-    "variante": [
-      "$x=-2$ sau $x=2$",
-      "doar $x=2$",
-      "$x=-4$ sau $x=4$",
-      "$x=4$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-e8.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-012",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=x^2$ și dreapta $y=9$ (roșie). Rezolvă $x^2=9$.",
-    "variante": [
-      "$x=-9$ sau $x=9$",
-      "doar $x=3$",
-      "$x=9$",
-      "$x=-3$ sau $x=3$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-e9.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-013",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $y=x^2$ și dreapta $y=-1$ (roșie). Câte soluții are $x^2=-1$?",
-    "variante": [
-      "una",
-      "trei",
-      "niciuna",
-      "două"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-e10.svg"
-  },
-  {
-    "id": "ecuatii-de-gradul-2-014",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $x(x-3)=0$.",
-    "variante": [
-      "doar $x=3$",
-      "doar $x=0$",
-      "$x=0$ și $x=3$",
-      "$x=0$ și $x=-3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-de-gradul-2-015",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $(x-1)(x+2)=0$.",
-    "variante": [
-      "$x=-1$ și $x=2$",
-      "$x=1$ și $x=-2$",
-      "$x=-1$ și $x=-2$",
-      "$x=1$ și $x=2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-de-gradul-2-016",
-    "tip": "simplu",
-    "intrebare": "Rezolvă: $x^2=25$.",
-    "variante": [
-      "$x=\\pm12{,}5$",
-      "$x=5$",
-      "$x=\\pm\\sqrt5$",
-      "$x=\\pm5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-de-gradul-2-017",
-    "tip": "simplu",
-    "intrebare": "Dacă $\\Delta>0$, ecuația de gradul $2$ are:",
-    "variante": [
-      "două soluții reale diferite",
-      "nicio soluție reală",
-      "o soluție",
-      "trei soluții"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-de-gradul-2-018",
-    "tip": "simplu",
-    "intrebare": "Dacă $\\Delta=0$, ecuația de gradul $2$ are:",
-    "variante": [
-      "două soluții diferite",
-      "nicio soluție reală",
-      "o soluție (dublă)",
-      "trei soluții"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-de-gradul-2-019",
-    "tip": "simplu",
-    "intrebare": "Dacă $\\Delta<0$, ecuația de gradul $2$ are:",
-    "variante": [
-      "nicio soluție reală",
-      "trei soluții",
-      "două soluții diferite",
-      "o soluție"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "ecuatii-de-gradul-2-001",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=x^2-5x+6$. Care sunt soluțiile ecuației $x^2-5x+6=0$?",
+  "variante": [
+   "$x=-2$ și $x=-3$",
+   "$x=0$ și $x=5$",
+   "$x=1$ și $x=6$",
+   "$x=2$ și $x=3$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-e1.svg",
+  "explicatie": "Soluțiile sunt abscisele punctelor în care parabola taie axa $Ox$: $x=2$ și $x=3$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-002",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $\\Delta$ pentru această ecuație?",
+  "variante": [
+   "nu se poate ști",
+   "$\\Delta<0$",
+   "$\\Delta=0$",
+   "$\\Delta>0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-e1.svg",
+  "explicatie": "Parabola taie axa $Ox$ în două puncte, deci ecuația are două soluții reale diferite, adică $\\Delta>0$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-003",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=x^2-4$. Care sunt soluțiile ecuației $x^2-4=0$?",
+  "variante": [
+   "$x=4$",
+   "$x=-4$ și $x=4$",
+   "$x=-2$ și $x=2$",
+   "$x=2$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-e2.svg",
+  "explicatie": "Parabola taie axa $Ox$ în $x=-2$ și $x=2$, iar $x^2-4=0$ dă $x^2=4$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-004",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=x^2-2x+1$. Care este soluția ecuației $x^2-2x+1=0$?",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=1$ și $x=-1$",
+   "$x=-1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-e3.svg",
+  "explicatie": "Parabola atinge axa $Ox$ într-un singur punct, în $x=1$ (vârful), deci soluția este $x=1$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-005",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $\\Delta$ pentru această ecuație?",
+  "variante": [
+   "nu se poate ști",
+   "$\\Delta<0$",
+   "$\\Delta=0$",
+   "$\\Delta>0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-e3.svg",
+  "explicatie": "Parabola atinge axa $Ox$ într-un singur punct (vârful), deci soluția este dublă și $\\Delta=0$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-006",
+  "tip": "simplu",
+  "intrebare": "Câte soluții reale are ecuația $x^2+1=0$ (citește graficul)?",
+  "variante": [
+   "niciuna",
+   "una",
+   "trei",
+   "două"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-e4.svg",
+  "explicatie": "Parabola este toată deasupra axei $Ox$, deci nu o intersectează și nu există soluții reale."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-007",
+  "tip": "simplu",
+  "intrebare": "Ce semn are $\\Delta$ pentru $x^2+1=0$?",
+  "variante": [
+   "$\\Delta<0$",
+   "$\\Delta=0$",
+   "$\\Delta>0$",
+   "nu se poate ști"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-e4.svg",
+  "explicatie": "Parabola nu taie axa $Ox$, deci ecuația nu are soluții reale, adică $\\Delta<0$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-008",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=x^2-4x$. Care sunt soluțiile ecuației $x^2-4x=0$?",
+  "variante": [
+   "$x=-2$ și $x=2$",
+   "$x=-4$ și $x=0$",
+   "$x=0$ și $x=4$",
+   "$x=4$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-e5.svg",
+  "explicatie": "Parabola taie axa $Ox$ în $x=0$ și $x=4$; algebric, $x(x-4)=0$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-009",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=-x^2+x+2$. Care sunt soluțiile ecuației $f(x)=0$?",
+  "variante": [
+   "$x=0$ și $x=2$",
+   "$x=2$",
+   "$x=1$ și $x=-2$",
+   "$x=-1$ și $x=2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-e6.svg",
+  "explicatie": "Parabola deschisă în jos taie axa $Ox$ în $x=-1$ și $x=2$; algebric, $-x^2+x+2=0$ are aceste rădăcini."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-010",
+  "tip": "simplu",
+  "intrebare": "Citește graficul lui $f(x)=2x^2-8$. Care sunt soluțiile ecuației $2x^2-8=0$?",
+  "variante": [
+   "$x=-4$ și $x=4$",
+   "$x=2$",
+   "$x=-2$ și $x=2$",
+   "$x=0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-e7.svg",
+  "explicatie": "Parabola taie axa $Ox$ în $x=-2$ și $x=2$; algebric, $2x^2=8$ dă $x^2=4$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-011",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=x^2$ și dreapta $y=4$ (roșie). Rezolvă $x^2=4$.",
+  "variante": [
+   "$x=-2$ sau $x=2$",
+   "doar $x=2$",
+   "$x=-4$ sau $x=4$",
+   "$x=4$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-e8.svg",
+  "explicatie": "Soluțiile sunt abscisele punctelor unde parabola întâlnește dreapta $y=4$: $x=-2$ și $x=2$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-012",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=x^2$ și dreapta $y=9$ (roșie). Rezolvă $x^2=9$.",
+  "variante": [
+   "$x=-9$ sau $x=9$",
+   "doar $x=3$",
+   "$x=9$",
+   "$x=-3$ sau $x=3$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-e9.svg",
+  "explicatie": "Parabola întâlnește dreapta $y=9$ în două puncte, de abscise $x=-3$ și $x=3$, pentru că $3^2=9$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-013",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $y=x^2$ și dreapta $y=-1$ (roșie). Câte soluții are $x^2=-1$?",
+  "variante": [
+   "una",
+   "trei",
+   "niciuna",
+   "două"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-e10.svg",
+  "explicatie": "Dreapta $y=-1$ este sub parabolă, care nu coboară sub $0$, deci nu există puncte comune și nu avem soluții."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-014",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $x(x-3)=0$.",
+  "variante": [
+   "doar $x=3$",
+   "doar $x=0$",
+   "$x=0$ și $x=3$",
+   "$x=0$ și $x=-3$"
+  ],
+  "corect": 2,
+  "explicatie": "Un produs este $0$ când un factor este $0$: $x=0$ sau $x-3=0$, adică $x=3$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-015",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $(x-1)(x+2)=0$.",
+  "variante": [
+   "$x=-1$ și $x=2$",
+   "$x=1$ și $x=-2$",
+   "$x=-1$ și $x=-2$",
+   "$x=1$ și $x=2$"
+  ],
+  "corect": 1,
+  "explicatie": "Fiecare factor se egalează cu $0$: $x-1=0$ dă $x=1$, iar $x+2=0$ dă $x=-2$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-016",
+  "tip": "simplu",
+  "intrebare": "Rezolvă: $x^2=25$.",
+  "variante": [
+   "$x=\\pm12{,}5$",
+   "$x=5$",
+   "$x=\\pm\\sqrt5$",
+   "$x=\\pm5$"
+  ],
+  "corect": 3,
+  "explicatie": "Radical din $25$ este $5$, iar ecuația are două soluții opuse: $x=5$ și $x=-5$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-017",
+  "tip": "simplu",
+  "intrebare": "Dacă $\\Delta>0$, ecuația de gradul $2$ are:",
+  "variante": [
+   "două soluții reale diferite",
+   "nicio soluție reală",
+   "o soluție",
+   "trei soluții"
+  ],
+  "corect": 0,
+  "explicatie": "Când $\\Delta>0$, $\\sqrt{\\Delta}$ este un număr real nenul, deci formula dă două valori diferite pentru $x$."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-018",
+  "tip": "simplu",
+  "intrebare": "Dacă $\\Delta=0$, ecuația de gradul $2$ are:",
+  "variante": [
+   "două soluții diferite",
+   "nicio soluție reală",
+   "o soluție (dublă)",
+   "trei soluții"
+  ],
+  "corect": 2,
+  "explicatie": "Când $\\Delta=0$, formula dă $x=\\frac{-b}{2a}$, o singură valoare (soluție dublă)."
+ },
+ {
+  "id": "ecuatii-de-gradul-2-019",
+  "tip": "simplu",
+  "intrebare": "Dacă $\\Delta<0$, ecuația de gradul $2$ are:",
+  "variante": [
+   "nicio soluție reală",
+   "trei soluții",
+   "două soluții diferite",
+   "o soluție"
+  ],
+  "corect": 0,
+  "explicatie": "Când $\\Delta<0$, nu putem extrage radical real din $\\Delta$, deci nu există soluții reale."
+ }
 ]

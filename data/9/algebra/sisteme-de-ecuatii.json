@@ -1,206 +1,222 @@
 [
-  {
-    "id": "sisteme-de-ecuatii-001",
-    "tip": "simplu",
-    "intrebare": "Graficele celor două ecuații se intersectează într-un punct. Care este soluția sistemului?",
-    "variante": [
-      "$(1;2)$",
-      "$(2;2)$",
-      "$(3;2)$",
-      "$(2;3)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-sy1.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $x$ în soluția sistemului?",
-    "variante": [
-      "$1$",
-      "$5$",
-      "$2$",
-      "$3$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-sy1.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-003",
-    "tip": "simplu",
-    "intrebare": "Care este soluția sistemului (punctul de intersecție)?",
-    "variante": [
-      "$(0;1)$",
-      "$(2;1)$",
-      "$(1;2)$",
-      "$(1;1)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-sy2.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-004",
-    "tip": "simplu",
-    "intrebare": "Care este soluția sistemului?",
-    "variante": [
-      "$(1;3)$",
-      "$(4;0)$",
-      "$(2;2)$",
-      "$(0;4)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-sy3.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-005",
-    "tip": "simplu",
-    "intrebare": "Care este soluția sistemului?",
-    "variante": [
-      "$(1;2)$",
-      "$(3;2)$",
-      "$(2;1)$",
-      "$(2;2)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-sy4.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $y$ în soluția sistemului?",
-    "variante": [
-      "$-1$",
-      "$3$",
-      "$2$",
-      "$1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-sy4.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-007",
-    "tip": "simplu",
-    "intrebare": "Care este soluția sistemului?",
-    "variante": [
-      "$(0;3)$",
-      "$(1;1)$",
-      "$(3;1)$",
-      "$(1;3)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-sy5.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-008",
-    "tip": "simplu",
-    "intrebare": "Care este soluția sistemului?",
-    "variante": [
-      "$(2;3)$",
-      "$(2;2)$",
-      "$(3;2)$",
-      "$(3;3)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-sy6.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-009",
-    "tip": "simplu",
-    "intrebare": "Dreptele din grafic sunt paralele. Câte soluții are sistemul?",
-    "variante": [
-      "infinit de multe soluții",
-      "o soluție",
-      "nicio soluție",
-      "două soluții"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-sy7.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-010",
-    "tip": "simplu",
-    "intrebare": "Ce putem spune despre dreptele din grafic?",
-    "variante": [
-      "sunt paralele și nu se întâlnesc",
-      "coincid",
-      "sunt perpendiculare",
-      "se intersectează într-un punct"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-sy7.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-011",
-    "tip": "simplu",
-    "intrebare": "Cele două drepte coincid. Câte soluții are sistemul?",
-    "variante": [
-      "două",
-      "nicio soluție",
-      "una",
-      "infinit de multe"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-sy8.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-012",
-    "tip": "simplu",
-    "intrebare": "Ce putem spune despre ecuațiile sistemului?",
-    "variante": [
-      "sunt perpendiculare",
-      "se întâlnesc într-un singur punct",
-      "sunt drepte paralele diferite",
-      "sunt aceeași dreaptă"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-sy8.svg"
-  },
-  {
-    "id": "sisteme-de-ecuatii-013",
-    "tip": "simplu",
-    "intrebare": "Ce reprezintă soluția unui sistem pe grafic?",
-    "variante": [
-      "punctul de intersecție al dreptelor",
-      "panta unei drepte",
-      "zeroul unei funcții",
-      "vârful unei parabole"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "sisteme-de-ecuatii-014",
-    "tip": "simplu",
-    "intrebare": "Care pereche verifică $x+y=4$ și $x-y=2$?",
-    "variante": [
-      "$(2;2)$",
-      "$(1;3)$",
-      "$(3;1)$",
-      "$(4;0)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "sisteme-de-ecuatii-015",
-    "tip": "simplu",
-    "intrebare": "Care pereche verifică $x+y=5$ și $x-y=1$?",
-    "variante": [
-      "$(2;3)$",
-      "$(3;2)$",
-      "$(5;0)$",
-      "$(4;1)$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "sisteme-de-ecuatii-016",
-    "tip": "simplu",
-    "intrebare": "Ce facem la metoda adunării?",
-    "variante": [
-      "le împărțim",
-      "le înmulțim între ele",
-      "le derivăm",
-      "adunăm ecuațiile ca să dispară o necunoscută"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "sisteme-de-ecuatii-001",
+  "tip": "simplu",
+  "intrebare": "Graficele celor două ecuații se intersectează într-un punct. Care este soluția sistemului?",
+  "variante": [
+   "$(1;2)$",
+   "$(2;2)$",
+   "$(3;2)$",
+   "$(2;3)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-sy1.svg",
+  "explicatie": "Soluția sistemului este punctul în care se taie cele două drepte; citim coordonatele lui: $x=2$, $y=3$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $x$ în soluția sistemului?",
+  "variante": [
+   "$1$",
+   "$5$",
+   "$2$",
+   "$3$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-sy1.svg",
+  "explicatie": "Soluția este punctul de intersecție; $x$ este abscisa lui, adică valoarea de pe axa $Ox$: $2$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-003",
+  "tip": "simplu",
+  "intrebare": "Care este soluția sistemului (punctul de intersecție)?",
+  "variante": [
+   "$(0;1)$",
+   "$(2;1)$",
+   "$(1;2)$",
+   "$(1;1)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-sy2.svg",
+  "explicatie": "Citim coordonatele punctului în care se intersectează dreptele: $x=1$ și $y=1$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-004",
+  "tip": "simplu",
+  "intrebare": "Care este soluția sistemului?",
+  "variante": [
+   "$(1;3)$",
+   "$(4;0)$",
+   "$(2;2)$",
+   "$(0;4)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-sy3.svg",
+  "explicatie": "Soluția este punctul comun al celor două drepte, aflat la $x=2$ și $y=2$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-005",
+  "tip": "simplu",
+  "intrebare": "Care este soluția sistemului?",
+  "variante": [
+   "$(1;2)$",
+   "$(3;2)$",
+   "$(2;1)$",
+   "$(2;2)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-sy4.svg",
+  "explicatie": "Punctul în care se taie dreptele are abscisa $2$ și ordonata $1$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $y$ în soluția sistemului?",
+  "variante": [
+   "$-1$",
+   "$3$",
+   "$2$",
+   "$1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-sy4.svg",
+  "explicatie": "$y$ este ordonata punctului de intersecție, adică valoarea de pe axa $Oy$: $1$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-007",
+  "tip": "simplu",
+  "intrebare": "Care este soluția sistemului?",
+  "variante": [
+   "$(0;3)$",
+   "$(1;1)$",
+   "$(3;1)$",
+   "$(1;3)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-sy5.svg",
+  "explicatie": "Punctul de intersecție al dreptelor are coordonatele $x=1$ și $y=1$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-008",
+  "tip": "simplu",
+  "intrebare": "Care este soluția sistemului?",
+  "variante": [
+   "$(2;3)$",
+   "$(2;2)$",
+   "$(3;2)$",
+   "$(3;3)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-sy6.svg",
+  "explicatie": "Dreptele se taie în punctul cu abscisa $2$ și ordonata $3$."
+ },
+ {
+  "id": "sisteme-de-ecuatii-009",
+  "tip": "simplu",
+  "intrebare": "Dreptele din grafic sunt paralele. Câte soluții are sistemul?",
+  "variante": [
+   "infinit de multe soluții",
+   "o soluție",
+   "nicio soluție",
+   "două soluții"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-sy7.svg",
+  "explicatie": "Dreptele paralele nu au niciun punct comun, deci sistemul nu are soluții."
+ },
+ {
+  "id": "sisteme-de-ecuatii-010",
+  "tip": "simplu",
+  "intrebare": "Ce putem spune despre dreptele din grafic?",
+  "variante": [
+   "sunt paralele și nu se întâlnesc",
+   "coincid",
+   "sunt perpendiculare",
+   "se intersectează într-un punct"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-sy7.svg",
+  "explicatie": "Dreptele au aceeași înclinare și nu se taie, deci sunt paralele."
+ },
+ {
+  "id": "sisteme-de-ecuatii-011",
+  "tip": "simplu",
+  "intrebare": "Cele două drepte coincid. Câte soluții are sistemul?",
+  "variante": [
+   "două",
+   "nicio soluție",
+   "una",
+   "infinit de multe"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-sy8.svg",
+  "explicatie": "Dreptele coincid, deci orice punct al dreptei este soluție: infinit de multe soluții."
+ },
+ {
+  "id": "sisteme-de-ecuatii-012",
+  "tip": "simplu",
+  "intrebare": "Ce putem spune despre ecuațiile sistemului?",
+  "variante": [
+   "sunt perpendiculare",
+   "se întâlnesc într-un singur punct",
+   "sunt drepte paralele diferite",
+   "sunt aceeași dreaptă"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-sy8.svg",
+  "explicatie": "Ecuațiile se reprezintă prin aceeași dreaptă, deci au aceleași soluții."
+ },
+ {
+  "id": "sisteme-de-ecuatii-013",
+  "tip": "simplu",
+  "intrebare": "Ce reprezintă soluția unui sistem pe grafic?",
+  "variante": [
+   "punctul de intersecție al dreptelor",
+   "panta unei drepte",
+   "zeroul unei funcții",
+   "vârful unei parabole"
+  ],
+  "corect": 0,
+  "explicatie": "Un punct al intersecției verifică ambele ecuații, deci soluția sistemului este punctul în care se taie dreptele."
+ },
+ {
+  "id": "sisteme-de-ecuatii-014",
+  "tip": "simplu",
+  "intrebare": "Care pereche verifică $x+y=4$ și $x-y=2$?",
+  "variante": [
+   "$(2;2)$",
+   "$(1;3)$",
+   "$(3;1)$",
+   "$(4;0)$"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $(3;1)$: $3+1=4$ și $3-1=2$, deci ambele ecuații se verifică."
+ },
+ {
+  "id": "sisteme-de-ecuatii-015",
+  "tip": "simplu",
+  "intrebare": "Care pereche verifică $x+y=5$ și $x-y=1$?",
+  "variante": [
+   "$(2;3)$",
+   "$(3;2)$",
+   "$(5;0)$",
+   "$(4;1)$"
+  ],
+  "corect": 1,
+  "explicatie": "Pentru $(3;2)$: $3+2=5$ și $3-2=1$, deci ambele ecuații se verifică."
+ },
+ {
+  "id": "sisteme-de-ecuatii-016",
+  "tip": "simplu",
+  "intrebare": "Ce facem la metoda adunării?",
+  "variante": [
+   "le împărțim",
+   "le înmulțim între ele",
+   "le derivăm",
+   "adunăm ecuațiile ca să dispară o necunoscută"
+  ],
+  "corect": 3,
+  "explicatie": "La metoda adunării adunăm ecuațiile membru cu membru ca o necunoscută să dispară."
+ }
 ]

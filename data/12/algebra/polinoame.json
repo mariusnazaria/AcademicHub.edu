@@ -1,194 +1,210 @@
 [
-  {
-    "id": "polinoame-001",
-    "tip": "simplu",
-    "intrebare": "Care este restul împărțirii lui $P(x)$ la $x-a$?",
-    "variante": [
-      "$P(-a)$",
-      "$P(a)$",
-      "$P(0)$",
-      "$a$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-002",
-    "tip": "simplu",
-    "intrebare": "Polinomul $P$ se divide cu $x-a$ dacă:",
-    "variante": [
-      "$P(a)=0$",
-      "$P(a)=a$",
-      "$P(a)=1$",
-      "$P(0)=a$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-003",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $x^2+x+1$ la $x-1$?",
-    "variante": [
-      "$2$",
-      "$3$",
-      "$1$",
-      "$0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-004",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $x^3-8$ la $x-2$?",
-    "variante": [
-      "$8$",
-      "$0$",
-      "$2$",
-      "$-8$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-005",
-    "tip": "simplu",
-    "intrebare": "Care sunt rădăcinile lui $(x-1)(x+2)(x-3)$?",
-    "variante": [
-      "$-1$, $-2$, $-3$",
-      "$-1$, $2$, $-3$",
-      "$1$, $-2$, $3$",
-      "$1$, $2$, $3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "polinoame-006",
-    "tip": "simplu",
-    "intrebare": "Care sunt rădăcinile lui $x^3-x$?",
-    "variante": [
-      "$0$, $1$, $-1$",
-      "$0$, $1$",
-      "$0$, $-1$",
-      "$1$, $-1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-007",
-    "tip": "simplu",
-    "intrebare": "Pentru $x^2-5x+6$, cât este $x_1+x_2$?",
-    "variante": [
-      "$1$",
-      "$5$",
-      "$6$",
-      "$-5$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-008",
-    "tip": "simplu",
-    "intrebare": "Pentru $x^2-5x+6$, cât este $x_1\\cdot x_2$?",
-    "variante": [
-      "$-6$",
-      "$-5$",
-      "$5$",
-      "$6$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "polinoame-009",
-    "tip": "simplu",
-    "intrebare": "Pentru $x^3-6x^2+11x-6$, cât este suma rădăcinilor?",
-    "variante": [
-      "$-6$",
-      "$6$",
-      "$11$",
-      "$-11$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-010",
-    "tip": "simplu",
-    "intrebare": "Pentru $x^3+ax^2+bx+c$, suma rădăcinilor este:",
-    "variante": [
-      "$-c$",
-      "$-a$",
-      "$b$",
-      "$a$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-011",
-    "tip": "simplu",
-    "intrebare": "Pentru $x^3+ax^2+bx+c$, produsul rădăcinilor este:",
-    "variante": [
-      "$-c$",
-      "$-a$",
-      "$b$",
-      "$c$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-012",
-    "tip": "simplu",
-    "intrebare": "Este $x=1$ rădăcină a lui $x^4-1$?",
-    "variante": [
-      "da, pentru că $1-1=0$",
-      "nu, pentru că $1\\neq-1$",
-      "nu, pentru că $P(1)=2$",
-      "nu se poate verifica"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-013",
-    "tip": "simplu",
-    "intrebare": "Gradul restului față de gradul împărțitorului este:",
-    "variante": [
-      "egal",
-      "mai mare",
-      "nu contează",
-      "mai mic"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "polinoame-014",
-    "tip": "simplu",
-    "intrebare": "La împărțire, ce egalitate este corectă ($D$ deîmpărțit, $I$ împărțitor, $C$ cât, $R$ rest)?",
-    "variante": [
-      "$D=I\\cdot C+R$",
-      "$D=I+C+R$",
-      "$D=I:C+R$",
-      "$D=I\\cdot C-R$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-015",
-    "tip": "simplu",
-    "intrebare": "Ce ne ajută să împărțim rapid la $x-a$?",
-    "variante": [
-      "formula lui Heron",
-      "regula lui Cramer",
-      "schema lui Horner",
-      "formula lui Euler"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "polinoame-016",
-    "tip": "simplu",
-    "intrebare": "Câte rădăcini are cel mult un polinom de gradul $3$?",
-    "variante": [
-      "$2$",
-      "$3$",
-      "$4$",
-      "$1$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "polinoame-001",
+  "tip": "simplu",
+  "intrebare": "Care este restul împărțirii lui $P(x)$ la $x-a$?",
+  "variante": [
+   "$P(-a)$",
+   "$P(a)$",
+   "$P(0)$",
+   "$a$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema restului: restul împărțirii lui $P(x)$ la $x-a$ este valoarea polinomului în $a$, adică $P(a)$."
+ },
+ {
+  "id": "polinoame-002",
+  "tip": "simplu",
+  "intrebare": "Polinomul $P$ se divide cu $x-a$ dacă:",
+  "variante": [
+   "$P(a)=0$",
+   "$P(a)=a$",
+   "$P(a)=1$",
+   "$P(0)=a$"
+  ],
+  "corect": 0,
+  "explicatie": "$P$ se divide cu $x-a$ când restul $P(a)$ este 0, adică $a$ este rădăcină."
+ },
+ {
+  "id": "polinoame-003",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $x^2+x+1$ la $x-1$?",
+  "variante": [
+   "$2$",
+   "$3$",
+   "$1$",
+   "$0$"
+  ],
+  "corect": 1,
+  "explicatie": "Restul este valoarea în $1$: $1+1+1=3$."
+ },
+ {
+  "id": "polinoame-004",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $x^3-8$ la $x-2$?",
+  "variante": [
+   "$8$",
+   "$0$",
+   "$2$",
+   "$-8$"
+  ],
+  "corect": 1,
+  "explicatie": "Restul este valoarea în $2$: $2^3-8=0$, deci $x^3-8$ se divide cu $x-2$."
+ },
+ {
+  "id": "polinoame-005",
+  "tip": "simplu",
+  "intrebare": "Care sunt rădăcinile lui $(x-1)(x+2)(x-3)$?",
+  "variante": [
+   "$-1$, $-2$, $-3$",
+   "$-1$, $2$, $-3$",
+   "$1$, $-2$, $3$",
+   "$1$, $2$, $3$"
+  ],
+  "corect": 2,
+  "explicatie": "Rădăcinile se obțin din fiecare factor egalat cu 0: $x-1=0$, $x+2=0$, $x-3=0$, deci $1$, $-2$, $3$."
+ },
+ {
+  "id": "polinoame-006",
+  "tip": "simplu",
+  "intrebare": "Care sunt rădăcinile lui $x^3-x$?",
+  "variante": [
+   "$0$, $1$, $-1$",
+   "$0$, $1$",
+   "$0$, $-1$",
+   "$1$, $-1$"
+  ],
+  "corect": 0,
+  "explicatie": "Descompunem: $x^3-x=x(x-1)(x+1)$, deci rădăcinile sunt $0$, $1$ și $-1$."
+ },
+ {
+  "id": "polinoame-007",
+  "tip": "simplu",
+  "intrebare": "Pentru $x^2-5x+6$, cât este $x_1+x_2$?",
+  "variante": [
+   "$1$",
+   "$5$",
+   "$6$",
+   "$-5$"
+  ],
+  "corect": 1,
+  "explicatie": "Relațiile lui Viète: $x_1+x_2=-\\frac ba=-\\frac{-5}{1}=5$."
+ },
+ {
+  "id": "polinoame-008",
+  "tip": "simplu",
+  "intrebare": "Pentru $x^2-5x+6$, cât este $x_1\\cdot x_2$?",
+  "variante": [
+   "$-6$",
+   "$-5$",
+   "$5$",
+   "$6$"
+  ],
+  "corect": 3,
+  "explicatie": "Relațiile lui Viète: $x_1x_2=\\frac ca=6$."
+ },
+ {
+  "id": "polinoame-009",
+  "tip": "simplu",
+  "intrebare": "Pentru $x^3-6x^2+11x-6$, cât este suma rădăcinilor?",
+  "variante": [
+   "$-6$",
+   "$6$",
+   "$11$",
+   "$-11$"
+  ],
+  "corect": 1,
+  "explicatie": "Viète la gradul 3: suma rădăcinilor este $-\\frac{a_2}{a_3}=-\\frac{-6}{1}=6$."
+ },
+ {
+  "id": "polinoame-010",
+  "tip": "simplu",
+  "intrebare": "Pentru $x^3+ax^2+bx+c$, suma rădăcinilor este:",
+  "variante": [
+   "$-c$",
+   "$-a$",
+   "$b$",
+   "$a$"
+  ],
+  "corect": 1,
+  "explicatie": "Viète: suma rădăcinilor este minus coeficientul lui $x^2$, adică $-a$ (polinom monic)."
+ },
+ {
+  "id": "polinoame-011",
+  "tip": "simplu",
+  "intrebare": "Pentru $x^3+ax^2+bx+c$, produsul rădăcinilor este:",
+  "variante": [
+   "$-c$",
+   "$-a$",
+   "$b$",
+   "$c$"
+  ],
+  "corect": 0,
+  "explicatie": "Viète: pentru gradul 3 produsul rădăcinilor este minus termenul liber, adică $-c$."
+ },
+ {
+  "id": "polinoame-012",
+  "tip": "simplu",
+  "intrebare": "Este $x=1$ rădăcină a lui $x^4-1$?",
+  "variante": [
+   "da, pentru că $1-1=0$",
+   "nu, pentru că $1\\neq-1$",
+   "nu, pentru că $P(1)=2$",
+   "nu se poate verifica"
+  ],
+  "corect": 0,
+  "explicatie": "Calculăm $P(1)=1^4-1=0$, deci $1$ este rădăcină."
+ },
+ {
+  "id": "polinoame-013",
+  "tip": "simplu",
+  "intrebare": "Gradul restului față de gradul împărțitorului este:",
+  "variante": [
+   "egal",
+   "mai mare",
+   "nu contează",
+   "mai mic"
+  ],
+  "corect": 3,
+  "explicatie": "Restul are gradul strict mai mic decât gradul împărțitorului."
+ },
+ {
+  "id": "polinoame-014",
+  "tip": "simplu",
+  "intrebare": "La împărțire, ce egalitate este corectă ($D$ deîmpărțit, $I$ împărțitor, $C$ cât, $R$ rest)?",
+  "variante": [
+   "$D=I\\cdot C+R$",
+   "$D=I+C+R$",
+   "$D=I:C+R$",
+   "$D=I\\cdot C-R$"
+  ],
+  "corect": 0,
+  "explicatie": "Teorema împărțirii cu rest: deîmpărțit = împărțitor $\\cdot$ cât + rest."
+ },
+ {
+  "id": "polinoame-015",
+  "tip": "simplu",
+  "intrebare": "Ce ne ajută să împărțim rapid la $x-a$?",
+  "variante": [
+   "formula lui Heron",
+   "regula lui Cramer",
+   "schema lui Horner",
+   "formula lui Euler"
+  ],
+  "corect": 2,
+  "explicatie": "Schema lui Horner dă rapid câtul și restul la împărțirea cu $x-a$."
+ },
+ {
+  "id": "polinoame-016",
+  "tip": "simplu",
+  "intrebare": "Câte rădăcini are cel mult un polinom de gradul $3$?",
+  "variante": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$1$"
+  ],
+  "corect": 1,
+  "explicatie": "Un polinom de gradul $n$ are cel mult $n$ rădăcini, deci gradul 3 are cel mult 3."
+ }
 ]

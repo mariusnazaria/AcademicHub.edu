@@ -1,125 +1,135 @@
 [
-  {
-    "id": "limite-in-punct-si-lhospital-001",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=\\frac{x^2-1}{x-1}$ este dreapta $y=x+1$ cu un punct lipsă în $x=1$ (cerc gol). Cât este $\\lim_{x\\to1}f(x)$?",
-    "variante": [
-      "$0$",
-      "$2$",
-      "$1$",
-      "nu există"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lp1.svg"
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-002",
-    "tip": "simplu",
-    "intrebare": "Citind graficul lui $\\frac1x$: $\\lim_{x\\to0}\\frac1x$",
-    "variante": [
-      "$-\\infty$",
-      "nu există (limitele laterale diferă)",
-      "$+\\infty$",
-      "$0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-lp2.svg"
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-003",
-    "tip": "simplu",
-    "intrebare": "Citind graficul lui $\\frac{1}{x^2}$: $\\lim_{x\\to0}\\frac{1}{x^2}=$",
-    "variante": [
-      "nu există",
-      "$0$",
-      "$-\\infty$",
-      "$+\\infty$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-lp3.svg"
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-004",
-    "tip": "simplu",
-    "intrebare": "Forma $\\frac{0}{0}$ este:",
-    "variante": [
-      "egală cu $0$",
-      "imposibilă",
-      "egală cu $1$",
-      "nedeterminare"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-005",
-    "tip": "simplu",
-    "intrebare": "Forma $\\frac{\\infty}{\\infty}$ este:",
-    "variante": [
-      "nedeterminare",
-      "egală cu $1$",
-      "egală cu $0$",
-      "egală cu $\\infty$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-006",
-    "tip": "simplu",
-    "intrebare": "Regula lui l'Hospital se aplică la:",
-    "variante": [
-      "doar la sume",
-      "$\\frac00$ și $\\frac\\infty\\infty$",
-      "doar la $\\frac{1}{x}$",
-      "orice limită"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-007",
-    "tip": "simplu",
-    "intrebare": "Cu l'Hospital derivăm:",
-    "variante": [
-      "numărătorul și numitorul separat",
-      "doar numitorul",
-      "fracția ca întreg",
-      "doar numărătorul"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-008",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to0}\\frac{\\sin x}{x}=$",
-    "variante": [
-      "$-1$",
-      "$\\infty$",
-      "$0$",
-      "$1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-009",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to0}\\frac{e^x-1}{x}=$",
-    "variante": [
-      "$1$",
-      "$e$",
-      "$\\infty$",
-      "$0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-010",
-    "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}=$",
-    "variante": [
-      "$0$",
-      "$1$",
-      "$\\infty$",
-      "$e$"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "limite-in-punct-si-lhospital-001",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $f(x)=\\frac{x^2-1}{x-1}$ este dreapta $y=x+1$ cu un punct lipsă în $x=1$ (cerc gol). Cât este $\\lim_{x\\to1}f(x)$?",
+  "variante": [
+   "$0$",
+   "$2$",
+   "$1$",
+   "nu există"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lp1.svg",
+  "explicatie": "Pentru $x\\neq1$, $f(x)=x+1$. Când $x\\to1$, valorile se apropie de $2$, deci limita este $2$ (chiar dacă în $x=1$ funcția nu e definită)."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-002",
+  "tip": "simplu",
+  "intrebare": "Citind graficul lui $\\frac1x$: $\\lim_{x\\to0}\\frac1x$",
+  "variante": [
+   "$-\\infty$",
+   "nu există (limitele laterale diferă)",
+   "$+\\infty$",
+   "$0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-lp2.svg",
+  "explicatie": "La stânga lui $0$ graficul coboară spre $-\\infty$, la dreapta urcă spre $+\\infty$: limitele laterale diferă, deci limita nu există."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-003",
+  "tip": "simplu",
+  "intrebare": "Citind graficul lui $\\frac{1}{x^2}$: $\\lim_{x\\to0}\\frac{1}{x^2}=$",
+  "variante": [
+   "nu există",
+   "$0$",
+   "$-\\infty$",
+   "$+\\infty$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-lp3.svg",
+  "explicatie": "De ambele părți ale lui $0$ graficul urcă spre $+\\infty$ (pătratul e pozitiv), deci limita este $+\\infty$."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-004",
+  "tip": "simplu",
+  "intrebare": "Forma $\\frac{0}{0}$ este:",
+  "variante": [
+   "egală cu $0$",
+   "imposibilă",
+   "egală cu $1$",
+   "nedeterminare"
+  ],
+  "corect": 3,
+  "explicatie": "Forma $\\frac00$ este nedeterminare: poate da orice valoare, trebuie calculată prin alte metode (descompunere, L Hospital)."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-005",
+  "tip": "simplu",
+  "intrebare": "Forma $\\frac{\\infty}{\\infty}$ este:",
+  "variante": [
+   "nedeterminare",
+   "egală cu $1$",
+   "egală cu $0$",
+   "egală cu $\\infty$"
+  ],
+  "corect": 0,
+  "explicatie": "Forma $\\frac{\\infty}{\\infty}$ este nedeterminare: nu se poate spune direct valoarea, rezultatul depinde de funcții."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-006",
+  "tip": "simplu",
+  "intrebare": "Regula lui l'Hospital se aplică la:",
+  "variante": [
+   "doar la sume",
+   "$\\frac00$ și $\\frac\\infty\\infty$",
+   "doar la $\\frac{1}{x}$",
+   "orice limită"
+  ],
+  "corect": 1,
+  "explicatie": "Regula lui L Hospital se folosește doar când limita are forma nedeterminată $\\frac00$ sau $\\frac{\\infty}{\\infty}$."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-007",
+  "tip": "simplu",
+  "intrebare": "Cu l'Hospital derivăm:",
+  "variante": [
+   "numărătorul și numitorul separat",
+   "doar numitorul",
+   "fracția ca întreg",
+   "doar numărătorul"
+  ],
+  "corect": 0,
+  "explicatie": "La L Hospital derivăm separat numărătorul și numitorul (nu e derivata câtului!), apoi calculăm limita."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-008",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to0}\\frac{\\sin x}{x}=$",
+  "variante": [
+   "$-1$",
+   "$\\infty$",
+   "$0$",
+   "$1$"
+  ],
+  "corect": 3,
+  "explicatie": "Limită remarcabilă: $\\lim_{x\\to0}\\frac{\\sin x}{x}=1$ (și cu L Hospital: $\\frac{\\cos x}{1}\\to1$)."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-009",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to0}\\frac{e^x-1}{x}=$",
+  "variante": [
+   "$1$",
+   "$e$",
+   "$\\infty$",
+   "$0$"
+  ],
+  "corect": 0,
+  "explicatie": "Cu L Hospital: $\\frac00$, derivăm și obținem $\\frac{e^x}{1}\\to1$ când $x\\to0$."
+ },
+ {
+  "id": "limite-in-punct-si-lhospital-010",
+  "tip": "simplu",
+  "intrebare": "$\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}=$",
+  "variante": [
+   "$0$",
+   "$1$",
+   "$\\infty$",
+   "$e$"
+  ],
+  "corect": 1,
+  "explicatie": "Cu L Hospital: $\\frac00$, derivăm și obținem $\\frac{\\frac{1}{1+x}}{1}\\to1$ când $x\\to0$."
+ }
 ]

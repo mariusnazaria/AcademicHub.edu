@@ -1,127 +1,137 @@
 [
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-001",
-    "tip": "simplu",
-    "intrebare": "Tangenta din figură are panta $1$. În ce punct de abscisă atinge ea parabola?",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=2$",
-      "$x=-1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tp1.svg"
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-002",
-    "tip": "simplu",
-    "intrebare": "Tangenta are panta $2$. Citește din grafic abscisa punctului de tangență.",
-    "variante": [
-      "$x=0$",
-      "$x=1$",
-      "$x=4$",
-      "$x=2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tp2.svg"
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-003",
-    "tip": "simplu",
-    "intrebare": "Tangenta orizontală atinge parabola în punctul de abscisă:",
-    "variante": [
-      "$x=2$",
-      "$x=0$",
-      "$x=-1$",
-      "$x=1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-tp3.svg"
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-004",
-    "tip": "simplu",
-    "intrebare": "Tangenta orizontală $y=-2$ atinge graficul într-un punct. Care este abscisa lui?",
-    "variante": [
-      "$x=-1$",
-      "$x=-2$",
-      "$x=0$",
-      "$x=1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-tp4.svg"
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-005",
-    "tip": "simplu",
-    "intrebare": "Prin punctul $(0;-2)$ nu trece graficul. Tangenta se obține din $f^{\\prime}(a)=$ ?",
-    "variante": [
-      "$a$",
-      "$0$ mereu",
-      "panta tangentei în $a$",
-      "$f(a)$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-tp5.svg"
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-006",
-    "tip": "simplu",
-    "intrebare": "Ca să aflăm tangenta cu panta dată $m$, rezolvăm:",
-    "variante": [
-      "$a=m$",
-      "$f^{\\prime\\prime}(a)=m$",
-      "$f^{\\prime}(a)=m$",
-      "$f(a)=m$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-007",
-    "tip": "simplu",
-    "intrebare": "Ca să aflăm tangenta dintr-un punct exterior, notăm punctul de tangență cu:",
-    "variante": [
-      "$f(0)$",
-      "$a$ necunoscut",
-      "nu e nevoie",
-      "$0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-008",
-    "tip": "simplu",
-    "intrebare": "După ce aflăm $a$, ordonata punctului de tangență este:",
-    "variante": [
-      "$a$",
-      "$f^{\\prime}(a)$",
-      "$f(a)$",
-      "$0$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-009",
-    "tip": "simplu",
-    "intrebare": "Tangenta la $f(x)=x^2$ în $x=0$ este:",
-    "variante": [
-      "$y=x$",
-      "$x=0$",
-      "$y=0$",
-      "$y=1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-010",
-    "tip": "simplu",
-    "intrebare": "Tangenta la $f(x)=x^2$ în $x=1$ are panta:",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$-2$",
-      "$2$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-001",
+  "tip": "simplu",
+  "intrebare": "Tangenta din figură are panta $1$. În ce punct de abscisă atinge ea parabola?",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=2$",
+   "$x=-1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tp1.svg",
+  "explicatie": "Punctul de tangență este locul unde dreapta cu panta $1$ atinge parabola; coborând din el pe axa $Ox$ citim abscisa $x=1$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-002",
+  "tip": "simplu",
+  "intrebare": "Tangenta are panta $2$. Citește din grafic abscisa punctului de tangență.",
+  "variante": [
+   "$x=0$",
+   "$x=1$",
+   "$x=4$",
+   "$x=2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tp2.svg",
+  "explicatie": "Panta $2$ înseamnă $f^{\\prime}(a)=2$. Se citește din grafic abscisa punctului în care dreapta atinge curba."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-003",
+  "tip": "simplu",
+  "intrebare": "Tangenta orizontală atinge parabola în punctul de abscisă:",
+  "variante": [
+   "$x=2$",
+   "$x=0$",
+   "$x=-1$",
+   "$x=1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-tp3.svg",
+  "explicatie": "Tangenta orizontală are panta $0$, deci se atinge în vârful parabolei, la $x=0$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-004",
+  "tip": "simplu",
+  "intrebare": "Tangenta orizontală $y=-2$ atinge graficul într-un punct. Care este abscisa lui?",
+  "variante": [
+   "$x=-1$",
+   "$x=-2$",
+   "$x=0$",
+   "$x=1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-tp4.svg",
+  "explicatie": "Tangenta orizontală $y=-2$ atinge parabola în vârful ei, iar abscisa vârfului se citește din grafic: $x=1$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-005",
+  "tip": "simplu",
+  "intrebare": "Prin punctul $(0;-2)$ nu trece graficul. Tangenta se obține din $f^{\\prime}(a)=$ ?",
+  "variante": [
+   "$a$",
+   "$0$ mereu",
+   "panta tangentei în $a$",
+   "$f(a)$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-tp5.svg",
+  "explicatie": "Pentru o tangentă care trece printr-un punct exterior, folosim panta ei, adică derivata $f^{\\prime}(a)$ în punctul de tangență $a$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-006",
+  "tip": "simplu",
+  "intrebare": "Ca să aflăm tangenta cu panta dată $m$, rezolvăm:",
+  "variante": [
+   "$a=m$",
+   "$f^{\\prime\\prime}(a)=m$",
+   "$f^{\\prime}(a)=m$",
+   "$f(a)=m$"
+  ],
+  "corect": 2,
+  "explicatie": "Panta tangentei în $a$ este $f^{\\prime}(a)$, deci pentru panta dată $m$ rezolvăm $f^{\\prime}(a)=m$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-007",
+  "tip": "simplu",
+  "intrebare": "Ca să aflăm tangenta dintr-un punct exterior, notăm punctul de tangență cu:",
+  "variante": [
+   "$f(0)$",
+   "$a$ necunoscut",
+   "nu e nevoie",
+   "$0$"
+  ],
+  "corect": 1,
+  "explicatie": "Punctul de tangență nu se cunoaște, deci îl notăm cu $a$ (necunoscut) și îl aflăm din condiția că tangenta trece prin punctul dat."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-008",
+  "tip": "simplu",
+  "intrebare": "După ce aflăm $a$, ordonata punctului de tangență este:",
+  "variante": [
+   "$a$",
+   "$f^{\\prime}(a)$",
+   "$f(a)$",
+   "$0$"
+  ],
+  "corect": 2,
+  "explicatie": "Punctul de tangență se află pe grafic, deci ordonata lui este $f(a)$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-009",
+  "tip": "simplu",
+  "intrebare": "Tangenta la $f(x)=x^2$ în $x=0$ este:",
+  "variante": [
+   "$y=x$",
+   "$x=0$",
+   "$y=0$",
+   "$y=1$"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $f(x)=x^2$: $f(0)=0$ și $f^{\\prime}(0)=0$, deci tangenta $y-0=0\\cdot(x-0)$ este $y=0$."
+ },
+ {
+  "id": "tangenta-pe-panta-si-prin-punct-010",
+  "tip": "simplu",
+  "intrebare": "Tangenta la $f(x)=x^2$ în $x=1$ are panta:",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$-2$",
+   "$2$"
+  ],
+  "corect": 3,
+  "explicatie": "$f^{\\prime}(x)=2x$, deci panta în $x=1$ este $f^{\\prime}(1)=2$."
+ }
 ]

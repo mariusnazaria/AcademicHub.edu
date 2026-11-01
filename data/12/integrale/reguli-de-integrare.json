@@ -1,245 +1,265 @@
 [
-  {
-    "id": "reguli-de-integrare-001",
-    "tip": "simplu",
-    "intrebare": "Cum se rezolvă $\\int(f+g)\\,dx$?",
-    "variante": [
-      "$\\int f\\cdot g\\,dx$",
-      "$\\int f\\,dx-\\int g\\,dx$",
-      "$\\int f\\,dx+\\int g\\,dx$",
-      "$\\int f\\,dx\\cdot\\int g\\,dx$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-002",
-    "tip": "simplu",
-    "intrebare": "Cum se rezolvă $\\int k\\,f(x)\\,dx$ ($k$ constantă)?",
-    "variante": [
-      "$k\\int f(x)\\,dx$",
-      "$k\\,f^{\\prime}(x)$",
-      "$\\int f(x)\\,dx+k$",
-      "$\\frac{1}{k}\\int f(x)\\,dx$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-003",
-    "tip": "simplu",
-    "intrebare": "Cum se rezolvă $\\int(f-g)\\,dx$?",
-    "variante": [
-      "$\\int f\\,dx-\\int g\\,dx$",
-      "$\\int f\\,dx\\cdot\\int g\\,dx$",
-      "$\\int f\\,dx+\\int g\\,dx$",
-      "$\\int \\frac{f}{g}\\,dx$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-004",
-    "tip": "simplu",
-    "intrebare": "Este adevărat că $\\int f\\cdot g\\,dx=\\int f\\,dx\\cdot\\int g\\,dx$?",
-    "variante": [
-      "da, doar dacă $f=g$",
-      "nu, în general nu",
-      "da, mereu",
-      "da, doar pentru $x>0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int f(ax+b)\\,dx$, dacă $F$ este primitiva lui $f$?",
-    "variante": [
-      "$F(x)+b+C$",
-      "$\\frac{1}{a}F(ax+b)+C$",
-      "$F(ax+b)+C$",
-      "$aF(ax+b)+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int e^{2x}\\,dx$?",
-    "variante": [
-      "$e^{2x}+C$",
-      "$2e^{2x}+C$",
-      "$\\frac{1}{2}e^{2x}+C$",
-      "$e^{x}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\cos 3x\\,dx$?",
-    "variante": [
-      "$3\\sin 3x+C$",
-      "$-\\frac{1}{3}\\sin 3x+C$",
-      "$\\frac{1}{3}\\sin 3x+C$",
-      "$\\sin x+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\sin 2x\\,dx$?",
-    "variante": [
-      "$-2\\cos 2x+C$",
-      "$-\\frac{1}{2}\\cos 2x+C$",
-      "$\\frac{1}{2}\\cos 2x+C$",
-      "$-\\cos 2x+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (x+1)^3\\,dx$?",
-    "variante": [
-      "$(x+1)^4+C$",
-      "$3(x+1)^2+C$",
-      "$\\frac{(x+1)^3}{3}+C$",
-      "$\\frac{(x+1)^4}{4}+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\frac{1}{x+2}\\,dx$?",
-    "variante": [
-      "$\\ln 2+C$",
-      "$-\\frac{1}{(x+2)^2}+C$",
-      "$\\frac{1}{2}\\ln|x|+C$",
-      "$\\ln|x+2|+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (3x-1)^2\\,dx$?",
-    "variante": [
-      "$2(3x-1)+C$",
-      "$\\frac{(3x-1)^3}{3}+C$",
-      "$\\frac{(3x-1)^3}{9}+C$",
-      "$3(3x-1)^3+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int e^{-x}\\,dx$?",
-    "variante": [
-      "$-e^{-x}+C$",
-      "$e^{-x}+C$",
-      "$-e^{x}+C$",
-      "$\\frac{e^{-x}}{x}+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\frac{1}{2x+1}\\,dx$?",
-    "variante": [
-      "$2\\ln|2x+1|+C$",
-      "$\\ln|2x+1|+C$",
-      "$\\frac{1}{2}\\ln|2x+1|+C$",
-      "$-\\frac{1}{(2x+1)^2}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 5x^2\\,dx$?",
-    "variante": [
-      "$5x^3+C$",
-      "$\\frac{5x^3}{3}+C$",
-      "$10x+C$",
-      "$\\frac{x^3}{3}+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-integrare-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int(3x^2-4x+1)\\,dx$?",
-    "variante": [
-      "$x^3-4x^2+x+C$",
-      "$3x^3-4x^2+x+C$",
-      "$x^3-2x^2+x+C$",
-      "$6x-4+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-016",
-    "tip": "simplu",
-    "intrebare": "Care primitivă a lui $f(x)=2x$ trece prin punctul $(0;1)$?",
-    "variante": [
-      "$x^2+C$",
-      "$2x+1$",
-      "$x^2$",
-      "$x^2+1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-integrare-017",
-    "tip": "simplu",
-    "intrebare": "Care primitivă a lui $f(x)=3x^2$ are $F(0)=2$?",
-    "variante": [
-      "$x^3+2$",
-      "$3x^3+2$",
-      "$x^3-2$",
-      "$x^3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-018",
-    "tip": "simplu",
-    "intrebare": "Care primitivă a lui $f(x)=1$ are $F(1)=0$?",
-    "variante": [
-      "$x-1$",
-      "$x+1$",
-      "$1-x$",
-      "$x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-integrare-019",
-    "tip": "simplu",
-    "intrebare": "Primul pas la o integrală cu sumă și constante:",
-    "variante": [
-      "adăugăm $C$ la fiecare termen",
-      "derivăm toată expresia",
-      "scoatem constantele, despărțim suma în integrale simple",
-      "înmulțim totul cu $x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-integrare-020",
-    "tip": "multiplu",
-    "intrebare": "Care egalități sunt adevărate?",
-    "variante": [
-      "$\\int kf=k\\int f$",
-      "$\\int\\frac{f}{g}=\\frac{\\int f}{\\int g}$",
-      "$\\int fg=\\int f\\cdot\\int g$",
-      "$\\int(f+g)=\\int f+\\int g$"
-    ],
-    "corect": [
-      0,
-      3
-    ]
-  }
+ {
+  "id": "reguli-de-integrare-001",
+  "tip": "simplu",
+  "intrebare": "Cum se rezolvă $\\int(f+g)\\,dx$?",
+  "variante": [
+   "$\\int f\\cdot g\\,dx$",
+   "$\\int f\\,dx-\\int g\\,dx$",
+   "$\\int f\\,dx+\\int g\\,dx$",
+   "$\\int f\\,dx\\cdot\\int g\\,dx$"
+  ],
+  "corect": 2,
+  "explicatie": "Integrala unei sume este suma integralelor: $\\int(f+g)\\,dx=\\int f\\,dx+\\int g\\,dx$."
+ },
+ {
+  "id": "reguli-de-integrare-002",
+  "tip": "simplu",
+  "intrebare": "Cum se rezolvă $\\int k\\,f(x)\\,dx$ ($k$ constantă)?",
+  "variante": [
+   "$k\\int f(x)\\,dx$",
+   "$k\\,f^{\\prime}(x)$",
+   "$\\int f(x)\\,dx+k$",
+   "$\\frac{1}{k}\\int f(x)\\,dx$"
+  ],
+  "corect": 0,
+  "explicatie": "Constanta se scoate în fața integralei: $\\int kf\\,dx=k\\int f\\,dx$."
+ },
+ {
+  "id": "reguli-de-integrare-003",
+  "tip": "simplu",
+  "intrebare": "Cum se rezolvă $\\int(f-g)\\,dx$?",
+  "variante": [
+   "$\\int f\\,dx-\\int g\\,dx$",
+   "$\\int f\\,dx\\cdot\\int g\\,dx$",
+   "$\\int f\\,dx+\\int g\\,dx$",
+   "$\\int \\frac{f}{g}\\,dx$"
+  ],
+  "corect": 0,
+  "explicatie": "La fel ca la sumă, diferența se desparte: $\\int(f-g)\\,dx=\\int f\\,dx-\\int g\\,dx$."
+ },
+ {
+  "id": "reguli-de-integrare-004",
+  "tip": "simplu",
+  "intrebare": "Este adevărat că $\\int f\\cdot g\\,dx=\\int f\\,dx\\cdot\\int g\\,dx$?",
+  "variante": [
+   "da, doar dacă $f=g$",
+   "nu, în general nu",
+   "da, mereu",
+   "da, doar pentru $x>0$"
+  ],
+  "corect": 1,
+  "explicatie": "Nu există regulă pentru produs. De exemplu $\\int x\\cdot x\\,dx=\\frac{x^3}{3}$, dar $\\int x\\,dx\\cdot\\int x\\,dx=\\frac{x^4}{4}$."
+ },
+ {
+  "id": "reguli-de-integrare-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int f(ax+b)\\,dx$, dacă $F$ este primitiva lui $f$?",
+  "variante": [
+   "$F(x)+b+C$",
+   "$\\frac{1}{a}F(ax+b)+C$",
+   "$F(ax+b)+C$",
+   "$aF(ax+b)+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Derivând $\\frac1aF(ax+b)$ obținem $\\frac1a\\cdot a\\cdot f(ax+b)=f(ax+b)$, deci factorul $\\frac1a$ compensează derivata lui $ax+b$."
+ },
+ {
+  "id": "reguli-de-integrare-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int e^{2x}\\,dx$?",
+  "variante": [
+   "$e^{2x}+C$",
+   "$2e^{2x}+C$",
+   "$\\frac{1}{2}e^{2x}+C$",
+   "$e^{x}+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Pentru $e^{ax}$ împărțim la $a=2$: $\\frac12e^{2x}$. Verificare: derivata este $e^{2x}$."
+ },
+ {
+  "id": "reguli-de-integrare-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\cos 3x\\,dx$?",
+  "variante": [
+   "$3\\sin 3x+C$",
+   "$-\\frac{1}{3}\\sin 3x+C$",
+   "$\\frac{1}{3}\\sin 3x+C$",
+   "$\\sin x+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Primitiva lui $\\cos$ este $\\sin$, iar pentru argumentul $3x$ împărțim la $3$."
+ },
+ {
+  "id": "reguli-de-integrare-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\sin 2x\\,dx$?",
+  "variante": [
+   "$-2\\cos 2x+C$",
+   "$-\\frac{1}{2}\\cos 2x+C$",
+   "$\\frac{1}{2}\\cos 2x+C$",
+   "$-\\cos 2x+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Primitiva lui $\\sin$ este $-\\cos$, iar pentru argumentul $2x$ împărțim la $2$."
+ },
+ {
+  "id": "reguli-de-integrare-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (x+1)^3\\,dx$?",
+  "variante": [
+   "$(x+1)^4+C$",
+   "$3(x+1)^2+C$",
+   "$\\frac{(x+1)^3}{3}+C$",
+   "$\\frac{(x+1)^4}{4}+C$"
+  ],
+  "corect": 3,
+  "explicatie": "Pentru $(x+1)^3$ ridicăm puterea la $4$ și împărțim la $4$; coeficientul lui $x$ este $1$, deci nu apare alt factor."
+ },
+ {
+  "id": "reguli-de-integrare-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\frac{1}{x+2}\\,dx$?",
+  "variante": [
+   "$\\ln 2+C$",
+   "$-\\frac{1}{(x+2)^2}+C$",
+   "$\\frac{1}{2}\\ln|x|+C$",
+   "$\\ln|x+2|+C$"
+  ],
+  "corect": 3,
+  "explicatie": "Primitiva lui $\\frac{1}{u}$ este $\\ln|u|$, iar coeficientul lui $x$ este $1$, deci $\\ln|x+2|+C$."
+ },
+ {
+  "id": "reguli-de-integrare-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (3x-1)^2\\,dx$?",
+  "variante": [
+   "$2(3x-1)+C$",
+   "$\\frac{(3x-1)^3}{3}+C$",
+   "$\\frac{(3x-1)^3}{9}+C$",
+   "$3(3x-1)^3+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Ridicăm puterea la $3$ și împărțim la $3$ (din putere) și încă la $3$ (coeficientul lui $x$): $\\frac{(3x-1)^3}{9}$."
+ },
+ {
+  "id": "reguli-de-integrare-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int e^{-x}\\,dx$?",
+  "variante": [
+   "$-e^{-x}+C$",
+   "$e^{-x}+C$",
+   "$-e^{x}+C$",
+   "$\\frac{e^{-x}}{x}+C$"
+  ],
+  "corect": 0,
+  "explicatie": "Pentru $e^{ax}$ cu $a=-1$ împărțim la $-1$: obținem $-e^{-x}$. Verificare: derivata este $e^{-x}$."
+ },
+ {
+  "id": "reguli-de-integrare-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\frac{1}{2x+1}\\,dx$?",
+  "variante": [
+   "$2\\ln|2x+1|+C$",
+   "$\\ln|2x+1|+C$",
+   "$\\frac{1}{2}\\ln|2x+1|+C$",
+   "$-\\frac{1}{(2x+1)^2}+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Primitiva lui $\\frac1u$ este $\\ln|u|$, iar coeficientul $2$ al lui $x$ dă factorul $\\frac12$."
+ },
+ {
+  "id": "reguli-de-integrare-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 5x^2\\,dx$?",
+  "variante": [
+   "$5x^3+C$",
+   "$\\frac{5x^3}{3}+C$",
+   "$10x+C$",
+   "$\\frac{x^3}{3}+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Scoatem constanta $5$: $5\\cdot\\frac{x^3}{3}=\\frac{5x^3}{3}$."
+ },
+ {
+  "id": "reguli-de-integrare-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int(3x^2-4x+1)\\,dx$?",
+  "variante": [
+   "$x^3-4x^2+x+C$",
+   "$3x^3-4x^2+x+C$",
+   "$x^3-2x^2+x+C$",
+   "$6x-4+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Integrăm termen cu termen: $3x^2\\to x^3$, $-4x\\to-2x^2$, $1\\to x$."
+ },
+ {
+  "id": "reguli-de-integrare-016",
+  "tip": "simplu",
+  "intrebare": "Care primitivă a lui $f(x)=2x$ trece prin punctul $(0;1)$?",
+  "variante": [
+   "$x^2+C$",
+   "$2x+1$",
+   "$x^2$",
+   "$x^2+1$"
+  ],
+  "corect": 3,
+  "explicatie": "Primitivele lui $2x$ sunt $x^2+C$. Din $F(0)=1$ obținem $C=1$, deci $F(x)=x^2+1$."
+ },
+ {
+  "id": "reguli-de-integrare-017",
+  "tip": "simplu",
+  "intrebare": "Care primitivă a lui $f(x)=3x^2$ are $F(0)=2$?",
+  "variante": [
+   "$x^3+2$",
+   "$3x^3+2$",
+   "$x^3-2$",
+   "$x^3$"
+  ],
+  "corect": 0,
+  "explicatie": "Primitivele lui $3x^2$ sunt $x^3+C$. Din $F(0)=2$ obținem $C=2$."
+ },
+ {
+  "id": "reguli-de-integrare-018",
+  "tip": "simplu",
+  "intrebare": "Care primitivă a lui $f(x)=1$ are $F(1)=0$?",
+  "variante": [
+   "$x-1$",
+   "$x+1$",
+   "$1-x$",
+   "$x$"
+  ],
+  "corect": 0,
+  "explicatie": "Primitivele lui $1$ sunt $x+C$. Din $F(1)=0$ avem $1+C=0$, deci $C=-1$ și $F(x)=x-1$."
+ },
+ {
+  "id": "reguli-de-integrare-019",
+  "tip": "simplu",
+  "intrebare": "Primul pas la o integrală cu sumă și constante:",
+  "variante": [
+   "adăugăm $C$ la fiecare termen",
+   "derivăm toată expresia",
+   "scoatem constantele, despărțim suma în integrale simple",
+   "înmulțim totul cu $x$"
+  ],
+  "corect": 2,
+  "explicatie": "Scoatem constantele în fața integralelor, apoi despărțim suma în integrale simple, fiecare din tabel."
+ },
+ {
+  "id": "reguli-de-integrare-020",
+  "tip": "multiplu",
+  "intrebare": "Care egalități sunt adevărate?",
+  "variante": [
+   "$\\int kf=k\\int f$",
+   "$\\int\\frac{f}{g}=\\frac{\\int f}{\\int g}$",
+   "$\\int fg=\\int f\\cdot\\int g$",
+   "$\\int(f+g)=\\int f+\\int g$"
+  ],
+  "corect": [
+   0,
+   3
+  ],
+  "explicatie": "Constanta se scoate din integrală, iar suma se desparte. Produsul nu se desparte, deci acea formulă nu e corectă."
+ }
 ]

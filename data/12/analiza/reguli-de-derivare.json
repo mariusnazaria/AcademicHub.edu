@@ -1,218 +1,236 @@
 [
-  {
-    "id": "reguli-de-derivare-001",
-    "tip": "simplu",
-    "intrebare": "Cât este $(f+g)^{\\prime}$?",
-    "variante": [
-      "$f^{\\prime}\\cdot g^{\\prime}$",
-      "$f^{\\prime}+g^{\\prime}$",
-      "$f+g^{\\prime}$",
-      "$f^{\\prime}g+fg^{\\prime}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-derivare-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $(c\\cdot f)^{\\prime}$ ($c$ constantă)?",
-    "variante": [
-      "$c+f^{\\prime}$",
-      "$f^{\\prime}$",
-      "$c\\cdot f^{\\prime}$",
-      "$c^{\\prime}\\cdot f^{\\prime}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-derivare-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $(f\\cdot g)^{\\prime}$?",
-    "variante": [
-      "$f^{\\prime}g^{\\prime}$",
-      "$f^{\\prime}+g^{\\prime}$",
-      "$f^{\\prime}g-fg^{\\prime}$",
-      "$f^{\\prime}g+fg^{\\prime}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\frac fg\\right)^{\\prime}$?",
-    "variante": [
-      "$\\frac{f^{\\prime}g+fg^{\\prime}}{g^2}$",
-      "$\\frac{fg^{\\prime}-f^{\\prime}g}{g^2}$",
-      "$\\frac{f^{\\prime}}{g^{\\prime}}$",
-      "$\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-005",
-    "tip": "simplu",
-    "intrebare": "Cât este derivata funcției compuse $f(g(x))$?",
-    "variante": [
-      "$f^{\\prime}(x)\\cdot g^{\\prime}(x)$",
-      "$f^{\\prime}(g(x))+g^{\\prime}(x)$",
-      "$f(g^{\\prime}(x))$",
-      "$f^{\\prime}(g(x))\\cdot g^{\\prime}(x)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $(xe^x)^{\\prime}$?",
-    "variante": [
-      "$e^x+xe^x$",
-      "$e^x\\cdot x^2$",
-      "$e^x$",
-      "$xe^x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-derivare-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x\\ln x)^{\\prime}$?",
-    "variante": [
-      "$\\frac1x$",
-      "$\\ln x$",
-      "$\\ln x+1$",
-      "$x+\\frac1x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-derivare-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2\\sin x)^{\\prime}$?",
-    "variante": [
-      "$2x\\cos x$",
-      "$2x\\sin x+x^2\\cos x$",
-      "$2x\\sin x-x^2\\cos x$",
-      "$x^2\\cos x$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-derivare-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $(e^{2x})^{\\prime}$?",
-    "variante": [
-      "$2e^{2x}$",
-      "$e^{2}$",
-      "$e^{2x}$",
-      "$2xe^{2x}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-derivare-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $(e^{-x})^{\\prime}$?",
-    "variante": [
-      "$-xe^{-x}$",
-      "$e^{x}$",
-      "$-e^{-x}$",
-      "$e^{-x}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-derivare-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $(\\sin3x)^{\\prime}$?",
-    "variante": [
-      "$\\cos3x$",
-      "$3\\cos3x$",
-      "$3\\sin3x$",
-      "$-3\\cos3x$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "reguli-de-derivare-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $(\\cos2x)^{\\prime}$?",
-    "variante": [
-      "$-2\\cos2x$",
-      "$2\\sin2x$",
-      "$-\\sin2x$",
-      "$-2\\sin2x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left((2x+1)^5\\right)^{\\prime}$?",
-    "variante": [
-      "$5(2x+1)$",
-      "$2(2x+1)^5$",
-      "$5(2x+1)^4$",
-      "$10(2x+1)^4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\sqrt{x+1}\\right)^{\\prime}$?",
-    "variante": [
-      "$\\frac{1}{2\\sqrt{x}}$",
-      "$\\frac{1}{\\sqrt{x+1}}$",
-      "$\\frac{1}{2\\sqrt{x+1}}$",
-      "$2\\sqrt{x+1}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-derivare-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\ln(x^2+1)\\right)^{\\prime}$?",
-    "variante": [
-      "$\\frac{2x}{x^2+1}$",
-      "$\\frac{2x}{x^2}$",
-      "$\\frac{1}{x^2+1}$",
-      "$2x\\ln(x^2+1)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "reguli-de-derivare-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\frac{x}{x+1}\\right)^{\\prime}$?",
-    "variante": [
-      "$-\\frac{1}{(x+1)^2}$",
-      "$\\frac{1}{x+1}$",
-      "$\\frac{2x+1}{(x+1)^2}$",
-      "$\\frac{1}{(x+1)^2}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "reguli-de-derivare-017",
-    "tip": "simplu",
-    "intrebare": "Este adevărat că $(f\\cdot g)^{\\prime}=f^{\\prime}\\cdot g^{\\prime}$?",
-    "variante": [
-      "da, doar la sume",
-      "da, doar la constante",
-      "nu, se folosește regula produsului",
-      "da, mereu"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "reguli-de-derivare-018",
-    "tip": "simplu",
-    "intrebare": "Derivata funcției compuse se face de la:",
-    "variante": [
-      "doar din exterior",
-      "exterior spre interior, înmulțind",
-      "interior spre exterior, adunând",
-      "doar din interior"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "reguli-de-derivare-001",
+  "tip": "simplu",
+  "intrebare": "Cât este $(f+g)^{\\prime}$?",
+  "variante": [
+   "$f^{\\prime}\\cdot g^{\\prime}$",
+   "$f^{\\prime}+g^{\\prime}$",
+   "$f+g^{\\prime}$",
+   "$f^{\\prime}g+fg^{\\prime}$"
+  ],
+  "corect": 1,
+  "explicatie": "Derivata sumei este suma derivatelor: $(f+g)^{\\prime}=f^{\\prime}+g^{\\prime}$."
+ },
+ {
+  "id": "reguli-de-derivare-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $(c\\cdot f)^{\\prime}$ ($c$ constantă)?",
+  "variante": [
+   "$c+f^{\\prime}$",
+   "$f^{\\prime}$",
+   "$c\\cdot f^{\\prime}$",
+   "$c^{\\prime}\\cdot f^{\\prime}$"
+  ],
+  "corect": 2,
+  "explicatie": "Constanta iese în fața derivatei: $(c\\cdot f)^{\\prime}=c\\cdot f^{\\prime}$."
+ },
+ {
+  "id": "reguli-de-derivare-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $(f\\cdot g)^{\\prime}$?",
+  "variante": [
+   "$f^{\\prime}g^{\\prime}$",
+   "$f^{\\prime}+g^{\\prime}$",
+   "$f^{\\prime}g-fg^{\\prime}$",
+   "$f^{\\prime}g+fg^{\\prime}$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula produsului: $(fg)^{\\prime}=f^{\\prime}g+fg^{\\prime}$ (derivăm pe rând fiecare factor)."
+ },
+ {
+  "id": "reguli-de-derivare-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\left(\\frac fg\\right)^{\\prime}$?",
+  "variante": [
+   "$\\frac{f^{\\prime}g+fg^{\\prime}}{g^2}$",
+   "$\\frac{fg^{\\prime}-f^{\\prime}g}{g^2}$",
+   "$\\frac{f^{\\prime}}{g^{\\prime}}$",
+   "$\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula câtului: $\\left(\\frac fg\\right)^{\\prime}=\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$ (numărătorul începe cu $f^{\\prime}g$)."
+ },
+ {
+  "id": "reguli-de-derivare-005",
+  "tip": "simplu",
+  "intrebare": "Cât este derivata funcției compuse $f(g(x))$?",
+  "variante": [
+   "$f^{\\prime}(x)\\cdot g^{\\prime}(x)$",
+   "$f^{\\prime}(g(x))+g^{\\prime}(x)$",
+   "$f(g^{\\prime}(x))$",
+   "$f^{\\prime}(g(x))\\cdot g^{\\prime}(x)$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula lanțului: derivata funcției exterioare calculată în $g(x)$, înmulțită cu derivata interioară $g^{\\prime}(x)$."
+ },
+ {
+  "id": "reguli-de-derivare-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $(xe^x)^{\\prime}$?",
+  "variante": [
+   "$e^x+xe^x$",
+   "$e^x\\cdot x^2$",
+   "$e^x$",
+   "$xe^x$"
+  ],
+  "corect": 0,
+  "explicatie": "Regula produsului: $(x)^{\\prime}e^x+x(e^x)^{\\prime}=e^x+xe^x$."
+ },
+ {
+  "id": "reguli-de-derivare-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x\\ln x)^{\\prime}$?",
+  "variante": [
+   "$\\frac1x$",
+   "$\\ln x$",
+   "$\\ln x+1$",
+   "$x+\\frac1x$"
+  ],
+  "corect": 2,
+  "explicatie": "Regula produsului: $1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1$."
+ },
+ {
+  "id": "reguli-de-derivare-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2\\sin x)^{\\prime}$?",
+  "variante": [
+   "$2x\\cos x$",
+   "$2x\\sin x+x^2\\cos x$",
+   "$2x\\sin x-x^2\\cos x$",
+   "$x^2\\cos x$"
+  ],
+  "corect": 1,
+  "explicatie": "Regula produsului: $(x^2)^{\\prime}\\sin x+x^2(\\sin x)^{\\prime}=2x\\sin x+x^2\\cos x$."
+ },
+ {
+  "id": "reguli-de-derivare-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $(e^{2x})^{\\prime}$?",
+  "variante": [
+   "$2e^{2x}$",
+   "$e^{2}$",
+   "$e^{2x}$",
+   "$2xe^{2x}$"
+  ],
+  "corect": 0,
+  "explicatie": "Regula lanțului: $(e^{u})^{\\prime}=e^{u}\\cdot u^{\\prime}$, cu $u=2x$ și $u^{\\prime}=2$, deci $2e^{2x}$."
+ },
+ {
+  "id": "reguli-de-derivare-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $(e^{-x})^{\\prime}$?",
+  "variante": [
+   "$-xe^{-x}$",
+   "$e^{x}$",
+   "$-e^{-x}$",
+   "$e^{-x}$"
+  ],
+  "corect": 2,
+  "explicatie": "Regula lanțului: $e^{-x}\\cdot(-x)^{\\prime}=e^{-x}\\cdot(-1)=-e^{-x}$."
+ },
+ {
+  "id": "reguli-de-derivare-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $(\\sin3x)^{\\prime}$?",
+  "variante": [
+   "$\\cos3x$",
+   "$3\\cos3x$",
+   "$3\\sin3x$",
+   "$-3\\cos3x$"
+  ],
+  "corect": 1,
+  "explicatie": "Regula lanțului: $\\cos3x\\cdot(3x)^{\\prime}=3\\cos3x$."
+ },
+ {
+  "id": "reguli-de-derivare-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $(\\cos2x)^{\\prime}$?",
+  "variante": [
+   "$-2\\cos2x$",
+   "$2\\sin2x$",
+   "$-\\sin2x$",
+   "$-2\\sin2x$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula lanțului: $-\\sin2x\\cdot(2x)^{\\prime}=-2\\sin2x$."
+ },
+ {
+  "id": "reguli-de-derivare-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\left((2x+1)^5\\right)^{\\prime}$?",
+  "variante": [
+   "$5(2x+1)$",
+   "$2(2x+1)^5$",
+   "$5(2x+1)^4$",
+   "$10(2x+1)^4$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula lanțului: $5(2x+1)^4\\cdot(2x+1)^{\\prime}=5(2x+1)^4\\cdot2=10(2x+1)^4$."
+ },
+ {
+  "id": "reguli-de-derivare-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\left(\\sqrt{x+1}\\right)^{\\prime}$?",
+  "variante": [
+   "$\\frac{1}{2\\sqrt{x}}$",
+   "$\\frac{1}{\\sqrt{x+1}}$",
+   "$\\frac{1}{2\\sqrt{x+1}}$",
+   "$2\\sqrt{x+1}$"
+  ],
+  "corect": 2,
+  "explicatie": "Regula lanțului: $\\frac{1}{2\\sqrt{x+1}}\\cdot(x+1)^{\\prime}=\\frac{1}{2\\sqrt{x+1}}$."
+ },
+ {
+  "id": "reguli-de-derivare-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\left(\\ln(x^2+1)\\right)^{\\prime}$?",
+  "variante": [
+   "$\\frac{2x}{x^2+1}$",
+   "$\\frac{2x}{x^2}$",
+   "$\\frac{1}{x^2+1}$",
+   "$2x\\ln(x^2+1)$"
+  ],
+  "corect": 0,
+  "explicatie": "Regula lanțului: $\\frac{1}{x^2+1}\\cdot(x^2+1)^{\\prime}=\\frac{2x}{x^2+1}$."
+ },
+ {
+  "id": "reguli-de-derivare-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\left(\\frac{x}{x+1}\\right)^{\\prime}$?",
+  "variante": [
+   "$-\\frac{1}{(x+1)^2}$",
+   "$\\frac{1}{x+1}$",
+   "$\\frac{2x+1}{(x+1)^2}$",
+   "$\\frac{1}{(x+1)^2}$"
+  ],
+  "corect": 3,
+  "explicatie": "Regula câtului: $\\frac{1\\cdot(x+1)-x\\cdot1}{(x+1)^2}=\\frac{1}{(x+1)^2}$."
+ },
+ {
+  "id": "reguli-de-derivare-017",
+  "tip": "simplu",
+  "intrebare": "Este adevărat că $(f\\cdot g)^{\\prime}=f^{\\prime}\\cdot g^{\\prime}$?",
+  "variante": [
+   "da, doar la sume",
+   "da, doar la constante",
+   "nu, se folosește regula produsului",
+   "da, mereu"
+  ],
+  "corect": 2,
+  "explicatie": "Derivata produsului nu este produsul derivatelor. Corect: $(fg)^{\\prime}=f^{\\prime}g+fg^{\\prime}$."
+ },
+ {
+  "id": "reguli-de-derivare-018",
+  "tip": "simplu",
+  "intrebare": "Derivata funcției compuse se face de la:",
+  "variante": [
+   "doar din exterior",
+   "exterior spre interior, înmulțind",
+   "interior spre exterior, adunând",
+   "doar din interior"
+  ],
+  "corect": 1,
+  "explicatie": "La funcțiile compuse derivăm întâi funcția exterioară, apoi pe cea interioară, și înmulțim rezultatele."
+ }
 ]

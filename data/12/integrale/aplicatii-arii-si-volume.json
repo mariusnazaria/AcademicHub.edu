@@ -9,7 +9,8 @@
    "$f(b)-f(a)$",
    "$\\pi\\int_a^bf(x)\\,dx$"
   ],
-  "corect": 0
+  "corect": 0,
+  "explicatie": "Pentru $f\\geq0$ graficul e deasupra axei $Ox$, deci aria este chiar integrala definită a lui $f$ de la $a$ la $b$."
  },
  {
   "id": "aplicatii-arii-si-volume-002",
@@ -21,7 +22,8 @@
    "$\\int_a^bf(x)\\,dx$",
    "$\\pi\\int_a^bf(x)\\,dx$"
   ],
-  "corect": 0
+  "corect": 0,
+  "explicatie": "Dacă $f\\leq0$, integrala iese negativă, dar aria nu poate fi negativă; de aceea punem semnul minus în față."
  },
  {
   "id": "aplicatii-arii-si-volume-003",
@@ -33,7 +35,8 @@
    "$\\int_a^bf\\,dx\\cdot\\int_a^bg\\,dx$",
    "$\\int_a^b(f+g)\\,dx$"
   ],
-  "corect": 1
+  "corect": 1,
+  "explicatie": "Aria dintre două grafice este integrala diferenței dintre funcția de sus și cea de jos: $f-g\\geq0$."
  },
  {
   "id": "aplicatii-arii-si-volume-004",
@@ -45,7 +48,8 @@
    "$V=\\pi\\int_a^bf(x)\\,dx$",
    "$V=\\int_a^bf^2(x)\\,dx$"
   ],
-  "corect": 1
+  "corect": 1,
+  "explicatie": "Corpul de rotație se obține însumând discuri de rază $f(x)$ și arie $\\pi f^2(x)$, deci $V=\\pi\\int_a^bf^2(x)\\,dx$."
  },
  {
   "id": "aplicatii-arii-si-volume-005",
@@ -57,7 +61,8 @@
    "niciun termen",
    "limitele $a$ și $b$"
   ],
-  "corect": 0
+  "corect": 0,
+  "explicatie": "În formula volumului ridicăm la pătrat funcția $f(x)$, fiindcă este raza discului, iar aria discului e $\\pi r^2$."
  },
  {
   "id": "aplicatii-arii-si-volume-006",
@@ -69,7 +74,8 @@
    "$4$",
    "$12$"
   ],
-  "corect": 3
+  "corect": 3,
+  "explicatie": "Aria este un dreptunghi de laturi $4$ și $3$: $\\int_0^43\\,dx=3\\cdot4=12$."
  },
  {
   "id": "aplicatii-arii-si-volume-007",
@@ -81,7 +87,8 @@
    "$\\frac12$",
    "$1$"
   ],
-  "corect": 0
+  "corect": 0,
+  "explicatie": "Aria este un triunghi cu baza $2$ și înălțimea $2$: $\\int_0^2x\\,dx=\\frac{x^2}{2}\\Big|_0^2=2$."
  },
  {
   "id": "aplicatii-arii-si-volume-008",
@@ -93,7 +100,8 @@
    "$1$",
    "$0$"
   ],
-  "corect": 2
+  "corect": 2,
+  "explicatie": "$\\int_0^12x\\,dx=x^2\\Big|_0^1=1-0=1$ (triunghi cu baza $1$ și înălțimea $2$, deci aria $1$)."
  },
  {
   "id": "aplicatii-arii-si-volume-011",
@@ -105,7 +113,8 @@
    "rezolvăm $x^2=x$ (intersecțiile)",
    "le alegem oricum"
   ],
-  "corect": 2
+  "corect": 2,
+  "explicatie": "Limitele integralei sunt abscisele punctelor de intersecție, deci rezolvăm $x^2=x$, adică $x=0$ și $x=1$."
  },
  {
   "id": "aplicatii-arii-si-volume-012",
@@ -117,7 +126,8 @@
    "$V=\\pi\\int_0^1x\\,dx$",
    "$V=\\pi\\int_0^1\\sqrt{x}\\,dx$"
   ],
-  "corect": 1
+  "corect": 1,
+  "explicatie": "Cu $f(x)=x$ avem $f^2(x)=x^2$, deci $V=\\pi\\int_0^1x^2\\,dx$."
  },
  {
   "id": "aplicatii-arii-si-volume-013",
@@ -129,7 +139,8 @@
    "$V=\\pi\\int_0^3 2x\\,dx$",
    "$V=\\pi\\int_0^32\\,dx$"
   ],
-  "corect": 1
+  "corect": 1,
+  "explicatie": "Cu $f(x)=2$ avem $f^2(x)=4$, deci $V=\\pi\\int_0^34\\,dx$."
  },
  {
   "id": "aplicatii-arii-si-volume-016",
@@ -141,7 +152,8 @@
    "sferă",
    "cilindru"
   ],
-  "corect": 3
+  "corect": 3,
+  "explicatie": "Rotind o dreaptă orizontală $y=r$ în jurul lui $Ox$, fiecare secțiune e un disc de rază $r$: obținem un cilindru."
  },
  {
   "id": "aplicatii-arii-si-volume-017",
@@ -153,7 +165,8 @@
    "piramidă",
    "con"
   ],
-  "corect": 3
+  "corect": 3,
+  "explicatie": "Rotind dreapta $y=x$ în jurul lui $Ox$, raza crește liniar de la $0$: obținem un con."
  },
  {
   "id": "aplicatii-arii-si-volume-018",
@@ -165,7 +178,8 @@
    "luând doar partea pozitivă",
    "separat pe fiecare parte, cu semnul corect"
   ],
-  "corect": 3
+  "corect": 3,
+  "explicatie": "Aria nu se compensează cu semne: calculăm separat părțile de deasupra și de sub $Ox$, fiecare cu semnul corect (modul)."
  },
  {
   "id": "aplicatii-arii-si-volume-019",
@@ -180,7 +194,8 @@
   "corect": [
    0,
    2
-  ]
+  ],
+  "explicatie": "Volumul de rotație este $\\pi\\int f^2$, iar aria pentru $f\\geq0$ este $\\int f$. Celelalte variante au formule greșite."
  },
  {
   "id": "aplicatii-arii-si-volume-020",
@@ -195,7 +210,8 @@
   "corect": [
    0,
    1
-  ]
+  ],
+  "explicatie": "Pentru integrală avem nevoie de funcția de integrat și de capetele intervalului, $a$ și $b$."
  },
  {
   "id": "aplicatii-arii-si-volume-gar1",
@@ -208,7 +224,8 @@
    "$\\pi\\int_0^2x^4\\,dx$"
   ],
   "corect": 0,
-  "imagine": "data/imagini/g-ar1.svg"
+  "imagine": "data/imagini/g-ar1.svg",
+  "explicatie": "Pe grafic aria e între $x=0$ și $x=2$, sub parabola $y=x^2$, deci integrăm $x^2$ de la $0$ la $2$."
  },
  {
   "id": "aplicatii-arii-si-volume-gar2",
@@ -221,7 +238,8 @@
    "$\\pi\\int_0^{\\pi/2}\\cos x\\,dx$"
   ],
   "corect": 0,
-  "imagine": "data/imagini/g-ar2.svg"
+  "imagine": "data/imagini/g-ar2.svg",
+  "explicatie": "Aria începe la $x=0$ și se oprește la $x=\\frac{\\pi}{2}$, unde $\\cos x$ ajunge la $0$: integrăm $\\cos x$ pe $[0;\\frac{\\pi}{2}]$."
  },
  {
   "id": "aplicatii-arii-si-volume-gar3",
@@ -234,7 +252,8 @@
    "$\\int_3^0x\\,dx$"
   ],
   "corect": 0,
-  "imagine": "data/imagini/g-ar3.svg"
+  "imagine": "data/imagini/g-ar3.svg",
+  "explicatie": "Triunghiul e delimitat de dreapta $y=x$, axa $Ox$ și $x=3$, deci aria este $\\int_0^3x\\,dx$ (adică $\\frac92$)."
  },
  {
   "id": "aplicatii-arii-si-volume-gar4",
@@ -247,6 +266,7 @@
    "$\\pi\\int_0^4x\\,dx$"
   ],
   "corect": 0,
-  "imagine": "data/imagini/g-ar4.svg"
+  "imagine": "data/imagini/g-ar4.svg",
+  "explicatie": "Aria hașurată e de la $x=0$ la $x=4$, sub curba $y=\\sqrt{x}$, deci integrăm $\\sqrt{x}$ de la $0$ la $4$."
  }
 ]

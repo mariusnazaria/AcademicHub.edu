@@ -1,194 +1,210 @@
 [
-  {
-    "id": "cercuri-inscrise-circumscrise-001",
-    "tip": "simplu",
-    "intrebare": "Centrul cercului înscris într-un triunghi este intersecția:",
-    "variante": [
-      "mediatoarelor",
-      "înălțimilor",
-      "bisectoarelor",
-      "medianelor"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-002",
-    "tip": "simplu",
-    "intrebare": "Centrul cercului circumscris unui triunghi este intersecția:",
-    "variante": [
-      "mediatoarelor",
-      "înălțimilor",
-      "medianelor",
-      "bisectoarelor"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-003",
-    "tip": "simplu",
-    "intrebare": "La triunghiul dreptunghic, centrul cercului circumscris este:",
-    "variante": [
-      "vârful unghiului drept",
-      "mijlocul ipotenuzei",
-      "mijlocul unei catete",
-      "centrul de greutate"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-004",
-    "tip": "simplu",
-    "intrebare": "Raza cercului circumscris triunghiului dreptunghic este:",
-    "variante": [
-      "jumătate din ipotenuză",
-      "dublul ipotenuzei",
-      "o catetă",
-      "ipotenuza"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-005",
-    "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $3,4$ și ipotenuza $5$. Cât este $R$?",
-    "variante": [
-      "$5$",
-      "$2$",
-      "$2{,}5$",
-      "$1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-006",
-    "tip": "simplu",
-    "intrebare": "Cum se află raza cercului înscris?",
-    "variante": [
-      "$r=\\text{Aria}\\cdot p$",
-      "$r=\\frac{\\text{Aria}}{2}$",
-      "$r=\\frac{p}{\\text{Aria}}$",
-      "$r=\\frac{\\text{Aria}}{\\text{semiperimetrul}}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-007",
-    "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $3,4$ și ipotenuza $5$. Cât este $r$?",
-    "variante": [
-      "$12$",
-      "$2$",
-      "$1$",
-      "$2{,}5$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-008",
-    "tip": "simplu",
-    "intrebare": "Raza cercului circumscris triunghiului echilateral cu latura $a$ este:",
-    "variante": [
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt3}{3}$",
-      "$\\frac{a\\sqrt3}{6}$",
-      "$a\\sqrt3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-009",
-    "tip": "simplu",
-    "intrebare": "Raza cercului înscris în triunghiul echilateral cu latura $a$ este:",
-    "variante": [
-      "$a\\sqrt3$",
-      "$\\frac{a\\sqrt3}{3}$",
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt3}{6}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-010",
-    "tip": "simplu",
-    "intrebare": "În triunghiul echilateral, raportul $R:r$ este:",
-    "variante": [
-      "$1:1$",
-      "$1:2$",
-      "$2:1$",
-      "$3:1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-011",
-    "tip": "simplu",
-    "intrebare": "Un patrulater este circumscriptibil dacă:",
-    "variante": [
-      "unghiurile opuse sunt suplementare",
-      "laturile sunt egale",
-      "diagonalele sunt egale",
-      "sumele laturilor opuse sunt egale"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-012",
-    "tip": "simplu",
-    "intrebare": "Un patrulater este inscriptibil dacă:",
-    "variante": [
-      "unghiurile opuse sunt suplementare",
-      "diagonalele sunt perpendiculare",
-      "sumele laturilor opuse sunt egale",
-      "laturile sunt egale"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-013",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului înscris în pătratul cu latura $4$?",
-    "variante": [
-      "$2$",
-      "$1$",
-      "$2\\sqrt2$",
-      "$4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-014",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului circumscris pătratului cu latura $4$?",
-    "variante": [
-      "$2$",
-      "$4$",
-      "$4\\sqrt2$",
-      "$2\\sqrt2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-015",
-    "tip": "simplu",
-    "intrebare": "Ce cerc trece prin toate vârfurile poligonului?",
-    "variante": [
-      "cercul tangent",
-      "cercul circumscris",
-      "cercul înscris",
-      "nici unul"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercuri-inscrise-circumscrise-016",
-    "tip": "simplu",
-    "intrebare": "Ce cerc este tangent la toate laturile poligonului?",
-    "variante": [
-      "cercul secant",
-      "nici unul",
-      "cercul înscris",
-      "cercul circumscris"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "cercuri-inscrise-circumscrise-001",
+  "tip": "simplu",
+  "intrebare": "Centrul cercului înscris într-un triunghi este intersecția:",
+  "variante": [
+   "mediatoarelor",
+   "înălțimilor",
+   "bisectoarelor",
+   "medianelor"
+  ],
+  "corect": 2,
+  "explicatie": "Centrul cercului înscris este egal depărtat de laturi, deci se află la intersecția bisectoarelor."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-002",
+  "tip": "simplu",
+  "intrebare": "Centrul cercului circumscris unui triunghi este intersecția:",
+  "variante": [
+   "mediatoarelor",
+   "înălțimilor",
+   "medianelor",
+   "bisectoarelor"
+  ],
+  "corect": 0,
+  "explicatie": "Centrul cercului circumscris este egal depărtat de vârfuri, deci se află la intersecția mediatoarelor laturilor."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-003",
+  "tip": "simplu",
+  "intrebare": "La triunghiul dreptunghic, centrul cercului circumscris este:",
+  "variante": [
+   "vârful unghiului drept",
+   "mijlocul ipotenuzei",
+   "mijlocul unei catete",
+   "centrul de greutate"
+  ],
+  "corect": 1,
+  "explicatie": "Unghiul drept subîntinde un diametru, deci ipotenuza este diametrul cercului circumscris, iar centrul este mijlocul ei."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-004",
+  "tip": "simplu",
+  "intrebare": "Raza cercului circumscris triunghiului dreptunghic este:",
+  "variante": [
+   "jumătate din ipotenuză",
+   "dublul ipotenuzei",
+   "o catetă",
+   "ipotenuza"
+  ],
+  "corect": 0,
+  "explicatie": "Ipotenuza este diametrul cercului circumscris, deci raza este jumătate din ipotenuză: $R=\\frac{c}{2}$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-005",
+  "tip": "simplu",
+  "intrebare": "Triunghi dreptunghic cu catetele $3,4$ și ipotenuza $5$. Cât este $R$?",
+  "variante": [
+   "$5$",
+   "$2$",
+   "$2{,}5$",
+   "$1$"
+  ],
+  "corect": 2,
+  "explicatie": "$R=\\frac{\\text{ipotenuza}}{2}=\\frac52=2{,}5$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-006",
+  "tip": "simplu",
+  "intrebare": "Cum se află raza cercului înscris?",
+  "variante": [
+   "$r=\\text{Aria}\\cdot p$",
+   "$r=\\frac{\\text{Aria}}{2}$",
+   "$r=\\frac{p}{\\text{Aria}}$",
+   "$r=\\frac{\\text{Aria}}{\\text{semiperimetrul}}$"
+  ],
+  "corect": 3,
+  "explicatie": "Aria se descompune în trei triunghiuri cu înălțimea $r$, deci $\\mathcal{A}=p\\cdot r$, de unde $r=\\frac{\\mathcal{A}}{p}$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-007",
+  "tip": "simplu",
+  "intrebare": "Triunghi dreptunghic cu catetele $3,4$ și ipotenuza $5$. Cât este $r$?",
+  "variante": [
+   "$12$",
+   "$2$",
+   "$1$",
+   "$2{,}5$"
+  ],
+  "corect": 2,
+  "explicatie": "Aria este $\\frac{3\\cdot4}{2}=6$, semiperimetrul este $p=\\frac{3+4+5}{2}=6$, deci $r=\\frac{6}{6}=1$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-008",
+  "tip": "simplu",
+  "intrebare": "Raza cercului circumscris triunghiului echilateral cu latura $a$ este:",
+  "variante": [
+   "$\\frac{a}{2}$",
+   "$\\frac{a\\sqrt3}{3}$",
+   "$\\frac{a\\sqrt3}{6}$",
+   "$a\\sqrt3$"
+  ],
+  "corect": 1,
+  "explicatie": "În triunghiul echilateral $R$ este $\\frac23$ din înălțimea $\\frac{a\\sqrt3}{2}$, adică $\\frac{a\\sqrt3}{3}$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-009",
+  "tip": "simplu",
+  "intrebare": "Raza cercului înscris în triunghiul echilateral cu latura $a$ este:",
+  "variante": [
+   "$a\\sqrt3$",
+   "$\\frac{a\\sqrt3}{3}$",
+   "$\\frac{a}{2}$",
+   "$\\frac{a\\sqrt3}{6}$"
+  ],
+  "corect": 3,
+  "explicatie": "În triunghiul echilateral $r$ este $\\frac13$ din înălțimea $\\frac{a\\sqrt3}{2}$, adică $\\frac{a\\sqrt3}{6}$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-010",
+  "tip": "simplu",
+  "intrebare": "În triunghiul echilateral, raportul $R:r$ este:",
+  "variante": [
+   "$1:1$",
+   "$1:2$",
+   "$2:1$",
+   "$3:1$"
+  ],
+  "corect": 2,
+  "explicatie": "$R=\\frac23h$ și $r=\\frac13h$, deci $R:r=2:1$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-011",
+  "tip": "simplu",
+  "intrebare": "Un patrulater este circumscriptibil dacă:",
+  "variante": [
+   "unghiurile opuse sunt suplementare",
+   "laturile sunt egale",
+   "diagonalele sunt egale",
+   "sumele laturilor opuse sunt egale"
+  ],
+  "corect": 3,
+  "explicatie": "Un patrulater convex este circumscriptibil (are cerc înscris) dacă sumele laturilor opuse sunt egale: $a+c=b+d$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-012",
+  "tip": "simplu",
+  "intrebare": "Un patrulater este inscriptibil dacă:",
+  "variante": [
+   "unghiurile opuse sunt suplementare",
+   "diagonalele sunt perpendiculare",
+   "sumele laturilor opuse sunt egale",
+   "laturile sunt egale"
+  ],
+  "corect": 0,
+  "explicatie": "Patrulaterul este inscriptibil (are cerc circumscris) dacă unghiurile opuse sunt suplementare, adică au suma $180^\\circ$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-013",
+  "tip": "simplu",
+  "intrebare": "Cât este raza cercului înscris în pătratul cu latura $4$?",
+  "variante": [
+   "$2$",
+   "$1$",
+   "$2\\sqrt2$",
+   "$4$"
+  ],
+  "corect": 0,
+  "explicatie": "Cercul înscris în pătrat are diametrul egal cu latura, deci $r=\\frac42=2$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-014",
+  "tip": "simplu",
+  "intrebare": "Cât este raza cercului circumscris pătratului cu latura $4$?",
+  "variante": [
+   "$2$",
+   "$4$",
+   "$4\\sqrt2$",
+   "$2\\sqrt2$"
+  ],
+  "corect": 3,
+  "explicatie": "Diametrul cercului circumscris este diagonala $4\\sqrt2$, deci $R=\\frac{4\\sqrt2}{2}=2\\sqrt2$."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-015",
+  "tip": "simplu",
+  "intrebare": "Ce cerc trece prin toate vârfurile poligonului?",
+  "variante": [
+   "cercul tangent",
+   "cercul circumscris",
+   "cercul înscris",
+   "nici unul"
+  ],
+  "corect": 1,
+  "explicatie": "Cercul circumscris poligonului trece prin toate vârfurile lui."
+ },
+ {
+  "id": "cercuri-inscrise-circumscrise-016",
+  "tip": "simplu",
+  "intrebare": "Ce cerc este tangent la toate laturile poligonului?",
+  "variante": [
+   "cercul secant",
+   "nici unul",
+   "cercul înscris",
+   "cercul circumscris"
+  ],
+  "corect": 2,
+  "explicatie": "Cercul înscris în poligon este tangent la toate laturile lui."
+ }
 ]

@@ -1,194 +1,210 @@
 [
-  {
-    "id": "poliedre-001",
-    "tip": "simplu",
-    "intrebare": "Care este relația lui Euler pentru poliedre ($V$ vârfuri, $M$ muchii, $F$ fețe)?",
-    "variante": [
-      "$V+M-F=2$",
-      "$V+M+F=2$",
-      "$V-M+F=2$",
-      "$V-M-F=2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "poliedre-002",
-    "tip": "simplu",
-    "intrebare": "Câte vârfuri, muchii și fețe are cubul?",
-    "variante": [
-      "$6$, $12$, $8$",
-      "$8$, $6$, $12$",
-      "$12$, $8$, $6$",
-      "$8$, $12$, $6$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-003",
-    "tip": "simplu",
-    "intrebare": "Câte vârfuri, muchii și fețe are tetraedrul?",
-    "variante": [
-      "$4$, $4$, $6$",
-      "$6$, $4$, $4$",
-      "$4$, $6$, $4$",
-      "$4$, $8$, $6$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "poliedre-004",
-    "tip": "simplu",
-    "intrebare": "Câte vârfuri, muchii și fețe are prisma triunghiulară?",
-    "variante": [
-      "$5$, $9$, $6$",
-      "$6$, $6$, $5$",
-      "$3$, $9$, $5$",
-      "$6$, $9$, $5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-005",
-    "tip": "simplu",
-    "intrebare": "Câte vârfuri, muchii și fețe are piramida pătrulateră?",
-    "variante": [
-      "$4$, $8$, $5$",
-      "$5$, $8$, $4$",
-      "$5$, $6$, $5$",
-      "$5$, $8$, $5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-006",
-    "tip": "simplu",
-    "intrebare": "Care este volumul cubului cu muchia $a$?",
-    "variante": [
-      "$6a^2$",
-      "$a^2$",
-      "$3a$",
-      "$a^3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-007",
-    "tip": "simplu",
-    "intrebare": "Care este aria totală a cubului cu muchia $a$?",
-    "variante": [
-      "$12a$",
-      "$a^3$",
-      "$6a^2$",
-      "$4a^2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "poliedre-008",
-    "tip": "simplu",
-    "intrebare": "Cubul are muchia $2$. Cât este volumul?",
-    "variante": [
-      "$12$",
-      "$8$",
-      "$4$",
-      "$6$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "poliedre-009",
-    "tip": "simplu",
-    "intrebare": "Cubul are muchia $2$. Cât este aria totală?",
-    "variante": [
-      "$16$",
-      "$12$",
-      "$8$",
-      "$24$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-010",
-    "tip": "simplu",
-    "intrebare": "Cât este diagonala cubului cu muchia $a$?",
-    "variante": [
-      "$a\\sqrt2$",
-      "$2a$",
-      "$3a$",
-      "$a\\sqrt3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "poliedre-011",
-    "tip": "simplu",
-    "intrebare": "Cât este volumul paralelipipedului dreptunghic cu dimensiunile $L,l,h$?",
-    "variante": [
-      "$\\frac{L\\cdot l\\cdot h}{3}$",
-      "$L+l+h$",
-      "$L\\cdot l\\cdot h$",
-      "$2(Ll+Lh+lh)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "poliedre-012",
-    "tip": "simplu",
-    "intrebare": "Paralelipiped dreptunghic $2\\times3\\times4$. Cât este volumul?",
-    "variante": [
-      "$24$",
-      "$9$",
-      "$48$",
-      "$26$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "poliedre-013",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează aria totală a paralelipipedului dreptunghic?",
-    "variante": [
-      "$Ll+Lh+lh$",
-      "$2(Ll+Lh+lh)$",
-      "$L\\cdot l\\cdot h$",
-      "$4(L+l+h)$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "poliedre-014",
-    "tip": "simplu",
-    "intrebare": "Cum se calculează diagonala paralelipipedului dreptunghic?",
-    "variante": [
-      "$\\sqrt{L\\cdot l\\cdot h}$",
-      "$L+l+h$",
-      "$\\sqrt{L^2+l^2+h^2}$",
-      "$\\sqrt{L^2+l^2}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "poliedre-015",
-    "tip": "simplu",
-    "intrebare": "Paralelipiped $1\\times2\\times2$. Cât este diagonala?",
-    "variante": [
-      "$3$",
-      "$5$",
-      "$4$",
-      "$\\sqrt5$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "poliedre-016",
-    "tip": "simplu",
-    "intrebare": "Un poliedru regulat are:",
-    "variante": [
-      "o singură față",
-      "fețe diferite",
-      "toate fețele pătrate",
-      "fețe regulate congruente"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "poliedre-001",
+  "tip": "simplu",
+  "intrebare": "Care este relația lui Euler pentru poliedre ($V$ vârfuri, $M$ muchii, $F$ fețe)?",
+  "variante": [
+   "$V+M-F=2$",
+   "$V+M+F=2$",
+   "$V-M+F=2$",
+   "$V-M-F=2$"
+  ],
+  "corect": 2,
+  "explicatie": "Relația lui Euler leagă vârfurile, muchiile și fețele: $V-M+F=2$."
+ },
+ {
+  "id": "poliedre-002",
+  "tip": "simplu",
+  "intrebare": "Câte vârfuri, muchii și fețe are cubul?",
+  "variante": [
+   "$6$, $12$, $8$",
+   "$8$, $6$, $12$",
+   "$12$, $8$, $6$",
+   "$8$, $12$, $6$"
+  ],
+  "corect": 3,
+  "explicatie": "Cubul are $8$ vârfuri, $12$ muchii și $6$ fețe; verificare: $8-12+6=2$."
+ },
+ {
+  "id": "poliedre-003",
+  "tip": "simplu",
+  "intrebare": "Câte vârfuri, muchii și fețe are tetraedrul?",
+  "variante": [
+   "$4$, $4$, $6$",
+   "$6$, $4$, $4$",
+   "$4$, $6$, $4$",
+   "$4$, $8$, $6$"
+  ],
+  "corect": 2,
+  "explicatie": "Tetraedrul are $4$ vârfuri, $6$ muchii și $4$ fețe; verificare: $4-6+4=2$."
+ },
+ {
+  "id": "poliedre-004",
+  "tip": "simplu",
+  "intrebare": "Câte vârfuri, muchii și fețe are prisma triunghiulară?",
+  "variante": [
+   "$5$, $9$, $6$",
+   "$6$, $6$, $5$",
+   "$3$, $9$, $5$",
+   "$6$, $9$, $5$"
+  ],
+  "corect": 3,
+  "explicatie": "Are $2$ baze triunghiulare ($6$ vârfuri, $6$ muchii) și $3$ muchii laterale, deci $9$ muchii; fețe: $2+3=5$."
+ },
+ {
+  "id": "poliedre-005",
+  "tip": "simplu",
+  "intrebare": "Câte vârfuri, muchii și fețe are piramida pătrulateră?",
+  "variante": [
+   "$4$, $8$, $5$",
+   "$5$, $8$, $4$",
+   "$5$, $6$, $5$",
+   "$5$, $8$, $5$"
+  ],
+  "corect": 3,
+  "explicatie": "Baza pătrată are $4$ vârfuri și $4$ muchii, plus vârful și $4$ muchii laterale: $5$ vârfuri, $8$ muchii, $5$ fețe."
+ },
+ {
+  "id": "poliedre-006",
+  "tip": "simplu",
+  "intrebare": "Care este volumul cubului cu muchia $a$?",
+  "variante": [
+   "$6a^2$",
+   "$a^2$",
+   "$3a$",
+   "$a^3$"
+  ],
+  "corect": 3,
+  "explicatie": "Volumul cubului este $a\\cdot a\\cdot a=a^3$."
+ },
+ {
+  "id": "poliedre-007",
+  "tip": "simplu",
+  "intrebare": "Care este aria totală a cubului cu muchia $a$?",
+  "variante": [
+   "$12a$",
+   "$a^3$",
+   "$6a^2$",
+   "$4a^2$"
+  ],
+  "corect": 2,
+  "explicatie": "Cubul are $6$ fețe pătrate, fiecare cu aria $a^2$, deci $A_t=6a^2$."
+ },
+ {
+  "id": "poliedre-008",
+  "tip": "simplu",
+  "intrebare": "Cubul are muchia $2$. Cât este volumul?",
+  "variante": [
+   "$12$",
+   "$8$",
+   "$4$",
+   "$6$"
+  ],
+  "corect": 1,
+  "explicatie": "$V=a^3=2^3=8$."
+ },
+ {
+  "id": "poliedre-009",
+  "tip": "simplu",
+  "intrebare": "Cubul are muchia $2$. Cât este aria totală?",
+  "variante": [
+   "$16$",
+   "$12$",
+   "$8$",
+   "$24$"
+  ],
+  "corect": 3,
+  "explicatie": "$A_t=6a^2=6\\cdot4=24$."
+ },
+ {
+  "id": "poliedre-010",
+  "tip": "simplu",
+  "intrebare": "Cât este diagonala cubului cu muchia $a$?",
+  "variante": [
+   "$a\\sqrt2$",
+   "$2a$",
+   "$3a$",
+   "$a\\sqrt3$"
+  ],
+  "corect": 3,
+  "explicatie": "Diagonala bazei este $a\\sqrt2$, iar $d^2=(a\\sqrt2)^2+a^2=3a^2$, deci $d=a\\sqrt3$."
+ },
+ {
+  "id": "poliedre-011",
+  "tip": "simplu",
+  "intrebare": "Cât este volumul paralelipipedului dreptunghic cu dimensiunile $L,l,h$?",
+  "variante": [
+   "$\\frac{L\\cdot l\\cdot h}{3}$",
+   "$L+l+h$",
+   "$L\\cdot l\\cdot h$",
+   "$2(Ll+Lh+lh)$"
+  ],
+  "corect": 2,
+  "explicatie": "Volumul este aria bazei înmulțită cu înălțimea: $L\\cdot l\\cdot h$."
+ },
+ {
+  "id": "poliedre-012",
+  "tip": "simplu",
+  "intrebare": "Paralelipiped dreptunghic $2\\times3\\times4$. Cât este volumul?",
+  "variante": [
+   "$24$",
+   "$9$",
+   "$48$",
+   "$26$"
+  ],
+  "corect": 0,
+  "explicatie": "$V=2\\cdot3\\cdot4=24$."
+ },
+ {
+  "id": "poliedre-013",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează aria totală a paralelipipedului dreptunghic?",
+  "variante": [
+   "$Ll+Lh+lh$",
+   "$2(Ll+Lh+lh)$",
+   "$L\\cdot l\\cdot h$",
+   "$4(L+l+h)$"
+  ],
+  "corect": 1,
+  "explicatie": "Fețele sunt $3$ perechi de dreptunghiuri egale, deci $A_t=2(Ll+Lh+lh)$."
+ },
+ {
+  "id": "poliedre-014",
+  "tip": "simplu",
+  "intrebare": "Cum se calculează diagonala paralelipipedului dreptunghic?",
+  "variante": [
+   "$\\sqrt{L\\cdot l\\cdot h}$",
+   "$L+l+h$",
+   "$\\sqrt{L^2+l^2+h^2}$",
+   "$\\sqrt{L^2+l^2}$"
+  ],
+  "corect": 2,
+  "explicatie": "Aplicând de două ori teorema lui Pitagora se obține $d=\\sqrt{L^2+l^2+h^2}$."
+ },
+ {
+  "id": "poliedre-015",
+  "tip": "simplu",
+  "intrebare": "Paralelipiped $1\\times2\\times2$. Cât este diagonala?",
+  "variante": [
+   "$3$",
+   "$5$",
+   "$4$",
+   "$\\sqrt5$"
+  ],
+  "corect": 0,
+  "explicatie": "$d=\\sqrt{1^2+2^2+2^2}=\\sqrt9=3$."
+ },
+ {
+  "id": "poliedre-016",
+  "tip": "simplu",
+  "intrebare": "Un poliedru regulat are:",
+  "variante": [
+   "o singură față",
+   "fețe diferite",
+   "toate fețele pătrate",
+   "fețe regulate congruente"
+  ],
+  "corect": 3,
+  "explicatie": "Poliedrul regulat are toate fețele poligoane regulate congruente (nu neapărat pătrate, de exemplu tetraedrul)."
+ }
 ]

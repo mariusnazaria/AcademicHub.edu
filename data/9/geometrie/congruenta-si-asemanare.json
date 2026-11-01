@@ -1,194 +1,210 @@
 [
-  {
-    "id": "congruenta-si-asemanare-001",
-    "tip": "simplu",
-    "intrebare": "Care este unul dintre cazurile de congruență a triunghiurilor?",
-    "variante": [
-      "UUU (trei unghiuri)",
-      "LLL (trei laturi)",
-      "LLU oricare",
-      "UL oricare"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-002",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă cazul LUL?",
-    "variante": [
-      "două unghiuri și latura dintre ele",
-      "două laturi și unghiul dintre ele",
-      "trei laturi",
-      "trei unghiuri"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-003",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă cazul ULU?",
-    "variante": [
-      "două laturi și unghiul dintre ele",
-      "două unghiuri și latura dintre ele",
-      "trei laturi",
-      "trei unghiuri"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-004",
-    "tip": "simplu",
-    "intrebare": "Triunghiuri congruente au:",
-    "variante": [
-      "doar același perimetru",
-      "aceeași formă și aceleași dimensiuni",
-      "doar aceeași formă",
-      "doar aceleași unghiuri"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-005",
-    "tip": "simplu",
-    "intrebare": "Triunghiuri asemenea au:",
-    "variante": [
-      "mereu același perimetru",
-      "mereu aceeași arie",
-      "mereu aceleași dimensiuni",
-      "aceeași formă, dimensiuni diferite"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "congruenta-si-asemanare-006",
-    "tip": "simplu",
-    "intrebare": "Care este cazul de asemănare UU?",
-    "variante": [
-      "două unghiuri egale",
-      "trei laturi egale",
-      "un unghi egal",
-      "două laturi egale"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "congruenta-si-asemanare-007",
-    "tip": "simplu",
-    "intrebare": "Care este cazul de asemănare LLL?",
-    "variante": [
-      "perimetrele sunt egale",
-      "laturile sunt proporționale",
-      "unghiurile sunt $90^\\circ$",
-      "laturile sunt egale"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-008",
-    "tip": "simplu",
-    "intrebare": "Triunghiurile cu laturile $3,4,5$ și $6,8,10$ sunt:",
-    "variante": [
-      "asemenea, cu raportul $2$",
-      "congruente",
-      "neasemenea",
-      "asemenea, cu raportul $3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "congruenta-si-asemanare-009",
-    "tip": "simplu",
-    "intrebare": "Ce este raportul de asemănare $k$?",
-    "variante": [
-      "suma laturilor",
-      "diferența unghiurilor",
-      "raportul laturilor corespunzătoare",
-      "raportul ariilor"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "congruenta-si-asemanare-010",
-    "tip": "simplu",
-    "intrebare": "Dacă $k=2$, perimetrele se află în raportul:",
-    "variante": [
-      "$1$",
-      "$4$",
-      "$8$",
-      "$2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "congruenta-si-asemanare-011",
-    "tip": "simplu",
-    "intrebare": "Dacă $k=2$, ariile se află în raportul:",
-    "variante": [
-      "$1$",
-      "$2$",
-      "$4$",
-      "$8$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "congruenta-si-asemanare-012",
-    "tip": "simplu",
-    "intrebare": "Dacă $k=3$, ariile se află în raportul:",
-    "variante": [
-      "$9$",
-      "$6$",
-      "$27$",
-      "$3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "congruenta-si-asemanare-013",
-    "tip": "simplu",
-    "intrebare": "Dacă $DE\\parallel BC$ ($D\\in AB$, $E\\in AC$), atunci:",
-    "variante": [
-      "$\\triangle ADE\\equiv\\triangle ABC$",
-      "$\\triangle ADE\\sim\\triangle ABC$",
-      "$DE=BC$",
-      "$AD=AB$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-014",
-    "tip": "simplu",
-    "intrebare": "Teorema lui Thales (cu $MN\\parallel BC$):",
-    "variante": [
-      "$\\frac{AM}{AB}=\\frac{BC}{AC}$",
-      "$AM\\cdot AB=AN\\cdot AC$",
-      "$\\frac{AM}{AB}=\\frac{AN}{AC}$",
-      "$AM=AN$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "congruenta-si-asemanare-015",
-    "tip": "simplu",
-    "intrebare": "Triunghiurile $ABC$ și $DEF$ au $\\hat A=\\hat D$ și $\\hat B=\\hat E$. Sunt:",
-    "variante": [
-      "echilaterale",
-      "asemenea (UU)",
-      "neasemenea",
-      "congruente sigur"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "congruenta-si-asemanare-016",
-    "tip": "simplu",
-    "intrebare": "Dacă două triunghiuri sunt congruente, atunci sunt și:",
-    "variante": [
-      "dreptunghice",
-      "asemenea, cu $k=1$",
-      "echilaterale",
-      "neasemenea"
-    ],
-    "corect": 1
-  }
+ {
+  "id": "congruenta-si-asemanare-001",
+  "tip": "simplu",
+  "intrebare": "Care este unul dintre cazurile de congruență a triunghiurilor?",
+  "variante": [
+   "UUU (trei unghiuri)",
+   "LLL (trei laturi)",
+   "LLU oricare",
+   "UL oricare"
+  ],
+  "corect": 1,
+  "explicatie": "LLL (latură-latură-latură) este un caz de congruență: trei laturi respectiv egale determină triunghiul. Trei unghiuri egale (UUU) nu ajung."
+ },
+ {
+  "id": "congruenta-si-asemanare-002",
+  "tip": "simplu",
+  "intrebare": "Ce înseamnă cazul LUL?",
+  "variante": [
+   "două unghiuri și latura dintre ele",
+   "două laturi și unghiul dintre ele",
+   "trei laturi",
+   "trei unghiuri"
+  ],
+  "corect": 1,
+  "explicatie": "LUL înseamnă două laturi egale și unghiul cuprins între ele egal; unghiul trebuie să fie chiar cel dintre cele două laturi."
+ },
+ {
+  "id": "congruenta-si-asemanare-003",
+  "tip": "simplu",
+  "intrebare": "Ce înseamnă cazul ULU?",
+  "variante": [
+   "două laturi și unghiul dintre ele",
+   "două unghiuri și latura dintre ele",
+   "trei laturi",
+   "trei unghiuri"
+  ],
+  "corect": 1,
+  "explicatie": "ULU înseamnă două unghiuri egale și latura dintre ele egală, adică latura care are ca extremități vârfurile celor două unghiuri."
+ },
+ {
+  "id": "congruenta-si-asemanare-004",
+  "tip": "simplu",
+  "intrebare": "Triunghiuri congruente au:",
+  "variante": [
+   "doar același perimetru",
+   "aceeași formă și aceleași dimensiuni",
+   "doar aceeași formă",
+   "doar aceleași unghiuri"
+  ],
+  "corect": 1,
+  "explicatie": "Triunghiurile congruente se pot suprapune perfect, deci au aceeași formă și aceleași dimensiuni."
+ },
+ {
+  "id": "congruenta-si-asemanare-005",
+  "tip": "simplu",
+  "intrebare": "Triunghiuri asemenea au:",
+  "variante": [
+   "mereu același perimetru",
+   "mereu aceeași arie",
+   "mereu aceleași dimensiuni",
+   "aceeași formă, dimensiuni diferite"
+  ],
+  "corect": 3,
+  "explicatie": "Triunghiurile asemenea au unghiurile egale și laturile proporționale: aceeași formă, dar dimensiuni (în general) diferite, ca o mărire la xerox."
+ },
+ {
+  "id": "congruenta-si-asemanare-006",
+  "tip": "simplu",
+  "intrebare": "Care este cazul de asemănare UU?",
+  "variante": [
+   "două unghiuri egale",
+   "trei laturi egale",
+   "un unghi egal",
+   "două laturi egale"
+  ],
+  "corect": 0,
+  "explicatie": "Cazul UU: dacă două unghiuri ale unui triunghi sunt egale cu două ale altuia, și al treilea este egal (suma $180^\\circ$), deci triunghiurile sunt asemenea."
+ },
+ {
+  "id": "congruenta-si-asemanare-007",
+  "tip": "simplu",
+  "intrebare": "Care este cazul de asemănare LLL?",
+  "variante": [
+   "perimetrele sunt egale",
+   "laturile sunt proporționale",
+   "unghiurile sunt $90^\\circ$",
+   "laturile sunt egale"
+  ],
+  "corect": 1,
+  "explicatie": "Cazul LLL de asemănare: dacă cele trei perechi de laturi corespunzătoare au același raport, triunghiurile sunt asemenea."
+ },
+ {
+  "id": "congruenta-si-asemanare-008",
+  "tip": "simplu",
+  "intrebare": "Triunghiurile cu laturile $3,4,5$ și $6,8,10$ sunt:",
+  "variante": [
+   "asemenea, cu raportul $2$",
+   "congruente",
+   "neasemenea",
+   "asemenea, cu raportul $3$"
+  ],
+  "corect": 0,
+  "explicatie": "Rapoartele laturilor sunt $\\frac63=\\frac84=\\frac{10}{5}=2$, deci triunghiurile sunt asemenea (LLL) cu raportul $2$."
+ },
+ {
+  "id": "congruenta-si-asemanare-009",
+  "tip": "simplu",
+  "intrebare": "Ce este raportul de asemănare $k$?",
+  "variante": [
+   "suma laturilor",
+   "diferența unghiurilor",
+   "raportul laturilor corespunzătoare",
+   "raportul ariilor"
+  ],
+  "corect": 2,
+  "explicatie": "Raportul de asemănare $k$ este raportul dintre două laturi corespunzătoare ale triunghiurilor asemenea."
+ },
+ {
+  "id": "congruenta-si-asemanare-010",
+  "tip": "simplu",
+  "intrebare": "Dacă $k=2$, perimetrele se află în raportul:",
+  "variante": [
+   "$1$",
+   "$4$",
+   "$8$",
+   "$2$"
+  ],
+  "corect": 3,
+  "explicatie": "Perimetrele sunt în același raport ca laturile, deci raportul lor este $k=2$."
+ },
+ {
+  "id": "congruenta-si-asemanare-011",
+  "tip": "simplu",
+  "intrebare": "Dacă $k=2$, ariile se află în raportul:",
+  "variante": [
+   "$1$",
+   "$2$",
+   "$4$",
+   "$8$"
+  ],
+  "corect": 2,
+  "explicatie": "Ariile sunt în raportul $k^2$, deci $2^2=4$ (laturile se dublează în două direcții)."
+ },
+ {
+  "id": "congruenta-si-asemanare-012",
+  "tip": "simplu",
+  "intrebare": "Dacă $k=3$, ariile se află în raportul:",
+  "variante": [
+   "$9$",
+   "$6$",
+   "$27$",
+   "$3$"
+  ],
+  "corect": 0,
+  "explicatie": "Raportul ariilor este pătratul raportului de asemănare: $k^2=3^2=9$."
+ },
+ {
+  "id": "congruenta-si-asemanare-013",
+  "tip": "simplu",
+  "intrebare": "Dacă $DE\\parallel BC$ ($D\\in AB$, $E\\in AC$), atunci:",
+  "variante": [
+   "$\\triangle ADE\\equiv\\triangle ABC$",
+   "$\\triangle ADE\\sim\\triangle ABC$",
+   "$DE=BC$",
+   "$AD=AB$"
+  ],
+  "corect": 1,
+  "explicatie": "Din $DE\\parallel BC$ rezultă unghiuri corespondente egale, iar $\\hat A$ este comun, deci $\\triangle ADE\\sim\\triangle ABC$ (UU). Nu sunt congruente în general."
+ },
+ {
+  "id": "congruenta-si-asemanare-014",
+  "tip": "simplu",
+  "intrebare": "Teorema lui Thales (cu $MN\\parallel BC$):",
+  "variante": [
+   "$\\frac{AM}{AB}=\\frac{BC}{AC}$",
+   "$AM\\cdot AB=AN\\cdot AC$",
+   "$\\frac{AM}{AB}=\\frac{AN}{AC}$",
+   "$AM=AN$"
+  ],
+  "corect": 2,
+  "explicatie": "Teorema lui Thales: o paralelă la o latură determină pe celelalte două laturi segmente proporționale, deci $\\frac{AM}{AB}=\\frac{AN}{AC}$."
+ },
+ {
+  "id": "congruenta-si-asemanare-015",
+  "tip": "simplu",
+  "intrebare": "Triunghiurile $ABC$ și $DEF$ au $\\hat A=\\hat D$ și $\\hat B=\\hat E$. Sunt:",
+  "variante": [
+   "echilaterale",
+   "asemenea (UU)",
+   "neasemenea",
+   "congruente sigur"
+  ],
+  "corect": 1,
+  "explicatie": "Două unghiuri egale în cele două triunghiuri înseamnă asemănare după cazul UU; laturile nu sunt neapărat egale."
+ },
+ {
+  "id": "congruenta-si-asemanare-016",
+  "tip": "simplu",
+  "intrebare": "Dacă două triunghiuri sunt congruente, atunci sunt și:",
+  "variante": [
+   "dreptunghice",
+   "asemenea, cu $k=1$",
+   "echilaterale",
+   "neasemenea"
+  ],
+  "corect": 1,
+  "explicatie": "Triunghiurile congruente au aceleași laturi, deci raportul laturilor este $1$: sunt asemenea cu $k=1$."
+ }
 ]

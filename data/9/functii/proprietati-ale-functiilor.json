@@ -1,262 +1,282 @@
 [
-  {
-    "id": "proprietati-ale-functiilor-001",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția descrescătoare?",
-    "variante": [
-      "$[-2;2]$",
-      "$[2;4]$",
-      "$[-4;-2]$",
-      "$[-4;0]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pA.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-002",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției (unde taie axa $Ox$)?",
-    "variante": [
-      "$-4,\\ 0,\\ 4$",
-      "$-2,\\ 2$",
-      "$-2,\\ 0,\\ 2$",
-      "$0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pA.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-003",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mare valoare a funcției?",
-    "variante": [
-      "$2$",
-      "$-2$",
-      "$4$",
-      "$0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pA.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $f(2)$?",
-    "variante": [
-      "$-2$",
-      "$0$",
-      "$4$",
-      "$2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pA.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-005",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția crescătoare?",
-    "variante": [
-      "$[-2;0]$",
-      "$[0;2]$",
-      "$[2;4]$",
-      "$[-4;-2]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pB.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $f(0)$?",
-    "variante": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-pB.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-007",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției?",
-    "variante": [
-      "$-2$ și $2$",
-      "$-3$ și $1$",
-      "$-1$ și $3$",
-      "$0$ și $4$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-pB.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-008",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mică valoare a funcției?",
-    "variante": [
-      "$2$",
-      "$-4$",
-      "$-2$",
-      "$0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-pB.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-009",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția descrescătoare?",
-    "variante": [
-      "$[-3;3]$",
-      "$[1;3]$",
-      "$[-3;-1]$",
-      "$[-1;1]$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-pC.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-010",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mică valoare a funcției?",
-    "variante": [
-      "$3$",
-      "$1$",
-      "$-3$",
-      "$-1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-pC.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-011",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este $f(x)>0$?",
-    "variante": [
-      "$[-3;-2)\\cup(2;3]$",
-      "$[-3;-1]$",
-      "$(-1;1)$",
-      "$(-2;2)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pC.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-012",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției?",
-    "variante": [
-      "$-2$ și $2$",
-      "$0$",
-      "$-3$ și $3$",
-      "$-1$ și $1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pC.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-013",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția crescătoare?",
-    "variante": [
-      "$[-4;0]$",
-      "$[-4;4]$",
-      "$[0;4]$",
-      "$[-2;2]$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pD.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-014",
-    "tip": "simplu",
-    "intrebare": "Pentru ce $x$ funcția are valoarea cea mai mare?",
-    "variante": [
-      "$x=3$",
-      "$x=2$",
-      "$x=0$",
-      "$x=-3$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-pD.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-015",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este $f(x)>0$?",
-    "variante": [
-      "$(-4;4)$",
-      "$(-3;3)$",
-      "$(0;4)$",
-      "$(-4;0)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-pD.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $f(-2)$?",
-    "variante": [
-      "$2$",
-      "$1$",
-      "$-1$",
-      "$3$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-pD.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-017",
-    "tip": "simplu",
-    "intrebare": "Pe ce interval este funcția descrescătoare?",
-    "variante": [
-      "$[-2;2]$",
-      "$[0;4]$",
-      "$[-4;0]$",
-      "$[-4;-2]$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-pE.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-018",
-    "tip": "simplu",
-    "intrebare": "Care este cea mai mică valoare a funcției?",
-    "variante": [
-      "$-2$",
-      "$2$",
-      "$-4$",
-      "$0$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pE.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-019",
-    "tip": "simplu",
-    "intrebare": "Care sunt zerourile funcției?",
-    "variante": [
-      "$-2$ și $2$",
-      "$0$",
-      "$-4$ și $4$",
-      "$-2,\\ 0,\\ 2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-pE.svg"
-  },
-  {
-    "id": "proprietati-ale-functiilor-020",
-    "tip": "simplu",
-    "intrebare": "Pe ce mulțime este $f(x)<0$?",
-    "variante": [
-      "$(-4;4)$",
-      "$(-4;-2)$",
-      "$(2;4)$",
-      "$(-2;2)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-pE.svg"
-  }
+ {
+  "id": "proprietati-ale-functiilor-001",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția descrescătoare?",
+  "variante": [
+   "$[-2;2]$",
+   "$[2;4]$",
+   "$[-4;-2]$",
+   "$[-4;0]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pA.svg",
+  "explicatie": "Funcția e descrescătoare unde graficul coboară de la stânga la dreapta. Aici coboară pe $[-2;2]$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-002",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției (unde taie axa $Ox$)?",
+  "variante": [
+   "$-4,\\ 0,\\ 4$",
+   "$-2,\\ 2$",
+   "$-2,\\ 0,\\ 2$",
+   "$0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pA.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care graficul taie axa $Ox$: $-4$, $0$ și $4$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-003",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mare valoare a funcției?",
+  "variante": [
+   "$2$",
+   "$-2$",
+   "$4$",
+   "$0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pA.svg",
+  "explicatie": "Cea mai mare valoare este ordonata punctului cel mai de sus al graficului, adică $2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $f(2)$?",
+  "variante": [
+   "$-2$",
+   "$0$",
+   "$4$",
+   "$2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pA.svg",
+  "explicatie": "Citim ordonata punctului de pe grafic de abscisă $2$: este $-2$, deci $f(2)=-2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-005",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția crescătoare?",
+  "variante": [
+   "$[-2;0]$",
+   "$[0;2]$",
+   "$[2;4]$",
+   "$[-4;-2]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pB.svg",
+  "explicatie": "Funcția e crescătoare unde graficul urcă de la stânga la dreapta, adică pe $[-2;0]$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $f(0)$?",
+  "variante": [
+   "$1$",
+   "$-2$",
+   "$0$",
+   "$2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-pB.svg",
+  "explicatie": "$f(0)$ este ordonata punctului în care graficul taie axa $Oy$. Din grafic $f(0)=2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-007",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției?",
+  "variante": [
+   "$-2$ și $2$",
+   "$-3$ și $1$",
+   "$-1$ și $3$",
+   "$0$ și $4$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-pB.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care graficul taie axa $Ox$: $-1$ și $3$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-008",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mică valoare a funcției?",
+  "variante": [
+   "$2$",
+   "$-4$",
+   "$-2$",
+   "$0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-pB.svg",
+  "explicatie": "Cea mai mică valoare este ordonata punctului cel mai de jos al graficului, adică $-2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-009",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția descrescătoare?",
+  "variante": [
+   "$[-3;3]$",
+   "$[1;3]$",
+   "$[-3;-1]$",
+   "$[-1;1]$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-pC.svg",
+  "explicatie": "Graficul coboară de la stânga la dreapta pe $[-3;-1]$, deci acolo funcția e descrescătoare."
+ },
+ {
+  "id": "proprietati-ale-functiilor-010",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mică valoare a funcției?",
+  "variante": [
+   "$3$",
+   "$1$",
+   "$-3$",
+   "$-1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-pC.svg",
+  "explicatie": "Cea mai mică valoare e ordonata punctului cel mai de jos al graficului. Din grafic ea este $-1$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-011",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este $f(x)>0$?",
+  "variante": [
+   "$[-3;-2)\\cup(2;3]$",
+   "$[-3;-1]$",
+   "$(-1;1)$",
+   "$(-2;2)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pC.svg",
+  "explicatie": "$f(x)>0$ unde graficul e deasupra axei $Ox$. Asta se întâmplă pe $[-3;-2)\\cup(2;3]$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-012",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției?",
+  "variante": [
+   "$-2$ și $2$",
+   "$0$",
+   "$-3$ și $3$",
+   "$-1$ și $1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pC.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care graficul taie axa $Ox$: $-2$ și $2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-013",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția crescătoare?",
+  "variante": [
+   "$[-4;0]$",
+   "$[-4;4]$",
+   "$[0;4]$",
+   "$[-2;2]$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pD.svg",
+  "explicatie": "Graficul urcă de la stânga la dreapta pe $[-4;0]$, deci funcția e crescătoare acolo."
+ },
+ {
+  "id": "proprietati-ale-functiilor-014",
+  "tip": "simplu",
+  "intrebare": "Pentru ce $x$ funcția are valoarea cea mai mare?",
+  "variante": [
+   "$x=3$",
+   "$x=2$",
+   "$x=0$",
+   "$x=-3$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-pD.svg",
+  "explicatie": "Valoarea cea mai mare este în punctul cel mai înalt al graficului, care are abscisa $x=0$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-015",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este $f(x)>0$?",
+  "variante": [
+   "$(-4;4)$",
+   "$(-3;3)$",
+   "$(0;4)$",
+   "$(-4;0)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-pD.svg",
+  "explicatie": "$f(x)>0$ unde graficul e deasupra axei $Ox$, adică pentru $x$ din $(-3;3)$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $f(-2)$?",
+  "variante": [
+   "$2$",
+   "$1$",
+   "$-1$",
+   "$3$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-pD.svg",
+  "explicatie": "Citim ordonata punctului de pe grafic cu abscisa $-2$: este $1$, deci $f(-2)=1$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-017",
+  "tip": "simplu",
+  "intrebare": "Pe ce interval este funcția descrescătoare?",
+  "variante": [
+   "$[-2;2]$",
+   "$[0;4]$",
+   "$[-4;0]$",
+   "$[-4;-2]$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-pE.svg",
+  "explicatie": "Graficul coboară de la stânga la dreapta pe $[-4;0]$, deci funcția e descrescătoare acolo."
+ },
+ {
+  "id": "proprietati-ale-functiilor-018",
+  "tip": "simplu",
+  "intrebare": "Care este cea mai mică valoare a funcției?",
+  "variante": [
+   "$-2$",
+   "$2$",
+   "$-4$",
+   "$0$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pE.svg",
+  "explicatie": "Cea mai mică valoare este ordonata punctului cel mai de jos al graficului, adică $-2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-019",
+  "tip": "simplu",
+  "intrebare": "Care sunt zerourile funcției?",
+  "variante": [
+   "$-2$ și $2$",
+   "$0$",
+   "$-4$ și $4$",
+   "$-2,\\ 0,\\ 2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-pE.svg",
+  "explicatie": "Zerourile sunt abscisele punctelor în care graficul taie axa $Ox$: $-2$ și $2$."
+ },
+ {
+  "id": "proprietati-ale-functiilor-020",
+  "tip": "simplu",
+  "intrebare": "Pe ce mulțime este $f(x)<0$?",
+  "variante": [
+   "$(-4;4)$",
+   "$(-4;-2)$",
+   "$(2;4)$",
+   "$(-2;2)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-pE.svg",
+  "explicatie": "$f(x)<0$ unde graficul e sub axa $Ox$, adică pentru $x\\in(-2;2)$."
+ }
 ]

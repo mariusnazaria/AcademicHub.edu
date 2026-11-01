@@ -1,245 +1,265 @@
 [
-  {
-    "id": "polinoame-001",
-    "tip": "simplu",
-    "intrebare": "Care este gradul polinomului $2x^3-x+5$?",
-    "variante": [
-      "$5$",
-      "$3$",
-      "$2$",
-      "$1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-002",
-    "tip": "simplu",
-    "intrebare": "Care este coeficientul dominant al lui $2x^3-x+5$?",
-    "variante": [
-      "$2$",
-      "$3$",
-      "$-1$",
-      "$5$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-003",
-    "tip": "simplu",
-    "intrebare": "Care este termenul liber al lui $2x^3-x+5$?",
-    "variante": [
-      "$3$",
-      "$5$",
-      "$2$",
-      "$-1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-004",
-    "tip": "simplu",
-    "intrebare": "Dacă $P(x)=x^2+1$, cât este $P(2)$?",
-    "variante": [
-      "$4$",
-      "$5$",
-      "$6$",
-      "$3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $P(0)$ pentru un polinom $P$?",
-    "variante": [
-      "mereu $1$",
-      "coeficientul dominant",
-      "termenul liber",
-      "gradul"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "polinoame-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $(a+b)^2$?",
-    "variante": [
-      "$a^2+2ab+b^2$",
-      "$a^2+ab+b^2$",
-      "$2a+2b$",
-      "$a^2+b^2$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $(a-b)^2$?",
-    "variante": [
-      "$a^2-ab+b^2$",
-      "$a^2-2ab+b^2$",
-      "$a^2+2ab+b^2$",
-      "$a^2-b^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $(a-b)(a+b)$?",
-    "variante": [
-      "$(a-b)^2$",
-      "$a^2-2ab+b^2$",
-      "$a^2+b^2$",
-      "$a^2-b^2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "polinoame-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x+3)^2$?",
-    "variante": [
-      "$x^2+9$",
-      "$x^2+6x+9$",
-      "$x^2+3x+9$",
-      "$x^2+6x+3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x-2)^2$?",
-    "variante": [
-      "$x^2+4x+4$",
-      "$x^2-4x+4$",
-      "$x^2-2x+4$",
-      "$x^2-4$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x-5)(x+5)$?",
-    "variante": [
-      "$x^2-25$",
-      "$x^2-10x+25$",
-      "$x^2-5$",
-      "$x^2+25$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x+1)(x+2)$?",
-    "variante": [
-      "$x^2+3x+2$",
-      "$x^2+2$",
-      "$x^2+2x+2$",
-      "$x^2+3x+3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $x(x+4)$?",
-    "variante": [
-      "$x^2+4$",
-      "$x+4x$",
-      "$2x+4$",
-      "$x^2+4x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "polinoame-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2+x)+(2x^2-3)$?",
-    "variante": [
-      "$3x^2+x-3$",
-      "$3x^4+x-3$",
-      "$3x^2+x+3$",
-      "$2x^2+x-3$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-015",
-    "tip": "simplu",
-    "intrebare": "Gradul produsului a două polinoame este:",
-    "variante": [
-      "produsul gradelor",
-      "maximul gradelor",
-      "suma gradelor",
-      "diferența gradelor"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "polinoame-016",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie $x^2+6x+9$ ca pătrat?",
-    "variante": [
-      "$(x+9)^2$",
-      "$(x+3)^2$",
-      "$(x+6)^2$",
-      "$(x-3)^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "polinoame-017",
-    "tip": "simplu",
-    "intrebare": "Cum se descompune $x^2-16$?",
-    "variante": [
-      "$(x-4)^2$",
-      "$(x-8)(x+8)$",
-      "$(x+4)^2$",
-      "$(x-4)(x+4)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "polinoame-018",
-    "tip": "simplu",
-    "intrebare": "Cât este $2(x+3)-x$?",
-    "variante": [
-      "$x+6$",
-      "$3x+6$",
-      "$x+3$",
-      "$x+9$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-019",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x+1)^2-(x-1)^2$?",
-    "variante": [
-      "$4x$",
-      "$4x^2$",
-      "$2x$",
-      "$0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "polinoame-020",
-    "tip": "multiplu",
-    "intrebare": "Care egalități sunt adevărate?",
-    "variante": [
-      "$(a-b)(a+b)=a^2-b^2$",
-      "$(a+b)^2=a^2+2ab+b^2$",
-      "$(a-b)^2=a^2-b^2$",
-      "$(a+b)^2=a^2+b^2$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
-  }
+ {
+  "id": "polinoame-001",
+  "tip": "simplu",
+  "intrebare": "Care este gradul polinomului $2x^3-x+5$?",
+  "variante": [
+   "$5$",
+   "$3$",
+   "$2$",
+   "$1$"
+  ],
+  "corect": 1,
+  "explicatie": "Gradul este cel mai mare exponent al lui $x$: $3$."
+ },
+ {
+  "id": "polinoame-002",
+  "tip": "simplu",
+  "intrebare": "Care este coeficientul dominant al lui $2x^3-x+5$?",
+  "variante": [
+   "$2$",
+   "$3$",
+   "$-1$",
+   "$5$"
+  ],
+  "corect": 0,
+  "explicatie": "Coeficientul dominant este cel al termenului de grad maxim ($2x^3$): $2$."
+ },
+ {
+  "id": "polinoame-003",
+  "tip": "simplu",
+  "intrebare": "Care este termenul liber al lui $2x^3-x+5$?",
+  "variante": [
+   "$3$",
+   "$5$",
+   "$2$",
+   "$-1$"
+  ],
+  "corect": 1,
+  "explicatie": "Termenul liber este cel fără $x$: $5$."
+ },
+ {
+  "id": "polinoame-004",
+  "tip": "simplu",
+  "intrebare": "Dacă $P(x)=x^2+1$, cât este $P(2)$?",
+  "variante": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$3$"
+  ],
+  "corect": 1,
+  "explicatie": "Înlocuim $x=2$: $P(2)=2^2+1=5$."
+ },
+ {
+  "id": "polinoame-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $P(0)$ pentru un polinom $P$?",
+  "variante": [
+   "mereu $1$",
+   "coeficientul dominant",
+   "termenul liber",
+   "gradul"
+  ],
+  "corect": 2,
+  "explicatie": "$P(0)$ anulează toți termenii cu $x$, rămâne doar termenul liber."
+ },
+ {
+  "id": "polinoame-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $(a+b)^2$?",
+  "variante": [
+   "$a^2+2ab+b^2$",
+   "$a^2+ab+b^2$",
+   "$2a+2b$",
+   "$a^2+b^2$"
+  ],
+  "corect": 0,
+  "explicatie": "Formula pătratului unei sume: $(a+b)^2=a^2+2ab+b^2$."
+ },
+ {
+  "id": "polinoame-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $(a-b)^2$?",
+  "variante": [
+   "$a^2-ab+b^2$",
+   "$a^2-2ab+b^2$",
+   "$a^2+2ab+b^2$",
+   "$a^2-b^2$"
+  ],
+  "corect": 1,
+  "explicatie": "Formula pătratului unei diferențe: $(a-b)^2=a^2-2ab+b^2$."
+ },
+ {
+  "id": "polinoame-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $(a-b)(a+b)$?",
+  "variante": [
+   "$(a-b)^2$",
+   "$a^2-2ab+b^2$",
+   "$a^2+b^2$",
+   "$a^2-b^2$"
+  ],
+  "corect": 3,
+  "explicatie": "Formula diferenței de pătrate: $(a-b)(a+b)=a^2-b^2$."
+ },
+ {
+  "id": "polinoame-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x+3)^2$?",
+  "variante": [
+   "$x^2+9$",
+   "$x^2+6x+9$",
+   "$x^2+3x+9$",
+   "$x^2+6x+3$"
+  ],
+  "corect": 1,
+  "explicatie": "$(x+3)^2=x^2+2\\cdot x\\cdot3+9=x^2+6x+9$."
+ },
+ {
+  "id": "polinoame-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x-2)^2$?",
+  "variante": [
+   "$x^2+4x+4$",
+   "$x^2-4x+4$",
+   "$x^2-2x+4$",
+   "$x^2-4$"
+  ],
+  "corect": 1,
+  "explicatie": "$(x-2)^2=x^2-2\\cdot x\\cdot2+4=x^2-4x+4$."
+ },
+ {
+  "id": "polinoame-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x-5)(x+5)$?",
+  "variante": [
+   "$x^2-25$",
+   "$x^2-10x+25$",
+   "$x^2-5$",
+   "$x^2+25$"
+  ],
+  "corect": 0,
+  "explicatie": "Diferența de pătrate: $(x-5)(x+5)=x^2-25$."
+ },
+ {
+  "id": "polinoame-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x+1)(x+2)$?",
+  "variante": [
+   "$x^2+3x+2$",
+   "$x^2+2$",
+   "$x^2+2x+2$",
+   "$x^2+3x+3$"
+  ],
+  "corect": 0,
+  "explicatie": "Înmulțim: $x^2+2x+x+2=x^2+3x+2$."
+ },
+ {
+  "id": "polinoame-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $x(x+4)$?",
+  "variante": [
+   "$x^2+4$",
+   "$x+4x$",
+   "$2x+4$",
+   "$x^2+4x$"
+  ],
+  "corect": 3,
+  "explicatie": "Distribuim $x$: $x\\cdot x+x\\cdot4=x^2+4x$."
+ },
+ {
+  "id": "polinoame-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2+x)+(2x^2-3)$?",
+  "variante": [
+   "$3x^2+x-3$",
+   "$3x^4+x-3$",
+   "$3x^2+x+3$",
+   "$2x^2+x-3$"
+  ],
+  "corect": 0,
+  "explicatie": "Adunăm termenii asemenea: $x^2+2x^2=3x^2$, iar $x$ și $-3$ rămân."
+ },
+ {
+  "id": "polinoame-015",
+  "tip": "simplu",
+  "intrebare": "Gradul produsului a două polinoame este:",
+  "variante": [
+   "produsul gradelor",
+   "maximul gradelor",
+   "suma gradelor",
+   "diferența gradelor"
+  ],
+  "corect": 2,
+  "explicatie": "La înmulțirea polinoamelor, exponenții se adună, deci gradele se adună."
+ },
+ {
+  "id": "polinoame-016",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie $x^2+6x+9$ ca pătrat?",
+  "variante": [
+   "$(x+9)^2$",
+   "$(x+3)^2$",
+   "$(x+6)^2$",
+   "$(x-3)^2$"
+  ],
+  "corect": 1,
+  "explicatie": "$x^2+6x+9=x^2+2\\cdot x\\cdot3+3^2=(x+3)^2$."
+ },
+ {
+  "id": "polinoame-017",
+  "tip": "simplu",
+  "intrebare": "Cum se descompune $x^2-16$?",
+  "variante": [
+   "$(x-4)^2$",
+   "$(x-8)(x+8)$",
+   "$(x+4)^2$",
+   "$(x-4)(x+4)$"
+  ],
+  "corect": 3,
+  "explicatie": "$16=4^2$, deci diferența de pătrate dă $x^2-16=(x-4)(x+4)$."
+ },
+ {
+  "id": "polinoame-018",
+  "tip": "simplu",
+  "intrebare": "Cât este $2(x+3)-x$?",
+  "variante": [
+   "$x+6$",
+   "$3x+6$",
+   "$x+3$",
+   "$x+9$"
+  ],
+  "corect": 0,
+  "explicatie": "Desfacem paranteza: $2x+6-x=x+6$."
+ },
+ {
+  "id": "polinoame-019",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x+1)^2-(x-1)^2$?",
+  "variante": [
+   "$4x$",
+   "$4x^2$",
+   "$2x$",
+   "$0$"
+  ],
+  "corect": 0,
+  "explicatie": "$(x^2+2x+1)-(x^2-2x+1)=4x$."
+ },
+ {
+  "id": "polinoame-020",
+  "tip": "multiplu",
+  "intrebare": "Care egalități sunt adevărate?",
+  "variante": [
+   "$(a-b)(a+b)=a^2-b^2$",
+   "$(a+b)^2=a^2+2ab+b^2$",
+   "$(a-b)^2=a^2-b^2$",
+   "$(a+b)^2=a^2+b^2$"
+  ],
+  "corect": [
+   0,
+   1
+  ],
+  "explicatie": "Corecte sunt diferența de pătrate și pătratul sumei; celelalte două nu au termenul $2ab$ sau $-2ab$ din dezvoltare."
+ }
 ]

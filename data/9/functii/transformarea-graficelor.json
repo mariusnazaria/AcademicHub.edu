@@ -1,234 +1,252 @@
 [
-  {
-    "id": "transformarea-graficelor-001",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
-    "variante": [
-      "cu $2$ în sus",
-      "cu $2$ în jos",
-      "cu $2$ la dreapta",
-      "cu $2$ la stânga"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t1.svg"
-  },
-  {
-    "id": "transformarea-graficelor-002",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei albastre?",
-    "variante": [
-      "$(2;2)$",
-      "$(0;2)$",
-      "$(0;-2)$",
-      "$(2;0)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-t1.svg"
-  },
-  {
-    "id": "transformarea-graficelor-003",
-    "tip": "simplu",
-    "intrebare": "Care este formula parabolei albastre?",
-    "variante": [
-      "$y=(x+2)^2$",
-      "$y=x^2-2$",
-      "$y=(x-2)^2$",
-      "$y=x^2+2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-t1.svg"
-  },
-  {
-    "id": "transformarea-graficelor-004",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
-    "variante": [
-      "cu $3$ la dreapta",
-      "cu $3$ în jos",
-      "cu $3$ în sus",
-      "cu $3$ la stânga"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t2.svg"
-  },
-  {
-    "id": "transformarea-graficelor-005",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei albastre?",
-    "variante": [
-      "$(0;3)$",
-      "$(-3;3)$",
-      "$(-3;0)$",
-      "$(3;0)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-t2.svg"
-  },
-  {
-    "id": "transformarea-graficelor-006",
-    "tip": "simplu",
-    "intrebare": "Care este formula parabolei albastre?",
-    "variante": [
-      "$y=(x+3)^2$",
-      "$y=x^2-3$",
-      "$y=(x-3)^2$",
-      "$y=x^2+3$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-t2.svg"
-  },
-  {
-    "id": "transformarea-graficelor-007",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
-    "variante": [
-      "cu $2$ la stânga",
-      "cu $2$ la dreapta",
-      "cu $2$ în sus",
-      "cu $2$ în jos"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t3.svg"
-  },
-  {
-    "id": "transformarea-graficelor-008",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei albastre?",
-    "variante": [
-      "$(2;0)$",
-      "$(-2;0)$",
-      "$(0;-2)$",
-      "$(2;-2)$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-t3.svg"
-  },
-  {
-    "id": "transformarea-graficelor-009",
-    "tip": "simplu",
-    "intrebare": "Care este formula parabolei albastre?",
-    "variante": [
-      "$y=x^2+2$",
-      "$y=(x-2)^2$",
-      "$y=x^2-2$",
-      "$y=(x+2)^2$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-t3.svg"
-  },
-  {
-    "id": "transformarea-graficelor-010",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
-    "variante": [
-      "cu $3$ la stânga",
-      "cu $3$ în jos",
-      "cu $3$ la dreapta",
-      "cu $3$ în sus"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-t4.svg"
-  },
-  {
-    "id": "transformarea-graficelor-011",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei albastre?",
-    "variante": [
-      "$(-3;-3)$",
-      "$(-3;0)$",
-      "$(0;3)$",
-      "$(0;-3)$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-t4.svg"
-  },
-  {
-    "id": "transformarea-graficelor-012",
-    "tip": "simplu",
-    "intrebare": "Care este formula parabolei albastre?",
-    "variante": [
-      "$y=x^2-3$",
-      "$y=(x+3)^2$",
-      "$y=x^2+3$",
-      "$y=(x-3)^2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t4.svg"
-  },
-  {
-    "id": "transformarea-graficelor-013",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
-    "variante": [
-      "cu $1$ la stânga și $2$ în sus",
-      "cu $1$ la dreapta și $2$ în jos",
-      "cu $1$ la dreapta și $2$ în sus",
-      "cu $2$ la dreapta și $1$ în sus"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-t5.svg"
-  },
-  {
-    "id": "transformarea-graficelor-014",
-    "tip": "simplu",
-    "intrebare": "Care este vârful parabolei albastre?",
-    "variante": [
-      "$(1;2)$",
-      "$(-1;2)$",
-      "$(2;1)$",
-      "$(1;-2)$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t5.svg"
-  },
-  {
-    "id": "transformarea-graficelor-015",
-    "tip": "simplu",
-    "intrebare": "Care este formula parabolei albastre?",
-    "variante": [
-      "$y=(x-1)^2+2$",
-      "$y=(x+1)^2+2$",
-      "$y=(x-2)^2+1$",
-      "$y=(x-1)^2-2$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-t5.svg"
-  },
-  {
-    "id": "transformarea-graficelor-016",
-    "tip": "simplu",
-    "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum?",
-    "variante": [
-      "oglindită față de axa $Oy$",
-      "mutată la stânga",
-      "mutată în jos",
-      "oglindită față de axa $Ox$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-t6.svg"
-  },
-  {
-    "id": "transformarea-graficelor-017",
-    "tip": "simplu",
-    "intrebare": "Dacă înlocuim $f(x)$ cu $f(x)+2$, graficul se mută:",
-    "variante": [
-      "cu $2$ la stânga",
-      "cu $2$ la dreapta",
-      "cu $2$ în jos",
-      "cu $2$ în sus"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "transformarea-graficelor-018",
-    "tip": "simplu",
-    "intrebare": "Dacă înlocuim $f(x)$ cu $f(x-3)$, graficul se mută:",
-    "variante": [
-      "cu $3$ la dreapta",
-      "cu $3$ în sus",
-      "cu $3$ în jos",
-      "cu $3$ la stânga"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "transformarea-graficelor-001",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
+  "variante": [
+   "cu $2$ în sus",
+   "cu $2$ în jos",
+   "cu $2$ la dreapta",
+   "cu $2$ la stânga"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t1.svg",
+  "explicatie": "Vârful a urcat de la $(0;0)$ la $(0;2)$. Graficul lui $y=x^2$ s-a mutat cu $2$ în sus."
+ },
+ {
+  "id": "transformarea-graficelor-002",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei albastre?",
+  "variante": [
+   "$(2;2)$",
+   "$(0;2)$",
+   "$(0;-2)$",
+   "$(2;0)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-t1.svg",
+  "explicatie": "Vârful parabolei e punctul cel mai de jos. Citit pe grafic, este $(0;2)$."
+ },
+ {
+  "id": "transformarea-graficelor-003",
+  "tip": "simplu",
+  "intrebare": "Care este formula parabolei albastre?",
+  "variante": [
+   "$y=(x+2)^2$",
+   "$y=x^2-2$",
+   "$y=(x-2)^2$",
+   "$y=x^2+2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-t1.svg",
+  "explicatie": "Graficul s-a mutat cu $2$ în sus, deci adunăm $2$ la $x^2$: $y=x^2+2$."
+ },
+ {
+  "id": "transformarea-graficelor-004",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
+  "variante": [
+   "cu $3$ la dreapta",
+   "cu $3$ în jos",
+   "cu $3$ în sus",
+   "cu $3$ la stânga"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t2.svg",
+  "explicatie": "Vârful s-a mutat de la $(0;0)$ la $(3;0)$, deci graficul s-a deplasat cu $3$ la dreapta."
+ },
+ {
+  "id": "transformarea-graficelor-005",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei albastre?",
+  "variante": [
+   "$(0;3)$",
+   "$(-3;3)$",
+   "$(-3;0)$",
+   "$(3;0)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-t2.svg",
+  "explicatie": "Vârful parabolei e pe axa $Ox$, la abscisa $3$: $(3;0)$."
+ },
+ {
+  "id": "transformarea-graficelor-006",
+  "tip": "simplu",
+  "intrebare": "Care este formula parabolei albastre?",
+  "variante": [
+   "$y=(x+3)^2$",
+   "$y=x^2-3$",
+   "$y=(x-3)^2$",
+   "$y=x^2+3$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-t2.svg",
+  "explicatie": "Mutarea cu $3$ la dreapta înseamnă $x\\to x-3$, deci $y=(x-3)^2$."
+ },
+ {
+  "id": "transformarea-graficelor-007",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
+  "variante": [
+   "cu $2$ la stânga",
+   "cu $2$ la dreapta",
+   "cu $2$ în sus",
+   "cu $2$ în jos"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t3.svg",
+  "explicatie": "Vârful s-a mutat de la $(0;0)$ la $(-2;0)$, deci graficul s-a deplasat cu $2$ la stânga."
+ },
+ {
+  "id": "transformarea-graficelor-008",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei albastre?",
+  "variante": [
+   "$(2;0)$",
+   "$(-2;0)$",
+   "$(0;-2)$",
+   "$(2;-2)$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-t3.svg",
+  "explicatie": "Vârful parabolei e pe axa $Ox$, la abscisa $-2$: $(-2;0)$."
+ },
+ {
+  "id": "transformarea-graficelor-009",
+  "tip": "simplu",
+  "intrebare": "Care este formula parabolei albastre?",
+  "variante": [
+   "$y=x^2+2$",
+   "$y=(x-2)^2$",
+   "$y=x^2-2$",
+   "$y=(x+2)^2$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-t3.svg",
+  "explicatie": "Mutarea cu $2$ la stânga înseamnă $x\\to x+2$, deci $y=(x+2)^2$."
+ },
+ {
+  "id": "transformarea-graficelor-010",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
+  "variante": [
+   "cu $3$ la stânga",
+   "cu $3$ în jos",
+   "cu $3$ la dreapta",
+   "cu $3$ în sus"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-t4.svg",
+  "explicatie": "Vârful a coborât de la $(0;0)$ la $(0;-3)$. Graficul s-a mutat cu $3$ în jos."
+ },
+ {
+  "id": "transformarea-graficelor-011",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei albastre?",
+  "variante": [
+   "$(-3;-3)$",
+   "$(-3;0)$",
+   "$(0;3)$",
+   "$(0;-3)$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-t4.svg",
+  "explicatie": "Vârful parabolei e pe axa $Oy$, la ordonata $-3$: $(0;-3)$."
+ },
+ {
+  "id": "transformarea-graficelor-012",
+  "tip": "simplu",
+  "intrebare": "Care este formula parabolei albastre?",
+  "variante": [
+   "$y=x^2-3$",
+   "$y=(x+3)^2$",
+   "$y=x^2+3$",
+   "$y=(x-3)^2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t4.svg",
+  "explicatie": "Mutarea cu $3$ în jos înseamnă scăderea lui $3$: $y=x^2-3$."
+ },
+ {
+  "id": "transformarea-graficelor-013",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum s-a mutat graficul?",
+  "variante": [
+   "cu $1$ la stânga și $2$ în sus",
+   "cu $1$ la dreapta și $2$ în jos",
+   "cu $1$ la dreapta și $2$ în sus",
+   "cu $2$ la dreapta și $1$ în sus"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-t5.svg",
+  "explicatie": "Vârful s-a mutat de la $(0;0)$ la $(1;2)$: $1$ la dreapta și $2$ în sus."
+ },
+ {
+  "id": "transformarea-graficelor-014",
+  "tip": "simplu",
+  "intrebare": "Care este vârful parabolei albastre?",
+  "variante": [
+   "$(1;2)$",
+   "$(-1;2)$",
+   "$(2;1)$",
+   "$(1;-2)$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t5.svg",
+  "explicatie": "Citit pe grafic, vârful parabolei albastre este $(1;2)$."
+ },
+ {
+  "id": "transformarea-graficelor-015",
+  "tip": "simplu",
+  "intrebare": "Care este formula parabolei albastre?",
+  "variante": [
+   "$y=(x-1)^2+2$",
+   "$y=(x+1)^2+2$",
+   "$y=(x-2)^2+1$",
+   "$y=(x-1)^2-2$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-t5.svg",
+  "explicatie": "Mutarea cu $1$ la dreapta dă $x\\to x-1$, iar cu $2$ în sus adună $2$: $y=(x-1)^2+2$."
+ },
+ {
+  "id": "transformarea-graficelor-016",
+  "tip": "simplu",
+  "intrebare": "Parabola albastră este obținută din $y=x^2$ (punctată). Cum?",
+  "variante": [
+   "oglindită față de axa $Oy$",
+   "mutată la stânga",
+   "mutată în jos",
+   "oglindită față de axa $Ox$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-t6.svg",
+  "explicatie": "Ramurile parabolei albastre merg în jos, deci ea este $y=-x^2$. Graficul e oglindit față de axa $Ox$."
+ },
+ {
+  "id": "transformarea-graficelor-017",
+  "tip": "simplu",
+  "intrebare": "Dacă înlocuim $f(x)$ cu $f(x)+2$, graficul se mută:",
+  "variante": [
+   "cu $2$ la stânga",
+   "cu $2$ la dreapta",
+   "cu $2$ în jos",
+   "cu $2$ în sus"
+  ],
+  "corect": 3,
+  "explicatie": "Adunarea lui $2$ la valorile funcției ridică fiecare punct al graficului cu $2$ unități, deci graficul se mută în sus."
+ },
+ {
+  "id": "transformarea-graficelor-018",
+  "tip": "simplu",
+  "intrebare": "Dacă înlocuim $f(x)$ cu $f(x-3)$, graficul se mută:",
+  "variante": [
+   "cu $3$ la dreapta",
+   "cu $3$ în sus",
+   "cu $3$ în jos",
+   "cu $3$ la stânga"
+  ],
+  "corect": 0,
+  "explicatie": "În $f(x-3)$ fiecare valoare apare cu $3$ unități mai la dreapta ($x-3=a$ înseamnă $x=a+3$). Graficul se mută la dreapta."
+ }
 ]

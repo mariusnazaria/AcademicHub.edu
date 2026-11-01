@@ -290,6 +290,7 @@ function ruleaza() {
     if (p[1] === 'intrebare') { renderIntrebareNoua(); return; }
     if (p[1] === 'gestionare') { renderGestionare(); return; }
     if (p[1] === 'editare') { renderEditareIntrebari(); return; }
+    if (p[1] === 'statistici') { renderStatistici(); return; }
     renderPanou();
     return;
   }
@@ -405,6 +406,87 @@ function marcheazaCorect(colectieId, intrebareId) {
   setGresite(colectieId, getGresite(colectieId).filter(id => id !== intrebareId));
 }
 
+// ---------------- Progres pe teme + serie de zile ----------------
+
+function cheieProg(cid) { return `ah_prog_${cid}`; }
+function getProg(cid) {
+  try { return JSON.parse(localStorage.getItem(cheieProg(cid))) || { c: [], v: [], n: 0 }; }
+  catch { return { c: [], v: [], n: 0 }; }
+}
+function setProg(cid, p) {
+  try { localStorage.setItem(cheieProg(cid), JSON.stringify(p)); } catch { /* spațiu plin */ }
+}
+function toateColectiile() {
+  const out = [];
+  if (!manifest) return out;
+  manifest.clase.forEach(cl => cl.materii.forEach(m => m.colectii.forEach(k => out.push(k))));
+  return out;
+}
+// id-ul colecției din care vine o întrebare (testarea amestecă colecții)
+function colectiaIntrebarii(qid, implicit) {
+  const cid = String(qid).replace(/-[^-]+$/, '');
+  return toateColectiile().some(k => k.id === cid) ? cid : implicit;
+}
+function statusColectie(k) {
+  const p = getProg(k.id);
+  const n = k.nr || p.n || 0;
+  if (p.v.length === 0) return { stare: 'nou', c: 0, n };
+  if (n > 0 && p.c.length >= n) return { stare: 'stapanit', c: p.c.length, n };
+  return { stare: 'lucru', c: p.c.length, n };
+}
+function textStatus(st) {
+  if (st.stare === 'nou') return 'neîncercat';
+  if (st.stare === 'stapanit') return '✓ stăpânit';
+  return st.n ? `în lucru · ${st.c}/${st.n}` : 'în lucru';
+}
+function ziLocala(d) {
+  const x = d || new Date();
+  return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
+}
+function getZile() {
+  try { return JSON.parse(localStorage.getItem('ah_zile')) || []; } catch { return []; }
+}
+function noteazaZi() {
+  const azi = ziLocala();
+  const zile = getZile();
+  if (!zile.includes(azi)) {
+    zile.push(azi);
+    try { localStorage.setItem('ah_zile', JSON.stringify(zile.slice(-400))); } catch { /* ignorăm */ }
+  }
+}
+function serieZile() {
+  const zile = new Set(getZile());
+  const d = new Date();
+  if (!zile.has(ziLocala(d))) d.setDate(d.getDate() - 1); // seria rămâne vie până la sfârșitul zilei următoare
+  let n = 0;
+  while (zile.has(ziLocala(d))) { n++; d.setDate(d.getDate() - 1); }
+  return n;
+}
+function inregistreazaProgres(intrebare, corect) {
+  const cid = colectiaIntrebarii(intrebare.id, state.colectie.id);
+  const k = toateColectiile().find(x => x.id === cid);
+  const p = getProg(cid);
+  if (!p.v.includes(intrebare.id)) p.v.push(intrebare.id);
+  p.c = p.c.filter(id => id !== intrebare.id);
+  if (corect) p.c.push(intrebare.id);
+  if (k && k.nr) p.n = k.nr;
+  setProg(cid, p);
+  noteazaZi();
+  trimiteStatistica(intrebare.id, cid, corect);
+}
+// Statistici anonime pentru profesori (doar id întrebare + corect/greșit)
+function trimiteStatistica(qid, cid, corect) {
+  const url = (typeof CONFIG !== 'undefined') && CONFIG.STATS_URL;
+  if (!url) return;
+  try {
+    fetch(url, {
+      method: 'POST', mode: 'no-cors', keepalive: true,
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify({ q: qid, c: cid, ok: corect ? 1 : 0 })
+    }).catch(() => {});
+  } catch { /* ignorăm */ }
+}
+
 // ---------------- Breadcrumb ----------------
 
 function renderBreadcrumb(parts) {
@@ -433,8 +515,17 @@ function renderClase() {
   const grid = tpl.getElementById('clase-grid');
   manifest.clase.forEach(clasa => {
     const n = clasa.materii.length;
-    grid.appendChild(cardEl(clasa.nume, `${n} materi${n === 1 ? 'e' : 'i'}`, () => mergiLa('/clasa/' + clasa.id)));
+    const toate = clasa.materii.flatMap(m => m.colectii);
+    const stap = toate.filter(k => statusColectie(k).stare === 'stapanit').length;
+    grid.appendChild(cardEl(clasa.nume, `${n} materi${n === 1 ? 'e' : 'i'}${toate.length ? ` · ${stap}/${toate.length} teme stăpânite` : ''}`, () => mergiLa('/clasa/' + clasa.id)));
   });
+  const serie = serieZile();
+  if (serie > 0 && state.rol !== 'profesor') {
+    const b = document.createElement('p');
+    b.className = 'serie-zile';
+    b.textContent = `🔥 Serie: ${serie} ${serie === 1 ? 'zi' : 'zile'} la rând`;
+    tpl.querySelector('.screen').insertBefore(b, tpl.getElementById('clase-grid'));
+  }
   app.innerHTML = '';
   app.appendChild(tpl);
 
@@ -453,7 +544,8 @@ function renderMaterii(clasa) {
   const grid = tpl.getElementById('materii-grid');
   clasa.materii.forEach(materie => {
     const n = materie.colectii.length;
-    grid.appendChild(cardEl(materie.nume, `${n} test${n === 1 ? '' : 'e'}`, () => mergiLa(`/clasa/${clasa.id}/${materie.id}`)));
+    const stap = materie.colectii.filter(k => statusColectie(k).stare === 'stapanit').length;
+    grid.appendChild(cardEl(materie.nume, `${n} test${n === 1 ? '' : 'e'}${stap ? ` · ${stap} stăpânite` : ''}`, () => mergiLa(`/clasa/${clasa.id}/${materie.id}`)));
   });
   app.innerHTML = '';
   app.appendChild(tpl);
@@ -493,8 +585,18 @@ function renderColectii(clasa, materie) {
   }
   materie.colectii.forEach(colectie => {
     const nr = getGresite(colectie.id).length;
-    grid.appendChild(cardEl(colectie.nume, nr > 0 ? `${nr} de repetat` : 'la zi',
-      () => mergiLa(`/clasa/${clasa.id}/${materie.id}/${colectie.id}`)));
+    const st = statusColectie(colectie);
+    const meta = textStatus(st) + (nr > 0 ? ` · ${nr} de repetat` : '');
+    const card = cardEl(colectie.nume, meta,
+      () => mergiLa(`/clasa/${clasa.id}/${materie.id}/${colectie.id}`));
+    card.classList.add('pick-' + st.stare);
+    if (st.n > 0 && st.stare !== 'nou') {
+      const bar = document.createElement('span');
+      bar.className = 'pick-bar';
+      bar.innerHTML = `<span style="width:${Math.round(100 * st.c / st.n)}%"></span>`;
+      card.appendChild(bar);
+    }
+    grid.appendChild(card);
   });
   app.innerHTML = '';
   app.appendChild(tpl);
@@ -715,6 +817,7 @@ function verificaRaspuns(intrebare, tip) {
     state.puncte += puncte;
     if (esteCorect) { state.corecte++; marcheazaCorect(state.colectie.id, intrebare.id); }
     else { state.gresite++; marcheazaGresit(state.colectie.id, intrebare.id); }
+    inregistreazaProgres(intrebare, esteCorect);
     actualizeazaStats();
   }
 
@@ -974,10 +1077,94 @@ function renderPanou() {
   document.getElementById('panou-colectie').addEventListener('click', () => mergiLa('/profesor/colectie'));
   document.getElementById('panou-materii').addEventListener('click', () => mergiLa('/profesor/gestionare'));
   document.getElementById('panou-editare').addEventListener('click', () => mergiLa('/profesor/editare'));
+  document.getElementById('panou-statistici').addEventListener('click', () => mergiLa('/profesor/statistici'));
   document.getElementById('panou-vezi').addEventListener('click', () => mergiLa('/'));
   document.getElementById('btn-sterge-token').addEventListener('click', () => {
     clearToken();
     mergiLa('/profesor');
+  });
+}
+
+
+// ---------------- Statistici pentru profesori ----------------
+
+async function renderStatistici() {
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Panou profesor', ruta: '/profesor' }, { text: 'Statistici' }]);
+  app.innerHTML = `<section class="screen"><div class="screen-head"><div>
+    <h1>Statistici</h1><p class="screen-lead">Întrebările la care elevii greșesc cel mai des (date anonime).</p></div>
+    <button class="btn-secondary" id="st-inapoi">Înapoi</button></div><div id="st-corp"><p class="screen-lead">Se încarcă...</p></div></section>`;
+  document.getElementById('st-inapoi').addEventListener('click', () => mergiLa('/profesor'));
+  const corp = document.getElementById('st-corp');
+  const url = (typeof CONFIG !== 'undefined') && CONFIG.STATS_URL;
+  if (!url) {
+    corp.innerHTML = '<p class="screen-lead">Statisticile nu sunt activate încă. Pune adresa din Google Apps Script în <b>STATS_URL</b> (în teste.html).</p>';
+    return;
+  }
+  let date;
+  try {
+    const res = await fetch(url + (url.includes('?') ? '&' : '?') + 'actiune=stats&t=' + Date.now());
+    date = await res.json();
+  } catch (e) {
+    corp.innerHTML = '<p class="form-error">Nu am putut încărca statisticile.</p>';
+    return;
+  }
+  const rec = date.intrebari || {}; // { idIntrebare: [răspunsuri, greșite] }
+  const ids = Object.keys(rec);
+  if (!ids.length) { corp.innerHTML = '<p class="screen-lead">Nu sunt încă răspunsuri înregistrate.</p>'; return; }
+
+  const totalR = ids.reduce((a, id) => a + rec[id][0], 0);
+  const totalG = ids.reduce((a, id) => a + rec[id][1], 0);
+  const MIN = 5; // minimum de răspunsuri ca procentul să conteze
+  const top = ids.filter(id => rec[id][0] >= MIN)
+    .sort((a, b) => (rec[b][1] / rec[b][0]) - (rec[a][1] / rec[a][0]) || rec[b][0] - rec[a][0]).slice(0, 15);
+
+  // procente pe colecții
+  const perC = {};
+  ids.forEach(id => {
+    const cid = colectiaIntrebarii(id, null); if (!cid) return;
+    perC[cid] = perC[cid] || [0, 0];
+    perC[cid][0] += rec[id][0]; perC[cid][1] += rec[id][1];
+  });
+  const colectii = toateColectiile();
+  const nume = cid => (colectii.find(k => k.id === cid) || {}).nume || cid;
+  const listaC = Object.keys(perC).filter(c => perC[c][0] >= MIN)
+    .sort((a, b) => (perC[b][1] / perC[b][0]) - (perC[a][1] / perC[a][0])).slice(0, 10);
+
+  // textele întrebărilor din top
+  const cidTop = [...new Set(top.map(id => colectiaIntrebarii(id, null)).filter(Boolean))];
+  const texte = {}, imagini = {};
+  await Promise.all(cidTop.map(async cid => {
+    const k = colectii.find(x => x.id === cid); if (!k) return;
+    try {
+      const l = await (await fetch(k.fisier + '?t=' + Date.now())).json();
+      (Array.isArray(l) ? l : []).forEach(q => { texte[q.id] = q.intrebare; if (q.imagine) imagini[q.id] = q.imagine; });
+    } catch { /* ignorăm */ }
+  }));
+
+  const pct = (a, b) => Math.round(100 * a / b);
+  corp.innerHTML = `
+    <p class="screen-lead">Total: <b>${totalR}</b> răspunsuri, <b>${pct(totalG, totalR)}%</b> greșite.</p>
+    <h2 class="st-h">Cele mai greșite întrebări</h2>
+    <div id="st-top"></div>
+    <h2 class="st-h">Teme cu cele mai multe greșeli</h2>
+    <div id="st-col"></div>
+    <p class="screen-lead st-nota">Apar doar întrebările cu cel puțin ${MIN} răspunsuri.</p>`;
+  const elTop = document.getElementById('st-top');
+  if (!top.length) elTop.innerHTML = '<p class="screen-lead">Încă prea puține răspunsuri.</p>';
+  top.forEach(id => {
+    const d = document.createElement('div'); d.className = 'st-rand';
+    d.innerHTML = `<span class="st-pct">${pct(rec[id][1], rec[id][0])}%</span>
+      <span class="st-text"><span class="st-q"></span><span class="st-meta">${nume(colectiaIntrebarii(id, ''))} · ${rec[id][0]} răspunsuri</span></span>`;
+    d.querySelector('.st-q').innerHTML = randMatematic(texte[id] || id);
+    if (imagini[id]) { const im = document.createElement('img'); im.src = imagini[id]; im.className = 'st-img'; im.alt = ''; d.querySelector('.st-q').appendChild(im); }
+    elTop.appendChild(d);
+  });
+  const elCol = document.getElementById('st-col');
+  listaC.forEach(cid => {
+    const d = document.createElement('div'); d.className = 'st-rand';
+    d.innerHTML = `<span class="st-pct">${pct(perC[cid][1], perC[cid][0])}%</span>
+      <span class="st-text"><span class="st-q">${nume(cid)}</span><span class="st-meta">${perC[cid][0]} răspunsuri</span></span>`;
+    elCol.appendChild(d);
   });
 }
 

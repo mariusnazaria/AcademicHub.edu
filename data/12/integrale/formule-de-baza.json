@@ -1,245 +1,265 @@
 [
-  {
-    "id": "formule-de-baza-001",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int x^3\\,dx$?",
-    "variante": [
-      "$\\frac{x^4}{4}+C$",
-      "$x^4+C$",
-      "$\\frac{x^3}{3}+C$",
-      "$3x^2+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "formule-de-baza-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int x^5\\,dx$?",
-    "variante": [
-      "$\\frac{x^5}{5}+C$",
-      "$\\frac{x^6}{6}+C$",
-      "$x^6+C$",
-      "$5x^4+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "formule-de-baza-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int x^{10}\\,dx$?",
-    "variante": [
-      "$x^{11}+C$",
-      "$10x^9+C$",
-      "$\\frac{x^{10}}{10}+C$",
-      "$\\frac{x^{11}}{11}+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 4x^3\\,dx$?",
-    "variante": [
-      "$4x^4+C$",
-      "$12x^2+C$",
-      "$\\frac{x^4}{4}+C$",
-      "$x^4+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 6x\\,dx$?",
-    "variante": [
-      "$6+C$",
-      "$3x^2+C$",
-      "$6x^2+C$",
-      "$x^2+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "formule-de-baza-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (2x+1)\\,dx$?",
-    "variante": [
-      "$x^2+1+C$",
-      "$2x^2+x+C$",
-      "$2+C$",
-      "$x^2+x+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (x^2-3)\\,dx$?",
-    "variante": [
-      "$2x-3+C$",
-      "$\\frac{x^3}{3}-3x+C$",
-      "$x^3-3x+C$",
-      "$\\frac{x^3}{3}-3+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "formule-de-baza-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (3x^2+2x)\\,dx$?",
-    "variante": [
-      "$3x^3+2x^2+C$",
-      "$x^3+2x+C$",
-      "$6x+2+C$",
-      "$x^3+x^2+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (e^x+1)\\,dx$?",
-    "variante": [
-      "$e^x+x+C$",
-      "$xe^x+C$",
-      "$e^x\\cdot x^2+C$",
-      "$e^x+1+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "formule-de-baza-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 3\\sin x\\,dx$?",
-    "variante": [
-      "$3\\cos x+C$",
-      "$-\\cos x+C$",
-      "$3\\sin x+C$",
-      "$-3\\cos x+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-011",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 2\\cos x\\,dx$?",
-    "variante": [
-      "$2\\sin x+C$",
-      "$\\sin x+C$",
-      "$-2\\cos x+C$",
-      "$-2\\sin x+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "formule-de-baza-012",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\sqrt{x}\\,dx$?",
-    "variante": [
-      "$\\frac{\\sqrt{x}}{2}+C$",
-      "$\\frac{2x\\sqrt{x}}{3}+C$",
-      "$2\\sqrt{x}+C$",
-      "$\\frac{1}{2\\sqrt{x}}+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "formule-de-baza-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\frac{1}{x^2}\\,dx$?",
-    "variante": [
-      "$\\ln x+C$",
-      "$-\\frac1x+C$",
-      "$-\\frac{2}{x^3}+C$",
-      "$\\frac{1}{x}+C$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "formule-de-baza-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\frac{2}{x}\\,dx$ pentru $x>0$?",
-    "variante": [
-      "$-\\frac{2}{x^2}+C$",
-      "$\\frac{\\ln x}{2}+C$",
-      "$2\\ln x+C$",
-      "$2x+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-baza-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (5-2x)\\,dx$?",
-    "variante": [
-      "$-2+C$",
-      "$5x-2x^2+C$",
-      "$5x-x^2+C$",
-      "$5-x^2+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-baza-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int \\frac{1}{\\sqrt{x}}\\,dx$?",
-    "variante": [
-      "$-\\frac{1}{2\\sqrt{x}}+C$",
-      "$\\sqrt{x}+C$",
-      "$2\\sqrt{x}+C$",
-      "$\\frac{x\\sqrt{x}}{3}+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-baza-017",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int 10x^4\\,dx$?",
-    "variante": [
-      "$\\frac{x^5}{5}+C$",
-      "$10x^5+C$",
-      "$2x^5+C$",
-      "$40x^3+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-baza-018",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (\\sin x+\\cos x)\\,dx$?",
-    "variante": [
-      "$-\\sin x-\\cos x+C$",
-      "$\\cos x-\\sin x+C$",
-      "$\\sin x+\\cos x+C$",
-      "$-\\cos x+\\sin x+C$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-baza-019",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\int (x^3-x)\\,dx$?",
-    "variante": [
-      "$3x^2-1+C$",
-      "$x^4-x^2+C$",
-      "$\\frac{x^4}{4}-\\frac{x^2}{2}+C$",
-      "$\\frac{x^4}{4}-x^2+C$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-baza-020",
-    "tip": "multiplu",
-    "intrebare": "Care egalități sunt adevărate?",
-    "variante": [
-      "$\\int\\cos x\\,dx=-\\sin x+C$",
-      "$\\int e^xdx=e^x+C$",
-      "$\\int x^2dx=x^3+C$",
-      "$\\int x^2dx=\\frac{x^3}{3}+C$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
-  }
+ {
+  "id": "formule-de-baza-001",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int x^3\\,dx$?",
+  "variante": [
+   "$\\frac{x^4}{4}+C$",
+   "$x^4+C$",
+   "$\\frac{x^3}{3}+C$",
+   "$3x^2+C$"
+  ],
+  "corect": 0,
+  "explicatie": "Formula: $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$. Pentru $n=3$ obținem $\\frac{x^4}{4}+C$."
+ },
+ {
+  "id": "formule-de-baza-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int x^5\\,dx$?",
+  "variante": [
+   "$\\frac{x^5}{5}+C$",
+   "$\\frac{x^6}{6}+C$",
+   "$x^6+C$",
+   "$5x^4+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Cu $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$ și $n=5$ rezultă $\\frac{x^6}{6}+C$."
+ },
+ {
+  "id": "formule-de-baza-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int x^{10}\\,dx$?",
+  "variante": [
+   "$x^{11}+C$",
+   "$10x^9+C$",
+   "$\\frac{x^{10}}{10}+C$",
+   "$\\frac{x^{11}}{11}+C$"
+  ],
+  "corect": 3,
+  "explicatie": "Cu $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$ și $n=10$ rezultă $\\frac{x^{11}}{11}+C$."
+ },
+ {
+  "id": "formule-de-baza-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 4x^3\\,dx$?",
+  "variante": [
+   "$4x^4+C$",
+   "$12x^2+C$",
+   "$\\frac{x^4}{4}+C$",
+   "$x^4+C$"
+  ],
+  "corect": 3,
+  "explicatie": "Scoatem constanta: $4\\int x^3\\,dx=4\\cdot\\frac{x^4}{4}+C=x^4+C$. Verificare: $(x^4)^{\\prime}=4x^3$."
+ },
+ {
+  "id": "formule-de-baza-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 6x\\,dx$?",
+  "variante": [
+   "$6+C$",
+   "$3x^2+C$",
+   "$6x^2+C$",
+   "$x^2+C$"
+  ],
+  "corect": 1,
+  "explicatie": "$6\\int x\\,dx=6\\cdot\\frac{x^2}{2}+C=3x^2+C$. Verificare: $(3x^2)^{\\prime}=6x$."
+ },
+ {
+  "id": "formule-de-baza-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (2x+1)\\,dx$?",
+  "variante": [
+   "$x^2+1+C$",
+   "$2x^2+x+C$",
+   "$2+C$",
+   "$x^2+x+C$"
+  ],
+  "corect": 3,
+  "explicatie": "Integrăm termen cu termen: $\\int 2x\\,dx=x^2$ și $\\int 1\\,dx=x$, deci rezultatul este $x^2+x+C$."
+ },
+ {
+  "id": "formule-de-baza-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (x^2-3)\\,dx$?",
+  "variante": [
+   "$2x-3+C$",
+   "$\\frac{x^3}{3}-3x+C$",
+   "$x^3-3x+C$",
+   "$\\frac{x^3}{3}-3+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Integrăm termen cu termen: $\\int x^2\\,dx=\\frac{x^3}{3}$, iar $\\int 3\\,dx=3x$."
+ },
+ {
+  "id": "formule-de-baza-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (3x^2+2x)\\,dx$?",
+  "variante": [
+   "$3x^3+2x^2+C$",
+   "$x^3+2x+C$",
+   "$6x+2+C$",
+   "$x^3+x^2+C$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\int 3x^2\\,dx=x^3$ și $\\int 2x\\,dx=x^2$; le adunăm și adăugăm $C$."
+ },
+ {
+  "id": "formule-de-baza-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (e^x+1)\\,dx$?",
+  "variante": [
+   "$e^x+x+C$",
+   "$xe^x+C$",
+   "$e^x\\cdot x^2+C$",
+   "$e^x+1+C$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\int e^x\\,dx=e^x$ și $\\int 1\\,dx=x$, deci rezultatul este $e^x+x+C$."
+ },
+ {
+  "id": "formule-de-baza-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 3\\sin x\\,dx$?",
+  "variante": [
+   "$3\\cos x+C$",
+   "$-\\cos x+C$",
+   "$3\\sin x+C$",
+   "$-3\\cos x+C$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\int\\sin x\\,dx=-\\cos x$; constanta $3$ rămâne în față, deci obținem $-3\\cos x+C$."
+ },
+ {
+  "id": "formule-de-baza-011",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 2\\cos x\\,dx$?",
+  "variante": [
+   "$2\\sin x+C$",
+   "$\\sin x+C$",
+   "$-2\\cos x+C$",
+   "$-2\\sin x+C$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\int\\cos x\\,dx=\\sin x$; constanta $2$ rămâne în față, deci obținem $2\\sin x+C$."
+ },
+ {
+  "id": "formule-de-baza-012",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\sqrt{x}\\,dx$?",
+  "variante": [
+   "$\\frac{\\sqrt{x}}{2}+C$",
+   "$\\frac{2x\\sqrt{x}}{3}+C$",
+   "$2\\sqrt{x}+C$",
+   "$\\frac{1}{2\\sqrt{x}}+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Scriem $\\sqrt{x}=x^{\\frac12}$ și avem $\\frac{x^{3/2}}{3/2}=\\frac{2}{3}x\\sqrt{x}$, adică $\\frac{2x\\sqrt{x}}{3}+C$."
+ },
+ {
+  "id": "formule-de-baza-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\frac{1}{x^2}\\,dx$?",
+  "variante": [
+   "$\\ln x+C$",
+   "$-\\frac1x+C$",
+   "$-\\frac{2}{x^3}+C$",
+   "$\\frac{1}{x}+C$"
+  ],
+  "corect": 1,
+  "explicatie": "Scriem $\\frac{1}{x^2}=x^{-2}$, deci primitiva este $\\frac{x^{-1}}{-1}=-\\frac1x$."
+ },
+ {
+  "id": "formule-de-baza-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\frac{2}{x}\\,dx$ pentru $x>0$?",
+  "variante": [
+   "$-\\frac{2}{x^2}+C$",
+   "$\\frac{\\ln x}{2}+C$",
+   "$2\\ln x+C$",
+   "$2x+C$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\int\\frac1x\\,dx=\\ln x$ pentru $x>0$; constanta $2$ rămâne în față: $2\\ln x+C$."
+ },
+ {
+  "id": "formule-de-baza-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (5-2x)\\,dx$?",
+  "variante": [
+   "$-2+C$",
+   "$5x-2x^2+C$",
+   "$5x-x^2+C$",
+   "$5-x^2+C$"
+  ],
+  "corect": 2,
+  "explicatie": "$\\int 5\\,dx=5x$ și $\\int 2x\\,dx=x^2$, deci rezultatul este $5x-x^2+C$."
+ },
+ {
+  "id": "formule-de-baza-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int \\frac{1}{\\sqrt{x}}\\,dx$?",
+  "variante": [
+   "$-\\frac{1}{2\\sqrt{x}}+C$",
+   "$\\sqrt{x}+C$",
+   "$2\\sqrt{x}+C$",
+   "$\\frac{x\\sqrt{x}}{3}+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Scriem $\\frac{1}{\\sqrt{x}}=x^{-\\frac12}$, deci primitiva este $\\frac{x^{1/2}}{1/2}=2\\sqrt{x}$."
+ },
+ {
+  "id": "formule-de-baza-017",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int 10x^4\\,dx$?",
+  "variante": [
+   "$\\frac{x^5}{5}+C$",
+   "$10x^5+C$",
+   "$2x^5+C$",
+   "$40x^3+C$"
+  ],
+  "corect": 2,
+  "explicatie": "$10\\cdot\\frac{x^5}{5}=2x^5$. Verificare: $(2x^5)^{\\prime}=10x^4$."
+ },
+ {
+  "id": "formule-de-baza-018",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (\\sin x+\\cos x)\\,dx$?",
+  "variante": [
+   "$-\\sin x-\\cos x+C$",
+   "$\\cos x-\\sin x+C$",
+   "$\\sin x+\\cos x+C$",
+   "$-\\cos x+\\sin x+C$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\int\\sin x\\,dx=-\\cos x$ și $\\int\\cos x\\,dx=\\sin x$; le adunăm."
+ },
+ {
+  "id": "formule-de-baza-019",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\int (x^3-x)\\,dx$?",
+  "variante": [
+   "$3x^2-1+C$",
+   "$x^4-x^2+C$",
+   "$\\frac{x^4}{4}-\\frac{x^2}{2}+C$",
+   "$\\frac{x^4}{4}-x^2+C$"
+  ],
+  "corect": 2,
+  "explicatie": "Integrăm termen cu termen: $\\int x^3\\,dx=\\frac{x^4}{4}$ și $\\int x\\,dx=\\frac{x^2}{2}$."
+ },
+ {
+  "id": "formule-de-baza-020",
+  "tip": "multiplu",
+  "intrebare": "Care egalități sunt adevărate?",
+  "variante": [
+   "$\\int\\cos x\\,dx=-\\sin x+C$",
+   "$\\int e^xdx=e^x+C$",
+   "$\\int x^2dx=x^3+C$",
+   "$\\int x^2dx=\\frac{x^3}{3}+C$"
+  ],
+  "corect": [
+   1,
+   3
+  ],
+  "explicatie": "Sunt adevărate $\\int e^xdx=e^x+C$ și $\\int x^2dx=\\frac{x^3}{3}+C$. Celelalte nu dau prin derivare funcția de sub integrală."
+ }
 ]

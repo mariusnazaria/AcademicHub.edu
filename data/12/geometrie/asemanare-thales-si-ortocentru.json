@@ -1,194 +1,210 @@
 [
-  {
-    "id": "asemanare-thales-si-ortocentru-001",
-    "tip": "simplu",
-    "intrebare": "Dacă $MN\\parallel BC$ ($M\\in AB$, $N\\in AC$), ce proporție are loc?",
-    "variante": [
-      "$\\frac{AM}{MB}=\\frac{AN}{NC}$",
-      "$\\frac{AM}{MB}=\\frac{NC}{AN}$",
-      "$AM\\cdot AN=MB\\cdot NC$",
-      "$AM=AN$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-002",
-    "tip": "simplu",
-    "intrebare": "Dacă $MN\\parallel BC$, atunci $\\frac{AM}{AB}=$",
-    "variante": [
-      "$\\frac{MB}{AB}$",
-      "$\\frac{BC}{MN}$",
-      "$\\frac{MN}{BC}$",
-      "$\\frac{AN}{NC}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-003",
-    "tip": "simplu",
-    "intrebare": "$MN\\parallel BC$, $AM=3$, $MB=6$, $AN=2$. Cât este $NC$?",
-    "variante": [
-      "$6$",
-      "$4$",
-      "$1$",
-      "$9$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-004",
-    "tip": "simplu",
-    "intrebare": "Ce spune teorema bisectoarei ($D$ pe $BC$)?",
-    "variante": [
-      "$\\frac{BD}{DC}=\\frac{AC}{AB}$",
-      "$\\frac{BD}{DC}=\\frac{AB}{AC}$",
-      "$BD=DC$",
-      "$\\frac{BD}{DC}=\\frac{BC}{AB}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-005",
-    "tip": "simplu",
-    "intrebare": "$AB=6$, $AC=3$ și $AD$ este bisectoare. În ce raport împarte $D$ pe $BC$?",
-    "variante": [
-      "$BD:DC=2:1$",
-      "$BD:DC=1:1$",
-      "$BD:DC=3:1$",
-      "$BD:DC=1:2$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-006",
-    "tip": "simplu",
-    "intrebare": "Ortocentrul este intersecția:",
-    "variante": [
-      "mediatoarelor",
-      "medianelor",
-      "bisectoarelor",
-      "înălțimilor"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-007",
-    "tip": "simplu",
-    "intrebare": "La triunghiul dreptunghic, ortocentrul este:",
-    "variante": [
-      "vârful unghiului drept",
-      "mijlocul ipotenuzei",
-      "în exteriorul triunghiului",
-      "centrul cercului înscris"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-008",
-    "tip": "simplu",
-    "intrebare": "La triunghiul obtuzunghic, ortocentrul se află:",
-    "variante": [
-      "în exteriorul triunghiului",
-      "pe o latură",
-      "în vârf",
-      "în interior"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-009",
-    "tip": "simplu",
-    "intrebare": "La triunghiul echilateral, ortocentrul, centrul de greutate și centrul cercului circumscris:",
-    "variante": [
-      "coincid",
-      "sunt pe cerc",
-      "sunt diferite",
-      "sunt în vârfuri"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-010",
-    "tip": "simplu",
-    "intrebare": "Triunghiuri asemenea cu raportul $k$. Cum sunt ariile?",
-    "variante": [
-      "în raportul $k$",
-      "în raportul $k^2$",
-      "egale",
-      "în raportul $k^3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-011",
-    "tip": "simplu",
-    "intrebare": "Triunghiuri asemenea cu raportul $k$. Cum sunt perimetrele?",
-    "variante": [
-      "egale",
-      "în raportul $k^2$",
-      "în raportul $k^3$",
-      "în raportul $k$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-012",
-    "tip": "simplu",
-    "intrebare": "Corpuri asemenea cu raportul $k$. Cum sunt volumele?",
-    "variante": [
-      "în raportul $k^2$",
-      "în raportul $k$",
-      "în raportul $k^3$",
-      "egale"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-013",
-    "tip": "simplu",
-    "intrebare": "Dacă $k=2$, raportul ariilor este:",
-    "variante": [
-      "$4$",
-      "$8$",
-      "$2$",
-      "$1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-014",
-    "tip": "simplu",
-    "intrebare": "Dacă $k=2$, raportul volumelor este:",
-    "variante": [
-      "$8$",
-      "$6$",
-      "$4$",
-      "$2$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-015",
-    "tip": "simplu",
-    "intrebare": "Care este cazul de asemănare UU?",
-    "variante": [
-      "trei laturi egale",
-      "două unghiuri egale",
-      "un unghi egal",
-      "două laturi egale"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asemanare-thales-si-ortocentru-016",
-    "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic: $h^2=$",
-    "variante": [
-      "$\\frac{p}{q}$",
-      "$p-q$",
-      "$p\\cdot q$ (proiecțiile catetelor)",
-      "$p+q$"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "asemanare-thales-si-ortocentru-001",
+  "tip": "simplu",
+  "intrebare": "Dacă $MN\\parallel BC$ ($M\\in AB$, $N\\in AC$), ce proporție are loc?",
+  "variante": [
+   "$\\frac{AM}{MB}=\\frac{AN}{NC}$",
+   "$\\frac{AM}{MB}=\\frac{NC}{AN}$",
+   "$AM\\cdot AN=MB\\cdot NC$",
+   "$AM=AN$"
+  ],
+  "corect": 0,
+  "explicatie": "Teorema lui Thales: o paralelă la o latură taie celelalte două laturi în segmente proporționale, $\\frac{AM}{MB}=\\frac{AN}{NC}$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-002",
+  "tip": "simplu",
+  "intrebare": "Dacă $MN\\parallel BC$, atunci $\\frac{AM}{AB}=$",
+  "variante": [
+   "$\\frac{MB}{AB}$",
+   "$\\frac{BC}{MN}$",
+   "$\\frac{MN}{BC}$",
+   "$\\frac{AN}{NC}$"
+  ],
+  "corect": 2,
+  "explicatie": "Din $MN\\parallel BC$ rezultă $\\triangle AMN\\sim\\triangle ABC$, deci $\\frac{AM}{AB}=\\frac{MN}{BC}$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-003",
+  "tip": "simplu",
+  "intrebare": "$MN\\parallel BC$, $AM=3$, $MB=6$, $AN=2$. Cât este $NC$?",
+  "variante": [
+   "$6$",
+   "$4$",
+   "$1$",
+   "$9$"
+  ],
+  "corect": 1,
+  "explicatie": "Thales: $\\frac{AM}{MB}=\\frac{AN}{NC}$, adică $\\frac36=\\frac2{NC}$, deci $NC=4$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-004",
+  "tip": "simplu",
+  "intrebare": "Ce spune teorema bisectoarei ($D$ pe $BC$)?",
+  "variante": [
+   "$\\frac{BD}{DC}=\\frac{AC}{AB}$",
+   "$\\frac{BD}{DC}=\\frac{AB}{AC}$",
+   "$BD=DC$",
+   "$\\frac{BD}{DC}=\\frac{BC}{AB}$"
+  ],
+  "corect": 1,
+  "explicatie": "Bisectoarea împarte latura opusă în părți proporționale cu laturile alăturate: $\\frac{BD}{DC}=\\frac{AB}{AC}$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-005",
+  "tip": "simplu",
+  "intrebare": "$AB=6$, $AC=3$ și $AD$ este bisectoare. În ce raport împarte $D$ pe $BC$?",
+  "variante": [
+   "$BD:DC=2:1$",
+   "$BD:DC=1:1$",
+   "$BD:DC=3:1$",
+   "$BD:DC=1:2$"
+  ],
+  "corect": 0,
+  "explicatie": "$\\frac{BD}{DC}=\\frac{AB}{AC}=\\frac63=2$, deci raportul este $2:1$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-006",
+  "tip": "simplu",
+  "intrebare": "Ortocentrul este intersecția:",
+  "variante": [
+   "mediatoarelor",
+   "medianelor",
+   "bisectoarelor",
+   "înălțimilor"
+  ],
+  "corect": 3,
+  "explicatie": "Ortocentrul este punctul în care se intersectează cele trei înălțimi ale triunghiului."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-007",
+  "tip": "simplu",
+  "intrebare": "La triunghiul dreptunghic, ortocentrul este:",
+  "variante": [
+   "vârful unghiului drept",
+   "mijlocul ipotenuzei",
+   "în exteriorul triunghiului",
+   "centrul cercului înscris"
+  ],
+  "corect": 0,
+  "explicatie": "În vârful unghiului drept catetele sunt chiar înălțimile, deci se intersectează acolo."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-008",
+  "tip": "simplu",
+  "intrebare": "La triunghiul obtuzunghic, ortocentrul se află:",
+  "variante": [
+   "în exteriorul triunghiului",
+   "pe o latură",
+   "în vârf",
+   "în interior"
+  ],
+  "corect": 0,
+  "explicatie": "La triunghiul obtuzunghic înălțimile din vârfurile unghiurilor ascuțite cad în exterior, deci prelungirile lor se întâlnesc în afara triunghiului."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-009",
+  "tip": "simplu",
+  "intrebare": "La triunghiul echilateral, ortocentrul, centrul de greutate și centrul cercului circumscris:",
+  "variante": [
+   "coincid",
+   "sunt pe cerc",
+   "sunt diferite",
+   "sunt în vârfuri"
+  ],
+  "corect": 0,
+  "explicatie": "În triunghiul echilateral înălțimile sunt și mediane și mediatoare, deci toate aceste puncte coincid."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-010",
+  "tip": "simplu",
+  "intrebare": "Triunghiuri asemenea cu raportul $k$. Cum sunt ariile?",
+  "variante": [
+   "în raportul $k$",
+   "în raportul $k^2$",
+   "egale",
+   "în raportul $k^3$"
+  ],
+  "corect": 1,
+  "explicatie": "Ariile sunt o mărime pe două dimensiuni, deci se raportează ca $k^2$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-011",
+  "tip": "simplu",
+  "intrebare": "Triunghiuri asemenea cu raportul $k$. Cum sunt perimetrele?",
+  "variante": [
+   "egale",
+   "în raportul $k^2$",
+   "în raportul $k^3$",
+   "în raportul $k$"
+  ],
+  "corect": 3,
+  "explicatie": "Perimetrul este o sumă de lungimi, iar fiecare lungime se înmulțește cu $k$, deci raportul este $k$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-012",
+  "tip": "simplu",
+  "intrebare": "Corpuri asemenea cu raportul $k$. Cum sunt volumele?",
+  "variante": [
+   "în raportul $k^2$",
+   "în raportul $k$",
+   "în raportul $k^3$",
+   "egale"
+  ],
+  "corect": 2,
+  "explicatie": "Volumul are trei dimensiuni, fiecare înmulțită cu $k$, deci volumele sunt în raportul $k^3$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-013",
+  "tip": "simplu",
+  "intrebare": "Dacă $k=2$, raportul ariilor este:",
+  "variante": [
+   "$4$",
+   "$8$",
+   "$2$",
+   "$1$"
+  ],
+  "corect": 0,
+  "explicatie": "Raportul ariilor este $k^2=2^2=4$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-014",
+  "tip": "simplu",
+  "intrebare": "Dacă $k=2$, raportul volumelor este:",
+  "variante": [
+   "$8$",
+   "$6$",
+   "$4$",
+   "$2$"
+  ],
+  "corect": 0,
+  "explicatie": "Raportul volumelor este $k^3=2^3=8$."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-015",
+  "tip": "simplu",
+  "intrebare": "Care este cazul de asemănare UU?",
+  "variante": [
+   "trei laturi egale",
+   "două unghiuri egale",
+   "un unghi egal",
+   "două laturi egale"
+  ],
+  "corect": 1,
+  "explicatie": "Cazul UU: dacă două unghiuri ale unui triunghi sunt egale cu două unghiuri ale altuia, și al treilea e egal (suma $180^\\circ$), triunghiurile sunt asemenea."
+ },
+ {
+  "id": "asemanare-thales-si-ortocentru-016",
+  "tip": "simplu",
+  "intrebare": "Triunghi dreptunghic: $h^2=$",
+  "variante": [
+   "$\\frac{p}{q}$",
+   "$p-q$",
+   "$p\\cdot q$ (proiecțiile catetelor)",
+   "$p+q$"
+  ],
+  "corect": 2,
+  "explicatie": "Teorema înălțimii: înălțimea la ipotenuză la pătrat este produsul proiecțiilor catetelor pe ipotenuză, $h^2=p\\cdot q$."
+ }
 ]

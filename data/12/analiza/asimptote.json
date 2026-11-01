@@ -1,256 +1,276 @@
 [
-  {
-    "id": "asimptote-001",
-    "tip": "simplu",
-    "intrebare": "Câte asimptote are graficul lui $\\frac1x$?",
-    "variante": [
-      "$3$",
-      "$1$",
-      "$2$",
-      "$0$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-as1.svg"
-  },
-  {
-    "id": "asimptote-002",
-    "tip": "simplu",
-    "intrebare": "Ecuația asimptotei verticale:",
-    "variante": [
-      "$y=1$",
-      "$x=0$",
-      "$y=0$",
-      "$x=1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-as1.svg"
-  },
-  {
-    "id": "asimptote-003",
-    "tip": "simplu",
-    "intrebare": "Ecuația asimptotei orizontale:",
-    "variante": [
-      "$x=1$",
-      "$y=1$",
-      "$x=0$",
-      "$y=0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-as1.svg"
-  },
-  {
-    "id": "asimptote-004",
-    "tip": "simplu",
-    "intrebare": "Citește asimptota verticală (dreapta roșie verticală):",
-    "variante": [
-      "$x=-2$",
-      "$y=-2$",
-      "$x=2$",
-      "$x=1$"
-    ],
-    "corect": 0,
-    "imagine": "data/imagini/g-as2.svg"
-  },
-  {
-    "id": "asimptote-005",
-    "tip": "simplu",
-    "intrebare": "Citește asimptota orizontală:",
-    "variante": [
-      "$y=-2$",
-      "$y=2$",
-      "$y=1$",
-      "$x=1$"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-as2.svg"
-  },
-  {
-    "id": "asimptote-006",
-    "tip": "simplu",
-    "intrebare": "Asimptota verticală este:",
-    "variante": [
-      "$x=-2$",
-      "$x=2$",
-      "$x=1$",
-      "$y=2$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-as3.svg"
-  },
-  {
-    "id": "asimptote-007",
-    "tip": "simplu",
-    "intrebare": "Asimptota orizontală este:",
-    "variante": [
-      "$y=2$",
-      "$y=0$",
-      "$x=1$",
-      "$y=1$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-as3.svg"
-  },
-  {
-    "id": "asimptote-008",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $2^x$ are asimptotă orizontală la $-\\infty$. Care este ea?",
-    "variante": [
-      "$x=0$",
-      "$y=1$",
-      "nu are",
-      "$y=0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-as4.svg"
-  },
-  {
-    "id": "asimptote-009",
-    "tip": "simplu",
-    "intrebare": "Are asimptotă verticală?",
-    "variante": [
-      "da, $y=0$",
-      "da, $x=1$",
-      "da, $x=0$",
-      "nu"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-as4.svg"
-  },
-  {
-    "id": "asimptote-010",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $\\ln x$ are asimptotă verticală:",
-    "variante": [
-      "nu are",
-      "$x=0$",
-      "$y=0$",
-      "$x=1$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-as5.svg"
-  },
-  {
-    "id": "asimptote-011",
-    "tip": "simplu",
-    "intrebare": "Are asimptotă orizontală?",
-    "variante": [
-      "da, $y=1$",
-      "nu",
-      "da, $y=0$",
-      "da, $x=0$"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-as5.svg"
-  },
-  {
-    "id": "asimptote-012",
-    "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=x+\\frac1x$ are asimptotă verticală:",
-    "variante": [
-      "nu are",
-      "$x=1$",
-      "$y=0$",
-      "$x=0$"
-    ],
-    "corect": 3,
-    "imagine": "data/imagini/g-as6.svg"
-  },
-  {
-    "id": "asimptote-013",
-    "tip": "simplu",
-    "intrebare": "Pentru $x$ mare graficul se apropie de dreapta $y=x$. Este asimptotă:",
-    "variante": [
-      "orizontală",
-      "oblică",
-      "nu e asimptotă",
-      "verticală"
-    ],
-    "corect": 1,
-    "imagine": "data/imagini/g-as6.svg"
-  },
-  {
-    "id": "asimptote-014",
-    "tip": "simplu",
-    "intrebare": "Are parabola $y=x^2$ asimptote?",
-    "variante": [
-      "da, două",
-      "da, una orizontală",
-      "nu",
-      "da, una verticală"
-    ],
-    "corect": 2,
-    "imagine": "data/imagini/g-as7.svg"
-  },
-  {
-    "id": "asimptote-015",
-    "tip": "simplu",
-    "intrebare": "Asimptota orizontală $y=L$ există dacă:",
-    "variante": [
-      "$\\lim_{x\\to\\infty}f(x)=L$",
-      "$f(L)=0$",
-      "$\\lim_{x\\to L}f(x)=\\infty$",
-      "$f^{\\prime}(L)=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "asimptote-016",
-    "tip": "simplu",
-    "intrebare": "Asimptota verticală $x=a$ există dacă:",
-    "variante": [
-      "$f^{\\prime}(a)=0$",
-      "$\\lim_{x\\to a}f(x)=\\pm\\infty$",
-      "$\\lim_{x\\to\\infty}f(x)=a$",
-      "$f(a)=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asimptote-017",
-    "tip": "simplu",
-    "intrebare": "Asimptota oblică are forma:",
-    "variante": [
-      "$y=L$",
-      "$y=mx+n$",
-      "$y=x^2$",
-      "$x=a$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asimptote-018",
-    "tip": "simplu",
-    "intrebare": "Panta asimptotei oblice se calculează cu $m=$",
-    "variante": [
-      "$f(0)$",
-      "$\\lim\\frac{f(x)}{x}$",
-      "$\\lim f(x)$",
-      "$\\lim f^{\\prime}(x)$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asimptote-019",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\frac{1}{x-3}$, asimptota verticală este:",
-    "variante": [
-      "$y=0$",
-      "$y=3$",
-      "$x=3$",
-      "$x=-3$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "asimptote-020",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\frac{2x+1}{x}$, asimptota orizontală este:",
-    "variante": [
-      "$y=1$",
-      "$x=2$",
-      "$y=0$",
-      "$y=2$"
-    ],
-    "corect": 3
-  }
+ {
+  "id": "asimptote-001",
+  "tip": "simplu",
+  "intrebare": "Câte asimptote are graficul lui $\\frac1x$?",
+  "variante": [
+   "$3$",
+   "$1$",
+   "$2$",
+   "$0$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-as1.svg",
+  "explicatie": "Hiperbola $\\frac1x$ are două asimptote: axa $Oy$ ($x=0$) și axa $Ox$ ($y=0$), de care graficul se apropie fără să le atingă."
+ },
+ {
+  "id": "asimptote-002",
+  "tip": "simplu",
+  "intrebare": "Ecuația asimptotei verticale:",
+  "variante": [
+   "$y=1$",
+   "$x=0$",
+   "$y=0$",
+   "$x=1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-as1.svg",
+  "explicatie": "Graficul se lipește de dreapta verticală care trece prin $x=0$, deci asimptota verticală este $x=0$."
+ },
+ {
+  "id": "asimptote-003",
+  "tip": "simplu",
+  "intrebare": "Ecuația asimptotei orizontale:",
+  "variante": [
+   "$x=1$",
+   "$y=1$",
+   "$x=0$",
+   "$y=0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-as1.svg",
+  "explicatie": "Pentru $x$ mare, graficul se apropie de axa $Ox$, deci asimptota orizontală este $y=0$."
+ },
+ {
+  "id": "asimptote-004",
+  "tip": "simplu",
+  "intrebare": "Citește asimptota verticală (dreapta roșie verticală):",
+  "variante": [
+   "$x=-2$",
+   "$y=-2$",
+   "$x=2$",
+   "$x=1$"
+  ],
+  "corect": 0,
+  "imagine": "data/imagini/g-as2.svg",
+  "explicatie": "Graficul se apropie de dreapta roșie verticală, care trece prin $x=-2$: asimptota verticală este $x=-2$."
+ },
+ {
+  "id": "asimptote-005",
+  "tip": "simplu",
+  "intrebare": "Citește asimptota orizontală:",
+  "variante": [
+   "$y=-2$",
+   "$y=2$",
+   "$y=1$",
+   "$x=1$"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-as2.svg",
+  "explicatie": "La stânga și la dreapta, graficul se apropie de dreapta orizontală $y=1$: aceasta este asimptota orizontală."
+ },
+ {
+  "id": "asimptote-006",
+  "tip": "simplu",
+  "intrebare": "Asimptota verticală este:",
+  "variante": [
+   "$x=-2$",
+   "$x=2$",
+   "$x=1$",
+   "$y=2$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-as3.svg",
+  "explicatie": "Graficul se lipește de dreapta verticală care trece prin $x=2$, deci asimptota verticală este $x=2$."
+ },
+ {
+  "id": "asimptote-007",
+  "tip": "simplu",
+  "intrebare": "Asimptota orizontală este:",
+  "variante": [
+   "$y=2$",
+   "$y=0$",
+   "$x=1$",
+   "$y=1$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-as3.svg",
+  "explicatie": "La capetele graficului, curba se apropie de dreapta orizontală $y=1$, deci asimptota orizontală este $y=1$."
+ },
+ {
+  "id": "asimptote-008",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $2^x$ are asimptotă orizontală la $-\\infty$. Care este ea?",
+  "variante": [
+   "$x=0$",
+   "$y=1$",
+   "nu are",
+   "$y=0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-as4.svg",
+  "explicatie": "Pentru $x\\to-\\infty$, $2^x\\to0$, deci graficul se apropie de axa $Ox$: asimptota orizontală este $y=0$."
+ },
+ {
+  "id": "asimptote-009",
+  "tip": "simplu",
+  "intrebare": "Are asimptotă verticală?",
+  "variante": [
+   "da, $y=0$",
+   "da, $x=1$",
+   "da, $x=0$",
+   "nu"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-as4.svg",
+  "explicatie": "Graficul este o curbă continuă, fără ramuri care urcă sau coboară spre infinit la o valoare fixă a lui $x$: nu are asimptotă verticală."
+ },
+ {
+  "id": "asimptote-010",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $\\ln x$ are asimptotă verticală:",
+  "variante": [
+   "nu are",
+   "$x=0$",
+   "$y=0$",
+   "$x=1$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-as5.svg",
+  "explicatie": "Pentru $x\\to0^+$, $\\ln x\\to-\\infty$, deci graficul se lipește de dreapta $x=0$: asimptotă verticală."
+ },
+ {
+  "id": "asimptote-011",
+  "tip": "simplu",
+  "intrebare": "Are asimptotă orizontală?",
+  "variante": [
+   "da, $y=1$",
+   "nu",
+   "da, $y=0$",
+   "da, $x=0$"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-as5.svg",
+  "explicatie": "Graficul crește sau scade fără să se stabilizeze spre o valoare $y$ constantă la capete, deci nu are asimptotă orizontală."
+ },
+ {
+  "id": "asimptote-012",
+  "tip": "simplu",
+  "intrebare": "Graficul lui $f(x)=x+\\frac1x$ are asimptotă verticală:",
+  "variante": [
+   "nu are",
+   "$x=1$",
+   "$y=0$",
+   "$x=0$"
+  ],
+  "corect": 3,
+  "imagine": "data/imagini/g-as6.svg",
+  "explicatie": "Pentru $x\\to0$, $\\frac1x\\to\\pm\\infty$, deci $x=0$ este asimptotă verticală (în $x=0$ funcția nu e definită)."
+ },
+ {
+  "id": "asimptote-013",
+  "tip": "simplu",
+  "intrebare": "Pentru $x$ mare graficul se apropie de dreapta $y=x$. Este asimptotă:",
+  "variante": [
+   "orizontală",
+   "oblică",
+   "nu e asimptotă",
+   "verticală"
+  ],
+  "corect": 1,
+  "imagine": "data/imagini/g-as6.svg",
+  "explicatie": "Graficul se apropie de o dreaptă înclinată $y=x$ când $x$ crește: este asimptotă oblică."
+ },
+ {
+  "id": "asimptote-014",
+  "tip": "simplu",
+  "intrebare": "Are parabola $y=x^2$ asimptote?",
+  "variante": [
+   "da, două",
+   "da, una orizontală",
+   "nu",
+   "da, una verticală"
+  ],
+  "corect": 2,
+  "imagine": "data/imagini/g-as7.svg",
+  "explicatie": "Parabola $y=x^2$ crește spre infinit la ambele capete, fără să se apropie de vreo dreaptă: nu are asimptote."
+ },
+ {
+  "id": "asimptote-015",
+  "tip": "simplu",
+  "intrebare": "Asimptota orizontală $y=L$ există dacă:",
+  "variante": [
+   "$\\lim_{x\\to\\infty}f(x)=L$",
+   "$f(L)=0$",
+   "$\\lim_{x\\to L}f(x)=\\infty$",
+   "$f^{\\prime}(L)=0$"
+  ],
+  "corect": 0,
+  "explicatie": "Asimptota orizontală $y=L$ înseamnă că valorile funcției se apropie de $L$ când $x\\to\\infty$."
+ },
+ {
+  "id": "asimptote-016",
+  "tip": "simplu",
+  "intrebare": "Asimptota verticală $x=a$ există dacă:",
+  "variante": [
+   "$f^{\\prime}(a)=0$",
+   "$\\lim_{x\\to a}f(x)=\\pm\\infty$",
+   "$\\lim_{x\\to\\infty}f(x)=a$",
+   "$f(a)=0$"
+  ],
+  "corect": 1,
+  "explicatie": "Asimptota verticală $x=a$ înseamnă că funcția tinde la $\\pm\\infty$ când $x$ se apropie de $a$."
+ },
+ {
+  "id": "asimptote-017",
+  "tip": "simplu",
+  "intrebare": "Asimptota oblică are forma:",
+  "variante": [
+   "$y=L$",
+   "$y=mx+n$",
+   "$y=x^2$",
+   "$x=a$"
+  ],
+  "corect": 1,
+  "explicatie": "Asimptota oblică este o dreaptă înclinată, deci are forma $y=mx+n$ (cu $m\\neq0$)."
+ },
+ {
+  "id": "asimptote-018",
+  "tip": "simplu",
+  "intrebare": "Panta asimptotei oblice se calculează cu $m=$",
+  "variante": [
+   "$f(0)$",
+   "$\\lim\\frac{f(x)}{x}$",
+   "$\\lim f(x)$",
+   "$\\lim f^{\\prime}(x)$"
+  ],
+  "corect": 1,
+  "explicatie": "Panta asimptotei oblice se află cu $m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}$, apoi $n=\\lim(f(x)-mx)$."
+ },
+ {
+  "id": "asimptote-019",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=\\frac{1}{x-3}$, asimptota verticală este:",
+  "variante": [
+   "$y=0$",
+   "$y=3$",
+   "$x=3$",
+   "$x=-3$"
+  ],
+  "corect": 2,
+  "explicatie": "Numitorul $x-3$ se anulează în $x=3$, unde funcția tinde la $\\pm\\infty$: asimptota verticală este $x=3$."
+ },
+ {
+  "id": "asimptote-020",
+  "tip": "simplu",
+  "intrebare": "Pentru $f(x)=\\frac{2x+1}{x}$, asimptota orizontală este:",
+  "variante": [
+   "$y=1$",
+   "$x=2$",
+   "$y=0$",
+   "$y=2$"
+  ],
+  "corect": 3,
+  "explicatie": "$\\frac{2x+1}{x}=2+\\frac1x\\to2$ când $x\\to\\infty$, deci asimptota orizontală este $y=2$."
+ }
 ]

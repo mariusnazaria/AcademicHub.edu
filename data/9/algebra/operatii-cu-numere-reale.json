@@ -1,230 +1,249 @@
 [
-  {
-    "id": "operatii-cu-numere-reale-001",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac12+\\frac13$?",
-    "variante": [
-      "$\\frac16$",
-      "$\\frac56$",
-      "$\\frac25$",
-      "$\\frac23$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-002",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac12-\\frac14$?",
-    "variante": [
-      "$\\frac18$",
-      "$\\frac12$",
-      "$\\frac34$",
-      "$\\frac14$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "operatii-cu-numere-reale-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac23\\cdot\\frac34$?",
-    "variante": [
-      "$\\frac12$",
-      "$\\frac98$",
-      "$\\frac67$",
-      "$\\frac57$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "operatii-cu-numere-reale-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\frac34:\\frac32$?",
-    "variante": [
-      "$\\frac14$",
-      "$2$",
-      "$\\frac12$",
-      "$\\frac98$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "operatii-cu-numere-reale-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $0{,}5+0{,}25$?",
-    "variante": [
-      "$0{,}55$",
-      "$0{,}75$",
-      "$0{,}7$",
-      "$0{,}3$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $5\\cdot(-3)$?",
-    "variante": [
-      "$15$",
-      "$-15$",
-      "$-8$",
-      "$-2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $(-4)\\cdot(-2)$?",
-    "variante": [
-      "$-8$",
-      "$8$",
-      "$-6$",
-      "$6$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $(-8):(-2)$?",
-    "variante": [
-      "$16$",
-      "$4$",
-      "$-4$",
-      "$-10$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $-3+7$?",
-    "variante": [
-      "$10$",
-      "$-10$",
-      "$4$",
-      "$-4$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "operatii-cu-numere-reale-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $5-9$?",
-    "variante": [
-      "$14$",
-      "$-14$",
-      "$4$",
-      "$-4$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "operatii-cu-numere-reale-011",
-    "tip": "simplu",
-    "intrebare": "Desfă paranteza: $2(x+3)=$",
-    "variante": [
-      "$2x+5$",
-      "$2x+3$",
-      "$x+6$",
-      "$2x+6$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "operatii-cu-numere-reale-012",
-    "tip": "simplu",
-    "intrebare": "Desfă paranteza: $-(a-b)=$",
-    "variante": [
-      "$-a+b$",
-      "$a+b$",
-      "$a-b$",
-      "$-a-b$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "operatii-cu-numere-reale-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $10\\%$ din $50$?",
-    "variante": [
-      "$5$",
-      "$0{,}5$",
-      "$10$",
-      "$15$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "operatii-cu-numere-reale-014",
-    "tip": "simplu",
-    "intrebare": "Cât este $20\\%$ din $60$?",
-    "variante": [
-      "$20$",
-      "$12$",
-      "$3$",
-      "$6$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-015",
-    "tip": "simplu",
-    "intrebare": "Cât este $2+3\\cdot4$?",
-    "variante": [
-      "$20$",
-      "$9$",
-      "$14$",
-      "$24$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "operatii-cu-numere-reale-016",
-    "tip": "simplu",
-    "intrebare": "Cât este $(2+3)\\cdot4$?",
-    "variante": [
-      "$14$",
-      "$9$",
-      "$24$",
-      "$20$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "operatii-cu-numere-reale-017",
-    "tip": "simplu",
-    "intrebare": "Cât este $(-3)^2$?",
-    "variante": [
-      "$6$",
-      "$-6$",
-      "$-9$",
-      "$9$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "operatii-cu-numere-reale-018",
-    "tip": "simplu",
-    "intrebare": "Cât este $-3^2$?",
-    "variante": [
-      "$9$",
-      "$-9$",
-      "$-6$",
-      "$6$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "operatii-cu-numere-reale-019",
-    "tip": "simplu",
-    "intrebare": "Cum se scrie $a(b+c)$ fără paranteză?",
-    "variante": [
-      "$ab+c$",
-      "$a+bc$",
-      "$ab+ac$",
-      "$ab\\cdot ac$"
-    ],
-    "corect": 2
-  }
+ {
+  "id": "operatii-cu-numere-reale-001",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac12+\\frac13$?",
+  "variante": [
+   "$\\frac16$",
+   "$\\frac56$",
+   "$\\frac25$",
+   "$\\frac23$"
+  ],
+  "corect": 1,
+  "explicatie": "Numitor comun $6$: $\\frac36+\\frac26=\\frac56$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-002",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac12-\\frac14$?",
+  "variante": [
+   "$\\frac18$",
+   "$\\frac12$",
+   "$\\frac34$",
+   "$\\frac14$"
+  ],
+  "corect": 3,
+  "explicatie": "Numitor comun $4$: $\\frac24-\\frac14=\\frac14$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac23\\cdot\\frac34$?",
+  "variante": [
+   "$\\frac12$",
+   "$\\frac98$",
+   "$\\frac67$",
+   "$\\frac57$"
+  ],
+  "corect": 0,
+  "explicatie": "Înmulțim numărătorii și numitorii: $\\frac{6}{12}=\\frac12$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $\\frac34:\\frac32$?",
+  "variante": [
+   "$\\frac14$",
+   "$2$",
+   "$\\frac12$",
+   "$\\frac98$"
+  ],
+  "corect": 2,
+  "explicatie": "Împărțirea înseamnă înmulțire cu inversa: $\\frac34\\cdot\\frac23=\\frac12$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $0{,}5+0{,}25$?",
+  "variante": [
+   "$0{,}55$",
+   "$0{,}75$",
+   "$0{,}7$",
+   "$0{,}3$"
+  ],
+  "corect": 1,
+  "explicatie": "$0{,}50+0{,}25=0{,}75$ (aliniem zecimalele)."
+ },
+ {
+  "id": "operatii-cu-numere-reale-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $5\\cdot(-3)$?",
+  "variante": [
+   "$15$",
+   "$-15$",
+   "$-8$",
+   "$-2$"
+  ],
+  "corect": 1,
+  "explicatie": "Produsul dintre un număr pozitiv și unul negativ este negativ: $-15$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $(-4)\\cdot(-2)$?",
+  "variante": [
+   "$-8$",
+   "$8$",
+   "$-6$",
+   "$6$"
+  ],
+  "corect": 1,
+  "explicatie": "Minus ori minus dă plus: $4\\cdot2=8$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $(-8):(-2)$?",
+  "variante": [
+   "$16$",
+   "$4$",
+   "$-4$",
+   "$-10$"
+  ],
+  "corect": 1,
+  "explicatie": "Minus împărțit la minus dă plus: $8:2=4$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $-3+7$?",
+  "variante": [
+   "$10$",
+   "$-10$",
+   "$4$",
+   "$-4$"
+  ],
+  "corect": 2,
+  "explicatie": "Pornim de la $-3$ și urcăm cu $7$ pe axă: $-3+7=4$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $5-9$?",
+  "variante": [
+   "$14$",
+   "$-14$",
+   "$4$",
+   "$-4$"
+  ],
+  "corect": 3,
+  "explicatie": "$5-9=-(9-5)=-4$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-011",
+  "tip": "simplu",
+  "intrebare": "Desfă paranteza: $2(x+3)=$",
+  "variante": [
+   "$2x+5$",
+   "$2x+3$",
+   "$x+6$",
+   "$2x+6$"
+  ],
+  "corect": 3,
+  "explicatie": "Înmulțim $2$ cu fiecare termen din paranteză: $2x+2\\cdot3=2x+6$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-012",
+  "tip": "simplu",
+  "intrebare": "Desfă paranteza: $-(a-b)=$",
+  "variante": [
+   "$-a+b$",
+   "$a+b$",
+   "$a-b$",
+   "$-a-b$"
+  ],
+  "corect": 0,
+  "explicatie": "Semnul minus din fața parantezei schimbă semnul fiecărui termen: $-a+b$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-013",
+  "tip": "simplu",
+  "intrebare": "Cât este $10\\%$ din $50$?",
+  "variante": [
+   "$5$",
+   "$0{,}5$",
+   "$10$",
+   "$15$"
+  ],
+  "corect": 0,
+  "explicatie": "$10\\%=\\frac{10}{100}$, deci $\\frac{10}{100}\\cdot50=5$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-014",
+  "tip": "simplu",
+  "intrebare": "Cât este $20\\%$ din $60$?",
+  "variante": [
+   "$20$",
+   "$12$",
+   "$3$",
+   "$6$"
+  ],
+  "corect": 1,
+  "explicatie": "$20\\%=\\frac15$, iar $60:5=12$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-015",
+  "tip": "simplu",
+  "intrebare": "Cât este $2+3\\cdot4$?",
+  "variante": [
+   "$20$",
+   "$9$",
+   "$14$",
+   "$24$"
+  ],
+  "corect": 2,
+  "explicatie": "Înmulțirea se face înaintea adunării: $3\\cdot4=12$, apoi $2+12=14$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-016",
+  "tip": "simplu",
+  "intrebare": "Cât este $(2+3)\\cdot4$?",
+  "variante": [
+   "$14$",
+   "$9$",
+   "$24$",
+   "$20$"
+  ],
+  "corect": 3,
+  "explicatie": "Parantezele se fac prima dată: $5\\cdot4=20$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-017",
+  "tip": "simplu",
+  "intrebare": "Cât este $(-3)^2$?",
+  "variante": [
+   "$6$",
+   "$-6$",
+   "$-9$",
+   "$9$"
+  ],
+  "corect": 3,
+  "explicatie": "Pătratul lui $-3$ este $(-3)\\cdot(-3)=9$, pozitiv, pentru că baza include semnul."
+ },
+ {
+  "id": "operatii-cu-numere-reale-018",
+  "tip": "simplu",
+  "intrebare": "Cât este $-3^2$?",
+  "variante": [
+   "$9$",
+   "$-9$",
+   "$-6$",
+   "$6$"
+  ],
+  "corect": 1,
+  "explicatie": "Fără paranteze, puterea se calculează întâi: $3^2=9$, apoi minusul: $-9$."
+ },
+ {
+  "id": "operatii-cu-numere-reale-019",
+  "tip": "simplu",
+  "intrebare": "Cum se scrie $a(b+c)$ fără paranteză?",
+  "variante": [
+   "$ab+c$",
+   "$a+bc$",
+   "$ab+ac$",
+   "$ab\\cdot ac$"
+  ],
+  "corect": 2,
+  "explicatie": "Distributivitatea: înmulțim $a$ cu fiecare termen din paranteză, deci $ab+ac$."
+ }
 ]

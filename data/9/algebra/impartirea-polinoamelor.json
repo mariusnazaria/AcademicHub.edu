@@ -1,218 +1,236 @@
 [
-  {
-    "id": "impartirea-polinoamelor-001",
-    "tip": "simplu",
-    "intrebare": "La împărțirea cu rest, ce egalitate este corectă ($D$ deîmpărțit, $I$ împărțitor, $C$ cât, $R$ rest)?",
-    "variante": [
-      "$D=I+C+R$",
-      "$D=I\\cdot C+R$",
-      "$D=I:C+R$",
-      "$D=I\\cdot C-R$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-002",
-    "tip": "simplu",
-    "intrebare": "Gradul restului față de gradul împărțitorului este:",
-    "variante": [
-      "nu contează",
-      "mai mic",
-      "egal",
-      "mai mare"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-003",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2-1):(x-1)$?",
-    "variante": [
-      "$x$",
-      "$x+1$",
-      "$x^2+1$",
-      "$x-1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-004",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2+3x):x$?",
-    "variante": [
-      "$x^2+3$",
-      "$x+3x$",
-      "$3x$",
-      "$x+3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "impartirea-polinoamelor-005",
-    "tip": "simplu",
-    "intrebare": "Cât este $6x^2:2x$?",
-    "variante": [
-      "$3x$",
-      "$3x^2$",
-      "$12x$",
-      "$4x$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "impartirea-polinoamelor-006",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2-4):(x-2)$?",
-    "variante": [
-      "$x+4$",
-      "$x-2$",
-      "$x^2$",
-      "$x+2$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "impartirea-polinoamelor-007",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2+5x+6):(x+2)$?",
-    "variante": [
-      "$x+5$",
-      "$x+2$",
-      "$x+6$",
-      "$x+3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "impartirea-polinoamelor-008",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^2-9):(x+3)$?",
-    "variante": [
-      "$x+6$",
-      "$x+3$",
-      "$x-3$",
-      "$x-9$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "impartirea-polinoamelor-009",
-    "tip": "simplu",
-    "intrebare": "Cât este $x^3:x$?",
-    "variante": [
-      "$x^2$",
-      "$x$",
-      "$3x$",
-      "$x^4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "impartirea-polinoamelor-010",
-    "tip": "simplu",
-    "intrebare": "Cât este $(x^3-x):x$?",
-    "variante": [
-      "$x-1$",
-      "$x^2-1$",
-      "$x^2-x$",
-      "$x^3-1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-011",
-    "tip": "simplu",
-    "intrebare": "Care este restul împărțirii lui $P(x)$ la $x-a$?",
-    "variante": [
-      "$a$",
-      "$P(0)$",
-      "$P(-a)$",
-      "$P(a)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "impartirea-polinoamelor-012",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $x^2+1$ la $x-1$?",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$2$",
-      "$-2$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "impartirea-polinoamelor-013",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $x^3$ la $x-2$?",
-    "variante": [
-      "$2$",
-      "$0$",
-      "$8$",
-      "$6$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "impartirea-polinoamelor-014",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $x^2-4$ la $x-2$?",
-    "variante": [
-      "$4$",
-      "$0$",
-      "$2$",
-      "$-4$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-015",
-    "tip": "simplu",
-    "intrebare": "Care este restul lui $2x+1$ la $x-3$?",
-    "variante": [
-      "$6$",
-      "$7$",
-      "$1$",
-      "$5$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-016",
-    "tip": "simplu",
-    "intrebare": "Polinomul $P$ se divide cu $x-a$ dacă:",
-    "variante": [
-      "$P(a)=a$",
-      "$P(a)=1$",
-      "$P(0)=a$",
-      "$P(a)=0$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "impartirea-polinoamelor-017",
-    "tip": "simplu",
-    "intrebare": "Dacă restul este $0$, atunci:",
-    "variante": [
-      "restul este $1$",
-      "împărțirea se face exact",
-      "câtul este $0$",
-      "nu se poate împărți"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "impartirea-polinoamelor-018",
-    "tip": "simplu",
-    "intrebare": "Primul pas la împărțirea polinoamelor:",
-    "variante": [
-      "împărțim primul termen al deîmpărțitului la primul termen al împărțitorului",
-      "scădem împărțitorul",
-      "adunăm toți termenii",
-      "înmulțim deîmpărțitul cu $x$"
-    ],
-    "corect": 0
-  }
+ {
+  "id": "impartirea-polinoamelor-001",
+  "tip": "simplu",
+  "intrebare": "La împărțirea cu rest, ce egalitate este corectă ($D$ deîmpărțit, $I$ împărțitor, $C$ cât, $R$ rest)?",
+  "variante": [
+   "$D=I+C+R$",
+   "$D=I\\cdot C+R$",
+   "$D=I:C+R$",
+   "$D=I\\cdot C-R$"
+  ],
+  "corect": 1,
+  "explicatie": "Teorema împărțirii cu rest: deîmpărțitul este egal cu împărțitorul înmulțit cu câtul, plus restul."
+ },
+ {
+  "id": "impartirea-polinoamelor-002",
+  "tip": "simplu",
+  "intrebare": "Gradul restului față de gradul împărțitorului este:",
+  "variante": [
+   "nu contează",
+   "mai mic",
+   "egal",
+   "mai mare"
+  ],
+  "corect": 1,
+  "explicatie": "Restul are mereu gradul mai mic decât gradul împărțitorului (altfel am mai putea continua împărțirea)."
+ },
+ {
+  "id": "impartirea-polinoamelor-003",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2-1):(x-1)$?",
+  "variante": [
+   "$x$",
+   "$x+1$",
+   "$x^2+1$",
+   "$x-1$"
+  ],
+  "corect": 1,
+  "explicatie": "$x^2-1=(x-1)(x+1)$, deci după simplificare câtul este $x+1$."
+ },
+ {
+  "id": "impartirea-polinoamelor-004",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2+3x):x$?",
+  "variante": [
+   "$x^2+3$",
+   "$x+3x$",
+   "$3x$",
+   "$x+3$"
+  ],
+  "corect": 3,
+  "explicatie": "Împărțim fiecare termen la $x$: $x^2:x=x$ și $3x:x=3$, deci $x+3$."
+ },
+ {
+  "id": "impartirea-polinoamelor-005",
+  "tip": "simplu",
+  "intrebare": "Cât este $6x^2:2x$?",
+  "variante": [
+   "$3x$",
+   "$3x^2$",
+   "$12x$",
+   "$4x$"
+  ],
+  "corect": 0,
+  "explicatie": "Împărțim coeficienții ($6:2=3$) și scădem exponenții ($x^2:x=x$): $3x$."
+ },
+ {
+  "id": "impartirea-polinoamelor-006",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2-4):(x-2)$?",
+  "variante": [
+   "$x+4$",
+   "$x-2$",
+   "$x^2$",
+   "$x+2$"
+  ],
+  "corect": 3,
+  "explicatie": "$x^2-4=(x-2)(x+2)$, deci câtul este $x+2$."
+ },
+ {
+  "id": "impartirea-polinoamelor-007",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2+5x+6):(x+2)$?",
+  "variante": [
+   "$x+5$",
+   "$x+2$",
+   "$x+6$",
+   "$x+3$"
+  ],
+  "corect": 3,
+  "explicatie": "$x^2+5x+6=(x+2)(x+3)$, deci câtul este $x+3$."
+ },
+ {
+  "id": "impartirea-polinoamelor-008",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^2-9):(x+3)$?",
+  "variante": [
+   "$x+6$",
+   "$x+3$",
+   "$x-3$",
+   "$x-9$"
+  ],
+  "corect": 2,
+  "explicatie": "$x^2-9=(x-3)(x+3)$, deci câtul este $x-3$."
+ },
+ {
+  "id": "impartirea-polinoamelor-009",
+  "tip": "simplu",
+  "intrebare": "Cât este $x^3:x$?",
+  "variante": [
+   "$x^2$",
+   "$x$",
+   "$3x$",
+   "$x^4$"
+  ],
+  "corect": 0,
+  "explicatie": "La împărțirea puterilor scădem exponenții: $x^{3-1}=x^2$."
+ },
+ {
+  "id": "impartirea-polinoamelor-010",
+  "tip": "simplu",
+  "intrebare": "Cât este $(x^3-x):x$?",
+  "variante": [
+   "$x-1$",
+   "$x^2-1$",
+   "$x^2-x$",
+   "$x^3-1$"
+  ],
+  "corect": 1,
+  "explicatie": "Împărțim fiecare termen la $x$: $x^3:x=x^2$ și $x:x=1$, deci $x^2-1$."
+ },
+ {
+  "id": "impartirea-polinoamelor-011",
+  "tip": "simplu",
+  "intrebare": "Care este restul împărțirii lui $P(x)$ la $x-a$?",
+  "variante": [
+   "$a$",
+   "$P(0)$",
+   "$P(-a)$",
+   "$P(a)$"
+  ],
+  "corect": 3,
+  "explicatie": "Conform teoremei restului, restul împărțirii lui $P(x)$ la $x-a$ este $P(a)$."
+ },
+ {
+  "id": "impartirea-polinoamelor-012",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $x^2+1$ la $x-1$?",
+  "variante": [
+   "$1$",
+   "$0$",
+   "$2$",
+   "$-2$"
+  ],
+  "corect": 2,
+  "explicatie": "Restul este $P(1)=1^2+1=2$."
+ },
+ {
+  "id": "impartirea-polinoamelor-013",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $x^3$ la $x-2$?",
+  "variante": [
+   "$2$",
+   "$0$",
+   "$8$",
+   "$6$"
+  ],
+  "corect": 2,
+  "explicatie": "Restul este $P(2)=2^3=8$."
+ },
+ {
+  "id": "impartirea-polinoamelor-014",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $x^2-4$ la $x-2$?",
+  "variante": [
+   "$4$",
+   "$0$",
+   "$2$",
+   "$-4$"
+  ],
+  "corect": 1,
+  "explicatie": "Restul este $P(2)=2^2-4=0$ (de fapt $x^2-4$ se împarte exact la $x-2$)."
+ },
+ {
+  "id": "impartirea-polinoamelor-015",
+  "tip": "simplu",
+  "intrebare": "Care este restul lui $2x+1$ la $x-3$?",
+  "variante": [
+   "$6$",
+   "$7$",
+   "$1$",
+   "$5$"
+  ],
+  "corect": 1,
+  "explicatie": "Restul este $P(3)=2\\cdot3+1=7$."
+ },
+ {
+  "id": "impartirea-polinoamelor-016",
+  "tip": "simplu",
+  "intrebare": "Polinomul $P$ se divide cu $x-a$ dacă:",
+  "variante": [
+   "$P(a)=a$",
+   "$P(a)=1$",
+   "$P(0)=a$",
+   "$P(a)=0$"
+  ],
+  "corect": 3,
+  "explicatie": "Restul împărțirii la $x-a$ este $P(a)$, deci divizibilitatea înseamnă $P(a)=0$."
+ },
+ {
+  "id": "impartirea-polinoamelor-017",
+  "tip": "simplu",
+  "intrebare": "Dacă restul este $0$, atunci:",
+  "variante": [
+   "restul este $1$",
+   "împărțirea se face exact",
+   "câtul este $0$",
+   "nu se poate împărți"
+  ],
+  "corect": 1,
+  "explicatie": "Restul $0$ înseamnă că deîmpărțitul este un multiplu al împărțitorului, adică împărțirea este exactă."
+ },
+ {
+  "id": "impartirea-polinoamelor-018",
+  "tip": "simplu",
+  "intrebare": "Primul pas la împărțirea polinoamelor:",
+  "variante": [
+   "împărțim primul termen al deîmpărțitului la primul termen al împărțitorului",
+   "scădem împărțitorul",
+   "adunăm toți termenii",
+   "înmulțim deîmpărțitul cu $x$"
+  ],
+  "corect": 0,
+  "explicatie": "Primul termen al câtului se obține împărțind primul termen al deîmpărțitului la primul termen al împărțitorului."
+ }
 ]
