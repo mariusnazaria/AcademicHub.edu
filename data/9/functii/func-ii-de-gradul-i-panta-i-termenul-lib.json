@@ -61,5 +61,16 @@
     ],
     "corect": 1,
     "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558472036.png"
+  },
+  {
+    "id": "func-ii-de-gradul-i-panta-i-termenul-lib-1793558556381",
+    "tip": "simplu",
+    "intrebare": "Fie funcţiei ƒ(x)=ax+b. Panta a este un număr",
+    "variante": [
+      "pozitiv",
+      "negativ"
+    ],
+    "corect": 1,
+    "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793558554588.png"
   }
 ]
