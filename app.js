@@ -26,7 +26,29 @@ function scapaHtml(text) {
     .replace(/>/g, '&gt;');
 }
 
+// Randare principală. Formulele scrise între $...$ se afișează cu
+// KaTeX (fracții, puteri, rădăcini, integrale, simboluri). Textul
+// din afara lor trece prin randarea veche (\frac{a}{b}, ^{n}, _{n}),
+// ca să rămână bune colecțiile deja existente.
 function randMatematic(text) {
+  if (!text) return '';
+  const src = String(text);
+  if (src.indexOf('$') === -1) return randMatematicVechi(src);
+
+  return src.split(/(\$[^$]+\$)/g).map(parte => {
+    const esteFormula = parte.length > 2 && parte[0] === '$' && parte[parte.length - 1] === '$';
+    if (!esteFormula) return randMatematicVechi(parte);
+    const formula = parte.slice(1, -1);
+    if (window.katex) {
+      try {
+        return window.katex.renderToString(formula, { throwOnError: false, output: 'html' });
+      } catch (e) { /* cădem pe varianta simplă de mai jos */ }
+    }
+    return '<code>' + scapaHtml(formula) + '</code>';
+  }).join('');
+}
+
+function randMatematicVechi(text) {
   if (!text) return '';
   let s = scapaHtml(text);
 
@@ -44,6 +66,146 @@ function randMatematic(text) {
   s = s.replace(/_([^\s{}<])/g, '<sub>$1</sub>');
 
   return s;
+}
+
+// ----------------------------------------------------------
+// Bara de formule din panoul de profesor.
+// Fiecare buton inserează un șablon în câmpul în care ai scris
+// ultima oară; "|" marchează unde rămâne cursorul. Dacă cursorul
+// e deja într-o formulă ($...$), se inserează doar șablonul;
+// altfel e pus automat între semne $ .
+// ----------------------------------------------------------
+
+const BUTOANE_FORMULE = [
+  { grup: 'Structuri', butoane: [
+    { eticheta: 'a/b', titlu: 'Fracție', sablon: '\\frac{|}{}' },
+    { eticheta: 'xⁿ', titlu: 'Putere', sablon: '^{|}' },
+    { eticheta: 'xₙ', titlu: 'Indice', sablon: '_{|}' },
+    { eticheta: '√', titlu: 'Radical', sablon: '\\sqrt{|}' },
+    { eticheta: 'ⁿ√', titlu: 'Radical de ordin n', sablon: '\\sqrt[|]{}' },
+    { eticheta: '∫', titlu: 'Integrală nedefinită', sablon: '\\int | \\, dx' },
+    { eticheta: '∫ₐᵇ', titlu: 'Integrală definită', sablon: '\\int_{|}^{} \\, dx' },
+    { eticheta: '|x|', titlu: 'Modul', sablon: '\\left| | \\right|' },
+    { eticheta: 'lim', titlu: 'Limită', sablon: '\\lim_{x \\to |}' },
+    { eticheta: 'Σ', titlu: 'Sumă', sablon: '\\sum_{|}^{}' },
+    { eticheta: 'logₐ', titlu: 'Logaritm', sablon: '\\log_{|}' }
+  ]},
+  { grup: 'Funcții', butoane: [
+    { eticheta: 'sin', sablon: '\\sin ' },
+    { eticheta: 'cos', sablon: '\\cos ' },
+    { eticheta: 'tg', sablon: '\\operatorname{tg} ' },
+    { eticheta: 'ctg', sablon: '\\operatorname{ctg} ' },
+    { eticheta: 'ln', sablon: '\\ln ' },
+    { eticheta: 'lg', sablon: '\\lg ' }
+  ]},
+  { grup: 'Simboluri', butoane: [
+    { eticheta: 'π', sablon: '\\pi ' },
+    { eticheta: '∞', sablon: '\\infty ' },
+    { eticheta: '≤', sablon: '\\leq ' },
+    { eticheta: '≥', sablon: '\\geq ' },
+    { eticheta: '≠', sablon: '\\neq ' },
+    { eticheta: '±', sablon: '\\pm ' },
+    { eticheta: '·', titlu: 'Înmulțire', sablon: '\\cdot ' },
+    { eticheta: '→', sablon: '\\to ' },
+    { eticheta: '∈', sablon: '\\in ' },
+    { eticheta: '∪', sablon: '\\cup ' },
+    { eticheta: '∩', sablon: '\\cap ' },
+    { eticheta: '∅', sablon: '\\varnothing ' },
+    { eticheta: 'ℝ', sablon: '\\mathbb{R}' },
+    { eticheta: 'α', sablon: '\\alpha ' },
+    { eticheta: 'β', sablon: '\\beta ' },
+    { eticheta: 'Δ', sablon: '\\Delta ' },
+    { eticheta: '°', titlu: 'Grad', sablon: '^{\\circ}' }
+  ]}
+];
+
+function montezaBaraFormule(radacina) {
+  const bara = radacina.querySelector('[data-formula-bar]');
+  if (!bara) return;
+
+  bara.innerHTML = `
+    <div class="formula-preview" aria-live="polite"></div>
+    <div class="formula-buttons"></div>
+    <p class="field-hint formula-hint">Apasă un buton ca să inserezi formula în câmpul în care scrii.</p>`;
+  const previzualizare = bara.querySelector('.formula-preview');
+  const zonaButoane = bara.querySelector('.formula-buttons');
+
+  let camp = null; // ultimul câmp text în care a scris profesorul
+
+  function esteCampText(el) {
+    return el && el.matches && el.matches('textarea.text-input, input.v-text');
+  }
+
+  function actualizeazaPreviewul() {
+    const valoare = camp ? camp.value.trim() : '';
+    previzualizare.innerHTML = valoare
+      ? randMatematic(valoare)
+      : '<span class="formula-preview-gol">Previzualizarea apare aici, pentru câmpul în care scrii.</span>';
+  }
+
+  function insereaza(sablon) {
+    if (!camp || !document.body.contains(camp)) {
+      previzualizare.innerHTML = '<span class="formula-preview-gol">Apasă întâi într-un câmp (enunț, variantă sau explicație).</span>';
+      return;
+    }
+    const inceput = camp.selectionStart != null ? camp.selectionStart : camp.value.length;
+    const sfarsit = camp.selectionEnd != null ? camp.selectionEnd : inceput;
+    const inainte = camp.value.slice(0, inceput);
+    const selectat = camp.value.slice(inceput, sfarsit);
+    const dupa = camp.value.slice(sfarsit);
+
+    // Sunt deja într-o formulă dacă înainte de cursor e un număr impar de $
+    const inFormula = (inainte.match(/\$/g) || []).length % 2 === 1;
+
+    let marcaj = sablon.indexOf('|');
+    // Ultimul "|" din șablonul modulului (\left| | \right|) e cel de mijloc
+    if (sablon.startsWith('\\left|')) marcaj = sablon.indexOf(' | ') + 1;
+    const stanga = marcaj >= 0 ? sablon.slice(0, marcaj) : sablon;
+    const dreapta = marcaj >= 0 ? sablon.slice(marcaj + 1) : '';
+
+    const prefix = inFormula ? '' : '$';
+    const sufix = inFormula ? '' : '$';
+    const inserat = prefix + stanga + selectat + dreapta + sufix;
+    camp.value = inainte + inserat + dupa;
+
+    // Cursorul: după partea din stânga a șablonului (și a textului selectat, dacă a fost)
+    const pozitie = inainte.length + prefix.length + stanga.length + (marcaj >= 0 ? selectat.length : 0);
+    const pozitieFinala = marcaj >= 0 ? pozitie : inainte.length + inserat.length;
+    camp.focus();
+    camp.setSelectionRange(pozitieFinala, pozitieFinala);
+    actualizeazaPreviewul();
+  }
+
+  BUTOANE_FORMULE.forEach(grup => {
+    const rand = document.createElement('div');
+    rand.className = 'formula-row';
+    grup.butoane.forEach(b => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'formula-btn';
+      btn.textContent = b.eticheta;
+      btn.title = b.titlu || b.eticheta;
+      btn.setAttribute('aria-label', b.titlu || b.eticheta);
+      // nu lăsa butonul să ia focusul din câmp (altfel se închide tastatura)
+      btn.addEventListener('mousedown', e => e.preventDefault());
+      btn.addEventListener('click', () => insereaza(b.sablon));
+      rand.appendChild(btn);
+    });
+    zonaButoane.appendChild(rand);
+  });
+
+  radacina.addEventListener('focusin', e => {
+    if (esteCampText(e.target)) { camp = e.target; actualizeazaPreviewul(); }
+  });
+  radacina.addEventListener('input', e => {
+    if (e.target === camp) actualizeazaPreviewul();
+  });
+  // când se deschide altă întrebare la editare, câmpurile se umplu prin cod
+  radacina.addEventListener('formule:reimprospateaza', () => {
+    camp = null;
+    actualizeazaPreviewul();
+  });
+  actualizeazaPreviewul();
 }
 
 const state = {
@@ -894,13 +1056,7 @@ function renderIntrebareNoua() {
 
   imagineSelectata = null;
 
-  const inEnunt = document.getElementById('in-enunt');
-  const inEnuntPreview = document.getElementById('in-enunt-preview');
-  inEnunt.addEventListener('input', () => {
-    inEnuntPreview.innerHTML = inEnunt.value.trim()
-      ? 'Previzualizare: ' + randMatematic(inEnunt.value)
-      : '';
-  });
+  montezaBaraFormule(app.querySelector('section.screen'));
 
   const selClasa = document.getElementById('in-clasa');
   const selMaterie = document.getElementById('in-materie');
@@ -1031,10 +1187,10 @@ function renderIntrebareNoua() {
 
       // Golește formularul pentru următoarea întrebare
       document.getElementById('in-enunt').value = '';
-      inEnuntPreview.innerHTML = '';
       document.getElementById('in-explicatie').value = '';
       varianteWrap.innerHTML = '';
       adaugaVarianta(); adaugaVarianta(); adaugaVarianta(); adaugaVarianta();
+      app.querySelector('section.screen').dispatchEvent(new Event('formule:reimprospateaza'));
       imagineSelectata = null;
       inputImg.value = '';
       previewWrap.hidden = true;
@@ -1240,14 +1396,11 @@ function renderEditareIntrebari() {
   const lista = document.getElementById('ed-lista');
   const formWrap = document.getElementById('ed-form-wrap');
   const listaWrap = document.getElementById('ed-lista-wrap');
-  const edEnunt = document.getElementById('ed-enunt');
-  const edEnuntPreview = document.getElementById('ed-enunt-preview');
+  const radacinaFormule = app.querySelector('section.screen');
+  montezaBaraFormule(radacinaFormule);
   function actualizeazaPreviewEnunt() {
-    edEnuntPreview.innerHTML = edEnunt.value.trim()
-      ? 'Previzualizare: ' + randMatematic(edEnunt.value)
-      : '';
+    radacinaFormule.dispatchEvent(new Event('formule:reimprospateaza'));
   }
-  edEnunt.addEventListener('input', actualizeazaPreviewEnunt);
   const varianteWrap = document.getElementById('ed-variante');
   const err = document.getElementById('ed-error');
   const ok = document.getElementById('ed-ok');

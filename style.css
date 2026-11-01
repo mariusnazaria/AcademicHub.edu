@@ -1529,3 +1529,89 @@ a.contact-value:hover { text-decoration: underline; }
   border: 1px solid var(--border);
   border-radius: var(--radius);
 }
+
+/* ===================== FORMULE MATEMATICE ===================== */
+/* KaTeX: puțin mai mic și în culoarea textului din jur */
+.katex { font-size: 1.08em; color: inherit; }
+.katex-display { margin: 0.6em 0; }
+
+/* Randarea veche (\frac{a}{b} fără $...$): fracție cu bară */
+.frac {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 0.18em;
+}
+.frac-num {
+  padding: 0 0.25em;
+  border-bottom: 1.5px solid currentColor;
+  line-height: 1.25;
+}
+.frac-den {
+  padding: 0 0.25em;
+  line-height: 1.25;
+}
+
+/* Bara de formule din panoul de profesor */
+.formula-bar {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  margin-top: 18px;
+  padding: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.formula-preview {
+  min-height: 2.4em;
+  max-height: 7em;
+  overflow: auto;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+.formula-preview-gol {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.formula-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.formula-btn {
+  flex: 0 0 auto;
+  min-width: 42px;
+  height: 40px;
+  padding: 0 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formula-btn:hover,
+.formula-btn:active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.formula-hint { margin: 4px 0 0; }
