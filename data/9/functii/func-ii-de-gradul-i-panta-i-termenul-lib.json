@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "func-ii-de-gradul-i-panta-i-termenul-lib-1793557932785",
+    "tip": "simplu",
+    "intrebare": "Funcţia ƒ(x) este",
+    "variante": [
+      "crescătoare",
+      "descrescătoare",
+      "pozitivă",
+      "negativă"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793557930682.png"
+  }
+]
