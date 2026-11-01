@@ -1,0 +1,242 @@
+[
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-001",
+    "tip": "simplu",
+    "intrebare": "Admitere: $P(\\text{Ion})=\\frac56$, $P(\\text{Mihai})=\\frac37$; doar unul dintre ei este admis. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=\\frac56+\\frac37$",
+      "$P=1-\\frac56\\cdot\\frac37$",
+      "$P=\\frac56\\cdot\\frac47+\\frac16\\cdot\\frac37$",
+      "$P=\\frac56\\cdot\\frac37$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-002",
+    "tip": "simplu",
+    "intrebare": "Două examene: $P(\\text{fizic}_1)=\\frac45$, $P(\\text{fizic}_2)=\\frac34$; cel puțin un examen cu prezență fizică. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=\\frac45+\\frac34$",
+      "$P=1-\\frac15\\cdot\\frac14$",
+      "$P=\\frac45\\cdot\\frac34$",
+      "$P=1-\\frac45\\cdot\\frac34$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-003",
+    "tip": "simplu",
+    "intrebare": "Două companii: oferta de la prima cu probabilitatea $\\frac{3}{10}$, de la a doua $\\frac35$; cel puțin o ofertă. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=1-\\frac{3}{10}\\cdot\\frac35$",
+      "$P=\\frac{3}{10}\\cdot\\frac35$",
+      "$P=\\frac{3}{10}+\\frac35$",
+      "$P=1-\\frac{7}{10}\\cdot\\frac25$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-004",
+    "tip": "simplu",
+    "intrebare": "Luni plouă cu probabilitatea $\\frac25$, marți cu $\\frac79$; va ploua în cel puțin una din zile. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=\\frac25+\\frac79$",
+      "$P=\\frac25\\cdot\\frac79$",
+      "$P=1-\\frac35\\cdot\\frac29$",
+      "$P=1-\\frac25\\cdot\\frac79$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-005",
+    "tip": "simplu",
+    "intrebare": "Trei prieteni nimeresc coșul cu probabilitățile $0{,}7$; $0{,}5$; $0{,}4$; mingea intră exact de două ori. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}7\\cdot0{,}5\\cdot0{,}4$",
+      "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4+0{,}7\\cdot0{,}5\\cdot0{,}4$",
+      "$P=0{,}7\\cdot0{,}5\\cdot0{,}6+0{,}7\\cdot0{,}5\\cdot0{,}4+0{,}3\\cdot0{,}5\\cdot0{,}4$",
+      "$P=3\\cdot0{,}7\\cdot0{,}5\\cdot0{,}4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-006",
+    "tip": "simplu",
+    "intrebare": "Un utilaj este defect cu probabilitatea $0{,}2$; se cumpără $4$ utilaje; cel puțin $3$ sunt defecte. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8$",
+      "$P=C_4^3\\cdot0{,}8^3\\cdot0{,}2+C_4^4\\cdot0{,}8^4$",
+      "$P=C_4^3\\cdot0{,}2^3+C_4^4\\cdot0{,}2^4$",
+      "$P=C_4^3\\cdot0{,}2^3\\cdot0{,}8+C_4^4\\cdot0{,}2^4$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-007",
+    "tip": "simplu",
+    "intrebare": "Două servere funcționează corect cu probabilitățile $0{,}95$ și $0{,}9$; cel puțin un server nu funcționează corect. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}95\\cdot0{,}9$",
+      "$P=1-0{,}95\\cdot0{,}9$",
+      "$P=0{,}05\\cdot0{,}1$",
+      "$P=0{,}95+0{,}9$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-008",
+    "tip": "simplu",
+    "intrebare": "Un trăgător nimerește cu probabilitatea $0{,}8$ la o tragere și trage până la prima nimerire; se fac patru trageri. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}8^4$",
+      "$P=0{,}2^4$",
+      "$P=0{,}8^3\\cdot0{,}2$",
+      "$P=0{,}2^3\\cdot0{,}8$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-009",
+    "tip": "simplu",
+    "intrebare": "Troleibuzul vine la timp cu probabilitatea $0{,}8$, microbuzul cu $0{,}7$; exact unul dintre ele vine la timp. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}8+0{,}7$",
+      "$P=0{,}8\\cdot0{,}7$",
+      "$P=0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7$",
+      "$P=1-0{,}8\\cdot0{,}7$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-010",
+    "tip": "simplu",
+    "intrebare": "Ilie nimerește coșul cu probabilitatea $0{,}3$ și aruncă până nimerește de $2$ ori consecutiv; face $4$ aruncări. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}3^4$",
+      "$P=0{,}7\\cdot0{,}3^2$",
+      "$P=0{,}7^3\\cdot0{,}3$",
+      "$P=0{,}7^2\\cdot0{,}3^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-011",
+    "tip": "simplu",
+    "intrebare": "Sâmbătă plouă cu probabilitatea $60\\%$, duminică cu $30\\%$; cel puțin o zi fără ploaie. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=1-0{,}6\\cdot0{,}3$",
+      "$P=0{,}6\\cdot0{,}3$",
+      "$P=0{,}4\\cdot0{,}7$",
+      "$P=0{,}4+0{,}7$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-012",
+    "tip": "simplu",
+    "intrebare": "Echipa câștigă un meci cu probabilitatea $60\\%$; se califică dacă câștigă cel puțin $2$ din $3$ meciuri. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4+0{,}6^3$",
+      "$P=C_3^2\\cdot0{,}4^2\\cdot0{,}6+0{,}4^3$",
+      "$P=C_3^2\\cdot0{,}6^2+0{,}6^3$",
+      "$P=C_3^2\\cdot0{,}6^2\\cdot0{,}4$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-013",
+    "tip": "simplu",
+    "intrebare": "Trei jucători marchează cu probabilitățile $80\\%$, $70\\%$, $60\\%$; exact doi dintre ei marchează. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}8\\cdot0{,}7\\cdot0{,}4+0{,}8\\cdot0{,}3\\cdot0{,}6+0{,}2\\cdot0{,}7\\cdot0{,}6$",
+      "$P=3\\cdot0{,}8\\cdot0{,}7\\cdot0{,}4$",
+      "$P=0{,}8\\cdot0{,}7\\cdot0{,}6$",
+      "$P=0{,}8\\cdot0{,}7\\cdot0{,}4$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-014",
+    "tip": "simplu",
+    "intrebare": "Alina este acceptată cu probabilitatea $8\\%$, Ioana cu $4\\%$; cel puțin una este acceptată. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}92\\cdot0{,}96$",
+      "$P=1-0{,}92\\cdot0{,}96$",
+      "$P=0{,}08+0{,}04$",
+      "$P=0{,}08\\cdot0{,}04$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-015",
+    "tip": "simplu",
+    "intrebare": "Igor este tatăl primului copil cu probabilitatea $30\\%$ și al celui de-al doilea cu $50\\%$; cel puțin un copil este al lui Igor. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}3+0{,}5$",
+      "$P=1-0{,}7\\cdot0{,}5$",
+      "$P=0{,}3\\cdot0{,}5$",
+      "$P=0{,}7\\cdot0{,}5$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-016",
+    "tip": "simplu",
+    "intrebare": "Mihai câștigă un meci cu probabilitatea $70\\%$ și joacă până la prima pierdere; joacă $5$ meciuri. Care este formula probabilității cerute?",
+    "variante": [
+      "$P=0{,}3^4\\cdot0{,}7$",
+      "$P=0{,}7^4\\cdot0{,}3$",
+      "$P=0{,}7^5$",
+      "$P=0{,}7^5\\cdot0{,}3$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-017",
+    "tip": "simplu",
+    "intrebare": "Pentru evenimente independente $A$ și $B$: $P(A\\cap B)=?$",
+    "variante": [
+      "$\\frac{P(A)}{P(B)}$",
+      "$P(A)+P(B)$",
+      "$P(A)\\cdot P(B)$",
+      "$P(A)-P(B)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-018",
+    "tip": "simplu",
+    "intrebare": "$P(A\\cup B)=?$ (în general)",
+    "variante": [
+      "$P(A)\\cdot P(B)$",
+      "$P(A)+P(B)$ mereu",
+      "$P(A)+P(B)-P(A\\cap B)$",
+      "$P(A)+P(B)+P(A\\cap B)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-019",
+    "tip": "simplu",
+    "intrebare": "„Cel puțin unul” se calculează ca:",
+    "variante": [
+      "$P(\\text{toate})$",
+      "$1-P(\\text{niciunul})$",
+      "$P(\\text{niciunul})$",
+      "$1-P(\\text{toate})$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-probabilitati-prestabilite-020",
+    "tip": "simplu",
+    "intrebare": "La $2$ evenimente independente, „exact unul” se scrie:",
+    "variante": [
+      "$1-p_1p_2$",
+      "$p_1+p_2$",
+      "$p_1p_2$",
+      "$p_1(1-p_2)+(1-p_1)p_2$"
+    ],
+    "corect": 3
+  }
+]

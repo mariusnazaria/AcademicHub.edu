@@ -1,0 +1,290 @@
+[
+  {
+    "id": "probleme-cu-combinari-001",
+    "tip": "simplu",
+    "intrebare": "Urnă: $10$ bile albe, $10$ roșii; se extrag $2$ bile; ambele albe. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{10}^{2};\\ n=A_{20}^{2}$",
+      "$m=2\\cdot C_{10}^{2};\\ n=C_{20}^{2}$",
+      "$m=C_{10}^{2};\\ n=C_{20}^{10}$",
+      "$m=C_{10}^{2};\\ n=C_{20}^{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-002",
+    "tip": "simplu",
+    "intrebare": "Urnă: $12$ bile albe, $8$ negre; se extrag $3$ bile; toate negre. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=8^{3};\\ n=20^{3}$",
+      "$m=C_{8}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{8}^{3};\\ n=C_{12}^{3}$",
+      "$m=A_{8}^{3};\\ n=C_{20}^{3}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-combinari-003",
+    "tip": "simplu",
+    "intrebare": "Urnă: $20$ bile, $15$ roșii și $5$ albastre; se extrag $3$; toate roșii. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=A_{15}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{15}^{3};\\ n=20^{3}$",
+      "$m=C_{15}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{15}^{3};\\ n=C_{5}^{3}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-004",
+    "tip": "simplu",
+    "intrebare": "Urnă: $7$ bile albe, $5$ roșii; se extrag $2$; cel puțin o bilă roșie. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{5}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
+      "$m=C_{5}^{1}\\cdot C_{7}^{1}+C_{5}^{2};\\ n=C_{12}^{2}$",
+      "$m=C_{5}^{1}\\cdot C_{7}^{1};\\ n=C_{12}^{2}$",
+      "$m=C_{5}^{1}\\cdot C_{11}^{1};\\ n=C_{12}^{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-combinari-005",
+    "tip": "simplu",
+    "intrebare": "Urnă: $13$ bile verzi, $7$ albastre; se extrag $3$; cel puțin $2$ albastre. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{7}^{2}\\cdot C_{13}^{1}+C_{7}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{7}^{2}+C_{7}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{7}^{2}\\cdot C_{18}^{1};\\ n=C_{20}^{3}$",
+      "$m=C_{7}^{2}\\cdot C_{13}^{1};\\ n=C_{20}^{3}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-combinari-006",
+    "tip": "simplu",
+    "intrebare": "Coș: $20$ ouă, $15$ roșii și $5$ galbene; se scot $3$; cel mult două galbene. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+      "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+      "$m=C_{5}^{2}\\cdot C_{15}^{1};\\ n=C_{20}^{3}$",
+      "$m=C_{15}^{3}+C_{5}^{1}\\cdot C_{15}^{2}+C_{5}^{2}\\cdot C_{15}^{1}+C_{5}^{3};\\ n=C_{20}^{3}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-combinari-007",
+    "tip": "simplu",
+    "intrebare": "Din $22$ flori ($14$ trandafiri și $8$ lalele) se formează un buchet de $20$ flori; cel puțin $19$ trandafiri. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{14}^{19};\\ n=C_{22}^{20}$",
+      "$m=C_{14}^{19}\\cdot C_{8}^{1};\\ n=C_{22}^{20}$",
+      "$m=C_{22}^{19};\\ n=C_{22}^{20}$",
+      "$m=0$ (nu pot fi $19$ trandafiri din $14$);\\ $n=C_{22}^{20}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-008",
+    "tip": "simplu",
+    "intrebare": "$11$ bomboane „Răcușor” și $9$ „Fulgușor”; fiecare copil primește $4$; cel puțin jumătate din bomboanele lui Sabin sunt „Răcușor”. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{11}^{2}+C_{11}^{3}+C_{11}^{4};\\ n=C_{20}^{4}$",
+      "$m=C_{11}^{2}\\cdot C_{9}^{2};\\ n=C_{20}^{4}$",
+      "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1}+C_{11}^{4};\\ n=C_{20}^{4}$",
+      "$m=C_{11}^{2}\\cdot C_{9}^{2}+C_{11}^{3}\\cdot C_{9}^{1};\\ n=C_{20}^{4}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-009",
+    "tip": "simplu",
+    "intrebare": "Urnă: $7$ bile albe, $3$ roșii; se extrag $2$; bile de culori diferite. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=C_{10}^{2}$",
+      "$m=C_{7}^{1}+C_{3}^{1};\\ n=C_{10}^{2}$",
+      "$m=C_{7}^{2}+C_{3}^{2};\\ n=C_{10}^{2}$",
+      "$m=C_{7}^{1}\\cdot C_{3}^{1};\\ n=A_{10}^{2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-combinari-010",
+    "tip": "simplu",
+    "intrebare": "Urnă: $5$ bile verzi, $7$ galbene, $8$ albastre; se extrag $3$; toate culorile prezente. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=5\\cdot 7\\cdot 8;\\ n=A_{20}^{3}$",
+      "$m=C_{5}^{3}\\cdot C_{7}^{3}\\cdot C_{8}^{3};\\ n=C_{20}^{3}$",
+      "$m=C_{5}^{1}\\cdot C_{7}^{1}\\cdot C_{8}^{1};\\ n=C_{20}^{3}$",
+      "$m=C_{5}^{1}+C_{7}^{1}+C_{8}^{1};\\ n=C_{20}^{3}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-011",
+    "tip": "simplu",
+    "intrebare": "Urnă: $3$ bile albe, $3$ roșii, $4$ negre; se extrag $3$; cel puțin $2$ negre. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{4}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
+      "$m=C_{4}^{2}\\cdot C_{6}^{1}+C_{4}^{3};\\ n=C_{10}^{3}$",
+      "$m=C_{4}^{2}\\cdot C_{6}^{2}+C_{4}^{3};\\ n=C_{10}^{3}$",
+      "$m=C_{4}^{2}\\cdot C_{6}^{1};\\ n=C_{10}^{3}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-combinari-012",
+    "tip": "simplu",
+    "intrebare": "Clasă: $6$ fete și $10$ băieți; echipă de $3$ elevi; doar băieți. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{10}^{3};\\ n=16^{3}$",
+      "$m=C_{10}^{3};\\ n=C_{16}^{3}$",
+      "$m=A_{10}^{3};\\ n=C_{16}^{3}$",
+      "$m=C_{6}^{3};\\ n=C_{16}^{3}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-combinari-013",
+    "tip": "simplu",
+    "intrebare": "Clasă: $12$ fete și $8$ băieți; echipă de $4$; niciun sex majoritar. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=A_{20}^{4}$",
+      "$m=C_{12}^{4}+C_{8}^{4};\\ n=C_{20}^{4}$",
+      "$m=C_{12}^{2}+C_{8}^{2};\\ n=C_{20}^{4}$",
+      "$m=C_{12}^{2}\\cdot C_{8}^{2};\\ n=C_{20}^{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-014",
+    "tip": "simplu",
+    "intrebare": "Juriu de $4$ persoane din $5$ dansatori, $4$ cântăreți și $1$ actor; câte cel puțin un reprezentant din fiecare sferă. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+      "$m=C_{5}^{1}\\cdot C_{4}^{1}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+      "$m=C_{5}^{2}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$",
+      "$m=C_{5}^{2}\\cdot C_{4}^{1}\\cdot C_{1}^{1}+C_{5}^{1}\\cdot C_{4}^{2}\\cdot C_{1}^{1};\\ n=C_{10}^{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-015",
+    "tip": "simplu",
+    "intrebare": "$12$ copii, printre care Ana și Ionuț, se împart în $2$ grupe egale de câte $6$. Ana și Ionuț în aceeași grupă. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{10}^{4};\\ n=C_{12}^{6}$",
+      "$m=C_{10}^{5};\\ n=C_{12}^{6}$",
+      "$m=2\\cdot C_{10}^{4};\\ n=C_{12}^{6}$",
+      "$m=2\\cdot C_{10}^{4};\\ n=2\\cdot C_{12}^{6}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-016",
+    "tip": "simplu",
+    "intrebare": "$22$ de copii, printre care $2$ surori gemene, se împart în $2$ clase egale de câte $11$. Surorile în aceeași clasă. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=2\\cdot C_{20}^{9};\\ n=C_{22}^{11}$",
+      "$m=C_{20}^{10};\\ n=C_{22}^{11}$",
+      "$m=2\\cdot C_{20}^{9};\\ n=2\\cdot C_{22}^{11}$",
+      "$m=C_{20}^{9};\\ n=C_{22}^{11}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-combinari-017",
+    "tip": "simplu",
+    "intrebare": "$15$ teme, se dau $3$; trebuie rezolvate corect cel puțin $2$; Anton a învățat $10$ teme. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{10}^{3};\\ n=C_{15}^{3}$",
+      "$m=C_{10}^{2}\\cdot C_{5}^{1};\\ n=C_{15}^{3}$",
+      "$m=C_{10}^{2}+C_{10}^{3};\\ n=C_{15}^{3}$",
+      "$m=C_{10}^{2}\\cdot C_{5}^{1}+C_{10}^{3};\\ n=C_{15}^{3}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-018",
+    "tip": "simplu",
+    "intrebare": "$12$ piese auto, $4$ defecte; se inspectează $4$; cel puțin două defecte. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{4}^{2}+C_{4}^{3}+C_{4}^{4};\\ n=C_{12}^{4}$",
+      "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1};\\ n=C_{12}^{4}$",
+      "$m=C_{4}^{2}\\cdot C_{8}^{2};\\ n=C_{12}^{4}$",
+      "$m=C_{4}^{2}\\cdot C_{8}^{2}+C_{4}^{3}\\cdot C_{8}^{1}+C_{4}^{4};\\ n=C_{12}^{4}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-019",
+    "tip": "simplu",
+    "intrebare": "$16$ jucători se împart în $2$ echipe de câte $8$. Pavel, Petru și Paul în aceeași echipă. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=2\\cdot C_{13}^{3};\\ n=C_{16}^{8}$",
+      "$m=C_{13}^{5};\\ n=C_{16}^{8}$",
+      "$m=2\\cdot C_{13}^{5};\\ n=C_{16}^{8}$",
+      "$m=2\\cdot C_{13}^{5};\\ n=A_{16}^{8}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-020",
+    "tip": "simplu",
+    "intrebare": "Coș: $6$ mere roșii, $5$ verzi, $4$ galbene; se extrag $3$ simultan; toate de aceeași culoare. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{6}^{3}+C_{5}^{3};\\ n=C_{15}^{3}$",
+      "$m=3\\cdot C_{5}^{3};\\ n=C_{15}^{3}$",
+      "$m=C_{6}^{3}\\cdot C_{5}^{3}\\cdot C_{4}^{3};\\ n=C_{15}^{3}$",
+      "$m=C_{6}^{3}+C_{5}^{3}+C_{4}^{3};\\ n=C_{15}^{3}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-combinari-021",
+    "tip": "simplu",
+    "intrebare": "Test cu $6$ itemi de $5$ puncte și $4$ itemi de $2$ puncte; Aurel a rezolvat $6$ itemi; promovează cu minim $23$ puncte. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{6}^{4}\\cdot C_{4}^{2};\\ n=C_{10}^{6}$",
+      "$m=C_{6}^{3}\\cdot C_{4}^{3}+C_{6}^{4}\\cdot C_{4}^{2}+C_{6}^{5}\\cdot C_{4}^{1};\\ n=C_{10}^{6}$",
+      "$m=C_{6}^{4}\\cdot C_{4}^{2}+C_{6}^{5}\\cdot C_{4}^{1}+C_{6}^{6};\\ n=C_{10}^{6}$",
+      "$m=C_{6}^{5}\\cdot C_{4}^{1}+C_{6}^{6};\\ n=C_{10}^{6}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-022",
+    "tip": "simplu",
+    "intrebare": "Prizonierul bea din $3$ pahare din $10$, dintre care $5$ otrăvite; el moare dacă bea cel puțin un pahar otrăvit. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{5}^{1}\\cdot C_{5}^{2};\\ n=C_{10}^{3}$",
+      "$m=C_{5}^{3};\\ n=C_{10}^{3}$",
+      "$m=C_{5}^{1}\\cdot C_{5}^{2}+C_{5}^{2}\\cdot C_{5}^{1}+C_{5}^{3};\\ n=C_{10}^{3}$",
+      "$m=C_{5}^{1}\\cdot C_{9}^{2};\\ n=C_{10}^{3}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-023",
+    "tip": "simplu",
+    "intrebare": "Clasă de $16$ elevi, printre care Ion și Dan; echipă de $4$; în echipă sunt și Ion, și Dan. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=A_{14}^{2};\\ n=C_{16}^{4}$",
+      "$m=C_{14}^{4};\\ n=C_{16}^{4}$",
+      "$m=C_{14}^{2};\\ n=C_{16}^{4}$",
+      "$m=C_{14}^{2};\\ n=A_{16}^{4}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-combinari-024",
+    "tip": "simplu",
+    "intrebare": "Urnă: $4$ bile verzi, $3$ albe, $5$ roșii; se extrag $3$; apar doar $2$ culori. Care sunt $m$ și $n$?",
+    "variante": [
+      "$m=C_{4}^{2}\\cdot C_{3}^{1}+C_{4}^{1}\\cdot C_{3}^{2}+C_{4}^{2}\\cdot C_{5}^{1}+C_{4}^{1}\\cdot C_{5}^{2}+C_{3}^{2}\\cdot C_{5}^{1}+C_{3}^{1}\\cdot C_{5}^{2};\\ n=C_{12}^{3}$",
+      "$m=C_{4}^{2}\\cdot C_{3}^{1}+C_{4}^{2}\\cdot C_{5}^{1}+C_{3}^{2}\\cdot C_{5}^{1};\\ n=C_{12}^{3}$",
+      "$m=C_{4}^{1}\\cdot C_{3}^{1}\\cdot C_{5}^{1};\\ n=C_{12}^{3}$",
+      "$m=C_{4}^{2}\\cdot C_{10}^{1}+C_{3}^{2}\\cdot C_{10}^{1}+C_{5}^{2}\\cdot C_{10}^{1};\\ n=C_{12}^{3}$"
+    ],
+    "corect": 0
+  }
+]

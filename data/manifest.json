@@ -434,6 +434,42 @@
               "fisier": "data/12/combinatorica/binomul-lui-newton.json"
             }
           ]
+        },
+        {
+          "id": "probabilitate",
+          "nume": "Probabilitate",
+          "colectii": [
+            {
+              "id": "probabilitate-formule-si-algoritm",
+              "nume": "Probabilitate: formule și cum găsim m și n",
+              "fisier": "data/12/probabilitate/probabilitate-formule-si-algoritm.json"
+            },
+            {
+              "id": "probleme-cu-combinari",
+              "nume": "Probleme cu combinări (bile, cărți, comisii)",
+              "fisier": "data/12/probabilitate/probleme-cu-combinari.json"
+            },
+            {
+              "id": "probleme-cu-zaruri-si-monede",
+              "nume": "Probleme cu zaruri și monede",
+              "fisier": "data/12/probabilitate/probleme-cu-zaruri-si-monede.json"
+            },
+            {
+              "id": "probleme-cu-numere-coduri-litere",
+              "nume": "Probleme cu numere, coduri și litere",
+              "fisier": "data/12/probabilitate/probleme-cu-numere-coduri-litere.json"
+            },
+            {
+              "id": "probleme-cu-ordine-locuri-pozitii",
+              "nume": "Probleme cu ordine, locuri și poziții",
+              "fisier": "data/12/probabilitate/probleme-cu-ordine-locuri-pozitii.json"
+            },
+            {
+              "id": "probleme-cu-probabilitati-prestabilite",
+              "nume": "Probleme cu probabilități prestabilite",
+              "fisier": "data/12/probabilitate/probleme-cu-probabilitati-prestabilite.json"
+            }
+          ]
         }
       ]
     }
