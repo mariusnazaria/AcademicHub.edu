@@ -2,7 +2,7 @@
   {
     "id": "puteri-si-radicali-001",
     "tip": "simplu",
-    "intrebare": "$\\sqrt a=x\\iff ?$ ($a\\ge0,\\ x\\ge0$)",
+    "intrebare": "Ce înseamnă $\\sqrt a=x$ ($a\\ge0$, $x\\ge0$)?",
     "variante": [
       "$x^2=a$",
       "$x=a^2$",
@@ -14,7 +14,7 @@
   {
     "id": "puteri-si-radicali-002",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{ab}=?$ ($a,b\\ge0$)",
+    "intrebare": "Cât este $\\sqrt{ab}$ ($a,b\\ge0$)?",
     "variante": [
       "$\\sqrt a+\\sqrt b$",
       "$\\sqrt a:\\sqrt b$",
@@ -26,7 +26,7 @@
   {
     "id": "puteri-si-radicali-003",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{\\frac ab}=?$ ($a\\ge0,\\ b>0$)",
+    "intrebare": "Cât este $\\sqrt{\\frac ab}$ ($a\\ge0$, $b>0$)?",
     "variante": [
       "$\\frac{\\sqrt b}{\\sqrt a}$",
       "$\\frac{\\sqrt a}{\\sqrt b}$",
@@ -38,7 +38,7 @@
   {
     "id": "puteri-si-radicali-004",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{a^2}=?$",
+    "intrebare": "Cât este $\\sqrt{a^2}$?",
     "variante": [
       "$-a$",
       "$|a|$",
@@ -50,7 +50,7 @@
   {
     "id": "puteri-si-radicali-005",
     "tip": "simplu",
-    "intrebare": "$a^n\\cdot a^m=?$",
+    "intrebare": "Calculează $a^n\\cdot a^m$.",
     "variante": [
       "$(2a)^{n+m}$",
       "$a^{n+m}$",
@@ -62,7 +62,7 @@
   {
     "id": "puteri-si-radicali-006",
     "tip": "simplu",
-    "intrebare": "$a^n:a^m=?$",
+    "intrebare": "Calculează $a^n:a^m$.",
     "variante": [
       "$a^{n-m}$",
       "$a^{n+m}$",
@@ -74,7 +74,7 @@
   {
     "id": "puteri-si-radicali-007",
     "tip": "simplu",
-    "intrebare": "$(a^n)^m=?$",
+    "intrebare": "Calculează $(a^n)^m$.",
     "variante": [
       "$a^{n-m}$",
       "$a^{nm}$",
@@ -86,7 +86,7 @@
   {
     "id": "puteri-si-radicali-008",
     "tip": "simplu",
-    "intrebare": "$(ab)^n=?$",
+    "intrebare": "Calculează $(ab)^n$.",
     "variante": [
       "$a^nb^n$",
       "$ab^n$",
@@ -98,7 +98,7 @@
   {
     "id": "puteri-si-radicali-009",
     "tip": "simplu",
-    "intrebare": "$a^0=?$ ($a\\neq0$)",
+    "intrebare": "Cât este $a^0$ ($a\\neq0$)?",
     "variante": [
       "$0$",
       "nu există",
@@ -110,7 +110,7 @@
   {
     "id": "puteri-si-radicali-010",
     "tip": "simplu",
-    "intrebare": "$a^{-n}=?$",
+    "intrebare": "Ce înseamnă $a^{-n}$?",
     "variante": [
       "$\\frac1{a^n}$",
       "$-a^n$",
@@ -122,7 +122,7 @@
   {
     "id": "puteri-si-radicali-011",
     "tip": "simplu",
-    "intrebare": "$\\left(\\frac12\\right)^{-3}=?$",
+    "intrebare": "Calculează $\\left(\\frac12\\right)^{-3}$.",
     "variante": [
       "$8$",
       "$\\frac18$",
@@ -134,7 +134,7 @@
   {
     "id": "puteri-si-radicali-012",
     "tip": "simplu",
-    "intrebare": "$\\sqrt[3]{a}=x\\iff ?$",
+    "intrebare": "Ce înseamnă $\\sqrt[3]{a}=x$?",
     "variante": [
       "$x=3a$",
       "$x=a^3$",
@@ -146,7 +146,7 @@
   {
     "id": "puteri-si-radicali-013",
     "tip": "simplu",
-    "intrebare": "$\\sqrt[3]{-8}=?$",
+    "intrebare": "Calculează $\\sqrt[3]{-8}$.",
     "variante": [
       "nu există în $\\mathbb{R}$",
       "$-4$",
@@ -158,7 +158,7 @@
   {
     "id": "puteri-si-radicali-014",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{-4}$ în $\\mathbb{R}$:",
+    "intrebare": "Există $\\sqrt{-4}$ printre numerele reale?",
     "variante": [
       "$\\pm2$",
       "$-2$",
@@ -170,7 +170,7 @@
   {
     "id": "puteri-si-radicali-015",
     "tip": "simplu",
-    "intrebare": "Raționalizare: $\\frac{1}{\\sqrt a}=?$",
+    "intrebare": "Raționalizează $\\frac{1}{\\sqrt a}$.",
     "variante": [
       "$\\frac{\\sqrt a}{a}$",
       "$\\frac{a}{\\sqrt a}\\cdot a$",
@@ -182,7 +182,7 @@
   {
     "id": "puteri-si-radicali-016",
     "tip": "simplu",
-    "intrebare": "$\\frac{1}{\\sqrt a-\\sqrt b}=?$",
+    "intrebare": "Raționalizează $\\frac{1}{\\sqrt a-\\sqrt b}$.",
     "variante": [
       "$\\frac{\\sqrt a+\\sqrt b}{a+b}$",
       "$\\frac{\\sqrt a+\\sqrt b}{a-b}$",
@@ -194,7 +194,7 @@
   {
     "id": "puteri-si-radicali-017",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{72}=?$",
+    "intrebare": "Scoate factorii de sub radical: $\\sqrt{72}$.",
     "variante": [
       "$36\\sqrt2$",
       "$6\\sqrt2$",
@@ -206,7 +206,7 @@
   {
     "id": "puteri-si-radicali-018",
     "tip": "simplu",
-    "intrebare": "$(-2)^3=?$",
+    "intrebare": "Calculează $(-2)^3$.",
     "variante": [
       "$8$",
       "$-6$",
@@ -218,7 +218,7 @@
   {
     "id": "puteri-si-radicali-019",
     "tip": "simplu",
-    "intrebare": "$(-3)^{-2}=?$",
+    "intrebare": "Calculează $(-3)^{-2}$.",
     "variante": [
       "$9$",
       "$-9$",

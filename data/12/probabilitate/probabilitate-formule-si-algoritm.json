@@ -2,7 +2,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-001",
     "tip": "simplu",
-    "intrebare": "Formula clasică a probabilității:",
+    "intrebare": "Care este formula clasică a probabilității?",
     "variante": [
       "$P=m\\cdot n$",
       "$P=\\frac{m}{n}$, $m$ = cazuri favorabile, $n$ = cazuri posibile",
@@ -53,7 +53,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-005",
     "tip": "simplu",
-    "intrebare": "Probabilitatea evenimentului sigur este:",
+    "intrebare": "Care este probabilitatea evenimentului sigur?",
     "variante": [
       "$\\frac12$",
       "$1$",
@@ -65,7 +65,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-006",
     "tip": "simplu",
-    "intrebare": "Probabilitatea evenimentului imposibil este:",
+    "intrebare": "Care este probabilitatea evenimentului imposibil?",
     "variante": [
       "$0$",
       "$1$",
@@ -77,7 +77,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-007",
     "tip": "simplu",
-    "intrebare": "Dacă $m=0$, atunci $P=?$",
+    "intrebare": "Cât este $P$ dacă $m=0$?",
     "variante": [
       "$n$",
       "$1$",
@@ -89,7 +89,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-008",
     "tip": "simplu",
-    "intrebare": "Probabilitatea evenimentului contrar: $P(\\overline A)=?$",
+    "intrebare": "Cât este probabilitatea evenimentului contrar, $P(\\overline A)$?",
     "variante": [
       "$P(A)$",
       "$\\frac{1}{P(A)}$",
@@ -101,7 +101,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-009",
     "tip": "simplu",
-    "intrebare": "Numărul de moduri de a alege $k$ obiecte din $n$ fără a conta ordinea:",
+    "intrebare": "În câte moduri alegem $k$ obiecte din $n$, fără să conteze ordinea?",
     "variante": [
       "$A_n^k$",
       "$C_n^k$",
@@ -113,7 +113,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-010",
     "tip": "simplu",
-    "intrebare": "Numărul de moduri de a alege $k$ obiecte din $n$ cu ordinea contând:",
+    "intrebare": "În câte moduri alegem $k$ obiecte din $n$, când contează ordinea?",
     "variante": [
       "$k^n$",
       "$n\\cdot k$",
@@ -125,7 +125,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-011",
     "tip": "simplu",
-    "intrebare": "Numărul de moduri de a aranja $n$ obiecte distincte într-un rând:",
+    "intrebare": "În câte moduri aranjăm $n$ obiecte distincte într-un rând?",
     "variante": [
       "$n^2$",
       "$2n$",
@@ -173,7 +173,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-015",
     "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ deodată (fără ordine). Cazurile posibile $n$:",
+    "intrebare": "Din $N$ bile se extrag $k$ deodată (fără ordine). Câte cazuri posibile $n$ sunt?",
     "variante": [
       "$k!$",
       "$C_N^k$",
@@ -185,7 +185,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-016",
     "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ pe rând, fără întoarcere, ordinea contând. Cazurile posibile $n$:",
+    "intrebare": "Din $N$ bile se extrag $k$ pe rând, fără întoarcere, iar ordinea contează. Câte cazuri posibile $n$ sunt?",
     "variante": [
       "$N!$",
       "$A_N^k$",
@@ -197,7 +197,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-017",
     "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ pe rând, cu întoarcere. Cazurile posibile $n$:",
+    "intrebare": "Din $N$ bile se extrag $k$ pe rând, cu întoarcere. Câte cazuri posibile $n$ sunt?",
     "variante": [
       "$N^k$",
       "$A_N^k$",
@@ -209,7 +209,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-018",
     "tip": "simplu",
-    "intrebare": "Se extrag $k$ bile din $a$ albe și $b$ negre; exact $j$ albe. Cazurile favorabile $m$:",
+    "intrebare": "Se extrag $k$ bile din $a$ albe și $b$ negre, exact $j$ albe. Cât este $m$ (cazuri favorabile)?",
     "variante": [
       "$C_a^j\\cdot C_b^{k-j}$",
       "$A_a^j\\cdot A_b^{k-j}$",
@@ -221,7 +221,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-019",
     "tip": "simplu",
-    "intrebare": "Numere de $k$ cifre formate cu cifre distincte dintr-o mulțime de $N$ cifre (fără zero): $n=?$",
+    "intrebare": "Numere de $k$ cifre cu cifre distincte, formate din $N$ cifre (fără zero). Cât este $n$?",
     "variante": [
       "$k^N$",
       "$A_N^k$",
@@ -233,7 +233,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-020",
     "tip": "simplu",
-    "intrebare": "Numere de $k$ cifre, cifrele se pot repeta, din $N$ cifre: $n=?$",
+    "intrebare": "Numere de $k$ cifre, în care cifrele se pot repeta, formate din $N$ cifre. Cât este $n$?",
     "variante": [
       "$N^k$",
       "$A_N^k$",
@@ -245,7 +245,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-021",
     "tip": "simplu",
-    "intrebare": "Două persoane anume trebuie să stea alăturate, în rând cu $N$ persoane în total. Cazurile favorabile $m$:",
+    "intrebare": "Două persoane anume trebuie să stea alături, într-un rând cu $N$ persoane în total. Cât este $m$?",
     "variante": [
       "$2\\cdot(N-1)!$",
       "$N!-2$",
@@ -257,7 +257,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-022",
     "tip": "simplu",
-    "intrebare": "Două persoane anume trebuie să stea alăturate, o anumită ordine între ele. $m=?$",
+    "intrebare": "Două persoane anume stau alături, într-o ordine fixată între ele. Cât este $m$?",
     "variante": [
       "$(N-1)!$",
       "$(N-2)!$",
@@ -269,7 +269,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-023",
     "tip": "simplu",
-    "intrebare": "La „cel puțin unul” se calculează de obicei:",
+    "intrebare": "Cum se calculează de obicei „cel puțin unul”?",
     "variante": [
       "$1-P(\\text{toți})$",
       "$P(\\text{unul})\\cdot k$",
@@ -281,7 +281,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-024",
     "tip": "simplu",
-    "intrebare": "Probabilitatea de a obține succes exact la a $k$-a încercare (primul succes), cu $p$ succes, $q=1-p$:",
+    "intrebare": "Care este probabilitatea ca primul succes să vină exact la a $k$-a încercare ($p$ succes, $q=1-p$)?",
     "variante": [
       "$p^{k-1}\\cdot q$",
       "$p^k$",
@@ -293,7 +293,7 @@
   {
     "id": "probabilitate-formule-si-algoritm-025",
     "tip": "simplu",
-    "intrebare": "Exact $k$ succese din $n$ încercări independente ($p$ succes, $q=1-p$):",
+    "intrebare": "Care este probabilitatea să avem exact $k$ succese din $n$ încercări independente ($p$ succes, $q=1-p$)?",
     "variante": [
       "$C_n^k\\,p^k q^{n-k}$",
       "$p^k q^{n-k}$",

@@ -2,7 +2,7 @@
   {
     "id": "inecuatii-de-gradul-1-001",
     "tip": "simplu",
-    "intrebare": "$[a;b]$ înseamnă:",
+    "intrebare": "Ce înseamnă $[a;b]$?",
     "variante": [
       "$x<b$",
       "$a\\le x\\le b$",
@@ -14,7 +14,7 @@
   {
     "id": "inecuatii-de-gradul-1-002",
     "tip": "simplu",
-    "intrebare": "$(a;b)$ înseamnă:",
+    "intrebare": "Ce înseamnă $(a;b)$?",
     "variante": [
       "$a\\le x\\le b$",
       "$a<x<b$",
@@ -26,7 +26,7 @@
   {
     "id": "inecuatii-de-gradul-1-003",
     "tip": "simplu",
-    "intrebare": "$[a;+\\infty)$ înseamnă:",
+    "intrebare": "Ce înseamnă $[a;+\\infty)$?",
     "variante": [
       "$x\\ge a$",
       "$a\\le x\\le+\\infty$",
@@ -38,7 +38,7 @@
   {
     "id": "inecuatii-de-gradul-1-004",
     "tip": "simplu",
-    "intrebare": "$(-\\infty;b)$ înseamnă:",
+    "intrebare": "Ce înseamnă $(-\\infty;b)$?",
     "variante": [
       "$x\\ge b$",
       "$x>b$",
@@ -50,7 +50,7 @@
   {
     "id": "inecuatii-de-gradul-1-005",
     "tip": "simplu",
-    "intrebare": "La capetele intervalului: paranteza rotundă ( ) înseamnă că:",
+    "intrebare": "Ce arată paranteza rotundă la capătul unui interval?",
     "variante": [
       "capătul este $0$",
       "capătul este exclus",
@@ -62,7 +62,7 @@
   {
     "id": "inecuatii-de-gradul-1-006",
     "tip": "simplu",
-    "intrebare": "Când împărțim o inecuație la un număr NEGATIV:",
+    "intrebare": "Ce facem când împărțim o inecuație la un număr negativ?",
     "variante": [
       "schimbăm semnul termenului liber",
       "schimbăm sensul inegalității",
@@ -74,7 +74,7 @@
   {
     "id": "inecuatii-de-gradul-1-007",
     "tip": "simplu",
-    "intrebare": "$-2x>6\\Rightarrow ?$",
+    "intrebare": "Rezolvă $-2x>6$.",
     "variante": [
       "$x<-3$",
       "$x>-3$",
@@ -86,7 +86,7 @@
   {
     "id": "inecuatii-de-gradul-1-008",
     "tip": "simplu",
-    "intrebare": "Infinitul ($\\pm\\infty$) se scrie întotdeauna cu paranteză:",
+    "intrebare": "Ce paranteză punem la $\\pm\\infty$?",
     "variante": [
       "acoladă",
       "rotundă",
@@ -98,7 +98,7 @@
   {
     "id": "inecuatii-de-gradul-1-009",
     "tip": "simplu",
-    "intrebare": "Soluția unui sistem de inecuații este:",
+    "intrebare": "Cum aflăm soluția unui sistem de inecuații?",
     "variante": [
       "diferența intervalelor",
       "reuniunea intervalelor soluție",
@@ -110,7 +110,7 @@
   {
     "id": "inecuatii-de-gradul-1-010",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}x>-1\\\\x\\le3\\end{cases}$ are soluția:",
+    "intrebare": "Rezolvă sistemul $\\begin{cases}x>-1\\\\x\\le3\\end{cases}$",
     "variante": [
       "$(-1;3]$",
       "$[-1;3)$",
@@ -122,7 +122,7 @@
   {
     "id": "inecuatii-de-gradul-1-011",
     "tip": "simplu",
-    "intrebare": "$2x-4>0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $2x-4>0$.",
     "variante": [
       "$(-2;+\\infty)$",
       "$[2;+\\infty)$",
@@ -134,7 +134,7 @@
   {
     "id": "inecuatii-de-gradul-1-012",
     "tip": "simplu",
-    "intrebare": "$-3x\\le9\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $-3x\\le9$.",
     "variante": [
       "$[3;+\\infty)$",
       "$[-3;+\\infty)$",
@@ -146,7 +146,7 @@
   {
     "id": "inecuatii-de-gradul-1-013",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}x>2\\\\x<1\\end{cases}$ are:",
+    "intrebare": "Rezolvă sistemul $\\begin{cases}x>2\\\\x<1\\end{cases}$",
     "variante": [
       "$S=\\mathbb{R}$",
       "$S=\\varnothing$",
@@ -158,7 +158,7 @@
   {
     "id": "inecuatii-de-gradul-1-014",
     "tip": "simplu",
-    "intrebare": "Ordinea pașilor la o inecuație de gradul I:",
+    "intrebare": "În ce ordine rezolvăm o inecuație de gradul I?",
     "variante": [
       "împărțim → schimbăm sensul mereu → scriem",
       "scriem intervalul → rezolvăm → împărțim",

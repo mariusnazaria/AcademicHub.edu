@@ -2,7 +2,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-001",
     "tip": "simplu",
-    "intrebare": "Pașii la o inecuație rațională / cu radical / cu logaritm:",
+    "intrebare": "Care sunt pașii la o inecuație cu fracții, radicali sau logaritmi?",
     "variante": [
       "egalăm cu $0$, ridicăm la pătrat, verificăm",
       "DVA, egalăm cu $0$ și rezolvăm, punem pe axă, alegem câte un număr din fiecare interval",
@@ -14,7 +14,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-002",
     "tip": "simplu",
-    "intrebare": "Primul pas este:",
+    "intrebare": "Care este primul pas la aceste inecuații?",
     "variante": [
       "tabelul de variație",
       "alegerea unui număr",
@@ -26,7 +26,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-003",
     "tip": "simplu",
-    "intrebare": "La pasul 4 alegem din fiecare interval:",
+    "intrebare": "După ce punem rădăcinile pe axă, ce facem în fiecare interval?",
     "variante": [
       "extremitatea din stânga",
       "toate numerele",
@@ -38,7 +38,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-004",
     "tip": "simplu",
-    "intrebare": "Punctele în care numitorul este $0$ se marchează:",
+    "intrebare": "Cum marcăm pe axă punctele în care numitorul este $0$?",
     "variante": [
       "mereu cu paranteză rotundă (se exclud)",
       "cu infinit",
@@ -50,7 +50,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-005",
     "tip": "simplu",
-    "intrebare": "$\\frac{x-1}{x+2}>0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{x-1}{x+2}>0$.",
     "variante": [
       "$(-\\infty,-2)\\cup(1,+\\infty)$",
       "$(-2,1)$",
@@ -62,7 +62,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-006",
     "tip": "simplu",
-    "intrebare": "$\\frac{x}{x-3}\\leq0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{x}{x-3}\\leq0$.",
     "variante": [
       "$[0,3]$",
       "$[0,3)$",
@@ -74,7 +74,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-007",
     "tip": "simplu",
-    "intrebare": "$\\frac{1}{x}>0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{1}{x}>0$.",
     "variante": [
       "$(-\\infty,0)$",
       "$\\mathbb{R}$",
@@ -86,7 +86,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-008",
     "tip": "simplu",
-    "intrebare": "$\\frac{1}{x}<0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{1}{x}<0$.",
     "variante": [
       "$\\mathbb{R}\\setminus\\{0\\}$",
       "$(0,+\\infty)$",
@@ -98,7 +98,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-009",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x-1}>0$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x-1}>0$.",
     "variante": [
       "$\\mathbb{R}$",
       "$(1,+\\infty)$",
@@ -110,7 +110,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-010",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}<2$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x}<2$.",
     "variante": [
       "$(0,4)$",
       "$[0,4)$",
@@ -122,7 +122,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-011",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}>2$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x}>2$.",
     "variante": [
       "$(2,+\\infty)$",
       "$(4,+\\infty)$",
@@ -134,7 +134,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-012",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}\\leq-1$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x}\\leq-1$.",
     "variante": [
       "$\\{0\\}$",
       "$[0,+\\infty)$",
@@ -146,7 +146,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-013",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}\\geq-1$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x}\\geq-1$.",
     "variante": [
       "$[0,+\\infty)$",
       "$(0,+\\infty)$",
@@ -158,7 +158,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-014",
     "tip": "simplu",
-    "intrebare": "La $\\sqrt{f}<g$ condițiile sunt:",
+    "intrebare": "Ce condiții punem la $\\sqrt{f}<g$?",
     "variante": [
       "$f\\leq0$, $g<0$, $f>g^2$",
       "$f>g^2$, $g>0$",
@@ -170,7 +170,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-015",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\log_a f$:",
+    "intrebare": "Care este DVA pentru $\\log_a f$?",
     "variante": [
       "$f<0$",
       "$f\\geq0$",
@@ -182,7 +182,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-016",
     "tip": "simplu",
-    "intrebare": "$\\log_2 x>1$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2 x>1$.",
     "variante": [
       "$(0,+\\infty)$",
       "$(2,+\\infty)$",
@@ -194,7 +194,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-017",
     "tip": "simplu",
-    "intrebare": "$\\log_2 x<3$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2 x<3$.",
     "variante": [
       "$(0,6)$",
       "$(-\\infty,8)$",
@@ -206,7 +206,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-018",
     "tip": "simplu",
-    "intrebare": "La $\\log_a f>\\log_a g$ cu $a>1$:",
+    "intrebare": "Ce facem cu semnul la $\\log_a f>\\log_a g$ când $a>1$?",
     "variante": [
       "$f<g$",
       "$f=g$",
@@ -218,7 +218,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-019",
     "tip": "simplu",
-    "intrebare": "La $\\log_a f>\\log_a g$ cu $0<a<1$:",
+    "intrebare": "Ce facem cu semnul la $\\log_a f>\\log_a g$ când $0<a<1$?",
     "variante": [
       "$f>g$",
       "$f+g>1$",
@@ -230,7 +230,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-020",
     "tip": "simplu",
-    "intrebare": "$\\log_{\\frac{1}{2}}x>1$ are soluția:",
+    "intrebare": "Rezolvă $\\log_{\\frac{1}{2}}x>1$.",
     "variante": [
       "$(0,2)$",
       "$\\left(\\frac{1}{2},+\\infty\\right)$",
@@ -242,7 +242,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-021",
     "tip": "simplu",
-    "intrebare": "$\\lg x\\geq0$ are soluția:",
+    "intrebare": "Rezolvă $\\lg x\\geq0$.",
     "variante": [
       "$(0,1]$",
       "$(1,+\\infty)$",
@@ -254,7 +254,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-022",
     "tip": "simplu",
-    "intrebare": "$\\ln x<0$ are soluția:",
+    "intrebare": "Rezolvă $\\ln x<0$.",
     "variante": [
       "$(0,1)$",
       "$(-\\infty,1)$",
@@ -266,7 +266,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-023",
     "tip": "simplu",
-    "intrebare": "$\\log_2 x\\leq0$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2 x\\leq0$.",
     "variante": [
       "$(0,1]$",
       "$[1,+\\infty)$",
@@ -278,7 +278,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-024",
     "tip": "multiplu",
-    "intrebare": "Care sunt corecte?",
+    "intrebare": "Care afirmații sunt corecte?",
     "variante": [
       "$\\frac{1}{x}>0\\iff x>0$",
       "$\\sqrt{x}<0$ are soluții",
@@ -293,7 +293,7 @@
   {
     "id": "inecuatii-rationale-radicali-logaritmi-025",
     "tip": "multiplu",
-    "intrebare": "La inecuațiile logaritmice, DVA cere:",
+    "intrebare": "Ce cere DVA la inecuațiile cu logaritmi?",
     "variante": [
       "baza $>0$ și $\\neq1$",
       "baza $=1$",

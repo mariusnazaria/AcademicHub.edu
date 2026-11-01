@@ -2,7 +2,7 @@
   {
     "id": "radacinile-polinoamelor-001",
     "tip": "simplu",
-    "intrebare": "Numărul $a$ este rădăcină a lui $P$ dacă:",
+    "intrebare": "Când este $a$ rădăcină a polinomului $P$?",
     "variante": [
       "$P(0)=a$",
       "$P(a)=0$",
@@ -14,7 +14,7 @@
   {
     "id": "radacinile-polinoamelor-002",
     "tip": "simplu",
-    "intrebare": "Teorema lui Bézout: restul împărțirii lui $P$ la $x-a$ este:",
+    "intrebare": "Ce spune teorema lui Bézout despre restul împărțirii la $x-a$?",
     "variante": [
       "$P(0)$",
       "$a$",
@@ -26,7 +26,7 @@
   {
     "id": "radacinile-polinoamelor-003",
     "tip": "simplu",
-    "intrebare": "Dacă $P(a)=0$, atunci:",
+    "intrebare": "Ce știm dacă $P(a)=0$?",
     "variante": [
       "$P(x)=x-a$",
       "$P(x)=a\\cdot Q(x)$",
@@ -38,7 +38,7 @@
   {
     "id": "radacinile-polinoamelor-004",
     "tip": "simplu",
-    "intrebare": "$x-a$ divide $P$ dacă și numai dacă:",
+    "intrebare": "Când se împarte $P$ exact la $x-a$?",
     "variante": [
       "$P(a)=a$",
       "$P(a)=0$",
@@ -50,7 +50,7 @@
   {
     "id": "radacinile-polinoamelor-005",
     "tip": "simplu",
-    "intrebare": "Un polinom cu coeficienți întregi are rădăcinile întregi printre:",
+    "intrebare": "Unde căutăm rădăcinile întregi ale unui polinom cu coeficienți întregi?",
     "variante": [
       "multiplii termenului liber",
       "divizorii termenului liber",
@@ -62,7 +62,7 @@
   {
     "id": "radacinile-polinoamelor-006",
     "tip": "simplu",
-    "intrebare": "Rădăcini raționale $\\frac pq$ (fracție ireductibilă): $p$ și $q$ divid respectiv:",
+    "intrebare": "Unde căutăm rădăcinile $\\frac pq$ (fracție ireductibilă)?",
     "variante": [
       "ambele coeficientul dominant",
       "ambele termenul liber",
@@ -74,7 +74,7 @@
   {
     "id": "radacinile-polinoamelor-007",
     "tip": "simplu",
-    "intrebare": "Pentru $P(x)=x^2-4$, numărul $2$:",
+    "intrebare": "Este $2$ rădăcină pentru $P(x)=x^2-4$?",
     "variante": [
       "este rădăcină, pentru că $P(0)=2$",
       "nu este rădăcină",
@@ -86,7 +86,7 @@
   {
     "id": "radacinile-polinoamelor-008",
     "tip": "simplu",
-    "intrebare": "Ordinea pașilor la căutarea rădăcinilor:",
+    "intrebare": "În ce ordine căutăm rădăcinile?",
     "variante": [
       "verificăm → împărțim → căutăm printre multipli",
       "alegem un număr oarecare și îl adunăm",
@@ -98,7 +98,7 @@
   {
     "id": "radacinile-polinoamelor-009",
     "tip": "simplu",
-    "intrebare": "Divizorii întregi ai lui $6$ sunt:",
+    "intrebare": "Care sunt divizorii întregi ai lui $6$?",
     "variante": [
       "$1,2,3,6$ doar pozitivi",
       "$\\pm1,\\pm2,\\pm3,\\pm6$",
@@ -110,7 +110,7 @@
   {
     "id": "radacinile-polinoamelor-010",
     "tip": "simplu",
-    "intrebare": "$P(x)=x^3-6x^2+11x-6$. Care este o rădăcină?",
+    "intrebare": "Care este o rădăcină a lui $x^3-6x^2+11x-6$?",
     "variante": [
       "$6$",
       "$-1$",
@@ -122,7 +122,7 @@
   {
     "id": "radacinile-polinoamelor-011",
     "tip": "simplu",
-    "intrebare": "$P(x)=x^3-6x^2+11x-6$ se descompune:",
+    "intrebare": "Descompune $x^3-6x^2+11x-6$.",
     "variante": [
       "$(x-1)(x-2)(x+3)$",
       "$(x+1)(x+2)(x+3)$",
@@ -134,7 +134,7 @@
   {
     "id": "radacinile-polinoamelor-012",
     "tip": "simplu",
-    "intrebare": "Restul împărțirii lui $P(x)=x^2+1$ la $x-2$ este:",
+    "intrebare": "Care este restul împărțirii lui $x^2+1$ la $x-2$?",
     "variante": [
       "$1$",
       "$3$",

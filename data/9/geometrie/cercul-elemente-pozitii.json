@@ -2,7 +2,7 @@
   {
     "id": "cercul-elemente-pozitii-001",
     "tip": "simplu",
-    "intrebare": "Raza cercului este segmentul care unește:",
+    "intrebare": "Ce este raza cercului?",
     "variante": [
       "două puncte exterioare",
       "centrul cu un punct de pe cerc",
@@ -14,7 +14,7 @@
   {
     "id": "cercul-elemente-pozitii-002",
     "tip": "simplu",
-    "intrebare": "Coarda este segmentul care unește:",
+    "intrebare": "Ce este coarda?",
     "variante": [
       "un punct de pe cerc cu un punct exterior",
       "centrul cu mijlocul cercului",
@@ -26,7 +26,7 @@
   {
     "id": "cercul-elemente-pozitii-003",
     "tip": "simplu",
-    "intrebare": "Diametrul este:",
+    "intrebare": "Ce este diametrul?",
     "variante": [
       "cea mai lungă coardă, $d=2r$",
       "egal cu raza",
@@ -38,7 +38,7 @@
   {
     "id": "cercul-elemente-pozitii-004",
     "tip": "simplu",
-    "intrebare": "Dreapta și cercul ($d$ = distanța de la centru la dreaptă): secantă când:",
+    "intrebare": "Când este o dreaptă secantă la cerc? ($d$ = distanța de la centru la dreaptă)",
     "variante": [
       "$d=0$ doar",
       "$d=r$",
@@ -50,7 +50,7 @@
   {
     "id": "cercul-elemente-pozitii-005",
     "tip": "simplu",
-    "intrebare": "Dreapta tangentă la cerc când:",
+    "intrebare": "Când este o dreaptă tangentă la cerc?",
     "variante": [
       "$d>r$",
       "$d=r$",
@@ -62,7 +62,7 @@
   {
     "id": "cercul-elemente-pozitii-006",
     "tip": "simplu",
-    "intrebare": "Dreapta exterioară cercului când:",
+    "intrebare": "Când este o dreaptă exterioară cercului?",
     "variante": [
       "$d>r$",
       "$d=r$",
@@ -74,7 +74,7 @@
   {
     "id": "cercul-elemente-pozitii-007",
     "tip": "simplu",
-    "intrebare": "Tangenta la cerc este:",
+    "intrebare": "Cum este tangenta față de raza dusă în punctul de tangență?",
     "variante": [
       "o coardă",
       "paralelă cu raza",
@@ -86,7 +86,7 @@
   {
     "id": "cercul-elemente-pozitii-008",
     "tip": "simplu",
-    "intrebare": "Tangentele duse dintr-un punct exterior $P$ la cerc ($A,B$ punctele de tangență):",
+    "intrebare": "Ce știm despre tangentele $PA$ și $PB$ duse dintr-un punct $P$ exterior cercului?",
     "variante": [
       "$PA\\perp PB$ mereu",
       "$PA=2PB$",
@@ -98,7 +98,7 @@
   {
     "id": "cercul-elemente-pozitii-009",
     "tip": "simplu",
-    "intrebare": "Diametrul perpendicular pe o coardă:",
+    "intrebare": "Ce face diametrul perpendicular pe o coardă?",
     "variante": [
       "o taie sub unghi de $45^\\circ$",
       "este egal cu coarda",
@@ -110,7 +110,7 @@
   {
     "id": "cercul-elemente-pozitii-010",
     "tip": "simplu",
-    "intrebare": "Raza cercului este $5$ și $d=3$. Dreapta este:",
+    "intrebare": "Raza este $5$ și $d=3$. Ce fel de dreaptă este?",
     "variante": [
       "secantă",
       "tangentă",
@@ -122,7 +122,7 @@
   {
     "id": "cercul-elemente-pozitii-011",
     "tip": "simplu",
-    "intrebare": "Raza cercului este $5$ și distanța de la centru la dreaptă este $5$. Dreapta este:",
+    "intrebare": "Raza este $5$ și distanța de la centru la dreaptă este $5$. Ce fel de dreaptă este?",
     "variante": [
       "tangentă",
       "exterioară",
@@ -134,7 +134,7 @@
   {
     "id": "cercul-elemente-pozitii-012",
     "tip": "simplu",
-    "intrebare": "Raza $=5$. Diametrul este:",
+    "intrebare": "Raza este $5$. Cât este diametrul?",
     "variante": [
       "$2{,}5$",
       "$10$",
@@ -146,7 +146,7 @@
   {
     "id": "cercul-elemente-pozitii-013",
     "tip": "simplu",
-    "intrebare": "Din punctul $P$ se duc tangentele $PA$ și $PB$; $PA=7$. Atunci $PB=?$",
+    "intrebare": "Din $P$ se duc tangentele $PA$ și $PB$, iar $PA=7$. Cât este $PB$?",
     "variante": [
       "$7$",
       "$3{,}5$",

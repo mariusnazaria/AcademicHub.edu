@@ -2,7 +2,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-001",
     "tip": "simplu",
-    "intrebare": "Pașii pentru monotonie și extreme locale:",
+    "intrebare": "Care sunt pașii pentru monotonie și extreme locale?",
     "variante": [
       "calculăm $f^{\\prime}(x)$, rezolvăm $f^{\\prime}(x)=0$, completăm tabelul",
       "calculăm $f^{\\prime\\prime}$ și o egalăm cu $1$",
@@ -14,7 +14,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-002",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}(x)>0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Ce înseamnă $f^{\\prime}(x)>0$ pe un interval (cum este $f$)?",
     "variante": [
       "descrescătoare",
       "crescătoare",
@@ -26,7 +26,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-003",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}(x)<0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Ce înseamnă $f^{\\prime}(x)<0$ pe un interval (cum este $f$)?",
     "variante": [
       "crescătoare",
       "constantă",
@@ -38,7 +38,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-004",
     "tip": "simplu",
-    "intrebare": "Punct de maxim local: $f^{\\prime}$ își schimbă semnul:",
+    "intrebare": "Cum își schimbă semnul $f^{\\prime}$ într-un punct de maxim local?",
     "variante": [
       "din $+$ în $-$",
       "din $-$ în $+$",
@@ -50,7 +50,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-005",
     "tip": "simplu",
-    "intrebare": "Punct de minim local: $f^{\\prime}$ își schimbă semnul:",
+    "intrebare": "Cum își schimbă semnul $f^{\\prime}$ într-un punct de minim local?",
     "variante": [
       "nu își schimbă semnul",
       "din $+$ în $-$",
@@ -62,7 +62,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-006",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime}$ nu își schimbă semnul în $x_0$, atunci $x_0$ este:",
+    "intrebare": "Ce este $x_0$ dacă $f^{\\prime}$ nu își schimbă semnul în $x_0$?",
     "variante": [
       "punct de maxim",
       "nu este punct de extrem",
@@ -74,7 +74,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-007",
     "tip": "simplu",
-    "intrebare": "Punctele în care $f^{\\prime}(x)=0$ se numesc:",
+    "intrebare": "Cum se numesc punctele în care $f^{\\prime}(x)=0$?",
     "variante": [
       "puncte de inflexiune sigur",
       "zerouri ale lui $f$",
@@ -86,7 +86,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-008",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, punctul $x=0$ este:",
+    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=x^2$?",
     "variante": [
       "minim local (și global)",
       "maxim local",
@@ -98,7 +98,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-009",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=-x^2$, punctul $x=0$ este:",
+    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=-x^2$?",
     "variante": [
       "minim local",
       "maxim local (și global)",
@@ -110,7 +110,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-010",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3$, punctul $x=0$ este:",
+    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=x^3$?",
     "variante": [
       "minim local",
       "maxim global",
@@ -122,7 +122,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-011",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^2-4x$: $f^{\\prime}(x)=0$ pentru:",
+    "intrebare": "Pentru $f(x)=x^2-4x$: unde avem $f^{\\prime}(x)=0$?",
     "variante": [
       "$x=2$ (minim)",
       "$x=-2$ (maxim)",
@@ -134,7 +134,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-012",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^3-3x$: punctele critice sunt:",
+    "intrebare": "Pentru $f(x)=x^3-3x$: care sunt punctele critice?",
     "variante": [
       "$x=3$",
       "$x=\\pm3$",
@@ -146,7 +146,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-013",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^3-3x$: în $x=-1$ avem:",
+    "intrebare": "Pentru $f(x)=x^3-3x$: ce avem în $x=-1$?",
     "variante": [
       "inflexiune",
       "nimic",
@@ -158,7 +158,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-014",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^3-3x$: în $x=1$ avem:",
+    "intrebare": "Pentru $f(x)=x^3-3x$: ce avem în $x=1$?",
     "variante": [
       "nimic",
       "inflexiune",
@@ -170,7 +170,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-015",
     "tip": "simplu",
-    "intrebare": "$f(x)=e^x$ este:",
+    "intrebare": "Cum este funcția $f(x)=e^x$?",
     "variante": [
       "constantă",
       "are un minim în $0$",
@@ -182,7 +182,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-016",
     "tip": "simplu",
-    "intrebare": "$f(x)=\\ln x$ este:",
+    "intrebare": "Cum este funcția $f(x)=\\ln x$?",
     "variante": [
       "constantă",
       "are maxim în $1$",
@@ -194,7 +194,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-017",
     "tip": "simplu",
-    "intrebare": "$f(x)=\\frac{1}{x}$ pe $(0,+\\infty)$ este:",
+    "intrebare": "Cum este funcția $f(x)=\\frac{1}{x}$ pe $(0,+\\infty)$?",
     "variante": [
       "crescătoare",
       "constantă",
@@ -206,7 +206,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-018",
     "tip": "simplu",
-    "intrebare": "Punctele de extrem GLOBAL se cer când domeniul este:",
+    "intrebare": "Când cerem punctele de extrem GLOBAL (cum e domeniul)?",
     "variante": [
       "doar $(0,+\\infty)$",
       "închis, $[a;b]$ (cu capete)",
@@ -218,7 +218,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-019",
     "tip": "simplu",
-    "intrebare": "La extreme globale pe $[a;b]$, calculăm valoarea lui $f$ în:",
+    "intrebare": "Unde calculăm valoarea lui $f$ la extreme globale pe $[a;b]$?",
     "variante": [
       "capete și în punctele critice din interval",
       "doar în capete",
@@ -230,7 +230,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-020",
     "tip": "simplu",
-    "intrebare": "Maximul global este:",
+    "intrebare": "Ce este maximul global?",
     "variante": [
       "prima valoare",
       "media valorilor",
@@ -242,7 +242,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-021",
     "tip": "simplu",
-    "intrebare": "Minimul global este:",
+    "intrebare": "Ce este minimul global?",
     "variante": [
       "cea mai mare valoare",
       "media valorilor",
@@ -254,7 +254,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-022",
     "tip": "simplu",
-    "intrebare": "Un punct critic care nu aparține intervalului $[a;b]$:",
+    "intrebare": "Ce facem cu un punct critic care nu aparține intervalului $[a;b]$?",
     "variante": [
       "devine capăt",
       "se folosește oricum",
@@ -266,7 +266,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-023",
     "tip": "simplu",
-    "intrebare": "În tabel, săgeata $\\nearrow$ înseamnă:",
+    "intrebare": "Ce înseamnă săgeata $\\nearrow$ în tabel?",
     "variante": [
       "$f$ convexă",
       "$f$ descrescătoare",
@@ -278,7 +278,7 @@
   {
     "id": "monotonie-si-puncte-de-extrem-024",
     "tip": "simplu",
-    "intrebare": "Tabelul de variație are rândurile:",
+    "intrebare": "Ce rânduri are tabelul de variație?",
     "variante": [
       "$x$, $f^{\\prime\\prime}(x)$, $f(x)$",
       "$x$, $f^{\\prime}(x)$, $f(x)$",

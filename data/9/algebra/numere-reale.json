@@ -2,7 +2,7 @@
   {
     "id": "numere-reale-001",
     "tip": "simplu",
-    "intrebare": "Zecimala periodică simplă: $0,(\\overline{ab})=?$",
+    "intrebare": "Cum transformăm $0,(\\overline{ab})$ în fracție?",
     "variante": [
       "$\\frac{\\overline{ab}}{100}$",
       "$\\frac{\\overline{ab}}{9}$",
@@ -14,7 +14,7 @@
   {
     "id": "numere-reale-002",
     "tip": "simplu",
-    "intrebare": "$0,(26)=?$",
+    "intrebare": "Scrie $0,(26)$ ca fracție.",
     "variante": [
       "$\\frac{26}{9}$",
       "$\\frac{26}{90}$",
@@ -26,7 +26,7 @@
   {
     "id": "numere-reale-003",
     "tip": "simplu",
-    "intrebare": "Zecimala periodică mixtă: $0,a(b)=?$",
+    "intrebare": "Cum transformăm $0,a(b)$ în fracție?",
     "variante": [
       "$\\frac{\\overline{ab}-a}{90}$",
       "$\\frac{\\overline{ab}-b}{90}$",
@@ -38,7 +38,7 @@
   {
     "id": "numere-reale-004",
     "tip": "simplu",
-    "intrebare": "$0,2(5)=?$",
+    "intrebare": "Scrie $0,2(5)$ ca fracție.",
     "variante": [
       "$\\frac{25}{90}$",
       "$\\frac{27}{90}$",
@@ -50,7 +50,7 @@
   {
     "id": "numere-reale-005",
     "tip": "simplu",
-    "intrebare": "$0,(3)=?$",
+    "intrebare": "Scrie $0,(3)$ ca fracție.",
     "variante": [
       "$\\frac{3}{100}$",
       "$\\frac{1}{30}$",
@@ -62,7 +62,7 @@
   {
     "id": "numere-reale-006",
     "tip": "simplu",
-    "intrebare": "Un număr irațional are:",
+    "intrebare": "Cum arată zecimalele unui număr irațional?",
     "variante": [
       "zecimale infinite periodice",
       "doar zecimale egale cu zero",
@@ -90,7 +90,7 @@
   {
     "id": "numere-reale-008",
     "tip": "simplu",
-    "intrebare": "Șirul corect de incluziuni este:",
+    "intrebare": "Care șir arată corect ce mulțime intră în care?",
     "variante": [
       "$\\mathbb{R}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}$",
       "$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}$",
@@ -102,7 +102,7 @@
   {
     "id": "numere-reale-009",
     "tip": "simplu",
-    "intrebare": "Mulțimea numerelor iraționale se notează:",
+    "intrebare": "Cum se notează mulțimea numerelor iraționale?",
     "variante": [
       "$\\mathbb{Q}\\setminus\\mathbb{R}$",
       "$\\mathbb{R}\\setminus\\mathbb{Q}$",
@@ -114,7 +114,7 @@
   {
     "id": "numere-reale-010",
     "tip": "simplu",
-    "intrebare": "Definiția modulului: $|a|=?$",
+    "intrebare": "Cum se definește modulul $|a|$?",
     "variante": [
       "$-a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
       "$a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
@@ -126,7 +126,7 @@
   {
     "id": "numere-reale-011",
     "tip": "simplu",
-    "intrebare": "$|a-b|$ reprezintă:",
+    "intrebare": "Ce arată $|a-b|$?",
     "variante": [
       "suma numerelor $a$ și $b$",
       "cel mai mare dintre $a$ și $b$",
@@ -138,7 +138,7 @@
   {
     "id": "numere-reale-012",
     "tip": "simplu",
-    "intrebare": "$|3-5|=?$",
+    "intrebare": "Calculează $|3-5|$.",
     "variante": [
       "$2$",
       "$0$",
@@ -150,7 +150,7 @@
   {
     "id": "numere-reale-013",
     "tip": "simplu",
-    "intrebare": "Pe axa numerelor, dintre două numere este mai mare cel care este:",
+    "intrebare": "Care număr este mai mare pe axă?",
     "variante": [
       "mai departe de $0$",
       "mai aproape de $0$",
@@ -162,7 +162,7 @@
   {
     "id": "numere-reale-014",
     "tip": "simplu",
-    "intrebare": "Între două numere reale distincte se află:",
+    "intrebare": "Câte numere reale se află între două numere reale diferite?",
     "variante": [
       "niciun alt număr real",
       "exact un număr real",
@@ -174,7 +174,7 @@
   {
     "id": "numere-reale-015",
     "tip": "simplu",
-    "intrebare": "Numărul $\\sqrt9$ aparține mulțimii:",
+    "intrebare": "Cărei mulțimi îi aparține numărul $\\sqrt9$?",
     "variante": [
       "$\\mathbb{R}\\setminus\\mathbb{Q}$",
       "nu aparține lui $\\mathbb{R}$",
@@ -186,7 +186,7 @@
   {
     "id": "numere-reale-016",
     "tip": "simplu",
-    "intrebare": "$|\\sqrt3-2|$ fără semnul modul este:",
+    "intrebare": "Scrie $|\\sqrt3-2|$ fără semnul modul.",
     "variante": [
       "$2-\\sqrt3$",
       "$-2-\\sqrt3$",

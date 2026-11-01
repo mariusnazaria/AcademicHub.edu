@@ -2,7 +2,7 @@
   {
     "id": "triunghiul-dreptunghic-001",
     "tip": "simplu",
-    "intrebare": "Teorema lui Pitagora (ipotenuza $a$, catetele $b,c$):",
+    "intrebare": "Care este teorema lui Pitagora (ipotenuza $a$, catetele $b,c$)?",
     "variante": [
       "$a=b+c$",
       "$a^2=b^2+c^2$",
@@ -14,7 +14,7 @@
   {
     "id": "triunghiul-dreptunghic-002",
     "tip": "simplu",
-    "intrebare": "Teorema înălțimii ($h$ înălțimea din vârful unghiului drept, $p,q$ proiecțiile catetelor):",
+    "intrebare": "Care este teorema înălțimii? ($h$ înălțimea, $p,q$ proiecțiile catetelor)",
     "variante": [
       "$h^2=p\\cdot q$",
       "$h^2=\\frac{p}{q}$",
@@ -26,7 +26,7 @@
   {
     "id": "triunghiul-dreptunghic-003",
     "tip": "simplu",
-    "intrebare": "Teorema catetei ($c$ cateta, $p$ proiecția ei, $a$ ipotenuza):",
+    "intrebare": "Care este teorema catetei? ($c$ cateta, $p$ proiecția ei, $a$ ipotenuza)",
     "variante": [
       "$c^2=p\\cdot a$",
       "$c^2=h\\cdot a$",
@@ -38,7 +38,7 @@
   {
     "id": "triunghiul-dreptunghic-004",
     "tip": "simplu",
-    "intrebare": "Aria triunghiului dreptunghic exprimată cu înălțimea: $a\\cdot h=?$",
+    "intrebare": "Cât este $a\\cdot h$ (ipotenuza ori înălțimea)?",
     "variante": [
       "$b^2+c^2$",
       "$b\\cdot c$",
@@ -50,7 +50,7 @@
   {
     "id": "triunghiul-dreptunghic-005",
     "tip": "simplu",
-    "intrebare": "Mediana la ipotenuză este:",
+    "intrebare": "Cât este mediana la ipotenuză?",
     "variante": [
       "egală cu o catetă",
       "dublul ipotenuzei",
@@ -62,7 +62,7 @@
   {
     "id": "triunghiul-dreptunghic-006",
     "tip": "simplu",
-    "intrebare": "Cateta opusă unghiului de $30^\\circ$ este:",
+    "intrebare": "Cât este cateta opusă unghiului de $30^\\circ$?",
     "variante": [
       "egală cu ipotenuza",
       "dublul ipotenuzei",
@@ -74,7 +74,7 @@
   {
     "id": "triunghiul-dreptunghic-007",
     "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu un unghi de $45^\\circ$: ipotenuza ($c$ = cateta) este:",
+    "intrebare": "La un unghi de $45^\\circ$ (catete egale cu $c$), cât este ipotenuza?",
     "variante": [
       "$c\\sqrt3$",
       "$\\frac{c}{2}$",
@@ -113,7 +113,7 @@
   {
     "id": "triunghiul-dreptunghic-010",
     "tip": "simplu",
-    "intrebare": "Pașii rezolvării unei probleme cu triunghi dreptunghic:",
+    "intrebare": "Care sunt pașii la o problemă cu triunghi dreptunghic?",
     "variante": [
       "alegem teorema → verificăm → desenăm",
       "scriem relația fără figură",
@@ -125,7 +125,7 @@
   {
     "id": "triunghiul-dreptunghic-011",
     "tip": "simplu",
-    "intrebare": "Catetele $3$ și $4$: ipotenuza este:",
+    "intrebare": "Catetele sunt $3$ și $4$. Cât este ipotenuza?",
     "variante": [
       "$7$",
       "$5$",
@@ -137,7 +137,7 @@
   {
     "id": "triunghiul-dreptunghic-012",
     "tip": "simplu",
-    "intrebare": "$p=4$, $q=9$ (proiecțiile): înălțimea $h=?$",
+    "intrebare": "Proiecțiile sunt $4$ și $9$. Cât este înălțimea?",
     "variante": [
       "$6$",
       "$13$",
@@ -149,7 +149,7 @@
   {
     "id": "triunghiul-dreptunghic-013",
     "tip": "simplu",
-    "intrebare": "Ipotenuza $a=10$, proiecția $p=4$: cateta $c=?$",
+    "intrebare": "Ipotenuza este $10$, proiecția $p=4$. Cât este cateta $c$?",
     "variante": [
       "$40$",
       "$\\sqrt{14}$",
@@ -161,7 +161,7 @@
   {
     "id": "triunghiul-dreptunghic-014",
     "tip": "simplu",
-    "intrebare": "Ipotenuza este $10$. Mediana la ipotenuză este:",
+    "intrebare": "Ipotenuza este $10$. Cât este mediana la ipotenuză?",
     "variante": [
       "$20$",
       "$5$",
@@ -173,7 +173,7 @@
   {
     "id": "triunghiul-dreptunghic-015",
     "tip": "simplu",
-    "intrebare": "Unghi de $30^\\circ$, ipotenuza $12$: cateta opusă este:",
+    "intrebare": "Unghi de $30^\\circ$, ipotenuza $12$. Cât este cateta opusă?",
     "variante": [
       "$12$",
       "$24$",
@@ -185,7 +185,7 @@
   {
     "id": "triunghiul-dreptunghic-016",
     "tip": "simplu",
-    "intrebare": "Catete egale cu $4$: ipotenuza este:",
+    "intrebare": "Catetele sunt egale cu $4$. Cât este ipotenuza?",
     "variante": [
       "$16$",
       "$4\\sqrt2$",
@@ -197,7 +197,7 @@
   {
     "id": "triunghiul-dreptunghic-017",
     "tip": "simplu",
-    "intrebare": "Reciproca teoremei lui Pitagora: dacă $a^2=b^2+c^2$, atunci:",
+    "intrebare": "Ce spune reciproca teoremei lui Pitagora ($a^2=b^2+c^2$)?",
     "variante": [
       "triunghiul este echilateral",
       "triunghiul este obtuzunghic",

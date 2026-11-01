@@ -2,7 +2,7 @@
   {
     "id": "inecuatii-de-gradul-2-001",
     "tip": "simplu",
-    "intrebare": "Pentru $a>0$, soluția lui $f(x)>0$ (cu $x_1<x_2$ rădăcinile) este:",
+    "intrebare": "Pentru $a>0$, unde este $f(x)>0$ (rădăcinile $x_1<x_2$)?",
     "variante": [
       "$(-\\infty;x_1)\\cup(x_2;+\\infty)$",
       "$[x_1;x_2]$",
@@ -14,7 +14,7 @@
   {
     "id": "inecuatii-de-gradul-2-002",
     "tip": "simplu",
-    "intrebare": "Pentru $a>0$, soluția lui $f(x)<0$ este:",
+    "intrebare": "Pentru $a>0$, unde este $f(x)<0$?",
     "variante": [
       "$\\mathbb{R}$",
       "$\\varnothing$",
@@ -26,7 +26,7 @@
   {
     "id": "inecuatii-de-gradul-2-003",
     "tip": "simplu",
-    "intrebare": "Pentru $a<0$, soluția lui $f(x)>0$ este:",
+    "intrebare": "Pentru $a<0$, unde este $f(x)>0$?",
     "variante": [
       "$\\varnothing$",
       "$\\mathbb{R}$",
@@ -38,7 +38,7 @@
   {
     "id": "inecuatii-de-gradul-2-004",
     "tip": "simplu",
-    "intrebare": "Parabola pentru $a>0$ are:",
+    "intrebare": "Cum este parabola când $a>0$?",
     "variante": [
       "ramuri orizontale",
       "față tristă (ramuri în jos)",
@@ -50,7 +50,7 @@
   {
     "id": "inecuatii-de-gradul-2-005",
     "tip": "simplu",
-    "intrebare": "Ordinea pașilor la inecuația de gradul II:",
+    "intrebare": "În ce ordine rezolvăm o inecuație de gradul II?",
     "variante": [
       "desenăm parabola → aducem la formă → aflăm $x_1,x_2$",
       "citim intervalul → aflăm rădăcinile",
@@ -62,7 +62,7 @@
   {
     "id": "inecuatii-de-gradul-2-006",
     "tip": "simplu",
-    "intrebare": "Dacă $\\Delta<0$ și $a>0$:",
+    "intrebare": "Ce semn are $f$ când $\\Delta<0$ și $a>0$?",
     "variante": [
       "$f(x)>0$ pentru orice $x$",
       "$f(x)<0$ pentru orice $x$",
@@ -74,7 +74,7 @@
   {
     "id": "inecuatii-de-gradul-2-007",
     "tip": "simplu",
-    "intrebare": "Dacă $\\Delta<0$ și $a<0$:",
+    "intrebare": "Ce semn are $f$ când $\\Delta<0$ și $a<0$?",
     "variante": [
       "$f(x)<0$ pentru orice $x$",
       "$f(x)>0$ pentru orice $x$",
@@ -86,7 +86,7 @@
   {
     "id": "inecuatii-de-gradul-2-008",
     "tip": "simplu",
-    "intrebare": "Semnele lui $f$ pentru $a>0$ și $\\Delta>0$, de la stânga la dreapta:",
+    "intrebare": "Ce semne are $f$ (de la stânga la dreapta) când $a>0$ și $\\Delta>0$?",
     "variante": [
       "$+\\ +\\ +$",
       "$+\\ -\\ -$",
@@ -98,7 +98,7 @@
   {
     "id": "inecuatii-de-gradul-2-009",
     "tip": "simplu",
-    "intrebare": "$x^2-4>0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $x^2-4>0$.",
     "variante": [
       "$[-2;2]$",
       "$(-\\infty;-2)\\cup(2;+\\infty)$",
@@ -110,7 +110,7 @@
   {
     "id": "inecuatii-de-gradul-2-010",
     "tip": "simplu",
-    "intrebare": "$x^2-4<0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $x^2-4<0$.",
     "variante": [
       "$\\varnothing$",
       "$(-\\infty;-2)\\cup(2;+\\infty)$",
@@ -122,7 +122,7 @@
   {
     "id": "inecuatii-de-gradul-2-011",
     "tip": "simplu",
-    "intrebare": "$x^2-5x+6\\le0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $x^2-5x+6\\le0$.",
     "variante": [
       "$(-\\infty;2]\\cup[3;+\\infty)$",
       "$[2;3]$",
@@ -134,7 +134,7 @@
   {
     "id": "inecuatii-de-gradul-2-012",
     "tip": "simplu",
-    "intrebare": "$x^2+1>0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $x^2+1>0$.",
     "variante": [
       "$\\varnothing$",
       "$\\{-1,1\\}$",
@@ -146,7 +146,7 @@
   {
     "id": "inecuatii-de-gradul-2-013",
     "tip": "simplu",
-    "intrebare": "$-x^2+4>0\\Rightarrow S=?$",
+    "intrebare": "Rezolvă $-x^2+4>0$.",
     "variante": [
       "$\\varnothing$",
       "$(-2;2)$",
@@ -158,7 +158,7 @@
   {
     "id": "inecuatii-de-gradul-2-014",
     "tip": "simplu",
-    "intrebare": "Pentru fracții: $\\frac AB>0\\iff ?$",
+    "intrebare": "Când este $\\frac AB>0$?",
     "variante": [
       "$A>0$ doar",
       "$A\\cdot B<0$",

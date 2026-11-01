@@ -2,7 +2,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-001",
     "tip": "simplu",
-    "intrebare": "Primul pas la o ecuație cu logaritmi este:",
+    "intrebare": "Care este primul pas la o ecuație cu logaritmi?",
     "variante": [
       "ridicarea la pătrat",
       "trecerea la baza $10$",
@@ -14,7 +14,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-002",
     "tip": "simplu",
-    "intrebare": "La ecuația cu logaritm, logaritmul se scrie:",
+    "intrebare": "Cum scriem ecuația cu logaritm înainte de a o rezolva?",
     "variante": [
       "în dreapta",
       "în stânga, iar expresia fără logaritm în dreapta",
@@ -26,7 +26,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-003",
     "tip": "simplu",
-    "intrebare": "$\\log_a f=b\\Rightarrow ?$",
+    "intrebare": "Ce rezultă din $\\log_a f=b$?",
     "variante": [
       "$f=ab$",
       "$f=b^a$",
@@ -38,7 +38,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-004",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\log_2(x-3)$:",
+    "intrebare": "Care este DVA pentru $\\log_2(x-3)$?",
     "variante": [
       "$x<3$",
       "$x\\geq3$",
@@ -50,7 +50,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-005",
     "tip": "simplu",
-    "intrebare": "$\\log_2 x=3$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2 x=3$.",
     "variante": [
       "$x=9$",
       "$x=\\frac{3}{2}$",
@@ -62,7 +62,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-006",
     "tip": "simplu",
-    "intrebare": "$\\log_3 x=2$ are soluția:",
+    "intrebare": "Rezolvă $\\log_3 x=2$.",
     "variante": [
       "$x=8$",
       "$x=9$",
@@ -74,7 +74,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-007",
     "tip": "simplu",
-    "intrebare": "$\\log_5 x=0$ are soluția:",
+    "intrebare": "Rezolvă $\\log_5 x=0$.",
     "variante": [
       "nu are soluții",
       "$x=5$",
@@ -86,7 +86,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-008",
     "tip": "simplu",
-    "intrebare": "$\\log_2 x=-1$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2 x=-1$.",
     "variante": [
       "$x=\\frac{1}{2}$",
       "$x=2$",
@@ -98,7 +98,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-009",
     "tip": "simplu",
-    "intrebare": "$\\lg x=2$ are soluția:",
+    "intrebare": "Rezolvă $\\lg x=2$.",
     "variante": [
       "$x=10$",
       "$x=20$",
@@ -110,7 +110,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-010",
     "tip": "simplu",
-    "intrebare": "$\\ln x=1$ are soluția:",
+    "intrebare": "Rezolvă $\\ln x=1$.",
     "variante": [
       "$x=10$",
       "$x=0$",
@@ -122,7 +122,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-011",
     "tip": "simplu",
-    "intrebare": "$\\log_2(x+1)=3$ are soluția:",
+    "intrebare": "Rezolvă $\\log_2(x+1)=3$.",
     "variante": [
       "$x=8$",
       "$x=2$",
@@ -134,7 +134,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-012",
     "tip": "simplu",
-    "intrebare": "$\\log_a f=\\log_a g\\Rightarrow ?$",
+    "intrebare": "Ce rezultă din $\\log_a f=\\log_a g$?",
     "variante": [
       "$f=ag$",
       "$f=g$ (cu $f,g>0$)",
@@ -146,7 +146,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-013",
     "tip": "simplu",
-    "intrebare": "$\\log_a f+\\log_a g$ se transformă în:",
+    "intrebare": "În ce se transformă $\\log_a f+\\log_a g$?",
     "variante": [
       "$\\log_a(f+g)$",
       "$\\log_a\\frac{f}{g}$",
@@ -158,7 +158,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-014",
     "tip": "simplu",
-    "intrebare": "La ecuația $\\log_2 x=\\log_2(3)$ soluția este:",
+    "intrebare": "Rezolvă $\\log_2 x=\\log_2 3$.",
     "variante": [
       "$x=\\frac{3}{2}$",
       "$x=8$",
@@ -170,7 +170,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-015",
     "tip": "simplu",
-    "intrebare": "Primul pas la o ecuație exponențială este:",
+    "intrebare": "Care este primul pas la o ecuație exponențială?",
     "variante": [
       "aducerea la aceeași bază în stânga și dreapta",
       "DVA obligatoriu cu logaritmi",
@@ -182,7 +182,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-016",
     "tip": "simplu",
-    "intrebare": "$a^f=a^g\\Rightarrow ?$ ($a>0,\\ a\\neq1$)",
+    "intrebare": "Ce rezultă din $a^f=a^g$ ($a>0$, $a\\neq1$)?",
     "variante": [
       "$f\\cdot g=a$",
       "$f=\\ln g$",
@@ -194,7 +194,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-017",
     "tip": "simplu",
-    "intrebare": "$2^x=8$ are soluția:",
+    "intrebare": "Rezolvă $2^x=8$.",
     "variante": [
       "$x=6$",
       "$x=4$",
@@ -206,7 +206,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-018",
     "tip": "simplu",
-    "intrebare": "$3^x=\\frac{1}{9}$ are soluția:",
+    "intrebare": "Rezolvă $3^x=\\frac{1}{9}$.",
     "variante": [
       "$x=2$",
       "$x=-2$",
@@ -218,7 +218,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-019",
     "tip": "simplu",
-    "intrebare": "$5^x=1$ are soluția:",
+    "intrebare": "Rezolvă $5^x=1$.",
     "variante": [
       "$x=5$",
       "$x=1$",
@@ -230,7 +230,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-020",
     "tip": "simplu",
-    "intrebare": "$2^x=-4$ are:",
+    "intrebare": "Câte soluții are $2^x=-4$?",
     "variante": [
       "soluția $x=2$",
       "soluția $x=-2$",
@@ -242,7 +242,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-021",
     "tip": "simplu",
-    "intrebare": "$4^x=2$ are soluția:",
+    "intrebare": "Rezolvă $4^x=2$.",
     "variante": [
       "$x=\\frac{1}{2}$",
       "$x=\\frac{1}{4}$",
@@ -254,7 +254,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-022",
     "tip": "simplu",
-    "intrebare": "$9^x$ cu baza $3$ se scrie:",
+    "intrebare": "Cum scriem $9^x$ cu baza $3$?",
     "variante": [
       "$3^{x+2}$",
       "$3^{x^2}$",
@@ -266,7 +266,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-023",
     "tip": "simplu",
-    "intrebare": "$a^{x+1}=?$",
+    "intrebare": "Cum scriem $a^{x+1}$?",
     "variante": [
       "$a^x+a$",
       "$x\\cdot a^{x}$",
@@ -278,7 +278,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-024",
     "tip": "simplu",
-    "intrebare": "La $2^{2x}-3\\cdot2^x+2=0$ facem substituția:",
+    "intrebare": "Ce substituție facem la $2^{2x}-3\\cdot2^x+2=0$?",
     "variante": [
       "$t=2^x$ cu $t>0$",
       "$t=x^2$",
@@ -290,7 +290,7 @@
   {
     "id": "ecuatii-cu-logaritmi-si-exponentiale-025",
     "tip": "multiplu",
-    "intrebare": "Care sunt corecte?",
+    "intrebare": "Care afirmații sunt corecte?",
     "variante": [
       "$\\log_a f=\\log_a g\\Rightarrow f=g$ (cu $f,g>0$)",
       "$a^f=a^g\\Rightarrow f=g$",

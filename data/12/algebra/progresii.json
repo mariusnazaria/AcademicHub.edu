@@ -2,7 +2,7 @@
   {
     "id": "progresii-001",
     "tip": "simplu",
-    "intrebare": "Progresiile aritmetice sunt șiruri cu:",
+    "intrebare": "Ce sunt progresiile aritmetice?",
     "variante": [
       "înmulțiri",
       "puteri",
@@ -14,7 +14,7 @@
   {
     "id": "progresii-002",
     "tip": "simplu",
-    "intrebare": "Progresiile geometrice sunt șiruri cu:",
+    "intrebare": "Ce sunt progresiile geometrice?",
     "variante": [
       "adunări",
       "înmulțiri (rația $q$ se înmulțește)",
@@ -26,7 +26,7 @@
   {
     "id": "progresii-003",
     "tip": "simplu",
-    "intrebare": "P.A.: termenul general $a_n=?$",
+    "intrebare": "Care este termenul general al unei progresii aritmetice? $a_n=?$",
     "variante": [
       "$a_1+(n+1)r$",
       "$a_1+nr$",
@@ -38,7 +38,7 @@
   {
     "id": "progresii-004",
     "tip": "simplu",
-    "intrebare": "P.A.: rația $r=?$",
+    "intrebare": "Cum aflăm rația $r$ a unei progresii aritmetice?",
     "variante": [
       "$a_{n+1}-a_n$",
       "$\\frac{a_{n+1}}{a_n}$",
@@ -50,7 +50,7 @@
   {
     "id": "progresii-005",
     "tip": "simplu",
-    "intrebare": "P.A.: suma primilor $n$ termeni $S_n=?$",
+    "intrebare": "Care este suma primilor $n$ termeni ai unei progresii aritmetice? $S_n=?$",
     "variante": [
       "$(a_1+a_n)\\cdot n$",
       "$a_1\\cdot\\frac{r^n-1}{r-1}$",
@@ -62,7 +62,7 @@
   {
     "id": "progresii-006",
     "tip": "simplu",
-    "intrebare": "P.A.: $S_n=?$ (cu $a_1$ și $r$)",
+    "intrebare": "Care este suma $S_n$ cu $a_1$ și $r$ (progresie aritmetică)?",
     "variante": [
       "$(2a_1+(n-1)r)\\cdot n$",
       "$\\frac{(2a_1+(n-1)r)\\cdot n}{2}$",
@@ -74,7 +74,7 @@
   {
     "id": "progresii-007",
     "tip": "simplu",
-    "intrebare": "P.A.: orice termen este media aritmetică a vecinilor:",
+    "intrebare": "Ce este adevărat pentru un termen al progresiei aritmetice față de vecinii lui?",
     "variante": [
       "$a_n=\\sqrt{a_{n-1}a_{n+1}}$",
       "$a_n=\\frac{a_{n-1}+a_{n+1}}{2}$",
@@ -86,7 +86,7 @@
   {
     "id": "progresii-008",
     "tip": "simplu",
-    "intrebare": "P.G.: termenul general $b_n=?$",
+    "intrebare": "Care este termenul general al unei progresii geometrice? $b_n=?$",
     "variante": [
       "$b_1\\cdot q^{n-1}$",
       "$b_1\\cdot q^n$",
@@ -98,7 +98,7 @@
   {
     "id": "progresii-009",
     "tip": "simplu",
-    "intrebare": "P.G.: rația $q=?$",
+    "intrebare": "Cum aflăm rația $q$ a unei progresii geometrice?",
     "variante": [
       "$b_{n+1}-b_n$",
       "$b_{n+1}\\cdot b_n$",
@@ -110,7 +110,7 @@
   {
     "id": "progresii-010",
     "tip": "simplu",
-    "intrebare": "P.G.: suma primilor $n$ termeni ($q\\neq1$) $S_n=?$",
+    "intrebare": "Care este suma primilor $n$ termeni ai unei progresii geometrice ($q\\neq1$)? $S_n=?$",
     "variante": [
       "$b_1\\cdot\\frac{q^{n}-1}{q}$",
       "$b_1\\cdot\\frac{q^n+1}{q+1}$",
@@ -122,7 +122,7 @@
   {
     "id": "progresii-011",
     "tip": "simplu",
-    "intrebare": "P.G.: dacă $q=1$, atunci $S_n=?$",
+    "intrebare": "Cât este $S_n$ la progresia geometrică dacă $q=1$?",
     "variante": [
       "$b_1^n$",
       "$n\\cdot b_1$",
@@ -134,7 +134,7 @@
   {
     "id": "progresii-012",
     "tip": "simplu",
-    "intrebare": "P.G.: pătratul unui termen este:",
+    "intrebare": "Ce este adevărat pentru pătratul unui termen al progresiei geometrice?",
     "variante": [
       "$b_n=\\frac{b_{n-1}+b_{n+1}}{2}$",
       "$b_n^2=b_{n-1}+b_{n+1}$",
@@ -146,7 +146,7 @@
   {
     "id": "progresii-013",
     "tip": "simplu",
-    "intrebare": "$a,b,c$ sunt în P.A. dacă și numai dacă:",
+    "intrebare": "Când sunt $a,b,c$ în progresie aritmetică?",
     "variante": [
       "$b=a+c$",
       "$b^2=ac$",
@@ -158,7 +158,7 @@
   {
     "id": "progresii-014",
     "tip": "simplu",
-    "intrebare": "$a,b,c$ sunt în P.G. dacă și numai dacă:",
+    "intrebare": "Când sunt $a,b,c$ în progresie geometrică?",
     "variante": [
       "$2b=a+c$",
       "$b^2=ac$",
@@ -170,7 +170,7 @@
   {
     "id": "progresii-015",
     "tip": "simplu",
-    "intrebare": "Șirul $2,5,8,\\ldots$ este P.A. cu rația:",
+    "intrebare": "Care este rația progresiei aritmetice $2,5,8,\\ldots$?",
     "variante": [
       "$2$",
       "$\\frac{5}{2}$",
@@ -182,7 +182,7 @@
   {
     "id": "progresii-016",
     "tip": "simplu",
-    "intrebare": "Pentru $a_1=1$, $r=2$: $a_5=?$",
+    "intrebare": "Pentru $a_1=1$ și $r=2$, calculează $a_5$.",
     "variante": [
       "$11$",
       "$7$",
@@ -194,7 +194,7 @@
   {
     "id": "progresii-017",
     "tip": "simplu",
-    "intrebare": "$1+2+\\ldots+10=?$",
+    "intrebare": "Calculează $1+2+\\ldots+10$.",
     "variante": [
       "$110$",
       "$50$",
@@ -206,7 +206,7 @@
   {
     "id": "progresii-018",
     "tip": "simplu",
-    "intrebare": "Șirul $3,6,12,\\ldots$ este P.G. cu rația:",
+    "intrebare": "Care este rația progresiei geometrice $3,6,12,\\ldots$?",
     "variante": [
       "$2$",
       "$4$",
@@ -218,7 +218,7 @@
   {
     "id": "progresii-019",
     "tip": "simplu",
-    "intrebare": "Pentru $b_1=1$, $q=3$: $b_4=?$",
+    "intrebare": "Pentru $b_1=1$ și $q=3$, calculează $b_4$.",
     "variante": [
       "$27$",
       "$12$",
@@ -230,7 +230,7 @@
   {
     "id": "progresii-020",
     "tip": "simplu",
-    "intrebare": "Pentru $a_1=2$, $r=4$: $a_3=?$",
+    "intrebare": "Pentru $a_1=2$ și $r=4$, calculează $a_3$.",
     "variante": [
       "$8$",
       "$6$",
@@ -242,7 +242,7 @@
   {
     "id": "progresii-021",
     "tip": "simplu",
-    "intrebare": "Dacă $r=0$ într-o P.A., șirul este:",
+    "intrebare": "Cum este șirul dacă $r=0$ la o progresie aritmetică?",
     "variante": [
       "descrescător",
       "constant",
@@ -254,7 +254,7 @@
   {
     "id": "progresii-022",
     "tip": "simplu",
-    "intrebare": "O P.A. cu $r>0$ este:",
+    "intrebare": "Cum este o progresie aritmetică cu $r>0$?",
     "variante": [
       "crescătoare",
       "descrescătoare",
@@ -266,7 +266,7 @@
   {
     "id": "progresii-023",
     "tip": "simplu",
-    "intrebare": "O P.A. cu $r<0$ este:",
+    "intrebare": "Cum este o progresie aritmetică cu $r<0$?",
     "variante": [
       "constantă",
       "descrescătoare",
@@ -278,7 +278,7 @@
   {
     "id": "progresii-024",
     "tip": "simplu",
-    "intrebare": "Dacă $p+q=m+k$ într-o P.A., atunci:",
+    "intrebare": "Ce rezultă dacă $p+q=m+k$ într-o progresie aritmetică?",
     "variante": [
       "$a_p+a_q=a_m+a_k$",
       "$a_p-a_q=a_m-a_k$",

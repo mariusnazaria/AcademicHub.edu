@@ -2,7 +2,7 @@
   {
     "id": "sisteme-de-ecuatii-001",
     "tip": "simplu",
-    "intrebare": "Soluția unui sistem de ecuații este:",
+    "intrebare": "Ce este soluția unui sistem de ecuații?",
     "variante": [
       "numărul $x$ care verifică prima ecuație",
       "suma $x+y$",
@@ -14,7 +14,7 @@
   {
     "id": "sisteme-de-ecuatii-002",
     "tip": "simplu",
-    "intrebare": "Metoda substituției:",
+    "intrebare": "Cum rezolvăm prin substituție?",
     "variante": [
       "înmulțim ecuațiile între ele",
       "rezolvăm doar prima ecuație",
@@ -26,7 +26,7 @@
   {
     "id": "sisteme-de-ecuatii-003",
     "tip": "simplu",
-    "intrebare": "Metoda adunării:",
+    "intrebare": "Cum rezolvăm prin adunare?",
     "variante": [
       "înmulțim coeficienții între ei",
       "scădem soluțiile",
@@ -38,7 +38,7 @@
   {
     "id": "sisteme-de-ecuatii-004",
     "tip": "simplu",
-    "intrebare": "Sistem cu o singură soluție: dreptele sunt:",
+    "intrebare": "Cum sunt dreptele când sistemul are o singură soluție?",
     "variante": [
       "perpendiculare mereu",
       "paralele",
@@ -50,7 +50,7 @@
   {
     "id": "sisteme-de-ecuatii-005",
     "tip": "simplu",
-    "intrebare": "Sistem fără soluții: dreptele sunt:",
+    "intrebare": "Cum sunt dreptele când sistemul nu are soluții?",
     "variante": [
       "secante",
       "perpendiculare",
@@ -62,7 +62,7 @@
   {
     "id": "sisteme-de-ecuatii-006",
     "tip": "simplu",
-    "intrebare": "Sistem cu infinit de soluții: dreptele sunt:",
+    "intrebare": "Cum sunt dreptele când sistemul are infinit de soluții?",
     "variante": [
       "paralele",
       "perpendiculare",
@@ -74,7 +74,7 @@
   {
     "id": "sisteme-de-ecuatii-007",
     "tip": "simplu",
-    "intrebare": "Pașii substituției (în ordine):",
+    "intrebare": "Care sunt pașii substituției?",
     "variante": [
       "exprimăm $x$ → rezolvăm prima ecuație de două ori",
       "exprimăm $x$ → înlocuim în a doua ecuație → rezolvăm ecuația cu $y$ → calculăm $x$ și verificăm",
@@ -86,7 +86,7 @@
   {
     "id": "sisteme-de-ecuatii-008",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}x+y=5\\\\x-y=1\\end{cases}$ are soluția:",
+    "intrebare": "Rezolvă sistemul $\\begin{cases}x+y=5\\\\x-y=1\\end{cases}$",
     "variante": [
       "$(3;2)$",
       "$(3;-2)$",
@@ -98,7 +98,7 @@
   {
     "id": "sisteme-de-ecuatii-009",
     "tip": "simplu",
-    "intrebare": "După ce găsim perechea $(x;y)$, o verificăm:",
+    "intrebare": "Unde verificăm perechea $(x;y)$ găsită?",
     "variante": [
       "nu o verificăm",
       "doar în prima ecuație",
@@ -110,7 +110,7 @@
   {
     "id": "sisteme-de-ecuatii-010",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}x+y=4\\\\x+y=7\\end{cases}$ are:",
+    "intrebare": "Câte soluții are sistemul $\\begin{cases}x+y=4\\\\x+y=7\\end{cases}$",
     "variante": [
       "nicio soluție",
       "infinit de soluții",
@@ -122,7 +122,7 @@
   {
     "id": "sisteme-de-ecuatii-011",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}x+y=4\\\\2x+2y=8\\end{cases}$ are:",
+    "intrebare": "Câte soluții are sistemul $\\begin{cases}x+y=4\\\\2x+2y=8\\end{cases}$",
     "variante": [
       "$(2;2)$ doar",
       "nicio soluție",
@@ -134,7 +134,7 @@
   {
     "id": "sisteme-de-ecuatii-012",
     "tip": "simplu",
-    "intrebare": "$\\begin{cases}2x+y=7\\\\x-y=2\\end{cases}$ are soluția:",
+    "intrebare": "Rezolvă sistemul $\\begin{cases}2x+y=7\\\\x-y=2\\end{cases}$",
     "variante": [
       "$(3;-1)$",
       "$(2;3)$",

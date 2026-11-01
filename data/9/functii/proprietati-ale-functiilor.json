@@ -2,7 +2,7 @@
   {
     "id": "proprietati-ale-functiilor-001",
     "tip": "simplu",
-    "intrebare": "Funcția $f$ este crescătoare dacă:",
+    "intrebare": "Când este o funcție crescătoare?",
     "variante": [
       "$x_1<x_2\\Rightarrow f(x_1)<f(x_2)$",
       "$x_1<x_2\\Rightarrow f(x_1)=f(x_2)$",
@@ -14,7 +14,7 @@
   {
     "id": "proprietati-ale-functiilor-002",
     "tip": "simplu",
-    "intrebare": "Funcția $f$ este descrescătoare dacă:",
+    "intrebare": "Când este o funcție descrescătoare?",
     "variante": [
       "$x_1<x_2\\Rightarrow f(x_1)>f(x_2)$",
       "$x_1<x_2\\Rightarrow f(x_1)=f(x_2)$",
@@ -26,7 +26,7 @@
   {
     "id": "proprietati-ale-functiilor-003",
     "tip": "simplu",
-    "intrebare": "Zeroul funcției $f$ este valoarea lui $x$ pentru care:",
+    "intrebare": "Ce este zeroul unei funcții?",
     "variante": [
       "$f(x)=0$ (punct pe axa $Ox$)",
       "$x=0$ (punct pe axa $Oy$)",
@@ -38,7 +38,7 @@
   {
     "id": "proprietati-ale-functiilor-004",
     "tip": "simplu",
-    "intrebare": "Pașii studiului monotoniei:",
+    "intrebare": "Cum aflăm dacă o funcție crește sau scade?",
     "variante": [
       "alegem $x_1<x_2$ → comparăm $f(x_1)$ cu $f(x_2)$",
       "rezolvăm $f(x)=0$ → desenăm",
@@ -50,7 +50,7 @@
   {
     "id": "proprietati-ale-functiilor-005",
     "tip": "simplu",
-    "intrebare": "Dacă $f(x_1)<f(x_2)$ pentru $x_1<x_2$, funcția:",
+    "intrebare": "Ce înseamnă $f(x_1)<f(x_2)$ când $x_1<x_2$?",
     "variante": [
       "crește",
       "este constantă",
@@ -62,7 +62,7 @@
   {
     "id": "proprietati-ale-functiilor-006",
     "tip": "simplu",
-    "intrebare": "Dacă $f(x_1)>f(x_2)$ pentru $x_1<x_2$, funcția:",
+    "intrebare": "Ce înseamnă $f(x_1)>f(x_2)$ când $x_1<x_2$?",
     "variante": [
       "este mereu pozitivă",
       "este constantă",
@@ -74,7 +74,7 @@
   {
     "id": "proprietati-ale-functiilor-007",
     "tip": "simplu",
-    "intrebare": "Zeroul lui $f(x)=2x-6$ este:",
+    "intrebare": "Află zeroul funcției $f(x)=2x-6$.",
     "variante": [
       "$x=-3$",
       "$x=6$",
@@ -86,7 +86,7 @@
   {
     "id": "proprietati-ale-functiilor-008",
     "tip": "simplu",
-    "intrebare": "$f(x)>0$ înseamnă că graficul este:",
+    "intrebare": "Ce înseamnă $f(x)>0$ pe grafic?",
     "variante": [
       "sub axa $Ox$",
       "pe axa $Oy$",
@@ -98,7 +98,7 @@
   {
     "id": "proprietati-ale-functiilor-009",
     "tip": "simplu",
-    "intrebare": "$f(x)<0$ înseamnă că graficul este:",
+    "intrebare": "Ce înseamnă $f(x)<0$ pe grafic?",
     "variante": [
       "la dreapta axei $Oy$",
       "pe axa $Ox$",
@@ -110,7 +110,7 @@
   {
     "id": "proprietati-ale-functiilor-010",
     "tip": "simplu",
-    "intrebare": "Funcție strict crescătoare înseamnă că graficul:",
+    "intrebare": "Cum arată graficul unei funcții strict crescătoare?",
     "variante": [
       "este orizontal",
       "coboară mereu, de la stânga la dreapta",
@@ -122,7 +122,7 @@
   {
     "id": "proprietati-ale-functiilor-011",
     "tip": "simplu",
-    "intrebare": "Funcție constantă înseamnă:",
+    "intrebare": "Ce este o funcție constantă?",
     "variante": [
       "$f(x_1)=f(x_2)$ pentru orice $x_1,x_2$",
       "$f(x)=x$",
@@ -134,7 +134,7 @@
   {
     "id": "proprietati-ale-functiilor-012",
     "tip": "simplu",
-    "intrebare": "Zeroul se află rezolvând:",
+    "intrebare": "Cum aflăm zeroul unei funcții?",
     "variante": [
       "ecuația $f(x)=0$",
       "ecuația $x=0$",
@@ -146,7 +146,7 @@
   {
     "id": "proprietati-ale-functiilor-013",
     "tip": "simplu",
-    "intrebare": "Zeroul $x_0$ al funcției corespunde punctului:",
+    "intrebare": "Ce punct corespunde zeroului $x_0$?",
     "variante": [
       "$(x_0;0)$ pe axa $Ox$",
       "$(0;0)$ mereu",
@@ -158,7 +158,7 @@
   {
     "id": "proprietati-ale-functiilor-014",
     "tip": "simplu",
-    "intrebare": "$f(x)=2x-6$ este pozitivă pentru:",
+    "intrebare": "Când este $f(x)=2x-6$ pozitivă?",
     "variante": [
       "$x<3$",
       "$x>6$",

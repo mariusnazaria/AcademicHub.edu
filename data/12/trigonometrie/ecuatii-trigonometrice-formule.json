@@ -2,7 +2,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-001",
     "tip": "simplu",
-    "intrebare": "$\\sin x=a$ are soluțiile (pentru $|a|\\leq1$):",
+    "intrebare": "Ce soluții are $\\sin x=a$ (pentru $|a|\\leq1$)?",
     "variante": [
       "$x=\\pm\\arcsin a+2\\pi k$",
       "$x=(-1)^k\\arcsin a+\\pi k$, $k\\in\\mathbb{Z}$",
@@ -14,7 +14,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-002",
     "tip": "simplu",
-    "intrebare": "$\\cos x=a$ are soluțiile (pentru $|a|\\leq1$):",
+    "intrebare": "Ce soluții are $\\cos x=a$ (pentru $|a|\\leq1$)?",
     "variante": [
       "$x=(-1)^k\\arccos a+\\pi k$",
       "$x=\\arccos a+\\pi k$",
@@ -26,7 +26,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-003",
     "tip": "simplu",
-    "intrebare": "$\\operatorname{tg}x=a$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\operatorname{tg}x=a$?",
     "variante": [
       "$x=\\operatorname{arctg}a+\\pi k$, $k\\in\\mathbb{Z}$",
       "$x=\\pm\\operatorname{arctg}a+2\\pi k$",
@@ -38,7 +38,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-004",
     "tip": "simplu",
-    "intrebare": "$\\operatorname{ctg}x=a$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\operatorname{ctg}x=a$?",
     "variante": [
       "$x=\\pm\\operatorname{arcctg}a+2\\pi k$",
       "$x=(-1)^k\\operatorname{arcctg}a+\\pi k$",
@@ -50,7 +50,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-005",
     "tip": "simplu",
-    "intrebare": "$\\sin x=2$ are:",
+    "intrebare": "Ce soluții are $\\sin x=2$?",
     "variante": [
       "infinit de soluții",
       "soluția $x=2$",
@@ -62,7 +62,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-006",
     "tip": "simplu",
-    "intrebare": "$\\cos x=-3$ are:",
+    "intrebare": "Ce soluții are $\\cos x=-3$?",
     "variante": [
       "soluția $x=-3$",
       "nicio soluție",
@@ -74,7 +74,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-007",
     "tip": "simplu",
-    "intrebare": "$\\sin x=0$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\sin x=0$?",
     "variante": [
       "$x=\\pi k$",
       "$x=\\frac{\\pi}{2}+2\\pi k$",
@@ -86,7 +86,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-008",
     "tip": "simplu",
-    "intrebare": "$\\sin x=1$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\sin x=1$?",
     "variante": [
       "$x=2\\pi k$",
       "$x=\\frac{\\pi}{2}+\\pi k$",
@@ -98,7 +98,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-009",
     "tip": "simplu",
-    "intrebare": "$\\sin x=-1$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\sin x=-1$?",
     "variante": [
       "$x=-\\frac{\\pi}{2}+\\pi k$",
       "$x=\\frac{\\pi}{2}+2\\pi k$",
@@ -110,7 +110,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-010",
     "tip": "simplu",
-    "intrebare": "$\\cos x=0$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\cos x=0$?",
     "variante": [
       "$x=2\\pi k$",
       "$x=\\frac{\\pi}{2}+\\pi k$",
@@ -122,7 +122,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-011",
     "tip": "simplu",
-    "intrebare": "$\\cos x=1$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\cos x=1$?",
     "variante": [
       "$x=2\\pi k$",
       "$x=\\pi k$",
@@ -134,7 +134,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-012",
     "tip": "simplu",
-    "intrebare": "$\\cos x=-1$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\cos x=-1$?",
     "variante": [
       "$x=\\pi+2\\pi k$",
       "$x=-\\pi+\\pi k$",
@@ -146,7 +146,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-013",
     "tip": "simplu",
-    "intrebare": "$\\sin x=\\frac{1}{2}$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\sin x=\\frac{1}{2}$?",
     "variante": [
       "$x=\\pm\\frac{\\pi}{6}+2\\pi k$",
       "$x=\\frac{\\pi}{6}+\\pi k$",
@@ -158,7 +158,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-014",
     "tip": "simplu",
-    "intrebare": "$\\cos x=\\frac{1}{2}$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\cos x=\\frac{1}{2}$?",
     "variante": [
       "$x=(-1)^k\\frac{\\pi}{3}+\\pi k$",
       "$x=\\pm\\frac{\\pi}{3}+2\\pi k$",
@@ -170,7 +170,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-015",
     "tip": "simplu",
-    "intrebare": "$\\operatorname{tg}x=1$ are soluțiile:",
+    "intrebare": "Ce soluții are $\\operatorname{tg}x=1$?",
     "variante": [
       "$x=\\frac{\\pi}{2}+\\pi k$",
       "$x=\\pm\\frac{\\pi}{4}+2\\pi k$",
@@ -182,7 +182,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-016",
     "tip": "simplu",
-    "intrebare": "$\\arcsin\\frac{1}{2}=?$",
+    "intrebare": "Cât este $\\arcsin\\frac{1}{2}$?",
     "variante": [
       "$\\frac{\\pi}{6}$",
       "$\\frac{\\pi}{2}$",
@@ -194,7 +194,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-017",
     "tip": "simplu",
-    "intrebare": "$\\arccos0=?$",
+    "intrebare": "Cât este $\\arccos0$?",
     "variante": [
       "$\\frac{\\pi}{4}$",
       "$0$",
@@ -206,7 +206,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-018",
     "tip": "simplu",
-    "intrebare": "$\\operatorname{arctg}1=?$",
+    "intrebare": "Cât este $\\operatorname{arctg}1$?",
     "variante": [
       "$\\frac{\\pi}{2}$",
       "$1$",
@@ -218,7 +218,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-019",
     "tip": "simplu",
-    "intrebare": "$\\arcsin(-a)=?$",
+    "intrebare": "Cât este $\\arcsin(-a)$?",
     "variante": [
       "$\\arccos a$",
       "$\\arcsin a$",
@@ -230,7 +230,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-020",
     "tip": "simplu",
-    "intrebare": "$\\arccos(-a)=?$",
+    "intrebare": "Cât este $\\arccos(-a)$?",
     "variante": [
       "$\\pi-\\arccos a$",
       "$\\arccos a$",
@@ -242,7 +242,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-021",
     "tip": "simplu",
-    "intrebare": "Mulțimea de valori a lui $\\arcsin$ este:",
+    "intrebare": "Ce valori ia $\\arcsin$?",
     "variante": [
       "$[0,\\pi]$",
       "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
@@ -254,7 +254,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-022",
     "tip": "simplu",
-    "intrebare": "Mulțimea de valori a lui $\\arccos$ este:",
+    "intrebare": "Ce valori ia $\\arccos$?",
     "variante": [
       "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
       "$[0,\\pi]$",
@@ -266,7 +266,7 @@
   {
     "id": "ecuatii-trigonometrice-formule-023",
     "tip": "simplu",
-    "intrebare": "Mulțimea de valori a lui $\\operatorname{arctg}$ este:",
+    "intrebare": "Ce valori ia $\\operatorname{arctg}$?",
     "variante": [
       "$[0,\\pi]$",
       "$\\mathbb{R}$",

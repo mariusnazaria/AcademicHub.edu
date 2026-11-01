@@ -2,7 +2,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-001",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $1,2,3,4$ se formează un număr de $3$ cifre (cifrele se pot repeta); numărul este par. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $1,2,3,4$ se formează un număr de $3$ cifre (cifrele se pot repeta). Evenimentul: numărul este par. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4\\cdot 4\\cdot 4;\\ n=4^{3}$",
       "$m=4\\cdot 4\\cdot 2;\\ n=A_{4}^{3}$",
@@ -14,7 +14,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-002",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $0,1,3,5,8$ se formează un număr de $4$ cifre (cu repetări); numărul este impar. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $0,1,3,5,8$ se formează un număr de $4$ cifre (cifrele se pot repeta). Evenimentul: numărul este impar. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4\\cdot 5\\cdot 5\\cdot 3;\\ n=5^{4}$",
       "$m=5\\cdot 5\\cdot 5\\cdot 3;\\ n=4\\cdot 5\\cdot 5\\cdot 5$",
@@ -26,7 +26,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-003",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre (cu repetări); cifrele nu se repetă. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre (cifrele se pot repeta). Evenimentul: cifrele nu se repetă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5!;\\ n=5^{5}$",
       "$m=A_{5}^{3};\\ n=5^{5}$",
@@ -38,7 +38,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-004",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre (cu repetări); cifrele nu se repetă și numărul se divide cu $5$. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre (cifrele se pot repeta). Evenimentul: cifrele nu se repetă și numărul se divide cu $5$. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4!;\\ n=5!$",
       "$m=5!;\\ n=5^{5}$",
@@ -50,7 +50,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-005",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $5,6,7,8,9$ se formează un număr de $5$ cifre distincte; primele $3$ cifre sunt impare, restul pare. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $5,6,7,8,9$ se formează un număr de $5$ cifre distincte. Evenimentul: primele $3$ cifre sunt impare, ultimele $2$ pare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3!\\cdot 2!;\\ n=5!$",
       "$m=A_{5}^{3}\\cdot A_{5}^{2};\\ n=5!$",
@@ -62,7 +62,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-006",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $5,6,7,8,9$ se formează un număr de $5$ cifre distincte; prima cifră este pară, ultima impară. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $5,6,7,8,9$ se formează un număr de $5$ cifre distincte. Evenimentul: prima cifră este pară, ultima impară. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 3;\\ n=5!$",
       "$m=2\\cdot 3\\cdot 4!;\\ n=5!$",
@@ -74,7 +74,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-007",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $1,2,3,4,5,6$ se formează un număr de $6$ cifre distincte; suma ultimelor două cifre nu este mai mare decât $5$. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $1,2,3,4,5,6$ se formează un număr de $6$ cifre distincte. Evenimentul: suma ultimelor două cifre nu este mai mare decât $5$. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=8\\cdot 4!;\\ n=6^{6}$",
       "$m=8;\\ n=6!$",
@@ -86,7 +86,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-008",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $0,1,2,3,4,8,9$ se formează un număr de $4$ cifre distincte; primele două cifre pare, restul impare. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $0,1,2,3,4,8,9$ se formează un număr de $4$ cifre distincte. Evenimentul: primele două cifre sunt pare, ultimele două impare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3\\cdot 3\\cdot 3\\cdot 2;\\ n=7^{4}$",
       "$m=4\\cdot 3\\cdot 3\\cdot 2;\\ n=6\\cdot A_{6}^{3}$",
@@ -98,7 +98,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-009",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $0,1,\\dots,7$ se formează un cod de $4$ cifre distincte; cele $4$ cifre sunt numere consecutive (în orice ordine). Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $0,1,\\dots,7$ se formează un cod de $4$ cifre distincte. Evenimentul: cele $4$ cifre sunt numere consecutive (în orice ordine). Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5\\cdot 4!;\\ n=A_{8}^{4}$",
       "$m=5;\\ n=A_{8}^{4}$",
@@ -110,7 +110,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-010",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $0,1,3,4,6$ se formează un număr de $5$ cifre distincte; prima cifră este pară, ultima impară. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $0,1,3,4,6$ se formează un număr de $5$ cifre distincte. Evenimentul: prima cifră este pară, ultima impară. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 2\\cdot 3!;\\ n=4\\cdot 4!$",
       "$m=2\\cdot 2\\cdot 3!;\\ n=5!$",
@@ -122,7 +122,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-011",
     "tip": "simplu",
-    "intrebare": "Se formează un număr de $5$ cifre cu cifre distincte (din $0,\\dots,9$); primele $3$ cifre sunt impare, ultimele $2$ pare. Care sunt $m$ și $n$?",
+    "intrebare": "Se formează un număr de $5$ cifre distincte din cifrele $0,\\dots,9$. Evenimentul: primele $3$ cifre sunt impare, ultimele $2$ pare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=A_{5}^{3}\\cdot A_{5}^{2};\\ n=9\\cdot A_{9}^{4}$",
       "$m=C_{5}^{3}\\cdot C_{5}^{2};\\ n=9\\cdot A_{9}^{4}$",
@@ -134,7 +134,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-012",
     "tip": "simplu",
-    "intrebare": "Se formează un cod de $5$ cifre (cu repetări); codul conține secvența „$56$”. Care sunt $m$ și $n$?",
+    "intrebare": "Se formează un cod de $5$ cifre (cifrele se pot repeta). Evenimentul: codul conține secvența „$56$”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4\\cdot 10^{3}-3\\cdot 10;\\ n=10^{5}$",
       "$m=3\\cdot 10^{3};\\ n=10^{5}$",
@@ -146,7 +146,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-013",
     "tip": "simplu",
-    "intrebare": "Se formează un cod de $6$ cifre (cu repetări); codul conține secvența „$145$”. Care sunt $m$ și $n$?",
+    "intrebare": "Se formează un cod de $6$ cifre (cifrele se pot repeta). Evenimentul: codul conține secvența „$145$”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=10^{3};\\ n=10^{6}$",
       "$m=4\\cdot 10^{4};\\ n=10^{6}$",
@@ -158,7 +158,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-014",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $0,2,5,6,7,9$ se formează un cod de $6$ cifre distincte; codul conține secvența „$796$”. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $0,2,5,6,7,9$ se formează un cod de $6$ cifre distincte. Evenimentul: codul conține secvența „$796$”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3!;\\ n=6!$",
       "$m=4!;\\ n=6!$",
@@ -170,7 +170,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-015",
     "tip": "simplu",
-    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre distincte; numărul conține secvența „$21$”. Care sunt $m$ și $n$?",
+    "intrebare": "Cu cifrele $1,2,3,4,5$ se formează un număr de $5$ cifre distincte. Evenimentul: numărul conține secvența „$21$”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3!;\\ n=5!$",
       "$m=4!;\\ n=5^{5}$",
@@ -182,7 +182,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-016",
     "tip": "simplu",
-    "intrebare": "Literele S, T, A, T, I, S, T, I, C, Ă sunt scrise pe $10$ fișe; se extrag $3$ litere consecutiv; se formează cuvântul „SAT”. Care sunt $m$ și $n$?",
+    "intrebare": "Literele S, T, A, T, I, S, T, I, C, Ă sunt scrise pe $10$ fișe. Se extrag $3$ fișe una după alta. Evenimentul: se formează cuvântul „SAT”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 1\\cdot 3;\\ n=10^{3}$",
       "$m=2\\cdot 1\\cdot 3;\\ n=C_{10}^{3}$",
@@ -194,7 +194,7 @@
   {
     "id": "probleme-cu-numere-coduri-litere-017",
     "tip": "simplu",
-    "intrebare": "Literele M, I, N, I, M, A, L, I, S, M sunt scrise pe $10$ fișe; se extrag $3$ litere consecutiv; se formează cuvântul „MAI”. Care sunt $m$ și $n$?",
+    "intrebare": "Literele M, I, N, I, M, A, L, I, S, M sunt scrise pe $10$ fișe. Se extrag $3$ fișe una după alta. Evenimentul: se formează cuvântul „MAI”. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3\\cdot 1\\cdot 3;\\ n=C_{10}^{3}$",
       "$m=3\\cdot 1\\cdot 3;\\ n=10^{3}$",

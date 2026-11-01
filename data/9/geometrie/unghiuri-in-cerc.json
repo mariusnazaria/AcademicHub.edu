@@ -2,7 +2,7 @@
   {
     "id": "unghiuri-in-cerc-001",
     "tip": "simplu",
-    "intrebare": "Unghiul la centru are măsura:",
+    "intrebare": "Ce măsură are unghiul la centru?",
     "variante": [
       "egală cu a arcului subîntins",
       "jumătate din arc",
@@ -14,7 +14,7 @@
   {
     "id": "unghiuri-in-cerc-002",
     "tip": "simplu",
-    "intrebare": "Unghiul înscris în cerc are măsura:",
+    "intrebare": "Ce măsură are unghiul înscris în cerc?",
     "variante": [
       "jumătate din arcul subîntins",
       "$90^\\circ$ mereu",
@@ -26,7 +26,7 @@
   {
     "id": "unghiuri-in-cerc-003",
     "tip": "simplu",
-    "intrebare": "Relația dintre unghiul înscris și cel la centru (același arc): $\\angle ACB=?$",
+    "intrebare": "Cum legăm unghiul înscris de cel de la centru (același arc)? $\\angle ACB=?$",
     "variante": [
       "$\\angle AOB$",
       "$2\\cdot\\angle AOB$",
@@ -38,7 +38,7 @@
   {
     "id": "unghiuri-in-cerc-004",
     "tip": "simplu",
-    "intrebare": "Unghiurile înscrise care subîntind același arc sunt:",
+    "intrebare": "Cum sunt unghiurile înscrise pe același arc?",
     "variante": [
       "suplementare",
       "unul dublul celuilalt",
@@ -50,7 +50,7 @@
   {
     "id": "unghiuri-in-cerc-005",
     "tip": "simplu",
-    "intrebare": "Unghiul înscris în semicerc ($AB$ diametru) este:",
+    "intrebare": "Cât este unghiul înscris în semicerc ($AB$ diametru)?",
     "variante": [
       "obtuz",
       "ascuțit",
@@ -62,7 +62,7 @@
   {
     "id": "unghiuri-in-cerc-006",
     "tip": "simplu",
-    "intrebare": "Patrulater înscris în cerc: unghiurile opuse sunt:",
+    "intrebare": "Cum sunt unghiurile opuse ale unui patrulater înscris în cerc?",
     "variante": [
       "$\\alpha+\\gamma=360^\\circ$",
       "complementare",
@@ -74,7 +74,7 @@
   {
     "id": "unghiuri-in-cerc-007",
     "tip": "simplu",
-    "intrebare": "Cercul întreg are:",
+    "intrebare": "Câte grade are un cerc întreg?",
     "variante": [
       "$180^\\circ$",
       "$90^\\circ$",
@@ -86,7 +86,7 @@
   {
     "id": "unghiuri-in-cerc-008",
     "tip": "simplu",
-    "intrebare": "Unghiul format de tangentă și coardă are măsura:",
+    "intrebare": "Cât este unghiul dintre tangentă și coardă?",
     "variante": [
       "dublul arcului",
       "arcul subîntins",
@@ -98,7 +98,7 @@
   {
     "id": "unghiuri-in-cerc-009",
     "tip": "simplu",
-    "intrebare": "Un arc are $80^\\circ$. Unghiul înscris care îl subîntinde:",
+    "intrebare": "Un arc are $80^\\circ$. Cât este unghiul înscris pe el?",
     "variante": [
       "$100^\\circ$",
       "$80^\\circ$",
@@ -110,7 +110,7 @@
   {
     "id": "unghiuri-in-cerc-010",
     "tip": "simplu",
-    "intrebare": "Unghiul la centru este $100^\\circ$. Unghiul înscris pe același arc:",
+    "intrebare": "Unghiul la centru este $100^\\circ$. Cât este unghiul înscris pe același arc?",
     "variante": [
       "$200^\\circ$",
       "$80^\\circ$",
@@ -122,7 +122,7 @@
   {
     "id": "unghiuri-in-cerc-011",
     "tip": "simplu",
-    "intrebare": "Patrulater înscris, un unghi are $70^\\circ$. Unghiul opus:",
+    "intrebare": "Un patrulater înscris are un unghi de $70^\\circ$. Cât este unghiul opus?",
     "variante": [
       "$20^\\circ$",
       "$70^\\circ$",
@@ -134,7 +134,7 @@
   {
     "id": "unghiuri-in-cerc-012",
     "tip": "simplu",
-    "intrebare": "$AB$ diametru, $C$ pe cerc. Unghiul $\\angle ACB=?$",
+    "intrebare": "$AB$ este diametru, $C$ este pe cerc. Cât este $\\angle ACB$?",
     "variante": [
       "$180^\\circ$",
       "$90^\\circ$",

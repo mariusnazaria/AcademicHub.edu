@@ -2,7 +2,7 @@
   {
     "id": "impartirea-polinoamelor-001",
     "tip": "simplu",
-    "intrebare": "Teorema împărțirii cu rest:",
+    "intrebare": "Care este teorema împărțirii cu rest?",
     "variante": [
       "$D=\\hat I+C+R$, cu $\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
       "$D=\\hat I\\cdot C+R$, cu $\\operatorname{grad}R<\\operatorname{grad}\\hat I$",
@@ -14,7 +14,7 @@
   {
     "id": "impartirea-polinoamelor-002",
     "tip": "simplu",
-    "intrebare": "În $D=\\hat I\\cdot C+R$, litera $C$ este:",
+    "intrebare": "Ce este $C$ în $D=\\hat I\\cdot C+R$?",
     "variante": [
       "deîmpărțitul",
       "câtul",
@@ -26,7 +26,7 @@
   {
     "id": "impartirea-polinoamelor-003",
     "tip": "simplu",
-    "intrebare": "În $D=\\hat I\\cdot C+R$, litera $\\hat I$ este:",
+    "intrebare": "Ce este $\\hat I$ în $D=\\hat I\\cdot C+R$?",
     "variante": [
       "restul",
       "împărțitorul",
@@ -38,7 +38,7 @@
   {
     "id": "impartirea-polinoamelor-004",
     "tip": "simplu",
-    "intrebare": "Împărțirea este exactă atunci când:",
+    "intrebare": "Când este împărțirea exactă?",
     "variante": [
       "$\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
       "$C=0$",
@@ -50,7 +50,7 @@
   {
     "id": "impartirea-polinoamelor-005",
     "tip": "simplu",
-    "intrebare": "Împărțitorul trebuie să fie:",
+    "intrebare": "Ce condiție are împărțitorul?",
     "variante": [
       "diferit de polinomul $0$",
       "de gradul $0$",
@@ -62,7 +62,7 @@
   {
     "id": "impartirea-polinoamelor-006",
     "tip": "simplu",
-    "intrebare": "Primul pas la împărțirea polinoamelor:",
+    "intrebare": "Care este primul pas la împărțirea polinoamelor?",
     "variante": [
       "înmulțim $D$ cu $\\hat I$",
       "adunăm cele două polinoame",
@@ -74,7 +74,7 @@
   {
     "id": "impartirea-polinoamelor-007",
     "tip": "simplu",
-    "intrebare": "Ordinea corectă a pașilor în împărțirea polinoamelor:",
+    "intrebare": "În ce ordine facem pașii împărțirii?",
     "variante": [
       "adunăm → împărțim → scădem",
       "scădem → împărțim → înmulțim → repetăm",
@@ -86,7 +86,7 @@
   {
     "id": "impartirea-polinoamelor-008",
     "tip": "simplu",
-    "intrebare": "Repetăm pașii împărțirii până când:",
+    "intrebare": "Când ne oprim din împărțire?",
     "variante": [
       "$C=1$",
       "$\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
@@ -98,7 +98,7 @@
   {
     "id": "impartirea-polinoamelor-009",
     "tip": "simplu",
-    "intrebare": "Înainte de împărțire, polinoamele se scriu cu puteri:",
+    "intrebare": "Cum ordonăm polinoamele înainte de împărțire?",
     "variante": [
       "descrescătoare",
       "crescătoare",
@@ -110,7 +110,7 @@
   {
     "id": "impartirea-polinoamelor-010",
     "tip": "simplu",
-    "intrebare": "Dacă lipsește un termen, de exemplu în $x^3+2x$, scriem:",
+    "intrebare": "Ce facem când lipsește un termen, de exemplu în $x^3+2x$?",
     "variante": [
       "$x^3+2x+0x^4$",
       "$x^3+0x^2+2x$",
@@ -134,7 +134,7 @@
   {
     "id": "impartirea-polinoamelor-012",
     "tip": "simplu",
-    "intrebare": "$(x^2+3x+2):(x+1)$ are câtul:",
+    "intrebare": "Împarte: $(x^2+3x+2):(x+1)$.",
     "variante": [
       "$x+3$",
       "$x+1$ (rest $2$)",

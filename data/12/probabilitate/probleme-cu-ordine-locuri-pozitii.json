@@ -2,7 +2,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-001",
     "tip": "simplu",
-    "intrebare": "Petru și Vanesa, alături de alți $3$ colegi, stau pe $5$ scaune într-un rând; Petru și Vanesa stau împreună. Care sunt $m$ și $n$?",
+    "intrebare": "Petru și Vanesa, împreună cu alți $3$ colegi, stau pe $5$ scaune într-un rând. Evenimentul: Petru și Vanesa stau alături. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 4!;\\ n=5!$",
       "$m=2\\cdot 3!;\\ n=5!$",
@@ -14,7 +14,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-002",
     "tip": "simplu",
-    "intrebare": "Alex și Andreea, alături de alți $6$ colegi, stau pe $8$ scaune într-un rând; Alex și Andreea stau împreună. Care sunt $m$ și $n$?",
+    "intrebare": "Alex și Andreea, împreună cu alți $6$ colegi, stau pe $8$ scaune într-un rând. Evenimentul: Alex și Andreea stau alături. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 7!;\\ n=8!$",
       "$m=2\\cdot 6!;\\ n=8!$",
@@ -26,7 +26,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-003",
     "tip": "simplu",
-    "intrebare": "Maia și Alina, alături de alți $8$ colegi, stau pe $10$ scaune într-un rând; Maia și Alina stau împreună. Care sunt $m$ și $n$?",
+    "intrebare": "Maia și Alina, împreună cu alți $8$ colegi, stau pe $10$ scaune într-un rând. Evenimentul: Maia și Alina stau alături. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 8!;\\ n=10!$",
       "$m=2\\cdot 9!;\\ n=10!$",
@@ -38,7 +38,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-004",
     "tip": "simplu",
-    "intrebare": "Ion și Mihai, alături de alți $3$ băieți, aleargă într-o cursă; Ion termină imediat după Mihai. Care sunt $m$ și $n$?",
+    "intrebare": "Ion și Mihai, împreună cu alți $3$ băieți, aleargă într-o cursă. Evenimentul: Ion termină imediat după Mihai. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4!;\\ n=6!$",
       "$m=3!;\\ n=5!$",
@@ -50,7 +50,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-005",
     "tip": "simplu",
-    "intrebare": "Pavel și Ion, alături de alți $5$ băieți ($7$ în total), aleargă într-o cursă; Ion termină imediat după Pavel. Care sunt $m$ și $n$?",
+    "intrebare": "Pavel și Ion, împreună cu alți $5$ băieți ($7$ în total), aleargă într-o cursă. Evenimentul: Ion termină imediat după Pavel. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5!;\\ n=7!$",
       "$m=6!;\\ n=8!$",
@@ -62,7 +62,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-006",
     "tip": "simplu",
-    "intrebare": "Șapte copii, printre care Ana și Maria, participă la un maraton; Ana ajunge imediat după Maria. Care sunt $m$ și $n$?",
+    "intrebare": "Șapte copii, printre care Ana și Maria, participă la un maraton. Evenimentul: Ana ajunge imediat după Maria. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=7!;\\ n=7!$",
       "$m=5!;\\ n=7!$",
@@ -74,7 +74,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-007",
     "tip": "simplu",
-    "intrebare": "Opt păsări, printre care un papagal albastru și unul roșu, se așază pe o creangă dreaptă; cei doi papagali stau unul lângă altul. Care sunt $m$ și $n$?",
+    "intrebare": "Opt păsări, printre care un papagal albastru și unul roșu, se așază pe o creangă dreaptă. Evenimentul: cei doi papagali stau unul lângă altul. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 7!;\\ n=8!$",
       "$m=2\\cdot 7!;\\ n=7!$",
@@ -86,7 +86,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-008",
     "tip": "simplu",
-    "intrebare": "Șase cărți diferite sunt așezate pe un raft; cărțile de matematică, fizică și chimie sunt una după alta, în această ordine. Care sunt $m$ și $n$?",
+    "intrebare": "Șase cărți diferite sunt așezate pe un raft. Evenimentul: cărțile de matematică, fizică și chimie sunt una după alta, în această ordine. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4!;\\ n=6^{6}$",
       "$m=3!;\\ n=6!$",
@@ -98,7 +98,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-009",
     "tip": "simplu",
-    "intrebare": "Orarul de luni are $6$ lecții diferite; fizica este imediat după matematică. Care sunt $m$ și $n$?",
+    "intrebare": "Orarul de luni are $6$ lecții diferite. Evenimentul: fizica este imediat după matematică. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5!;\\ n=6!$",
       "$m=2\\cdot 5!;\\ n=6!$",
@@ -110,7 +110,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-010",
     "tip": "simplu",
-    "intrebare": "O echipă de $2$ profesori și $4$ elevi se așază într-un rând; la cele două capete se află câte un profesor. Care sunt $m$ și $n$?",
+    "intrebare": "O echipă de $2$ profesori și $4$ elevi se așază într-un rând. Evenimentul: la cele două capete se află câte un profesor. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=4!;\\ n=6!$",
       "$m=2\\cdot 5!;\\ n=6!$",
@@ -122,7 +122,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-011",
     "tip": "simplu",
-    "intrebare": "$2$ dicționare și $6$ romane (printre care „Ion” și „Mara”) se așază pe un raft; dicționarele sunt la capete, iar „Ion” și „Mara” alăturate. Care sunt $m$ și $n$?",
+    "intrebare": "$2$ dicționare și $6$ romane (printre care „Ion” și „Mara”) se așază pe un raft. Evenimentul: dicționarele sunt la capete, iar „Ion” și „Mara” sunt alăturate. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 2\\cdot 6!;\\ n=8!$",
       "$m=2\\cdot 2\\cdot 4!;\\ n=8!$",
@@ -134,7 +134,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-012",
     "tip": "simplu",
-    "intrebare": "Un elev așază $6$ cupe diferite pe un raft; cupa de fotbal și cea de volei sunt una lângă alta. Care sunt $m$ și $n$?",
+    "intrebare": "Un elev așază $6$ cupe diferite pe un raft. Evenimentul: cupa de fotbal și cea de volei sunt una lângă alta. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 4!;\\ n=6!$",
       "$m=2\\cdot 5!;\\ n=6!$",
@@ -146,7 +146,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-013",
     "tip": "simplu",
-    "intrebare": "În bloc cu $6$ etaje intră $4$ persoane la etajul $1$ și pot urca la oricare etaj de la $2$ la $6$; exact $2$ persoane urcă la ultimul etaj. Care sunt $m$ și $n$?",
+    "intrebare": "Într-un bloc cu $6$ etaje intră $4$ persoane la etajul $1$ și pot urca la oricare etaj de la $2$ la $6$. Evenimentul: exact $2$ persoane urcă la ultimul etaj. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{4}^{2};\\ n=5^{4}$",
       "$m=C_{4}^{2}\\cdot 4^{2};\\ n=5^{4}$",
@@ -158,7 +158,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-014",
     "tip": "simplu",
-    "intrebare": "$7$ copii sunt înscriși în clasele A, B, C; $3$ în clasa A, $2$ în clasa B și $2$ în clasa C. Care sunt $m$ și $n$?",
+    "intrebare": "$7$ copii sunt înscriși în clasele A, B, C. Evenimentul: $3$ sunt în clasa A, $2$ în clasa B și $2$ în clasa C. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{7}^{3}\\cdot C_{4}^{2};\\ n=7^{3}$",
       "$m=C_{7}^{3}+C_{4}^{2}+C_{2}^{2};\\ n=3^{7}$",
@@ -170,7 +170,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-015",
     "tip": "simplu",
-    "intrebare": "Cinci cărți sunt așezate în $4$ sertare; exact trei cărți ajung în primul sertar. Care sunt $m$ și $n$?",
+    "intrebare": "Cinci cărți sunt așezate în $4$ sertare. Evenimentul: exact trei cărți ajung în primul sertar. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{3}\\cdot 3^{2};\\ n=4^{5}$",
       "$m=C_{5}^{3}\\cdot 3^{2};\\ n=5^{4}$",
@@ -182,7 +182,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-016",
     "tip": "simplu",
-    "intrebare": "Cinci cumpărători merg spre $3$ case de marcat; exact trei folosesc prima casă. Care sunt $m$ și $n$?",
+    "intrebare": "Cinci cumpărători merg spre $3$ case de marcat. Evenimentul: exact trei folosesc prima casă. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{3}\\cdot 2^{2};\\ n=5^{3}$",
       "$m=C_{5}^{3}\\cdot 2^{2};\\ n=3^{5}$",
@@ -194,7 +194,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-017",
     "tip": "simplu",
-    "intrebare": "Șase pasageri urcă într-un troleibuz cu $3$ uși; exact $2$ pe prima ușă, $2$ pe a doua și $2$ pe a treia. Care sunt $m$ și $n$?",
+    "intrebare": "Șase pasageri urcă într-un troleibuz cu $3$ uși. Evenimentul: exact $2$ urcă pe prima ușă, $2$ pe a doua și $2$ pe a treia. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{6}^{2}\\cdot C_{4}^{2}\\cdot C_{2}^{2};\\ n=3^{6}$",
       "$m=C_{6}^{2}+C_{4}^{2}+C_{2}^{2};\\ n=3^{6}$",
@@ -206,7 +206,7 @@
   {
     "id": "probleme-cu-ordine-locuri-pozitii-018",
     "tip": "simplu",
-    "intrebare": "Intră $7$ persoane în $3$ magazine de haine; doar $4$ persoane aleg ultimul magazin. Care sunt $m$ și $n$?",
+    "intrebare": "Intră $7$ persoane în $3$ magazine de haine. Evenimentul: doar $4$ persoane aleg ultimul magazin. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{7}^{4}\\cdot 3^{3};\\ n=3^{7}$",
       "$m=C_{7}^{4}\\cdot 2^{3};\\ n=7^{3}$",

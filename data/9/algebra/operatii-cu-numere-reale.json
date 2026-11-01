@@ -2,7 +2,7 @@
   {
     "id": "operatii-cu-numere-reale-001",
     "tip": "simplu",
-    "intrebare": "Distributivitatea: $a(b+c)=?$",
+    "intrebare": "Cum desfacem $a(b+c)$?",
     "variante": [
       "$ab\\cdot ac$",
       "$ab+ac$",
@@ -14,7 +14,7 @@
   {
     "id": "operatii-cu-numere-reale-002",
     "tip": "simplu",
-    "intrebare": "$(a+b)^2=?$",
+    "intrebare": "Cât este $(a+b)^2$?",
     "variante": [
       "$a^2-2ab+b^2$",
       "$a^2+b^2$",
@@ -26,7 +26,7 @@
   {
     "id": "operatii-cu-numere-reale-003",
     "tip": "simplu",
-    "intrebare": "$(a-b)^2=?$",
+    "intrebare": "Cât este $(a-b)^2$?",
     "variante": [
       "$a^2-2ab+b^2$",
       "$a^2+2ab+b^2$",
@@ -38,7 +38,7 @@
   {
     "id": "operatii-cu-numere-reale-004",
     "tip": "simplu",
-    "intrebare": "$a^2-b^2=?$",
+    "intrebare": "Cum descompunem $a^2-b^2$?",
     "variante": [
       "$(a-b)(a-b)$",
       "$(a+b)^2$",
@@ -50,7 +50,7 @@
   {
     "id": "operatii-cu-numere-reale-005",
     "tip": "simplu",
-    "intrebare": "Pentru a compara numerele $a$ și $b$ calculăm:",
+    "intrebare": "Cum comparăm două numere $a$ și $b$?",
     "variante": [
       "produsul $a\\cdot b$",
       "diferența $a-b$ și îi studiem semnul",
@@ -62,7 +62,7 @@
   {
     "id": "operatii-cu-numere-reale-006",
     "tip": "simplu",
-    "intrebare": "Dacă $a-b<0$, atunci:",
+    "intrebare": "Ce înseamnă dacă $a-b<0$?",
     "variante": [
       "$a>b$",
       "$a<b$",
@@ -74,7 +74,7 @@
   {
     "id": "operatii-cu-numere-reale-007",
     "tip": "simplu",
-    "intrebare": "Pentru numere pozitive $a,b$: $a<b\\iff ?$",
+    "intrebare": "La numere pozitive, $a<b$ înseamnă același lucru cu:",
     "variante": [
       "$a^2>b^2$",
       "$a^2<b^2$",
@@ -86,7 +86,7 @@
   {
     "id": "operatii-cu-numere-reale-008",
     "tip": "simplu",
-    "intrebare": "Comparăm $3\\sqrt2$ și $2\\sqrt5$ prin pătrate ($18$ și $20$). Rezultă:",
+    "intrebare": "Compară $3\\sqrt2$ și $2\\sqrt5$ (la pătrat: $18$ și $20$).",
     "variante": [
       "$3\\sqrt2=2\\sqrt5$",
       "$3\\sqrt2<2\\sqrt5$",
@@ -98,7 +98,7 @@
   {
     "id": "operatii-cu-numere-reale-009",
     "tip": "simplu",
-    "intrebare": "$3\\sqrt2=?$ (introducem factorul sub radical)",
+    "intrebare": "Bagă $3$ sub radical: $3\\sqrt2=?$",
     "variante": [
       "$\\sqrt{11}$",
       "$\\sqrt{9}$",
@@ -110,7 +110,7 @@
   {
     "id": "operatii-cu-numere-reale-010",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{50}=?$ (scoatem factorul de sub radical)",
+    "intrebare": "Scoate factorul de sub radical: $\\sqrt{50}=?$",
     "variante": [
       "$2\\sqrt5$",
       "$10\\sqrt5$",
@@ -122,7 +122,7 @@
   {
     "id": "operatii-cu-numere-reale-011",
     "tip": "simplu",
-    "intrebare": "Ordinea efectuării operațiilor este:",
+    "intrebare": "În ce ordine facem operațiile?",
     "variante": [
       "de la stânga la dreapta, fără excepții",
       "puteri → paranteze → adunări → înmulțiri",
@@ -134,7 +134,7 @@
   {
     "id": "operatii-cu-numere-reale-012",
     "tip": "simplu",
-    "intrebare": "Produsul a două numere cu semne diferite este:",
+    "intrebare": "Ce semn are produsul a două numere cu semne diferite?",
     "variante": [
       "negativ",
       "depinde de modulele lor",
@@ -146,7 +146,7 @@
   {
     "id": "operatii-cu-numere-reale-013",
     "tip": "simplu",
-    "intrebare": "$-(a-b)=?$",
+    "intrebare": "Cât este $-(a-b)$?",
     "variante": [
       "$-a+b$",
       "$a-b$",
@@ -158,7 +158,7 @@
   {
     "id": "operatii-cu-numere-reale-014",
     "tip": "simplu",
-    "intrebare": "$(x+3)^2=?$",
+    "intrebare": "Desfă $(x+3)^2$.",
     "variante": [
       "$x^2+9$",
       "$x^2+6x+9$",

@@ -2,7 +2,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-001",
     "tip": "simplu",
-    "intrebare": "Se aruncă $2$ zaruri; fața cu $3$ puncte apare doar o singură dată. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $2$ zaruri. Evenimentul: fața cu $3$ puncte apare doar o singură dată. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=2\\cdot 1;\\ n=6^{2}$",
       "$m=C_{2}^{1}\\cdot 5;\\ n=C_{6}^{2}$",
@@ -14,7 +14,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-002",
     "tip": "simplu",
-    "intrebare": "Se aruncă $2$ zaruri; fața cu $5$ puncte apare doar o singură dată. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $2$ zaruri. Evenimentul: fața cu $5$ puncte apare doar o singură dată. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{2}^{1}\\cdot 1;\\ n=6^{2}$",
       "$m=5\\cdot 5;\\ n=6^{2}$",
@@ -26,7 +26,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-003",
     "tip": "simplu",
-    "intrebare": "Se aruncă $3$ zaruri; fața cu $6$ puncte apare doar o singură dată. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $3$ zaruri. Evenimentul: fața cu $6$ puncte apare doar o singură dată. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{3}^{1}\\cdot 5^{2};\\ n=C_{6}^{3}$",
       "$m=C_{3}^{1}\\cdot 5;\\ n=6^{3}$",
@@ -38,7 +38,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-004",
     "tip": "simplu",
-    "intrebare": "Se aruncă $3$ zaruri; fața cu $2$ puncte apare exact de două ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $3$ zaruri. Evenimentul: fața cu $2$ puncte apare exact de două ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{3}^{2}\\cdot 5;\\ n=6^{3}$",
       "$m=C_{3}^{2}\\cdot 5^{2};\\ n=6^{3}$",
@@ -50,7 +50,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-005",
     "tip": "simplu",
-    "intrebare": "Se aruncă $5$ zaruri; fața cu $3$ puncte apare exact de două ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $5$ zaruri. Evenimentul: fața cu $3$ puncte apare exact de două ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{2}\\cdot 5^{3};\\ n=5^{6}$",
       "$m=5^{3};\\ n=6^{5}$",
@@ -62,7 +62,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-006",
     "tip": "simplu",
-    "intrebare": "Se aruncă $5$ zaruri; fața cu $4$ puncte apare exact de trei ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $5$ zaruri. Evenimentul: fața cu $4$ puncte apare exact de trei ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{3}\\cdot 5^{2};\\ n=5^{6}$",
       "$m=5^{2};\\ n=6^{5}$",
@@ -74,7 +74,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-007",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar de $5$ ori; fața cu $2$ puncte apare de cel puțin trei ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă un zar de $5$ ori. Evenimentul: fața cu $2$ puncte apare de cel puțin trei ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{3}+C_{5}^{4}+C_{5}^{5};\\ n=6^{5}$",
       "$m=C_{5}^{3}\\cdot 5^{2};\\ n=6^{5}$",
@@ -86,7 +86,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-008",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar de $6$ ori; fața cu $1$ punct apare de patru ori, iar fața cu $5$ puncte de două ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă un zar de $6$ ori. Evenimentul: fața cu $1$ punct apare de patru ori, iar fața cu $5$ puncte de două ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{6}^{4};\\ n=6^{6}$",
       "$m=C_{6}^{4}\\cdot C_{6}^{2};\\ n=6^{6}$",
@@ -98,7 +98,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-009",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar până apare fața cu $3$ puncte; zarul este aruncat de patru ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă un zar până apare fața cu $3$ puncte. Evenimentul: zarul este aruncat de patru ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{4}^{1}\\cdot 5^{3};\\ n=6^{4}$",
       "$m=5^{4};\\ n=6^{4}$",
@@ -110,7 +110,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-010",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar până apare fața cu $5$ puncte de două ori consecutiv; zarul este aruncat de $4$ ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă un zar până apare fața cu $5$ puncte de două ori consecutiv. Evenimentul: zarul este aruncat de $4$ ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5\\cdot 5;\\ n=6^{4}$",
       "$m=6\\cdot 6;\\ n=6^{4}$",
@@ -122,7 +122,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-011",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar până apare fața cu $6$ puncte de două ori consecutiv; zarul este aruncat cel puțin $4$ și cel mult $5$ ori. Care este formula probabilității cerute?",
+    "intrebare": "Se aruncă un zar până apare fața cu $6$ puncte de două ori consecutiv. Evenimentul: zarul este aruncat cel puțin $4$ și cel mult $5$ ori. Alege formula pentru această probabilitate.",
     "variante": [
       "$P=\\frac{6\\cdot5}{6^4}+\\frac{35\\cdot5}{6^5}$",
       "$P=\\frac{6\\cdot5}{6^4}$",
@@ -134,7 +134,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-012",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar până apare fața cu $5$ puncte de trei ori consecutiv; zarul este aruncat între $4$ și $6$ ori (inclusiv). Care este formula probabilității cerute?",
+    "intrebare": "Se aruncă un zar până apare fața cu $5$ puncte de trei ori consecutiv. Evenimentul: zarul este aruncat între $4$ și $6$ ori (inclusiv). Alege formula pentru această probabilitate.",
     "variante": [
       "$P=\\frac{5}{6^4}+\\frac{6\\cdot5}{6^5}$",
       "$P=\\frac{5}{6^4}+\\frac{5}{6^5}+\\frac{5}{6^6}$",
@@ -146,7 +146,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-013",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar de $4$ ori; pe fețe apar doar numere pare. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă un zar de $4$ ori. Evenimentul: pe fețe apar doar numere pare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=3^{4};\\ n=4^{6}$",
       "$m=3^{4};\\ n=6^{4}$",
@@ -158,7 +158,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-014",
     "tip": "simplu",
-    "intrebare": "Se aruncă $7$ zaruri; fața cu $3$ puncte apare de trei ori, iar celelalte zaruri au puncte pare. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $7$ zaruri. Evenimentul: fața cu $3$ puncte apare de trei ori, iar celelalte zaruri au puncte pare. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{7}^{3}\\cdot 5^{4};\\ n=6^{7}$",
       "$m=C_{7}^{3}\\cdot 3^{4};\\ n=6^{7}$",
@@ -170,7 +170,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-015",
     "tip": "simplu",
-    "intrebare": "Se aruncă un zar până apare fața cu $2$ puncte de două ori consecutiv; zarul este aruncat cel puțin $3$ ori, dar mai puțin de $5$ ori. Care este formula probabilității cerute?",
+    "intrebare": "Se aruncă un zar până apare fața cu $2$ puncte de două ori consecutiv. Evenimentul: zarul este aruncat cel puțin $3$ ori, dar mai puțin de $5$ ori. Alege formula pentru această probabilitate.",
     "variante": [
       "$P=\\frac{5}{6^3}+\\frac{6\\cdot5}{6^4}+\\frac{36\\cdot5}{6^5}$",
       "$P=\\frac{1}{6^3}+\\frac{1}{6^4}$",
@@ -182,7 +182,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-016",
     "tip": "simplu",
-    "intrebare": "Se aruncă $5$ zaruri; produsul numerelor de pe fețe este egal cu $3$. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $5$ zaruri. Evenimentul: produsul numerelor de pe fețe este egal cu $3$. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=5!;\\ n=6^{5}$",
       "$m=C_{5}^{1};\\ n=6^{5}$",
@@ -194,7 +194,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-017",
     "tip": "simplu",
-    "intrebare": "Se aruncă $5$ zaruri; produsul numerelor de pe fețe este egal cu $4$. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $5$ zaruri. Evenimentul: produsul numerelor de pe fețe este egal cu $4$. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{5}^{1};\\ n=6^{5}$",
       "$m=C_{5}^{1}+C_{5}^{2};\\ n=6^{5}$",
@@ -206,7 +206,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-018",
     "tip": "simplu",
-    "intrebare": "Se aruncă $5$ zaruri; produsul numerelor de pe fețe este egal cu $12$. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă $5$ zaruri. Evenimentul: produsul numerelor de pe fețe este egal cu $12$. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=A_{5}^{2}+\\frac{5!}{2!\\cdot2!};\\ n=6^{5}$",
       "$m=2\\cdot A_{5}^{2}+\\frac{5!}{2!\\cdot2!};\\ n=6^{5}$",
@@ -218,7 +218,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-019",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă de $3$ ori; stema apare exact o dată. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă o monedă de $3$ ori. Evenimentul: stema apare exact o dată. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{3}^{1};\\ n=3^{2}$",
       "$m=C_{3}^{1};\\ n=2\\cdot 3$",
@@ -230,7 +230,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-020",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă de $5$ ori; stema apare exact de trei ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă o monedă de $5$ ori. Evenimentul: stema apare exact de trei ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=A_{5}^{3};\\ n=2^{5}$",
       "$m=C_{5}^{3};\\ n=2^{5}$",
@@ -242,7 +242,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-021",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă de $6$ ori; banul apare exact de patru ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă o monedă de $6$ ori. Evenimentul: banul apare exact de patru ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=C_{6}^{4};\\ n=2^{6}$",
       "$m=A_{6}^{4};\\ n=2^{6}$",
@@ -254,7 +254,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-022",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare stema; banul este aruncat de trei ori. Care sunt $m$ și $n$?",
+    "intrebare": "Se aruncă o monedă până apare stema. Evenimentul: banul este aruncat de trei ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
     "variante": [
       "$m=1;\\ n=2^{3}$",
       "$m=3;\\ n=2^{3}$",
@@ -266,7 +266,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-023",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare banul de $2$ ori consecutiv; monedă aruncată cel puțin $3$, dar mai puțin de $5$ ori. Care este formula probabilității cerute?",
+    "intrebare": "Se aruncă o monedă până apare banul de $2$ ori consecutiv. Evenimentul: monedă aruncată cel puțin $3$, dar mai puțin de $5$ ori. Alege formula pentru această probabilitate.",
     "variante": [
       "$P=\\frac{1}{2^3}+\\frac{2}{2^4}$",
       "$P=\\frac{1}{2^3}+\\frac{2}{2^4}+\\frac{4}{2^5}$",
@@ -278,7 +278,7 @@
   {
     "id": "probleme-cu-zaruri-si-monede-024",
     "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare stema de $3$ ori consecutiv; moneda este aruncată între $4$ și $6$ ori (inclusiv). Care este formula probabilității cerute?",
+    "intrebare": "Se aruncă o monedă până apare stema de $3$ ori consecutiv. Evenimentul: moneda este aruncată între $4$ și $6$ ori (inclusiv). Alege formula pentru această probabilitate.",
     "variante": [
       "$P=\\frac{1}{2^3}+\\frac{2}{2^4}+\\frac{4}{2^5}$",
       "$P=\\frac{1}{2^4}+\\frac{1}{2^5}+\\frac{1}{2^6}$",

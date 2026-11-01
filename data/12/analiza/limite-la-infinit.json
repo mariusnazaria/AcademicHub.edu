@@ -2,7 +2,7 @@
   {
     "id": "limite-la-infinit-001",
     "tip": "simplu",
-    "intrebare": "La $x\\to\\infty$, o fracție rațională $\\frac{\\infty}{\\infty}$ este:",
+    "intrebare": "Ce fel de nedeterminare este o fracție rațională $\\frac{\\infty}{\\infty}$ la $x\\to\\infty$?",
     "variante": [
       "mereu $0$",
       "mereu $1$",
@@ -14,7 +14,7 @@
   {
     "id": "limite-la-infinit-002",
     "tip": "simplu",
-    "intrebare": "Metoda pentru limite raționale la $\\infty$:",
+    "intrebare": "Care este metoda pentru limite raționale la $\\infty$?",
     "variante": [
       "ridicăm la pătrat",
       "derivăm și egalăm cu $0$",
@@ -26,7 +26,7 @@
   {
     "id": "limite-la-infinit-003",
     "tip": "simplu",
-    "intrebare": "Gradul numărătorului $=$ gradul numitorului: limita este:",
+    "intrebare": "Cât este limita când gradul numărătorului este egal cu gradul numitorului?",
     "variante": [
       "raportul coeficienților dominanți",
       "$\\infty$",
@@ -38,7 +38,7 @@
   {
     "id": "limite-la-infinit-004",
     "tip": "simplu",
-    "intrebare": "Gradul numărătorului $<$ gradul numitorului: limita este:",
+    "intrebare": "Cât este limita când gradul numărătorului este mai mic decât al numitorului?",
     "variante": [
       "$\\infty$",
       "$1$",
@@ -50,7 +50,7 @@
   {
     "id": "limite-la-infinit-005",
     "tip": "simplu",
-    "intrebare": "Gradul numărătorului $>$ gradul numitorului: limita este:",
+    "intrebare": "Cât este limita când gradul numărătorului este mai mare decât al numitorului?",
     "variante": [
       "$1$",
       "$0$",
@@ -62,7 +62,7 @@
   {
     "id": "limite-la-infinit-006",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{1}{x}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{1}{x}$.",
     "variante": [
       "nu există",
       "$0$",
@@ -74,7 +74,7 @@
   {
     "id": "limite-la-infinit-007",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{2x+1}{x-3}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{2x+1}{x-3}$.",
     "variante": [
       "$1$",
       "$2$",
@@ -86,7 +86,7 @@
   {
     "id": "limite-la-infinit-008",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{3x^2-x}{x^2+5}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{3x^2-x}{x^2+5}$.",
     "variante": [
       "$\\infty$",
       "$3$",
@@ -98,7 +98,7 @@
   {
     "id": "limite-la-infinit-009",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^2+1}{x^3}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{x^2+1}{x^3}$.",
     "variante": [
       "$\\infty$",
       "$1$",
@@ -110,7 +110,7 @@
   {
     "id": "limite-la-infinit-010",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{5x^3+1}{x^3-x}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{5x^3+1}{x^3-x}$.",
     "variante": [
       "$1$",
       "$5$",
@@ -122,7 +122,7 @@
   {
     "id": "limite-la-infinit-011",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^2-1}{3x^2+2}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{x^2-1}{3x^2+2}$.",
     "variante": [
       "$3$",
       "$\\frac{1}{3}$",
@@ -134,7 +134,7 @@
   {
     "id": "limite-la-infinit-012",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\frac{x^2}{x}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\frac{x^2}{x}$.",
     "variante": [
       "$x$",
       "$1$",
@@ -146,7 +146,7 @@
   {
     "id": "limite-la-infinit-013",
     "tip": "simplu",
-    "intrebare": "La limitele cu radicali, sub radical lăsăm:",
+    "intrebare": "Ce lăsăm sub radical la limitele cu radicali?",
     "variante": [
       "nimic",
       "doar $x$ cu cea mai mare putere",
@@ -158,7 +158,7 @@
   {
     "id": "limite-la-infinit-014",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to+\\infty}\\frac{\\sqrt{4x^2+1}}{x}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to+\\infty}\\frac{\\sqrt{4x^2+1}}{x}$.",
     "variante": [
       "$\\infty$",
       "$2$",
@@ -170,7 +170,7 @@
   {
     "id": "limite-la-infinit-015",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x^2}$ pentru $x\\to-\\infty$ este:",
+    "intrebare": "Cât este $\\sqrt{x^2}$ când $x\\to-\\infty$?",
     "variante": [
       "$x$",
       "$|x|=-x$",
@@ -182,7 +182,7 @@
   {
     "id": "limite-la-infinit-016",
     "tip": "simplu",
-    "intrebare": "$\\infty-\\infty$ cu radicali se rezolvă prin:",
+    "intrebare": "Cum rezolvăm $\\infty-\\infty$ cu radicali?",
     "variante": [
       "substituție $x=0$",
       "derivare",
@@ -194,7 +194,7 @@
   {
     "id": "limite-la-infinit-017",
     "tip": "simplu",
-    "intrebare": "Conjugata lui $\\sqrt{a}-\\sqrt{b}$ este:",
+    "intrebare": "Care este conjugata lui $\\sqrt{a}-\\sqrt{b}$?",
     "variante": [
       "$\\sqrt{a}+\\sqrt{b}$",
       "$\\frac{1}{\\sqrt{a}-\\sqrt{b}}$",
@@ -206,7 +206,7 @@
   {
     "id": "limite-la-infinit-018",
     "tip": "simplu",
-    "intrebare": "$(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b})=?$",
+    "intrebare": "Cât este $(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b})$?",
     "variante": [
       "$\\sqrt{a-b}$",
       "$a-b$",
@@ -218,7 +218,7 @@
   {
     "id": "limite-la-infinit-019",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\left(\\sqrt{x^2+1}-x\\right)=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\left(\\sqrt{x^2+1}-x\\right)$.",
     "variante": [
       "$0$",
       "$-1$",
@@ -230,7 +230,7 @@
   {
     "id": "limite-la-infinit-020",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\left(\\sqrt{x+1}-\\sqrt{x}\\right)=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\left(\\sqrt{x+1}-\\sqrt{x}\\right)$.",
     "variante": [
       "$1$",
       "$\\frac{1}{2}$",
@@ -242,7 +242,7 @@
   {
     "id": "limite-la-infinit-021",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\sqrt{x}=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\sqrt{x}$.",
     "variante": [
       "nu există",
       "$\\infty$",
@@ -254,7 +254,7 @@
   {
     "id": "limite-la-infinit-022",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}e^x=?$ și $\\lim_{x\\to\\infty}e^{-x}=?$",
+    "intrebare": "Cât sunt $\\lim_{x\\to\\infty}e^x$ și $\\lim_{x\\to\\infty}e^{-x}$?",
     "variante": [
       "$\\infty$ și $\\infty$",
       "$1$ și $1$",
@@ -266,7 +266,7 @@
   {
     "id": "limite-la-infinit-023",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\ln x=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\ln x$.",
     "variante": [
       "$-\\infty$",
       "$\\infty$",
@@ -278,7 +278,7 @@
   {
     "id": "limite-la-infinit-024",
     "tip": "simplu",
-    "intrebare": "$\\lim_{x\\to\\infty}\\left(1+\\frac{1}{x}\\right)^x=?$",
+    "intrebare": "Calculează $\\lim_{x\\to\\infty}\\left(1+\\frac{1}{x}\\right)^x$.",
     "variante": [
       "$\\infty$",
       "$e$",

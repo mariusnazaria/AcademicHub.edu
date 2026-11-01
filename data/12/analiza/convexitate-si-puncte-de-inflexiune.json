@@ -2,7 +2,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-001",
     "tip": "simplu",
-    "intrebare": "Pașii pentru convexitate și puncte de inflexiune:",
+    "intrebare": "Care sunt pașii pentru convexitate și puncte de inflexiune?",
     "variante": [
       "DVA, ridicăm la pătrat",
       "calculăm $f^{\\prime}$, apoi $f^{\\prime\\prime}$, rezolvăm $f^{\\prime\\prime}=0$, completăm tabelul",
@@ -14,7 +14,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-002",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)>0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Cum este $f$ dacă $f^{\\prime\\prime}(x)>0$ pe un interval?",
     "variante": [
       "constantă",
       "descrescătoare",
@@ -26,7 +26,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-003",
     "tip": "simplu",
-    "intrebare": "Dacă $f^{\\prime\\prime}(x)<0$ pe un interval, atunci $f$ este:",
+    "intrebare": "Cum este $f$ dacă $f^{\\prime\\prime}(x)<0$ pe un interval?",
     "variante": [
       "constantă",
       "crescătoare",
@@ -38,7 +38,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-004",
     "tip": "simplu",
-    "intrebare": "Punct de inflexiune = punct în care:",
+    "intrebare": "Ce este un punct de inflexiune?",
     "variante": [
       "$f=0$",
       "funcția își schimbă forma (convexă $\\leftrightarrow$ concavă)",
@@ -50,7 +50,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-005",
     "tip": "simplu",
-    "intrebare": "La punct de inflexiune, $f^{\\prime\\prime}$:",
+    "intrebare": "Ce se întâmplă cu $f^{\\prime\\prime}$ într-un punct de inflexiune?",
     "variante": [
       "este mereu pozitivă",
       "își schimbă semnul",
@@ -62,7 +62,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-006",
     "tip": "simplu",
-    "intrebare": "Este suficient ca $f^{\\prime\\prime}(x_0)=0$ pentru inflexiune?",
+    "intrebare": "Este suficient ca $f^{\\prime\\prime}(x_0)=0$ ca să avem inflexiune?",
     "variante": [
       "Da, dacă $f(x_0)=0$",
       "Nu, trebuie ca $f^{\\prime\\prime}$ să își schimbe semnul",
@@ -74,7 +74,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-007",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^2$: $f^{\\prime\\prime}=2>0$, deci $f$ este:",
+    "intrebare": "$f(x)=x^2$ are $f^{\\prime\\prime}=2>0$. Cum este $f$?",
     "variante": [
       "are inflexiune în $0$",
       "convexă pe $\\mathbb{R}$",
@@ -86,7 +86,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-008",
     "tip": "simplu",
-    "intrebare": "$f(x)=-x^2$ este:",
+    "intrebare": "Cum este $f(x)=-x^2$?",
     "variante": [
       "liniară",
       "convexă",
@@ -98,7 +98,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-009",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^3$: $f^{\\prime\\prime}=6x$, deci în $x=0$:",
+    "intrebare": "$f(x)=x^3$ are $f^{\\prime\\prime}=6x$. Ce avem în $x=0$?",
     "variante": [
       "punct de inflexiune",
       "nimic",
@@ -110,7 +110,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-010",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^4$: $f^{\\prime\\prime}=12x^2$ se anulează în $0$, dar $0$ este:",
+    "intrebare": "$f(x)=x^4$ are $f^{\\prime\\prime}=12x^2$, care se anulează în $0$. Ce este punctul $0$?",
     "variante": [
       "nu este inflexiune (semnul nu se schimbă)",
       "punct de inflexiune",
@@ -122,7 +122,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-011",
     "tip": "simplu",
-    "intrebare": "$f(x)=e^x$ este:",
+    "intrebare": "Cum este $f(x)=e^x$?",
     "variante": [
       "convexă pe $\\mathbb{R}$",
       "are inflexiune în $0$",
@@ -134,7 +134,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-012",
     "tip": "simplu",
-    "intrebare": "$f(x)=\\ln x$ este:",
+    "intrebare": "Cum este $f(x)=\\ln x$?",
     "variante": [
       "liniară",
       "convexă",
@@ -146,7 +146,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-013",
     "tip": "simplu",
-    "intrebare": "$f(x)=x^3-3x^2$: $f^{\\prime\\prime}=6x-6$; punctul de inflexiune este:",
+    "intrebare": "$f(x)=x^3-3x^2$ are $f^{\\prime\\prime}=6x-6$. Care este punctul de inflexiune?",
     "variante": [
       "$x=-1$",
       "$x=1$",
@@ -158,7 +158,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-014",
     "tip": "simplu",
-    "intrebare": "$f^{\\prime\\prime}$ este:",
+    "intrebare": "Ce este $f^{\\prime\\prime}$?",
     "variante": [
       "$f$ la pătrat",
       "$f^{\\prime}$ înmulțită cu $2$",
@@ -170,7 +170,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-015",
     "tip": "simplu",
-    "intrebare": "Pentru o funcție convexă, tangenta la grafic se află:",
+    "intrebare": "Unde se află tangenta la graficul unei funcții convexe?",
     "variante": [
       "sub grafic",
       "deasupra graficului",
@@ -182,7 +182,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-016",
     "tip": "simplu",
-    "intrebare": "În tabel, simbolul „$\\cup$” (formă de U) înseamnă:",
+    "intrebare": "Ce înseamnă simbolul „$\\cup$” (formă de U) în tabel?",
     "variante": [
       "inflexiune",
       "convexă",
@@ -194,7 +194,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-017",
     "tip": "simplu",
-    "intrebare": "În tabel, simbolul „$\\cap$” înseamnă:",
+    "intrebare": "Ce înseamnă simbolul „$\\cap$” în tabel?",
     "variante": [
       "descrescătoare",
       "inflexiune",
@@ -206,7 +206,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-018",
     "tip": "simplu",
-    "intrebare": "Convexitatea depinde de semnul lui:",
+    "intrebare": "De semnul cărui lucru depinde convexitatea?",
     "variante": [
       "$f^{\\prime\\prime\\prime}$",
       "$f^{\\prime\\prime}$",
@@ -218,7 +218,7 @@
   {
     "id": "convexitate-si-puncte-de-inflexiune-019",
     "tip": "multiplu",
-    "intrebare": "Care sunt adevărate?",
+    "intrebare": "Care afirmații sunt adevărate?",
     "variante": [
       "$f^{\\prime\\prime}=0$ implică mereu inflexiune",
       "$f^{\\prime\\prime}>0\\Rightarrow f$ convexă",

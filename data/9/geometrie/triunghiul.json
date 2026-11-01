@@ -2,7 +2,7 @@
   {
     "id": "triunghiul-001",
     "tip": "simplu",
-    "intrebare": "Suma unghiurilor unui triunghi este:",
+    "intrebare": "Cât este suma unghiurilor unui triunghi?",
     "variante": [
       "$90^\\circ$",
       "$360^\\circ$",
@@ -14,7 +14,7 @@
   {
     "id": "triunghiul-002",
     "tip": "simplu",
-    "intrebare": "Un unghi exterior al triunghiului este egal cu:",
+    "intrebare": "Cu ce este egal un unghi exterior al triunghiului?",
     "variante": [
       "$180^\\circ$ plus suma lor",
       "suma celorlalte două unghiuri interioare (neadiacente)",
@@ -26,7 +26,7 @@
   {
     "id": "triunghiul-003",
     "tip": "simplu",
-    "intrebare": "Inegalitatea triunghiului (laturile $a,b,c$):",
+    "intrebare": "Care este inegalitatea triunghiului?",
     "variante": [
       "$|b-c|<a<b+c$",
       "$a=b+c$",
@@ -38,7 +38,7 @@
   {
     "id": "triunghiul-004",
     "tip": "simplu",
-    "intrebare": "Se poate construi un triunghi cu laturile:",
+    "intrebare": "Cu care laturi se poate construi un triunghi?",
     "variante": [
       "$1,\\ 2,\\ 3$",
       "$2,\\ 3,\\ 6$",
@@ -50,7 +50,7 @@
   {
     "id": "triunghiul-005",
     "tip": "simplu",
-    "intrebare": "Triunghiul echilateral are:",
+    "intrebare": "Ce laturi are triunghiul echilateral?",
     "variante": [
       "un unghi drept",
       "doar două laturi egale",
@@ -62,7 +62,7 @@
   {
     "id": "triunghiul-006",
     "tip": "simplu",
-    "intrebare": "Triunghiul isoscel are:",
+    "intrebare": "Ce laturi are triunghiul isoscel?",
     "variante": [
       "două laturi egale",
       "toate laturile egale",
@@ -74,7 +74,7 @@
   {
     "id": "triunghiul-007",
     "tip": "simplu",
-    "intrebare": "Triunghiul scalen are:",
+    "intrebare": "Ce laturi are triunghiul scalen?",
     "variante": [
       "un unghi drept mereu",
       "toate laturile diferite",
@@ -86,7 +86,7 @@
   {
     "id": "triunghiul-008",
     "tip": "simplu",
-    "intrebare": "Triunghiul obtuzunghic are:",
+    "intrebare": "Ce unghiuri are triunghiul obtuzunghic?",
     "variante": [
       "toate unghiurile egale cu $60^\\circ$",
       "un unghi obtuz ($>90^\\circ$)",
@@ -98,7 +98,7 @@
   {
     "id": "triunghiul-009",
     "tip": "simplu",
-    "intrebare": "Mediana triunghiului unește:",
+    "intrebare": "Ce este mediana triunghiului?",
     "variante": [
       "vârful cu un punct oarecare al laturii",
       "vârful cu mijlocul laturii opuse",
@@ -110,7 +110,7 @@
   {
     "id": "triunghiul-010",
     "tip": "simplu",
-    "intrebare": "Înălțimea triunghiului este:",
+    "intrebare": "Ce este înălțimea triunghiului?",
     "variante": [
       "perpendiculara din vârf pe latura opusă",
       "perpendiculara în mijlocul unei laturi",
@@ -122,7 +122,7 @@
   {
     "id": "triunghiul-011",
     "tip": "simplu",
-    "intrebare": "Bisectoarea triunghiului:",
+    "intrebare": "Ce face bisectoarea triunghiului?",
     "variante": [
       "este perpendiculară în mijlocul laturii",
       "este perpendiculară pe latura opusă",
@@ -134,7 +134,7 @@
   {
     "id": "triunghiul-012",
     "tip": "simplu",
-    "intrebare": "Mediatoarea unei laturi este:",
+    "intrebare": "Ce este mediatoarea unei laturi?",
     "variante": [
       "segmentul din vârf la mijlocul laturii",
       "bisectoarea unghiului",
@@ -146,7 +146,7 @@
   {
     "id": "triunghiul-013",
     "tip": "simplu",
-    "intrebare": "Într-un triunghi $B=50^\\circ$, $C=60^\\circ$. Unghiul exterior la $A$ (suma celor două) este:",
+    "intrebare": "$B=50^\\circ$ și $C=60^\\circ$. Cât este unghiul exterior la $A$ (suma lor)?",
     "variante": [
       "$110^\\circ$",
       "$10^\\circ$",
@@ -158,7 +158,7 @@
   {
     "id": "triunghiul-014",
     "tip": "simplu",
-    "intrebare": "Unghiurile triunghiului echilateral au câte:",
+    "intrebare": "Cât are fiecare unghi al triunghiului echilateral?",
     "variante": [
       "$45^\\circ$",
       "$90^\\circ$",

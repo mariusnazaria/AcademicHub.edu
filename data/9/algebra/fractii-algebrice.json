@@ -2,7 +2,7 @@
   {
     "id": "fractii-algebrice-001",
     "tip": "simplu",
-    "intrebare": "O fracție algebrică are forma:",
+    "intrebare": "Cum arată o fracție algebrică?",
     "variante": [
       "$\\frac{A(x)}{B(x)}$ cu $B(x)\\neq0$",
       "$A(x)+B(x)$",
@@ -14,7 +14,7 @@
   {
     "id": "fractii-algebrice-002",
     "tip": "simplu",
-    "intrebare": "DVA (domeniul valorilor admisibile) înseamnă:",
+    "intrebare": "Ce este DVA (valorile permise)?",
     "variante": [
       "valorile pentru care numărătorul este $0$",
       "toate numerele întregi",
@@ -26,7 +26,7 @@
   {
     "id": "fractii-algebrice-003",
     "tip": "simplu",
-    "intrebare": "Simplificarea fracției algebrice se face prin:",
+    "intrebare": "Cum simplificăm o fracție algebrică?",
     "variante": [
       "adunarea numitorilor",
       "înmulțirea cu $0$",
@@ -38,7 +38,7 @@
   {
     "id": "fractii-algebrice-004",
     "tip": "simplu",
-    "intrebare": "$\\frac{x^2-9}{x+3}=?$",
+    "intrebare": "Simplifică $\\frac{x^2-9}{x+3}$.",
     "variante": [
       "$x+3$",
       "$x-9$",
@@ -50,7 +50,7 @@
   {
     "id": "fractii-algebrice-005",
     "tip": "simplu",
-    "intrebare": "Amplificarea: $\\frac ab=?$ ($c\\neq0$)",
+    "intrebare": "Cum amplificăm o fracție ($c\\neq0$)?",
     "variante": [
       "$\\frac{a\\cdot c}{b\\cdot c}$",
       "$\\frac{a+c}{b+c}$",
@@ -62,7 +62,7 @@
   {
     "id": "fractii-algebrice-006",
     "tip": "simplu",
-    "intrebare": "$\\frac ac+\\frac bc=?$",
+    "intrebare": "Cât este $\\frac ac+\\frac bc$?",
     "variante": [
       "$\\frac{ab}{c}$",
       "$\\frac{a+b}{c^2}$",
@@ -74,7 +74,7 @@
   {
     "id": "fractii-algebrice-007",
     "tip": "simplu",
-    "intrebare": "$\\frac ab\\cdot\\frac cd=?$",
+    "intrebare": "Cât este $\\frac ab\\cdot\\frac cd$?",
     "variante": [
       "$\\frac{a+c}{b+d}$",
       "$\\frac{a\\cdot c}{b+d}$",
@@ -86,7 +86,7 @@
   {
     "id": "fractii-algebrice-008",
     "tip": "simplu",
-    "intrebare": "$\\frac ab:\\frac cd=?$",
+    "intrebare": "Cât este $\\frac ab:\\frac cd$?",
     "variante": [
       "$\\frac ab\\cdot\\frac dc$",
       "$\\frac ab\\cdot\\frac cd$",
@@ -98,7 +98,7 @@
   {
     "id": "fractii-algebrice-009",
     "tip": "simplu",
-    "intrebare": "Care simplificare este GREȘITĂ?",
+    "intrebare": "Care simplificare este greșită?",
     "variante": [
       "$\\frac{x+3}{3}=x+1$",
       "$\\frac{2x}{2y}=\\frac xy$",
@@ -110,7 +110,7 @@
   {
     "id": "fractii-algebrice-010",
     "tip": "simplu",
-    "intrebare": "Ordinea pașilor la adunarea fracțiilor algebrice:",
+    "intrebare": "Care sunt pașii la adunarea fracțiilor algebrice?",
     "variante": [
       "simplificăm termenii → adunăm",
       "descompunem numitorii → numitor comun → amplificăm → adunăm numărătorii și simplificăm",
@@ -122,7 +122,7 @@
   {
     "id": "fractii-algebrice-011",
     "tip": "simplu",
-    "intrebare": "$\\frac{1}{x-1}+\\frac{1}{x+1}=?$",
+    "intrebare": "Calculează $\\frac{1}{x-1}+\\frac{1}{x+1}$.",
     "variante": [
       "$\\frac{2x}{x^2+1}$",
       "$\\frac{2}{2x}$",
@@ -134,7 +134,7 @@
   {
     "id": "fractii-algebrice-012",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\frac{1}{x-2}$:",
+    "intrebare": "Care este DVA pentru $\\frac{1}{x-2}$?",
     "variante": [
       "$x>2$",
       "$x\\neq2$",
@@ -146,7 +146,7 @@
   {
     "id": "fractii-algebrice-013",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\frac{1}{x^2-9}$:",
+    "intrebare": "Care este DVA pentru $\\frac{1}{x^2-9}$?",
     "variante": [
       "$x\\neq\\pm3$",
       "$x\\neq3$",
@@ -170,7 +170,7 @@
   {
     "id": "fractii-algebrice-015",
     "tip": "simplu",
-    "intrebare": "Pentru $\\frac{x^2-9}{x+3}$, DVA este:",
+    "intrebare": "Care este DVA pentru $\\frac{x^2-9}{x+3}$?",
     "variante": [
       "$x\\neq-3$",
       "$x\\in\\mathbb{R}$",

@@ -2,7 +2,7 @@
   {
     "id": "aria-triunghiului-001",
     "tip": "simplu",
-    "intrebare": "Aria triunghiului (formula de bază):",
+    "intrebare": "Care este formula de bază pentru aria triunghiului?",
     "variante": [
       "$S=\\frac{b\\cdot h}{2}$",
       "$S=\\frac{b+h}{2}$",
@@ -14,7 +14,7 @@
   {
     "id": "aria-triunghiului-002",
     "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $c_1,c_2$:",
+    "intrebare": "Care este aria triunghiului dreptunghic cu catetele $c_1,c_2$?",
     "variante": [
       "$S=\\frac{c_1^2\\cdot c_2^2}{2}$",
       "$S=\\frac{c_1\\cdot c_2}{2}$",
@@ -26,7 +26,7 @@
   {
     "id": "aria-triunghiului-003",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $l$:",
+    "intrebare": "Care este aria triunghiului echilateral de latură $l$?",
     "variante": [
       "$S=\\frac{l^2}{4}$",
       "$S=\\frac{l^2\\sqrt3}{4}$",
@@ -38,7 +38,7 @@
   {
     "id": "aria-triunghiului-004",
     "tip": "simplu",
-    "intrebare": "Aria cu sinus:",
+    "intrebare": "Care este formula ariei cu sinus?",
     "variante": [
       "$S=\\frac{a+b}{2}\\sin C$",
       "$S=\\frac{a\\cdot b\\cdot\\cos C}{2}$",
@@ -50,7 +50,7 @@
   {
     "id": "aria-triunghiului-005",
     "tip": "simplu",
-    "intrebare": "Formula lui Heron:",
+    "intrebare": "Care este formula lui Heron?",
     "variante": [
       "$S=\\sqrt{p\\cdot a\\cdot b\\cdot c}$",
       "$S=\\sqrt{p(p-a)(p-b)(p-c)}$",
@@ -62,7 +62,7 @@
   {
     "id": "aria-triunghiului-006",
     "tip": "simplu",
-    "intrebare": "În formula lui Heron, $p$ este:",
+    "intrebare": "Ce este $p$ în formula lui Heron?",
     "variante": [
       "înălțimea",
       "$p=\\frac{a\\cdot b\\cdot c}{2}$",
@@ -74,7 +74,7 @@
   {
     "id": "aria-triunghiului-007",
     "tip": "simplu",
-    "intrebare": "Mediana împarte triunghiul în două triunghiuri cu:",
+    "intrebare": "Ce arii au cele două triunghiuri formate de o mediană?",
     "variante": [
       "unghiuri egale",
       "arii proporționale cu laturile",
@@ -86,7 +86,7 @@
   {
     "id": "aria-triunghiului-008",
     "tip": "simplu",
-    "intrebare": "Triunghiuri cu aceeași bază și aceeași înălțime au:",
+    "intrebare": "Ce arie au triunghiurile cu aceeași bază și aceeași înălțime?",
     "variante": [
       "același perimetru",
       "aceleași unghiuri",
@@ -98,7 +98,7 @@
   {
     "id": "aria-triunghiului-009",
     "tip": "simplu",
-    "intrebare": "Triunghiuri cu aceeași înălțime au ariile:",
+    "intrebare": "Cum sunt ariile triunghiurilor cu aceeași înălțime?",
     "variante": [
       "proporționale cu înălțimile",
       "proporționale cu bazele",
@@ -110,7 +110,7 @@
   {
     "id": "aria-triunghiului-010",
     "tip": "simplu",
-    "intrebare": "Triunghi cu baza $8$ și înălțimea $5$: aria este:",
+    "intrebare": "Baza $8$ și înălțimea $5$: cât este aria?",
     "variante": [
       "$40$",
       "$20$",
@@ -122,7 +122,7 @@
   {
     "id": "aria-triunghiului-011",
     "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $6$ și $8$: aria este:",
+    "intrebare": "Catetele $6$ și $8$: cât este aria?",
     "variante": [
       "$24$",
       "$10$",
@@ -134,7 +134,7 @@
   {
     "id": "aria-triunghiului-012",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral cu latura $4$: aria este:",
+    "intrebare": "Triunghi echilateral cu latura $4$: cât este aria?",
     "variante": [
       "$16\\sqrt3$",
       "$4\\sqrt3$",
@@ -146,7 +146,7 @@
   {
     "id": "aria-triunghiului-013",
     "tip": "simplu",
-    "intrebare": "$a=6$, $b=4$, $C=30^\\circ$: aria este:",
+    "intrebare": "$a=6$, $b=4$, $C=30^\\circ$: cât este aria?",
     "variante": [
       "$6$",
       "$12$",
@@ -158,7 +158,7 @@
   {
     "id": "aria-triunghiului-014",
     "tip": "simplu",
-    "intrebare": "Triunghi cu laturile $3,4,5$ (Heron): aria este:",
+    "intrebare": "Laturile $3,4,5$ (cu Heron): cât este aria?",
     "variante": [
       "$60$",
       "$7{,}5$",

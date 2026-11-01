@@ -2,7 +2,7 @@
   {
     "id": "sb-001",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ (2x + 3)^5 dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int (2x+3)^5\\,dx$?",
     "variante": [
       "t = 2x^5 + 3",
       "t = 2x + 3",
@@ -14,7 +14,7 @@
   {
     "id": "sb-002",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ (7x − 9)^{2017} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int (7x-9)^{2017}\\,dx$?",
     "variante": [
       "t = 7x^2",
       "t = 7x − 9",
@@ -26,7 +26,7 @@
   {
     "id": "sb-003",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ cos 5x dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\cos5x\\,dx$?",
     "variante": [
       "t = cos x",
       "t = 5x",
@@ -38,7 +38,7 @@
   {
     "id": "sb-004",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ e^{4-3x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int e^{4-3x}\\,dx$?",
     "variante": [
       "t = e^{4x}",
       "t = 4x − 3x^2",
@@ -50,7 +50,7 @@
   {
     "id": "sb-005",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ x·cos(x^2) dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int x\\cdot\\cos(x^2)\\,dx$?",
     "variante": [
       "t = x",
       "t = cos(x^2)",
@@ -62,7 +62,7 @@
   {
     "id": "sb-006",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ x(x^2 + 1)^5 dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int x(x^2+1)^5\\,dx$?",
     "variante": [
       "t = x^2 + 1",
       "t = x(x^2 + 1)",
@@ -74,7 +74,7 @@
   {
     "id": "sb-007",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ sin x·cos^2x dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\sin x\\cdot\\cos^2x\\,dx$?",
     "variante": [
       "t = sin x",
       "t = x",
@@ -86,7 +86,7 @@
   {
     "id": "sb-008",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{1}{x ln x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{1}{x\\ln x}\\,dx$?",
     "variante": [
       "t = ln x",
       "t = \\frac{1}{x}",
@@ -98,7 +98,7 @@
   {
     "id": "sb-009",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ x^2·sin(x^3) dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int x^2\\cdot\\sin(x^3)\\,dx$?",
     "variante": [
       "t = sin(x^3)",
       "t = x^3",
@@ -110,7 +110,7 @@
   {
     "id": "sb-010",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{2x+1}{x^2+x+5} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{2x+1}{x^2+x+5}\\,dx$?",
     "variante": [
       "t = 2x + 1",
       "t = x + 5",
@@ -122,7 +122,7 @@
   {
     "id": "sb-011",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = x^2 + 1?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=x^2+1$?",
     "variante": [
       "∫ (x + 1)^5 dx",
       "∫ \\frac{x^2}{x^2+1} dx",
@@ -137,7 +137,7 @@
   {
     "id": "sb-012",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = cos x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=\\cos x$?",
     "variante": [
       "∫ x·cos x dx",
       "∫ cos 2x dx",
@@ -152,7 +152,7 @@
   {
     "id": "sb-013",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = ln x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=\\ln x$?",
     "variante": [
       "∫ \\frac{1}{x(1 + ln x)} dx",
       "∫ \\frac{ln x}{x} dx",
@@ -167,7 +167,7 @@
   {
     "id": "sb-014",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = sin x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=\\sin x$?",
     "variante": [
       "∫ x sin x dx",
       "∫ sin x·cos^2x dx",
@@ -182,7 +182,7 @@
   {
     "id": "sb-015",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ √(2x + 1) dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\sqrt{2x+1}\\,dx$?",
     "variante": [
       "t = 2x + 1",
       "t = x^2",
@@ -197,7 +197,7 @@
   {
     "id": "sb-016",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ x√(x + 1) dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int x\\sqrt{x+1}\\,dx$?",
     "variante": [
       "t = x",
       "t = x√(x + 1)",
@@ -212,7 +212,7 @@
   {
     "id": "sb-017",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ x^2(x^3 + 5)^4 dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int x^2(x^3+5)^4\\,dx$?",
     "variante": [
       "t = x^3",
       "t = x^3 + 5",
@@ -227,7 +227,7 @@
   {
     "id": "sb-018",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = 2x − 1?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=2x-1$?",
     "variante": [
       "∫ (2x − 1)^7 dx",
       "∫ sin(x^2 − 1) dx",
@@ -243,7 +243,7 @@
   {
     "id": "sb-019",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{x}{x^2+1} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{x}{x^2+1}\\,dx$?",
     "variante": [
       "t = \\frac{x}{x^2+1}",
       "t = x^2 + 1",
@@ -258,7 +258,7 @@
   {
     "id": "sb-020",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = x^3?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=x^3$?",
     "variante": [
       "∫ x^2(x^3 + 1)^5 dx",
       "∫ x·sin(x^3) dx",

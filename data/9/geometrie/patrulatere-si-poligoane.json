@@ -2,7 +2,7 @@
   {
     "id": "patrulatere-si-poligoane-001",
     "tip": "simplu",
-    "intrebare": "Paralelogramul are:",
+    "intrebare": "Ce proprietăți are paralelogramul?",
     "variante": [
       "laturile opuse paralele și egale; diagonalele se înjumătățesc",
       "doar o pereche de laturi paralele",
@@ -14,7 +14,7 @@
   {
     "id": "patrulatere-si-poligoane-002",
     "tip": "simplu",
-    "intrebare": "Dreptunghiul are:",
+    "intrebare": "Ce proprietăți are dreptunghiul?",
     "variante": [
       "patru laturi egale și diagonale perpendiculare",
       "diagonalele perpendiculare",
@@ -26,7 +26,7 @@
   {
     "id": "patrulatere-si-poligoane-003",
     "tip": "simplu",
-    "intrebare": "Rombul are:",
+    "intrebare": "Ce proprietăți are rombul?",
     "variante": [
       "doar două laturi egale",
       "patru laturi egale și diagonale perpendiculare",
@@ -38,7 +38,7 @@
   {
     "id": "patrulatere-si-poligoane-004",
     "tip": "simplu",
-    "intrebare": "Pătratul este:",
+    "intrebare": "Ce este pătratul?",
     "variante": [
       "doar dreptunghi",
       "în același timp dreptunghi și romb",
@@ -50,7 +50,7 @@
   {
     "id": "patrulatere-si-poligoane-005",
     "tip": "simplu",
-    "intrebare": "Trapezul $ABCD$ ($AB\\parallel CD$): linia mijlocie este:",
+    "intrebare": "Cât este linia mijlocie a trapezului $ABCD$ ($AB\\parallel CD$)?",
     "variante": [
       "$MN=\\frac{AB+CD}{2}$",
       "$MN=\\sqrt{AB\\cdot CD}$",
@@ -62,7 +62,7 @@
   {
     "id": "patrulatere-si-poligoane-006",
     "tip": "simplu",
-    "intrebare": "Suma unghiurilor unui poligon cu $n$ laturi:",
+    "intrebare": "Cât este suma unghiurilor unui poligon cu $n$ laturi?",
     "variante": [
       "$(n-2)\\cdot180^\\circ$",
       "$(n+2)\\cdot180^\\circ$",
@@ -74,7 +74,7 @@
   {
     "id": "patrulatere-si-poligoane-007",
     "tip": "simplu",
-    "intrebare": "Numărul de diagonale ale unui poligon cu $n$ laturi:",
+    "intrebare": "Câte diagonale are un poligon cu $n$ laturi?",
     "variante": [
       "$n(n-3)$",
       "$\\frac{n(n-3)}{2}$",
@@ -86,7 +86,7 @@
   {
     "id": "patrulatere-si-poligoane-008",
     "tip": "simplu",
-    "intrebare": "La hexagonul regulat, latura este egală cu:",
+    "intrebare": "Cât este latura hexagonului regulat față de raza cercului circumscris?",
     "variante": [
       "diametrul cercului circumscris",
       "apotema",
@@ -98,7 +98,7 @@
   {
     "id": "patrulatere-si-poligoane-009",
     "tip": "simplu",
-    "intrebare": "Un poligon regulat are:",
+    "intrebare": "Ce este un poligon regulat?",
     "variante": [
       "doar laturi egale",
       "diagonale egale mereu",
@@ -110,7 +110,7 @@
   {
     "id": "patrulatere-si-poligoane-010",
     "tip": "simplu",
-    "intrebare": "Unghiul interior al unui poligon regulat cu $n$ laturi:",
+    "intrebare": "Cât este unghiul interior al unui poligon regulat cu $n$ laturi?",
     "variante": [
       "$\\frac{(n-2)\\cdot180^\\circ}{n}$",
       "$(n-2)\\cdot180^\\circ$",
@@ -122,7 +122,7 @@
   {
     "id": "patrulatere-si-poligoane-011",
     "tip": "simplu",
-    "intrebare": "Unghiul exterior al unui poligon regulat cu $n$ laturi:",
+    "intrebare": "Cât este unghiul exterior al unui poligon regulat cu $n$ laturi?",
     "variante": [
       "$\\frac{360^\\circ}{n}$",
       "$\\frac{(n-2)\\cdot180^\\circ}{n}$",
@@ -134,7 +134,7 @@
   {
     "id": "patrulatere-si-poligoane-012",
     "tip": "simplu",
-    "intrebare": "Suma unghiurilor unui hexagon este:",
+    "intrebare": "Cât este suma unghiurilor unui hexagon?",
     "variante": [
       "$360^\\circ$",
       "$1080^\\circ$",
@@ -146,7 +146,7 @@
   {
     "id": "patrulatere-si-poligoane-013",
     "tip": "simplu",
-    "intrebare": "Numărul diagonalelor unui pentagon este:",
+    "intrebare": "Câte diagonale are un pentagon?",
     "variante": [
       "$7$",
       "$5$",
@@ -158,7 +158,7 @@
   {
     "id": "patrulatere-si-poligoane-014",
     "tip": "simplu",
-    "intrebare": "Unghiul interior al unui octogon regulat este:",
+    "intrebare": "Cât este unghiul interior al octogonului regulat?",
     "variante": [
       "$120^\\circ$",
       "$135^\\circ$",

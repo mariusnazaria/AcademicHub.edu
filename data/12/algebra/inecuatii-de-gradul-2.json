@@ -2,7 +2,7 @@
   {
     "id": "inecuatii-de-gradul-2-001",
     "tip": "simplu",
-    "intrebare": "Primul pas la o inecuație de gradul II este:",
+    "intrebare": "Care este primul pas la o inecuație de gradul II?",
     "variante": [
       "o egalăm cu $0$ și rezolvăm ecuația",
       "ridicăm la pătrat",
@@ -14,7 +14,7 @@
   {
     "id": "inecuatii-de-gradul-2-002",
     "tip": "simplu",
-    "intrebare": "La inecuația de gradul II avem DVA?",
+    "intrebare": "Are inecuația de gradul II DVA?",
     "variante": [
       "Da, $\\Delta>0$",
       "Da, $x>0$",
@@ -26,7 +26,7 @@
   {
     "id": "inecuatii-de-gradul-2-003",
     "tip": "simplu",
-    "intrebare": "Pașii la inecuația de gradul II sunt:",
+    "intrebare": "Care sunt pașii la o inecuație de gradul II?",
     "variante": [
       "facem aceeași bază, egalăm puterile",
       "derivăm, egalăm cu $0$, tabel",
@@ -38,7 +38,7 @@
   {
     "id": "inecuatii-de-gradul-2-004",
     "tip": "simplu",
-    "intrebare": "Discriminantul $\\Delta$ al lui $ax^2+bx+c$ este:",
+    "intrebare": "Cum se calculează discriminantul $\\Delta$ pentru $ax^2+bx+c$?",
     "variante": [
       "$4ac-b^2$",
       "$b^2+4ac$",
@@ -50,7 +50,7 @@
   {
     "id": "inecuatii-de-gradul-2-005",
     "tip": "simplu",
-    "intrebare": "Rădăcinile ecuației de gradul II sunt:",
+    "intrebare": "Care sunt rădăcinile ecuației de gradul II?",
     "variante": [
       "$x_{1,2}=\\frac{b\\pm\\sqrt{\\Delta}}{2a}$",
       "$x_{1,2}=\\frac{-b\\pm\\sqrt{\\Delta}}{a}$",
@@ -62,7 +62,7 @@
   {
     "id": "inecuatii-de-gradul-2-006",
     "tip": "simplu",
-    "intrebare": "Dacă $\\Delta>0$, ecuația are:",
+    "intrebare": "Câte rădăcini are ecuația când $\\Delta>0$?",
     "variante": [
       "două rădăcini reale distincte",
       "o rădăcină",
@@ -74,7 +74,7 @@
   {
     "id": "inecuatii-de-gradul-2-007",
     "tip": "simplu",
-    "intrebare": "Dacă $\\Delta=0$, ecuația are:",
+    "intrebare": "Câte rădăcini are ecuația când $\\Delta=0$?",
     "variante": [
       "o singură rădăcină (dublă)",
       "două rădăcini distincte",
@@ -86,7 +86,7 @@
   {
     "id": "inecuatii-de-gradul-2-008",
     "tip": "simplu",
-    "intrebare": "Dacă $\\Delta<0$, ecuația are:",
+    "intrebare": "Câte rădăcini reale are ecuația când $\\Delta<0$?",
     "variante": [
       "două rădăcini reale",
       "două rădăcini egale",
@@ -98,7 +98,7 @@
   {
     "id": "inecuatii-de-gradul-2-009",
     "tip": "simplu",
-    "intrebare": "Dacă $a>0$, parabola are ramurile:",
+    "intrebare": "Cum sunt ramurile parabolei când $a>0$?",
     "variante": [
       "depinde de $c$",
       "în sus",
@@ -110,7 +110,7 @@
   {
     "id": "inecuatii-de-gradul-2-010",
     "tip": "simplu",
-    "intrebare": "Dacă $a<0$, parabola are ramurile:",
+    "intrebare": "Cum sunt ramurile parabolei când $a<0$?",
     "variante": [
       "depinde de $b$",
       "în sus",
@@ -122,7 +122,7 @@
   {
     "id": "inecuatii-de-gradul-2-011",
     "tip": "simplu",
-    "intrebare": "La $\\ldots>0$ alegem intervalele:",
+    "intrebare": "La o inecuație de forma $\\ldots>0$, ce intervale alegem?",
     "variante": [
       "doar punctele rădăcini",
       "pozitive (unde parabola este deasupra axei)",
@@ -134,7 +134,7 @@
   {
     "id": "inecuatii-de-gradul-2-012",
     "tip": "simplu",
-    "intrebare": "La $\\ldots\\leq0$ alegem intervalele:",
+    "intrebare": "La o inecuație de forma $\\ldots\\leq0$, ce intervale alegem?",
     "variante": [
       "pozitive",
       "toate",
@@ -146,7 +146,7 @@
   {
     "id": "inecuatii-de-gradul-2-013",
     "tip": "simplu",
-    "intrebare": "$x^2-1>0$ are soluția:",
+    "intrebare": "Rezolvă $x^2-1>0$.",
     "variante": [
       "$(1,+\\infty)$",
       "$(-\\infty,-1)\\cup(1,+\\infty)$",
@@ -158,7 +158,7 @@
   {
     "id": "inecuatii-de-gradul-2-014",
     "tip": "simplu",
-    "intrebare": "$x^2-1\\leq0$ are soluția:",
+    "intrebare": "Rezolvă $x^2-1\\leq0$.",
     "variante": [
       "$\\{-1,1\\}$",
       "$(-\\infty,-1]\\cup[1,+\\infty)$",
@@ -170,7 +170,7 @@
   {
     "id": "inecuatii-de-gradul-2-015",
     "tip": "simplu",
-    "intrebare": "$x^2-4<0$ are soluția:",
+    "intrebare": "Rezolvă $x^2-4<0$.",
     "variante": [
       "$(-2,2)$",
       "$(-\\infty,-2)\\cup(2,+\\infty)$",
@@ -182,7 +182,7 @@
   {
     "id": "inecuatii-de-gradul-2-016",
     "tip": "simplu",
-    "intrebare": "$x^2<0$ are soluția:",
+    "intrebare": "Rezolvă $x^2<0$.",
     "variante": [
       "$\\varnothing$",
       "$(-\\infty,0)$",
@@ -194,7 +194,7 @@
   {
     "id": "inecuatii-de-gradul-2-017",
     "tip": "simplu",
-    "intrebare": "$x^2\\geq0$ are soluția:",
+    "intrebare": "Rezolvă $x^2\\geq0$.",
     "variante": [
       "$\\varnothing$",
       "$\\mathbb{R}$",
@@ -206,7 +206,7 @@
   {
     "id": "inecuatii-de-gradul-2-018",
     "tip": "simplu",
-    "intrebare": "$(x-3)^2\\leq0$ are soluția:",
+    "intrebare": "Rezolvă $(x-3)^2\\leq0$.",
     "variante": [
       "$\\varnothing$",
       "$(-\\infty,3]$",
@@ -218,7 +218,7 @@
   {
     "id": "inecuatii-de-gradul-2-019",
     "tip": "simplu",
-    "intrebare": "$(x-3)^2>0$ are soluția:",
+    "intrebare": "Rezolvă $(x-3)^2>0$.",
     "variante": [
       "$\\mathbb{R}\\setminus\\{3\\}$",
       "$\\{3\\}$",
@@ -230,7 +230,7 @@
   {
     "id": "inecuatii-de-gradul-2-020",
     "tip": "simplu",
-    "intrebare": "$x^2+1>0$ are soluția:",
+    "intrebare": "Rezolvă $x^2+1>0$.",
     "variante": [
       "$\\mathbb{R}\\setminus\\{0\\}$",
       "$\\varnothing$",
@@ -242,7 +242,7 @@
   {
     "id": "inecuatii-de-gradul-2-021",
     "tip": "simplu",
-    "intrebare": "$x^2-5x+6>0$ are soluția:",
+    "intrebare": "Rezolvă $x^2-5x+6>0$.",
     "variante": [
       "$(-\\infty,2)\\cup(3,+\\infty)$",
       "$(-\\infty,3)$",
@@ -254,7 +254,7 @@
   {
     "id": "inecuatii-de-gradul-2-022",
     "tip": "simplu",
-    "intrebare": "$x^2-5x+6\\leq0$ are soluția:",
+    "intrebare": "Rezolvă $x^2-5x+6\\leq0$.",
     "variante": [
       "$(-\\infty,2]\\cup[3,+\\infty)$",
       "$[2,3]$",
@@ -266,7 +266,7 @@
   {
     "id": "inecuatii-de-gradul-2-023",
     "tip": "simplu",
-    "intrebare": "Relațiile lui Viète pentru $ax^2+bx+c=0$:",
+    "intrebare": "Care sunt relațiile lui Viète pentru $ax^2+bx+c=0$?",
     "variante": [
       "$x_1+x_2=-b$, $x_1x_2=c$ mereu",
       "$x_1+x_2=\\frac{b}{a}$, $x_1x_2=-\\frac{c}{a}$",
@@ -278,7 +278,7 @@
   {
     "id": "inecuatii-de-gradul-2-024",
     "tip": "simplu",
-    "intrebare": "La $\\leq$ sau $\\geq$ capetele intervalelor se scriu cu:",
+    "intrebare": "Ce paranteze punem la capetele intervalelor când avem $\\leq$ sau $\\geq$?",
     "variante": [
       "nu se scriu",
       "paranteze pătrate (se includ)",
@@ -290,7 +290,7 @@
   {
     "id": "inecuatii-de-gradul-2-025",
     "tip": "multiplu",
-    "intrebare": "Care sunt adevărate pentru $\\Delta<0$ și $a>0$?",
+    "intrebare": "Ce este adevărat când $\\Delta<0$ și $a>0$?",
     "variante": [
       "$ax^2+bx+c<0$ nu are soluții",
       "parabola taie axa $Ox$",

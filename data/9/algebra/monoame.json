@@ -2,7 +2,7 @@
   {
     "id": "monoame-001",
     "tip": "simplu",
-    "intrebare": "Un monom este de forma:",
+    "intrebare": "Cum arată un monom?",
     "variante": [
       "parte literală $+$ coeficient",
       "coeficient $\\cdot$ parte literală",
@@ -14,7 +14,7 @@
   {
     "id": "monoame-002",
     "tip": "simplu",
-    "intrebare": "Gradul monomului $-5x^2y^3$ este:",
+    "intrebare": "Ce grad are monomul $-5x^2y^3$?",
     "variante": [
       "$-5$",
       "$3$",
@@ -26,7 +26,7 @@
   {
     "id": "monoame-003",
     "tip": "simplu",
-    "intrebare": "Gradul unui monom este:",
+    "intrebare": "Cum aflăm gradul unui monom?",
     "variante": [
       "coeficientul monomului",
       "cel mai mare exponent dintre litere",
@@ -38,7 +38,7 @@
   {
     "id": "monoame-004",
     "tip": "simplu",
-    "intrebare": "Monoame asemenea sunt cele care au:",
+    "intrebare": "Care monoame sunt asemenea?",
     "variante": [
       "același grad, dar litere diferite",
       "același coeficient",
@@ -50,7 +50,7 @@
   {
     "id": "monoame-005",
     "tip": "simplu",
-    "intrebare": "Care monoame sunt asemenea cu $3xy^2$?",
+    "intrebare": "Care monom este asemenea cu $3xy^2$?",
     "variante": [
       "$3x^2y^2$",
       "$3x^2y$",
@@ -62,7 +62,7 @@
   {
     "id": "monoame-006",
     "tip": "simplu",
-    "intrebare": "Forma standard a monomului: coeficientul se scrie:",
+    "intrebare": "Cum scriem corect un monom (forma standard)?",
     "variante": [
       "primul, iar literele în ordine alfabetică, fiecare o singură dată",
       "oriunde, literele în ordinea de la înmulțire",
@@ -74,7 +74,7 @@
   {
     "id": "monoame-007",
     "tip": "simplu",
-    "intrebare": "$3x^2y+5x^2y=?$",
+    "intrebare": "Calculează $3x^2y+5x^2y$.",
     "variante": [
       "$15x^2y$",
       "$8x^2y$",
@@ -86,7 +86,7 @@
   {
     "id": "monoame-008",
     "tip": "simplu",
-    "intrebare": "$(2x^2)(3x^4)=?$",
+    "intrebare": "Calculează $(2x^2)(3x^4)$.",
     "variante": [
       "$6x^8$",
       "$6x^6$",
@@ -98,7 +98,7 @@
   {
     "id": "monoame-009",
     "tip": "simplu",
-    "intrebare": "$(-2x^3)^2=?$",
+    "intrebare": "Calculează $(-2x^3)^2$.",
     "variante": [
       "$-4x^6$",
       "$4x^6$",
@@ -110,7 +110,7 @@
   {
     "id": "monoame-010",
     "tip": "simplu",
-    "intrebare": "$12x^5:4x^2=?$",
+    "intrebare": "Calculează $12x^5:4x^2$.",
     "variante": [
       "$8x^3$",
       "$3x^2$",
@@ -122,7 +122,7 @@
   {
     "id": "monoame-011",
     "tip": "simplu",
-    "intrebare": "Monoamele se pot aduna (reduce) numai dacă sunt:",
+    "intrebare": "Când putem aduna monoame?",
     "variante": [
       "asemenea",
       "cu același coeficient",
@@ -134,7 +134,7 @@
   {
     "id": "monoame-012",
     "tip": "simplu",
-    "intrebare": "$3x+2y=?$",
+    "intrebare": "Cât este $3x+2y$?",
     "variante": [
       "$6xy$",
       "$5x$",
@@ -146,7 +146,7 @@
   {
     "id": "monoame-013",
     "tip": "simplu",
-    "intrebare": "Numărul $7$ (fără literă) este monom de gradul:",
+    "intrebare": "Ce grad are numărul $7$ (ca monom)?",
     "variante": [
       "$7$",
       "nu este monom",
@@ -158,7 +158,7 @@
   {
     "id": "monoame-014",
     "tip": "simplu",
-    "intrebare": "La înmulțirea monoamelor:",
+    "intrebare": "Cum înmulțim monoamele?",
     "variante": [
       "coeficienții se înmulțesc, exponenții se înmulțesc",
       "coeficienții se adună, exponenții se adună",
@@ -170,7 +170,7 @@
   {
     "id": "monoame-015",
     "tip": "simplu",
-    "intrebare": "La ridicarea unui monom la putere:",
+    "intrebare": "Cum ridicăm un monom la putere?",
     "variante": [
       "exponenții se înmulțesc cu puterea",
       "exponenții se adună cu puterea",
@@ -182,7 +182,7 @@
   {
     "id": "monoame-016",
     "tip": "simplu",
-    "intrebare": "La împărțirea monoamelor:",
+    "intrebare": "Cum împărțim monoamele?",
     "variante": [
       "coeficienții se scad, exponenții se împart",
       "coeficienții se adună",

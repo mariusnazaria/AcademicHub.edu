@@ -2,7 +2,7 @@
   {
     "id": "sa-001",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{x}{1 + x^4} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{x}{1+x^4}\\,dx$?",
     "variante": [
       "t = x^4",
       "t = 1 + x^4",
@@ -14,7 +14,7 @@
   {
     "id": "sa-002",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{ln x}{x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{\\ln x}{x}\\,dx$?",
     "variante": [
       "t = ln x",
       "t = \\frac{1}{x}",
@@ -26,7 +26,7 @@
   {
     "id": "sa-003",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{sin x}{cos^2x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{\\sin x}{\\cos^2x}\\,dx$?",
     "variante": [
       "t = tg x",
       "t = cos x",
@@ -38,7 +38,7 @@
   {
     "id": "sa-004",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{3x}{4x^2+5} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{3x}{4x^2+5}\\,dx$?",
     "variante": [
       "t = x + 5",
       "t = 4x",
@@ -50,7 +50,7 @@
   {
     "id": "sa-005",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{cos x}{1 + sin^2x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{\\cos x}{1+\\sin^2x}\\,dx$?",
     "variante": [
       "t = tg x",
       "t = 1 + sin^2x",
@@ -62,7 +62,7 @@
   {
     "id": "sa-006",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{e^x}{1 + e^{2x}} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{e^x}{1+e^{2x}}\\,dx$?",
     "variante": [
       "t = x",
       "t = e^x",
@@ -74,7 +74,7 @@
   {
     "id": "sa-007",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{2x+3}{x^2+3x+1} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{2x+3}{x^2+3x+1}\\,dx$?",
     "variante": [
       "t = x^2",
       "t = 2x + 3",
@@ -86,7 +86,7 @@
   {
     "id": "sa-008",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{arctg x}{1 + x^2} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{\\operatorname{arctg}x}{1+x^2}\\,dx$?",
     "variante": [
       "t = 1 + x^2",
       "t = arctg x",
@@ -98,7 +98,7 @@
   {
     "id": "sa-009",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{sin(ln x)}{x} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{\\sin(\\ln x)}{x}\\,dx$?",
     "variante": [
       "t = sin(ln x)",
       "t = x",
@@ -110,7 +110,7 @@
   {
     "id": "sa-010",
     "tip": "simplu",
-    "intrebare": "Pentru calculul integralei ∫ \\frac{1}{x^2+4x+8} dx, cea mai potrivită substituție este:",
+    "intrebare": "Ce substituție folosim la $\\int \\frac{1}{x^2+4x+8}\\,dx$?",
     "variante": [
       "t = x + 4",
       "t = x^2",
@@ -122,7 +122,7 @@
   {
     "id": "sa-011",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{e^x}{e^x+1} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{e^x}{e^x+1}\\,dx$?",
     "variante": [
       "t = e^x + 1",
       "t = e^{2x}",
@@ -137,7 +137,7 @@
   {
     "id": "sa-012",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{x}{√(x+1)} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{x}{\\sqrt{x+1}}\\,dx$?",
     "variante": [
       "t = x^2",
       "t = x + 1",
@@ -152,7 +152,7 @@
   {
     "id": "sa-013",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{1}{1+√x} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{1}{1+\\sqrt{x}}\\,dx$?",
     "variante": [
       "t = 1 + x",
       "t = x",
@@ -167,7 +167,7 @@
   {
     "id": "sa-014",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ cos x·e^{sin x} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\cos x\\cdot e^{\\sin x}\\,dx$?",
     "variante": [
       "t = cos x",
       "t = sin x",
@@ -182,7 +182,7 @@
   {
     "id": "sa-015",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = tg x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=\\operatorname{tg}x$?",
     "variante": [
       "∫ \\frac{x}{cos^2x} dx",
       "∫ \\frac{tg^2x}{cos^2x} dx",
@@ -198,7 +198,7 @@
   {
     "id": "sa-016",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = sin x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=\\sin x$?",
     "variante": [
       "∫ sin x·e^{cos x} dx",
       "∫ cos x·e^{sin x} dx",
@@ -213,7 +213,7 @@
   {
     "id": "sa-017",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = x^2?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=x^2$?",
     "variante": [
       "∫ \\frac{1}{1 + x^4} dx",
       "∫ \\frac{x^2}{1 + x^4} dx",
@@ -228,7 +228,7 @@
   {
     "id": "sa-018",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{sin x}{1 + cos x} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{\\sin x}{1+\\cos x}\\,dx$?",
     "variante": [
       "t = 1 + cos x",
       "t = cos x",
@@ -243,7 +243,7 @@
   {
     "id": "sa-019",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele substituții sunt potrivite pentru calculul integralei ∫ \\frac{x^2}{x^3+1} dx?",
+    "intrebare": "Ce substituții putem folosi la $\\int\\frac{x^2}{x^3+1}\\,dx$?",
     "variante": [
       "t = x^2",
       "t = x^3",
@@ -258,7 +258,7 @@
   {
     "id": "sa-020",
     "tip": "multiplu",
-    "intrebare": "Pentru care dintre integralele următoare este potrivită substituția t = e^x?",
+    "intrebare": "Pentru care integrale putem folosi substituția $t=e^x$?",
     "variante": [
       "∫ \\frac{e^x}{1 + e^{2x}} dx",
       "∫ x·e^x dx",

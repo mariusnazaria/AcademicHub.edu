@@ -2,7 +2,7 @@
   {
     "id": "logaritmi-001",
     "tip": "simplu",
-    "intrebare": "$\\log_a b=x \\iff ?$",
+    "intrebare": "Ce înseamnă $\\log_a b=x$?",
     "variante": [
       "$a^x=b$",
       "$x^a=b$",
@@ -14,7 +14,7 @@
   {
     "id": "logaritmi-002",
     "tip": "simplu",
-    "intrebare": "Condițiile de existență pentru $\\log_a b$:",
+    "intrebare": "Când există $\\log_a b$ (condiții)?",
     "variante": [
       "$a>0,\\ a\\neq1,\\ b>0$",
       "$a>0,\\ b\\geq0$",
@@ -26,7 +26,7 @@
   {
     "id": "logaritmi-003",
     "tip": "simplu",
-    "intrebare": "$\\log_a 1=?$",
+    "intrebare": "Cât este $\\log_a 1$?",
     "variante": [
       "$0$",
       "$a$",
@@ -38,7 +38,7 @@
   {
     "id": "logaritmi-004",
     "tip": "simplu",
-    "intrebare": "$\\log_a a=?$",
+    "intrebare": "Cât este $\\log_a a$?",
     "variante": [
       "$a$",
       "$\\frac{1}{a}$",
@@ -50,7 +50,7 @@
   {
     "id": "logaritmi-005",
     "tip": "simplu",
-    "intrebare": "$a^{\\log_a b}=?$",
+    "intrebare": "Cât este $a^{\\log_a b}$?",
     "variante": [
       "$ab$",
       "$b$",
@@ -62,7 +62,7 @@
   {
     "id": "logaritmi-006",
     "tip": "simplu",
-    "intrebare": "$\\log_a(bc)=?$",
+    "intrebare": "Cât este $\\log_a(bc)$?",
     "variante": [
       "$\\log_a b\\cdot\\log_a c$",
       "$\\log_a b+\\log_a c$",
@@ -74,7 +74,7 @@
   {
     "id": "logaritmi-007",
     "tip": "simplu",
-    "intrebare": "$\\log_a\\frac{b}{c}=?$",
+    "intrebare": "Cât este $\\log_a\\frac{b}{c}$?",
     "variante": [
       "$\\log_a c-\\log_a b$",
       "$\\log_a b-\\log_a c$",
@@ -86,7 +86,7 @@
   {
     "id": "logaritmi-008",
     "tip": "simplu",
-    "intrebare": "$\\log_a b^n=?$",
+    "intrebare": "Cât este $\\log_a b^n$?",
     "variante": [
       "$(\\log_a b)^n$",
       "$\\log_a b+n$",
@@ -98,7 +98,7 @@
   {
     "id": "logaritmi-009",
     "tip": "simplu",
-    "intrebare": "Schimbarea bazei: $\\log_a b=?$",
+    "intrebare": "Cum schimbăm baza logaritmului? $\\log_a b=?$",
     "variante": [
       "$\\frac{\\log_c b}{\\log_c a}$",
       "$\\log_c b-\\log_c a$",
@@ -110,7 +110,7 @@
   {
     "id": "logaritmi-010",
     "tip": "simplu",
-    "intrebare": "$\\log_a b=?$ (în funcție de $\\log_b a$)",
+    "intrebare": "Cum scriem $\\log_a b$ cu ajutorul lui $\\log_b a$?",
     "variante": [
       "$\\log_b a$",
       "$-\\log_b a$",
@@ -122,7 +122,7 @@
   {
     "id": "logaritmi-011",
     "tip": "simplu",
-    "intrebare": "$\\log_{a^n}b^m=?$",
+    "intrebare": "Cât este $\\log_{a^n}b^m$?",
     "variante": [
       "$\\frac{n}{m}\\log_a b$",
       "$\\log_a b^{m+n}$",
@@ -134,7 +134,7 @@
   {
     "id": "logaritmi-012",
     "tip": "simplu",
-    "intrebare": "Logaritmul zecimal $\\lg x$ este logaritm în baza:",
+    "intrebare": "În ce bază este logaritmul zecimal $\\lg x$?",
     "variante": [
       "$1$",
       "$2$",
@@ -146,7 +146,7 @@
   {
     "id": "logaritmi-013",
     "tip": "simplu",
-    "intrebare": "Logaritmul natural $\\ln x$ este logaritm în baza:",
+    "intrebare": "În ce bază este logaritmul natural $\\ln x$?",
     "variante": [
       "$10$",
       "$e$",
@@ -158,7 +158,7 @@
   {
     "id": "logaritmi-014",
     "tip": "simplu",
-    "intrebare": "$\\log_2 8=?$",
+    "intrebare": "Calculează $\\log_2 8$.",
     "variante": [
       "$16$",
       "$4$",
@@ -170,7 +170,7 @@
   {
     "id": "logaritmi-015",
     "tip": "simplu",
-    "intrebare": "$\\log_3 81=?$",
+    "intrebare": "Calculează $\\log_3 81$.",
     "variante": [
       "$3$",
       "$27$",
@@ -182,7 +182,7 @@
   {
     "id": "logaritmi-016",
     "tip": "simplu",
-    "intrebare": "$\\log_5\\frac{1}{5}=?$",
+    "intrebare": "Calculează $\\log_5\\frac{1}{5}$.",
     "variante": [
       "$1$",
       "$5$",
@@ -194,7 +194,7 @@
   {
     "id": "logaritmi-017",
     "tip": "simplu",
-    "intrebare": "$\\log_2\\frac{1}{4}=?$",
+    "intrebare": "Calculează $\\log_2\\frac{1}{4}$.",
     "variante": [
       "$-4$",
       "$-2$",
@@ -206,7 +206,7 @@
   {
     "id": "logaritmi-018",
     "tip": "simplu",
-    "intrebare": "$\\lg 1000=?$",
+    "intrebare": "Calculează $\\lg 1000$.",
     "variante": [
       "$10$",
       "$3$",
@@ -218,7 +218,7 @@
   {
     "id": "logaritmi-019",
     "tip": "simplu",
-    "intrebare": "$\\lg 0{,}01=?$",
+    "intrebare": "Calculează $\\lg 0{,}01$.",
     "variante": [
       "$-1$",
       "$-2$",
@@ -230,7 +230,7 @@
   {
     "id": "logaritmi-020",
     "tip": "simplu",
-    "intrebare": "$\\ln e=?$",
+    "intrebare": "Calculează $\\ln e$.",
     "variante": [
       "$1$",
       "$e$",
@@ -242,7 +242,7 @@
   {
     "id": "logaritmi-021",
     "tip": "simplu",
-    "intrebare": "$e^{\\ln 5}=?$",
+    "intrebare": "Calculează $e^{\\ln 5}$.",
     "variante": [
       "$5e$",
       "$\\ln 5$",
@@ -254,7 +254,7 @@
   {
     "id": "logaritmi-022",
     "tip": "simplu",
-    "intrebare": "$\\log_6 2+\\log_6 3=?$",
+    "intrebare": "Calculează $\\log_6 2+\\log_6 3$.",
     "variante": [
       "$1$",
       "$\\frac{3}{2}$",
@@ -266,7 +266,7 @@
   {
     "id": "logaritmi-023",
     "tip": "simplu",
-    "intrebare": "$\\log_4 2=?$",
+    "intrebare": "Calculează $\\log_4 2$.",
     "variante": [
       "$2$",
       "$\\frac{1}{2}$",

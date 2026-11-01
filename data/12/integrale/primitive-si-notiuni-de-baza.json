@@ -2,7 +2,7 @@
   {
     "id": "prim-001",
     "tip": "simplu",
-    "intrebare": "Fie I un interval deschis și f: I → ℝ. Funcția F: I → ℝ este primitivă a lui f pe I dacă:",
+    "intrebare": "Când este $F$ primitivă a lui $f$ pe un interval $I$?",
     "variante": [
       "F este derivabilă pe I și F′(x) = f(x), ∀x ∈ I",
       "f este derivabilă pe I și f′(x) = F(x), ∀x ∈ I",
@@ -14,7 +14,7 @@
   {
     "id": "prim-002",
     "tip": "simplu",
-    "intrebare": "Dacă F este o primitivă a funcției f pe intervalul I, atunci mulțimea tuturor primitivelor lui f pe I este:",
+    "intrebare": "Dacă $F$ este o primitivă a lui $f$ pe $I$, cum arată toate primitivele lui $f$?",
     "variante": [
       "{C · F | C ∈ ℝ}",
       "{F + C | C ∈ ℝ}",
@@ -26,7 +26,7 @@
   {
     "id": "prim-003",
     "tip": "simplu",
-    "intrebare": "Care dintre funcțiile următoare este o primitivă a funcției f: ℝ → ℝ, f(x) = 4x^3?",
+    "intrebare": "Care este o primitivă a funcției $f(x)=4x^3$?",
     "variante": [
       "x^4",
       "x^3",
@@ -38,7 +38,7 @@
   {
     "id": "prim-004",
     "tip": "simplu",
-    "intrebare": "Orice funcție f: [a, b] → ℝ continuă pe [a, b]:",
+    "intrebare": "Ce spune despre primitive o funcție $f$ continuă pe $[a,b]$?",
     "variante": [
       "admite primitive doar dacă este și derivabilă",
       "admite o singură primitivă pe [a, b]",
@@ -50,7 +50,7 @@
   {
     "id": "prim-005",
     "tip": "simplu",
-    "intrebare": "Integrala nedefinită ∫ f(x) dx a unei funcții f care admite primitive este:",
+    "intrebare": "Ce este integrala nedefinită $\\int f(x)\\,dx$ a unei funcții care are primitive?",
     "variante": [
       "o singură primitivă a funcției f",
       "derivata funcției f",
@@ -62,7 +62,7 @@
   {
     "id": "prim-006",
     "tip": "simplu",
-    "intrebare": "Care este primitiva F a funcției f: ℝ → ℝ, f(x) = cos x, pentru care F(0) = 1?",
+    "intrebare": "Care este primitiva $F$ a lui $f(x)=\\cos x$ cu $F(0)=1$?",
     "variante": [
       "cos x + 1",
       "sin x",
@@ -74,7 +74,7 @@
   {
     "id": "prim-007",
     "tip": "simplu",
-    "intrebare": "Graficul primitivei F a funcției f: ℝ → ℝ, f(x) = 2x + 1, trece prin punctul M(1, 3). Atunci F(x) este:",
+    "intrebare": "Graficul primitivei $F$ a lui $f(x)=2x+1$ trece prin $M(1,3)$. Cât este $F(x)$?",
     "variante": [
       "x^2 + x + 3",
       "x^2 + x + 1",
@@ -86,7 +86,7 @@
   {
     "id": "prim-008",
     "tip": "simplu",
-    "intrebare": "Derivata integralei nedefinite, (∫ f(x) dx)′, este egală cu:",
+    "intrebare": "Cât este derivata integralei nedefinite, $\\left(\\int f(x)\\,dx\\right)^{\\prime}$?",
     "variante": [
       "f′(x)",
       "0",
@@ -98,7 +98,7 @@
   {
     "id": "prim-009",
     "tip": "simplu",
-    "intrebare": "Pentru care funcție f: ℝ → ℝ funcția F(x) = x·e^x este o primitivă?",
+    "intrebare": "Pentru ce funcție $f$ este $F(x)=x\\cdot e^x$ o primitivă?",
     "variante": [
       "e^x",
       "x·e^x",
@@ -110,7 +110,7 @@
   {
     "id": "prim-010",
     "tip": "simplu",
-    "intrebare": "Graficele a două primitive ale aceleiași funcții f se obțin una din alta printr-o:",
+    "intrebare": "Cum se obțin graficele a două primitive ale aceleiași funcții una din alta?",
     "variante": [
       "simetrie față de origine",
       "translație de-a lungul axei Oy",
@@ -122,7 +122,7 @@
   {
     "id": "prim-011",
     "tip": "multiplu",
-    "intrebare": "Fie F o primitivă a lui f pe un interval deschis I. Care afirmații sunt adevărate?",
+    "intrebare": "Fie $F$ o primitivă a lui $f$ pe un interval $I$. Care afirmații sunt adevărate?",
     "variante": [
       "F este derivabilă pe I",
       "F(x) = f′(x), ∀x ∈ I",
@@ -137,7 +137,7 @@
   {
     "id": "prim-012",
     "tip": "multiplu",
-    "intrebare": "Care dintre funcțiile următoare sunt primitive ale funcției f: ℝ → ℝ, f(x) = cos x?",
+    "intrebare": "Care funcții sunt primitive ale lui $f(x)=\\cos x$?",
     "variante": [
       "−sin x",
       "sin x",
@@ -153,7 +153,7 @@
   {
     "id": "prim-013",
     "tip": "multiplu",
-    "intrebare": "Care dintre funcțiile următoare sunt primitive ale funcției f: ℝ → ℝ, f(x) = e^x?",
+    "intrebare": "Care funcții sunt primitive ale lui $f(x)=e^x$?",
     "variante": [
       "x·e^x",
       "e^x",
@@ -168,7 +168,7 @@
   {
     "id": "prim-014",
     "tip": "multiplu",
-    "intrebare": "Care afirmații despre integrala nedefinită ∫ f(x) dx sunt adevărate?",
+    "intrebare": "Care afirmații despre integrala nedefinită $\\int f(x)\\,dx$ sunt adevărate?",
     "variante": [
       "există pentru orice funcție f",
       "este un număr real",
@@ -183,7 +183,7 @@
   {
     "id": "prim-015",
     "tip": "multiplu",
-    "intrebare": "Care dintre funcțiile următoare sunt continue pe [0, 1], deci admit primitive pe [0, 1]?",
+    "intrebare": "Care funcții sunt continue pe $[0,1]$, deci au primitive pe $[0,1]$?",
     "variante": [
       "f(x) = \\frac{1}{x−2}",
       "f(x) = x^3 + 1",
@@ -198,7 +198,7 @@
   {
     "id": "prim-016",
     "tip": "multiplu",
-    "intrebare": "Funcția F(x) = (ax + b)e^x este o primitivă a funcției f(x) = (2x + 3)e^x. Care afirmații sunt adevărate?",
+    "intrebare": "$F(x)=(ax+b)e^x$ este o primitivă a lui $f(x)=(2x+3)e^x$. Care afirmații sunt adevărate?",
     "variante": [
       "a · b = 3",
       "a = 2",
@@ -213,7 +213,7 @@
   {
     "id": "prim-017",
     "tip": "multiplu",
-    "intrebare": "Funcția F(x) = x^2 + ax + b este o primitivă a funcției f(x) = 2x + 4 și F(0) = 1. Care afirmații sunt adevărate?",
+    "intrebare": "$F(x)=x^2+ax+b$ este o primitivă a lui $f(x)=2x+4$ și $F(0)=1$. Care afirmații sunt adevărate?",
     "variante": [
       "b = 1",
       "F(−1) = 2",
@@ -229,7 +229,7 @@
   {
     "id": "prim-018",
     "tip": "multiplu",
-    "intrebare": "Fie F și G două primitive ale aceleiași funcții f pe un interval I. Care afirmații sunt adevărate?",
+    "intrebare": "$F$ și $G$ sunt două primitive ale aceleiași funcții $f$ pe $I$. Care afirmații sunt adevărate?",
     "variante": [
       "F(x) = G(x) pentru orice x ∈ I",
       "f nu are alte primitive în afară de F și G",
@@ -244,7 +244,7 @@
   {
     "id": "prim-019",
     "tip": "multiplu",
-    "intrebare": "Care dintre funcțiile F: (0, +∞) → ℝ sunt primitive ale funcției f(x) = ln x?",
+    "intrebare": "Care funcții $F:(0,+\\infty)\\to\\mathbb{R}$ sunt primitive ale lui $f(x)=\\ln x$?",
     "variante": [
       "\\frac{1}{x}",
       "x ln x − x",
@@ -259,7 +259,7 @@
   {
     "id": "prim-020",
     "tip": "multiplu",
-    "intrebare": "Care dintre funcțiile F: ℝ → ℝ au derivata egală cu f(x) = 3x^2 + 2?",
+    "intrebare": "Care funcții au derivata egală cu $f(x)=3x^2+2$?",
     "variante": [
       "x^3 + 2x − 7",
       "6x",

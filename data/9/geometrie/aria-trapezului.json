@@ -2,7 +2,7 @@
   {
     "id": "aria-trapezului-001",
     "tip": "simplu",
-    "intrebare": "Aria trapezului (bazele $B,b$, înălțimea $h$):",
+    "intrebare": "Care este aria trapezului ($B$, $b$, $h$)?",
     "variante": [
       "$S=\\frac{(B+b)\\cdot h}{2}$",
       "$S=\\frac{B\\cdot b\\cdot h}{2}$",
@@ -14,7 +14,7 @@
   {
     "id": "aria-trapezului-002",
     "tip": "simplu",
-    "intrebare": "Linia mijlocie a trapezului:",
+    "intrebare": "Care este linia mijlocie a trapezului?",
     "variante": [
       "$m=\\sqrt{B\\cdot b}$",
       "$m=\\frac{B+b}{2}$",
@@ -26,7 +26,7 @@
   {
     "id": "aria-trapezului-003",
     "tip": "simplu",
-    "intrebare": "Aria trapezului cu linia mijlocie:",
+    "intrebare": "Cum scriem aria trapezului cu linia mijlocie?",
     "variante": [
       "$S=2m\\cdot h$",
       "$S=m+h$",
@@ -38,7 +38,7 @@
   {
     "id": "aria-trapezului-004",
     "tip": "simplu",
-    "intrebare": "Trapez isoscel (latura neparalelă $l$): înălțimea satisface:",
+    "intrebare": "Cum aflăm înălțimea trapezului isoscel (latura neparalelă $l$)?",
     "variante": [
       "$h^2=l^2-\\left(\\frac{B-b}{2}\\right)^2$",
       "$h^2=l^2-(B-b)^2$",
@@ -50,7 +50,7 @@
   {
     "id": "aria-trapezului-005",
     "tip": "simplu",
-    "intrebare": "Trapez dreptunghic: latura oblică satisface:",
+    "intrebare": "Cum aflăm latura oblică la trapezul dreptunghic?",
     "variante": [
       "$l^2=h^2-(B-b)^2$",
       "$l^2=h^2+(B-b)^2$",
@@ -62,7 +62,7 @@
   {
     "id": "aria-trapezului-006",
     "tip": "simplu",
-    "intrebare": "Trapezul se descompune în:",
+    "intrebare": "În ce figuri se descompune trapezul?",
     "variante": [
       "un dreptunghi și două triunghiuri dreptunghice (cazul isoscel)",
       "trei romburi",
@@ -74,7 +74,7 @@
   {
     "id": "aria-trapezului-007",
     "tip": "simplu",
-    "intrebare": "Diagonalele trapezului formează 4 triunghiuri; cele de pe laturile neparalele au:",
+    "intrebare": "Ce arii au triunghiurile de pe laturile neparalele (formate de diagonale)?",
     "variante": [
       "arii diferite mereu",
       "perimetre egale",
@@ -86,7 +86,7 @@
   {
     "id": "aria-trapezului-008",
     "tip": "simplu",
-    "intrebare": "Trapez cu $B=10$, $b=6$, $h=4$: aria este:",
+    "intrebare": "$B=10$, $b=6$, $h=4$: cât este aria?",
     "variante": [
       "$24$",
       "$64$",
@@ -98,7 +98,7 @@
   {
     "id": "aria-trapezului-009",
     "tip": "simplu",
-    "intrebare": "Trapez cu $B=12$, $b=4$: linia mijlocie este:",
+    "intrebare": "$B=12$, $b=4$: cât este linia mijlocie?",
     "variante": [
       "$6$",
       "$8$",
@@ -110,7 +110,7 @@
   {
     "id": "aria-trapezului-010",
     "tip": "simplu",
-    "intrebare": "Trapez isoscel: $l=5$, $B=12$, $b=6$. Înălțimea este:",
+    "intrebare": "Trapez isoscel cu $l=5$, $B=12$, $b=6$: cât este înălțimea?",
     "variante": [
       "$4$",
       "$5$",
@@ -122,7 +122,7 @@
   {
     "id": "aria-trapezului-011",
     "tip": "simplu",
-    "intrebare": "Trapez dreptunghic: $h=4$, $B-b=3$. Latura oblică este:",
+    "intrebare": "Trapez dreptunghic cu $h=4$ și $B-b=3$: cât este latura oblică?",
     "variante": [
       "$12$",
       "$\\sqrt7$",

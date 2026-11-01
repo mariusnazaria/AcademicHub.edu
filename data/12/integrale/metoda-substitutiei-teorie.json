@@ -2,7 +2,7 @@
   {
     "id": "metoda-substitutiei-teorie-001",
     "tip": "simplu",
-    "intrebare": "Metoda substituției se folosește când integrala conține:",
+    "intrebare": "Când folosim metoda substituției (ce conține integrala)?",
     "variante": [
       "o funcție și derivata ei (până la o constantă)",
       "o sumă de două funcții oarecare",
@@ -14,7 +14,7 @@
   {
     "id": "metoda-substitutiei-teorie-002",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int 2x(x^2+1)^5\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int 2x(x^2+1)^5\\,dx$?",
     "variante": [
       "$u=5$",
       "$u=x$",
@@ -26,7 +26,7 @@
   {
     "id": "metoda-substitutiei-teorie-003",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int e^{x^2}\\cdot 2x\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int e^{x^2}\\cdot2x\\,dx$?",
     "variante": [
       "$u=x^2$",
       "$u=e$",
@@ -38,7 +38,7 @@
   {
     "id": "metoda-substitutiei-teorie-004",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\cos x\\cdot\\sin^3 x\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\cos x\\cdot\\sin^3x\\,dx$?",
     "variante": [
       "$u=\\sin x$",
       "$u=\\cos x$",
@@ -50,7 +50,7 @@
   {
     "id": "metoda-substitutiei-teorie-005",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\frac{\\ln x}{x}\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\frac{\\ln x}{x}\\,dx$?",
     "variante": [
       "$u=x$",
       "$u=\\frac{1}{x}$",
@@ -62,7 +62,7 @@
   {
     "id": "metoda-substitutiei-teorie-006",
     "tip": "simplu",
-    "intrebare": "Rezultatul $\\int xe^x\\,dx$ este:",
+    "intrebare": "Cât este $\\int xe^x\\,dx$?",
     "variante": [
       "$(x-1)e^x+C$",
       "$(x+1)e^x+C$",
@@ -86,7 +86,7 @@
   {
     "id": "metoda-substitutiei-teorie-008",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\frac{1}{x}\\cdot\\ln x\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\frac{1}{x}\\cdot\\ln x\\,dx$?",
     "variante": [
       "$u=x$",
       "$u=\\ln x$",
@@ -98,7 +98,7 @@
   {
     "id": "metoda-substitutiei-teorie-009",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\sin x\\cdot\\cos x\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\sin x\\cdot\\cos x\\,dx$?",
     "variante": [
       "$u=\\operatorname{tg}x$",
       "$u=\\sin x$ (sau $u=\\cos x$)",
@@ -110,7 +110,7 @@
   {
     "id": "metoda-substitutiei-teorie-010",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int x\\,e^{x^2}\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int x\\,e^{x^2}\\,dx$?",
     "variante": [
       "$u=x$",
       "$u=xe^{x^2}$",
@@ -122,7 +122,7 @@
   {
     "id": "metoda-substitutiei-teorie-011",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\frac{x}{x^2+1}\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\frac{x}{x^2+1}\\,dx$?",
     "variante": [
       "$u=1$",
       "$u=x$",
@@ -134,7 +134,7 @@
   {
     "id": "metoda-substitutiei-teorie-012",
     "tip": "simplu",
-    "intrebare": "Pentru $\\int \\sqrt{x^2+1}\\cdot x\\,dx$ alegem:",
+    "intrebare": "Ce alegem la $\\int \\sqrt{x^2+1}\\cdot x\\,dx$?",
     "variante": [
       "$u=\\sqrt{x}$",
       "$u=x\\sqrt{x}$",
@@ -146,7 +146,7 @@
   {
     "id": "metoda-substitutiei-teorie-013",
     "tip": "simplu",
-    "intrebare": "$\\int 2x(x^2+1)^5\\,dx$ are rezultatul:",
+    "intrebare": "Cât este $\\int 2x(x^2+1)^5\\,dx$?",
     "variante": [
       "$\\frac{(x^2+1)^6}{12}+C$",
       "$\\frac{(x^2+1)^6}{6}+C$",
@@ -170,7 +170,7 @@
   {
     "id": "metoda-substitutiei-teorie-015",
     "tip": "multiplu",
-    "intrebare": "Alege substituțiile potrivite:",
+    "intrebare": "Care substituții sunt potrivite?",
     "variante": [
       "$\\int xe^x dx$: $u=x$",
       "$\\int \\cos x\\,\\sin^2x\\,dx$: $u=\\sin x$",

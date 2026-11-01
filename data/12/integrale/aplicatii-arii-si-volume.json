@@ -2,7 +2,7 @@
   {
     "id": "aplicatii-arii-si-volume-001",
     "tip": "simplu",
-    "intrebare": "Dacă $f\\geq 0$ pe $[a,b]$, aria de sub grafic este:",
+    "intrebare": "Cât este aria de sub grafic dacă $f\\geq0$ pe $[a,b]$?",
     "variante": [
       "$A=\\int_a^b f(x)\\,dx$",
       "$A=-\\int_a^b f(x)\\,dx$",
@@ -14,7 +14,7 @@
   {
     "id": "aplicatii-arii-si-volume-002",
     "tip": "simplu",
-    "intrebare": "Dacă $f\\leq 0$ pe $[a,b]$, aria dintre grafic și $Ox$ este:",
+    "intrebare": "Cât este aria dintre grafic și $Ox$ dacă $f\\leq0$ pe $[a,b]$?",
     "variante": [
       "$A=-\\int_a^b f(x)\\,dx$",
       "$A=0$",
@@ -26,7 +26,7 @@
   {
     "id": "aplicatii-arii-si-volume-003",
     "tip": "simplu",
-    "intrebare": "Dacă $f$ schimbă semnul în $c\\in(a,b)$ (din $+$ în $-$), aria este:",
+    "intrebare": "Cât este aria dacă $f$ schimbă semnul în $c\\in(a,b)$ (din $+$ în $-$)?",
     "variante": [
       "$\\int_a^c f\\cdot\\int_c^b f$",
       "$\\int_a^c f-\\int_c^b f$",
@@ -38,7 +38,7 @@
   {
     "id": "aplicatii-arii-si-volume-004",
     "tip": "simplu",
-    "intrebare": "În general, aria dintre graficul lui $f$ și $Ox$ este:",
+    "intrebare": "Cât este, în general, aria dintre graficul lui $f$ și $Ox$?",
     "variante": [
       "$\\int_a^b f^2\\,dx$",
       "$\\int_a^b|f(x)|\\,dx$",
@@ -50,7 +50,7 @@
   {
     "id": "aplicatii-arii-si-volume-005",
     "tip": "simplu",
-    "intrebare": "Primul pas la aria dintre grafic și $Ox$ când semnul variază:",
+    "intrebare": "Care este primul pas la aria dintre grafic și $Ox$ când semnul variază?",
     "variante": [
       "aflăm zerourile lui $f$ și împărțim intervalul după semn",
       "integrăm direct pe tot intervalul",
@@ -62,7 +62,7 @@
   {
     "id": "aplicatii-arii-si-volume-006",
     "tip": "simplu",
-    "intrebare": "Dacă $f\\geq g$ pe $[a,b]$, aria dintre grafice este:",
+    "intrebare": "Cât este aria dintre grafice dacă $f\\geq g$ pe $[a,b]$?",
     "variante": [
       "$A=\\int_a^b(g-f)\\,dx$",
       "$A=\\int_a^b(f+g)\\,dx$",
@@ -74,7 +74,7 @@
   {
     "id": "aplicatii-arii-si-volume-007",
     "tip": "simplu",
-    "intrebare": "La aria dintre două grafice, scriem mereu integrala din:",
+    "intrebare": "Din ce scriem mereu integrala la aria dintre două grafice?",
     "variante": [
       "(funcția de sus) $-$ (funcția de jos)",
       "(funcția de jos) $-$ (funcția de sus)",
@@ -86,7 +86,7 @@
   {
     "id": "aplicatii-arii-si-volume-008",
     "tip": "simplu",
-    "intrebare": "Dacă graficele se intersectează în $c\\in(a,b)$, aria este:",
+    "intrebare": "Cât este aria dacă graficele se intersectează în $c\\in(a,b)$?",
     "variante": [
       "$\\int_a^b(f-g)\\,dx$ fără împărțire",
       "$\\int_a^b(f+g)\\,dx$",
@@ -98,7 +98,7 @@
   {
     "id": "aplicatii-arii-si-volume-009",
     "tip": "simplu",
-    "intrebare": "Limitele de integrare necunoscute (dintre două grafice) se află din:",
+    "intrebare": "Cum aflăm limitele de integrare necunoscute (dintre două grafice)?",
     "variante": [
       "ecuația $f^{\\prime}(x)=g^{\\prime}(x)$",
       "ecuația $f(x)=0$ doar",
@@ -110,7 +110,7 @@
   {
     "id": "aplicatii-arii-si-volume-010",
     "tip": "simplu",
-    "intrebare": "Pașii pentru aria dintre două grafice sunt:",
+    "intrebare": "Care sunt pașii pentru aria dintre două grafice?",
     "variante": [
       "puncte de intersecție, care e deasupra, $\\int$(sus $-$ jos), calcul",
       "înmulțim funcțiile și integrăm",
@@ -122,7 +122,7 @@
   {
     "id": "aplicatii-arii-si-volume-011",
     "tip": "simplu",
-    "intrebare": "Aria dintre $y=x$ și $y=x^2$ este:",
+    "intrebare": "Cât este aria dintre $y=x$ și $y=x^2$?",
     "variante": [
       "$\\frac{1}{2}$",
       "$\\frac{1}{3}$",
@@ -134,7 +134,7 @@
   {
     "id": "aplicatii-arii-si-volume-012",
     "tip": "simplu",
-    "intrebare": "Volumul corpului obținut prin rotirea graficului lui $f$ în jurul axei $Ox$ ($x\\in[a,b]$):",
+    "intrebare": "Cât este volumul corpului obținut prin rotirea graficului lui $f$ în jurul axei $Ox$ ($x\\in[a,b]$)?",
     "variante": [
       "$V=\\int_a^b f^2(x)\\,dx$",
       "$V=\\pi\\int_a^b f^2(x)\\,dx$",
@@ -146,7 +146,7 @@
   {
     "id": "aplicatii-arii-si-volume-013",
     "tip": "simplu",
-    "intrebare": "Volumul de rotație între două grafice ($f$ deasupra lui $g$):",
+    "intrebare": "Cât este volumul de rotație între două grafice ($f$ deasupra lui $g$)?",
     "variante": [
       "$V=\\pi\\int_a^b(f-g)\\,dx$",
       "$V=\\pi\\int_a^b(f^2-g^2)\\,dx$",
@@ -158,7 +158,7 @@
   {
     "id": "aplicatii-arii-si-volume-014",
     "tip": "simplu",
-    "intrebare": "Cilindrul se obține rotind $f(x)=R$ pe $[0,h]$; volumul este:",
+    "intrebare": "Cilindrul se obține rotind $f(x)=R$ pe $[0,h]$. Cât este volumul?",
     "variante": [
       "$\\frac{4\\pi R^3}{3}$",
       "$\\frac{\\pi R^2h}{3}$",
@@ -170,7 +170,7 @@
   {
     "id": "aplicatii-arii-si-volume-015",
     "tip": "simplu",
-    "intrebare": "Conul se obține rotind $f(x)=\\frac{R}{h}x$ pe $[0,h]$; volumul este:",
+    "intrebare": "Conul se obține rotind $f(x)=\\frac{R}{h}x$ pe $[0,h]$. Cât este volumul?",
     "variante": [
       "$\\frac{\\pi R^2h}{3}$",
       "$\\frac{\\pi R^2h}{2}$",
@@ -182,7 +182,7 @@
   {
     "id": "aplicatii-arii-si-volume-016",
     "tip": "simplu",
-    "intrebare": "Sfera se obține rotind $f(x)=\\sqrt{R^2-x^2}$ pe $[-R,R]$; volumul este:",
+    "intrebare": "Sfera se obține rotind $f(x)=\\sqrt{R^2-x^2}$ pe $[-R,R]$. Cât este volumul?",
     "variante": [
       "$4\\pi R^2$",
       "$\\frac{2\\pi R^3}{3}$",
@@ -194,7 +194,7 @@
   {
     "id": "aplicatii-arii-si-volume-017",
     "tip": "simplu",
-    "intrebare": "Care funcție, rotită în jurul lui $Ox$, generează sfera de rază $R$?",
+    "intrebare": "Care funcție, rotită în jurul lui $Ox$, dă sfera de rază $R$?",
     "variante": [
       "$f(x)=\\frac{R}{h}x$",
       "$f(x)=R$",
@@ -206,7 +206,7 @@
   {
     "id": "aplicatii-arii-si-volume-018",
     "tip": "simplu",
-    "intrebare": "Pașii pentru volumul de rotație sunt:",
+    "intrebare": "Care sunt pașii pentru volumul de rotație?",
     "variante": [
       "calculăm $f^{\\prime}$, integrăm, înmulțim cu $2$",
       "integrăm $f$, apoi ridicăm la pătrat",
@@ -218,7 +218,7 @@
   {
     "id": "aplicatii-arii-si-volume-019",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2-1$ pe $[0,2]$, $f$ schimbă semnul în:",
+    "intrebare": "Unde își schimbă semnul $f(x)=x^2-1$ pe $[0,2]$?",
     "variante": [
       "$x=0$",
       "$x=-1$",
@@ -230,7 +230,7 @@
   {
     "id": "aplicatii-arii-si-volume-020",
     "tip": "simplu",
-    "intrebare": "Aria dintre $f(x)=x^2-1$ și $Ox$ pe $[0,2]$ este:",
+    "intrebare": "Cât este aria dintre $f(x)=x^2-1$ și $Ox$ pe $[0,2]$?",
     "variante": [
       "$\\frac{2}{3}$",
       "$2$",
@@ -242,7 +242,7 @@
   {
     "id": "aplicatii-arii-si-volume-021",
     "tip": "simplu",
-    "intrebare": "Aria sub $f(x)=x$ pe $[0,2]$ este:",
+    "intrebare": "Cât este aria sub $f(x)=x$ pe $[0,2]$?",
     "variante": [
       "$2$",
       "$4$",
@@ -254,7 +254,7 @@
   {
     "id": "aplicatii-arii-si-volume-022",
     "tip": "simplu",
-    "intrebare": "Aria sub $f(x)=1$ pe $[0,5]$ este:",
+    "intrebare": "Cât este aria sub $f(x)=1$ pe $[0,5]$?",
     "variante": [
       "$5$",
       "$0$",
@@ -266,7 +266,7 @@
   {
     "id": "aplicatii-arii-si-volume-023",
     "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt formule de volum de rotație corecte?",
+    "intrebare": "Care sunt formule corecte de volum de rotație?",
     "variante": [
       "cilindru: $\\pi R^2h$",
       "sferă: $4\\pi R^2$",
@@ -281,7 +281,7 @@
   {
     "id": "aplicatii-arii-si-volume-024",
     "tip": "multiplu",
-    "intrebare": "Aria între grafic și $Ox$ este egală cu $\\int_a^b f$ când:",
+    "intrebare": "Când este aria dintre grafic și $Ox$ egală cu $\\int_a^b f$?",
     "variante": [
       "$f\\geq 0$ pe $[a,b]$",
       "$f$ schimbă semnul",
@@ -296,7 +296,7 @@
   {
     "id": "aplicatii-arii-si-volume-025",
     "tip": "multiplu",
-    "intrebare": "La aria dintre două grafice, care sunt corecte?",
+    "intrebare": "Care afirmații sunt corecte la aria dintre două grafice?",
     "variante": [
       "nu contează care e deasupra",
       "integrăm (sus $-$ jos)",

@@ -2,7 +2,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-001",
     "tip": "simplu",
-    "intrebare": "Primul pas la o ecuație rațională este:",
+    "intrebare": "Care este primul pas la o ecuație cu fracții?",
     "variante": [
       "ridicarea la pătrat",
       "DVA (domeniul de valori admisibile)",
@@ -14,7 +14,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-002",
     "tip": "simplu",
-    "intrebare": "La o fracție, DVA impune ca:",
+    "intrebare": "Ce cere DVA la o fracție?",
     "variante": [
       "numitorul să fie diferit de $0$",
       "numărătorul să fie diferit de $0$",
@@ -26,7 +26,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-003",
     "tip": "simplu",
-    "intrebare": "$\\frac{a}{b}=\\frac{c}{d}\\Rightarrow ?$ (înmulțirea pe diagonală)",
+    "intrebare": "Cum scriem $\\frac{a}{b}=\\frac{c}{d}$ fără fracții (pe diagonală)?",
     "variante": [
       "$ac=bd$",
       "$a+d=b+c$",
@@ -38,7 +38,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-004",
     "tip": "simplu",
-    "intrebare": "La ecuația rațională, o soluție care nu respectă DVA:",
+    "intrebare": "Ce facem cu o soluție care nu respectă DVA?",
     "variante": [
       "se păstrează",
       "se elimină",
@@ -50,7 +50,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-005",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\frac{1}{x-3}$:",
+    "intrebare": "Care este DVA pentru $\\frac{1}{x-3}$?",
     "variante": [
       "$x\\neq-3$",
       "$x\\neq3$",
@@ -62,7 +62,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-006",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\frac{x}{x+2}$:",
+    "intrebare": "Care este DVA pentru $\\frac{x}{x+2}$?",
     "variante": [
       "$x>-2$",
       "$x\\neq-2$",
@@ -74,7 +74,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-007",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\frac{1}{x^2-4}$:",
+    "intrebare": "Care este DVA pentru $\\frac{1}{x^2-4}$?",
     "variante": [
       "$x\\neq\\pm2$",
       "$x\\neq2$",
@@ -86,7 +86,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-008",
     "tip": "simplu",
-    "intrebare": "$\\frac{x-1}{x}=0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{x-1}{x}=0$.",
     "variante": [
       "$x=0$",
       "$x=1$",
@@ -98,7 +98,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-009",
     "tip": "simplu",
-    "intrebare": "$\\frac{3}{x}=1$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{3}{x}=1$.",
     "variante": [
       "$x=3$",
       "$x=\\frac{1}{3}$",
@@ -110,7 +110,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-010",
     "tip": "simplu",
-    "intrebare": "$\\frac{x}{x-1}=1$ are:",
+    "intrebare": "Câte soluții are $\\frac{x}{x-1}=1$?",
     "variante": [
       "soluția $x=1$",
       "o infinitate de soluții",
@@ -122,7 +122,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-011",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\sqrt{f(x)}$:",
+    "intrebare": "Care este DVA pentru $\\sqrt{f(x)}$?",
     "variante": [
       "$f(x)>0$ strict",
       "$f(x)\\leq0$",
@@ -134,7 +134,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-012",
     "tip": "simplu",
-    "intrebare": "La ecuația cu radical, scriem expresia cu radical:",
+    "intrebare": "Cum scriem ecuația cu radical înainte de a ridica la pătrat?",
     "variante": [
       "în dreapta, fără radical în stânga",
       "nu contează deloc",
@@ -146,7 +146,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-013",
     "tip": "simplu",
-    "intrebare": "La ecuația cu radical, după DVA facem:",
+    "intrebare": "Ce facem la ecuația cu radical după ce scriem DVA?",
     "variante": [
       "logaritmarea",
       "adunarea lui $\\sqrt{2}$",
@@ -158,7 +158,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-014",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}=-2$ are:",
+    "intrebare": "Câte soluții are $\\sqrt{x}=-2$?",
     "variante": [
       "soluția $x=4$",
       "soluția $x=2$",
@@ -170,7 +170,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-015",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x}=3$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x}=3$.",
     "variante": [
       "$x=9$",
       "$x=3$",
@@ -182,7 +182,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-016",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{x+1}=2$ are soluția:",
+    "intrebare": "Rezolvă $\\sqrt{x+1}=2$.",
     "variante": [
       "$x=1$",
       "$x=4$",
@@ -194,7 +194,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-017",
     "tip": "simplu",
-    "intrebare": "Pentru $\\sqrt{f}=g$, DVA include și:",
+    "intrebare": "Ce condiție în plus apare la $\\sqrt{f}=g$?",
     "variante": [
       "$g=0$",
       "$g\\geq0$",
@@ -206,7 +206,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-018",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{f}=\\sqrt{g}\\Rightarrow ?$",
+    "intrebare": "Ce rezultă din $\\sqrt{f}=\\sqrt{g}$?",
     "variante": [
       "$f=\\sqrt{g}$",
       "$f+g=0$",
@@ -218,7 +218,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-019",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\sqrt{x-5}$:",
+    "intrebare": "Care este DVA pentru $\\sqrt{x-5}$?",
     "variante": [
       "$x\\leq5$",
       "$x\\neq5$",
@@ -230,7 +230,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-020",
     "tip": "simplu",
-    "intrebare": "DVA pentru $\\sqrt{4-x}$:",
+    "intrebare": "Care este DVA pentru $\\sqrt{4-x}$?",
     "variante": [
       "$x\\geq-4$",
       "$x\\geq4$",
@@ -242,7 +242,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-021",
     "tip": "simplu",
-    "intrebare": "Soluțiile ecuației $\\sqrt{x}=x$ sunt:",
+    "intrebare": "Rezolvă $\\sqrt{x}=x$.",
     "variante": [
       "$x=-1$ și $x=1$",
       "$x=0$ și $x=1$",
@@ -254,7 +254,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-022",
     "tip": "simplu",
-    "intrebare": "La final, la ecuația cu radical, soluțiile trebuie:",
+    "intrebare": "Ce trebuie să respecte soluțiile la final, la ecuația cu radical?",
     "variante": [
       "ridicate la pătrat din nou",
       "verificate în DVA (sau în ecuația inițială)",
@@ -266,7 +266,7 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-023",
     "tip": "multiplu",
-    "intrebare": "Care sunt corecte pentru DVA?",
+    "intrebare": "Care afirmații despre DVA sunt corecte?",
     "variante": [
       "$\\sqrt{x-1}$: $x\\geq1$",
       "$\\sqrt{x-1}$: $x\\leq1$",

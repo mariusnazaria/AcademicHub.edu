@@ -2,7 +2,7 @@
   {
     "id": "prisma-formule-001",
     "tip": "simplu",
-    "intrebare": "Diagonala paralelipipedului dreptunghic cu dimensiunile $a,b,c$: $d^2=?$",
+    "intrebare": "Cât este $d^2$ pentru diagonala paralelipipedului dreptunghic cu dimensiunile $a,b,c$?",
     "variante": [
       "$(a+b+c)^2$",
       "$a^2+b^2+c^2$",
@@ -14,7 +14,7 @@
   {
     "id": "prisma-formule-002",
     "tip": "simplu",
-    "intrebare": "Diagonala cubului de latură $a$:",
+    "intrebare": "Cât este diagonala cubului de latură $a$?",
     "variante": [
       "$a^2\\sqrt{3}$",
       "$a\\sqrt{2}$",
@@ -26,7 +26,7 @@
   {
     "id": "prisma-formule-003",
     "tip": "simplu",
-    "intrebare": "Diagonala unei fețe a cubului de latură $a$:",
+    "intrebare": "Cât este diagonala unei fețe a cubului de latură $a$?",
     "variante": [
       "$a\\sqrt{2}$",
       "$\\frac{a\\sqrt{2}}{2}$",
@@ -38,7 +38,7 @@
   {
     "id": "prisma-formule-004",
     "tip": "simplu",
-    "intrebare": "Volumul unei prisme: $V=?$",
+    "intrebare": "Care este volumul unei prisme?",
     "variante": [
       "$\\frac{A_b\\cdot h}{3}$",
       "$A_b+h$",
@@ -50,7 +50,7 @@
   {
     "id": "prisma-formule-005",
     "tip": "simplu",
-    "intrebare": "Volumul paralelipipedului dreptunghic cu dimensiunile $a,b,c$:",
+    "intrebare": "Care este volumul paralelipipedului dreptunghic cu dimensiunile $a,b,c$?",
     "variante": [
       "$abc$",
       "$\\frac{abc}{3}$",
@@ -62,7 +62,7 @@
   {
     "id": "prisma-formule-006",
     "tip": "simplu",
-    "intrebare": "Volumul cubului de latură $a$:",
+    "intrebare": "Care este volumul cubului de latură $a$?",
     "variante": [
       "$a^2$",
       "$a^3$",
@@ -74,7 +74,7 @@
   {
     "id": "prisma-formule-007",
     "tip": "simplu",
-    "intrebare": "Aria laterală a prismei drepte: $A_l=?$",
+    "intrebare": "Care este aria laterală a prismei drepte?",
     "variante": [
       "$P_b\\cdot h$",
       "$A_b\\cdot h$",
@@ -86,7 +86,7 @@
   {
     "id": "prisma-formule-008",
     "tip": "simplu",
-    "intrebare": "Aria totală a prismei drepte: $A_t=?$",
+    "intrebare": "Care este aria totală a prismei drepte?",
     "variante": [
       "$A_l+2A_b$",
       "$A_l+A_b$",
@@ -98,7 +98,7 @@
   {
     "id": "prisma-formule-009",
     "tip": "simplu",
-    "intrebare": "Aria totală a cubului de latură $a$:",
+    "intrebare": "Care este aria totală a cubului de latură $a$?",
     "variante": [
       "$a^3$",
       "$12a^2$",
@@ -110,7 +110,7 @@
   {
     "id": "prisma-formule-010",
     "tip": "simplu",
-    "intrebare": "Aria bazei unei prisme triunghiulare regulate cu latura bazei $a$:",
+    "intrebare": "Care este aria bazei unei prisme triunghiulare regulate cu latura bazei $a$?",
     "variante": [
       "$a^2\\sqrt{3}$",
       "$\\frac{a^2}{4}$",
@@ -122,7 +122,7 @@
   {
     "id": "prisma-formule-011",
     "tip": "simplu",
-    "intrebare": "Fețele laterale ale unei prisme drepte sunt:",
+    "intrebare": "Ce fel de fețe laterale are o prismă dreaptă?",
     "variante": [
       "triunghiuri",
       "trapeze",
@@ -134,7 +134,7 @@
   {
     "id": "prisma-formule-012",
     "tip": "multiplu",
-    "intrebare": "Care sunt formule corecte pentru prisma dreaptă?",
+    "intrebare": "Care formule sunt corecte pentru prisma dreaptă?",
     "variante": [
       "$A_l=P_b\\cdot h$",
       "$A_t=A_l+2A_b$",

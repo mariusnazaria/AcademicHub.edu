@@ -2,7 +2,7 @@
   {
     "id": "polinoame-001",
     "tip": "simplu",
-    "intrebare": "Un polinom este:",
+    "intrebare": "Ce este un polinom?",
     "variante": [
       "un produs de monoame",
       "o sumă de monoame",
@@ -14,7 +14,7 @@
   {
     "id": "polinoame-002",
     "tip": "simplu",
-    "intrebare": "Gradul polinomului $P(x)=2x^3-5x+7$ este:",
+    "intrebare": "Ce grad are $P(x)=2x^3-5x+7$?",
     "variante": [
       "$3$",
       "$1$",
@@ -26,7 +26,7 @@
   {
     "id": "polinoame-003",
     "tip": "simplu",
-    "intrebare": "Gradul unui polinom este:",
+    "intrebare": "Cum aflăm gradul unui polinom?",
     "variante": [
       "termenul liber",
       "cel mai mare exponent al lui $x$",
@@ -38,7 +38,7 @@
   {
     "id": "polinoame-004",
     "tip": "simplu",
-    "intrebare": "Pentru $P(x)=2x^3-5x+7$, valoarea numerică $P(2)=?$",
+    "intrebare": "Calculează $P(2)$ pentru $P(x)=2x^3-5x+7$.",
     "variante": [
       "$7$",
       "$13$",
@@ -50,7 +50,7 @@
   {
     "id": "polinoame-005",
     "tip": "simplu",
-    "intrebare": "$-(a-b)=?$",
+    "intrebare": "Desfă parantezele: $-(a-b)$.",
     "variante": [
       "$a+b$",
       "$-a-b$",
@@ -62,7 +62,7 @@
   {
     "id": "polinoame-006",
     "tip": "simplu",
-    "intrebare": "$(x^2+3x)+(2x^2-x)=?$",
+    "intrebare": "Adună: $(x^2+3x)+(2x^2-x)$.",
     "variante": [
       "$3x^2+2x$",
       "$3x^2+4x$",
@@ -74,7 +74,7 @@
   {
     "id": "polinoame-007",
     "tip": "simplu",
-    "intrebare": "$(x+2)(x-3)=?$",
+    "intrebare": "Înmulțește: $(x+2)(x-3)$.",
     "variante": [
       "$x^2-x+6$",
       "$x^2-x-6$",
@@ -86,7 +86,7 @@
   {
     "id": "polinoame-008",
     "tip": "simplu",
-    "intrebare": "La înmulțirea polinoamelor:",
+    "intrebare": "Cum înmulțim două polinoame?",
     "variante": [
       "se adună coeficienții",
       "se înmulțesc doar primii termeni",
@@ -98,7 +98,7 @@
   {
     "id": "polinoame-009",
     "tip": "simplu",
-    "intrebare": "$(a+b)^3=?$",
+    "intrebare": "Cât este $(a+b)^3$?",
     "variante": [
       "$a^3+b^3$",
       "$a^3+3a^2b+3ab^2+b^3$",
@@ -110,7 +110,7 @@
   {
     "id": "polinoame-010",
     "tip": "simplu",
-    "intrebare": "$a^3+b^3=?$",
+    "intrebare": "Cum descompunem $a^3+b^3$?",
     "variante": [
       "$(a-b)(a^2+ab+b^2)$",
       "$(a+b)(a^2-ab+b^2)$",
@@ -122,7 +122,7 @@
   {
     "id": "polinoame-011",
     "tip": "simplu",
-    "intrebare": "$a^3-b^3=?$",
+    "intrebare": "Cum descompunem $a^3-b^3$?",
     "variante": [
       "$(a-b)(a^2+ab+b^2)$",
       "$(a-b)^3$",
@@ -134,7 +134,7 @@
   {
     "id": "polinoame-012",
     "tip": "simplu",
-    "intrebare": "Factor comun: $6x^2+9x=?$",
+    "intrebare": "Scoate factorul comun: $6x^2+9x$.",
     "variante": [
       "$3x(2x+3)$",
       "$3x(2x+9)$",
@@ -146,7 +146,7 @@
   {
     "id": "polinoame-013",
     "tip": "simplu",
-    "intrebare": "$x^2-9=?$",
+    "intrebare": "Descompune $x^2-9$.",
     "variante": [
       "$(x-3)^2$",
       "$(x+3)^2$",
@@ -158,7 +158,7 @@
   {
     "id": "polinoame-014",
     "tip": "simplu",
-    "intrebare": "Grupare: $ax+ay+bx+by=?$",
+    "intrebare": "Descompune prin grupare: $ax+ay+bx+by$.",
     "variante": [
       "$(a+b)(x+y)$",
       "$(a+b)(x-y)$",
@@ -170,7 +170,7 @@
   {
     "id": "polinoame-015",
     "tip": "simplu",
-    "intrebare": "Ordinea descompunerii în factori este:",
+    "intrebare": "În ce ordine descompunem în factori?",
     "variante": [
       "1. grupare → 2. formulă → 3. factor comun",
       "1. formulă → 2. grupare → 3. factor comun",
@@ -182,7 +182,7 @@
   {
     "id": "polinoame-016",
     "tip": "simplu",
-    "intrebare": "$x^3+8=?$",
+    "intrebare": "Descompune $x^3+8$.",
     "variante": [
       "$(x+2)(x^2+2x+4)$",
       "$(x+2)(x^2-2x+4)$",

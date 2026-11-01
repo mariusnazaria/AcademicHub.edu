@@ -2,7 +2,7 @@
   {
     "id": "probleme-cu-ecuatii-001",
     "tip": "simplu",
-    "intrebare": "Formula mișcării uniforme:",
+    "intrebare": "Care este formula pentru distanță, viteză și timp?",
     "variante": [
       "$t=d\\cdot v$",
       "$v=d\\cdot t$",
@@ -14,7 +14,7 @@
   {
     "id": "probleme-cu-ecuatii-002",
     "tip": "simplu",
-    "intrebare": "Problema de lucru: într-o oră un muncitor care termină în $t$ ore face:",
+    "intrebare": "Un muncitor termină lucrarea în $t$ ore. Cât din lucrare face într-o oră?",
     "variante": [
       "$t^2$ din lucrare",
       "$\\frac1t$ din lucrare",
@@ -26,7 +26,7 @@
   {
     "id": "probleme-cu-ecuatii-003",
     "tip": "simplu",
-    "intrebare": "Doi muncitori ($t_1$ și $t_2$ ore) lucrând împreună termină în $t$ ore:",
+    "intrebare": "Doi muncitori termină în $t_1$ și $t_2$ ore. Ce relație dă timpul $t$ lucrând împreună?",
     "variante": [
       "$t_1\\cdot t_2=t$",
       "$\\frac1{t_1}\\cdot\\frac1{t_2}=\\frac1t$",
@@ -38,7 +38,7 @@
   {
     "id": "probleme-cu-ecuatii-004",
     "tip": "simplu",
-    "intrebare": "$p\\%$ din $N$ este:",
+    "intrebare": "Cât este $p\\%$ din $N$?",
     "variante": [
       "$\\frac{p+N}{100}$",
       "$\\frac{N}{p\\cdot100}$",
@@ -50,7 +50,7 @@
   {
     "id": "probleme-cu-ecuatii-005",
     "tip": "simplu",
-    "intrebare": "Numărul de două cifre $\\overline{ab}$ se scrie:",
+    "intrebare": "Cum scriem numărul de două cifre $\\overline{ab}$?",
     "variante": [
       "$10b+a$",
       "$a\\cdot b$",
@@ -62,7 +62,7 @@
   {
     "id": "probleme-cu-ecuatii-006",
     "tip": "simplu",
-    "intrebare": "Perimetrul și aria dreptunghiului:",
+    "intrebare": "Care sunt formulele pentru perimetrul și aria dreptunghiului?",
     "variante": [
       "$P=2(L+l)$ ; $A=L\\cdot l$",
       "$P=L\\cdot l$ ; $A=2(L+l)$",
@@ -74,7 +74,7 @@
   {
     "id": "probleme-cu-ecuatii-007",
     "tip": "simplu",
-    "intrebare": "Triunghi dreptunghic cu catetele $a,b$ și ipotenuza $c$:",
+    "intrebare": "Ce formulă folosim la triunghiul dreptunghic cu catetele $a,b$ și ipotenuza $c$?",
     "variante": [
       "$a+b=c$",
       "$a\\cdot b=c^2$",
@@ -86,7 +86,7 @@
   {
     "id": "probleme-cu-ecuatii-008",
     "tip": "simplu",
-    "intrebare": "La problemele de amestec se păstrează:",
+    "intrebare": "Ce se păstrează la problemele cu amestecuri?",
     "variante": [
       "numărul de pași",
       "temperatura",
@@ -98,7 +98,7 @@
   {
     "id": "probleme-cu-ecuatii-009",
     "tip": "simplu",
-    "intrebare": "Ordinea etapelor rezolvării unei probleme cu ecuații:",
+    "intrebare": "În ce ordine rezolvăm o problemă cu ecuații?",
     "variante": [
       "citim și notăm ce se cere → alegem necunoscuta $x$ → scriem ecuația → rezolvăm → verificăm și răspundem",
       "scriem ecuația → citim problema → verificăm",
@@ -110,7 +110,7 @@
   {
     "id": "probleme-cu-ecuatii-010",
     "tip": "simplu",
-    "intrebare": "Răspunsul unei probleme trebuie:",
+    "intrebare": "Cum trebuie să fie răspunsul unei probleme?",
     "variante": [
       "să coincidă cu $x$ fără verificare",
       "să aibă sens (de ex. nu există $-3$ elevi)",
@@ -122,7 +122,7 @@
   {
     "id": "probleme-cu-ecuatii-011",
     "tip": "simplu",
-    "intrebare": "Cât este $20\\%$ din $150$?",
+    "intrebare": "Calculează $20\\%$ din $150$.",
     "variante": [
       "$30$",
       "$20$",

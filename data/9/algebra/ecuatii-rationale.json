@@ -2,7 +2,7 @@
   {
     "id": "ecuatii-rationale-001",
     "tip": "simplu",
-    "intrebare": "Ordinea pașilor la o ecuație rațională:",
+    "intrebare": "În ce ordine rezolvăm o ecuație cu fracții?",
     "variante": [
       "descompunem numitorii și scriem DVA → numitor comun → rezolvăm → verificăm în DVA",
       "rezolvăm → numitor comun → DVA",
@@ -14,7 +14,7 @@
   {
     "id": "ecuatii-rationale-002",
     "tip": "simplu",
-    "intrebare": "$\\frac AB=0\\iff ?$",
+    "intrebare": "Când este o fracție egală cu $0$?",
     "variante": [
       "$A=0$ și $B=0$",
       "$B=0$",
@@ -26,7 +26,7 @@
   {
     "id": "ecuatii-rationale-003",
     "tip": "simplu",
-    "intrebare": "Proporția $\\frac AB=\\frac CD$ ($B,D\\neq0$) este echivalentă cu:",
+    "intrebare": "Cum scriem proporția $\\frac AB=\\frac CD$ fără fracții?",
     "variante": [
       "$A+D=B+C$",
       "$A\\cdot D=B\\cdot C$",
@@ -38,7 +38,7 @@
   {
     "id": "ecuatii-rationale-004",
     "tip": "simplu",
-    "intrebare": "DVA la ecuațiile raționale înseamnă:",
+    "intrebare": "Ce este DVA la ecuațiile cu fracții?",
     "variante": [
       "numitorii sunt egali cu $0$",
       "soluțiile sunt pozitive",
@@ -50,7 +50,7 @@
   {
     "id": "ecuatii-rationale-005",
     "tip": "simplu",
-    "intrebare": "$x-2\\neq0\\Rightarrow ?$",
+    "intrebare": "Ce rezultă din $x-2\\neq0$?",
     "variante": [
       "$x\\neq-2$",
       "$x=2$",
@@ -62,7 +62,7 @@
   {
     "id": "ecuatii-rationale-006",
     "tip": "simplu",
-    "intrebare": "O soluție care anulează un numitor:",
+    "intrebare": "Ce facem cu o soluție care anulează un numitor?",
     "variante": [
       "se păstrează",
       "devine soluție dublă",
@@ -74,7 +74,7 @@
   {
     "id": "ecuatii-rationale-007",
     "tip": "simplu",
-    "intrebare": "$\\frac{x}{x-1}=\\frac{2}{x-1}$ are mulțimea soluțiilor:",
+    "intrebare": "Rezolvă $\\frac{x}{x-1}=\\frac{2}{x-1}$.",
     "variante": [
       "$S=\\{1\\}$",
       "$S=\\{2\\}$",
@@ -86,7 +86,7 @@
   {
     "id": "ecuatii-rationale-008",
     "tip": "simplu",
-    "intrebare": "$\\frac{x}{x-2}=\\frac{2}{x-2}$ are mulțimea soluțiilor:",
+    "intrebare": "Rezolvă $\\frac{x}{x-2}=\\frac{2}{x-2}$.",
     "variante": [
       "$S=\\{0\\}$",
       "$S=\\varnothing$ ($x=2$ anulează numitorul)",
@@ -98,7 +98,7 @@
   {
     "id": "ecuatii-rationale-009",
     "tip": "simplu",
-    "intrebare": "$\\frac{x-3}{x+1}=0\\Rightarrow x=?$",
+    "intrebare": "Rezolvă $\\frac{x-3}{x+1}=0$.",
     "variante": [
       "$-3$",
       "$-1$",
@@ -110,7 +110,7 @@
   {
     "id": "ecuatii-rationale-010",
     "tip": "simplu",
-    "intrebare": "$\\frac{x^2-1}{x-1}=0$ are soluția:",
+    "intrebare": "Rezolvă $\\frac{x^2-1}{x-1}=0$.",
     "variante": [
       "$S=\\varnothing$",
       "$x=1$",

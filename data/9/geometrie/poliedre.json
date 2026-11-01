@@ -2,7 +2,7 @@
   {
     "id": "poliedre-001",
     "tip": "simplu",
-    "intrebare": "Elementele unui poliedru sunt:",
+    "intrebare": "Care sunt elementele unui poliedru?",
     "variante": [
       "laturi, unghiuri, diagonale",
       "baze, generatoare, vârfuri",
@@ -14,7 +14,7 @@
   {
     "id": "poliedre-002",
     "tip": "simplu",
-    "intrebare": "Relația lui Euler pentru poliedre convexe:",
+    "intrebare": "Care este relația lui Euler?",
     "variante": [
       "$V+M+F=2$",
       "$V-M-F=2$",
@@ -26,7 +26,7 @@
   {
     "id": "poliedre-003",
     "tip": "simplu",
-    "intrebare": "Prisma este un poliedru cu:",
+    "intrebare": "Ce este prisma?",
     "variante": [
       "o bază și fețe laterale triunghiuri",
       "o singură față",
@@ -38,7 +38,7 @@
   {
     "id": "poliedre-004",
     "tip": "simplu",
-    "intrebare": "Piramida este un poliedru cu:",
+    "intrebare": "Ce este piramida?",
     "variante": [
       "două baze paralele",
       "fețe laterale paralelograme",
@@ -50,7 +50,7 @@
   {
     "id": "poliedre-005",
     "tip": "simplu",
-    "intrebare": "Prismă cu $n$ laturi la bază: $F,M,V$ sunt:",
+    "intrebare": "Prismă cu $n$ laturi la bază: câte fețe, muchii și vârfuri are?",
     "variante": [
       "$F=n+1$ ; $M=2n$ ; $V=n+1$",
       "$F=n+2$ ; $M=2n$ ; $V=2n$",
@@ -62,7 +62,7 @@
   {
     "id": "poliedre-006",
     "tip": "simplu",
-    "intrebare": "Piramidă cu $n$ laturi la bază: $F,M,V$ sunt:",
+    "intrebare": "Piramidă cu $n$ laturi la bază: câte fețe, muchii și vârfuri are?",
     "variante": [
       "$F=n+1$ ; $M=3n$ ; $V=n+2$",
       "$F=n+2$ ; $M=3n$ ; $V=2n$",
@@ -74,7 +74,7 @@
   {
     "id": "poliedre-007",
     "tip": "simplu",
-    "intrebare": "Tetraedrul regulat are fețele:",
+    "intrebare": "Ce fețe are tetraedrul regulat?",
     "variante": [
       "$12$ pentagoane",
       "$6$ pătrate",
@@ -86,7 +86,7 @@
   {
     "id": "poliedre-008",
     "tip": "simplu",
-    "intrebare": "Cubul are fețele:",
+    "intrebare": "Ce fețe are cubul?",
     "variante": [
       "$12$ pătrate",
       "$6$ pătrate",
@@ -98,7 +98,7 @@
   {
     "id": "poliedre-009",
     "tip": "simplu",
-    "intrebare": "Octaedrul regulat are fețele:",
+    "intrebare": "Ce fețe are octaedrul regulat?",
     "variante": [
       "$20$ triunghiuri",
       "$6$ pătrate",
@@ -110,7 +110,7 @@
   {
     "id": "poliedre-010",
     "tip": "simplu",
-    "intrebare": "Dodecaedrul regulat are fețele:",
+    "intrebare": "Ce fețe are dodecaedrul regulat?",
     "variante": [
       "$8$ triunghiuri",
       "$12$ pătrate",
@@ -122,7 +122,7 @@
   {
     "id": "poliedre-011",
     "tip": "simplu",
-    "intrebare": "Icosaedrul regulat are fețele:",
+    "intrebare": "Ce fețe are icosaedrul regulat?",
     "variante": [
       "$6$ pătrate",
       "$12$ pentagoane",
@@ -134,7 +134,7 @@
   {
     "id": "poliedre-012",
     "tip": "simplu",
-    "intrebare": "Cubul are:",
+    "intrebare": "Câte vârfuri, muchii și fețe are cubul?",
     "variante": [
       "$V=8$, $M=12$, $F=6$",
       "$V=6$, $M=12$, $F=8$",
@@ -146,7 +146,7 @@
   {
     "id": "poliedre-013",
     "tip": "simplu",
-    "intrebare": "Prismă triunghiulară: $F,M,V$ sunt:",
+    "intrebare": "Prismă triunghiulară: câte fețe, muchii și vârfuri are?",
     "variante": [
       "$F=5$ ; $M=6$ ; $V=9$",
       "$F=5$ ; $M=9$ ; $V=6$",
@@ -158,7 +158,7 @@
   {
     "id": "poliedre-014",
     "tip": "simplu",
-    "intrebare": "Piramidă patrulateră: $V,M,F$ sunt:",
+    "intrebare": "Piramidă patrulateră: câte vârfuri, muchii și fețe are?",
     "variante": [
       "$V=8$ ; $M=5$ ; $F=5$",
       "$V=4$ ; $M=6$ ; $F=4$",

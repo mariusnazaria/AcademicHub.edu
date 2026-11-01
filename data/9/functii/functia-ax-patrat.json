@@ -2,7 +2,7 @@
   {
     "id": "functia-ax-patrat-001",
     "tip": "simplu",
-    "intrebare": "$f(x)=ax^2$ cu $a>0$ are parabola:",
+    "intrebare": "Cum este parabola $f(x)=ax^2$ când $a>0$?",
     "variante": [
       "este o dreaptă",
       "cu față zâmbitoare și maxim în vârf",
@@ -14,7 +14,7 @@
   {
     "id": "functia-ax-patrat-002",
     "tip": "simplu",
-    "intrebare": "$f(x)=ax^2$ cu $a<0$ are parabola:",
+    "intrebare": "Cum este parabola $f(x)=ax^2$ când $a<0$?",
     "variante": [
       "este o dreaptă",
       "cu față zâmbitoare și minim în vârf",
@@ -26,7 +26,7 @@
   {
     "id": "functia-ax-patrat-003",
     "tip": "simplu",
-    "intrebare": "Dacă $|a|$ este mare, parabola este:",
+    "intrebare": "Cum este parabola când $|a|$ este mare?",
     "variante": [
       "largă",
       "orizontală",
@@ -38,7 +38,7 @@
   {
     "id": "functia-ax-patrat-004",
     "tip": "simplu",
-    "intrebare": "Dacă $|a|$ este mic, parabola este:",
+    "intrebare": "Cum este parabola când $|a|$ este mic?",
     "variante": [
       "îngustă",
       "o dreaptă",
@@ -50,7 +50,7 @@
   {
     "id": "functia-ax-patrat-005",
     "tip": "simplu",
-    "intrebare": "Mulțimea valorilor lui $ax^2$ pentru $a>0$:",
+    "intrebare": "Ce mulțime de valori are $ax^2$ când $a>0$?",
     "variante": [
       "$(0;+\\infty)$",
       "$[0;+\\infty)$",
@@ -62,7 +62,7 @@
   {
     "id": "functia-ax-patrat-006",
     "tip": "simplu",
-    "intrebare": "Mulțimea valorilor lui $ax^2$ pentru $a<0$:",
+    "intrebare": "Ce mulțime de valori are $ax^2$ când $a<0$?",
     "variante": [
       "$(-\\infty;0)$",
       "$\\mathbb{R}$",
@@ -74,7 +74,7 @@
   {
     "id": "functia-ax-patrat-007",
     "tip": "simplu",
-    "intrebare": "Vârful parabolei $y=ax^2$ este mereu:",
+    "intrebare": "Care este vârful parabolei $y=ax^2$?",
     "variante": [
       "$(a;0)$, cu axa $Ox$",
       "$O(0;0)$, cu axa de simetrie $Oy$",
@@ -86,7 +86,7 @@
   {
     "id": "functia-ax-patrat-008",
     "tip": "simplu",
-    "intrebare": "$f(x)=2x^2$: $f(\\pm1)$ și $f(\\pm2)$ sunt:",
+    "intrebare": "Calculează $f(\\pm1)$ și $f(\\pm2)$ pentru $f(x)=2x^2$.",
     "variante": [
       "$2$ și $4$",
       "$2$ și $8$",
@@ -98,7 +98,7 @@
   {
     "id": "functia-ax-patrat-009",
     "tip": "simplu",
-    "intrebare": "Pașii trasării graficului lui $ax^2$:",
+    "intrebare": "Cum trasăm graficul lui $ax^2$?",
     "variante": [
       "alegem un singur $x$ → desenăm dreapta",
       "alegem $x$ simetrice față de $0$ → calculăm $ax^2$ → așezăm punctele și unim cu o curbă",
@@ -110,7 +110,7 @@
   {
     "id": "functia-ax-patrat-010",
     "tip": "simplu",
-    "intrebare": "Valoarea extremă a lui $f(x)=-x^2$ este:",
+    "intrebare": "Care este valoarea extremă a lui $f(x)=-x^2$?",
     "variante": [
       "maximul $0$, atins pentru $x=0$",
       "maximul $-1$",
@@ -134,7 +134,7 @@
   {
     "id": "functia-ax-patrat-012",
     "tip": "simplu",
-    "intrebare": "$f(x)=-\\frac12x^2$ are parabola:",
+    "intrebare": "Cum este parabola $f(x)=-\\frac12x^2$?",
     "variante": [
       "cu față zâmbitoare și îngustă",
       "cu față zâmbitoare și largă",
@@ -146,7 +146,7 @@
   {
     "id": "functia-ax-patrat-013",
     "tip": "simplu",
-    "intrebare": "Graficul lui $f(x)=ax^2$ intersectează axele numai în:",
+    "intrebare": "În ce puncte taie graficul lui $ax^2$ axele?",
     "variante": [
       "două puncte pe $Ox$",
       "$(a;0)$",
@@ -158,7 +158,7 @@
   {
     "id": "functia-ax-patrat-014",
     "tip": "simplu",
-    "intrebare": "$f(x)=\\frac12x^2$: $f(4)=?$",
+    "intrebare": "Calculează $f(4)$ pentru $f(x)=\\frac12x^2$.",
     "variante": [
       "$8$",
       "$16$",
@@ -170,7 +170,7 @@
   {
     "id": "functia-ax-patrat-015",
     "tip": "simplu",
-    "intrebare": "$f(x)=ax^2$ cu $a<0$ este:",
+    "intrebare": "Cum variază $f(x)=ax^2$ când $a<0$?",
     "variante": [
       "crescătoare pe $\\mathbb{R}$",
       "descrescătoare pe $(-\\infty;0]$ și crescătoare pe $[0;+\\infty)$",

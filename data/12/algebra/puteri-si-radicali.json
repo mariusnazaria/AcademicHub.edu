@@ -2,7 +2,7 @@
   {
     "id": "puteri-si-radicali-001",
     "tip": "simplu",
-    "intrebare": "$a^m\\cdot a^n=?$",
+    "intrebare": "Calculează $a^m\\cdot a^n$.",
     "variante": [
       "$a^{m+n}$",
       "$a^{mn}$",
@@ -14,7 +14,7 @@
   {
     "id": "puteri-si-radicali-002",
     "tip": "simplu",
-    "intrebare": "$a^m : a^n=?$ ($a\\neq0$)",
+    "intrebare": "Calculează $a^m:a^n$ ($a\\neq0$).",
     "variante": [
       "$a^{m+n}$",
       "$a^{\\frac{m}{n}}$",
@@ -26,7 +26,7 @@
   {
     "id": "puteri-si-radicali-003",
     "tip": "simplu",
-    "intrebare": "$(a^m)^n=?$",
+    "intrebare": "Calculează $(a^m)^n$.",
     "variante": [
       "$a^{m-n}$",
       "$a^{mn}$",
@@ -38,7 +38,7 @@
   {
     "id": "puteri-si-radicali-004",
     "tip": "simplu",
-    "intrebare": "$(ab)^n=?$",
+    "intrebare": "Calculează $(ab)^n$.",
     "variante": [
       "$ab^n$",
       "$a^nb^n$",
@@ -50,7 +50,7 @@
   {
     "id": "puteri-si-radicali-005",
     "tip": "simplu",
-    "intrebare": "$\\left(\\frac{a}{b}\\right)^n=?$ ($b\\neq0$)",
+    "intrebare": "Calculează $\\left(\\frac{a}{b}\\right)^n$ ($b\\neq0$).",
     "variante": [
       "$\\frac{a^n}{n b}$",
       "$\\frac{a^n}{b^n}$",
@@ -62,7 +62,7 @@
   {
     "id": "puteri-si-radicali-006",
     "tip": "simplu",
-    "intrebare": "$a^0=?$ ($a\\neq0$)",
+    "intrebare": "Cât este $a^0$ ($a\\neq0$)?",
     "variante": [
       "$1$",
       "$a$",
@@ -74,7 +74,7 @@
   {
     "id": "puteri-si-radicali-007",
     "tip": "simplu",
-    "intrebare": "$a^{-n}=?$ ($a\\neq0$)",
+    "intrebare": "Ce înseamnă $a^{-n}$ ($a\\neq0$)?",
     "variante": [
       "$a^{n}$",
       "$\\frac{1}{a^n}$",
@@ -86,7 +86,7 @@
   {
     "id": "puteri-si-radicali-008",
     "tip": "simplu",
-    "intrebare": "$a^{\\frac{m}{n}}=?$",
+    "intrebare": "Cum scriem $a^{\\frac{m}{n}}$ cu radical?",
     "variante": [
       "$\\sqrt[n]{a^m}$",
       "$\\sqrt[m]{a^n}$",
@@ -98,7 +98,7 @@
   {
     "id": "puteri-si-radicali-009",
     "tip": "simplu",
-    "intrebare": "$\\sqrt[n]{a}=?$",
+    "intrebare": "Cum scriem $\\sqrt[n]{a}$ ca putere?",
     "variante": [
       "$a^{n}$",
       "$\\frac{a}{n}$",
@@ -110,7 +110,7 @@
   {
     "id": "puteri-si-radicali-010",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{a}\\cdot\\sqrt{b}=?$ ($a,b\\geq0$)",
+    "intrebare": "Cât este $\\sqrt{a}\\cdot\\sqrt{b}$ ($a,b\\geq0$)?",
     "variante": [
       "$\\sqrt{ab}$",
       "$\\sqrt{a+b}$",
@@ -122,7 +122,7 @@
   {
     "id": "puteri-si-radicali-011",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{a^2}=?$",
+    "intrebare": "Cât este $\\sqrt{a^2}$?",
     "variante": [
       "$|a|$",
       "$a$",
@@ -134,7 +134,7 @@
   {
     "id": "puteri-si-radicali-012",
     "tip": "simplu",
-    "intrebare": "$\\sqrt[3]{a^3}=?$",
+    "intrebare": "Cât este $\\sqrt[3]{a^3}$?",
     "variante": [
       "$a^3$",
       "$3a$",
@@ -146,7 +146,7 @@
   {
     "id": "puteri-si-radicali-013",
     "tip": "simplu",
-    "intrebare": "$\\sqrt[m]{\\sqrt[n]{a}}=?$",
+    "intrebare": "Cât este $\\sqrt[m]{\\sqrt[n]{a}}$?",
     "variante": [
       "$\\sqrt[n-m]{a}$",
       "$\\sqrt[m]{a^n}$",
@@ -158,7 +158,7 @@
   {
     "id": "puteri-si-radicali-014",
     "tip": "simplu",
-    "intrebare": "$\\left(\\frac{a}{b}\\right)^{-n}=?$",
+    "intrebare": "Calculează $\\left(\\frac{a}{b}\\right)^{-n}$.",
     "variante": [
       "$\\frac{1}{ab^n}$",
       "$-\\frac{a^n}{b^n}$",
@@ -170,7 +170,7 @@
   {
     "id": "puteri-si-radicali-015",
     "tip": "simplu",
-    "intrebare": "$(-2)^4=?$",
+    "intrebare": "Calculează $(-2)^4$.",
     "variante": [
       "$16$",
       "$-16$",
@@ -182,7 +182,7 @@
   {
     "id": "puteri-si-radicali-016",
     "tip": "simplu",
-    "intrebare": "$-2^4=?$",
+    "intrebare": "Calculează $-2^4$.",
     "variante": [
       "$-8$",
       "$-16$",
@@ -194,7 +194,7 @@
   {
     "id": "puteri-si-radicali-017",
     "tip": "simplu",
-    "intrebare": "$2^{-3}=?$",
+    "intrebare": "Calculează $2^{-3}$.",
     "variante": [
       "$-8$",
       "$\\frac{1}{8}$",
@@ -206,7 +206,7 @@
   {
     "id": "puteri-si-radicali-018",
     "tip": "simplu",
-    "intrebare": "$8^{\\frac{1}{3}}=?$",
+    "intrebare": "Calculează $8^{\\frac{1}{3}}$.",
     "variante": [
       "$\\frac{8}{3}$",
       "$4$",
@@ -218,7 +218,7 @@
   {
     "id": "puteri-si-radicali-019",
     "tip": "simplu",
-    "intrebare": "$4^{\\frac{3}{2}}=?$",
+    "intrebare": "Calculează $4^{\\frac{3}{2}}$.",
     "variante": [
       "$4$",
       "$16$",
@@ -230,7 +230,7 @@
   {
     "id": "puteri-si-radicali-020",
     "tip": "simplu",
-    "intrebare": "$16^{-\\frac{1}{2}}=?$",
+    "intrebare": "Calculează $16^{-\\frac{1}{2}}$.",
     "variante": [
       "$4$",
       "$\\frac{1}{8}$",
@@ -242,7 +242,7 @@
   {
     "id": "puteri-si-radicali-021",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{12}=?$",
+    "intrebare": "Scoate factorii de sub radical: $\\sqrt{12}$.",
     "variante": [
       "$6$",
       "$4\\sqrt{3}$",
@@ -254,7 +254,7 @@
   {
     "id": "puteri-si-radicali-022",
     "tip": "simplu",
-    "intrebare": "$\\sqrt{50}=?$",
+    "intrebare": "Scoate factorii de sub radical: $\\sqrt{50}$.",
     "variante": [
       "$25\\sqrt{2}$",
       "$10\\sqrt{5}$",
@@ -266,7 +266,7 @@
   {
     "id": "puteri-si-radicali-023",
     "tip": "simplu",
-    "intrebare": "Rationalizare: $\\frac{1}{\\sqrt{2}}=?$",
+    "intrebare": "Raționalizează: $\\frac{1}{\\sqrt{2}}$.",
     "variante": [
       "$2\\sqrt{2}$",
       "$\\sqrt{2}$",
@@ -278,7 +278,7 @@
   {
     "id": "puteri-si-radicali-024",
     "tip": "simplu",
-    "intrebare": "Conjugata expresiei $\\sqrt{a}+\\sqrt{b}$ este:",
+    "intrebare": "Care este conjugata lui $\\sqrt{a}+\\sqrt{b}$?",
     "variante": [
       "$\\sqrt{a}-\\sqrt{b}$",
       "$\\frac{1}{\\sqrt{a}+\\sqrt{b}}$",

@@ -2,7 +2,7 @@
   {
     "id": "trunchiul-de-con-001",
     "tip": "simplu",
-    "intrebare": "Generatoarea trunchiului de con: $G^2=?$",
+    "intrebare": "Cum aflăm generatoarea trunchiului de con? $G^2=?$",
     "variante": [
       "$h^2+(R+r)^2$",
       "$h^2+R^2-r^2$",
@@ -14,7 +14,7 @@
   {
     "id": "trunchiul-de-con-002",
     "tip": "simplu",
-    "intrebare": "Aria laterală a trunchiului de con: $A_l=?$",
+    "intrebare": "Care este aria laterală a trunchiului de con?",
     "variante": [
       "$\\pi G R r$",
       "$2\\pi G(R+r)$",
@@ -26,7 +26,7 @@
   {
     "id": "trunchiul-de-con-003",
     "tip": "simplu",
-    "intrebare": "Aria totală a trunchiului de con: $A_t=?$",
+    "intrebare": "Care este aria totală a trunchiului de con?",
     "variante": [
       "$\\pi\\left[R^2+r^2\\right]$",
       "$\\pi\\left[R^2-r^2+G(R+r)\\right]$",
@@ -38,7 +38,7 @@
   {
     "id": "trunchiul-de-con-004",
     "tip": "simplu",
-    "intrebare": "Volumul trunchiului de con: $V=?$",
+    "intrebare": "Care este volumul trunchiului de con?",
     "variante": [
       "$\\frac{\\pi h(R+r)^2}{3}$",
       "$\\frac{\\pi h(R^2+Rr+r^2)}{3}$",
@@ -50,7 +50,7 @@
   {
     "id": "trunchiul-de-con-005",
     "tip": "simplu",
-    "intrebare": "Secțiunea axială a trunchiului de con este:",
+    "intrebare": "Ce este secțiunea axială a trunchiului de con?",
     "variante": [
       "un triunghi isoscel",
       "un dreptunghi",
@@ -62,7 +62,7 @@
   {
     "id": "trunchiul-de-con-006",
     "tip": "simplu",
-    "intrebare": "Bazele trunchiului de con sunt:",
+    "intrebare": "Ce sunt bazele trunchiului de con?",
     "variante": [
       "două cercuri în plane paralele",
       "un cerc și un punct",
@@ -74,7 +74,7 @@
   {
     "id": "trunchiul-de-con-007",
     "tip": "simplu",
-    "intrebare": "Dacă $r=R$, trunchiul de con devine:",
+    "intrebare": "Ce devine trunchiul de con dacă $r=R$?",
     "variante": [
       "con",
       "cilindru",
@@ -86,7 +86,7 @@
   {
     "id": "trunchiul-de-con-008",
     "tip": "simplu",
-    "intrebare": "Dacă $r=0$, trunchiul de con devine:",
+    "intrebare": "Ce devine trunchiul de con dacă $r=0$?",
     "variante": [
       "con",
       "cilindru",
@@ -98,7 +98,7 @@
   {
     "id": "trunchiul-de-con-009",
     "tip": "multiplu",
-    "intrebare": "Care sunt corecte pentru trunchiul de con?",
+    "intrebare": "Care afirmații sunt corecte pentru trunchiul de con?",
     "variante": [
       "$A_l=\\pi G(R+r)$",
       "$A_l=\\pi G(R-r)$",

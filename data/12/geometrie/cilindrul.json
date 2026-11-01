@@ -2,7 +2,7 @@
   {
     "id": "cilindrul-001",
     "tip": "simplu",
-    "intrebare": "Aria laterală a cilindrului: $A_l=?$",
+    "intrebare": "Care este aria laterală a cilindrului?",
     "variante": [
       "$\\pi R h$",
       "$2\\pi R^2$",
@@ -14,7 +14,7 @@
   {
     "id": "cilindrul-002",
     "tip": "simplu",
-    "intrebare": "Aria totală a cilindrului: $A_t=?$",
+    "intrebare": "Care este aria totală a cilindrului?",
     "variante": [
       "$\\pi R^2(R+h)$",
       "$2\\pi R h$",
@@ -26,7 +26,7 @@
   {
     "id": "cilindrul-003",
     "tip": "simplu",
-    "intrebare": "Volumul cilindrului: $V=?$",
+    "intrebare": "Care este volumul cilindrului?",
     "variante": [
       "$\\pi R^2 h$",
       "$\\pi R h^2$",
@@ -38,7 +38,7 @@
   {
     "id": "cilindrul-004",
     "tip": "simplu",
-    "intrebare": "Secțiunea axială a cilindrului este:",
+    "intrebare": "Ce este secțiunea axială a cilindrului?",
     "variante": [
       "un dreptunghi $2R\\times h$",
       "un trapez isoscel",
@@ -50,7 +50,7 @@
   {
     "id": "cilindrul-005",
     "tip": "simplu",
-    "intrebare": "O secțiune paralelă cu axa (la distanța $d$ de axă) este un dreptunghi cu latura $AB=?$",
+    "intrebare": "O secțiune paralelă cu axa, la distanța $d$ de axă, este un dreptunghi. Cât este latura $AB$?",
     "variante": [
       "$2\\sqrt{R^2-d^2}$",
       "$\\sqrt{R^2-d^2}$",
@@ -62,7 +62,7 @@
   {
     "id": "cilindrul-006",
     "tip": "simplu",
-    "intrebare": "Dezvoltarea laterală a cilindrului este:",
+    "intrebare": "Ce este dezvoltarea laterală a cilindrului?",
     "variante": [
       "un sector de cerc",
       "un dreptunghi $\\pi R\\times h$",
@@ -74,7 +74,7 @@
   {
     "id": "cilindrul-007",
     "tip": "simplu",
-    "intrebare": "Generatoarea cilindrului este egală cu:",
+    "intrebare": "Cu ce este egală generatoarea cilindrului?",
     "variante": [
       "înălțimea $h$",
       "raza $R$",
@@ -86,7 +86,7 @@
   {
     "id": "cilindrul-008",
     "tip": "simplu",
-    "intrebare": "Secțiunea unui cilindru cu un plan perpendicular pe axă este:",
+    "intrebare": "Ce se obține tăind cilindrul cu un plan perpendicular pe axă?",
     "variante": [
       "un triunghi",
       "un cerc de rază $R$",
@@ -98,7 +98,7 @@
   {
     "id": "cilindrul-009",
     "tip": "simplu",
-    "intrebare": "Cilindrul echilateral are:",
+    "intrebare": "Ce are cilindrul echilateral?",
     "variante": [
       "$h=R$",
       "$h=\\pi R$",
@@ -110,7 +110,7 @@
   {
     "id": "cilindrul-010",
     "tip": "multiplu",
-    "intrebare": "Care sunt corecte pentru cilindru?",
+    "intrebare": "Care afirmații sunt corecte pentru cilindru?",
     "variante": [
       "$V=\\frac{\\pi R^2h}{3}$",
       "$A_l=\\pi Rh$",
