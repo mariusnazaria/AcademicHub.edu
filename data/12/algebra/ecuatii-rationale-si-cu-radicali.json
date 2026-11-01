@@ -2,91 +2,43 @@
   {
     "id": "ecuatii-rationale-si-cu-radicali-001",
     "tip": "simplu",
-    "intrebare": "Care este primul pas la o ecuație cu fracții?",
+    "intrebare": "Rezolvă: $\\sqrt{x}=3$.",
     "variante": [
-      "ridicarea la pătrat",
-      "DVA (domeniul de valori admisibile)",
-      "înmulțirea cu $0$",
-      "verificarea la sfârșit doar"
+      "$x=3$",
+      "$x=9$",
+      "$x=\\sqrt3$",
+      "$x=6$"
     ],
     "corect": 1
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-002",
     "tip": "simplu",
-    "intrebare": "Ce cere DVA la o fracție?",
+    "intrebare": "Rezolvă: $\\sqrt{x+1}=2$.",
     "variante": [
-      "numitorul să fie diferit de $0$",
-      "numărătorul să fie diferit de $0$",
-      "fracția să fie întreagă",
-      "numitorul să fie pozitiv mereu"
+      "$x=3$",
+      "$x=1$",
+      "$x=5$",
+      "$x=4$"
     ],
     "corect": 0
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-003",
     "tip": "simplu",
-    "intrebare": "Cum scriem $\\frac{a}{b}=\\frac{c}{d}$ fără fracții (pe diagonală)?",
+    "intrebare": "Rezolvă: $\\sqrt{2x}=4$.",
     "variante": [
-      "$ac=bd$",
-      "$a+d=b+c$",
-      "$ad=bc$",
-      "$ab=cd$"
+      "$x=4$",
+      "$x=16$",
+      "$x=8$",
+      "$x=2$"
     ],
     "corect": 2
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-004",
     "tip": "simplu",
-    "intrebare": "Ce facem cu o soluție care nu respectă DVA?",
-    "variante": [
-      "se păstrează",
-      "se elimină",
-      "se înmulțește cu $-1$",
-      "se dublează"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-005",
-    "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{1}{x-3}$?",
-    "variante": [
-      "$x\\neq-3$",
-      "$x\\neq3$",
-      "$x>3$",
-      "$x\\neq0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-006",
-    "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{x}{x+2}$?",
-    "variante": [
-      "$x>-2$",
-      "$x\\neq-2$",
-      "$x\\neq2$",
-      "$x\\neq0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-007",
-    "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{1}{x^2-4}$?",
-    "variante": [
-      "$x\\neq\\pm2$",
-      "$x\\neq2$",
-      "$x\\neq4$",
-      "$x\\neq\\pm4$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-008",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\frac{x-1}{x}=0$.",
+    "intrebare": "Rezolvă: $\\sqrt{x-1}=0$.",
     "variante": [
       "$x=0$",
       "$x=1$",
@@ -96,186 +48,147 @@
     "corect": 1
   },
   {
+    "id": "ecuatii-rationale-si-cu-radicali-005",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $\\sqrt{x}=-2$.",
+    "variante": [
+      "$x=4$",
+      "nu are soluții",
+      "$x=-4$",
+      "$x=2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-rationale-si-cu-radicali-006",
+    "tip": "simplu",
+    "intrebare": "Ce condiție cerem la $\\sqrt{f(x)}$?",
+    "variante": [
+      "$f(x)\\neq0$",
+      "$f(x)\\geq0$",
+      "$f(x)>0$",
+      "$f(x)\\leq0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-rationale-si-cu-radicali-007",
+    "tip": "simplu",
+    "intrebare": "Primul pas la o ecuație cu radical:",
+    "variante": [
+      "scriem condiția de existență",
+      "ridicăm la pătrat fără verificare",
+      "derivăm",
+      "împărțim la $x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-rationale-si-cu-radicali-008",
+    "tip": "simplu",
+    "intrebare": "Ce facem după ce ridicăm la pătrat?",
+    "variante": [
+      "nu mai facem nimic",
+      "verificăm soluțiile în ecuația inițială",
+      "ridicăm din nou la pătrat",
+      "le adunăm"
+    ],
+    "corect": 1
+  },
+  {
     "id": "ecuatii-rationale-si-cu-radicali-009",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\frac{3}{x}=1$.",
+    "intrebare": "Rezolvă: $\\frac1x=\\frac13$.",
     "variante": [
       "$x=3$",
-      "$x=\\frac{1}{3}$",
-      "$x=-3$",
-      "$x=0$"
+      "$x=\\frac13$",
+      "$x=1$",
+      "$x=-3$"
     ],
     "corect": 0
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-010",
     "tip": "simplu",
-    "intrebare": "Câte soluții are $\\frac{x}{x-1}=1$?",
+    "intrebare": "Rezolvă: $\\frac6x=3$.",
     "variante": [
-      "soluția $x=1$",
-      "o infinitate de soluții",
-      "nicio soluție",
-      "soluția $x=0$"
+      "$x=18$",
+      "$x=3$",
+      "$x=2$",
+      "$x=\\frac12$"
     ],
     "corect": 2
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-011",
     "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\sqrt{f(x)}$?",
+    "intrebare": "Rezolvă: $\\frac{x+1}{x-2}=0$.",
     "variante": [
-      "$f(x)>0$ strict",
-      "$f(x)\\leq0$",
-      "$f(x)\\geq0$",
-      "$f(x)\\neq0$"
+      "$x=2$",
+      "$x=1$",
+      "$x=-1$",
+      "$x=-2$"
     ],
     "corect": 2
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-012",
     "tip": "simplu",
-    "intrebare": "Cum scriem ecuația cu radical înainte de a ridica la pătrat?",
+    "intrebare": "Care este condiția de existență la $\\frac{3}{x-5}$?",
     "variante": [
-      "în dreapta, fără radical în stânga",
-      "nu contează deloc",
-      "în ambele părți",
-      "în stânga, iar cea fără radical în dreapta"
+      "$x\\neq-5$",
+      "$x\\neq0$",
+      "$x\\neq3$",
+      "$x\\neq5$"
     ],
     "corect": 3
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-013",
     "tip": "simplu",
-    "intrebare": "Ce facem la ecuația cu radical după ce scriem DVA?",
+    "intrebare": "Rezolvă: $\\frac{x}{x-1}=3$.",
     "variante": [
-      "logaritmarea",
-      "adunarea lui $\\sqrt{2}$",
-      "ridicarea ambelor părți la puterea a doua",
-      "derivarea ambelor părți"
+      "$x=-\\frac32$",
+      "$x=1$",
+      "$x=\\frac32$",
+      "$x=3$"
     ],
     "corect": 2
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-014",
     "tip": "simplu",
-    "intrebare": "Câte soluții are $\\sqrt{x}=-2$?",
+    "intrebare": "Rezolvă: $\\sqrt{x+2}=x$.",
     "variante": [
-      "soluția $x=4$",
-      "soluția $x=2$",
-      "nicio soluție (radicalul este $\\geq0$)",
-      "soluția $x=-4$"
+      "$x=-1$",
+      "$x=0$",
+      "$x=2$",
+      "$x=2$ și $x=-1$"
     ],
     "corect": 2
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-015",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\sqrt{x}=3$.",
+    "intrebare": "La $\\sqrt{x+2}=x$, de ce nu folosim $x=-1$?",
     "variante": [
-      "$x=9$",
-      "$x=3$",
-      "$x=6$",
-      "$x=\\sqrt{3}$"
+      "nu verifică ecuația inițială ($\\sqrt1\\neq-1$)",
+      "este prea mic",
+      "este zero",
+      "este irațional"
     ],
     "corect": 0
   },
   {
     "id": "ecuatii-rationale-si-cu-radicali-016",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\sqrt{x+1}=2$.",
+    "intrebare": "Ce înseamnă DVA?",
     "variante": [
-      "$x=1$",
-      "$x=4$",
-      "$x=5$",
-      "$x=3$"
+      "derivata valorilor absolute",
+      "diferența a două valori",
+      "domeniul variabilei absolute",
+      "domeniul valorilor admisibile"
     ],
     "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-017",
-    "tip": "simplu",
-    "intrebare": "Ce condiție în plus apare la $\\sqrt{f}=g$?",
-    "variante": [
-      "$g=0$",
-      "$g\\geq0$",
-      "$g\\leq0$",
-      "$g\\neq0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-018",
-    "tip": "simplu",
-    "intrebare": "Ce rezultă din $\\sqrt{f}=\\sqrt{g}$?",
-    "variante": [
-      "$f=\\sqrt{g}$",
-      "$f+g=0$",
-      "$f=g$ (cu $f\\geq0$)",
-      "$f\\cdot g=1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-019",
-    "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\sqrt{x-5}$?",
-    "variante": [
-      "$x\\leq5$",
-      "$x\\neq5$",
-      "$x>5$",
-      "$x\\geq5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-020",
-    "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\sqrt{4-x}$?",
-    "variante": [
-      "$x\\geq-4$",
-      "$x\\geq4$",
-      "$x\\leq4$",
-      "$x<4$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-021",
-    "tip": "simplu",
-    "intrebare": "Rezolvă $\\sqrt{x}=x$.",
-    "variante": [
-      "$x=-1$ și $x=1$",
-      "$x=0$ și $x=1$",
-      "doar $x=0$",
-      "doar $x=1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-022",
-    "tip": "simplu",
-    "intrebare": "Ce trebuie să respecte soluțiile la final, la ecuația cu radical?",
-    "variante": [
-      "ridicate la pătrat din nou",
-      "verificate în DVA (sau în ecuația inițială)",
-      "adunate",
-      "ignorate"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "ecuatii-rationale-si-cu-radicali-023",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații despre DVA sunt corecte?",
-    "variante": [
-      "$\\sqrt{x-1}$: $x\\geq1$",
-      "$\\sqrt{x-1}$: $x\\leq1$",
-      "$\\frac{1}{x+3}$: $x\\neq3$",
-      "$\\frac{1}{x+3}$: $x\\neq-3$"
-    ],
-    "corect": [
-      0,
-      3
-    ]
   }
 ]

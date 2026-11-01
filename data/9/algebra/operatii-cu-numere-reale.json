@@ -2,184 +2,229 @@
   {
     "id": "operatii-cu-numere-reale-001",
     "tip": "simplu",
-    "intrebare": "Cum desfacem $a(b+c)$?",
+    "intrebare": "Cât este $\\frac12+\\frac13$?",
     "variante": [
-      "$ab\\cdot ac$",
-      "$ab+ac$",
-      "$ab+c$",
-      "$a+bc$"
+      "$\\frac16$",
+      "$\\frac56$",
+      "$\\frac25$",
+      "$\\frac23$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-002",
     "tip": "simplu",
-    "intrebare": "Cât este $(a+b)^2$?",
+    "intrebare": "Cât este $\\frac12-\\frac14$?",
     "variante": [
-      "$a^2-2ab+b^2$",
-      "$a^2+b^2$",
-      "$a^2+ab+b^2$",
-      "$a^2+2ab+b^2$"
+      "$\\frac18$",
+      "$\\frac12$",
+      "$\\frac34$",
+      "$\\frac14$"
     ],
     "corect": 3
   },
   {
     "id": "operatii-cu-numere-reale-003",
     "tip": "simplu",
-    "intrebare": "Cât este $(a-b)^2$?",
+    "intrebare": "Cât este $\\frac23\\cdot\\frac34$?",
     "variante": [
-      "$a^2-2ab+b^2$",
-      "$a^2+2ab+b^2$",
-      "$a^2-ab+b^2$",
-      "$a^2-b^2$"
+      "$\\frac12$",
+      "$\\frac98$",
+      "$\\frac67$",
+      "$\\frac57$"
     ],
     "corect": 0
   },
   {
     "id": "operatii-cu-numere-reale-004",
     "tip": "simplu",
-    "intrebare": "Cum descompunem $a^2-b^2$?",
+    "intrebare": "Cât este $\\frac34:\\frac32$?",
     "variante": [
-      "$(a-b)(a-b)$",
-      "$(a+b)^2$",
-      "$(a-b)(a+b)$",
-      "$(a-b)^2$"
+      "$\\frac14$",
+      "$2$",
+      "$\\frac12$",
+      "$\\frac98$"
     ],
     "corect": 2
   },
   {
     "id": "operatii-cu-numere-reale-005",
     "tip": "simplu",
-    "intrebare": "Cum comparăm două numere $a$ și $b$?",
+    "intrebare": "Cât este $0{,}5+0{,}25$?",
     "variante": [
-      "produsul $a\\cdot b$",
-      "diferența $a-b$ și îi studiem semnul",
-      "câtul $a:b$ mereu",
-      "suma $a+b$"
+      "$0{,}55$",
+      "$0{,}75$",
+      "$0{,}7$",
+      "$0{,}3$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-006",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă dacă $a-b<0$?",
+    "intrebare": "Cât este $5\\cdot(-3)$?",
     "variante": [
-      "$a>b$",
-      "$a<b$",
-      "nu putem compara",
-      "$a=b$"
+      "$15$",
+      "$-15$",
+      "$-8$",
+      "$-2$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-007",
     "tip": "simplu",
-    "intrebare": "La numere pozitive, $a<b$ înseamnă același lucru cu:",
+    "intrebare": "Cât este $(-4)\\cdot(-2)$?",
     "variante": [
-      "$a^2>b^2$",
-      "$a^2<b^2$",
-      "$a+b<0$",
-      "$a^2=b^2$"
+      "$-8$",
+      "$8$",
+      "$-6$",
+      "$6$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-008",
     "tip": "simplu",
-    "intrebare": "Compară $3\\sqrt2$ și $2\\sqrt5$ (la pătrat: $18$ și $20$).",
+    "intrebare": "Cât este $(-8):(-2)$?",
     "variante": [
-      "$3\\sqrt2=2\\sqrt5$",
-      "$3\\sqrt2<2\\sqrt5$",
-      "$3\\sqrt2>2\\sqrt5$",
-      "$3\\sqrt2+2\\sqrt5=38$"
+      "$16$",
+      "$4$",
+      "$-4$",
+      "$-10$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-009",
     "tip": "simplu",
-    "intrebare": "Bagă $3$ sub radical: $3\\sqrt2=?$",
+    "intrebare": "Cât este $-3+7$?",
     "variante": [
-      "$\\sqrt{11}$",
-      "$\\sqrt{9}$",
-      "$\\sqrt{18}$",
-      "$\\sqrt6$"
+      "$10$",
+      "$-10$",
+      "$4$",
+      "$-4$"
     ],
     "corect": 2
   },
   {
     "id": "operatii-cu-numere-reale-010",
     "tip": "simplu",
-    "intrebare": "Scoate factorul de sub radical: $\\sqrt{50}=?$",
+    "intrebare": "Cât este $5-9$?",
     "variante": [
-      "$2\\sqrt5$",
-      "$10\\sqrt5$",
-      "$25\\sqrt2$",
-      "$5\\sqrt2$"
+      "$14$",
+      "$-14$",
+      "$4$",
+      "$-4$"
     ],
     "corect": 3
   },
   {
     "id": "operatii-cu-numere-reale-011",
     "tip": "simplu",
-    "intrebare": "În ce ordine facem operațiile?",
+    "intrebare": "Desfă paranteza: $2(x+3)=$",
     "variante": [
-      "de la stânga la dreapta, fără excepții",
-      "puteri → paranteze → adunări → înmulțiri",
-      "adunări și scăderi → înmulțiri → puteri → paranteze",
-      "paranteze → puteri → înmulțiri și împărțiri → adunări și scăderi"
+      "$2x+5$",
+      "$2x+3$",
+      "$x+6$",
+      "$2x+6$"
     ],
     "corect": 3
   },
   {
     "id": "operatii-cu-numere-reale-012",
     "tip": "simplu",
-    "intrebare": "Ce semn are produsul a două numere cu semne diferite?",
+    "intrebare": "Desfă paranteza: $-(a-b)=$",
     "variante": [
-      "negativ",
-      "depinde de modulele lor",
-      "zero",
-      "pozitiv"
+      "$-a+b$",
+      "$a+b$",
+      "$a-b$",
+      "$-a-b$"
     ],
     "corect": 0
   },
   {
     "id": "operatii-cu-numere-reale-013",
     "tip": "simplu",
-    "intrebare": "Cât este $-(a-b)$?",
+    "intrebare": "Cât este $10\\%$ din $50$?",
     "variante": [
-      "$-a+b$",
-      "$a-b$",
-      "$-a-b$",
-      "$a+b$"
+      "$5$",
+      "$0{,}5$",
+      "$10$",
+      "$15$"
     ],
     "corect": 0
   },
   {
     "id": "operatii-cu-numere-reale-014",
     "tip": "simplu",
-    "intrebare": "Desfă $(x+3)^2$.",
+    "intrebare": "Cât este $20\\%$ din $60$?",
     "variante": [
-      "$x^2+9$",
-      "$x^2+6x+9$",
-      "$x^2+3x+9$",
-      "$x^2+6x+6$"
+      "$20$",
+      "$12$",
+      "$3$",
+      "$6$"
     ],
     "corect": 1
   },
   {
     "id": "operatii-cu-numere-reale-015",
-    "tip": "multiplu",
-    "intrebare": "Care aproximări sunt corecte?",
+    "tip": "simplu",
+    "intrebare": "Cât este $2+3\\cdot4$?",
     "variante": [
-      "$\\sqrt5\\approx2{,}24$",
-      "$\\sqrt2\\approx2{,}24$",
-      "$\\sqrt2\\approx1{,}41$",
-      "$\\sqrt3\\approx1{,}41$"
+      "$20$",
+      "$9$",
+      "$14$",
+      "$24$"
     ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 2
+  },
+  {
+    "id": "operatii-cu-numere-reale-016",
+    "tip": "simplu",
+    "intrebare": "Cât este $(2+3)\\cdot4$?",
+    "variante": [
+      "$14$",
+      "$9$",
+      "$24$",
+      "$20$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "operatii-cu-numere-reale-017",
+    "tip": "simplu",
+    "intrebare": "Cât este $(-3)^2$?",
+    "variante": [
+      "$6$",
+      "$-6$",
+      "$-9$",
+      "$9$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "operatii-cu-numere-reale-018",
+    "tip": "simplu",
+    "intrebare": "Cât este $-3^2$?",
+    "variante": [
+      "$9$",
+      "$-9$",
+      "$-6$",
+      "$6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-019",
+    "tip": "simplu",
+    "intrebare": "Cum se scrie $a(b+c)$ fără paranteză?",
+    "variante": [
+      "$ab+c$",
+      "$a+bc$",
+      "$ab+ac$",
+      "$ab\\cdot ac$"
+    ],
+    "corect": 2
   }
 ]

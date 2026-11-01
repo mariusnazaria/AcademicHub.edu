@@ -2,181 +2,217 @@
   {
     "id": "fractii-algebrice-001",
     "tip": "simplu",
-    "intrebare": "Cum arată o fracție algebrică?",
+    "intrebare": "Pentru ce $x$ există fracția $\\frac{x}{x-2}$?",
     "variante": [
-      "$\\frac{A(x)}{B(x)}$ cu $B(x)\\neq0$",
-      "$A(x)+B(x)$",
-      "$\\frac{A(x)}{B(x)}$ cu $A(x)\\neq0$",
-      "$A(x)\\cdot B(x)$"
+      "$x\\neq2$",
+      "$x>2$",
+      "$x\\neq0$",
+      "$x=2$"
     ],
     "corect": 0
   },
   {
     "id": "fractii-algebrice-002",
     "tip": "simplu",
-    "intrebare": "Ce este DVA (valorile permise)?",
+    "intrebare": "Pentru ce $x$ există fracția $\\frac{1}{x+3}$?",
     "variante": [
-      "valorile pentru care numărătorul este $0$",
-      "toate numerele întregi",
-      "valorile permise ale lui $x$, adică numitorii $\\neq0$",
-      "valorile pentru care fracția este egală cu $1$"
+      "$x\\neq3$",
+      "$x=-3$",
+      "$x\\neq-3$",
+      "$x\\neq0$"
     ],
     "corect": 2
   },
   {
     "id": "fractii-algebrice-003",
     "tip": "simplu",
-    "intrebare": "Cum simplificăm o fracție algebrică?",
+    "intrebare": "Pentru ce $x$ există fracția $\\frac{5}{2x-4}$?",
     "variante": [
-      "adunarea numitorilor",
-      "înmulțirea cu $0$",
-      "descompunerea în factori și reducerea factorilor comuni",
-      "reducerea termenilor comuni"
+      "$x\\neq-2$",
+      "$x\\neq0$",
+      "$x\\neq2$",
+      "$x\\neq4$"
     ],
     "corect": 2
   },
   {
     "id": "fractii-algebrice-004",
     "tip": "simplu",
-    "intrebare": "Simplifică $\\frac{x^2-9}{x+3}$.",
+    "intrebare": "Condiția de existență a unei fracții cere ca:",
     "variante": [
-      "$x+3$",
-      "$x-9$",
-      "$x^2-3$",
-      "$x-3$"
+      "numărătorul să fie diferit de $0$",
+      "numitorul să fie pozitiv",
+      "numitorul să fie $0$",
+      "numitorul să fie diferit de $0$"
     ],
     "corect": 3
   },
   {
     "id": "fractii-algebrice-005",
     "tip": "simplu",
-    "intrebare": "Cum amplificăm o fracție ($c\\neq0$)?",
+    "intrebare": "Cât este $\\frac{x^2-4}{x-2}$ (pentru $x\\neq2$)?",
     "variante": [
-      "$\\frac{a\\cdot c}{b\\cdot c}$",
-      "$\\frac{a+c}{b+c}$",
-      "$\\frac{a\\cdot c}{b}$",
-      "$\\frac{a-c}{b-c}$"
+      "$x+2$",
+      "$x-2$",
+      "$x^2$",
+      "$x+4$"
     ],
     "corect": 0
   },
   {
     "id": "fractii-algebrice-006",
     "tip": "simplu",
-    "intrebare": "Cât este $\\frac ac+\\frac bc$?",
+    "intrebare": "Cât este $\\frac{x^2-9}{x+3}$ (pentru $x\\neq-3$)?",
     "variante": [
-      "$\\frac{ab}{c}$",
-      "$\\frac{a+b}{c^2}$",
-      "$\\frac{a+b}{c}$",
-      "$\\frac{a+b}{2c}$"
+      "$x^2$",
+      "$x-9$",
+      "$x-3$",
+      "$x+3$"
     ],
     "corect": 2
   },
   {
     "id": "fractii-algebrice-007",
     "tip": "simplu",
-    "intrebare": "Cât este $\\frac ab\\cdot\\frac cd$?",
+    "intrebare": "Cât este $\\frac{2x}{4x}$ (pentru $x\\neq0$)?",
     "variante": [
-      "$\\frac{a+c}{b+d}$",
-      "$\\frac{a\\cdot c}{b+d}$",
-      "$\\frac{a\\cdot d}{b\\cdot c}$",
-      "$\\frac{a\\cdot c}{b\\cdot d}$"
+      "$\\frac14$",
+      "$2x$",
+      "$2$",
+      "$\\frac12$"
     ],
     "corect": 3
   },
   {
     "id": "fractii-algebrice-008",
     "tip": "simplu",
-    "intrebare": "Cât este $\\frac ab:\\frac cd$?",
+    "intrebare": "Cât este $\\frac{ab}{a}$ (pentru $a\\neq0$)?",
     "variante": [
-      "$\\frac ab\\cdot\\frac dc$",
-      "$\\frac ab\\cdot\\frac cd$",
-      "$\\frac{a:c}{b:d}\\cdot\\frac bd$",
-      "$\\frac ab:\\frac dc$"
+      "$b$",
+      "$a$",
+      "$1$",
+      "$ab$"
     ],
     "corect": 0
   },
   {
     "id": "fractii-algebrice-009",
     "tip": "simplu",
-    "intrebare": "Care simplificare este greșită?",
+    "intrebare": "Cât este $\\frac{3x}{x^2}$ (pentru $x\\neq0$)?",
     "variante": [
-      "$\\frac{x+3}{3}=x+1$",
-      "$\\frac{2x}{2y}=\\frac xy$",
-      "$\\frac{3x+6}{3}=x+2$",
-      "$\\frac{x^2-9}{x+3}=x-3$"
+      "$\\frac3x$",
+      "$3x$",
+      "$\\frac{x}{3}$",
+      "$3$"
     ],
     "corect": 0
   },
   {
     "id": "fractii-algebrice-010",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii la adunarea fracțiilor algebrice?",
+    "intrebare": "Cât este $\\frac{x^2+2x}{x}$ (pentru $x\\neq0$)?",
     "variante": [
-      "simplificăm termenii → adunăm",
-      "descompunem numitorii → numitor comun → amplificăm → adunăm numărătorii și simplificăm",
-      "adunăm numitorii → adunăm numărătorii",
-      "amplificăm → descompunem → adunăm numitorii"
+      "$x+1$",
+      "$x+2$",
+      "$x^2+2$",
+      "$2x$"
     ],
     "corect": 1
   },
   {
     "id": "fractii-algebrice-011",
     "tip": "simplu",
-    "intrebare": "Calculează $\\frac{1}{x-1}+\\frac{1}{x+1}$.",
+    "intrebare": "Cât este $\\frac{x+1}{x+1}$ (pentru $x\\neq-1$)?",
     "variante": [
-      "$\\frac{2x}{x^2+1}$",
-      "$\\frac{2}{2x}$",
-      "$\\frac{2}{x^2-1}$",
-      "$\\frac{2x}{x^2-1}$"
+      "$2$",
+      "$x+1$",
+      "$0$",
+      "$1$"
     ],
     "corect": 3
   },
   {
     "id": "fractii-algebrice-012",
     "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{1}{x-2}$?",
+    "intrebare": "Cât este $\\frac{a}{c}+\\frac{b}{c}$?",
     "variante": [
-      "$x>2$",
-      "$x\\neq2$",
-      "$x\\neq0$",
-      "$x\\neq-2$"
+      "$\\frac{ab}{c}$",
+      "$\\frac{a+b}{c}$",
+      "$\\frac{a+b}{c^2}$",
+      "$\\frac{a+b}{2c}$"
     ],
     "corect": 1
   },
   {
     "id": "fractii-algebrice-013",
     "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{1}{x^2-9}$?",
+    "intrebare": "Cât este $\\frac1x+\\frac1y$?",
     "variante": [
-      "$x\\neq\\pm3$",
-      "$x\\neq3$",
-      "$x\\neq0$",
-      "$x\\neq9$"
+      "$\\frac{x+y}{xy}$",
+      "$\\frac{2}{x+y}$",
+      "$\\frac{xy}{x+y}$",
+      "$\\frac{1}{x+y}$"
     ],
     "corect": 0
   },
   {
     "id": "fractii-algebrice-014",
     "tip": "simplu",
-    "intrebare": "Ce facem mereu primul la fracții algebrice?",
+    "intrebare": "Cât este $\\frac12+\\frac1x$?",
     "variante": [
-      "înmulțim cu numitorul",
-      "stabilim DVA (numitorul $\\neq0$)",
-      "simplificăm termenii",
-      "aducem la numărător comun"
+      "$\\frac{x+1}{2x}$",
+      "$\\frac{x+2}{2x}$",
+      "$\\frac{3}{2x}$",
+      "$\\frac{2}{x+2}$"
     ],
     "corect": 1
   },
   {
     "id": "fractii-algebrice-015",
     "tip": "simplu",
-    "intrebare": "Care este DVA pentru $\\frac{x^2-9}{x+3}$?",
+    "intrebare": "Cât este $\\frac{x}{2}\\cdot\\frac{4}{x}$ (pentru $x\\neq0$)?",
     "variante": [
-      "$x\\neq-3$",
-      "$x\\in\\mathbb{R}$",
-      "$x\\neq3$",
-      "$x\\neq\\pm3$"
+      "$2$",
+      "$x^2$",
+      "$8$",
+      "$2x$"
     ],
     "corect": 0
+  },
+  {
+    "id": "fractii-algebrice-016",
+    "tip": "simplu",
+    "intrebare": "Cât este $\\frac{x}{3}:\\frac{x}{6}$ (pentru $x\\neq0$)?",
+    "variante": [
+      "$2$",
+      "$\\frac{1}{18}$",
+      "$18$",
+      "$\\frac12$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "fractii-algebrice-017",
+    "tip": "simplu",
+    "intrebare": "Primul pas la simplificarea unei fracții cu polinoame:",
+    "variante": [
+      "descompunem în factori numărătorul și numitorul",
+      "„tăiem” termenii",
+      "ridicăm totul la pătrat",
+      "adunăm numărătorul cu numitorul"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "fractii-algebrice-018",
+    "tip": "simplu",
+    "intrebare": "Putem simplifica $\\frac{x+2}{x}$ cu $x$?",
+    "variante": [
+      "da, rezultă $2$",
+      "da, rezultă $\\frac12$",
+      "nu, simplificăm doar factori, nu termeni",
+      "da, rezultă $1+2$"
+    ],
+    "corect": 2
   }
 ]

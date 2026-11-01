@@ -2,318 +2,217 @@
   {
     "id": "relatii-metrice-in-triunghi-001",
     "tip": "simplu",
-    "intrebare": "Care este teorema catetei? ($A=90^\\circ$, $AD\\perp BC$): $AC^2=?$",
+    "intrebare": "Cum se scrie teorema sinusurilor?",
     "variante": [
-      "$BC\\cdot BD$",
-      "$BC\\cdot CD$",
-      "$BD\\cdot DC$",
-      "$AD^2$"
+      "$\\frac{a}{\\cos A}=2R$",
+      "$\\frac{a}{\\sin A}=2R$",
+      "$a\\sin A=2R$",
+      "$\\frac{a}{\\sin A}=R$"
     ],
     "corect": 1
   },
   {
     "id": "relatii-metrice-in-triunghi-002",
     "tip": "simplu",
-    "intrebare": "Care este teorema înălțimii? ($A=90^\\circ$, $AD\\perp BC$): $AD^2=?$",
+    "intrebare": "Cum se scrie teorema cosinusului?",
     "variante": [
-      "$AB\\cdot AC$",
-      "$BD\\cdot DC$",
-      "$BD+DC$",
-      "$BC\\cdot BD$"
+      "$a^2=b^2+c^2-2bc\\sin A$",
+      "$a^2=b^2+c^2-2bc\\cos A$",
+      "$a=b+c-2\\cos A$",
+      "$a^2=b^2+c^2+2bc\\cos A$"
     ],
     "corect": 1
   },
   {
     "id": "relatii-metrice-in-triunghi-003",
     "tip": "simplu",
-    "intrebare": "Care este teorema lui Pitagora? ($A=90^\\circ$): $BC^2=?$",
+    "intrebare": "Ce devine teorema cosinusului când $A=90^\\circ$?",
     "variante": [
-      "$AB^2+AC^2$",
-      "$(AB+AC)^2$",
-      "$AB^2-AC^2$",
-      "$AB\\cdot AC$"
+      "teorema lui Pitagora",
+      "teorema bisectoarei",
+      "teorema sinusurilor",
+      "teorema înălțimii"
     ],
     "corect": 0
   },
   {
     "id": "relatii-metrice-in-triunghi-004",
     "tip": "simplu",
-    "intrebare": "Ce spune reciproca teoremei lui Pitagora? (dacă $BC^2=AB^2+AC^2$)",
+    "intrebare": "Triunghi cu $A=60^\\circ$ și $b=c=2$. Cât este $a$?",
     "variante": [
-      "$\\triangle ABC$ este echilateral",
-      "$\\triangle ABC$ este isoscel",
-      "$\\triangle ABC$ este obtuzunghic",
-      "$\\triangle ABC$ este dreptunghic în $A$"
+      "$\\sqrt{12}$",
+      "$4$",
+      "$\\sqrt{2}$",
+      "$2$"
     ],
     "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-005",
     "tip": "simplu",
-    "intrebare": "Care este un triplet pitagoreic?",
+    "intrebare": "Triunghi cu $a=5$ și $\\sin A=\\frac12$. Cât este $R$?",
     "variante": [
-      "$3,\\ 5,\\ 7$",
-      "$2,\\ 3,\\ 4$",
-      "$3,\\ 4,\\ 5$",
-      "$4,\\ 5,\\ 6$"
+      "$\\frac{5}{4}$",
+      "$2{,}5$",
+      "$5$",
+      "$10$"
     ],
     "corect": 2
   },
   {
     "id": "relatii-metrice-in-triunghi-006",
     "tip": "simplu",
-    "intrebare": "Care este un triplet pitagoreic?",
+    "intrebare": "Cât este $\\cos90^\\circ$?",
     "variante": [
-      "$5,\\ 12,\\ 13$",
-      "$6,\\ 12,\\ 13$",
-      "$5,\\ 12,\\ 14$",
-      "$5,\\ 11,\\ 13$"
+      "$0$",
+      "$-1$",
+      "$\\frac12$",
+      "$1$"
     ],
     "corect": 0
   },
   {
     "id": "relatii-metrice-in-triunghi-007",
     "tip": "simplu",
-    "intrebare": "Cât este raportul din teorema sinusurilor? $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=?$",
+    "intrebare": "Triunghi dreptunghic cu catetele $3$ și $4$. Cât este înălțimea spre ipotenuză?",
     "variante": [
-      "$R$",
-      "$2R$",
-      "$\\frac{R}{2}$",
-      "$R^2$"
+      "$3{,}5$",
+      "$5$",
+      "$2{,}4$",
+      "$2$"
     ],
-    "corect": 1
+    "corect": 2
   },
   {
     "id": "relatii-metrice-in-triunghi-008",
     "tip": "simplu",
-    "intrebare": "Cât este $\\sin 30^\\circ$?",
+    "intrebare": "Cum se calculează înălțimea spre ipotenuză?",
     "variante": [
-      "$1$",
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$",
-      "$\\frac{1}{2}$"
+      "$h=\\frac{ip}{2}$",
+      "$h=\\frac{c_1\\cdot c_2}{ip}$",
+      "$h=c_1\\cdot c_2$",
+      "$h=\\frac{c_1+c_2}{ip}$"
     ],
-    "corect": 3
+    "corect": 1
   },
   {
     "id": "relatii-metrice-in-triunghi-009",
     "tip": "simplu",
-    "intrebare": "Cât este $\\sin 45^\\circ$?",
+    "intrebare": "Teorema catetei: $c^2=$",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{2}}{3}$",
-      "$\\frac{\\sqrt{2}}{2}$"
+      "$ip+p_c$",
+      "$ip\\cdot p_c$ (proiecția catetei pe ipotenuză)",
+      "$\\frac{ip}{p_c}$",
+      "$p_c^2$"
     ],
-    "corect": 3
+    "corect": 1
   },
   {
     "id": "relatii-metrice-in-triunghi-010",
     "tip": "simplu",
-    "intrebare": "Cât este $\\sin 60^\\circ$?",
+    "intrebare": "Cât este mediana spre ipotenuză în triunghiul dreptunghic?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$",
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$\\frac{1}{2}$"
+      "dublul ipotenuzei",
+      "o treime din ipotenuză",
+      "ipotenuza",
+      "jumătate din ipotenuză"
     ],
-    "corect": 0
+    "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-011",
     "tip": "simplu",
-    "intrebare": "Care este teorema cosinusului? $a^2=?$",
+    "intrebare": "Cum se calculează $\\sin\\alpha$ în triunghiul dreptunghic?",
     "variante": [
-      "$b^2+c^2-2bc\\cos A$",
-      "$b^2+c^2+2bc\\cos A$",
-      "$b^2-c^2-2bc\\cos A$",
-      "$b^2+c^2-2bc\\sin A$"
+      "cateta opusă $/$ cateta alăturată",
+      "cateta alăturată $/$ ipotenuză",
+      "ipotenuză $/$ cateta opusă",
+      "cateta opusă $/$ ipotenuză"
     ],
-    "corect": 0
+    "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-012",
     "tip": "simplu",
-    "intrebare": "Cum aflăm $\\cos A$ din teorema cosinusului?",
+    "intrebare": "Cum se calculează $\\operatorname{tg}\\alpha$ în triunghiul dreptunghic?",
     "variante": [
-      "$\\frac{a^2+b^2-c^2}{2bc}$",
-      "$\\frac{b^2+c^2+a^2}{2bc}$",
-      "$\\frac{b^2+c^2-a^2}{bc}$",
-      "$\\frac{b^2+c^2-a^2}{2bc}$"
+      "cateta opusă $/$ cateta alăturată",
+      "cateta alăturată $/$ ipotenuză",
+      "ipotenuză $/$ cateta",
+      "cateta opusă $/$ ipotenuză"
     ],
-    "corect": 3
+    "corect": 0
   },
   {
     "id": "relatii-metrice-in-triunghi-013",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos 60^\\circ$?",
+    "intrebare": "Cât este $\\sin30^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$0$",
-      "$-\\frac{1}{2}$",
-      "$\\frac{1}{2}$"
+      "$\\frac12$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$1$",
+      "$\\frac{\\sqrt2}{2}$"
     ],
-    "corect": 3
+    "corect": 0
   },
   {
     "id": "relatii-metrice-in-triunghi-014",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos 120^\\circ$?",
+    "intrebare": "Cât este $\\cos60^\\circ$?",
     "variante": [
-      "$\\frac{1}{2}$",
-      "$-\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac{\\sqrt2}{2}$",
       "$0$",
-      "$-\\frac{1}{2}$"
+      "$\\frac12$"
     ],
     "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-015",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos 90^\\circ$?",
+    "intrebare": "Paralelogram cu laturile $3$ și $4$. Cât este $d_1^2+d_2^2$?",
     "variante": [
-      "$0$",
-      "$\\frac{1}{2}$",
-      "$-1$",
-      "$1$"
+      "$14$",
+      "$49$",
+      "$25$",
+      "$50$"
     ],
-    "corect": 0
+    "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-016",
     "tip": "simplu",
-    "intrebare": "În ce se transformă teorema cosinusului când $A=90^\\circ$?",
+    "intrebare": "Cum se calculează $d_1^2+d_2^2$ la paralelogram?",
     "variante": [
-      "teorema înălțimii",
-      "teorema lui Thales",
-      "teorema bisectoarei",
-      "teorema lui Pitagora"
+      "$a^2+b^2$",
+      "$(a+b)^2$",
+      "$4ab$",
+      "$2(a^2+b^2)$"
     ],
     "corect": 3
   },
   {
     "id": "relatii-metrice-in-triunghi-017",
     "tip": "simplu",
-    "intrebare": "Care este Pitagora generalizată pentru unghi $A$ ascuțit? ($p$ = proiecția lui $AB$ pe $AC$)",
+    "intrebare": "Cât este lungimea medianei $m_a$ în funcție de laturi?",
     "variante": [
-      "$AB^2+AC^2-2\\cdot AC\\cdot p$",
-      "$AB^2+AC^2$",
-      "$AB^2-AC^2-2\\cdot AC\\cdot p$",
-      "$AB^2+AC^2+2\\cdot AC\\cdot p$"
+      "$m_a=\\frac{\\sqrt{2b^2+2c^2-a^2}}{2}$",
+      "$m_a=\\sqrt{b^2+c^2}$",
+      "$m_a=\\frac{a}{2}$",
+      "$m_a=\\frac{b+c}{2}$"
     ],
     "corect": 0
   },
   {
     "id": "relatii-metrice-in-triunghi-018",
     "tip": "simplu",
-    "intrebare": "Care este Pitagora generalizată pentru unghi $A$ obtuz?",
+    "intrebare": "Într-un triunghi, latura mai mare se opune:",
     "variante": [
-      "$AB^2+AC^2$",
-      "$AB^2+AC^2-2\\cdot AC\\cdot p$",
-      "$AB^2-AC^2+2\\cdot AC\\cdot p$",
-      "$AB^2+AC^2+2\\cdot AC\\cdot p$"
+      "oricărui unghi",
+      "unghiului drept",
+      "unghiului mai mic",
+      "unghiului mai mare"
     ],
     "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-019",
-    "tip": "simplu",
-    "intrebare": "Cum sunt unghiurile opuse ale unui patrulater inscriptibil?",
-    "variante": [
-      "complementare ($90^\\circ$)",
-      "congruente",
-      "egale cu $90^\\circ$",
-      "suplementare ($\\angle A+\\angle C=180^\\circ$)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-020",
-    "tip": "simplu",
-    "intrebare": "Ce condiție are un patrulater circumscriptibil (Pitot)?",
-    "variante": [
-      "$AB+BC=CD$",
-      "$AB+CD=BC+AD$",
-      "$AB\\cdot CD=BC\\cdot AD$",
-      "$AB^2+CD^2=BC^2+AD^2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-021",
-    "tip": "multiplu",
-    "intrebare": "Care sunt criteriile de asemănare a triunghiurilor?",
-    "variante": [
-      "LLU",
-      "LUL",
-      "UU",
-      "LLL"
-    ],
-    "corect": [
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-022",
-    "tip": "multiplu",
-    "intrebare": "Ce știm despre triunghiuri asemenea cu raportul $k$?",
-    "variante": [
-      "perimetrele sunt în raport $k^2$",
-      "perimetrele sunt în raport $k$",
-      "ariile sunt în raport $k$",
-      "ariile sunt în raport $k^2$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-023",
-    "tip": "multiplu",
-    "intrebare": "Care sunt triplete pitagoreice?",
-    "variante": [
-      "$5,12,13$",
-      "$3,4,5$",
-      "$4,5,6$",
-      "$8,15,17$"
-    ],
-    "corect": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-024",
-    "tip": "multiplu",
-    "intrebare": "Care valori sunt corecte?",
-    "variante": [
-      "$\\cos 60^\\circ=\\frac12$",
-      "$\\sin 45^\\circ=\\frac12$",
-      "$\\sin 30^\\circ=\\frac12$",
-      "$\\cos 90^\\circ=1$"
-    ],
-    "corect": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "relatii-metrice-in-triunghi-025",
-    "tip": "multiplu",
-    "intrebare": "Când este un patrulater inscriptibil? (condiții echivalente)",
-    "variante": [
-      "$\\angle A+\\angle C=180^\\circ$",
-      "$\\angle B+\\angle D=180^\\circ$",
-      "diagonalele sunt egale mereu",
-      "$AB+CD=BC+AD$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
   }
 ]

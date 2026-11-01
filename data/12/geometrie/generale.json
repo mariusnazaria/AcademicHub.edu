@@ -1,301 +1,194 @@
 [
   {
-    "id": "g12-001",
+    "id": "generale-001",
     "tip": "simplu",
-    "intrebare": "Cum se numește triunghiul cu toate laturile egale?",
+    "intrebare": "Care este suma unghiurilor unui triunghi?",
     "variante": [
-      "Isoscel",
-      "Dreptunghic",
-      "Echilateral",
-      "Scalen"
+      "$270^\\circ$",
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$360^\\circ$"
     ],
-    "corect": 2,
-    "explicatie": "Triunghiul cu toate cele trei laturi egale se numește echilateral și are toate unghiurile de 60°."
+    "corect": 1
   },
   {
-    "id": "g12-002",
+    "id": "generale-002",
     "tip": "simplu",
-    "intrebare": "Câte grade are un unghi obtuz?",
+    "intrebare": "Cum se scrie teorema lui Pitagora?",
     "variante": [
-      "Exact 90°",
-      "Între 90° și 180°",
-      "Sub 90°",
-      "Exact 180°"
+      "$c=a+b$",
+      "$c^2=a^2+b^2$",
+      "$c=a^2+b^2$",
+      "$c^2=a^2-b^2$"
     ],
-    "corect": 1,
-    "explicatie": "Un unghi obtuz are măsura strict cuprinsă între 90° și 180°."
+    "corect": 1
   },
   {
-    "id": "g12-003",
+    "id": "generale-003",
     "tip": "simplu",
-    "intrebare": "Câte grade are suma unghiurilor unui triunghi?",
+    "intrebare": "Cât este diagonala pătratului cu latura $a$?",
     "variante": [
-      "90°",
-      "180°",
-      "270°",
-      "360°"
+      "$a\\sqrt3$",
+      "$a\\sqrt2$",
+      "$2a$",
+      "$a^2$"
     ],
-    "corect": 1,
-    "explicatie": "Suma măsurilor unghiurilor oricărui triunghi este întotdeauna 180°."
+    "corect": 1
   },
   {
-    "id": "g12-004",
+    "id": "generale-004",
     "tip": "simplu",
-    "intrebare": "Cum se numește segmentul care unește un vârf al triunghiului cu mijlocul laturii opuse?",
+    "intrebare": "Cât este înălțimea triunghiului echilateral cu latura $a$?",
     "variante": [
-      "Bisectoare",
-      "Mediană",
-      "Înălțime",
-      "Mediatoare"
+      "$\\frac{a\\sqrt2}{2}$",
+      "$a\\sqrt3$",
+      "$\\frac{a}{2}$",
+      "$\\frac{a\\sqrt3}{2}$"
     ],
-    "corect": 1,
-    "explicatie": "Mediana unește un vârf cu mijlocul laturii opuse."
+    "corect": 3
   },
   {
-    "id": "g12-005",
+    "id": "generale-005",
     "tip": "simplu",
-    "intrebare": "Cum se numește punctul de intersecție al medianelor unui triunghi?",
+    "intrebare": "Cât este aria triunghiului?",
     "variante": [
-      "Ortocentru",
-      "Centru de greutate",
-      "Incentru",
-      "Circumcentru"
+      "$b+h$",
+      "$\\frac{b+h}{2}$",
+      "$\\frac{b\\cdot h}{2}$",
+      "$b\\cdot h$"
     ],
-    "corect": 1,
-    "explicatie": "Cele trei mediane ale unui triunghi se intersectează în centrul de greutate."
+    "corect": 2
   },
   {
-    "id": "g12-006",
+    "id": "generale-006",
     "tip": "simplu",
-    "intrebare": "Ce fel de patrulater are toate laturile egale și toate unghiurile de 90°?",
+    "intrebare": "Cât este aria cercului?",
     "variante": [
-      "Romb",
-      "Trapez",
-      "Pătrat",
-      "Paralelogram"
+      "$2\\pi R^2$",
+      "$\\pi R^2$",
+      "$2\\pi R$",
+      "$\\pi R$"
     ],
-    "corect": 2,
-    "explicatie": "Pătratul este singurul patrulater cu toate laturile egale și toate unghiurile drepte."
+    "corect": 1
   },
   {
-    "id": "g12-007",
+    "id": "generale-007",
     "tip": "simplu",
-    "intrebare": "Câte grade are un unghi drept?",
+    "intrebare": "Cât este lungimea cercului?",
     "variante": [
-      "45°",
-      "60°",
-      "90°",
-      "180°"
+      "$2\\pi R$",
+      "$\\pi R$",
+      "$4\\pi R$",
+      "$\\pi R^2$"
     ],
-    "corect": 2,
-    "explicatie": "Unghiul drept are măsura de exact 90°."
+    "corect": 0
   },
   {
-    "id": "g12-008",
+    "id": "generale-008",
     "tip": "simplu",
-    "intrebare": "Cum se numesc două unghiuri a căror sumă este 180°?",
+    "intrebare": "Cât este volumul cubului cu muchia $a$?",
     "variante": [
-      "Complementare",
-      "Suplementare",
-      "Adiacente",
-      "Opuse la vârf"
+      "$6a^2$",
+      "$a^3$",
+      "$a^2$",
+      "$3a$"
     ],
-    "corect": 1,
-    "explicatie": "Două unghiuri sunt suplementare dacă suma măsurilor lor este 180°."
+    "corect": 1
   },
   {
-    "id": "g12-009",
+    "id": "generale-009",
     "tip": "simplu",
-    "intrebare": "Care este formula perimetrului unui cerc de rază r?",
+    "intrebare": "Cât este diagonala cubului cu muchia $a$?",
     "variante": [
-      "πr²",
-      "2πr",
-      "πd²",
-      "4r"
+      "$a\\sqrt3$",
+      "$a\\sqrt2$",
+      "$3a$",
+      "$2a$"
     ],
-    "corect": 1,
-    "explicatie": "Perimetrul (lungimea) cercului de rază r este 2πr."
+    "corect": 0
   },
   {
-    "id": "g12-010",
+    "id": "generale-010",
     "tip": "simplu",
-    "intrebare": "Cum se numește dreapta care intersectează un unghi în două părți egale?",
+    "intrebare": "Cum se calculează volumul prismei?",
     "variante": [
-      "Mediatoare",
-      "Mediană",
-      "Bisectoare",
-      "Înălțime"
+      "$\\frac{A_b\\cdot h}{3}$",
+      "$P_b\\cdot h$",
+      "$A_b\\cdot h$",
+      "$A_b+h$"
     ],
-    "corect": 2,
-    "explicatie": "Bisectoarea unui unghi îl împarte în două unghiuri congruente."
+    "corect": 2
   },
   {
-    "id": "g12-011",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt tipuri de triunghiuri clasificate după laturi?",
+    "id": "generale-011",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează volumul piramidei?",
     "variante": [
-      "Echilateral",
-      "Dreptunghic",
-      "Isoscel",
-      "Scalen"
+      "$\\frac{A_b\\cdot h}{2}$",
+      "$A_b\\cdot h$",
+      "$P_b\\cdot h$",
+      "$\\frac{A_b\\cdot h}{3}$"
     ],
-    "corect": [
-      0,
-      2,
-      3
-    ],
-    "explicatie": "După laturi, triunghiurile sunt echilaterale, isoscele sau scalene. Dreptunghic este o clasificare după unghiuri."
+    "corect": 3
   },
   {
-    "id": "g12-012",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele afirmații despre pătrat sunt adevărate?",
+    "id": "generale-012",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează volumul cilindrului?",
     "variante": [
-      "Are 4 laturi egale",
-      "Diagonalele sunt egale",
-      "Are unghiuri de 60°",
-      "Diagonalele se înjumătățesc"
+      "$\\pi R^2h$",
+      "$\\frac{\\pi R^2h}{3}$",
+      "$\\pi Rh$",
+      "$2\\pi Rh$"
     ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Pătratul are 4 laturi egale, diagonale egale care se înjumătățesc; unghiurile sale sunt de 90°, nu 60°."
+    "corect": 0
   },
   {
-    "id": "g12-013",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt unghiuri clasificate după măsură?",
+    "id": "generale-013",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează volumul conului?",
     "variante": [
-      "Ascuțit",
-      "Adiacent",
-      "Obtuz",
-      "Drept"
+      "$\\frac{\\pi Rh}{3}$",
+      "$\\frac{\\pi R^2h}{3}$",
+      "$\\frac{\\pi R^2g}{3}$",
+      "$\\pi R^2h$"
     ],
-    "corect": [
-      0,
-      2,
-      3
-    ],
-    "explicatie": "Ascuțit, obtuz și drept clasifică unghiurile după măsură. Adiacent descrie poziția a două unghiuri, nu măsura."
+    "corect": 1
   },
   {
-    "id": "g12-014",
-    "tip": "multiplu",
-    "intrebare": "Ce proprietăți are un triunghi isoscel?",
+    "id": "generale-014",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează volumul sferei?",
     "variante": [
-      "Are două laturi egale",
-      "Are toate unghiurile egale",
-      "Unghiurile de la bază sunt egale",
-      "Are un unghi de 90° obligatoriu"
+      "$\\frac{4\\pi R^3}{3}$",
+      "$\\frac{4\\pi R^2}{3}$",
+      "$4\\pi R^2$",
+      "$\\pi R^3$"
     ],
-    "corect": [
-      0,
-      2
-    ],
-    "explicatie": "Triunghiul isoscel are două laturi egale, iar unghiurile opuse acestora (de la bază) sunt egale. Nu are neapărat un unghi drept, iar toate unghiurile egale ar însemna echilateral."
+    "corect": 0
   },
   {
-    "id": "g12-015",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt linii importante într-un triunghi?",
+    "id": "generale-015",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează aria sferei?",
     "variante": [
-      "Mediană",
-      "Bisectoare",
-      "Diagonală",
-      "Înălțime"
+      "$\\pi R^2$",
+      "$4\\pi R^2$",
+      "$2\\pi R^2$",
+      "$\\frac{4\\pi R^3}{3}$"
     ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Mediana, bisectoarea și înălțimea sunt linii importante ale triunghiului. Diagonala este specifică patrulaterelor."
+    "corect": 1
   },
   {
-    "id": "g12-016",
-    "tip": "multiplu",
-    "intrebare": "Ce este adevărat despre un romb?",
+    "id": "generale-016",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează aria paralelogramului?",
     "variante": [
-      "Toate laturile sunt egale",
-      "Diagonalele sunt perpendiculare",
-      "Toate unghiurile sunt de 90°",
-      "Diagonalele se înjumătățesc"
+      "$b+h$",
+      "$b\\cdot h$",
+      "$2(b+h)$",
+      "$\\frac{b\\cdot h}{2}$"
     ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Rombul are toate laturile egale, diagonale perpendiculare care se înjumătățesc; unghiurile sale nu sunt neapărat de 90° (doar la pătrat, caz particular)."
-  },
-  {
-    "id": "g12-017",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt patrulatere?",
-    "variante": [
-      "Trapezul",
-      "Rombul",
-      "Triunghiul",
-      "Dreptunghiul"
-    ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Trapezul, rombul și dreptunghiul au 4 laturi. Triunghiul are doar 3 laturi."
-  },
-  {
-    "id": "g12-018",
-    "tip": "multiplu",
-    "intrebare": "Ce este adevărat despre un cerc?",
-    "variante": [
-      "Are un centru",
-      "Raza este jumătate din diametru",
-      "Are laturi",
-      "Diametrul trece prin centru"
-    ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Cercul are un centru, raza e jumătate din diametru, iar diametrul trece prin centru. Cercul nu are laturi."
-  },
-  {
-    "id": "g12-019",
-    "tip": "multiplu",
-    "intrebare": "Care dintre următoarele sunt puncte remarcabile ale triunghiului?",
-    "variante": [
-      "Centrul de greutate",
-      "Ortocentrul",
-      "Incentrul",
-      "Vertexul"
-    ],
-    "corect": [
-      0,
-      1,
-      2
-    ],
-    "explicatie": "Centrul de greutate, ortocentrul și incentrul sunt puncte remarcabile ale triunghiului. Vertexul este pur și simplu un vârf al triunghiului."
-  },
-  {
-    "id": "g12-020",
-    "tip": "multiplu",
-    "intrebare": "Ce este adevărat despre unghiurile opuse la vârf?",
-    "variante": [
-      "Sunt egale",
-      "Se formează la intersecția a două drepte",
-      "Sunt întotdeauna suplementare",
-      "Au aceeași măsură"
-    ],
-    "corect": [
-      0,
-      1,
-      3
-    ],
-    "explicatie": "Unghiurile opuse la vârf se formează la intersecția a două drepte și sunt întotdeauna egale (aceeași măsură). Nu sunt neapărat suplementare."
+    "corect": 1
   }
 ]

@@ -2,181 +2,244 @@
   {
     "id": "functia-ax-patrat-001",
     "tip": "simplu",
-    "intrebare": "Cum este parabola $f(x)=ax^2$ când $a>0$?",
+    "intrebare": "Ramurile parabolei $y=ax^2$ merg în sus când:",
     "variante": [
-      "este o dreaptă",
-      "cu față zâmbitoare și maxim în vârf",
-      "cu față tristă și maxim în vârf",
-      "cu față zâmbitoare și minim în vârf"
+      "$a=1$ doar",
+      "$a=0$",
+      "$a<0$",
+      "$a>0$"
     ],
     "corect": 3
   },
   {
     "id": "functia-ax-patrat-002",
     "tip": "simplu",
-    "intrebare": "Cum este parabola $f(x)=ax^2$ când $a<0$?",
+    "intrebare": "Ramurile parabolei $y=ax^2$ merg în jos când:",
     "variante": [
-      "este o dreaptă",
-      "cu față zâmbitoare și minim în vârf",
-      "cu față tristă și minim în vârf",
-      "cu față tristă și maxim în vârf"
+      "$a=-1$ doar",
+      "$a>0$",
+      "$a=0$",
+      "$a<0$"
     ],
     "corect": 3
   },
   {
     "id": "functia-ax-patrat-003",
     "tip": "simplu",
-    "intrebare": "Cum este parabola când $|a|$ este mare?",
+    "intrebare": "Parabola $y=-2x^2$ are ramurile:",
     "variante": [
-      "largă",
-      "orizontală",
-      "îngustă",
-      "o dreaptă"
+      "în sus",
+      "nu e parabolă",
+      "în jos",
+      "spre dreapta"
     ],
     "corect": 2
   },
   {
     "id": "functia-ax-patrat-004",
     "tip": "simplu",
-    "intrebare": "Cum este parabola când $|a|$ este mic?",
+    "intrebare": "Parabola $y=5x^2$ are ramurile:",
     "variante": [
-      "îngustă",
-      "o dreaptă",
-      "verticală",
-      "largă"
+      "în jos",
+      "spre dreapta",
+      "nu e parabolă",
+      "în sus"
     ],
     "corect": 3
   },
   {
     "id": "functia-ax-patrat-005",
     "tip": "simplu",
-    "intrebare": "Ce mulțime de valori are $ax^2$ când $a>0$?",
+    "intrebare": "Care este vârful parabolei $y=ax^2$?",
     "variante": [
-      "$(0;+\\infty)$",
-      "$[0;+\\infty)$",
-      "$(-\\infty;0]$",
-      "$\\mathbb{R}$"
+      "$(a;a)$",
+      "$(0;0)$",
+      "$(a;0)$",
+      "$(0;a)$"
     ],
     "corect": 1
   },
   {
     "id": "functia-ax-patrat-006",
     "tip": "simplu",
-    "intrebare": "Ce mulțime de valori are $ax^2$ când $a<0$?",
+    "intrebare": "Care parabolă este mai îngustă decât $y=x^2$?",
     "variante": [
-      "$(-\\infty;0)$",
-      "$\\mathbb{R}$",
-      "$(-\\infty;0]$",
-      "$[0;+\\infty)$"
+      "$y=-\\frac13x^2$",
+      "$y=0{,}1x^2$",
+      "$y=3x^2$",
+      "$y=\\frac12x^2$"
     ],
     "corect": 2
   },
   {
     "id": "functia-ax-patrat-007",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $y=ax^2$?",
+    "intrebare": "Care parabolă este mai largă decât $y=x^2$?",
     "variante": [
-      "$(a;0)$, cu axa $Ox$",
-      "$O(0;0)$, cu axa de simetrie $Oy$",
-      "$(a;a)$",
-      "$(0;a)$, cu axa $Oy$"
+      "$y=2x^2$",
+      "$y=\\frac12x^2$",
+      "$y=5x^2$",
+      "$y=3x^2$"
     ],
     "corect": 1
   },
   {
     "id": "functia-ax-patrat-008",
     "tip": "simplu",
-    "intrebare": "Calculează $f(\\pm1)$ și $f(\\pm2)$ pentru $f(x)=2x^2$.",
+    "intrebare": "Cu cât $|a|$ este mai mare, parabola este:",
     "variante": [
-      "$2$ și $4$",
-      "$2$ și $8$",
-      "$1$ și $4$",
-      "$4$ și $16$"
+      "mai largă",
+      "mai îngustă",
+      "la fel",
+      "nu se schimbă"
     ],
     "corect": 1
   },
   {
     "id": "functia-ax-patrat-009",
     "tip": "simplu",
-    "intrebare": "Cum trasăm graficul lui $ax^2$?",
+    "intrebare": "Cât este $f(3)$ la $f(x)=2x^2$?",
     "variante": [
-      "alegem un singur $x$ → desenăm dreapta",
-      "alegem $x$ simetrice față de $0$ → calculăm $ax^2$ → așezăm punctele și unim cu o curbă",
-      "calculăm $\\Delta$ → aflăm zerourile → unim",
-      "alegem două puncte → unim cu rigla"
+      "$6$",
+      "$18$",
+      "$36$",
+      "$12$"
     ],
     "corect": 1
   },
   {
     "id": "functia-ax-patrat-010",
     "tip": "simplu",
-    "intrebare": "Care este valoarea extremă a lui $f(x)=-x^2$?",
+    "intrebare": "Cât este $f(2)$ la $f(x)=-x^2$?",
     "variante": [
-      "maximul $0$, atins pentru $x=0$",
-      "maximul $-1$",
-      "minimul $0$, atins pentru $x=0$",
-      "nu are valoare extremă"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "functia-ax-patrat-011",
-    "tip": "simplu",
-    "intrebare": "Care parabolă este mai îngustă?",
-    "variante": [
-      "$y=\\frac12x^2$",
-      "$y=3x^2$",
-      "$y=x^2$",
-      "toate la fel"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "functia-ax-patrat-012",
-    "tip": "simplu",
-    "intrebare": "Cum este parabola $f(x)=-\\frac12x^2$?",
-    "variante": [
-      "cu față zâmbitoare și îngustă",
-      "cu față zâmbitoare și largă",
-      "cu față tristă și largă",
-      "cu față tristă și îngustă"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "functia-ax-patrat-013",
-    "tip": "simplu",
-    "intrebare": "În ce puncte taie graficul lui $ax^2$ axele?",
-    "variante": [
-      "două puncte pe $Ox$",
-      "$(a;0)$",
-      "$O(0;0)$",
-      "$(0;a)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "functia-ax-patrat-014",
-    "tip": "simplu",
-    "intrebare": "Calculează $f(4)$ pentru $f(x)=\\frac12x^2$.",
-    "variante": [
-      "$8$",
-      "$16$",
+      "$-4$",
+      "$-2$",
       "$4$",
       "$2$"
     ],
     "corect": 0
   },
   {
-    "id": "functia-ax-patrat-015",
+    "id": "functia-ax-patrat-011",
     "tip": "simplu",
-    "intrebare": "Cum variază $f(x)=ax^2$ când $a<0$?",
+    "intrebare": "Cât este $f(1)$ la $f(x)=-3x^2$?",
     "variante": [
-      "crescătoare pe $\\mathbb{R}$",
-      "descrescătoare pe $(-\\infty;0]$ și crescătoare pe $[0;+\\infty)$",
-      "crescătoare pe $(-\\infty;0]$ și descrescătoare pe $[0;+\\infty)$",
-      "constantă"
+      "$9$",
+      "$-3$",
+      "$3$",
+      "$-9$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-012",
+    "tip": "simplu",
+    "intrebare": "Cât este $f(4)$ la $f(x)=\\frac12x^2$?",
+    "variante": [
+      "$2$",
+      "$4$",
+      "$8$",
+      "$16$"
     ],
     "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-013",
+    "tip": "simplu",
+    "intrebare": "Dacă $a>0$, valoarea cea mai mică a funcției $ax^2$ este:",
+    "variante": [
+      "nu există",
+      "$a$",
+      "$0$ (minim)",
+      "$0$ (maxim)"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-014",
+    "tip": "simplu",
+    "intrebare": "Dacă $a<0$, valoarea cea mai mare a funcției $ax^2$ este:",
+    "variante": [
+      "$0$ (maxim)",
+      "nu există",
+      "$0$ (minim)",
+      "$a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "functia-ax-patrat-015",
+    "tip": "simplu",
+    "intrebare": "Imaginea lui $y=-x^2$ este:",
+    "variante": [
+      "$\\mathbb{R}$",
+      "$[0;+\\infty)$",
+      "$(-\\infty;0]$",
+      "$[-1;+\\infty)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-016",
+    "tip": "simplu",
+    "intrebare": "Graficul lui $y=-x^2$ este simetricul lui $y=x^2$ față de:",
+    "variante": [
+      "origine",
+      "axa $Oy$",
+      "axa $Ox$",
+      "dreapta $y=x$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-017",
+    "tip": "simplu",
+    "intrebare": "Punctul $(2;8)$ aparține graficului lui $y=2x^2$?",
+    "variante": [
+      "nu, pentru că $2\\cdot2=4$",
+      "da, pentru că $2+8=10$",
+      "da, pentru că $2\\cdot4=8$",
+      "nu, pentru că $2\\cdot8=16$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-018",
+    "tip": "simplu",
+    "intrebare": "Punctul $(1;-2)$ aparține graficului lui:",
+    "variante": [
+      "$y=x^2$",
+      "$y=2x^2$",
+      "$y=-2x^2$",
+      "$y=-x^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-019",
+    "tip": "simplu",
+    "intrebare": "Axa de simetrie a parabolei $y=ax^2$ este:",
+    "variante": [
+      "axa $Ox$",
+      "axa $Oy$",
+      "dreapta $y=a$",
+      "dreapta $x=a$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-020",
+    "tip": "multiplu",
+    "intrebare": "Care parabole au ramurile în jos?",
+    "variante": [
+      "$y=-4x^2$",
+      "$y=x^2$",
+      "$y=-x^2$",
+      "$y=\\frac12x^2$"
+    ],
+    "corect": [
+      0,
+      2
+    ]
   }
 ]

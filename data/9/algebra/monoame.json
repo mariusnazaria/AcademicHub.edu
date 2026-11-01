@@ -2,36 +2,36 @@
   {
     "id": "monoame-001",
     "tip": "simplu",
-    "intrebare": "Cum arată un monom?",
+    "intrebare": "Care este coeficientul monomului $-4x^3$?",
     "variante": [
-      "parte literală $+$ coeficient",
-      "coeficient $\\cdot$ parte literală",
-      "sumă de doi coeficienți",
-      "doar o literă la o putere"
+      "$3$",
+      "$-4$",
+      "$4$",
+      "$-3$"
     ],
     "corect": 1
   },
   {
     "id": "monoame-002",
     "tip": "simplu",
-    "intrebare": "Ce grad are monomul $-5x^2y^3$?",
+    "intrebare": "Care este gradul monomului $5x^2y$?",
     "variante": [
-      "$-5$",
-      "$3$",
-      "$6$",
-      "$5$"
+      "$1$",
+      "$5$",
+      "$2$",
+      "$3$"
     ],
     "corect": 3
   },
   {
     "id": "monoame-003",
     "tip": "simplu",
-    "intrebare": "Cum aflăm gradul unui monom?",
+    "intrebare": "Care este gradul monomului $7x^3y^2$?",
     "variante": [
-      "coeficientul monomului",
-      "cel mai mare exponent dintre litere",
-      "suma exponenților din partea literală",
-      "numărul de litere"
+      "$3$",
+      "$6$",
+      "$5$",
+      "$2$"
     ],
     "corect": 2
   },
@@ -40,155 +40,170 @@
     "tip": "simplu",
     "intrebare": "Care monoame sunt asemenea?",
     "variante": [
-      "același grad, dar litere diferite",
-      "același coeficient",
-      "coeficienți opuși",
-      "aceeași parte literală"
+      "$3x$ și $3y$",
+      "$3x^2$ și $3x^3$",
+      "$x^2y$ și $xy^2$",
+      "$3x^2$ și $-7x^2$"
     ],
     "corect": 3
   },
   {
     "id": "monoame-005",
     "tip": "simplu",
-    "intrebare": "Care monom este asemenea cu $3xy^2$?",
+    "intrebare": "Cât este $3x^2+5x^2$?",
     "variante": [
-      "$3x^2y^2$",
-      "$3x^2y$",
-      "$-7xy^2$",
-      "$3xy$"
+      "$8x$",
+      "$8x^4$",
+      "$8x^2$",
+      "$15x^2$"
     ],
     "corect": 2
   },
   {
     "id": "monoame-006",
     "tip": "simplu",
-    "intrebare": "Cum scriem corect un monom (forma standard)?",
+    "intrebare": "Cât este $2x+3x$?",
     "variante": [
-      "primul, iar literele în ordine alfabetică, fiecare o singură dată",
-      "oriunde, literele în ordinea de la înmulțire",
-      "ultimul, literele în ordine inversă",
-      "primul, iar literele se repetă de câte ori apar"
+      "$5x$",
+      "$6x^2$",
+      "$5x^2$",
+      "$6x$"
     ],
     "corect": 0
   },
   {
     "id": "monoame-007",
     "tip": "simplu",
-    "intrebare": "Calculează $3x^2y+5x^2y$.",
+    "intrebare": "Cât este $2x\\cdot3x$?",
     "variante": [
-      "$15x^2y$",
-      "$8x^2y$",
-      "$8x^4y^2$",
-      "$8x^2y^2$"
+      "$6x$",
+      "$6x^2$",
+      "$5x^2$",
+      "$5x$"
     ],
     "corect": 1
   },
   {
     "id": "monoame-008",
     "tip": "simplu",
-    "intrebare": "Calculează $(2x^2)(3x^4)$.",
+    "intrebare": "Cât este $4x^3\\cdot2x^2$?",
     "variante": [
-      "$6x^8$",
-      "$6x^6$",
-      "$5x^8$",
-      "$5x^6$"
+      "$6x^5$",
+      "$8x^5$",
+      "$8x$",
+      "$8x^6$"
     ],
     "corect": 1
   },
   {
     "id": "monoame-009",
     "tip": "simplu",
-    "intrebare": "Calculează $(-2x^3)^2$.",
+    "intrebare": "Cât este $2x\\cdot3y$?",
     "variante": [
-      "$-4x^6$",
-      "$4x^6$",
-      "$-2x^6$",
-      "$4x^5$"
+      "$5xy$",
+      "$6xy$",
+      "$5x+y$",
+      "$6x+y$"
     ],
     "corect": 1
   },
   {
     "id": "monoame-010",
     "tip": "simplu",
-    "intrebare": "Calculează $12x^5:4x^2$.",
+    "intrebare": "Cât este $(2x)^3$?",
     "variante": [
-      "$8x^3$",
-      "$3x^2$",
-      "$3x^7$",
-      "$3x^3$"
+      "$6x^3$",
+      "$8x$",
+      "$2x^3$",
+      "$8x^3$"
     ],
     "corect": 3
   },
   {
     "id": "monoame-011",
     "tip": "simplu",
-    "intrebare": "Când putem aduna monoame?",
+    "intrebare": "Cât este $(-3x)^2$?",
     "variante": [
-      "asemenea",
-      "cu același coeficient",
-      "de același grad",
-      "cu litere diferite"
+      "$9x^2$",
+      "$-3x^2$",
+      "$-9x^2$",
+      "$9x$"
     ],
     "corect": 0
   },
   {
     "id": "monoame-012",
     "tip": "simplu",
-    "intrebare": "Cât este $3x+2y$?",
+    "intrebare": "Cât este $(x^2)^3$?",
     "variante": [
-      "$6xy$",
-      "$5x$",
-      "rămâne $3x+2y$ (monoame neasemenea)",
-      "$5xy$"
+      "$x^2$",
+      "$x^8$",
+      "$x^6$",
+      "$x^5$"
     ],
     "corect": 2
   },
   {
     "id": "monoame-013",
     "tip": "simplu",
-    "intrebare": "Ce grad are numărul $7$ (ca monom)?",
+    "intrebare": "Cât este $x^5:x^2$?",
     "variante": [
-      "$7$",
-      "nu este monom",
-      "$0$",
-      "$1$"
+      "$x^{10}$",
+      "$x^2$",
+      "$x^3$",
+      "$x^7$"
     ],
     "corect": 2
   },
   {
     "id": "monoame-014",
     "tip": "simplu",
-    "intrebare": "Cum înmulțim monoamele?",
+    "intrebare": "Cât este $6x^4:2x^2$?",
     "variante": [
-      "coeficienții se înmulțesc, exponenții se înmulțesc",
-      "coeficienții se adună, exponenții se adună",
-      "coeficienții se înmulțesc, exponenții literelor identice se adună",
-      "coeficienții se adună, exponenții se înmulțesc"
+      "$3x^6$",
+      "$12x^6$",
+      "$3x^2$",
+      "$4x^2$"
     ],
     "corect": 2
   },
   {
     "id": "monoame-015",
     "tip": "simplu",
-    "intrebare": "Cum ridicăm un monom la putere?",
+    "intrebare": "Cât este $x^2\\cdot x$?",
     "variante": [
-      "exponenții se înmulțesc cu puterea",
-      "exponenții se adună cu puterea",
-      "exponenții se scad",
-      "se ridică doar coeficientul"
+      "$x^3$",
+      "$x^2$",
+      "$2x^3$",
+      "$x^4$"
     ],
     "corect": 0
   },
   {
     "id": "monoame-016",
     "tip": "simplu",
-    "intrebare": "Cum împărțim monoamele?",
+    "intrebare": "Cât este $5x-2x$?",
     "variante": [
-      "coeficienții se scad, exponenții se împart",
-      "coeficienții se adună",
-      "coeficienții se împart, exponenții se scad",
-      "exponenții se adună"
+      "$3$",
+      "$3x^2$",
+      "$3x$",
+      "$7x$"
     ],
     "corect": 2
+  },
+  {
+    "id": "monoame-017",
+    "tip": "multiplu",
+    "intrebare": "Cu care monoame este asemenea $3xy^2$?",
+    "variante": [
+      "$5xy^2$",
+      "$-2xy^2$",
+      "$3xy$",
+      "$3x^2y$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
   }
 ]

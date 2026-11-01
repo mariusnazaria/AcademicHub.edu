@@ -2,124 +2,169 @@
   {
     "id": "trunchiul-de-piramida-001",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a trunchiului de piramidă regulată? ($a_t$ = apotema trunchiului)",
+    "intrebare": "Cum se calculează volumul trunchiului de piramidă?",
     "variante": [
-      "$\\frac{(P_1-P_2)\\cdot a_t}{2}$",
-      "$\\frac{P_1\\cdot P_2\\cdot a_t}{2}$",
-      "$(P_1+P_2)\\cdot a_t$",
-      "$\\frac{(P_1+P_2)\\cdot a_t}{2}$"
+      "$V=h\\cdot(A_B+A_b)$",
+      "$V=\\frac{h}{2}(A_B+A_b)$",
+      "$V=\\frac{h}{3}(A_B+A_b)$",
+      "$V=\\frac{h}{3}\\left(A_B+A_b+\\sqrt{A_B\\cdot A_b}\\right)$"
     ],
     "corect": 3
   },
   {
     "id": "trunchiul-de-piramida-002",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a trunchiului de piramidă?",
+    "intrebare": "Cum se calculează aria laterală a trunchiului regulat?",
     "variante": [
-      "$A_l+2A_1$",
-      "$A_l\\cdot(A_1+A_2)$",
-      "$A_l+A_1$",
-      "$A_l+A_1+A_2$"
+      "$A_l=\\frac{P_B\\cdot a_p}{2}$",
+      "$A_l=\\frac{(A_B+A_b)\\cdot a_p}{2}$",
+      "$A_l=(P_B+P_b)\\cdot a_p$",
+      "$A_l=\\frac{(P_B+P_b)\\cdot a_p}{2}$"
     ],
     "corect": 3
   },
   {
     "id": "trunchiul-de-piramida-003",
     "tip": "simplu",
-    "intrebare": "Care este volumul trunchiului de piramidă?",
+    "intrebare": "Cum se calculează aria totală a trunchiului?",
     "variante": [
-      "$\\frac{h}{3}(A_1+A_2)$",
-      "$\\frac{h}{3}\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$",
-      "$h\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$",
-      "$\\frac{h}{2}\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$"
+      "$A_t=A_l+A_B$",
+      "$A_t=A_l+A_B+A_b$",
+      "$A_t=A_l+2A_B$",
+      "$A_t=A_l\\cdot(A_B+A_b)$"
     ],
     "corect": 1
   },
   {
     "id": "trunchiul-de-piramida-004",
     "tip": "simplu",
-    "intrebare": "Trunchi de piramidă patrulateră regulată (laturile bazelor $a$ și $b$): cât este $a_t^2$?",
+    "intrebare": "Ce formă au fețele laterale ale trunchiului?",
     "variante": [
-      "$h^2+(a-b)^2$",
-      "$h^2-\\left(\\frac{a-b}{2}\\right)^2$",
-      "$h^2+\\left(\\frac{a-b}{2}\\right)^2$",
-      "$h^2+\\left(\\frac{a+b}{2}\\right)^2$"
+      "triunghiuri",
+      "pătrate",
+      "trapeze",
+      "cercuri"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-piramida-005",
     "tip": "simplu",
-    "intrebare": "Trunchi de piramidă patrulateră regulată: cât este $l^2$ (muchia laterală)?",
+    "intrebare": "Trunchi pătrulater regulat cu bazele $6$ și $4$. Cât este $A_B$?",
     "variante": [
-      "$h^2+\\left(\\frac{(a-b)\\sqrt{2}}{2}\\right)^2$",
-      "$h^2+(a-b)^2$",
-      "$h^2+\\left(\\frac{a-b}{2}\\right)^2$",
-      "$h^2-\\frac{(a-b)^2}{2}$"
+      "$36$",
+      "$12$",
+      "$24$",
+      "$6$"
     ],
     "corect": 0
   },
   {
     "id": "trunchiul-de-piramida-006",
     "tip": "simplu",
-    "intrebare": "Ce fel de fețe laterale are trunchiul de piramidă regulată?",
+    "intrebare": "Trunchi pătrulater regulat cu bazele $6$ și $4$. Cât este $\\sqrt{A_B\\cdot A_b}$?",
     "variante": [
-      "dreptunghiuri",
-      "trapeze isoscele",
-      "paralelograme",
-      "triunghiuri isoscele"
+      "$10$",
+      "$24$",
+      "$48$",
+      "$20$"
     ],
     "corect": 1
   },
   {
     "id": "trunchiul-de-piramida-007",
     "tip": "simplu",
-    "intrebare": "Cum se mai poate afla volumul trunchiului?",
+    "intrebare": "Trunchi pătrulater regulat: bazele $6$ și $4$, $h=3$. Cât este volumul?",
     "variante": [
-      "$V_{\\text{piramida mare}}+V_{\\text{piramida mică}}$",
-      "$V_{\\text{piramida mare}}\\cdot V_{\\text{piramida mică}}$",
-      "$V_{\\text{piramida mare}}-V_{\\text{piramida mică}}$",
-      "$\\frac{V_{\\text{mare}}}{V_{\\text{mică}}}$"
+      "$228$",
+      "$52$",
+      "$76$",
+      "$38$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-piramida-008",
     "tip": "simplu",
-    "intrebare": "Piramida mică și cea mare sunt asemenea cu raportul $k=\\frac{h}{H}$. Cât este raportul volumelor?",
+    "intrebare": "Trunchi pătrulater regulat: bazele $10$ și $4$, $h=4$. Cât este volumul?",
     "variante": [
-      "$k^3$",
-      "$k$",
-      "$k^2$",
-      "$3k$"
+      "$208$",
+      "$156$",
+      "$624$",
+      "$104$"
     ],
     "corect": 0
   },
   {
     "id": "trunchiul-de-piramida-009",
     "tip": "simplu",
-    "intrebare": "Ce fel de poligoane sunt bazele trunchiului de piramidă?",
+    "intrebare": "Trunchi pătrulater regulat: bazele $10$ și $4$, $h=4$. Cât este apotema?",
     "variante": [
-      "cercuri",
-      "poligoane congruente",
-      "poligoane asemenea, în plane paralele",
-      "triunghiuri oarecare în plane secante"
+      "$\\sqrt{7}$",
+      "$4$",
+      "$5$",
+      "$3$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-piramida-010",
-    "tip": "multiplu",
-    "intrebare": "Care formule sunt corecte pentru trunchiul de piramidă?",
+    "tip": "simplu",
+    "intrebare": "Trunchi pătrulater regulat: bazele $10$ și $4$, $a_p=5$. Cât este aria laterală?",
     "variante": [
-      "$V=\\frac h3(A_1+A_2)$",
-      "$V=\\frac h3(A_1+\\sqrt{A_1A_2}+A_2)$",
-      "$A_t=A_l+A_1+A_2$",
-      "$A_t=A_l+A_1$"
+      "$100$",
+      "$70$",
+      "$140$",
+      "$280$"
     ],
-    "corect": [
-      1,
-      2
-    ]
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-piramida-011",
+    "tip": "simplu",
+    "intrebare": "Trunchi pătrulater regulat: bazele $10$ și $4$, $a_p=5$. Cât este aria totală?",
+    "variante": [
+      "$256$",
+      "$396$",
+      "$140$",
+      "$116$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "trunchiul-de-piramida-012",
+    "tip": "simplu",
+    "intrebare": "Cum obținem trunchiul de piramidă?",
+    "variante": [
+      "unim două piramide",
+      "rotim un triunghi",
+      "tăiem piramida cu un plan perpendicular pe bază",
+      "tăiem piramida cu un plan paralel cu baza"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-piramida-013",
+    "tip": "simplu",
+    "intrebare": "Piramida tăiată cu un plan paralel cu baza: partea de sus este:",
+    "variante": [
+      "o prismă",
+      "un cub",
+      "o piramidă asemenea cu cea mare",
+      "un trunchi"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-piramida-014",
+    "tip": "simplu",
+    "intrebare": "Câte baze are trunchiul de piramidă?",
+    "variante": [
+      "$1$",
+      "$4$",
+      "$2$",
+      "$3$"
+    ],
+    "corect": 2
   }
 ]

@@ -2,256 +2,169 @@
   {
     "id": "tangenta-pe-panta-si-prin-punct-001",
     "tip": "simplu",
-    "intrebare": "Ce rezolvăm când „panta tangentei este $2$”?",
+    "intrebare": "Tangenta la $f(x)=x^2$ are panta $2$. Care este punctul de tangență?",
     "variante": [
-      "$f(x)=2$",
-      "$f^{\\prime}(x)=2$",
-      "$f^{\\prime\\prime}(x)=2$",
-      "$f^{\\prime}(2)=x$"
+      "$a=2$",
+      "$a=1$",
+      "$a=0$",
+      "$a=-1$"
     ],
     "corect": 1
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-002",
     "tip": "simplu",
-    "intrebare": "După ce aflăm abscisa $a$ din $f^{\\prime}(a)=m$, ce urmează?",
+    "intrebare": "Tangenta la $f(x)=x^2-4x$ este orizontală. Care este $a$?",
     "variante": [
-      "calculăm $f^{\\prime}(m)$",
-      "derivăm din nou",
-      "ne oprim",
-      "calculăm $f(a)$ și formăm ecuația tangentei"
+      "$a=0$",
+      "$a=-2$",
+      "$a=4$",
+      "$a=2$"
     ],
     "corect": 3
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-003",
     "tip": "simplu",
-    "intrebare": "La „punctele de pe grafic în care panta este $9$” aflăm $x$ din $f^{\\prime}(x)=9$. Ce facem apoi?",
+    "intrebare": "Tangenta la $f(x)=x^3$ are panta $3$. Care sunt valorile lui $a$?",
     "variante": [
-      "$y=9$",
-      "ordonata $y=f(x)$ pentru fiecare $x$",
-      "nimic, $x$ e suficient",
-      "derivata a doua"
+      "$a=\\pm3$",
+      "$a=\\pm1$",
+      "$a=3$",
+      "$a=1$"
     ],
     "corect": 1
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-004",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă „tangenta formează unghiul $45^\\circ$ cu $Ox$”?",
+    "intrebare": "Tangenta la $f(x)=x^2+x$ are panta $3$. Care este $a$?",
     "variante": [
-      "$f^{\\prime}(x)=45$",
-      "$f^{\\prime}(x)=0$",
-      "$f(x)=1$",
-      "$f^{\\prime}(x)=\\operatorname{tg}45^\\circ=1$"
+      "$a=2$",
+      "$a=-1$",
+      "$a=3$",
+      "$a=1$"
     ],
     "corect": 3
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-005",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă „tangenta formează unghiul $60^\\circ$ cu $Ox$”?",
+    "intrebare": "Tangenta la $f(x)=e^x$ are panta $1$. Care este $a$?",
     "variante": [
-      "$f^{\\prime}(x)=\\frac{\\sqrt{3}}{3}$",
-      "$f^{\\prime}(x)=\\frac{1}{2}$",
-      "$f^{\\prime}(x)=\\sqrt{3}$",
-      "$f^{\\prime}(x)=60$"
+      "$a=e$",
+      "$a=-1$",
+      "$a=0$",
+      "$a=1$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-006",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă „tangenta formează unghiul $\\operatorname{arctg}2$ cu $Ox$”?",
+    "intrebare": "Tangenta la $f(x)=\\ln x$ are panta $1$. Care este $a$?",
     "variante": [
-      "$f(x)=2$",
-      "$f^{\\prime}(x)=\\frac{1}{2}$",
-      "$f^{\\prime}(x)=2$",
-      "$f^{\\prime}(x)=\\operatorname{arctg}2$"
+      "$a=-1$",
+      "$a=e$",
+      "$a=1$",
+      "$a=0$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-007",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, pentru ce $x$ avem $f^{\\prime}(x)=4$?",
+    "intrebare": "Tangenta la $f(x)=\\frac1x$ are panta $-1$. Care sunt valorile lui $a$?",
     "variante": [
-      "$x=1$",
-      "$x=2$",
-      "$x=\\frac{1}{2}$",
-      "$x=4$"
+      "$a=-1$",
+      "$a=\\pm1$",
+      "$a=0$",
+      "$a=1$"
     ],
     "corect": 1
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-008",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3$, pentru ce $x$ avem $f^{\\prime}(x)=3$?",
+    "intrebare": "Tangenta paralelă cu $y=2x+5$ are panta:",
     "variante": [
-      "$x=3$",
-      "$x=1$ doar",
-      "$x=\\pm1$",
-      "$x=0$"
+      "$-2$",
+      "$5$",
+      "$2$",
+      "$\\frac12$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-009",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=e^x$, pentru ce $x$ avem $f^{\\prime}(x)=1$?",
+    "intrebare": "Tangenta perpendiculară pe $y=x+1$ are panta:",
     "variante": [
-      "$x=1$",
-      "$x=e$",
-      "$x=0$",
-      "nicio valoare"
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$2$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-010",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\ln x$, pentru ce $x$ avem $f^{\\prime}(x)=1$?",
+    "intrebare": "Primul pas când tangenta trece printr-un punct dat (nu pe grafic):",
     "variante": [
-      "$x=0$",
-      "$x=e$",
-      "nicio valoare",
-      "$x=1$"
+      "punem $x=0$",
+      "calculăm $\\Delta$",
+      "derivăm de două ori",
+      "notăm punctul de tangență cu $a$"
     ],
     "corect": 3
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-011",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2-3x$, pentru ce $x$ avem $f^{\\prime}(x)=1$?",
+    "intrebare": "La tangenta prin $A(0;-1)$ la $f(x)=x^2$, ecuația tangentei în $a$ este:",
     "variante": [
-      "$x=2$",
-      "$x=-2$",
-      "$x=1$",
-      "$x=3$"
+      "$y-a^2=2a(x-a)$",
+      "$y=2ax$",
+      "$y-a=2a(x-a^2)$",
+      "$y-a^2=a(x-a)$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-012",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii pentru tangenta care trece printr-un punct $M(p;q)$?",
+    "intrebare": "Tangenta în $a$ la $f(x)=x^2$ trece prin $(0;-1)$. Ce ecuație obținem?",
     "variante": [
-      "egalăm $f(p)=q$ doar",
-      "derivăm de două ori",
-      "tangenta în punctul necunoscut $a$, înlocuim $M$ în ecuație, aflăm $a$, scriem ecuația",
-      "înlocuim $M$ în $f^{\\prime}$"
+      "$-1=a^2$",
+      "$a=-1$",
+      "$-1-a^2=-2a^2$, adică $a^2=1$",
+      "$-1-a^2=2a^2$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-013",
     "tip": "simplu",
-    "intrebare": "Cum scriem tangenta în punctul necunoscut de abscisă $a$?",
+    "intrebare": "Cum aflăm punctul de tangență când se dă panta $m$?",
     "variante": [
-      "$y=f^{\\prime}(a)+f(a)(x-a)$",
-      "$y=f(a)(x-a)$",
-      "$y=f(a)+f^{\\prime}(a)(x-a)$",
-      "$y=f(x)+f^{\\prime}(a)(x-a)$"
+      "rezolvăm $f^{\\prime\\prime}(a)=m$",
+      "rezolvăm $f(a)=0$",
+      "rezolvăm $f^{\\prime}(a)=m$",
+      "rezolvăm $f(a)=m$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-pe-panta-si-prin-punct-014",
     "tip": "simplu",
-    "intrebare": "Ce obținem când înlocuim $M(p;q)$ în ecuația tangentei?",
+    "intrebare": "După ce aflăm $a$, ce calculăm?",
     "variante": [
-      "$p=f(a)+f^{\\prime}(a)(q-a)$",
-      "$q=p\\cdot a$",
-      "$q=f(a)+f^{\\prime}(a)(p-a)$ (ecuație în $a$)",
-      "$q=f^{\\prime}(p)$"
+      "$f^{\\prime\\prime}(a)$",
+      "integrala lui $f$",
+      "$f(a)$ și scriem ecuația tangentei",
+      "limita în $a$"
     ],
     "corect": 2
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-015",
-    "tip": "simplu",
-    "intrebare": "Dacă punctul $M$ este pe grafic, cum este tangenta?",
-    "variante": [
-      "infinit de tangente",
-      "nicio tangentă",
-      "două tangente mereu",
-      "una singură (cu $a$ abscisa lui $M$)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-016",
-    "tip": "simplu",
-    "intrebare": "Câte tangente pot exista dacă punctul $M$ este exterior graficului?",
-    "variante": [
-      "exact două mereu",
-      "doar una mereu",
-      "infinit mereu",
-      "mai multe tangente (sau niciuna)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-017",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, pentru ce valori ale lui $a$ obținem tangentele prin $A(0;-1)$?",
-    "variante": [
-      "$a=1$ doar",
-      "$a=\\pm1$",
-      "$a=\\pm2$",
-      "$a=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-018",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, care este tangenta prin $A(0;-1)$ cu $a=1$?",
-    "variante": [
-      "$y=-2x-1$",
-      "$y=2x+1$",
-      "$y=2x-1$",
-      "$y=x-1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-019",
-    "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, care este tangenta prin $A(0;-1)$ cu $a=-1$?",
-    "variante": [
-      "$y=-x-1$",
-      "$y=2x-1$",
-      "$y=-2x+1$",
-      "$y=-2x-1$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-020",
-    "tip": "simplu",
-    "intrebare": "Care este ecuația unei drepte cu panta $m$ care trece prin $(x_0;y_0)$?",
-    "variante": [
-      "$y-y_0=m(x-x_0)$",
-      "$y=m(x-y_0)$",
-      "$y+y_0=m(x-x_0)$",
-      "$y-y_0=m(x+x_0)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "tangenta-pe-panta-si-prin-punct-021",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte despre unghiul tangentei cu $Ox$?",
-    "variante": [
-      "$60^\\circ\\Rightarrow m=\\sqrt{3}$",
-      "$45^\\circ\\Rightarrow m=1$",
-      "$60^\\circ\\Rightarrow m=\\frac{\\sqrt{3}}{3}$",
-      "$45^\\circ\\Rightarrow m=45$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
   }
 ]

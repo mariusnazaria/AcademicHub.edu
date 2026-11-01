@@ -2,137 +2,149 @@
   {
     "id": "derivate-formule-de-baza-001",
     "tip": "simplu",
-    "intrebare": "Cât este derivata unei constante, $c^{\\prime}$?",
+    "intrebare": "Cât este $(7)^{\\prime}$ (derivata unei constante)?",
     "variante": [
       "$x$",
       "$0$",
-      "$1$",
-      "$c$"
+      "$7$",
+      "$1$"
     ],
     "corect": 1
   },
   {
     "id": "derivate-formule-de-baza-002",
     "tip": "simplu",
-    "intrebare": "Cât este $x^{\\prime}$?",
+    "intrebare": "Cât este $(x)^{\\prime}$?",
     "variante": [
-      "$x$",
       "$0$",
+      "$x$",
       "$1$",
-      "$2x$"
+      "$\\frac{x^2}{2}$"
     ],
     "corect": 2
   },
   {
     "id": "derivate-formule-de-baza-003",
     "tip": "simplu",
-    "intrebare": "Cât este $(x^n)^{\\prime}$?",
+    "intrebare": "Cât este $(5x)^{\\prime}$?",
     "variante": [
-      "$nx^{n}$",
-      "$x^{n-1}$",
-      "$(n-1)x^{n}$",
-      "$nx^{n-1}$"
+      "$5x$",
+      "$0$",
+      "$x$",
+      "$5$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-004",
     "tip": "simplu",
-    "intrebare": "Cât este $(x^7)^{\\prime}$?",
+    "intrebare": "Cât este $(3x^2)^{\\prime}$?",
     "variante": [
-      "$7x^7$",
-      "$7x^6$",
-      "$6x^7$",
-      "$x^6$"
+      "$6x^2$",
+      "$6x$",
+      "$3x$",
+      "$3x^3$"
     ],
     "corect": 1
   },
   {
     "id": "derivate-formule-de-baza-005",
     "tip": "simplu",
-    "intrebare": "Cât este $(x^2)^{\\prime}$?",
+    "intrebare": "Cât este $(x^3)^{\\prime}$?",
     "variante": [
-      "$x$",
       "$x^2$",
-      "$2x$",
-      "$2$"
+      "$3x$",
+      "$3x^2$",
+      "$\\frac{x^4}{4}$"
     ],
     "corect": 2
   },
   {
     "id": "derivate-formule-de-baza-006",
     "tip": "simplu",
-    "intrebare": "Cât este $(5)^{\\prime}$?",
+    "intrebare": "Cât este $(x^5)^{\\prime}$?",
     "variante": [
-      "$0$",
-      "$1$",
-      "$5x$",
-      "$5$"
+      "$5x^4$",
+      "$\\frac{x^6}{6}$",
+      "$5x^5$",
+      "$x^4$"
     ],
     "corect": 0
   },
   {
     "id": "derivate-formule-de-baza-007",
     "tip": "simplu",
-    "intrebare": "Cât este $(3x)^{\\prime}$?",
+    "intrebare": "Cât este $(x^{10})^{\\prime}$?",
     "variante": [
-      "$x$",
-      "$3$",
-      "$0$",
-      "$3x$"
+      "$\\frac{x^{11}}{11}$",
+      "$10x^9$",
+      "$10x^{10}$",
+      "$x^9$"
     ],
     "corect": 1
   },
   {
     "id": "derivate-formule-de-baza-008",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\sqrt{x})^{\\prime}$?",
+    "intrebare": "Cât este $(x^n)^{\\prime}$?",
     "variante": [
-      "$\\frac{2}{\\sqrt{x}}$",
-      "$\\frac{1}{\\sqrt{x}}$",
-      "$2\\sqrt{x}$",
-      "$\\frac{1}{2\\sqrt{x}}$"
+      "$\\frac{x^{n+1}}{n+1}$",
+      "$(n-1)x^{n}$",
+      "$nx^{n+1}$",
+      "$nx^{n-1}$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-009",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\sqrt[n]{x})^{\\prime}$?",
+    "intrebare": "Cât este $(x^2+3x)^{\\prime}$?",
     "variante": [
-      "$\\frac{1}{\\sqrt[n]{x^{n-1}}}$",
-      "$\\frac{n}{\\sqrt[n]{x}}$",
-      "$n\\sqrt[n]{x^{n-1}}$",
-      "$\\frac{1}{n\\sqrt[n]{x^{n-1}}}$"
+      "$x^2+3$",
+      "$2x+3x$",
+      "$2x$",
+      "$2x+3$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-010",
     "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\frac{1}{x}\\right)^{\\prime}$?",
+    "intrebare": "Cât este $(\\sqrt{x})^{\\prime}$?",
     "variante": [
-      "$\\ln x$",
-      "$-\\frac{1}{x}$",
-      "$-\\frac{1}{x^2}$",
-      "$\\frac{1}{x^2}$"
+      "$-\\frac{1}{2\\sqrt{x}}$",
+      "$\\frac{1}{\\sqrt{x}}$",
+      "$\\frac{1}{2\\sqrt{x}}$",
+      "$2\\sqrt{x}$"
     ],
     "corect": 2
   },
   {
     "id": "derivate-formule-de-baza-011",
     "tip": "simplu",
-    "intrebare": "Cât este $(e^x)^{\\prime}$?",
+    "intrebare": "Cât este $\\left(\\frac1x\\right)^{\\prime}$?",
     "variante": [
-      "$e^{x-1}$",
-      "$1$",
-      "$e^x$",
-      "$xe^{x-1}$"
+      "$\\ln x$",
+      "$-\\frac1x$",
+      "$-\\frac{1}{x^2}$",
+      "$\\frac{1}{x^2}$"
     ],
     "corect": 2
   },
   {
     "id": "derivate-formule-de-baza-012",
+    "tip": "simplu",
+    "intrebare": "Cât este $(e^x)^{\\prime}$?",
+    "variante": [
+      "$xe^{x-1}$",
+      "$e^x$",
+      "$e$",
+      "$\\ln x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "derivate-formule-de-baza-013",
     "tip": "simplu",
     "intrebare": "Cât este $(a^x)^{\\prime}$?",
     "variante": [
@@ -144,147 +156,87 @@
     "corect": 1
   },
   {
-    "id": "derivate-formule-de-baza-013",
-    "tip": "simplu",
-    "intrebare": "Cât este $(\\ln x)^{\\prime}$?",
-    "variante": [
-      "$x$",
-      "$\\frac{1}{x}$",
-      "$-\\frac{1}{x}$",
-      "$\\ln\\frac{1}{x}$"
-    ],
-    "corect": 1
-  },
-  {
     "id": "derivate-formule-de-baza-014",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\log_a x)^{\\prime}$?",
+    "intrebare": "Cât este $(2^x)^{\\prime}$?",
     "variante": [
-      "$\\frac{1}{x\\ln a}$",
-      "$\\frac{1}{a\\ln x}$",
-      "$\\frac{1}{x}$",
-      "$\\frac{\\ln a}{x}$"
+      "$2^x\\ln2$",
+      "$2^x$",
+      "$\\frac{2^x}{\\ln2}$",
+      "$x2^{x-1}$"
     ],
     "corect": 0
   },
   {
     "id": "derivate-formule-de-baza-015",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\sin x)^{\\prime}$?",
+    "intrebare": "Cât este $(\\ln x)^{\\prime}$?",
     "variante": [
-      "$\\cos x$",
-      "$-\\cos x$",
-      "$\\sin x$",
-      "$-\\sin x$"
+      "$\\frac1x$",
+      "$\\ln x$",
+      "$x$",
+      "$-\\frac1x$"
     ],
     "corect": 0
   },
   {
     "id": "derivate-formule-de-baza-016",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\cos x)^{\\prime}$?",
+    "intrebare": "Cât este $(\\sin x)^{\\prime}$?",
     "variante": [
+      "$-\\sin x$",
       "$-\\cos x$",
       "$\\sin x$",
-      "$\\cos x$",
-      "$-\\sin x$"
+      "$\\cos x$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-017",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\operatorname{tg}x)^{\\prime}$?",
+    "intrebare": "Cât este $(\\cos x)^{\\prime}$?",
     "variante": [
-      "$\\frac{1}{\\sin^2x}$",
-      "$\\operatorname{ctg}x$",
-      "$-\\frac{1}{\\cos^2x}$",
-      "$\\frac{1}{\\cos^2x}$"
+      "$\\cos x$",
+      "$-\\cos x$",
+      "$\\sin x$",
+      "$-\\sin x$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-018",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\operatorname{ctg}x)^{\\prime}$?",
+    "intrebare": "Cât este $(\\operatorname{tg}x)^{\\prime}$?",
     "variante": [
-      "$-\\frac{1}{\\sin^2x}$",
-      "$\\frac{1}{\\sin^2x}$",
+      "$\\frac{1}{\\cos^2x}$",
       "$-\\frac{1}{\\cos^2x}$",
-      "$-\\operatorname{tg}x$"
+      "$\\frac{1}{\\sin^2x}$",
+      "$\\operatorname{ctg}x$"
     ],
     "corect": 0
   },
   {
     "id": "derivate-formule-de-baza-019",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\arcsin x)^{\\prime}$?",
+    "intrebare": "Cât este $(\\operatorname{ctg}x)^{\\prime}$?",
     "variante": [
-      "$\\frac{1}{1+x^2}$",
-      "$-\\frac{1}{\\sqrt{1-x^2}}$",
-      "$\\frac{1}{\\sqrt{1+x^2}}$",
-      "$\\frac{1}{\\sqrt{1-x^2}}$"
+      "$-\\frac{1}{\\cos^2x}$",
+      "$\\frac{1}{\\sin^2x}$",
+      "$\\operatorname{tg}x$",
+      "$-\\frac{1}{\\sin^2x}$"
     ],
     "corect": 3
   },
   {
     "id": "derivate-formule-de-baza-020",
     "tip": "simplu",
-    "intrebare": "Cât este $(\\arccos x)^{\\prime}$?",
-    "variante": [
-      "$\\frac{1}{\\sqrt{1-x^2}}$",
-      "$-\\frac{1}{1+x^2}$",
-      "$-\\frac{1}{\\sqrt{1-x^2}}$",
-      "$\\frac{1}{x^2+1}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "derivate-formule-de-baza-021",
-    "tip": "simplu",
     "intrebare": "Cât este $(\\operatorname{arctg}x)^{\\prime}$?",
     "variante": [
-      "$\\frac{1}{x^2-1}$",
-      "$\\frac{1}{x^2+1}$",
-      "$\\frac{1}{\\sqrt{1-x^2}}$",
-      "$-\\frac{1}{x^2+1}$"
+      "$-\\frac{1}{1+x^2}$",
+      "$\\frac{1}{1-x^2}$",
+      "$\\frac{1}{1+x^2}$",
+      "$\\frac{1}{\\sqrt{1+x^2}}$"
     ],
-    "corect": 1
-  },
-  {
-    "id": "derivate-formule-de-baza-022",
-    "tip": "simplu",
-    "intrebare": "Cât este $(\\operatorname{arcctg}x)^{\\prime}$?",
-    "variante": [
-      "$-\\frac{1}{\\sqrt{1-x^2}}$",
-      "$-\\frac{1}{x^2+1}$",
-      "$\\frac{1}{x^2-1}$",
-      "$\\frac{1}{x^2+1}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "derivate-formule-de-baza-023",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\sqrt{x^2+a^2}\\right)^{\\prime}$?",
-    "variante": [
-      "$\\frac{1}{2\\sqrt{x^2+a^2}}$",
-      "$\\frac{x}{\\sqrt{x^2-a^2}}$",
-      "$-\\frac{x}{\\sqrt{x^2+a^2}}$",
-      "$\\frac{x}{\\sqrt{x^2+a^2}}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "derivate-formule-de-baza-024",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\left(\\sqrt{a^2-x^2}\\right)^{\\prime}$?",
-    "variante": [
-      "$\\frac{-x}{\\sqrt{a^2-x^2}}$",
-      "$\\frac{-x}{\\sqrt{a^2+x^2}}$",
-      "$\\frac{x}{\\sqrt{a^2-x^2}}$",
-      "$\\frac{1}{2\\sqrt{a^2-x^2}}$"
-    ],
-    "corect": 0
+    "corect": 2
   }
 ]

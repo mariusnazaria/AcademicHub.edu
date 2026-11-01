@@ -2,142 +2,142 @@
   {
     "id": "monotonie-si-puncte-de-extrem-001",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii pentru monotonie și extreme locale?",
+    "intrebare": "Dacă $f^{\\prime}(x)>0$ pe un interval, atunci $f$:",
     "variante": [
-      "calculăm $f^{\\prime}(x)$, rezolvăm $f^{\\prime}(x)=0$, completăm tabelul",
-      "calculăm $f^{\\prime\\prime}$ și o egalăm cu $1$",
-      "egalăm $f$ cu $0$ doar",
-      "DVA, ridicăm la pătrat"
+      "crește",
+      "scade",
+      "are maxim",
+      "este constantă"
     ],
     "corect": 0
   },
   {
     "id": "monotonie-si-puncte-de-extrem-002",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $f^{\\prime}(x)>0$ pe un interval (cum este $f$)?",
+    "intrebare": "Dacă $f^{\\prime}(x)<0$ pe un interval, atunci $f$:",
     "variante": [
-      "descrescătoare",
-      "crescătoare",
-      "constantă",
-      "convexă"
+      "crește",
+      "scade",
+      "este constantă",
+      "are minim"
     ],
     "corect": 1
   },
   {
     "id": "monotonie-si-puncte-de-extrem-003",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $f^{\\prime}(x)<0$ pe un interval (cum este $f$)?",
+    "intrebare": "Când $x_0$ este punct de extrem?",
     "variante": [
-      "crescătoare",
-      "constantă",
-      "descrescătoare",
-      "concavă"
+      "$f^{\\prime}(x_0)>0$",
+      "$f(x_0)=0$",
+      "$f^{\\prime}(x_0)=0$ și $f^{\\prime}$ își schimbă semnul",
+      "$f^{\\prime}(x_0)=1$"
     ],
     "corect": 2
   },
   {
     "id": "monotonie-si-puncte-de-extrem-004",
     "tip": "simplu",
-    "intrebare": "Cum își schimbă semnul $f^{\\prime}$ într-un punct de maxim local?",
+    "intrebare": "Dacă $f^{\\prime}$ trece de la $+$ la $-$, avem:",
     "variante": [
-      "din $+$ în $-$",
-      "din $-$ în $+$",
-      "din $0$ în $+$",
-      "nu își schimbă semnul"
+      "maxim",
+      "minim",
+      "nimic",
+      "inflexiune"
     ],
     "corect": 0
   },
   {
     "id": "monotonie-si-puncte-de-extrem-005",
     "tip": "simplu",
-    "intrebare": "Cum își schimbă semnul $f^{\\prime}$ într-un punct de minim local?",
+    "intrebare": "Dacă $f^{\\prime}$ trece de la $-$ la $+$, avem:",
     "variante": [
-      "nu își schimbă semnul",
-      "din $+$ în $-$",
-      "din $-$ în $+$",
-      "din $0$ în $-$"
+      "inflexiune",
+      "maxim",
+      "minim",
+      "nimic"
     ],
     "corect": 2
   },
   {
     "id": "monotonie-si-puncte-de-extrem-006",
     "tip": "simplu",
-    "intrebare": "Ce este $x_0$ dacă $f^{\\prime}$ nu își schimbă semnul în $x_0$?",
+    "intrebare": "Care este primul pas la studiul monotoniei?",
     "variante": [
-      "punct de maxim",
-      "nu este punct de extrem",
-      "punct de inflexiune mereu",
-      "punct de minim"
+      "calculăm $f(0)$",
+      "calculăm $f^{\\prime}$",
+      "desenăm cercul",
+      "calculăm limitele"
     ],
     "corect": 1
   },
   {
     "id": "monotonie-si-puncte-de-extrem-007",
     "tip": "simplu",
-    "intrebare": "Cum se numesc punctele în care $f^{\\prime}(x)=0$?",
+    "intrebare": "Al doilea pas la studiul monotoniei:",
     "variante": [
-      "puncte de inflexiune sigur",
-      "zerouri ale lui $f$",
-      "asimptote",
-      "puncte critice (candidate la extrem)"
+      "calculăm $f^{\\prime\\prime}$",
+      "împărțim la $x$",
+      "rezolvăm $f(x)=0$",
+      "rezolvăm $f^{\\prime}(x)=0$"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-008",
     "tip": "simplu",
-    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=x^2$?",
+    "intrebare": "Care este derivata lui $f(x)=x^2$?",
     "variante": [
-      "minim local (și global)",
-      "maxim local",
-      "inflexiune",
-      "nu este extrem"
+      "$2x$",
+      "$x$",
+      "$2$",
+      "$x^2$"
     ],
     "corect": 0
   },
   {
     "id": "monotonie-si-puncte-de-extrem-009",
     "tip": "simplu",
-    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=-x^2$?",
+    "intrebare": "Unde are $f(x)=x^2$ punct de extrem?",
     "variante": [
-      "minim local",
-      "maxim local (și global)",
-      "nu este extrem",
-      "inflexiune"
+      "în $x=0$, maxim",
+      "în $x=0$, minim",
+      "nu are",
+      "în $x=1$, minim"
     ],
     "corect": 1
   },
   {
     "id": "monotonie-si-puncte-de-extrem-010",
     "tip": "simplu",
-    "intrebare": "Ce fel de punct este $x=0$ pentru $f(x)=x^3$?",
+    "intrebare": "Unde are $f(x)=-x^2+4x$ punct de extrem?",
     "variante": [
-      "minim local",
-      "maxim global",
-      "maxim local",
-      "nu este extrem ($f$ este crescătoare)"
+      "în $x=2$, minim",
+      "în $x=-2$, minim",
+      "în $x=4$, maxim",
+      "în $x=2$, maxim"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-011",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2-4x$: unde avem $f^{\\prime}(x)=0$?",
+    "intrebare": "Care este derivata lui $f(x)=x^3-3x$?",
     "variante": [
-      "$x=2$ (minim)",
-      "$x=-2$ (maxim)",
-      "$x=4$ (minim)",
-      "$x=0$ (maxim)"
+      "$3x^2-3$",
+      "$3x^2$",
+      "$x^2-3$",
+      "$3x-3$"
     ],
     "corect": 0
   },
   {
     "id": "monotonie-si-puncte-de-extrem-012",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3-3x$: care sunt punctele critice?",
+    "intrebare": "Care sunt punctele critice ale lui $f(x)=x^3-3x$?",
     "variante": [
-      "$x=3$",
       "$x=\\pm3$",
+      "$x=3$",
       "$x=\\pm1$",
       "$x=0$"
     ],
@@ -146,160 +146,73 @@
   {
     "id": "monotonie-si-puncte-de-extrem-013",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3-3x$: ce avem în $x=-1$?",
+    "intrebare": "Pentru $f(x)=x^3-3x$, ce are în $x=-1$?",
     "variante": [
       "inflexiune",
       "nimic",
-      "minim local",
-      "maxim local"
+      "minim",
+      "maxim"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-014",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3-3x$: ce avem în $x=1$?",
+    "intrebare": "Pentru $f(x)=x^3-3x$, ce are în $x=1$?",
     "variante": [
       "nimic",
       "inflexiune",
-      "maxim local",
-      "minim local"
+      "maxim",
+      "minim"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-015",
     "tip": "simplu",
-    "intrebare": "Cum este funcția $f(x)=e^x$?",
+    "intrebare": "Are $f(x)=2x+1$ puncte de extrem?",
     "variante": [
-      "constantă",
-      "are un minim în $0$",
-      "crescătoare pe $\\mathbb{R}$ (fără extreme)",
-      "descrescătoare"
+      "da, în $x=1$",
+      "da, în $x=-\\frac12$",
+      "nu, pentru că $f^{\\prime}=2>0$",
+      "da, în $x=0$"
     ],
     "corect": 2
   },
   {
     "id": "monotonie-si-puncte-de-extrem-016",
     "tip": "simplu",
-    "intrebare": "Cum este funcția $f(x)=\\ln x$?",
+    "intrebare": "Pentru $f(x)=x^3$ avem $f^{\\prime}(0)=0$. Este $x=0$ punct de extrem?",
     "variante": [
-      "constantă",
-      "are maxim în $1$",
-      "descrescătoare",
-      "crescătoare pe $(0,+\\infty)$"
+      "da, maxim",
+      "nu se știe",
+      "da, minim",
+      "nu, pentru că $f^{\\prime}$ nu schimbă semnul"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-017",
     "tip": "simplu",
-    "intrebare": "Cum este funcția $f(x)=\\frac{1}{x}$ pe $(0,+\\infty)$?",
+    "intrebare": "Care este valoarea minimă a lui $f(x)=x^2-4x$?",
     "variante": [
-      "crescătoare",
-      "constantă",
-      "are minim în $1$",
-      "descrescătoare"
+      "$0$",
+      "$2$",
+      "$-2$",
+      "$-4$"
     ],
     "corect": 3
   },
   {
     "id": "monotonie-si-puncte-de-extrem-018",
     "tip": "simplu",
-    "intrebare": "Când cerem punctele de extrem GLOBAL (cum e domeniul)?",
+    "intrebare": "Unde își atinge $f(x)=x^2-6x+5$ minimul?",
     "variante": [
-      "doar $(0,+\\infty)$",
-      "închis, $[a;b]$ (cu capete)",
-      "un interval deschis mereu",
-      "toată axa $\\mathbb{R}$ mereu"
+      "în $x=6$",
+      "în $x=3$",
+      "în $x=5$",
+      "în $x=-3$"
     ],
     "corect": 1
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-019",
-    "tip": "simplu",
-    "intrebare": "Unde calculăm valoarea lui $f$ la extreme globale pe $[a;b]$?",
-    "variante": [
-      "capete și în punctele critice din interval",
-      "doar în capete",
-      "doar în punctele critice",
-      "în $x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-020",
-    "tip": "simplu",
-    "intrebare": "Ce este maximul global?",
-    "variante": [
-      "prima valoare",
-      "media valorilor",
-      "cea mai mică valoare",
-      "cea mai mare dintre valorile calculate"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-021",
-    "tip": "simplu",
-    "intrebare": "Ce este minimul global?",
-    "variante": [
-      "cea mai mare valoare",
-      "media valorilor",
-      "prima valoare",
-      "cea mai mică dintre valorile calculate"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-022",
-    "tip": "simplu",
-    "intrebare": "Ce facem cu un punct critic care nu aparține intervalului $[a;b]$?",
-    "variante": [
-      "devine capăt",
-      "se folosește oricum",
-      "se înmulțește cu $-1$",
-      "se ignoră la extremele globale pe $[a;b]$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-023",
-    "tip": "simplu",
-    "intrebare": "Ce înseamnă săgeata $\\nearrow$ în tabel?",
-    "variante": [
-      "$f$ convexă",
-      "$f$ descrescătoare",
-      "$f$ crescătoare",
-      "$f$ concavă"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-024",
-    "tip": "simplu",
-    "intrebare": "Ce rânduri are tabelul de variație?",
-    "variante": [
-      "$x$, $f^{\\prime\\prime}(x)$, $f(x)$",
-      "$x$, $f^{\\prime}(x)$, $f(x)$",
-      "$f(x)$ doar",
-      "$x$ doar"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "monotonie-si-puncte-de-extrem-025",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt adevărate?",
-    "variante": [
-      "maxim local: $f^{\\prime}$ trece de la $-$ la $+$",
-      "minim local: $f^{\\prime}$ trece de la $-$ la $+$",
-      "maxim local: $f^{\\prime}$ trece de la $+$ la $-$",
-      "$f^{\\prime}(x_0)=0$ implică mereu extrem"
-    ],
-    "corect": [
-      1,
-      2
-    ]
   }
 ]

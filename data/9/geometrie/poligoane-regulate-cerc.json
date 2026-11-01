@@ -2,169 +2,205 @@
   {
     "id": "poligoane-regulate-cerc-001",
     "tip": "simplu",
-    "intrebare": "Care este aria unui poligon regulat ($P$ perimetrul, $a$ apotema)?",
+    "intrebare": "La hexagonul regulat înscris în cerc, latura este egală cu:",
     "variante": [
-      "$S=P\\cdot a$",
-      "$S=\\frac{P\\cdot a}{2}$",
-      "$S=\\frac{P\\cdot a}{3}$",
-      "$S=\\frac{P+a}{2}$"
+      "diametrul cercului",
+      "raza cercului",
+      "jumătate din rază",
+      "dublul razei"
     ],
     "corect": 1
   },
   {
     "id": "poligoane-regulate-cerc-002",
     "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $l$: cât sunt $R$ și apotema $a$?",
+    "intrebare": "Un hexagon regulat are raza cercului circumscris $4$. Cât este latura?",
     "variante": [
-      "$R=\\frac{l}{2}$ ; $a=l\\sqrt3$",
-      "$R=l\\sqrt3$ ; $a=\\frac l2$",
-      "$R=l$ ; $a=\\frac{l\\sqrt3}{3}$",
-      "$R=l$ ; $a=\\frac{l\\sqrt3}{2}$"
+      "$8$",
+      "$2$",
+      "$4\\sqrt3$",
+      "$4$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-003",
     "tip": "simplu",
-    "intrebare": "Care este aria hexagonului regulat de latură $l$?",
+    "intrebare": "Cât este latura pătratului înscris în cercul de rază $R$?",
     "variante": [
-      "$S=\\frac{l^2\\sqrt3}{4}$",
-      "$S=\\frac{3l^2\\sqrt3}{2}$",
-      "$S=6l^2$",
-      "$S=\\frac{3l\\sqrt3}{2}$"
+      "$R\\sqrt3$",
+      "$R\\sqrt2$",
+      "$2R$",
+      "$R$"
     ],
     "corect": 1
   },
   {
     "id": "poligoane-regulate-cerc-004",
     "tip": "simplu",
-    "intrebare": "Pătrat de latură $l$: cât sunt $R$ și $a$?",
+    "intrebare": "Cât este latura triunghiului echilateral înscris în cercul de rază $R$?",
     "variante": [
-      "$R=\\frac{l\\sqrt3}{3}$ ; $a=\\frac l2$",
-      "$R=l\\sqrt2$ ; $a=l$",
-      "$R=\\frac l2$ ; $a=\\frac{l\\sqrt2}{2}$",
-      "$R=\\frac{l\\sqrt2}{2}$ ; $a=\\frac l2$"
+      "$2R$",
+      "$R$",
+      "$R\\sqrt2$",
+      "$R\\sqrt3$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-005",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $l$: cât sunt $R$ și $a$?",
+    "intrebare": "Cât măsoară unghiul interior al hexagonului regulat?",
     "variante": [
-      "$R=\\frac{l\\sqrt3}{6}$ ; $a=\\frac{l\\sqrt3}{3}$",
-      "$R=\\frac{l\\sqrt2}{2}$ ; $a=\\frac l2$",
-      "$R=\\frac{l\\sqrt3}{3}$ ; $a=\\frac{l\\sqrt3}{6}$",
-      "$R=\\frac{l\\sqrt3}{2}$ ; $a=\\frac{l}{2}$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$",
+      "$135^\\circ$"
     ],
     "corect": 2
   },
   {
     "id": "poligoane-regulate-cerc-006",
     "tip": "simplu",
-    "intrebare": "Care este lungimea cercului de rază $R$?",
+    "intrebare": "Cât măsoară unghiul interior al pătratului?",
     "variante": [
-      "$L=\\pi R$",
-      "$L=4\\pi R$",
-      "$L=2\\pi R$",
-      "$L=\\pi R^2$"
+      "$120^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$60^\\circ$"
     ],
     "corect": 2
   },
   {
     "id": "poligoane-regulate-cerc-007",
     "tip": "simplu",
-    "intrebare": "Care este aria discului de rază $R$?",
+    "intrebare": "Cât măsoară unghiul interior al pentagonului regulat?",
     "variante": [
-      "$A=2\\pi R$",
-      "$A=2\\pi R^2$",
-      "$A=\\pi R$",
-      "$A=\\pi R^2$"
+      "$120^\\circ$",
+      "$90^\\circ$",
+      "$72^\\circ$",
+      "$108^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-008",
     "tip": "simplu",
-    "intrebare": "Care este lungimea unui arc de $n^\\circ$?",
+    "intrebare": "Cât măsoară unghiul interior al octogonului regulat?",
     "variante": [
-      "$l=\\frac{\\pi R^2n^\\circ}{360^\\circ}$",
-      "$l=\\pi R n^\\circ$",
-      "$l=\\frac{\\pi Rn^\\circ}{360^\\circ}$",
-      "$l=\\frac{\\pi Rn^\\circ}{180^\\circ}$"
+      "$120^\\circ$",
+      "$45^\\circ$",
+      "$145^\\circ$",
+      "$135^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-009",
     "tip": "simplu",
-    "intrebare": "Care este aria unui sector de cerc de $n^\\circ$?",
+    "intrebare": "Cum se află unghiul interior al unui poligon regulat cu $n$ laturi?",
     "variante": [
-      "$A=\\frac{\\pi R^2n^\\circ}{180^\\circ}$",
-      "$A=\\pi R n^\\circ$",
-      "$A=\\frac{\\pi R^2n^\\circ}{360^\\circ}$",
-      "$A=\\frac{\\pi Rn^\\circ}{180^\\circ}$"
+      "$(n-2)\\cdot180^\\circ$",
+      "$\\frac{180^\\circ}{n}$",
+      "$\\frac{(n-2)\\cdot180^\\circ}{n}$",
+      "$\\frac{360^\\circ}{n}$"
     ],
     "corect": 2
   },
   {
     "id": "poligoane-regulate-cerc-010",
     "tip": "simplu",
-    "intrebare": "Cerc de rază $6$: cât este lungimea?",
+    "intrebare": "Cum se află unghiul la centru al unui poligon regulat cu $n$ laturi?",
     "variante": [
-      "$24\\pi$",
-      "$12\\pi$",
-      "$36\\pi$",
-      "$6\\pi$"
+      "$360^\\circ\\cdot n$",
+      "$\\frac{360^\\circ}{n}$",
+      "$\\frac{(n-2)\\cdot180^\\circ}{n}$",
+      "$\\frac{180^\\circ}{n}$"
     ],
     "corect": 1
   },
   {
     "id": "poligoane-regulate-cerc-011",
     "tip": "simplu",
-    "intrebare": "Disc de rază $3$: cât este aria?",
+    "intrebare": "Cât este unghiul la centru al hexagonului regulat?",
     "variante": [
-      "$9\\pi$",
-      "$6\\pi$",
-      "$3\\pi$",
-      "$18\\pi$"
+      "$60^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "poligoane-regulate-cerc-012",
     "tip": "simplu",
-    "intrebare": "Sector de $90^\\circ$ cu $R=4$: cât este aria?",
+    "intrebare": "Cât este unghiul la centru al triunghiului echilateral?",
     "variante": [
-      "$16\\pi$",
-      "$8\\pi$",
-      "$2\\pi$",
-      "$4\\pi$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$120^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-013",
     "tip": "simplu",
-    "intrebare": "Arc de $60^\\circ$ cu $R=3$: cât este lungimea?",
+    "intrebare": "Cât este unghiul la centru al pătratului?",
     "variante": [
-      "$3\\pi$",
-      "$2\\pi$",
-      "$\\frac{\\pi}{2}$",
-      "$\\pi$"
+      "$60^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "poligoane-regulate-cerc-014",
     "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $2$: cât este aria?",
+    "intrebare": "Cât este apotema hexagonului regulat cu latura $a$?",
+    "variante": [
+      "$\\frac{a}{2}$",
+      "$a\\sqrt3$",
+      "$a$",
+      "$\\frac{a\\sqrt3}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-015",
+    "tip": "simplu",
+    "intrebare": "Cât este aria hexagonului regulat cu latura $a$?",
+    "variante": [
+      "$\\frac{a^2\\sqrt3}{4}$",
+      "$6a^2$",
+      "$\\frac{3a^2\\sqrt3}{2}$",
+      "$3a^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "poligoane-regulate-cerc-016",
+    "tip": "simplu",
+    "intrebare": "Cât este aria hexagonului regulat cu latura $2$?",
     "variante": [
       "$3\\sqrt3$",
-      "$12\\sqrt3$",
-      "$4\\sqrt3$",
+      "$2\\sqrt3$",
+      "$12$",
       "$6\\sqrt3$"
     ],
     "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-017",
+    "tip": "simplu",
+    "intrebare": "Ce este apotema unui poligon regulat?",
+    "variante": [
+      "latura poligonului",
+      "diagonala",
+      "distanța de la centru la o latură",
+      "raza cercului circumscris"
+    ],
+    "corect": 2
   }
 ]

@@ -5,9 +5,9 @@
     "intrebare": "Cât este $\\sin(a+b)$?",
     "variante": [
       "$\\sin a\\cos b-\\cos a\\sin b$",
-      "$\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\sin a+\\sin b$",
       "$\\sin a\\cos b+\\cos a\\sin b$",
-      "$\\sin a+\\sin b$"
+      "$\\cos a\\cos b-\\sin a\\sin b$"
     ],
     "corect": 2
   },
@@ -17,8 +17,8 @@
     "intrebare": "Cât este $\\sin(a-b)$?",
     "variante": [
       "$\\sin a\\cos b-\\cos a\\sin b$",
+      "$\\cos a\\cos b+\\sin a\\sin b$",
       "$\\sin a-\\sin b$",
-      "$\\cos a\\cos b-\\sin a\\sin b$",
       "$\\sin a\\cos b+\\cos a\\sin b$"
     ],
     "corect": 0
@@ -30,8 +30,8 @@
     "variante": [
       "$\\cos a\\cos b-\\sin a\\sin b$",
       "$\\cos a\\cos b+\\sin a\\sin b$",
-      "$\\sin a\\cos b+\\cos a\\sin b$",
-      "$\\cos a+\\cos b$"
+      "$\\cos a+\\cos b$",
+      "$\\sin a\\cos b+\\cos a\\sin b$"
     ],
     "corect": 0
   },
@@ -42,8 +42,8 @@
     "variante": [
       "$\\cos a\\cos b-\\sin a\\sin b$",
       "$\\cos a\\cos b+\\sin a\\sin b$",
-      "$\\cos a-\\cos b$",
-      "$\\sin a\\cos b-\\cos a\\sin b$"
+      "$\\sin a\\cos b-\\cos a\\sin b$",
+      "$\\cos a-\\cos b$"
     ],
     "corect": 1
   },
@@ -52,9 +52,9 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\operatorname{tg}(a+b)$?",
     "variante": [
-      "$\\frac{\\operatorname{tg}a-\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
-      "$\\frac{\\operatorname{tg}a+\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
       "$\\operatorname{tg}a+\\operatorname{tg}b$",
+      "$\\frac{\\operatorname{tg}a+\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
+      "$\\frac{\\operatorname{tg}a-\\operatorname{tg}b}{1-\\operatorname{tg}a\\operatorname{tg}b}$",
       "$\\frac{\\operatorname{tg}a+\\operatorname{tg}b}{1+\\operatorname{tg}a\\operatorname{tg}b}$"
     ],
     "corect": 1
@@ -74,95 +74,95 @@
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-007",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $\\sin\\left(x+\\frac{\\pi}{3}\\right)$.",
+    "intrebare": "Cât este $\\sin\\left(\\frac{\\pi}{2}-x\\right)$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}\\sin x+\\frac{1}{2}\\cos x$",
-      "$\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x$",
-      "$\\sin x+\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{1}{2}\\sin x+\\frac{\\sqrt{3}}{2}\\cos x$"
+      "$\\sin x$",
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\cos x$"
     ],
     "corect": 3
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-008",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $\\cos\\left(x-\\frac{\\pi}{3}\\right)$.",
+    "intrebare": "Cât este $\\cos\\left(\\frac{\\pi}{2}-x\\right)$?",
     "variante": [
-      "$\\cos x-\\frac{1}{2}$",
-      "$\\frac{\\sqrt{3}}{2}\\cos x+\\frac{1}{2}\\sin x$",
-      "$\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x$",
-      "$\\frac{1}{2}\\cos x+\\frac{\\sqrt{3}}{2}\\sin x$"
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\cos x$",
+      "$\\sin x$"
     ],
     "corect": 3
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-009",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $\\sin\\left(x-\\frac{\\pi}{4}\\right)$.",
+    "intrebare": "Cum calculăm $\\sin75^\\circ$?",
     "variante": [
-      "$\\sin x-\\frac{\\sqrt{2}}{2}$",
-      "$\\frac{\\sqrt{2}}{2}(\\cos x-\\sin x)$",
-      "$\\frac{\\sqrt{2}}{2}(\\sin x+\\cos x)$",
-      "$\\frac{\\sqrt{2}}{2}(\\sin x-\\cos x)$"
+      "$2\\sin30^\\circ$",
+      "$\\sin(90^\\circ-30^\\circ)$",
+      "$\\sin45^\\circ+\\sin30^\\circ$",
+      "$\\sin(45^\\circ+30^\\circ)$"
     ],
     "corect": 3
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-010",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $\\cos\\left(\\frac{\\pi}{6}+x\\right)$.",
+    "intrebare": "Cum calculăm $\\cos15^\\circ$?",
     "variante": [
-      "$\\cos x+\\frac{\\pi}{6}$",
-      "$\\frac{\\sqrt{3}}{2}\\cos x-\\frac{1}{2}\\sin x$",
-      "$\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x$",
-      "$\\frac{\\sqrt{3}}{2}\\cos x+\\frac{1}{2}\\sin x$"
+      "$\\frac{\\cos30^\\circ}{2}$",
+      "$\\cos(45^\\circ-30^\\circ)$",
+      "$\\cos(60^\\circ-30^\\circ)$",
+      "$\\cos45^\\circ-\\cos30^\\circ$"
     ],
     "corect": 1
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-011",
     "tip": "simplu",
-    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $x$ e în cadranul I, cât este $\\cos x$?",
+    "intrebare": "Dacă $\\sin x=\\frac35$ și $x$ e în cadranul I, cât este $\\cos x$?",
     "variante": [
-      "$\\frac{2}{5}$",
-      "$\\frac{4}{5}$",
-      "$-\\frac{4}{5}$",
-      "$\\frac{3}{4}$"
+      "$\\frac54$",
+      "$\\frac45$",
+      "$-\\frac45$",
+      "$\\frac34$"
     ],
     "corect": 1
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-012",
     "tip": "simplu",
-    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $x$ e în cadranul II, cât este $\\cos x$?",
+    "intrebare": "Dacă $\\sin x=\\frac35$ și $x$ e în cadranul II, cât este $\\cos x$?",
     "variante": [
-      "$-\\frac{3}{4}$",
-      "$-\\frac{4}{5}$",
-      "$\\frac{3}{5}$",
-      "$\\frac{4}{5}$"
+      "$-\\frac35$",
+      "$-\\frac45$",
+      "$\\frac34$",
+      "$\\frac45$"
     ],
     "corect": 1
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-013",
     "tip": "simplu",
-    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $\\cos x=\\frac{4}{5}$, cât este $\\operatorname{tg}x$?",
+    "intrebare": "Dacă $\\sin x=\\frac35$ și $\\cos x=\\frac45$, cât este $\\operatorname{tg}x$?",
     "variante": [
       "$\\frac{12}{25}$",
-      "$\\frac{4}{3}$",
-      "$\\frac{3}{4}$",
-      "$\\frac{3}{5}$"
+      "$\\frac43$",
+      "$\\frac34$",
+      "$\\frac15$"
     ],
     "corect": 2
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-014",
     "tip": "simplu",
-    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $\\cos x=\\frac{4}{5}$, cât este $\\sin2x$?",
+    "intrebare": "Dacă $\\sin x=\\frac35$ și $\\cos x=\\frac45$, cât este $\\sin2x$?",
     "variante": [
-      "$\\frac{12}{25}$",
-      "$\\frac{24}{25}$",
       "$\\frac{6}{5}$",
+      "$\\frac{24}{25}$",
+      "$\\frac{12}{25}$",
       "$\\frac{7}{25}$"
     ],
     "corect": 1
@@ -170,99 +170,63 @@
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-015",
     "tip": "simplu",
-    "intrebare": "Dacă $\\sin x=\\frac{3}{5}$ și $\\cos x=\\frac{4}{5}$, cât este $\\cos2x$?",
+    "intrebare": "Dacă $\\sin x=\\frac35$ și $\\cos x=\\frac45$, cât este $\\cos2x$?",
     "variante": [
       "$\\frac{7}{25}$",
-      "$\\frac{24}{25}$",
       "$1$",
-      "$-\\frac{7}{25}$"
+      "$-\\frac{7}{25}$",
+      "$\\frac{24}{25}$"
     ],
     "corect": 0
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-016",
     "tip": "simplu",
-    "intrebare": "Cum aflăm $\\cos x$ când cunoaștem $\\sin x$ și intervalul lui $x$?",
+    "intrebare": "Cunoaștem $\\sin x$ și cadranul. Cum aflăm $\\cos x$?",
     "variante": [
-      "$\\cos x=1-\\sin x$",
       "$\\cos x=\\sin x$",
       "derivăm $\\sin x$",
-      "stabilim cadranul (semnul) și calculăm $\\cos x=\\pm\\sqrt{1-\\sin^2x}$"
+      "$\\cos x=1-\\sin x$",
+      "$\\cos^2x=1-\\sin^2x$, apoi alegem semnul după cadran"
     ],
     "corect": 3
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-017",
     "tip": "simplu",
-    "intrebare": "Cum alegem semnul lui $\\cos x$ în $\\sqrt{1-\\sin^2x}$?",
+    "intrebare": "Cum alegem semnul lui $\\cos x$ din $\\cos x=\\pm\\sqrt{1-\\sin^2x}$?",
     "variante": [
-      "după cadranul în care se află $x$",
-      "după semnul lui $\\sin x$ doar",
-      "mereu $+$",
-      "mereu $-$"
+      "după cadranul lui $x$",
+      "nu contează",
+      "mereu plus",
+      "mereu minus"
     ],
     "corect": 0
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-018",
     "tip": "simplu",
-    "intrebare": "Cum aflăm $\\operatorname{tg}x$ când cunoaștem $\\sin x$ și $\\cos x$?",
+    "intrebare": "Cât este $\\sin\\left(x+\\frac{\\pi}{2}\\right)$?",
     "variante": [
-      "$\\operatorname{tg}x=\\frac{\\sin x}{\\cos x}$",
-      "$\\frac{\\cos x}{\\sin x}$",
-      "$\\sin x+\\cos x$",
-      "$\\sin x\\cos x$"
+      "$\\cos x$",
+      "$\\sin x$",
+      "$-\\sin x$",
+      "$-\\cos x$"
     ],
     "corect": 0
   },
   {
     "id": "formule-de-adunare-si-calcul-cu-sin-cos-019",
-    "tip": "simplu",
-    "intrebare": "Cum aflăm $\\operatorname{ctg}x$ când cunoaștem $\\sin x$ și $\\cos x$?",
-    "variante": [
-      "$\\sin x\\cos x$",
-      "$\\cos x-\\sin x$",
-      "$\\frac{\\sin x}{\\cos x}$",
-      "$\\operatorname{ctg}x=\\frac{\\cos x}{\\sin x}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "formule-de-adunare-si-calcul-cu-sin-cos-020",
-    "tip": "simplu",
-    "intrebare": "Cum calculăm $\\sin75^\\circ$?",
-    "variante": [
-      "$\\sin(90^\\circ-30^\\circ)$",
-      "$\\sin45^\\circ+\\sin30^\\circ$",
-      "$\\sin(45^\\circ+30^\\circ)$",
-      "$2\\sin45^\\circ$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-adunare-si-calcul-cu-sin-cos-021",
-    "tip": "simplu",
-    "intrebare": "Cum calculăm $\\cos15^\\circ$?",
-    "variante": [
-      "$\\frac{\\cos30^\\circ}{2}$",
-      "$\\cos45^\\circ-\\cos30^\\circ$",
-      "$\\cos(45^\\circ-30^\\circ)$",
-      "$\\cos(60^\\circ+30^\\circ)$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "formule-de-adunare-si-calcul-cu-sin-cos-022",
     "tip": "multiplu",
     "intrebare": "Care formule sunt corecte?",
     "variante": [
-      "$\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b$",
-      "$\\sin(a-b)=\\sin a\\cos b+\\cos a\\sin b$",
+      "$\\sin(a+b)=\\sin a+\\sin b$",
       "$\\cos(a+b)=\\cos a\\cos b+\\sin a\\sin b$",
-      "$\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b$"
+      "$\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b$",
+      "$\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b$"
     ],
     "corect": [
-      0,
+      2,
       3
     ]
   }

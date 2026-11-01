@@ -183,18 +183,6 @@
     "corect": 1
   },
   {
-    "id": "probabilitate-formule-si-algoritm-016",
-    "tip": "simplu",
-    "intrebare": "Din $N$ bile se extrag $k$ pe rând, fără întoarcere, iar ordinea contează. Câte cazuri posibile $n$ sunt?",
-    "variante": [
-      "$N!$",
-      "$A_N^k$",
-      "$N^k$",
-      "$C_N^k$"
-    ],
-    "corect": 1
-  },
-  {
     "id": "probabilitate-formule-si-algoritm-017",
     "tip": "simplu",
     "intrebare": "Din $N$ bile se extrag $k$ pe rând, cu întoarcere. Câte cazuri posibile $n$ sunt?",
@@ -243,30 +231,6 @@
     "corect": 0
   },
   {
-    "id": "probabilitate-formule-si-algoritm-021",
-    "tip": "simplu",
-    "intrebare": "Două persoane anume trebuie să stea alături, într-un rând cu $N$ persoane în total. Cât este $m$?",
-    "variante": [
-      "$2\\cdot(N-1)!$",
-      "$N!-2$",
-      "$(N-1)!$",
-      "$2\\cdot N!$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-022",
-    "tip": "simplu",
-    "intrebare": "Două persoane anume stau alături, într-o ordine fixată între ele. Cât este $m$?",
-    "variante": [
-      "$(N-1)!$",
-      "$(N-2)!$",
-      "$2\\cdot(N-1)!$",
-      "$N!$"
-    ],
-    "corect": 0
-  },
-  {
     "id": "probabilitate-formule-si-algoritm-023",
     "tip": "simplu",
     "intrebare": "Cum se calculează de obicei „cel puțin unul”?",
@@ -277,29 +241,5 @@
       "suma tuturor cazurilor"
     ],
     "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-024",
-    "tip": "simplu",
-    "intrebare": "Care este probabilitatea ca primul succes să vină exact la a $k$-a încercare ($p$ succes, $q=1-p$)?",
-    "variante": [
-      "$p^{k-1}\\cdot q$",
-      "$p^k$",
-      "$q^{k-1}\\cdot p$",
-      "$q^k$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "probabilitate-formule-si-algoritm-025",
-    "tip": "simplu",
-    "intrebare": "Care este probabilitatea să avem exact $k$ succese din $n$ încercări independente ($p$ succes, $q=1-p$)?",
-    "variante": [
-      "$C_n^k\\,p^k q^{n-k}$",
-      "$p^k q^{n-k}$",
-      "$C_n^k\\,p^k$",
-      "$C_n^k\\,p^{n-k}q^k$"
-    ],
-    "corect": 0
   }
 ]

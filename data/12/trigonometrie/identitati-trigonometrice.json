@@ -14,84 +14,84 @@
   {
     "id": "identitati-trigonometrice-002",
     "tip": "simplu",
-    "intrebare": "Cât este $\\sin2\\alpha$?",
+    "intrebare": "Cât este $\\operatorname{tg}\\alpha$?",
     "variante": [
-      "$\\sin^2\\alpha+\\cos^2\\alpha$",
-      "$2\\sin\\alpha\\cos\\alpha$",
-      "$2\\sin\\alpha$",
-      "$\\sin\\alpha\\cos\\alpha$"
+      "$\\sin\\alpha\\cdot\\cos\\alpha$",
+      "$\\frac{\\sin\\alpha}{\\cos\\alpha}$",
+      "$\\frac{\\cos\\alpha}{\\sin\\alpha}$",
+      "$\\frac{1}{\\sin\\alpha}$"
     ],
     "corect": 1
   },
   {
     "id": "identitati-trigonometrice-003",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos2\\alpha$ (forma principală)?",
+    "intrebare": "Cât este $\\operatorname{ctg}\\alpha$?",
     "variante": [
-      "$\\cos^2\\alpha+\\sin^2\\alpha$",
-      "$2\\cos\\alpha$",
-      "$\\sin^2\\alpha-\\cos^2\\alpha$",
-      "$\\cos^2\\alpha-\\sin^2\\alpha$"
+      "$\\frac{\\sin\\alpha}{\\cos\\alpha}$",
+      "$\\cos\\alpha\\cdot\\sin\\alpha$",
+      "$\\frac{1}{\\cos\\alpha}$",
+      "$\\frac{\\cos\\alpha}{\\sin\\alpha}$"
     ],
     "corect": 3
   },
   {
     "id": "identitati-trigonometrice-004",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}\\alpha$ (cu sinus și cosinus)?",
+    "intrebare": "Cât este $\\operatorname{tg}\\alpha\\cdot\\operatorname{ctg}\\alpha$?",
     "variante": [
-      "$\\frac{\\sin\\alpha}{\\cos\\alpha}$",
-      "$\\frac{\\cos\\alpha}{\\sin\\alpha}$",
-      "$\\frac{1}{\\sin\\alpha}$",
-      "$\\sin\\alpha\\cos\\alpha$"
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$\\sin\\alpha$"
     ],
     "corect": 0
   },
   {
     "id": "identitati-trigonometrice-005",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{ctg}\\alpha$ (cu sinus și cosinus)?",
+    "intrebare": "Cât este $\\sin2\\alpha$?",
     "variante": [
-      "$\\frac{1}{\\cos\\alpha}$",
-      "$\\frac{\\cos\\alpha}{\\sin\\alpha}$",
-      "$\\frac{\\sin\\alpha}{\\cos\\alpha}$",
-      "$\\cos\\alpha\\sin\\alpha$"
+      "$2\\sin\\alpha$",
+      "$2\\sin\\alpha\\cos\\alpha$",
+      "$\\sin^2\\alpha-\\cos^2\\alpha$",
+      "$\\sin\\alpha+\\cos\\alpha$"
     ],
     "corect": 1
   },
   {
     "id": "identitati-trigonometrice-006",
     "tip": "simplu",
-    "intrebare": "Cum scriem $\\sin^2\\alpha$ cu ajutorul lui $\\cos2\\alpha$?",
+    "intrebare": "Care este forma principală a lui $\\cos2\\alpha$?",
     "variante": [
-      "$\\frac{1-\\cos2\\alpha}{2}$",
-      "$1-\\cos2\\alpha$",
-      "$\\frac{1+\\cos2\\alpha}{2}$",
-      "$\\frac{1-\\sin2\\alpha}{2}$"
+      "$\\cos^2\\alpha-\\sin^2\\alpha$",
+      "$2\\cos\\alpha$",
+      "$\\cos^2\\alpha+\\sin^2\\alpha$",
+      "$\\sin^2\\alpha-\\cos^2\\alpha$"
     ],
     "corect": 0
   },
   {
     "id": "identitati-trigonometrice-007",
     "tip": "simplu",
-    "intrebare": "Cum scriem $\\cos^2\\alpha$ cu ajutorul lui $\\cos2\\alpha$?",
+    "intrebare": "Cât este $\\cos2\\alpha$ doar cu $\\cos\\alpha$?",
     "variante": [
-      "$\\frac{1+\\sin2\\alpha}{2}$",
-      "$1+\\cos2\\alpha$",
-      "$\\frac{1-\\cos2\\alpha}{2}$",
-      "$\\frac{1+\\cos2\\alpha}{2}$"
+      "$\\cos^2\\alpha-1$",
+      "$2\\cos\\alpha-1$",
+      "$1-2\\cos^2\\alpha$",
+      "$2\\cos^2\\alpha-1$"
     ],
     "corect": 3
   },
   {
     "id": "identitati-trigonometrice-008",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}\\alpha\\cdot\\operatorname{ctg}\\alpha$?",
+    "intrebare": "Cât este $\\cos2\\alpha$ doar cu $\\sin\\alpha$?",
     "variante": [
-      "$-1$",
-      "$1$",
-      "$0$",
-      "$\\sin\\alpha$"
+      "$2\\sin\\alpha-1$",
+      "$1-2\\sin^2\\alpha$",
+      "$2\\sin^2\\alpha-1$",
+      "$1-\\sin^2\\alpha$"
     ],
     "corect": 1
   },
@@ -101,7 +101,7 @@
     "intrebare": "Cât este $1-\\sin^2\\alpha$?",
     "variante": [
       "$\\sin^2\\alpha$",
-      "$\\cos2\\alpha$",
+      "$\\cos\\alpha$",
       "$\\cos^2\\alpha$",
       "$1$"
     ],
@@ -112,9 +112,9 @@
     "tip": "simplu",
     "intrebare": "Cât este $1-\\cos^2\\alpha$?",
     "variante": [
-      "$-1$",
+      "$1$",
       "$\\cos^2\\alpha$",
-      "$\\sin2\\alpha$",
+      "$\\sin\\alpha$",
       "$\\sin^2\\alpha$"
     ],
     "corect": 3
@@ -122,60 +122,60 @@
   {
     "id": "identitati-trigonometrice-011",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos2\\alpha$ scris doar cu $\\cos\\alpha$?",
+    "intrebare": "Cât este $1+\\operatorname{tg}^2\\alpha$?",
     "variante": [
-      "$2\\cos^2\\alpha-1$",
-      "$2\\cos\\alpha-1$",
-      "$\\cos^2\\alpha+1$",
-      "$1-2\\cos^2\\alpha$"
+      "$\\frac{1}{\\cos^2\\alpha}$",
+      "$\\cos^2\\alpha$",
+      "$\\operatorname{tg}2\\alpha$",
+      "$\\frac{1}{\\sin^2\\alpha}$"
     ],
     "corect": 0
   },
   {
     "id": "identitati-trigonometrice-012",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos2\\alpha$ scris doar cu $\\sin\\alpha$?",
+    "intrebare": "Cât este $\\sin^2\\alpha$ prin $\\cos2\\alpha$?",
     "variante": [
-      "$2\\sin^2\\alpha-1$",
-      "$1-2\\sin^2\\alpha$",
-      "$1-2\\sin\\alpha$",
-      "$1-\\sin^2\\alpha$"
+      "$\\frac{1+\\cos2\\alpha}{2}$",
+      "$\\frac{1-\\cos2\\alpha}{2}$",
+      "$\\frac{\\cos2\\alpha}{2}$",
+      "$1-\\cos2\\alpha$"
     ],
     "corect": 1
   },
   {
     "id": "identitati-trigonometrice-013",
     "tip": "simplu",
-    "intrebare": "Cât este $1+\\operatorname{tg}^2\\alpha$?",
+    "intrebare": "Cât este $\\cos^2\\alpha$ prin $\\cos2\\alpha$?",
     "variante": [
-      "$\\frac{1}{\\sin^2\\alpha}$",
-      "$\\operatorname{tg}2\\alpha$",
-      "$\\frac{1}{\\cos^2\\alpha}$",
-      "$\\cos^2\\alpha$"
+      "$\\frac{1-\\cos2\\alpha}{2}$",
+      "$\\frac{\\cos2\\alpha}{2}$",
+      "$\\frac{1+\\cos2\\alpha}{2}$",
+      "$1+\\cos2\\alpha$"
     ],
     "corect": 2
   },
   {
     "id": "identitati-trigonometrice-014",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $(\\sin x+\\cos x)^2$.",
+    "intrebare": "Cât este $(\\sin x+\\cos x)^2$?",
     "variante": [
       "$1-\\sin2x$",
       "$1+\\sin2x$",
-      "$1+\\cos2x$",
-      "$\\sin2x$"
+      "$1$",
+      "$\\sin^2x+\\cos^2x+2$"
     ],
     "corect": 1
   },
   {
     "id": "identitati-trigonometrice-015",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $(\\sin x-\\cos x)^2$.",
+    "intrebare": "Cât este $(\\sin x-\\cos x)^2$?",
     "variante": [
       "$-1$",
       "$1+\\sin2x$",
       "$1-\\sin2x$",
-      "$\\cos2x$"
+      "$1$"
     ],
     "corect": 2
   },
@@ -185,8 +185,8 @@
     "intrebare": "Cât este $\\sin x\\cos x$?",
     "variante": [
       "$\\frac{\\cos2x}{2}$",
-      "$\\sin2x$",
       "$2\\sin2x$",
+      "$\\sin2x$",
       "$\\frac{\\sin2x}{2}$"
     ],
     "corect": 3
@@ -194,68 +194,40 @@
   {
     "id": "identitati-trigonometrice-017",
     "tip": "simplu",
-    "intrebare": "Cât este $\\frac{1}{\\sin^2x}+\\frac{1}{\\cos^2x}$?",
+    "intrebare": "Dacă $\\sin\\alpha=\\frac35$, cât este $\\cos^2\\alpha$?",
     "variante": [
-      "$1$",
-      "$\\frac{1}{\\sin^2x+\\cos^2x}$",
-      "$\\frac{1}{\\sin^2x\\cos^2x}$",
-      "$\\frac{2}{\\sin x\\cos x}$"
+      "$\\frac{4}{5}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{16}{25}$",
+      "$\\frac{9}{25}$"
     ],
     "corect": 2
   },
   {
     "id": "identitati-trigonometrice-018",
     "tip": "simplu",
-    "intrebare": "Cât este $\\frac{1}{\\sin^2x\\cos^2x}$?",
+    "intrebare": "Care este primul pas la simplificarea expresiilor trigonometrice?",
     "variante": [
-      "$\\frac{4}{\\sin2x}$",
-      "$\\frac{2}{\\sin^22x}$",
-      "$\\frac{4}{\\sin^22x}$",
-      "$\\frac{1}{\\sin^22x}$"
+      "înmulțim cu $x$",
+      "derivăm",
+      "folosim $\\sin^2x+\\cos^2x=1$ și formulele de bază",
+      "calculăm $\\Delta$"
     ],
     "corect": 2
   },
   {
     "id": "identitati-trigonometrice-019",
-    "tip": "simplu",
-    "intrebare": "Care este primul pas la simplificarea unei expresii trigonometrice?",
-    "variante": [
-      "aducem la același numitor / folosim identitățile de bază",
-      "ridicăm la pătrat mereu",
-      "derivăm expresia",
-      "punem $x=0$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "identitati-trigonometrice-020",
     "tip": "multiplu",
     "intrebare": "Care egalități sunt adevărate?",
     "variante": [
-      "$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$",
-      "$\\cos2\\alpha=\\cos^2\\alpha+\\sin^2\\alpha$",
-      "$\\sin^2\\alpha+\\cos^2\\alpha=1$",
-      "$\\operatorname{tg}\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}$"
+      "$\\sin^2x+\\cos^2x=1$",
+      "$\\operatorname{tg}x=\\frac{\\cos x}{\\sin x}$",
+      "$\\sin2x=2\\sin x\\cos x$",
+      "$\\cos2x=2\\cos x$"
     ],
     "corect": [
       0,
       2
-    ]
-  },
-  {
-    "id": "identitati-trigonometrice-021",
-    "tip": "multiplu",
-    "intrebare": "Care sunt formele corecte pentru $\\cos2\\alpha$?",
-    "variante": [
-      "$\\cos^2\\alpha-\\sin^2\\alpha$",
-      "$1-2\\sin^2\\alpha$",
-      "$2\\sin^2\\alpha-1$",
-      "$2\\cos^2\\alpha-1$"
-    ],
-    "corect": [
-      0,
-      1,
-      3
     ]
   }
 ]

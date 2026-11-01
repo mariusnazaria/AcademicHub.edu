@@ -2,145 +2,244 @@
   {
     "id": "functia-x-patrat-001",
     "tip": "simplu",
-    "intrebare": "Cum arată graficul lui $f(x)=x^2$?",
+    "intrebare": "Cum arată graficul funcției $f(x)=x^2$?",
     "variante": [
-      "o dreaptă prin origine",
-      "o parabolă cu vârful în $(0;1)$",
+      "o dreaptă",
+      "un cerc",
       "o hiperbolă",
-      "o parabolă cu vârful în $O(0;0)$"
+      "o parabolă"
     ],
     "corect": 3
   },
   {
     "id": "functia-x-patrat-002",
     "tip": "simplu",
-    "intrebare": "Care este axa de simetrie a lui $f(x)=x^2$?",
+    "intrebare": "Care este vârful parabolei $y=x^2$?",
     "variante": [
-      "axa $Ox$",
-      "dreapta $y=x$",
-      "dreapta $x=1$",
-      "axa $Oy$"
+      "$(1;1)$",
+      "$(0;1)$",
+      "$(1;0)$",
+      "$(0;0)$"
     ],
     "corect": 3
   },
   {
     "id": "functia-x-patrat-003",
     "tip": "simplu",
-    "intrebare": "Cât este $f(-x)$ pentru $f(x)=x^2$?",
+    "intrebare": "Ramurile parabolei $y=x^2$ merg:",
     "variante": [
-      "$f(-x)=f(x)$",
-      "$f(-x)=\\frac1{f(x)}$",
-      "$f(-x)=-f(x)$",
-      "$f(-x)=f(x)+1$"
+      "în sus",
+      "spre stânga",
+      "în jos",
+      "spre dreapta"
     ],
     "corect": 0
   },
   {
     "id": "functia-x-patrat-004",
     "tip": "simplu",
-    "intrebare": "Ce valori ia $f(x)=x^2$?",
+    "intrebare": "Care este axa de simetrie a parabolei $y=x^2$?",
     "variante": [
-      "$f(x)>0$ mereu",
-      "$f(x)\\le0$, maxim $0$",
-      "$f(x)\\ge0$, minim $0$ pentru $x=0$",
-      "$f(x)\\ge1$"
+      "dreapta $y=x$",
+      "axa $Ox$",
+      "axa $Oy$",
+      "dreapta $y=1$"
     ],
     "corect": 2
   },
   {
     "id": "functia-x-patrat-005",
     "tip": "simplu",
-    "intrebare": "Cum variază $f(x)=x^2$ (crește / scade)?",
+    "intrebare": "Cât este $f(2)$ la $f(x)=x^2$?",
     "variante": [
-      "descrescătoare pe $\\mathbb{R}$",
-      "crescătoare pe $(-\\infty;0]$ și descrescătoare pe $[0;+\\infty)$",
-      "descrescătoare pe $(-\\infty;0]$ și crescătoare pe $[0;+\\infty)$",
-      "crescătoare pe $\\mathbb{R}$"
+      "$-4$",
+      "$2$",
+      "$4$",
+      "$8$"
     ],
     "corect": 2
   },
   {
     "id": "functia-x-patrat-006",
     "tip": "simplu",
-    "intrebare": "Calculează $f(-3)$ pentru $f(x)=x^2$.",
+    "intrebare": "Cât este $f(-2)$ la $f(x)=x^2$?",
     "variante": [
-      "$9$",
-      "$6$",
-      "$-6$",
-      "$-9$"
+      "$4$",
+      "$2$",
+      "$-2$",
+      "$-4$"
     ],
     "corect": 0
   },
   {
     "id": "functia-x-patrat-007",
     "tip": "simplu",
-    "intrebare": "Față de ce sunt simetrice punctele $(x;y)$ și $(-x;y)$ ale parabolei $y=x^2$?",
+    "intrebare": "Cât este $f(-5)$ la $f(x)=x^2$?",
     "variante": [
-      "axa $Oy$",
-      "axa $Ox$",
-      "origine",
-      "dreapta $y=x$"
+      "$25$",
+      "$-25$",
+      "$10$",
+      "$-10$"
     ],
     "corect": 0
   },
   {
     "id": "functia-x-patrat-008",
     "tip": "simplu",
-    "intrebare": "Care punct este pe graficul lui $f(x)=x^2$?",
+    "intrebare": "Cât este $f\\left(\\frac12\\right)$ la $f(x)=x^2$?",
     "variante": [
-      "$(3;6)$",
-      "$(-1;-1)$",
-      "$(-2;4)$",
-      "$(2;-4)$"
+      "$1$",
+      "$\\frac{1}{8}$",
+      "$\\frac14$",
+      "$\\frac12$"
     ],
     "corect": 2
   },
   {
     "id": "functia-x-patrat-009",
     "tip": "simplu",
-    "intrebare": "Ce mulțime de valori are $f(x)=x^2$?",
+    "intrebare": "Care este cea mai mică valoare a lui $x^2$?",
     "variante": [
-      "$\\mathbb{R}$",
-      "$(0;+\\infty)$",
-      "$(-\\infty;0]$",
-      "$[0;+\\infty)$"
+      "$-1$",
+      "nu există",
+      "$1$",
+      "$0$"
     ],
     "corect": 3
   },
   {
     "id": "functia-x-patrat-010",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $y=x^2$?",
+    "intrebare": "Valorile lui $x^2$ sunt mereu:",
     "variante": [
-      "$V(0;1)$",
-      "$V(0;0)$",
-      "$V(1;1)$",
-      "$V(1;0)$"
+      "egale cu $x$",
+      "mai mari sau egale cu $0$",
+      "negative",
+      "mai mici decât $x$"
     ],
     "corect": 1
   },
   {
     "id": "functia-x-patrat-011",
     "tip": "simplu",
-    "intrebare": "Care puncte sunt pe graficul lui $f(x)=x^2$?",
+    "intrebare": "Care este imaginea funcției $f(x)=x^2$?",
     "variante": [
-      "$(1;1)$ și $(-2;4)$",
-      "$(1;1)$ și $(2;2)$",
-      "$(2;2)$ și $(3;6)$",
-      "$(-2;-4)$ și $(3;9)$"
+      "$[0;+\\infty)$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;0]$",
+      "$[1;+\\infty)$"
     ],
     "corect": 0
   },
   {
     "id": "functia-x-patrat-012",
     "tip": "simplu",
-    "intrebare": "Este $f(x)=x^2$ crescătoare sau descrescătoare pe tot $\\mathbb{R}$?",
+    "intrebare": "Pe $(-\\infty;0]$ funcția $x^2$:",
     "variante": [
-      "da, crescătoare",
-      "nu: scade pe $(-\\infty;0]$ și crește pe $[0;+\\infty)$",
-      "da, descrescătoare",
-      "da, constantă"
+      "crește",
+      "scade",
+      "este constantă",
+      "nu e definită"
     ],
     "corect": 1
+  },
+  {
+    "id": "functia-x-patrat-013",
+    "tip": "simplu",
+    "intrebare": "Pe $[0;+\\infty)$ funcția $x^2$:",
+    "variante": [
+      "este constantă",
+      "scade",
+      "nu e definită",
+      "crește"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "functia-x-patrat-014",
+    "tip": "simplu",
+    "intrebare": "Care punct aparține graficului $y=x^2$?",
+    "variante": [
+      "$(4;8)$",
+      "$(3;6)$",
+      "$(3;9)$",
+      "$(2;2)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-x-patrat-015",
+    "tip": "simplu",
+    "intrebare": "Care punct NU aparține graficului $y=x^2$?",
+    "variante": [
+      "$(0;0)$",
+      "$(-3;9)$",
+      "$(2;-4)$",
+      "$(-1;1)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-x-patrat-016",
+    "tip": "simplu",
+    "intrebare": "Dacă $x^2=16$, atunci $x$ este:",
+    "variante": [
+      "$8$",
+      "$4$ sau $-4$",
+      "doar $-4$",
+      "doar $4$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-x-patrat-017",
+    "tip": "simplu",
+    "intrebare": "Câte puncte din grafic au ordonata $4$?",
+    "variante": [
+      "niciunul",
+      "trei",
+      "două: $(-2;4)$ și $(2;4)$",
+      "unul: $(2;4)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-x-patrat-018",
+    "tip": "simplu",
+    "intrebare": "Parabola $y=x^2$ este simetrică față de:",
+    "variante": [
+      "axa $Oy$",
+      "nimic",
+      "origine, dar nu și axa $Oy$",
+      "axa $Ox$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "functia-x-patrat-019",
+    "tip": "simplu",
+    "intrebare": "Câte zerouri are $f(x)=x^2$?",
+    "variante": [
+      "o infinitate",
+      "două",
+      "unul: $x=0$",
+      "niciunul"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-x-patrat-020",
+    "tip": "multiplu",
+    "intrebare": "Care puncte aparțin graficului lui $y=x^2$?",
+    "variante": [
+      "$(3;6)$",
+      "$(-3;9)$",
+      "$(2;2)$",
+      "$(1;1)$"
+    ],
+    "corect": [
+      1,
+      3
+    ]
   }
 ]

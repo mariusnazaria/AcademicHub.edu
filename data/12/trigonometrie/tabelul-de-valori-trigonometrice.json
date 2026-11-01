@@ -4,7 +4,7 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\sin0^\\circ$?",
     "variante": [
-      "$\\frac{1}{2}$",
+      "$\\frac12$",
       "$0$",
       "$-1$",
       "$1$"
@@ -16,10 +16,10 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\sin30^\\circ$?",
     "variante": [
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac12$",
+      "$\\frac{\\sqrt3}{2}$",
       "$1$",
-      "$\\frac{\\sqrt{3}}{2}$"
+      "$\\frac{\\sqrt2}{2}$"
     ],
     "corect": 0
   },
@@ -29,9 +29,9 @@
     "intrebare": "Cât este $\\sin45^\\circ$?",
     "variante": [
       "$1$",
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$"
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac12$",
+      "$\\frac{\\sqrt2}{2}$"
     ],
     "corect": 3
   },
@@ -40,10 +40,10 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\sin60^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{3}}{3}$"
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac{\\sqrt2}{2}$",
+      "$\\frac12$",
+      "$1$"
     ],
     "corect": 0
   },
@@ -52,8 +52,8 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\sin90^\\circ$?",
     "variante": [
+      "$\\frac12$",
       "$-1$",
-      "$\\frac{\\sqrt{3}}{2}$",
       "$0$",
       "$1$"
     ],
@@ -64,7 +64,7 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\sin180^\\circ$?",
     "variante": [
-      "$\\frac{1}{2}$",
+      "$\\frac12$",
       "$-1$",
       "$0$",
       "$1$"
@@ -76,8 +76,8 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\cos0^\\circ$?",
     "variante": [
+      "$\\frac12$",
       "$-1$",
-      "$\\frac{1}{2}$",
       "$0$",
       "$1$"
     ],
@@ -88,10 +88,10 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\cos30^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{2}}{2}$",
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{3}}{2}$"
+      "$\\frac{\\sqrt2}{2}$",
+      "$1$",
+      "$\\frac12$",
+      "$\\frac{\\sqrt3}{2}$"
     ],
     "corect": 3
   },
@@ -100,10 +100,10 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\cos45^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{\\sqrt{2}}{2}$",
-      "$1$",
-      "$\\frac{1}{2}$"
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac{\\sqrt2}{2}$",
+      "$0$",
+      "$\\frac12$"
     ],
     "corect": 1
   },
@@ -112,10 +112,10 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\cos60^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac12$",
       "$0$",
-      "$\\frac{\\sqrt{2}}{2}$"
+      "$\\frac{\\sqrt2}{2}$"
     ],
     "corect": 1
   },
@@ -127,7 +127,7 @@
       "$-1$",
       "$0$",
       "$1$",
-      "$\\frac{1}{2}$"
+      "$\\frac12$"
     ],
     "corect": 1
   },
@@ -139,7 +139,7 @@
       "$1$",
       "$0$",
       "$-1$",
-      "$-\\frac{1}{2}$"
+      "$\\frac12$"
     ],
     "corect": 2
   },
@@ -151,7 +151,7 @@
       "nu există",
       "$1$",
       "$0$",
-      "$\\sqrt{3}$"
+      "$\\sqrt3$"
     ],
     "corect": 2
   },
@@ -161,9 +161,9 @@
     "intrebare": "Cât este $\\operatorname{tg}30^\\circ$?",
     "variante": [
       "$1$",
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$\\sqrt{3}$",
-      "$\\frac{1}{2}$"
+      "$\\frac{\\sqrt3}{3}$",
+      "$\\sqrt3$",
+      "$\\frac12$"
     ],
     "corect": 1
   },
@@ -172,9 +172,9 @@
     "tip": "simplu",
     "intrebare": "Cât este $\\operatorname{tg}45^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{3}$",
+      "$\\frac{\\sqrt3}{3}$",
       "$1$",
-      "$\\sqrt{3}$",
+      "$\\sqrt3$",
       "$0$"
     ],
     "corect": 1
@@ -185,20 +185,20 @@
     "intrebare": "Cât este $\\operatorname{tg}60^\\circ$?",
     "variante": [
       "$1$",
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\sqrt{3}$"
+      "$\\frac{\\sqrt3}{3}$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\sqrt3$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-de-valori-trigonometrice-017",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}90^\\circ$?",
+    "intrebare": "Cât este $\\operatorname{ctg}30^\\circ$?",
     "variante": [
-      "$\\infty$ definit ca număr",
-      "$0$",
-      "nu există (nedefinită)",
+      "$\\frac12$",
+      "$\\frac{\\sqrt3}{3}$",
+      "$\\sqrt3$",
       "$1$"
     ],
     "corect": 2
@@ -206,23 +206,23 @@
   {
     "id": "tabelul-de-valori-trigonometrice-018",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}180^\\circ$?",
+    "intrebare": "Cât este $\\operatorname{ctg}45^\\circ$?",
     "variante": [
-      "$0$",
       "$1$",
-      "nu există",
-      "$-1$"
+      "$0$",
+      "$\\frac{\\sqrt3}{3}$",
+      "$\\sqrt3$"
     ],
     "corect": 0
   },
   {
     "id": "tabelul-de-valori-trigonometrice-019",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{ctg}30^\\circ$?",
+    "intrebare": "Cât este $\\operatorname{ctg}60^\\circ$?",
     "variante": [
-      "$0$",
-      "$\\sqrt{3}$",
-      "$\\frac{\\sqrt{3}}{3}$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$\\frac{\\sqrt3}{3}$",
+      "$\\sqrt3$",
       "$1$"
     ],
     "corect": 1
@@ -230,64 +230,13 @@
   {
     "id": "tabelul-de-valori-trigonometrice-020",
     "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{ctg}45^\\circ$?",
+    "intrebare": "Ce se întâmplă cu $\\operatorname{tg}90^\\circ$?",
     "variante": [
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$\\sqrt{3}$",
-      "$1$",
-      "$0$"
+      "este $-1$",
+      "este $1$",
+      "nu există",
+      "este $0$"
     ],
     "corect": 2
-  },
-  {
-    "id": "tabelul-de-valori-trigonometrice-021",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{ctg}60^\\circ$?",
-    "variante": [
-      "$\\frac{1}{2}$",
-      "$\\frac{\\sqrt{3}}{3}$",
-      "$1$",
-      "$\\sqrt{3}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tabelul-de-valori-trigonometrice-022",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{ctg}90^\\circ$?",
-    "variante": [
-      "$1$",
-      "$0$",
-      "$\\sqrt{3}$",
-      "nu există"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tabelul-de-valori-trigonometrice-023",
-    "tip": "simplu",
-    "intrebare": "Cât sunt $\\operatorname{ctg}0^\\circ$ și $\\operatorname{ctg}180^\\circ$?",
-    "variante": [
-      "sunt egale cu $0$",
-      "nu există (nedefinite)",
-      "sunt egale cu $-1$",
-      "sunt egale cu $1$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tabelul-de-valori-trigonometrice-024",
-    "tip": "multiplu",
-    "intrebare": "Care valori sunt corecte?",
-    "variante": [
-      "$\\sin30^\\circ=\\frac{1}{2}$",
-      "$\\sin45^\\circ=\\frac{1}{2}$",
-      "$\\cos90^\\circ=1$",
-      "$\\cos60^\\circ=\\frac{1}{2}$"
-    ],
-    "corect": [
-      0,
-      3
-    ]
   }
 ]

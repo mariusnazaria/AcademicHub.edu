@@ -2,264 +2,228 @@
   {
     "id": "tabelul-primitivelor-001",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x^n\\,dx$ ($n\\neq-1$).",
+    "intrebare": "Cât este $\\int x^n\\,dx$ (pentru $n\\neq-1$)?",
     "variante": [
-      "$\\frac{x^{n-1}}{n-1}+C$",
-      "$\\frac{x^{n}}{n+1}+C$",
+      "$nx^{n-1}+C$",
+      "$x^{n+1}+C$",
       "$\\frac{x^{n+1}}{n+1}+C$",
-      "$n x^{n-1}+C$"
+      "$\\frac{x^{n}}{n}+C$"
     ],
     "corect": 2
   },
   {
     "id": "tabelul-primitivelor-002",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{x}\\,dx$?",
     "variante": [
-      "$x+C$",
-      "$0+C$",
+      "$\\ln|x|+C$",
       "$\\frac{x^2}{2}+C$",
-      "$1+C$"
+      "$e^x+C$",
+      "$-\\frac{1}{x^2}+C$"
     ],
     "corect": 0
   },
   {
     "id": "tabelul-primitivelor-003",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x\\,dx$.",
+    "intrebare": "Cât este $\\int e^x\\,dx$?",
     "variante": [
-      "$x^2+C$",
-      "$\\frac{x}{2}+C$",
-      "$2x+C$",
-      "$\\frac{x^2}{2}+C$"
+      "$xe^{x-1}+C$",
+      "$e^{x+1}+C$",
+      "$\\ln x+C$",
+      "$e^x+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-004",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x^2\\,dx$.",
+    "intrebare": "Cât este $\\int a^x\\,dx$?",
     "variante": [
-      "$\\frac{x^2}{3}+C$",
-      "$\\frac{x^3}{3}+C$",
-      "$x^3+C$",
-      "$2x+C$"
+      "$xa^{x-1}+C$",
+      "$\\frac{a^x}{\\ln a}+C$",
+      "$\\frac{a^{x+1}}{x+1}+C$",
+      "$a^x\\ln a+C$"
     ],
     "corect": 1
   },
   {
     "id": "tabelul-primitivelor-005",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x^3\\,dx$.",
+    "intrebare": "Cât este $\\int 2^x\\,dx$?",
     "variante": [
-      "$\\frac{x^4}{4}+C$",
-      "$3x^2+C$",
-      "$x^4+C$",
-      "$\\frac{x^3}{4}+C$"
+      "$\\frac{2^x}{\\ln 2}+C$",
+      "$2^x\\ln 2+C$",
+      "$2^x+C$",
+      "$x2^{x-1}+C$"
     ],
     "corect": 0
   },
   {
     "id": "tabelul-primitivelor-006",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\sqrt{x}\\,dx$.",
+    "intrebare": "Cât este $\\int 5^x\\,dx$?",
     "variante": [
-      "$\\frac{3}{2}x\\sqrt{x}+C$",
-      "$\\frac{2}{3}x\\sqrt{x}+C$",
-      "$\\frac{1}{2\\sqrt{x}}+C$",
-      "$\\frac{2}{3}\\sqrt{x}+C$"
+      "$\\frac{5^{x+1}}{x+1}+C$",
+      "$\\frac{5^x}{\\ln 5}+C$",
+      "$5^x\\ln 5+C$",
+      "$5x+C$"
     ],
     "corect": 1
   },
   {
     "id": "tabelul-primitivelor-007",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{x}\\,dx$.",
+    "intrebare": "Cât este $\\int \\sin x\\,dx$?",
     "variante": [
-      "$\\frac{1}{x^2}+C$",
-      "$\\ln x^2+C$",
-      "$\\ln|x|+C$",
-      "$-\\frac{1}{x^2}+C$"
+      "$\\sin x+C$",
+      "$-\\sin x+C$",
+      "$-\\cos x+C$",
+      "$\\cos x+C$"
     ],
     "corect": 2
   },
   {
     "id": "tabelul-primitivelor-008",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{x^2}\\,dx$.",
+    "intrebare": "Cât este $\\int \\cos x\\,dx$?",
     "variante": [
-      "$-\\frac{2}{x^3}+C$",
-      "$\\frac{1}{x}+C$",
-      "$\\ln|x|+C$",
-      "$-\\frac{1}{x}+C$"
+      "$-\\cos x+C$",
+      "$-\\sin x+C$",
+      "$\\cos x+C$",
+      "$\\sin x+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-009",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int e^x\\,dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{\\cos^2x}\\,dx$?",
     "variante": [
-      "$\\frac{e^x}{x}+C$",
-      "$e^{x+1}+C$",
-      "$xe^{x-1}+C$",
-      "$e^x+C$"
+      "$\\sin x+C$",
+      "$\\operatorname{ctg}x+C$",
+      "$-\\operatorname{tg}x+C$",
+      "$\\operatorname{tg}x+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-010",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int a^x\\,dx$ ($a>0$, $a\\neq1$).",
+    "intrebare": "Cât este $\\int \\frac{1}{\\sin^2x}\\,dx$?",
     "variante": [
-      "$a^x\\ln a+C$",
-      "$\\frac{a^{x+1}}{x+1}+C$",
-      "$a^x+C$",
-      "$\\frac{a^x}{\\ln a}+C$"
+      "$\\operatorname{ctg}x+C$",
+      "$\\operatorname{tg}x+C$",
+      "$-\\operatorname{tg}x+C$",
+      "$-\\operatorname{ctg}x+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-011",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\cos x\\,dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{1+x^2}\\,dx$?",
     "variante": [
-      "$\\sin x+C$",
-      "$-\\sin x+C$",
-      "$\\cos x+C$",
-      "$-\\cos x+C$"
+      "$\\operatorname{arctg}x+C$",
+      "$\\ln(1+x^2)+C$",
+      "$\\arcsin x+C$",
+      "$-\\frac{2x}{(1+x^2)^2}+C$"
     ],
     "corect": 0
   },
   {
     "id": "tabelul-primitivelor-012",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\sin x\\,dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{\\sqrt{1-x^2}}\\,dx$?",
     "variante": [
-      "$\\sin x+C$",
-      "$-\\cos x+C$",
-      "$-\\sin x+C$",
-      "$\\cos x+C$"
+      "$\\sqrt{1-x^2}+C$",
+      "$\\arcsin x+C$",
+      "$\\operatorname{arctg}x+C$",
+      "$\\arccos x+C$"
     ],
     "corect": 1
   },
   {
     "id": "tabelul-primitivelor-013",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{\\cos^2x}\\,dx$.",
+    "intrebare": "Cât este $\\int \\sqrt{x}\\,dx$?",
     "variante": [
-      "$\\frac{1}{\\sin x}+C$",
-      "$-\\operatorname{tg} x+C$",
-      "$\\operatorname{ctg} x+C$",
-      "$\\operatorname{tg} x+C$"
+      "$\\frac{x^2}{2}+C$",
+      "$\\frac{1}{2\\sqrt{x}}+C$",
+      "$\\frac{\\sqrt{x}}{2}+C$",
+      "$\\frac{2x\\sqrt{x}}{3}+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-014",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{\\sin^2x}\\,dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{x^2}\\,dx$?",
     "variante": [
-      "$\\operatorname{tg} x+C$",
-      "$-\\operatorname{tg} x+C$",
-      "$\\operatorname{ctg} x+C$",
-      "$-\\operatorname{ctg} x+C$"
+      "$-\\frac{2}{x^3}+C$",
+      "$\\ln x^2+C$",
+      "$\\frac{1}{x}+C$",
+      "$-\\frac{1}{x}+C$"
     ],
     "corect": 3
   },
   {
     "id": "tabelul-primitivelor-015",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{1+x^2}\\,dx$.",
+    "intrebare": "Cât este $\\int \\frac{1}{\\sqrt{x}}\\,dx$?",
     "variante": [
-      "$-\\operatorname{arctg} x+C$",
-      "$\\operatorname{arctg} x+C$",
-      "$\\ln(1+x^2)+C$",
-      "$\\arcsin x+C$"
+      "$-\\frac{1}{x\\sqrt{x}}+C$",
+      "$2\\sqrt{x}+C$",
+      "$\\sqrt{x}+C$",
+      "$\\frac{1}{2\\sqrt{x}}+C$"
     ],
     "corect": 1
   },
   {
     "id": "tabelul-primitivelor-016",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\frac{1}{\\sqrt{1-x^2}}\\,dx$.",
+    "intrebare": "Pentru ce $n$ NU merge formula $\\int x^ndx=\\frac{x^{n+1}}{n+1}$?",
     "variante": [
-      "$\\sqrt{1-x^2}+C$",
-      "$\\arcsin x+C$",
-      "$\\operatorname{arctg} x+C$",
-      "$\\arccos x+C$"
+      "$n=2$",
+      "$n=-1$",
+      "$n=0$",
+      "$n=1$"
     ],
     "corect": 1
   },
   {
     "id": "tabelul-primitivelor-017",
     "tip": "simplu",
-    "intrebare": "Cât este derivata lui $\\operatorname{arctg}x$?",
+    "intrebare": "Care integrală dă un logaritm?",
     "variante": [
-      "$\\frac{1}{\\sqrt{1-x^2}}$",
-      "$\\frac{1}{1-x^2}$",
-      "$\\frac{1}{1+x^2}$",
-      "$-\\frac{1}{1+x^2}$"
+      "$\\int x\\,dx$",
+      "$\\int e^x dx$",
+      "$\\int\\frac{1}{x}dx$",
+      "$\\int\\sin x\\,dx$"
     ],
     "corect": 2
   },
   {
     "id": "tabelul-primitivelor-018",
     "tip": "simplu",
-    "intrebare": "Cât este derivata lui $\\arcsin x$?",
+    "intrebare": "Care integrală dă $\\operatorname{tg}x$?",
     "variante": [
-      "$-\\frac{1}{\\sqrt{1-x^2}}$",
-      "$\\frac{1}{1+x^2}$",
-      "$\\frac{1}{\\sqrt{1-x^2}}$",
-      "$\\frac{1}{\\sqrt{1+x^2}}$"
+      "$\\int\\sin x\\,dx$",
+      "$\\int\\frac{1}{\\sin^2x}dx$",
+      "$\\int\\frac{1}{\\cos^2x}dx$",
+      "$\\int\\cos x\\,dx$"
     ],
     "corect": 2
   },
   {
     "id": "tabelul-primitivelor-019",
-    "tip": "simplu",
-    "intrebare": "Cât este derivata lui $\\operatorname{tg}x$?",
-    "variante": [
-      "$-\\frac{1}{\\cos^2 x}$",
-      "$\\frac{1}{\\sin^2 x}$",
-      "$\\frac{1}{\\cos^2 x}$",
-      "$\\cos x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tabelul-primitivelor-020",
-    "tip": "simplu",
-    "intrebare": "Cât este derivata lui $\\operatorname{ctg}x$?",
-    "variante": [
-      "$-\\frac{1}{\\cos^2 x}$",
-      "$\\frac{1}{\\sin^2 x}$",
-      "$-\\operatorname{tg} x$",
-      "$-\\frac{1}{\\sin^2 x}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tabelul-primitivelor-021",
-    "tip": "simplu",
-    "intrebare": "Calculează $\\int 2^x\\,dx$.",
-    "variante": [
-      "$\\frac{2^x}{\\ln 2}+C$",
-      "$2^x\\ln 2+C$",
-      "$x2^{x-1}+C$",
-      "$2^x+C$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "tabelul-primitivelor-022",
     "tip": "multiplu",
-    "intrebare": "Care afirmații sunt adevărate?",
+    "intrebare": "Care egalități sunt adevărate?",
     "variante": [
-      "$\\int \\sin x\\,dx=\\cos x+C$",
-      "$\\int \\cos x\\,dx=\\sin x+C$",
-      "$\\int \\sin x\\,dx=-\\cos x+C$",
-      "$\\int \\cos x\\,dx=-\\sin x+C$"
+      "$\\int\\cos x\\,dx=-\\sin x+C$",
+      "$\\int\\frac{1}{\\cos^2x}dx=\\operatorname{tg}x+C$",
+      "$\\int\\sin x\\,dx=-\\cos x+C$",
+      "$\\int e^xdx=\\frac{e^{x+1}}{x+1}+C$"
     ],
     "corect": [
       1,
@@ -267,48 +231,18 @@
     ]
   },
   {
-    "id": "tabelul-primitivelor-023",
+    "id": "tabelul-primitivelor-020",
     "tip": "multiplu",
-    "intrebare": "Care primitive conțin logaritmul?",
+    "intrebare": "Care egalități sunt adevărate?",
     "variante": [
-      "$\\int \\frac{2x}{x^2+1}\\,dx$",
-      "$\\int e^x\\,dx$",
-      "$\\int \\frac{1}{x}\\,dx$",
-      "$\\int \\frac{1}{1+x^2}\\,dx$"
+      "$\\int\\frac1xdx=x^2+C$",
+      "$\\int 2^xdx=\\frac{2^x}{\\ln2}+C$",
+      "$\\int\\frac{1}{\\sin^2x}dx=\\operatorname{ctg}x+C$",
+      "$\\int\\frac{1}{1+x^2}dx=\\operatorname{arctg}x+C$"
     ],
     "corect": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "tabelul-primitivelor-024",
-    "tip": "multiplu",
-    "intrebare": "Care integrale au ca rezultat o funcție trigonometrică inversă?",
-    "variante": [
-      "$\\int \\frac{1}{1+x^2}\\,dx$",
-      "$\\int \\frac{1}{\\sqrt{1-x^2}}\\,dx$",
-      "$\\int \\frac{1}{x}\\,dx$",
-      "$\\int \\frac{1}{\\cos^2 x}\\,dx$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "tabelul-primitivelor-025",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt adevărate?",
-    "variante": [
-      "$\\int \\frac{dx}{\\cos^2 x}=\\operatorname{tg}x+C$",
-      "$\\int \\frac{dx}{\\cos^2 x}=-\\operatorname{tg}x+C$",
-      "$\\int \\frac{dx}{\\sin^2 x}=-\\operatorname{ctg}x+C$",
-      "$\\int \\frac{dx}{\\sin^2 x}=\\operatorname{ctg}x+C$"
-    ],
-    "corect": [
-      0,
-      2
+      1,
+      3
     ]
   }
 ]

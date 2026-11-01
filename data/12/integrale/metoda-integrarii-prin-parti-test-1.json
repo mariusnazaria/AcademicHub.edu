@@ -2,283 +2,229 @@
   {
     "id": "metoda-integrarii-prin-parti-test-1-001",
     "tip": "simplu",
-    "intrebare": "Care este formula integrării prin părți? $\\int u\\,dv=?$",
+    "intrebare": "Care este formula integrării prin părți?",
     "variante": [
-      "$uv+\\int v\\,du$",
-      "$uv-\\int v\\,du$",
-      "$\\int u\\cdot\\int dv$",
-      "$u\\,dv-v\\,du$"
+      "$\\int u\\,dv=uv+\\int v\\,du$",
+      "$\\int u\\,dv=uv-\\int v\\,du$",
+      "$\\int u\\,dv=\\int u\\cdot\\int dv$",
+      "$\\int u\\,dv=u\\,v^{\\prime}$"
     ],
     "corect": 1
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-002",
     "tip": "simplu",
-    "intrebare": "Ce alegem ca $u$ la integrarea prin părți (ce se simplifică prin derivare)?",
+    "intrebare": "La $\\int x\\,e^x\\,dx$ alegem:",
     "variante": [
-      "$\\ln x$ sau un polinom",
-      "$\\sin x$",
-      "$\\cos x$",
-      "$e^x$"
+      "$u=x$, $dv=e^x\\,dx$",
+      "$u=xe^x$, $dv=dx$",
+      "$u=1$, $dv=xe^xdx$",
+      "$u=e^x$, $dv=x\\,dx$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-003",
     "tip": "simplu",
-    "intrebare": "Ce alegem ca $dv$ la integrarea prin părți (ce știm să integrăm)?",
+    "intrebare": "La $\\int x\\sin x\\,dx$ alegem:",
     "variante": [
-      "$e^x\\,dx$, $\\sin x\\,dx$, $\\cos x\\,dx$",
-      "orice polinom de grad mare",
-      "$\\operatorname{arctg}x\\,dx$ mereu",
-      "$\\ln x\\,dx$ mereu"
+      "$u=x$, $dv=\\sin x\\,dx$",
+      "$u=\\cos x$, $dv=x\\,dx$",
+      "$u=x\\sin x$, $dv=dx$",
+      "$u=\\sin x$, $dv=x\\,dx$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-004",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int x e^x\\,dx$?",
+    "intrebare": "La $\\int x\\cos x\\,dx$ alegem:",
     "variante": [
-      "$u=e^x,\\ dv=x\\,dx$",
-      "$u=1,\\ dv=xe^x\\,dx$",
-      "$u=x,\\ dv=e^x\\,dx$",
-      "$u=xe^x,\\ dv=dx$"
+      "$u=\\cos x$, $dv=x\\,dx$",
+      "$u=\\sin x$, $dv=x\\,dx$",
+      "$u=x$, $dv=\\cos x\\,dx$",
+      "$u=x\\cos x$, $dv=dx$"
     ],
     "corect": 2
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-005",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int x\\ln x\\,dx$?",
+    "intrebare": "La $\\int\\ln x\\,dx$ alegem:",
     "variante": [
-      "$u=\\ln x,\\ dv=\\frac{dx}{x}$",
-      "$u=x\\ln x,\\ dv=dx$",
-      "$u=x,\\ dv=\\ln x\\,dx$",
-      "$u=\\ln x,\\ dv=x\\,dx$"
+      "$u=\\ln x$, $dv=x\\,dx$",
+      "$u=x$, $dv=\\ln x\\,dx$",
+      "$u=1$, $dv=\\ln x\\,dx$",
+      "$u=\\ln x$, $dv=dx$"
     ],
     "corect": 3
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-006",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int x\\sin x\\,dx$?",
+    "intrebare": "La $\\int x\\ln x\\,dx$ alegem:",
     "variante": [
-      "$u=x,\\ dv=\\sin x\\,dx$",
-      "$u=\\sin x,\\ dv=x\\,dx$",
-      "$u=x\\sin x,\\ dv=dx$",
-      "$u=\\cos x,\\ dv=x\\,dx$"
+      "$u=\\ln x$, $dv=x\\,dx$",
+      "$u=x$, $dv=\\ln x\\,dx$",
+      "$u=x\\ln x$, $dv=dx$",
+      "$u=\\ln x$, $dv=dx$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-007",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int P(x)e^{ax}\\,dx$ ($P$ polinom)?",
+    "intrebare": "La $\\int x^2e^x\\,dx$ alegem:",
     "variante": [
-      "$dv=P(x)e^{ax}\\,dx$",
-      "$u=P(x),\\ dv=e^{ax}\\,dx$",
-      "$u=1$",
-      "$u=e^{ax},\\ dv=P(x)\\,dx$"
+      "$u=x^2e^x$, $dv=dx$",
+      "$u=x^2$, $dv=e^x\\,dx$",
+      "$u=x$, $dv=xe^x\\,dx$",
+      "$u=e^x$, $dv=x^2\\,dx$"
     ],
     "corect": 1
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-008",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int P(x)\\ln x\\,dx$?",
+    "intrebare": "La $\\int(x+1)e^x\\,dx$ alegem:",
     "variante": [
-      "$dv=\\ln x$ și $u=1$ mereu",
-      "$u=\\ln x,\\ dv=P(x)\\,dx$",
-      "$u=P(x)\\ln x$",
-      "$u=P(x),\\ dv=\\ln x\\,dx$"
+      "$u=x$, $dv=dx$",
+      "$u=x+1$, $dv=e^x\\,dx$",
+      "$u=1$, $dv=(x+1)e^xdx$",
+      "$u=e^x$, $dv=(x+1)\\,dx$"
     ],
     "corect": 1
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-009",
     "tip": "simplu",
-    "intrebare": "Ce se integrează prin părți la $\\int e^x\\sin x\\,dx$?",
+    "intrebare": "La $\\int x e^{2x}\\,dx$ alegem:",
     "variante": [
-      "de două ori, revenind la aceeași integrală",
-      "o singură dată",
-      "nu se poate integra prin părți",
-      "de trei ori exact"
+      "$u=x$, $dv=e^{2x}\\,dx$",
+      "$u=e^{2x}$, $dv=x\\,dx$",
+      "$u=xe^{2x}$, $dv=dx$",
+      "$u=2x$, $dv=e^{x}\\,dx$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-010",
     "tip": "simplu",
-    "intrebare": "Care este ordinea corectă a pașilor la integrarea prin părți?",
+    "intrebare": "La $\\int\\operatorname{arctg}x\\,dx$ alegem:",
     "variante": [
-      "alegem $v$; apoi $C$; apoi $u$",
-      "aplicăm formula; alegem $u,dv$; calculăm $du,v$",
-      "derivăm tot; integrăm tot; adunăm $C$",
-      "alegem $u,dv$; calculăm $du,v$; aplicăm formula; integrăm restul"
+      "$u=\\operatorname{arctg}x$, $dv=x\\,dx$",
+      "$u=1$, $dv=\\operatorname{arctg}x\\,dx$",
+      "$u=x$, $dv=\\operatorname{arctg}x\\,dx$",
+      "$u=\\operatorname{arctg}x$, $dv=dx$"
     ],
     "corect": 3
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-011",
-    "tip": "multiplu",
-    "intrebare": "Dintre ce funcții alegem $u$ la integrarea prin părți?",
+    "tip": "simplu",
+    "intrebare": "Dacă $u=x$, cât este $du$?",
     "variante": [
-      "un polinom $P(x)$",
-      "$\\sin x$",
-      "$\\ln x$",
-      "$e^{x}$"
+      "$du=x\\,dx$",
+      "$du=\\frac{x^2}{2}\\,dx$",
+      "$du=dx$",
+      "$du=0$"
     ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 2
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-012",
-    "tip": "multiplu",
-    "intrebare": "Care integrale se rezolvă bine prin părți?",
+    "tip": "simplu",
+    "intrebare": "Dacă $u=\\ln x$, cât este $du$?",
     "variante": [
-      "$\\int 2x(x^2+1)^5\\,dx$",
-      "$\\int x\\ln x\\,dx$",
-      "$\\int \\frac{2x}{x^2+1}\\,dx$",
-      "$\\int x e^x\\,dx$"
+      "$du=x\\,dx$",
+      "$du=\\ln x\\,dx$",
+      "$du=dx$",
+      "$du=\\frac{1}{x}\\,dx$"
     ],
-    "corect": [
-      1,
-      3
-    ]
+    "corect": 3
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-013",
     "tip": "simplu",
-    "intrebare": "Cu ce se aplică de obicei integrarea prin părți?",
+    "intrebare": "Dacă $u=x^2$, cât este $du$?",
     "variante": [
-      "cu sume de două polinoame",
-      "cu produse de tipul polinom $\\cdot$ exponențială, sinus, cosinus sau logaritm",
-      "cu funcții și derivata lor",
-      "cu fracții cu numitorul $x$"
+      "$du=\\frac{x^3}{3}\\,dx$",
+      "$du=2x\\,dx$",
+      "$du=x\\,dx$",
+      "$du=2\\,dx$"
     ],
     "corect": 1
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-014",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int x\\cos x\\,dx$?",
+    "intrebare": "Dacă $dv=e^x\\,dx$, cât este $v$?",
     "variante": [
-      "$u=\\cos x,\\ dv=x\\,dx$",
-      "$u=1,\\ dv=x\\cos x\\,dx$",
-      "$u=x,\\ dv=\\cos x\\,dx$",
-      "$u=x\\cos x,\\ dv=dx$"
+      "$v=xe^x$",
+      "$v=\\ln x$",
+      "$v=e^x$",
+      "$v=e^{x+1}$"
     ],
     "corect": 2
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-015",
     "tip": "simplu",
-    "intrebare": "Ce alegem la $\\int \\ln x\\,dx$?",
+    "intrebare": "Dacă $dv=\\sin x\\,dx$, cât este $v$?",
     "variante": [
-      "$u=\\ln x,\\ dv=\\ln x\\,dx$",
-      "$u=x,\\ dv=\\ln x\\,dx$",
-      "$u=\\ln x,\\ dv=dx$",
-      "$u=1,\\ dv=\\ln x\\,dx$"
+      "$v=-\\sin x$",
+      "$v=\\sin x$",
+      "$v=-\\cos x$",
+      "$v=\\cos x$"
     ],
     "corect": 2
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-016",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int \\ln x\\,dx$.",
+    "intrebare": "Dacă $dv=\\cos x\\,dx$, cât este $v$?",
     "variante": [
-      "$x\\ln x+x+C$",
-      "$\\frac{1}{x}+C$",
-      "$x\\ln x-x+C$",
-      "$\\ln x-x+C$"
+      "$v=\\cos x$",
+      "$v=-\\sin x$",
+      "$v=\\sin x$",
+      "$v=-\\cos x$"
     ],
     "corect": 2
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-017",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x\\sin x\\,dx$.",
+    "intrebare": "Dacă $dv=x\\,dx$, cât este $v$?",
     "variante": [
-      "$-x\\cos x+\\sin x+C$",
-      "$x\\cos x+\\sin x+C$",
-      "$-x\\cos x-\\sin x+C$",
-      "$x\\cos x-\\sin x+C$"
+      "$v=\\frac{x^2}{2}$",
+      "$v=2x$",
+      "$v=1$",
+      "$v=x^2$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-018",
     "tip": "simplu",
-    "intrebare": "Calculează $\\int x\\cos x\\,dx$.",
+    "intrebare": "Dacă $dv=dx$, cât este $v$?",
     "variante": [
-      "$x\\sin x+\\cos x+C$",
-      "$x\\sin x-\\cos x+C$",
-      "$-x\\sin x+\\cos x+C$",
-      "$x\\cos x+\\sin x+C$"
+      "$v=x$",
+      "$v=1$",
+      "$v=0$",
+      "$v=\\frac{x^2}{2}$"
     ],
     "corect": 0
   },
   {
     "id": "metoda-integrarii-prin-parti-test-1-019",
     "tip": "simplu",
-    "intrebare": "Completează: $\\int x e^x\\,dx=xe^x-\\int ?\\,dx$",
+    "intrebare": "Când alegem $u$ = logaritm sau $\\operatorname{arctg}$?",
     "variante": [
-      "$1$",
-      "$e^x$",
-      "$x$",
-      "$xe^x$"
+      "doar la integrala definită",
+      "când apar în integrală (ele se derivează ușor)",
+      "doar când e ultimul",
+      "niciodată"
     ],
     "corect": 1
-  },
-  {
-    "id": "metoda-integrarii-prin-parti-test-1-020",
-    "tip": "simplu",
-    "intrebare": "La $\\int xe^x\\,dx$, cu $u=x$ și $dv=e^x\\,dx$, cât sunt $du$ și $v$?",
-    "variante": [
-      "$du=e^x\\,dx$, $v=x$",
-      "$du=x\\,dx$, $v=e^x$",
-      "$du=dx$, $v=e^x$",
-      "$du=dx$, $v=\\frac{e^x}{x}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "metoda-integrarii-prin-parti-test-1-021",
-    "tip": "simplu",
-    "intrebare": "La $\\int x\\ln x\\,dx$, cu $u=\\ln x$ și $dv=x\\,dx$, cât este $v$?",
-    "variante": [
-      "$x^2$",
-      "$\\frac{1}{x}$",
-      "$\\frac{x^2}{2}$",
-      "$\\ln x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "metoda-integrarii-prin-parti-test-1-022",
-    "tip": "simplu",
-    "intrebare": "Ce rol are de obicei $\\ln x$ la integrarea prin părți?",
-    "variante": [
-      "$dv$",
-      "$du$",
-      "$v$",
-      "$u$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "metoda-integrarii-prin-parti-test-1-023",
-    "tip": "simplu",
-    "intrebare": "Ce rol are de obicei $e^x$ la integrarea prin părți?",
-    "variante": [
-      "$C$",
-      "$du$",
-      "$u$",
-      "parte din $dv$"
-    ],
-    "corect": 3
   }
 ]

@@ -2,169 +2,193 @@
   {
     "id": "aria-triunghiului-001",
     "tip": "simplu",
-    "intrebare": "Care este formula de bază pentru aria triunghiului?",
+    "intrebare": "Cum se calculează aria triunghiului?",
     "variante": [
-      "$S=\\frac{b\\cdot h}{2}$",
-      "$S=\\frac{b+h}{2}$",
-      "$S=b\\cdot h$",
-      "$S=\\frac{b\\cdot h}{3}$"
+      "$\\frac{b\\cdot h}{2}$",
+      "$b+h$",
+      "$b\\cdot h$",
+      "$\\frac{b+h}{2}$"
     ],
     "corect": 0
   },
   {
     "id": "aria-triunghiului-002",
     "tip": "simplu",
-    "intrebare": "Care este aria triunghiului dreptunghic cu catetele $c_1,c_2$?",
+    "intrebare": "Un triunghi are baza $10$ și înălțimea $4$. Cât este aria?",
     "variante": [
-      "$S=\\frac{c_1^2\\cdot c_2^2}{2}$",
-      "$S=\\frac{c_1\\cdot c_2}{2}$",
-      "$S=\\frac{c_1+c_2}{2}$",
-      "$S=c_1\\cdot c_2$"
+      "$10$",
+      "$20$",
+      "$14$",
+      "$40$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-003",
     "tip": "simplu",
-    "intrebare": "Care este aria triunghiului echilateral de latură $l$?",
+    "intrebare": "Cum se calculează aria triunghiului echilateral cu latura $a$?",
     "variante": [
-      "$S=\\frac{l^2}{4}$",
-      "$S=\\frac{l^2\\sqrt3}{4}$",
-      "$S=\\frac{l^2\\sqrt3}{2}$",
-      "$S=\\frac{l\\sqrt3}{4}$"
+      "$\\frac{a\\sqrt3}{4}$",
+      "$\\frac{a^2\\sqrt3}{4}$",
+      "$\\frac{a^2}{2}$",
+      "$a^2\\sqrt3$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-004",
     "tip": "simplu",
-    "intrebare": "Care este formula ariei cu sinus?",
+    "intrebare": "Cât este aria triunghiului echilateral cu latura $4$?",
     "variante": [
-      "$S=\\frac{a+b}{2}\\sin C$",
-      "$S=\\frac{a\\cdot b\\cdot\\cos C}{2}$",
-      "$S=a\\cdot b\\cdot\\sin C$",
-      "$S=\\frac{a\\cdot b\\cdot\\sin C}{2}$"
+      "$2\\sqrt3$",
+      "$16$",
+      "$8\\sqrt3$",
+      "$4\\sqrt3$"
     ],
     "corect": 3
   },
   {
     "id": "aria-triunghiului-005",
     "tip": "simplu",
-    "intrebare": "Care este formula lui Heron?",
+    "intrebare": "Cât este aria triunghiului echilateral cu latura $2$?",
     "variante": [
-      "$S=\\sqrt{p\\cdot a\\cdot b\\cdot c}$",
-      "$S=\\sqrt{p(p-a)(p-b)(p-c)}$",
-      "$S=\\sqrt{(p-a)(p-b)(p-c)}$",
-      "$S=p(p-a)(p-b)(p-c)$"
+      "$4$",
+      "$\\sqrt3$",
+      "$\\frac{\\sqrt3}{2}$",
+      "$2\\sqrt3$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-006",
     "tip": "simplu",
-    "intrebare": "Ce este $p$ în formula lui Heron?",
+    "intrebare": "Cum se calculează aria triunghiului dreptunghic?",
     "variante": [
-      "înălțimea",
-      "$p=\\frac{a\\cdot b\\cdot c}{2}$",
-      "perimetrul: $p=a+b+c$",
-      "semiperimetrul: $p=\\frac{a+b+c}{2}$"
+      "$\\frac{ip\\cdot c_1}{2}$",
+      "$\\frac{c_1+c_2}{2}$",
+      "$c_1\\cdot c_2$",
+      "$\\frac{c_1\\cdot c_2}{2}$"
     ],
     "corect": 3
   },
   {
     "id": "aria-triunghiului-007",
     "tip": "simplu",
-    "intrebare": "Ce arii au cele două triunghiuri formate de o mediană?",
+    "intrebare": "Un triunghi dreptunghic are catetele $6$ și $8$. Cât este aria?",
     "variante": [
-      "unghiuri egale",
-      "arii proporționale cu laturile",
-      "perimetre egale",
-      "arii egale"
+      "$14$",
+      "$10$",
+      "$48$",
+      "$24$"
     ],
     "corect": 3
   },
   {
     "id": "aria-triunghiului-008",
     "tip": "simplu",
-    "intrebare": "Ce arie au triunghiurile cu aceeași bază și aceeași înălțime?",
+    "intrebare": "Care este formula lui Heron?",
     "variante": [
-      "același perimetru",
-      "aceleași unghiuri",
-      "aceeași arie (vârfurile pe o paralelă la bază)",
-      "arii diferite"
+      "$p(p-a)(p-b)(p-c)$",
+      "$\\frac{p\\cdot a}{2}$",
+      "$\\sqrt{p(p-a)(p-b)(p-c)}$",
+      "$\\sqrt{a+b+c}$"
     ],
     "corect": 2
   },
   {
     "id": "aria-triunghiului-009",
     "tip": "simplu",
-    "intrebare": "Cum sunt ariile triunghiurilor cu aceeași înălțime?",
+    "intrebare": "Triunghiul cu laturile $3,4,5$ are semiperimetrul $p=$",
     "variante": [
-      "proporționale cu înălțimile",
-      "proporționale cu bazele",
-      "invers proporționale cu bazele",
-      "egale"
+      "$5$",
+      "$6$",
+      "$3$",
+      "$12$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-010",
     "tip": "simplu",
-    "intrebare": "Baza $8$ și înălțimea $5$: cât este aria?",
+    "intrebare": "Cât este aria triunghiului cu laturile $3,4,5$?",
     "variante": [
-      "$40$",
-      "$20$",
-      "$13$",
-      "$80$"
+      "$12$",
+      "$6$",
+      "$60$",
+      "$7$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-011",
     "tip": "simplu",
-    "intrebare": "Catetele $6$ și $8$: cât este aria?",
+    "intrebare": "Cum se calculează aria cu două laturi și unghiul dintre ele?",
     "variante": [
-      "$24$",
-      "$10$",
-      "$48$",
-      "$14$"
+      "$\\frac{a\\cdot b\\cdot\\sin C}{2}$",
+      "$\\frac{a+b}{2}$",
+      "$a\\cdot b\\cdot\\sin C$",
+      "$\\frac{a\\cdot b\\cdot\\cos C}{2}$"
     ],
     "corect": 0
   },
   {
     "id": "aria-triunghiului-012",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral cu latura $4$: cât este aria?",
+    "intrebare": "Un triunghi are laturile $4$ și $6$ și unghiul dintre ele $30^\\circ$. Cât este aria?",
     "variante": [
-      "$16\\sqrt3$",
-      "$4\\sqrt3$",
-      "$2\\sqrt3$",
-      "$8\\sqrt3$"
+      "$12$",
+      "$6$",
+      "$24$",
+      "$3$"
     ],
     "corect": 1
   },
   {
     "id": "aria-triunghiului-013",
     "tip": "simplu",
-    "intrebare": "$a=6$, $b=4$, $C=30^\\circ$: cât este aria?",
+    "intrebare": "Un triunghi are aria $12$ și baza $6$. Cât este înălțimea?",
     "variante": [
-      "$6$",
-      "$12$",
-      "$3$",
-      "$24$"
+      "$4$",
+      "$2$",
+      "$72$",
+      "$3$"
     ],
     "corect": 0
   },
   {
     "id": "aria-triunghiului-014",
     "tip": "simplu",
-    "intrebare": "Laturile $3,4,5$ (cu Heron): cât este aria?",
+    "intrebare": "Triunghiuri cu aceeași bază și aceeași înălțime au:",
     "variante": [
-      "$60$",
-      "$7{,}5$",
-      "$12$",
-      "$6$"
+      "aceleași unghiuri",
+      "aceleași laturi",
+      "același perimetru",
+      "aceeași arie"
     ],
     "corect": 3
+  },
+  {
+    "id": "aria-triunghiului-015",
+    "tip": "simplu",
+    "intrebare": "Mediana împarte triunghiul în două triunghiuri cu:",
+    "variante": [
+      "laturi egale",
+      "arii egale",
+      "unghiuri egale",
+      "perimetre egale"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-016",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează aria cu raza cercului înscris $r$ și semiperimetrul $p$?",
+    "variante": [
+      "$A=p\\cdot r$",
+      "$A=\\frac{p\\cdot r}{2}$",
+      "$A=\\frac{p}{r}$",
+      "$A=p+r$"
+    ],
+    "corect": 0
   }
 ]

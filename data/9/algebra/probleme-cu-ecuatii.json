@@ -2,132 +2,192 @@
   {
     "id": "probleme-cu-ecuatii-001",
     "tip": "simplu",
-    "intrebare": "Care este formula pentru distanță, viteză și timp?",
+    "intrebare": "Dublul unui număr este $18$. Ce ecuație scriem?",
     "variante": [
-      "$t=d\\cdot v$",
-      "$v=d\\cdot t$",
-      "$d=v+t$",
-      "$d=v\\cdot t$"
+      "$\\frac x2=18$",
+      "$x^2=18$",
+      "$x+2=18$",
+      "$2x=18$"
     ],
     "corect": 3
   },
   {
     "id": "probleme-cu-ecuatii-002",
     "tip": "simplu",
-    "intrebare": "Un muncitor termină lucrarea în $t$ ore. Cât din lucrare face într-o oră?",
+    "intrebare": "Un număr mărit cu $5$ dă $12$. Care este numărul?",
     "variante": [
-      "$t^2$ din lucrare",
-      "$\\frac1t$ din lucrare",
-      "$1-t$ din lucrare",
-      "$t$ din lucrare"
+      "$60$",
+      "$7$",
+      "$5$",
+      "$17$"
     ],
     "corect": 1
   },
   {
     "id": "probleme-cu-ecuatii-003",
     "tip": "simplu",
-    "intrebare": "Doi muncitori termină în $t_1$ și $t_2$ ore. Ce relație dă timpul $t$ lucrând împreună?",
+    "intrebare": "Triplul unui număr, micșorat cu $2$, este $10$. Ce ecuație scriem?",
     "variante": [
-      "$t_1\\cdot t_2=t$",
-      "$\\frac1{t_1}\\cdot\\frac1{t_2}=\\frac1t$",
-      "$\\frac1{t_1}+\\frac1{t_2}=\\frac1t$",
-      "$t_1+t_2=t$"
+      "$3+x-2=10$",
+      "$x-6=10$",
+      "$3x-2=10$",
+      "$3(x-2)=10$"
     ],
     "corect": 2
   },
   {
     "id": "probleme-cu-ecuatii-004",
     "tip": "simplu",
-    "intrebare": "Cât este $p\\%$ din $N$?",
+    "intrebare": "Rezolvă ecuația $3x-2=10$.",
     "variante": [
-      "$\\frac{p+N}{100}$",
-      "$\\frac{N}{p\\cdot100}$",
-      "$p\\cdot N\\cdot100$",
-      "$\\frac{p\\cdot N}{100}$"
+      "$x=6$",
+      "$x=\\frac83$",
+      "$x=12$",
+      "$x=4$"
     ],
     "corect": 3
   },
   {
     "id": "probleme-cu-ecuatii-005",
     "tip": "simplu",
-    "intrebare": "Cum scriem numărul de două cifre $\\overline{ab}$?",
+    "intrebare": "Suma a două numere consecutive este $11$. Dacă primul este $x$, al doilea este:",
     "variante": [
-      "$10b+a$",
-      "$a\\cdot b$",
-      "$10a+b$",
-      "$a+b$"
+      "$2x$",
+      "$x-11$",
+      "$x+1$",
+      "$x+2$"
     ],
     "corect": 2
   },
   {
     "id": "probleme-cu-ecuatii-006",
     "tip": "simplu",
-    "intrebare": "Care sunt formulele pentru perimetrul și aria dreptunghiului?",
+    "intrebare": "Care sunt două numere consecutive cu suma $11$?",
     "variante": [
-      "$P=2(L+l)$ ; $A=L\\cdot l$",
-      "$P=L\\cdot l$ ; $A=2(L+l)$",
-      "$P=2L\\cdot l$ ; $A=L+l$",
-      "$P=L+l$ ; $A=L\\cdot l$"
+      "$5$ și $6$",
+      "$4$ și $7$",
+      "$3$ și $8$",
+      "$5$ și $5$"
     ],
     "corect": 0
   },
   {
     "id": "probleme-cu-ecuatii-007",
     "tip": "simplu",
-    "intrebare": "Ce formulă folosim la triunghiul dreptunghic cu catetele $a,b$ și ipotenuza $c$?",
+    "intrebare": "Cum se scrie perimetrul unui dreptunghi cu laturile $L$ și $l$?",
     "variante": [
-      "$a+b=c$",
-      "$a\\cdot b=c^2$",
-      "$a^2+b^2=c^2$",
-      "$a^2+c^2=b^2$"
+      "$L+l$",
+      "$4L$",
+      "$2(L+l)$",
+      "$L\\cdot l$"
     ],
     "corect": 2
   },
   {
     "id": "probleme-cu-ecuatii-008",
     "tip": "simplu",
-    "intrebare": "Ce se păstrează la problemele cu amestecuri?",
+    "intrebare": "Un dreptunghi are perimetrul $20$ și lungimea $6$. Care este lățimea?",
     "variante": [
-      "numărul de pași",
-      "temperatura",
-      "cantitatea de substanță",
-      "prețul pe unitate mereu"
+      "$8$",
+      "$14$",
+      "$4$",
+      "$10$"
     ],
     "corect": 2
   },
   {
     "id": "probleme-cu-ecuatii-009",
     "tip": "simplu",
-    "intrebare": "În ce ordine rezolvăm o problemă cu ecuații?",
+    "intrebare": "Ana are $x$ lei, iar Maria are cu $5$ lei mai mult. Cât are Maria?",
     "variante": [
-      "citim și notăm ce se cere → alegem necunoscuta $x$ → scriem ecuația → rezolvăm → verificăm și răspundem",
-      "scriem ecuația → citim problema → verificăm",
-      "alegem $x$ → răspundem → scriem ecuația",
-      "rezolvăm → alegem $x$ → citim → răspundem"
+      "$x+5$",
+      "$5x$",
+      "$\\frac x5$",
+      "$x-5$"
     ],
     "corect": 0
   },
   {
     "id": "probleme-cu-ecuatii-010",
     "tip": "simplu",
-    "intrebare": "Cum trebuie să fie răspunsul unei probleme?",
+    "intrebare": "Ana are $x$ lei, iar Maria de $3$ ori mai mult. Cât au împreună?",
     "variante": [
-      "să coincidă cu $x$ fără verificare",
-      "să aibă sens (de ex. nu există $-3$ elevi)",
-      "să fie mereu un număr negativ",
-      "să fie mereu o fracție"
+      "$x\\cdot3x$",
+      "$x+3x$",
+      "$x+3$",
+      "$3x$"
     ],
     "corect": 1
   },
   {
     "id": "probleme-cu-ecuatii-011",
     "tip": "simplu",
-    "intrebare": "Calculează $20\\%$ din $150$.",
+    "intrebare": "Un număr este cu $3$ mai mare decât $y$. Cum scriem?",
     "variante": [
-      "$30$",
-      "$20$",
-      "$75$",
-      "$300$"
+      "$x=y+3$",
+      "$x=y-3$",
+      "$x=3y$",
+      "$x=\\frac y3$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-ecuatii-012",
+    "tip": "simplu",
+    "intrebare": "O treime dintr-un număr este $4$. Care este numărul?",
+    "variante": [
+      "$1$",
+      "$\\frac43$",
+      "$7$",
+      "$12$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-ecuatii-013",
+    "tip": "simplu",
+    "intrebare": "Suma a trei numere consecutive este $12$. Care este numărul din mijloc?",
+    "variante": [
+      "$6$",
+      "$3$",
+      "$4$",
+      "$5$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-ecuatii-014",
+    "tip": "simplu",
+    "intrebare": "Un caiet costă $x$ lei, iar $4$ caiete costă $20$ de lei. Ce ecuație scriem?",
+    "variante": [
+      "$4x=20$",
+      "$\\frac x4=20$",
+      "$x-4=20$",
+      "$x+4=20$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-ecuatii-015",
+    "tip": "simplu",
+    "intrebare": "Care este primul pas la o problemă cu ecuație?",
+    "variante": [
+      "notăm necunoscuta cu $x$",
+      "rezolvăm ecuația",
+      "verificăm",
+      "scriem răspunsul"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-ecuatii-016",
+    "tip": "simplu",
+    "intrebare": "Care este ultimul pas la o problemă cu ecuație?",
+    "variante": [
+      "verificăm dacă soluția are sens în problemă",
+      "desenăm graficul",
+      "scriem ecuația",
+      "notăm necunoscuta"
     ],
     "corect": 0
   }

@@ -2,12 +2,12 @@
   {
     "id": "binomul-lui-newton-001",
     "tip": "simplu",
-    "intrebare": "Care este formula binomului lui Newton? $(a+b)^n=?$",
+    "intrebare": "Cum se scrie formula binomului lui Newton?",
     "variante": [
-      "$\\sum_{k=0}^{n}C_n^ka^{n-k}b^k$",
-      "$\\sum_{k=0}^{n}A_n^ka^kb^k$",
-      "$a^n+b^n$",
-      "$\\sum_{k=0}^{n}C_n^ka^{k}b^{k}$"
+      "$(a+b)^n=\\sum C_n^k\\,a^{n-k}b^k$",
+      "$(a+b)^n=\\sum C_n^k\\,a^{k}b^{k}$",
+      "$(a+b)^n=a^n+b^n$",
+      "$(a+b)^n=\\sum A_n^k\\,a^{n-k}b^k$"
     ],
     "corect": 0
   },
@@ -26,154 +26,154 @@
   {
     "id": "binomul-lui-newton-003",
     "tip": "simplu",
-    "intrebare": "Care este termenul general $T_{k+1}$?",
+    "intrebare": "Câți termeni are dezvoltarea lui $(x+1)^{10}$?",
     "variante": [
-      "$A_n^ka^{n-k}b^k$",
-      "$C_n^{k+1}a^{n-k}b^k$",
-      "$C_n^ka^{n-k}b^k$",
-      "$C_n^ka^kb^{n-k}$"
+      "$9$",
+      "$20$",
+      "$11$",
+      "$10$"
     ],
     "corect": 2
   },
   {
     "id": "binomul-lui-newton-004",
     "tip": "simplu",
-    "intrebare": "Cât este $k$ pentru al $5$-lea termen?",
+    "intrebare": "Cât este termenul general $T_{k+1}$?",
     "variante": [
-      "$k=5$",
-      "$k=3$",
-      "$k=4$ (deoarece $k+1=5$)",
-      "$k=6$"
+      "$C_n^{k+1}\\,a^{n-k}b^k$",
+      "$A_n^k\\,a^{n-k}b^k$",
+      "$C_n^k\\,a^{n-k}b^k$",
+      "$C_n^k\\,a^{k}b^{n-k}$"
     ],
     "corect": 2
   },
   {
     "id": "binomul-lui-newton-005",
     "tip": "simplu",
-    "intrebare": "Cât este $k$ pentru al $9$-lea termen?",
+    "intrebare": "Pentru al $5$-lea termen, cât este $k$?",
     "variante": [
-      "$k=7$",
-      "$k=9$",
-      "$k=10$",
-      "$k=8$"
+      "$6$",
+      "$5$",
+      "$3$",
+      "$4$"
     ],
     "corect": 3
   },
   {
     "id": "binomul-lui-newton-006",
     "tip": "simplu",
-    "intrebare": "Care este rangul termenului $T_{k+1}$?",
+    "intrebare": "Pentru al $9$-lea termen, cât este $k$?",
     "variante": [
-      "$n-k$",
-      "$k-1$",
-      "$k$",
-      "$k+1$"
+      "$10$",
+      "$7$",
+      "$9$",
+      "$8$"
     ],
     "corect": 3
   },
   {
     "id": "binomul-lui-newton-007",
     "tip": "simplu",
-    "intrebare": "La al $5$-lea termen din dezvoltarea lui $(a+b)^n$, ce este $n$?",
+    "intrebare": "Ce rang are termenul $T_{k+1}$?",
     "variante": [
+      "$k-1$",
       "$k+1$",
-      "puterea binomului",
-      "numărul de termeni",
-      "$k-1$"
+      "$k$",
+      "$n-k$"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-008",
     "tip": "simplu",
-    "intrebare": "Ce pași urmăm ca să aflăm un termen cerut? (determinăm $a$ și $b$, apoi...)",
+    "intrebare": "Care este coeficientul binomial al lui $T_{k+1}$?",
     "variante": [
-      "derivăm $a$ și $b$",
-      "$n$ și $k$, apoi aplicăm formula termenului general",
-      "ridicăm la pătrat",
-      "calculăm doar $2^n$"
+      "$C_n^{k+1}$",
+      "$C_n^k$",
+      "$A_n^k$",
+      "$n!$"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-009",
     "tip": "simplu",
-    "intrebare": "Care este coeficientul binomial al termenului $T_{k+1}$?",
+    "intrebare": "Cât este suma coeficienților binomiali ai lui $(a+b)^n$?",
     "variante": [
-      "$A_n^k$",
-      "$n!$",
-      "$C_n^k$",
-      "$2^n$"
+      "$n^2$",
+      "$2n$",
+      "$2^n$",
+      "$n!$"
     ],
     "corect": 2
   },
   {
     "id": "binomul-lui-newton-010",
     "tip": "simplu",
-    "intrebare": "Cât este suma coeficienților binomiali ai lui $(a+b)^n$?",
+    "intrebare": "Cât este suma coeficienților binomiali pentru $n=4$?",
     "variante": [
-      "$2^n$",
-      "$n^2$",
-      "$n!$",
-      "$2n$"
+      "$16$",
+      "$8$",
+      "$4$",
+      "$24$"
     ],
     "corect": 0
   },
   {
     "id": "binomul-lui-newton-011",
     "tip": "simplu",
-    "intrebare": "Cât este suma coeficienților binomiali de rang par (care este egală cu cea de rang impar)?",
+    "intrebare": "Dacă suma coeficienților binomiali este $128$, cât este $n$?",
     "variante": [
-      "$\\frac{n}{2}$",
-      "$2^n$",
-      "$2^{n+1}$",
-      "$2^{n-1}$"
+      "$64$",
+      "$8$",
+      "$6$",
+      "$7$"
     ],
     "corect": 3
   },
   {
     "id": "binomul-lui-newton-012",
     "tip": "simplu",
-    "intrebare": "Cât este suma coeficienților binomiali pentru $n=4$?",
+    "intrebare": "Dacă suma coeficienților binomiali este $4096$, cât este $n$?",
     "variante": [
-      "$4$",
-      "$8$",
-      "$16$",
-      "$24$"
+      "$13$",
+      "$11$",
+      "$12$",
+      "$64$"
     ],
     "corect": 2
   },
   {
     "id": "binomul-lui-newton-013",
     "tip": "simplu",
-    "intrebare": "Suma coeficienților binomiali este $4096$. Cât este $n$?",
+    "intrebare": "Care sunt coeficienții binomiali pentru $n=3$?",
     "variante": [
-      "$64$",
-      "$12$",
-      "$13$",
-      "$11$"
+      "$1,4,6,4,1$",
+      "$1,3,3,1$",
+      "$1,3,1$",
+      "$1,2,3,1$"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-014",
     "tip": "simplu",
-    "intrebare": "Suma coeficienților binomiali este $128$. Cât este $n$?",
+    "intrebare": "Care sunt coeficienții binomiali pentru $n=4$?",
     "variante": [
-      "$64$",
-      "$7$",
-      "$6$",
-      "$8$"
+      "$1,5,10,10,5,1$",
+      "$1,4,6,4,1$",
+      "$1,4,4,1$",
+      "$1,3,3,1$"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-015",
     "tip": "simplu",
-    "intrebare": "Dezvoltă $(a+b)^2$.",
+    "intrebare": "Cât este $(a+b)^2$?",
     "variante": [
       "$a^2+2ab+b^2$",
-      "$a^2+2ab-b^2$",
+      "$2a+2b$",
       "$a^2+ab+b^2$",
       "$a^2+b^2$"
     ],
@@ -182,112 +182,49 @@
   {
     "id": "binomul-lui-newton-016",
     "tip": "simplu",
-    "intrebare": "Care sunt coeficienții binomiali pentru $n=3$?",
+    "intrebare": "Cum sunt semnele termenilor din $(a-b)^n$?",
     "variante": [
-      "$1,3,3,3$",
-      "$1,3,3,1$",
-      "$1,2,2,1$",
-      "$1,3,1$"
+      "toate minus",
+      "alternează: $+,-,+,-,\\dots$",
+      "toate plus",
+      "doar primul minus"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-017",
     "tip": "simplu",
-    "intrebare": "Care sunt coeficienții binomiali pentru $n=4$?",
+    "intrebare": "Cum sunt coeficienții termenilor egal depărtați de extremități?",
     "variante": [
-      "$1,3,6,3,1$",
-      "$1,4,6,4,1$",
-      "$1,4,6,6,4,1$",
-      "$1,4,4,1$"
+      "dubli",
+      "egali",
+      "diferiți",
+      "opuși"
     ],
     "corect": 1
   },
   {
     "id": "binomul-lui-newton-018",
     "tip": "simplu",
-    "intrebare": "Câți termeni are $(x+1)^{10}$?",
+    "intrebare": "Cum aflăm termenul care NU conține $x$?",
     "variante": [
-      "$12$",
-      "$10$",
-      "$11$",
-      "$9$"
+      "punem exponentul lui $x$ egal cu $1$",
+      "punem $x=0$",
+      "punem exponentul lui $x$ egal cu $0$",
+      "punem $k=0$ mereu"
     ],
     "corect": 2
   },
   {
     "id": "binomul-lui-newton-019",
     "tip": "simplu",
-    "intrebare": "Ce semne au termenii dezvoltării lui $(a-b)^n$?",
+    "intrebare": "Primii pași la un termen cerut sunt:",
     "variante": [
-      "alternante ($+,-,+,-\\ldots$)",
-      "nu se schimbă",
-      "toate $-$",
-      "toate $+$"
+      "identificăm $a$ și $b$, apoi scriem $T_{k+1}$",
+      "calculăm $\\Delta$",
+      "împărțim la $x$",
+      "derivăm expresia"
     ],
     "corect": 0
-  },
-  {
-    "id": "binomul-lui-newton-020",
-    "tip": "simplu",
-    "intrebare": "Cum aflăm termenul care NU conține $x$?",
-    "variante": [
-      "exponentul lui $x$ egal cu $0$",
-      "$k=0$ mereu",
-      "$n=0$",
-      "exponentul lui $x$ egal cu $1$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "binomul-lui-newton-021",
-    "tip": "simplu",
-    "intrebare": "Cum aflăm termenul care conține $x^5$?",
-    "variante": [
-      "coeficientul egal cu $5$",
-      "$n=5$",
-      "$k=5$ mereu",
-      "exponentul lui $x$ egal cu $5$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "binomul-lui-newton-022",
-    "tip": "simplu",
-    "intrebare": "Ce știm despre coeficienții termenilor egal depărtați de extremități?",
-    "variante": [
-      "opuși",
-      "egali ($C_n^k=C_n^{n-k}$)",
-      "nu au legătură",
-      "inverși"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "binomul-lui-newton-023",
-    "tip": "simplu",
-    "intrebare": "Când apar termeni raționali?",
-    "variante": [
-      "exponentul fiecărui radical devine număr întreg",
-      "coeficientul este rațional",
-      "$n$ este impar",
-      "$k=0$ mereu"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "binomul-lui-newton-024",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte?",
-    "variante": [
-      "$(a+b)^n$ are $n$ termeni",
-      "$(a+b)^n$ are $n+1$ termeni",
-      "$T_{k+1}=C_n^{k+1}a^{n-k}b^k$",
-      "suma coeficienților binomiali este $2^n$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
   }
 ]

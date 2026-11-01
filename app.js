@@ -649,6 +649,36 @@ function renderIntrebare() {
 
   document.getElementById('btn-exit').addEventListener('click', () => history.back());
   document.getElementById('btn-next').addEventListener('click', urmatoareaIntrebare);
+  const btnPrev = document.getElementById('btn-prev');
+  btnPrev.disabled = state.index === 0;
+  btnPrev.addEventListener('click', intrebareaPrecedenta);
+
+  // Întrebare deja răspunsă: o arătăm doar pentru recitire (fără punctaj nou)
+  const r = state.istoric[state.index];
+  if (r) {
+    const corectSet = new Set(r.corecte);
+    const sel = new Set(r.selectate);
+    state.verificat = true;
+    document.querySelectorAll('.option-btn').forEach((btn, i) => {
+      btn.disabled = true;
+      if (corectSet.has(i) && sel.has(i)) btn.classList.add('is-correct');
+      else if (corectSet.has(i)) btn.classList.add('is-missed');
+      else if (sel.has(i)) btn.classList.add('is-wrong');
+    });
+    btnVerifica.hidden = true;
+    if (q.explicatie) {
+      const exp = document.getElementById('explanation');
+      exp.innerHTML = randMatematic(q.explicatie);
+      exp.hidden = false;
+    }
+    document.getElementById('btn-next').disabled = false;
+  }
+}
+
+function intrebareaPrecedenta() {
+  if (state.index <= 0) return;
+  state.index--;
+  renderIntrebare();
 }
 
 function alegeVarianta(index, tip) {

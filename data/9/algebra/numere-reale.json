@@ -2,197 +2,232 @@
   {
     "id": "numere-reale-001",
     "tip": "simplu",
-    "intrebare": "Cum transformăm $0,(\\overline{ab})$ în fracție?",
+    "intrebare": "Care număr este irațional?",
     "variante": [
-      "$\\frac{\\overline{ab}}{100}$",
-      "$\\frac{\\overline{ab}}{9}$",
-      "$\\frac{\\overline{ab}}{99}$",
-      "$\\frac{\\overline{ab}}{90}$"
+      "$\\frac34$",
+      "$-7$",
+      "$\\sqrt{2}$",
+      "$0{,}5$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-002",
     "tip": "simplu",
-    "intrebare": "Scrie $0,(26)$ ca fracție.",
+    "intrebare": "Care număr este rațional?",
     "variante": [
-      "$\\frac{26}{9}$",
-      "$\\frac{26}{90}$",
-      "$\\frac{26}{99}$",
-      "$\\frac{26}{100}$"
+      "$\\sqrt{7}$",
+      "$\\sqrt{3}$",
+      "$0{,}25$",
+      "$\\pi$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-003",
     "tip": "simplu",
-    "intrebare": "Cum transformăm $0,a(b)$ în fracție?",
+    "intrebare": "Care număr este natural?",
     "variante": [
-      "$\\frac{\\overline{ab}-a}{90}$",
-      "$\\frac{\\overline{ab}-b}{90}$",
-      "$\\frac{\\overline{ab}+a}{90}$",
-      "$\\frac{\\overline{ab}-a}{99}$"
+      "$\\sqrt{16}$",
+      "$\\frac12$",
+      "$\\sqrt{2}$",
+      "$-3$"
     ],
     "corect": 0
   },
   {
     "id": "numere-reale-004",
     "tip": "simplu",
-    "intrebare": "Scrie $0,2(5)$ ca fracție.",
+    "intrebare": "Care mulțime NU îl conține pe $-5$?",
     "variante": [
-      "$\\frac{25}{90}$",
-      "$\\frac{27}{90}$",
-      "$\\frac{23}{99}$",
-      "$\\frac{23}{90}$"
+      "$\\mathbb{Z}$",
+      "$\\mathbb{Q}$",
+      "$\\mathbb{R}$",
+      "$\\mathbb{N}$"
     ],
     "corect": 3
   },
   {
     "id": "numere-reale-005",
     "tip": "simplu",
-    "intrebare": "Scrie $0,(3)$ ca fracție.",
+    "intrebare": "Care este ordinea corectă a incluziunilor?",
     "variante": [
-      "$\\frac{3}{100}$",
-      "$\\frac{1}{30}$",
-      "$\\frac13$",
-      "$\\frac{3}{10}$"
+      "$\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}\\subset\\mathbb{R}$",
+      "$\\mathbb{R}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}$",
+      "$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}$",
+      "$\\mathbb{Z}\\subset\\mathbb{N}\\subset\\mathbb{Q}\\subset\\mathbb{R}$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-006",
     "tip": "simplu",
-    "intrebare": "Cum arată zecimalele unui număr irațional?",
+    "intrebare": "Ce înseamnă intervalul $[2;5)$?",
     "variante": [
-      "zecimale infinite periodice",
-      "doar zecimale egale cu zero",
-      "zecimale care se termină",
-      "zecimale infinite fără perioadă"
+      "$2<x<5$",
+      "$2\\leq x\\leq5$",
+      "$2<x\\leq5$",
+      "$2\\leq x<5$"
     ],
     "corect": 3
   },
   {
     "id": "numere-reale-007",
-    "tip": "multiplu",
-    "intrebare": "Care dintre numere sunt iraționale?",
+    "tip": "simplu",
+    "intrebare": "Ce înseamnă intervalul $(-\\infty;3]$?",
     "variante": [
-      "$\\pi$",
-      "$\\sqrt2$",
-      "$\\sqrt[3]{5}$",
-      "$0,(7)$"
+      "$x<3$",
+      "$x\\leq3$",
+      "$x\\geq3$",
+      "$x>3$"
     ],
-    "corect": [
-      0,
-      1,
-      2
-    ]
+    "corect": 1
   },
   {
     "id": "numere-reale-008",
     "tip": "simplu",
-    "intrebare": "Care șir arată corect ce mulțime intră în care?",
+    "intrebare": "Ce înseamnă paranteza rotundă la capătul unui interval?",
     "variante": [
-      "$\\mathbb{R}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}$",
-      "$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}$",
-      "$\\mathbb{N}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{R}$",
-      "$\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}\\subset\\mathbb{R}$"
+      "numărul este negativ",
+      "numărul nu face parte din interval",
+      "numărul este zero",
+      "numărul face parte din interval"
     ],
     "corect": 1
   },
   {
     "id": "numere-reale-009",
     "tip": "simplu",
-    "intrebare": "Cum se notează mulțimea numerelor iraționale?",
+    "intrebare": "Cum scriem $x>2$ ca interval?",
     "variante": [
-      "$\\mathbb{Q}\\setminus\\mathbb{R}$",
-      "$\\mathbb{R}\\setminus\\mathbb{Q}$",
-      "$\\mathbb{Z}\\setminus\\mathbb{N}$",
-      "$\\mathbb{R}\\cap\\mathbb{Q}$"
+      "$[2;+\\infty)$",
+      "$(2;+\\infty)$",
+      "$(-\\infty;2]$",
+      "$(-\\infty;2)$"
     ],
     "corect": 1
   },
   {
     "id": "numere-reale-010",
     "tip": "simplu",
-    "intrebare": "Cum se definește modulul $|a|$?",
+    "intrebare": "Cum scriem $x\\leq-1$ ca interval?",
     "variante": [
-      "$-a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
-      "$a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
-      "$a$ dacă $a\\ge 0$ și $-a$ dacă $a<0$",
-      "$-a$ pentru orice $a$"
+      "$[-1;+\\infty)$",
+      "$(-\\infty;-1)$",
+      "$(-\\infty;-1]$",
+      "$(-1;+\\infty)$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-011",
     "tip": "simplu",
-    "intrebare": "Ce arată $|a-b|$?",
+    "intrebare": "Cum scriem $-3<x<1$ ca interval?",
     "variante": [
-      "suma numerelor $a$ și $b$",
-      "cel mai mare dintre $a$ și $b$",
-      "distanța dintre punctele $a$ și $b$ pe axă",
-      "mijlocul segmentului dintre $a$ și $b$"
+      "$[-3;1]$",
+      "$(-3;1]$",
+      "$(-3;1)$",
+      "$[-3;1)$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-012",
     "tip": "simplu",
-    "intrebare": "Calculează $|3-5|$.",
+    "intrebare": "Cât este $|-7|$?",
     "variante": [
-      "$2$",
-      "$0$",
-      "$-2$",
-      "$8$"
+      "$7$",
+      "$\\frac17$",
+      "$-7$",
+      "$0$"
     ],
     "corect": 0
   },
   {
     "id": "numere-reale-013",
     "tip": "simplu",
-    "intrebare": "Care număr este mai mare pe axă?",
+    "intrebare": "Cât este $|2-5|$?",
     "variante": [
-      "mai departe de $0$",
-      "mai aproape de $0$",
-      "mai în dreapta",
-      "mai în stânga"
+      "$5$",
+      "$7$",
+      "$3$",
+      "$-3$"
     ],
     "corect": 2
   },
   {
     "id": "numere-reale-014",
     "tip": "simplu",
-    "intrebare": "Câte numere reale se află între două numere reale diferite?",
+    "intrebare": "Care sunt soluțiile ecuației $|x|=5$?",
     "variante": [
-      "niciun alt număr real",
-      "exact un număr real",
-      "doar numere întregi",
-      "o infinitate de numere reale"
+      "doar $5$",
+      "doar $-5$",
+      "nu are soluții",
+      "$5$ și $-5$"
     ],
     "corect": 3
   },
   {
     "id": "numere-reale-015",
     "tip": "simplu",
-    "intrebare": "Cărei mulțimi îi aparține numărul $\\sqrt9$?",
+    "intrebare": "Cât este $[1;4]\\cap[3;6]$?",
     "variante": [
-      "$\\mathbb{R}\\setminus\\mathbb{Q}$",
-      "nu aparține lui $\\mathbb{R}$",
-      "$\\mathbb{R}\\setminus\\mathbb{Z}$",
-      "$\\mathbb{N}$ (deci și lui $\\mathbb{Z},\\mathbb{Q},\\mathbb{R}$)"
+      "$[1;6]$",
+      "$[4;6]$",
+      "$[1;3]$",
+      "$[3;4]$"
     ],
     "corect": 3
   },
   {
     "id": "numere-reale-016",
     "tip": "simplu",
-    "intrebare": "Scrie $|\\sqrt3-2|$ fără semnul modul.",
+    "intrebare": "Cât este $[1;4]\\cup[3;6]$?",
     "variante": [
-      "$2-\\sqrt3$",
-      "$-2-\\sqrt3$",
-      "$\\sqrt3-2$",
-      "$\\sqrt3+2$"
+      "$[1;6]$",
+      "$[4;6]$",
+      "$[3;4]$",
+      "$[1;3]$"
     ],
     "corect": 0
+  },
+  {
+    "id": "numere-reale-017",
+    "tip": "simplu",
+    "intrebare": "Care număr este mai mare?",
+    "variante": [
+      "sunt egale",
+      "$-5$",
+      "nu se pot compara",
+      "$-2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-reale-018",
+    "tip": "simplu",
+    "intrebare": "Rotunjește $3{,}67$ la zecimi:",
+    "variante": [
+      "$3{,}6$",
+      "$3{,}8$",
+      "$3{,}7$",
+      "$4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-019",
+    "tip": "multiplu",
+    "intrebare": "Care numere sunt iraționale?",
+    "variante": [
+      "$\\sqrt{2}$",
+      "$\\pi$",
+      "$0{,}5$",
+      "$\\frac13$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
   }
 ]

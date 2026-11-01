@@ -238,53 +238,5 @@
       "$m=C_{5}^{3};\\ n=5^{2}$"
     ],
     "corect": 1
-  },
-  {
-    "id": "probleme-cu-zaruri-si-monede-021",
-    "tip": "simplu",
-    "intrebare": "Se aruncă o monedă de $6$ ori. Evenimentul: banul apare exact de patru ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=C_{6}^{4};\\ n=2^{6}$",
-      "$m=A_{6}^{4};\\ n=2^{6}$",
-      "$m=C_{6}^{4};\\ n=6^{2}$",
-      "$m=C_{6}^{4}+C_{6}^{5}+C_{6}^{6};\\ n=2^{6}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-zaruri-si-monede-022",
-    "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare stema. Evenimentul: banul este aruncat de trei ori. Alege $m$ (cazuri favorabile) și $n$ (cazuri posibile).",
-    "variante": [
-      "$m=1;\\ n=2^{3}$",
-      "$m=3;\\ n=2^{3}$",
-      "$m=C_{3}^{1};\\ n=C_{3}^{2}$",
-      "$m=1;\\ n=3^{2}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-zaruri-si-monede-023",
-    "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare banul de $2$ ori consecutiv. Evenimentul: monedă aruncată cel puțin $3$, dar mai puțin de $5$ ori. Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=\\frac{1}{2^3}+\\frac{2}{2^4}$",
-      "$P=\\frac{1}{2^3}+\\frac{2}{2^4}+\\frac{4}{2^5}$",
-      "$P=\\frac{1}{2^3}$",
-      "$P=\\frac{1}{2^3}+\\frac{1}{2^4}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "probleme-cu-zaruri-si-monede-024",
-    "tip": "simplu",
-    "intrebare": "Se aruncă o monedă până apare stema de $3$ ori consecutiv. Evenimentul: moneda este aruncată între $4$ și $6$ ori (inclusiv). Alege formula pentru această probabilitate.",
-    "variante": [
-      "$P=\\frac{1}{2^3}+\\frac{2}{2^4}+\\frac{4}{2^5}$",
-      "$P=\\frac{1}{2^4}+\\frac{1}{2^5}+\\frac{1}{2^6}$",
-      "$P=\\frac{1}{2^4}+\\frac{2}{2^5}+\\frac{4}{2^6}$",
-      "$P=\\frac{1}{2^4}+\\frac{2}{2^5}$"
-    ],
-    "corect": 2
   }
 ]

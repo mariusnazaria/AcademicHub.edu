@@ -2,70 +2,70 @@
   {
     "id": "puncte-drepte-unghiuri-001",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă că $M$ este mijlocul lui $AB$?",
+    "intrebare": "Cât măsoară un unghi drept?",
     "variante": [
-      "$AM=AB$",
-      "$AB=\\frac{AM}{2}$",
-      "$AM=MB=\\frac{AB}{2}$",
-      "$AM=2\\cdot MB$"
+      "$180^\\circ$",
+      "$360^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$"
     ],
     "corect": 2
   },
   {
     "id": "puncte-drepte-unghiuri-002",
     "tip": "simplu",
-    "intrebare": "$A,M,B$ sunt pe aceeași dreaptă în această ordine, $AM=3{,}5$ cm și $MB=5$ cm. Cât este $AB$?",
+    "intrebare": "Cum se numește un unghi mai mic de $90^\\circ$?",
     "variante": [
-      "$17{,}5$ cm",
-      "$8{,}5$ cm",
-      "$1{,}5$ cm",
-      "$4{,}25$ cm"
+      "drept",
+      "ascuțit",
+      "obtuz",
+      "alungit"
     ],
     "corect": 1
   },
   {
     "id": "puncte-drepte-unghiuri-003",
     "tip": "simplu",
-    "intrebare": "Ce este mediatoarea unui segment?",
+    "intrebare": "Cum se numește un unghi între $90^\\circ$ și $180^\\circ$?",
     "variante": [
-      "perpendiculara în mijlocul segmentului",
-      "bisectoarea unui unghi",
-      "dreapta care trece printr-un capăt",
-      "dreapta paralelă cu segmentul"
+      "obtuz",
+      "alungit",
+      "ascuțit",
+      "drept"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-004",
     "tip": "simplu",
-    "intrebare": "Ce proprietate au punctele mediatoarei segmentului $AB$?",
+    "intrebare": "Cât măsoară un unghi alungit?",
     "variante": [
-      "la distanțe egale de $A$ și de $B$",
-      "doar mijlocul segmentului",
-      "la distanța $AB$ de mijloc",
-      "la distanțe diferite de $A$ și $B$"
+      "$180^\\circ$",
+      "$270^\\circ$",
+      "$90^\\circ$",
+      "$360^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-005",
     "tip": "simplu",
-    "intrebare": "Ce măsură are un unghi obtuz?",
+    "intrebare": "Cât este suma a două unghiuri complementare?",
     "variante": [
-      "exact $90^\\circ$",
-      "exact $180^\\circ$",
-      "sub $90^\\circ$",
-      "între $90^\\circ$ și $180^\\circ$"
+      "$360^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$90^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "puncte-drepte-unghiuri-006",
     "tip": "simplu",
-    "intrebare": "Ce măsură are un unghi alungit?",
+    "intrebare": "Cât este suma a două unghiuri suplementare?",
     "variante": [
       "$360^\\circ$",
-      "$120^\\circ$",
+      "$270^\\circ$",
       "$180^\\circ$",
       "$90^\\circ$"
     ],
@@ -74,120 +74,132 @@
   {
     "id": "puncte-drepte-unghiuri-007",
     "tip": "simplu",
-    "intrebare": "Cât este suma a două unghiuri complementare?",
+    "intrebare": "Care este complementul unghiului de $30^\\circ$?",
     "variante": [
-      "$90^\\circ$",
-      "$45^\\circ$",
-      "$180^\\circ$",
-      "$360^\\circ$"
+      "$60^\\circ$",
+      "$120^\\circ$",
+      "$150^\\circ$",
+      "$30^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-008",
     "tip": "simplu",
-    "intrebare": "Cât este suma a două unghiuri suplementare?",
+    "intrebare": "Care este suplementul unghiului de $120^\\circ$?",
     "variante": [
-      "$270^\\circ$",
-      "$360^\\circ$",
-      "$90^\\circ$",
-      "$180^\\circ$"
+      "$120^\\circ$",
+      "$240^\\circ$",
+      "$30^\\circ$",
+      "$60^\\circ$"
     ],
     "corect": 3
   },
   {
     "id": "puncte-drepte-unghiuri-009",
     "tip": "simplu",
-    "intrebare": "Care este complementul unghiului de $62^\\circ$?",
+    "intrebare": "Cum sunt unghiurile opuse la vârf?",
     "variante": [
-      "$28^\\circ$",
-      "$38^\\circ$",
-      "$62^\\circ$",
-      "$118^\\circ$"
+      "egale",
+      "suplementare",
+      "nu se știe",
+      "complementare"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-010",
     "tip": "simplu",
-    "intrebare": "Care este suplementul unghiului de $45^\\circ$?",
+    "intrebare": "Ce face bisectoarea unui unghi?",
     "variante": [
-      "$45^\\circ$",
-      "$55^\\circ$",
-      "$315^\\circ$",
-      "$135^\\circ$"
+      "îl dublează",
+      "îl face drept",
+      "îl face alungit",
+      "îl împarte în două unghiuri egale"
     ],
     "corect": 3
   },
   {
     "id": "puncte-drepte-unghiuri-011",
     "tip": "simplu",
-    "intrebare": "Cum sunt unghiurile opuse la vârf?",
+    "intrebare": "Dacă $M$ este mijlocul lui $[AB]$ și $AB=10$, cât este $AM$?",
     "variante": [
-      "complementare",
-      "egale",
-      "suplementare",
-      "mereu drepte"
+      "$20$",
+      "$5$",
+      "$10$",
+      "$2$"
     ],
     "corect": 1
   },
   {
     "id": "puncte-drepte-unghiuri-012",
     "tip": "simplu",
-    "intrebare": "Ce face bisectoarea unui unghi?",
+    "intrebare": "Punctele $A,B,C$ sunt coliniare, $B$ între $A$ și $C$, $AB=3$, $BC=4$. Cât este $AC$?",
     "variante": [
-      "îl împarte în două unghiuri egale",
-      "îl împarte în două unghiuri suplementare",
-      "este perpendiculară pe o latură",
-      "trece prin mijlocul unei laturi"
+      "$7$",
+      "$1$",
+      "$12$",
+      "$3{,}5$"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-013",
     "tip": "simplu",
-    "intrebare": "Cum sunt unghiurile corespondente (la drepte paralele)?",
+    "intrebare": "Câte drepte trec prin două puncte distincte?",
     "variante": [
-      "egale",
-      "oarecare",
-      "suplementare",
-      "complementare"
+      "una",
+      "niciuna",
+      "două",
+      "infinit de multe"
     ],
     "corect": 0
   },
   {
     "id": "puncte-drepte-unghiuri-014",
     "tip": "simplu",
-    "intrebare": "Cum sunt unghiurile alterne interne (la drepte paralele)?",
+    "intrebare": "Cum sunt unghiurile alterne interne formate de o secantă cu două drepte paralele?",
     "variante": [
       "suplementare",
       "complementare",
       "egale",
-      "oarecare"
+      "nu se știe"
     ],
     "corect": 2
   },
   {
     "id": "puncte-drepte-unghiuri-015",
     "tip": "simplu",
-    "intrebare": "Cum sunt unghiurile interne de aceeași parte (la drepte paralele)?",
+    "intrebare": "Cum sunt unghiurile corespondente formate de o secantă cu două drepte paralele?",
     "variante": [
-      "complementare ($90^\\circ$)",
-      "suplementare ($180^\\circ$)",
+      "complementare",
       "egale",
-      "oarecare"
+      "suplementare",
+      "nu se știe"
     ],
     "corect": 1
   },
   {
     "id": "puncte-drepte-unghiuri-016",
     "tip": "simplu",
-    "intrebare": "$AB$ și $CD$ se taie în $O$, iar $m(\\angle AOC)=50^\\circ$. Cât este $m(\\angle AOD)$?",
+    "intrebare": "Ce unghi formează două drepte perpendiculare?",
     "variante": [
-      "$310^\\circ$",
-      "$50^\\circ$",
-      "$40^\\circ$",
-      "$130^\\circ$"
+      "$0^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$90^\\circ$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puncte-drepte-unghiuri-017",
+    "tip": "simplu",
+    "intrebare": "Două unghiuri adiacente formează un unghi alungit. Dacă unul are $70^\\circ$, celălalt are:",
+    "variante": [
+      "$290^\\circ$",
+      "$20^\\circ$",
+      "$70^\\circ$",
+      "$110^\\circ$"
     ],
     "corect": 3
   }

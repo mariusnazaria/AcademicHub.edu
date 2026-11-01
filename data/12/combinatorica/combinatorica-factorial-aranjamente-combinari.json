@@ -4,9 +4,9 @@
     "tip": "simplu",
     "intrebare": "Cât este $n!$?",
     "variante": [
-      "$n^2$",
-      "$n+(n-1)+\\ldots+1$",
-      "$n\\cdot n\\cdots n$",
+      "$n\\cdot2$",
+      "$n+(n-1)$",
+      "$n\\cdot n$",
       "$1\\cdot2\\cdot3\\cdots n$"
     ],
     "corect": 3
@@ -26,280 +26,217 @@
   {
     "id": "combinatorica-factorial-aranjamente-combinari-003",
     "tip": "simplu",
-    "intrebare": "Cât este $(n+1)!$?",
+    "intrebare": "Cât este $3!$?",
     "variante": [
-      "$(n+1)\\cdot n!$",
-      "$n\\cdot(n+1)$",
-      "$n!+1$",
-      "$(n+1)+n!$"
+      "$6$",
+      "$12$",
+      "$9$",
+      "$3$"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-004",
     "tip": "simplu",
-    "intrebare": "Calculează $5!$.",
+    "intrebare": "Cât este $4!$?",
     "variante": [
-      "$120$",
-      "$720$",
-      "$60$",
-      "$25$"
+      "$24$",
+      "$12$",
+      "$16$",
+      "$10$"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-005",
     "tip": "simplu",
-    "intrebare": "Calculează $\\frac{7!}{5!}$.",
+    "intrebare": "Cât este $5!$?",
     "variante": [
-      "$42$",
-      "$2$",
-      "$14$",
-      "$35$"
+      "$120$",
+      "$60$",
+      "$25$",
+      "$100$"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-006",
     "tip": "simplu",
-    "intrebare": "Simplifică $\\frac{(n+1)!}{n!}$.",
+    "intrebare": "Cât este $6!$?",
     "variante": [
-      "$(n+1)^2$",
-      "$n+1$",
-      "$1$",
-      "$n$"
+      "$120$",
+      "$720$",
+      "$36$",
+      "$360$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-007",
     "tip": "simplu",
-    "intrebare": "Simplifică $\\frac{n!}{(n-1)!}$.",
+    "intrebare": "Cât este $\\frac{7!}{5!}$?",
     "variante": [
-      "$n-1$",
-      "$n$",
-      "$1$",
-      "$n!$"
+      "$2$",
+      "$42$",
+      "$14$",
+      "$7$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-008",
     "tip": "simplu",
-    "intrebare": "Simplifică $\\frac{(n+2)!}{n!}$.",
+    "intrebare": "Cât este $\\frac{(n+1)!}{n!}$?",
     "variante": [
-      "$(n+2)^2$",
-      "$(n+1)(n+2)$",
-      "$n(n+1)$",
-      "$n+2$"
+      "$(n+1)!$",
+      "$n+1$",
+      "$n$",
+      "$1$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-009",
     "tip": "simplu",
-    "intrebare": "Câte permutări au $n$ elemente?",
+    "intrebare": "Cât este $(n+1)!$?",
     "variante": [
-      "$P_n=n^n$",
-      "$P_n=n$",
-      "$P_n=2^n$",
-      "$P_n=n!$"
+      "$n!+1$",
+      "$(n!)^2$",
+      "$n\\cdot(n+1)$",
+      "$(n+1)\\cdot n!$"
     ],
     "corect": 3
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-010",
     "tip": "simplu",
-    "intrebare": "Care este formula aranjamentelor $A_n^k$?",
+    "intrebare": "Câte permutări au $n$ elemente?",
     "variante": [
-      "$\\frac{n!}{k!}$",
-      "$\\frac{(n-k)!}{n!}$",
-      "$\\frac{n!}{k!(n-k)!}$",
-      "$\\frac{n!}{(n-k)!}$"
+      "$2n$",
+      "$n$",
+      "$n^2$",
+      "$n!$"
     ],
     "corect": 3
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-011",
     "tip": "simplu",
-    "intrebare": "Care este formula combinărilor $C_n^k$?",
+    "intrebare": "Când folosim aranjamentele?",
     "variante": [
-      "$\\frac{n!}{k!(n-k)!}$",
-      "$\\frac{n!}{(n-k)!}$",
-      "$\\frac{n!}{k!}$",
-      "$\\frac{k!}{n!(n-k)!}$"
+      "când ordinea elementelor contează",
+      "când ordinea nu contează",
+      "când alegem toate elementele",
+      "niciodată"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-012",
     "tip": "simplu",
-    "intrebare": "Ce legătură este între $A_n^k$ și $C_n^k$?",
+    "intrebare": "Când folosim combinările?",
     "variante": [
-      "$A_n^k=C_n^k$",
-      "$C_n^k=A_n^k\\cdot k!$",
-      "$A_n^k=C_n^k\\cdot k!$",
-      "$A_n^k=C_n^k+k!$"
+      "niciodată",
+      "când repetăm elemente",
+      "când ordinea elementelor nu contează",
+      "când ordinea contează"
     ],
     "corect": 2
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-013",
     "tip": "simplu",
-    "intrebare": "Cât este $C_n^k$ (simetria)?",
+    "intrebare": "Cât este $A_n^k$?",
     "variante": [
-      "$A_n^k$",
-      "$C_n^{n-k}$",
-      "$C_{n-k}^k$",
-      "$C_n^{k+1}$"
+      "$n^k$",
+      "$\\frac{n!}{(n-k)!}$",
+      "$\\frac{n!}{k!}$",
+      "$\\frac{n!}{k!(n-k)!}$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-014",
     "tip": "simplu",
-    "intrebare": "Cât este $C_n^0=C_n^n$?",
+    "intrebare": "Cât este $C_n^k$?",
     "variante": [
-      "$0$",
-      "$1$",
-      "$n!$",
-      "$n$"
+      "$\\frac{n!}{(n-k)!}$",
+      "$\\frac{n!}{k!(n-k)!}$",
+      "$\\frac{k!}{n!}$",
+      "$\\frac{n!}{k!}$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-015",
     "tip": "simplu",
-    "intrebare": "Cât este $C_n^1$?",
+    "intrebare": "Cât este $A_5^2$?",
     "variante": [
-      "$n$",
-      "$n-1$",
-      "$1$",
-      "$n!$"
+      "$20$",
+      "$120$",
+      "$10$",
+      "$25$"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-016",
     "tip": "simplu",
-    "intrebare": "Cât este $C_n^k+C_n^{k+1}$?",
+    "intrebare": "Cât este $A_6^3$?",
     "variante": [
-      "$C_{n+1}^{k}$",
-      "$C_n^{2k+1}$",
-      "$C_{n+1}^{k+1}$",
-      "$C_{n}^{k+1}$"
+      "$20$",
+      "$216$",
+      "$120$",
+      "$720$"
     ],
     "corect": 2
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-017",
     "tip": "simplu",
-    "intrebare": "Când există $A_n^k$ și $C_n^k$ (condiții)?",
+    "intrebare": "Cât este $C_5^2$?",
     "variante": [
-      "$k=0$ doar",
-      "$n,k\\in\\mathbb{N}$ și $k\\leq n$",
-      "$k>n$",
-      "$n<0$"
+      "$5$",
+      "$10$",
+      "$20$",
+      "$25$"
     ],
     "corect": 1
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-018",
     "tip": "simplu",
-    "intrebare": "Calculează $A_5^2$.",
+    "intrebare": "Cât este $C_6^3$?",
     "variante": [
-      "$10$",
-      "$25$",
+      "$120$",
+      "$18$",
       "$20$",
-      "$120$"
+      "$216$"
     ],
     "corect": 2
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-019",
     "tip": "simplu",
-    "intrebare": "Calculează $A_6^3$.",
+    "intrebare": "Cât este $C_n^k$ în funcție de $C_n^{n-k}$?",
     "variante": [
-      "$120$",
-      "$60$",
-      "$216$",
-      "$20$"
+      "sunt egale",
+      "nu au legătură",
+      "$C_n^k=2C_n^{n-k}$",
+      "sunt opuse"
     ],
     "corect": 0
   },
   {
     "id": "combinatorica-factorial-aranjamente-combinari-020",
     "tip": "simplu",
-    "intrebare": "Calculează $C_5^2$.",
+    "intrebare": "Cât este $C_n^1$?",
     "variante": [
-      "$20$",
-      "$10$",
-      "$5$",
-      "$25$"
+      "$1$",
+      "$n$",
+      "$0$",
+      "$n!$"
     ],
     "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-021",
-    "tip": "simplu",
-    "intrebare": "Calculează $C_6^3$.",
-    "variante": [
-      "$120$",
-      "$20$",
-      "$18$",
-      "$10$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-022",
-    "tip": "simplu",
-    "intrebare": "Cât este $C_n^2$?",
-    "variante": [
-      "$\\frac{n^2}{2}$",
-      "$\\frac{n(n-1)}{2}$",
-      "$\\frac{n(n+1)}{2}$",
-      "$n(n-1)$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-023",
-    "tip": "simplu",
-    "intrebare": "Cât este $A_n^2$?",
-    "variante": [
-      "$n(n+1)$",
-      "$n^2$",
-      "$\\frac{n(n-1)}{2}$",
-      "$n(n-1)$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-024",
-    "tip": "simplu",
-    "intrebare": "Ce folosim dacă ordinea elementelor CONTEAZĂ și alegem $k$ din $n$?",
-    "variante": [
-      "aranjamente $A_n^k$",
-      "permutări $P_n$",
-      "combinări $C_n^k$",
-      "$2^n$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "combinatorica-factorial-aranjamente-combinari-025",
-    "tip": "multiplu",
-    "intrebare": "Care egalități sunt adevărate?",
-    "variante": [
-      "$C_n^k=A_n^k$",
-      "$C_n^k=C_n^{n-k}$",
-      "$A_n^k=C_n^k\\cdot k!$",
-      "$0!=0$"
-    ],
-    "corect": [
-      1,
-      2
-    ]
   }
 ]

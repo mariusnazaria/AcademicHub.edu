@@ -2,83 +2,83 @@
   {
     "id": "tangenta-in-punct-si-pante-001",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă geometric $f^{\\prime}(a)$?",
+    "intrebare": "Care este ecuația tangentei la graficul lui $f$ în punctul $x=a$?",
     "variante": [
-      "ordonata punctului de pe grafic",
-      "panta tangentei la grafic în punctul de abscisă $a$",
-      "aria de sub grafic",
-      "valoarea funcției în $a$"
+      "$y-a=f^{\\prime}(a)(x-f(a))$",
+      "$y-f(a)=f^{\\prime}(a)(x-a)$",
+      "$y-f^{\\prime}(a)=f(a)(x-a)$",
+      "$y=f(a)(x-a)$"
     ],
     "corect": 1
   },
   {
     "id": "tangenta-in-punct-si-pante-002",
     "tip": "simplu",
-    "intrebare": "Care este ecuația tangentei în punctul de abscisă $a$?",
+    "intrebare": "Ce reprezintă $f^{\\prime}(a)$ pentru tangentă?",
     "variante": [
-      "$y-f(a)=f^{\\prime}(a)(x-a)$",
-      "$y+f(a)=f^{\\prime}(a)(x+a)$",
-      "$y-f^{\\prime}(a)=f(a)(x-a)$",
-      "$y=f^{\\prime}(x)(x-a)$"
+      "panta tangentei",
+      "zeroul funcției",
+      "ordonata punctului",
+      "distanța până la origine"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-003",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii pentru tangenta în punctul $x_0=a$?",
+    "intrebare": "Tangenta la $f(x)=x^2$ în $a=1$ este:",
     "variante": [
-      "calculăm $f^{\\prime\\prime}(a)$ și $f(0)$",
-      "egalăm $f$ cu $0$",
-      "DVA, ridicăm la pătrat",
-      "calculăm $f(a)$, $f^{\\prime}(x)$, apoi $f^{\\prime}(a)$, formăm ecuația"
+      "$y=2x+1$",
+      "$y=2x-2$",
+      "$y=x$",
+      "$y=2x-1$"
     ],
     "corect": 3
   },
   {
     "id": "tangenta-in-punct-si-pante-004",
     "tip": "simplu",
-    "intrebare": "Cât este panta tangentei?",
+    "intrebare": "Tangenta la $f(x)=x^2$ în $a=2$ este:",
     "variante": [
-      "$m=f^{\\prime}(a)$",
-      "$m=a$",
-      "$m=f^{\\prime\\prime}(a)$",
-      "$m=f(a)$"
+      "$y=4x-4$",
+      "$y=4x+4$",
+      "$y=2x$",
+      "$y=4x$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-005",
     "tip": "simplu",
-    "intrebare": "Cum e legată panta tangentei de unghiul $\\alpha$ cu axa $Ox$?",
+    "intrebare": "Tangenta la $f(x)=x^3$ în $a=1$ este:",
     "variante": [
-      "$m=\\cos\\alpha$",
-      "$m=\\sin\\alpha$",
-      "$m=\\operatorname{tg}\\alpha$",
-      "$m=\\alpha$"
+      "$y=x$",
+      "$y=3x$",
+      "$y=3x-2$",
+      "$y=3x+2$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-in-punct-si-pante-006",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, care este tangenta în $a=1$?",
+    "intrebare": "Care este panta tangentei la $f(x)=x^2$ în $a=3$?",
     "variante": [
-      "$y=2x-1$",
-      "$y=x-1$",
-      "$y=2x+1$",
-      "$y=x^2$"
+      "$6$",
+      "$2$",
+      "$3$",
+      "$9$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-007",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^2$, care este tangenta în $a=0$?",
+    "intrebare": "Tangenta la $f(x)=e^x$ în $a=0$ este:",
     "variante": [
-      "$x=0$",
+      "$y=e^x$",
       "$y=1$",
-      "$y=0$",
+      "$y=x+1$",
       "$y=x$"
     ],
     "corect": 2
@@ -86,184 +86,109 @@
   {
     "id": "tangenta-in-punct-si-pante-008",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x^3$, care este tangenta în $a=0$?",
+    "intrebare": "Tangenta la $f(x)=\\ln x$ în $a=1$ este:",
     "variante": [
-      "$y=0$",
-      "$x=0$",
+      "$y=x-1$",
+      "$y=x+1$",
       "$y=x$",
-      "$y=3x$"
+      "$y=1$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-009",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=x$, care este tangenta în orice punct?",
+    "intrebare": "Tangenta la $f(x)=\\sin x$ în $a=0$ este:",
     "variante": [
       "$y=x$",
-      "$y=1$",
       "$y=0$",
-      "$y=2x$"
+      "$y=1$",
+      "$y=-x$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-010",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=e^x$, care este tangenta în $a=0$?",
+    "intrebare": "Dacă panta tangentei este $1$, ce unghi face cu $Ox$?",
     "variante": [
-      "$y=x+1$",
-      "$y=x$",
-      "$y=x-1$",
-      "$y=e^x$"
+      "$45^\\circ$",
+      "$30^\\circ$",
+      "$90^\\circ$",
+      "$60^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-011",
     "tip": "simplu",
-    "intrebare": "Pentru $f(x)=\\ln x$, care este tangenta în $a=1$?",
+    "intrebare": "Dacă panta tangentei este $\\sqrt3$, ce unghi face cu $Ox$?",
     "variante": [
-      "$y=x-1$",
-      "$y=x$",
-      "$y=\\ln x$",
-      "$y=x+1$"
+      "$60^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$",
+      "$30^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-012",
     "tip": "simplu",
-    "intrebare": "Ce pantă înseamnă unghiul de $45^\\circ$ cu $Ox$?",
+    "intrebare": "Cum se leagă panta de unghiul $\\alpha$ cu axa $Ox$?",
     "variante": [
-      "$m=\\sqrt{3}$",
-      "$m=-1$",
-      "$m=0$",
-      "$m=1$"
+      "$m=\\cos\\alpha$",
+      "$m=\\alpha$",
+      "$m=\\sin\\alpha$",
+      "$m=\\operatorname{tg}\\alpha$"
     ],
     "corect": 3
   },
   {
     "id": "tangenta-in-punct-si-pante-013",
     "tip": "simplu",
-    "intrebare": "Ce pantă înseamnă unghiul de $60^\\circ$ cu $Ox$?",
+    "intrebare": "Tangenta este orizontală (paralelă cu $Ox$) când:",
     "variante": [
-      "$m=\\frac{\\sqrt{3}}{3}$",
-      "$m=1$",
-      "$m=\\sqrt{3}$",
-      "$m=\\frac{1}{2}$"
+      "$f(a)=0$",
+      "$f^{\\prime}(a)=1$",
+      "$f^{\\prime}(a)=0$",
+      "$f^{\\prime\\prime}(a)=0$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-in-punct-si-pante-014",
     "tip": "simplu",
-    "intrebare": "Ce pantă înseamnă unghiul de $30^\\circ$ cu $Ox$?",
+    "intrebare": "Tangenta este paralelă cu dreapta $y=3x$ când:",
     "variante": [
-      "$m=\\sqrt{3}$",
-      "$m=\\frac{1}{2}$",
-      "$m=\\frac{\\sqrt{3}}{3}$",
-      "$m=1$"
+      "$f^{\\prime}(a)=-3$",
+      "$f^{\\prime}(a)=\\frac13$",
+      "$f^{\\prime}(a)=3$",
+      "$f(a)=3$"
     ],
     "corect": 2
   },
   {
     "id": "tangenta-in-punct-si-pante-015",
     "tip": "simplu",
-    "intrebare": "Ce pantă înseamnă unghiul de $135^\\circ$ cu $Ox$?",
+    "intrebare": "Tangenta este perpendiculară pe o dreaptă cu panta $m$ când:",
     "variante": [
-      "$m=-1$",
-      "$m=1$",
-      "$m=0$",
-      "$m=-\\sqrt{3}$"
+      "$f^{\\prime}(a)=-\\frac1m$",
+      "$f^{\\prime}(a)=m$",
+      "$f^{\\prime}(a)=-m$",
+      "$f^{\\prime}(a)=\\frac1m$"
     ],
     "corect": 0
   },
   {
     "id": "tangenta-in-punct-si-pante-016",
     "tip": "simplu",
-    "intrebare": "Ce pantă înseamnă unghiul $\\operatorname{arctg}2$ cu $Ox$?",
+    "intrebare": "Care este tangenta la dreapta $f(x)=2x+3$ în orice punct?",
     "variante": [
-      "$m=-2$",
-      "$m=\\operatorname{arctg}2$",
-      "$m=\\frac{1}{2}$",
-      "$m=2$"
+      "$y=x+3$",
+      "$y=3$",
+      "$y=2x$",
+      "chiar dreapta $y=2x+3$"
     ],
     "corect": 3
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-017",
-    "tip": "simplu",
-    "intrebare": "Când este tangenta orizontală (paralelă cu $Ox$)?",
-    "variante": [
-      "$f(a)=0$",
-      "$f^{\\prime}(a)=0$",
-      "$f^{\\prime}(a)=1$",
-      "$f^{\\prime\\prime}(a)=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-018",
-    "tip": "simplu",
-    "intrebare": "Când este tangenta paralelă cu dreapta $y=3x+1$?",
-    "variante": [
-      "$f^{\\prime}(a)=1$",
-      "$f(a)=3$",
-      "$f^{\\prime}(a)=-3$",
-      "$f^{\\prime}(a)=3$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-019",
-    "tip": "simplu",
-    "intrebare": "Cât trebuie să fie panta tangentei ca ea să fie perpendiculară pe o dreaptă cu panta $m$?",
-    "variante": [
-      "$-m$",
-      "$m$",
-      "$-\\frac{1}{m}$",
-      "$\\frac{1}{m}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-020",
-    "tip": "simplu",
-    "intrebare": "Ce au în comun două drepte paralele?",
-    "variante": [
-      "pante opuse",
-      "ordonate la origine egale mereu",
-      "pante egale",
-      "produsul pantelor $-1$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-021",
-    "tip": "simplu",
-    "intrebare": "Cât este ordonata punctului de tangență de abscisă $a$?",
-    "variante": [
-      "$f(a)$",
-      "$a$",
-      "$f^{\\prime}(a)$",
-      "$f(0)$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "tangenta-in-punct-si-pante-022",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte?",
-    "variante": [
-      "$m=\\operatorname{tg}\\alpha$",
-      "panta tangentei este $f^{\\prime}(a)$",
-      "$m=\\sin\\alpha$",
-      "panta tangentei este $f(a)$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
   }
 ]

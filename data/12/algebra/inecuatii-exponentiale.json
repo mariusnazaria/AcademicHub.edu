@@ -2,208 +2,181 @@
   {
     "id": "inecuatii-exponentiale-001",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii la o inecuație exponențială?",
+    "intrebare": "Rezolvă: $2^x>8$.",
     "variante": [
-      "aceeași bază, egalăm puterile cu semnul inecuației, rezolvăm",
-      "egalăm cu $0$, parabola",
-      "DVA, ridicăm la pătrat",
-      "derivăm, tabel"
+      "$x>3$",
+      "$x>8$",
+      "$x<3$",
+      "$x>4$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-exponentiale-002",
     "tip": "simplu",
-    "intrebare": "Ce facem cu semnul inecuației când baza este mai mică decât $1$?",
+    "intrebare": "Rezolvă: $2^x<4$.",
     "variante": [
-      "devine egal",
-      "se inversează",
-      "se anulează",
-      "rămâne la fel"
+      "$x<1$",
+      "$x<2$",
+      "$x<4$",
+      "$x>2$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-exponentiale-003",
     "tip": "simplu",
-    "intrebare": "Ce facem cu semnul inecuației când baza este mai mare decât $1$?",
+    "intrebare": "Rezolvă: $3^x\\geq1$.",
     "variante": [
-      "se anulează",
-      "se inversează",
-      "rămâne la fel",
-      "devine egal"
+      "$x\\geq1$",
+      "$x\\leq0$",
+      "$x\\geq0$",
+      "$x\\geq3$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-exponentiale-004",
     "tip": "simplu",
-    "intrebare": "Când este funcția $a^x$ crescătoare?",
+    "intrebare": "Rezolvă: $5^x>5$.",
     "variante": [
-      "$a=1$",
-      "$a<0$",
-      "$0<a<1$",
-      "$a>1$"
+      "$x>0$",
+      "$x>5$",
+      "$x<1$",
+      "$x>1$"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-exponentiale-005",
     "tip": "simplu",
-    "intrebare": "Când este funcția $a^x$ descrescătoare?",
+    "intrebare": "Rezolvă: $10^x>100$.",
     "variante": [
-      "$a<0$",
-      "$a>2$",
-      "$0<a<1$",
-      "$a>1$"
+      "$x>10$",
+      "$x>100$",
+      "$x>2$",
+      "$x<2$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-exponentiale-006",
     "tip": "simplu",
-    "intrebare": "Rezolvă $2^x>4$.",
+    "intrebare": "Rezolvă: $\\left(\\frac12\\right)^x>\\frac14$.",
     "variante": [
-      "$x<2$",
       "$x>2$",
-      "$x>1$",
-      "$x>4$"
+      "$x<2$",
+      "$x>4$",
+      "$x<4$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-exponentiale-007",
     "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<1$.",
+    "intrebare": "Rezolvă: $\\left(\\frac13\\right)^x<1$.",
     "variante": [
-      "$x>0$",
       "$x<0$",
-      "$x<1$",
-      "$x>1$"
+      "$x>0$",
+      "$x>1$",
+      "$x<1$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-exponentiale-008",
     "tip": "simplu",
-    "intrebare": "Rezolvă $3^x\\geq9$.",
+    "intrebare": "Rezolvă: $2^{x-1}\\geq1$.",
     "variante": [
-      "$x\\geq3$",
-      "$x\\geq9$",
-      "$x\\leq2$",
-      "$x\\geq2$"
+      "$x\\geq0$",
+      "$x\\geq2$",
+      "$x\\leq1$",
+      "$x\\geq1$"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-exponentiale-009",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\left(\\frac{1}{2}\\right)^x>\\frac{1}{4}$.",
+    "intrebare": "Rezolvă: $4^x\\leq2$.",
     "variante": [
-      "$x<2$",
-      "$x<4$",
-      "$x>2$",
-      "$x>4$"
+      "$x\\leq\\frac12$",
+      "$x\\leq2$",
+      "$x\\geq\\frac12$",
+      "$x\\leq1$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-exponentiale-010",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\left(\\frac{1}{2}\\right)^x<1$.",
+    "intrebare": "Rezolvă: $2^x>0$.",
     "variante": [
-      "$x>0$",
+      "$x\\in\\mathbb{R}$",
       "$x>1$",
-      "$x<1$",
-      "$x<0$"
+      "nu are soluții",
+      "$x>0$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-exponentiale-011",
     "tip": "simplu",
-    "intrebare": "Rezolvă $2^x>-1$.",
+    "intrebare": "Rezolvă: $2^x<0$.",
     "variante": [
-      "$x>-1$",
-      "$x>0$",
-      "$\\varnothing$",
-      "$\\mathbb{R}$ (puterea este mereu $>0$)"
+      "$x<1$",
+      "$x\\in\\mathbb{R}$",
+      "$x<0$",
+      "nu are soluții"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-exponentiale-012",
     "tip": "simplu",
-    "intrebare": "Rezolvă $2^x<0$.",
+    "intrebare": "La baza $a>1$, sensul inegalității când comparăm exponenții:",
     "variante": [
-      "$\\varnothing$",
-      "$x<0$",
-      "$x<-1$",
-      "$\\mathbb{R}$"
+      "se păstrează",
+      "dispare",
+      "se dublează",
+      "se schimbă"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-exponentiale-013",
     "tip": "simplu",
-    "intrebare": "Rezolvă $5^x\\leq25$.",
+    "intrebare": "La baza $0<a<1$, sensul inegalității când comparăm exponenții:",
     "variante": [
-      "$x\\leq5$",
-      "$x\\leq1$",
-      "$x\\geq2$",
-      "$x\\leq2$"
+      "dispare",
+      "se dublează",
+      "se păstrează",
+      "se schimbă"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-exponentiale-014",
     "tip": "simplu",
-    "intrebare": "Rezolvă $\\left(\\frac{1}{3}\\right)^x\\geq9$.",
+    "intrebare": "Care este primul pas la o inecuație exponențială?",
     "variante": [
-      "$x\\geq2$",
-      "$x\\geq-2$",
-      "$x\\leq2$",
-      "$x\\leq-2$"
+      "împărțim la $x$",
+      "derivăm",
+      "logaritmăm de două ori",
+      "aducem ambele părți la aceeași bază"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-exponentiale-015",
     "tip": "simplu",
-    "intrebare": "Rezolvă $4^x<2$.",
+    "intrebare": "Care funcție este crescătoare?",
     "variante": [
-      "$x<\\frac{1}{4}$",
-      "$x<\\frac{1}{2}$",
-      "$x>\\frac{1}{2}$",
-      "$x<2$"
+      "$y=\\left(\\frac12\\right)^x$",
+      "$y=3^x$",
+      "$y=\\left(\\frac13\\right)^x$",
+      "$y=-3^x$"
     ],
     "corect": 1
-  },
-  {
-    "id": "inecuatii-exponentiale-016",
-    "tip": "simplu",
-    "intrebare": "La ce se reduce $2^{x^2}<16$?",
-    "variante": [
-      "$x<4$",
-      "$x^2>4$",
-      "$x^2<4$",
-      "$x^2<16$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "inecuatii-exponentiale-017",
-    "tip": "multiplu",
-    "intrebare": "La care inecuații se inversează semnul?",
-    "variante": [
-      "$3^x\\leq27$",
-      "$0{,}1^x<10$",
-      "$2^x>4$",
-      "$\\left(\\frac{1}{2}\\right)^x>4$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
   }
 ]

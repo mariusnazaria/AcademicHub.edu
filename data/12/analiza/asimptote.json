@@ -2,256 +2,193 @@
   {
     "id": "asimptote-001",
     "tip": "simplu",
-    "intrebare": "Ce ecuație are asimptota orizontală?",
+    "intrebare": "Când $x=a$ este asimptotă verticală?",
     "variante": [
-      "$y=mx+n$",
-      "$y=\\lim_{x\\to a}f(x)$",
-      "$y=b$, unde $b=\\lim_{x\\to\\pm\\infty}f(x)$ (număr)",
-      "$x=b$"
+      "când $f(a)=a$",
+      "când $f^{\\prime}(a)=0$",
+      "când $\\lim_{x\\to a}f(x)=\\pm\\infty$",
+      "când $f(a)=0$"
     ],
     "corect": 2
   },
   {
     "id": "asimptote-002",
     "tip": "simplu",
-    "intrebare": "Ce ecuație are asimptota verticală?",
+    "intrebare": "Când $y=b$ este asimptotă orizontală la $+\\infty$?",
     "variante": [
-      "$y=mx+n$",
-      "$x=a$, când $\\lim_{x\\to a}f(x)=\\pm\\infty$",
-      "$y=a$",
-      "$x=\\lim_{x\\to\\infty}f(x)$"
+      "când $f^{\\prime}(b)=0$",
+      "când $\\lim_{x\\to+\\infty}f(x)=b$",
+      "când $f(b)=0$",
+      "când $f(x)=b$ pentru un $x$"
     ],
     "corect": 1
   },
   {
     "id": "asimptote-003",
     "tip": "simplu",
-    "intrebare": "Ce ecuație are asimptota oblică?",
+    "intrebare": "Cum se află panta $m$ a asimptotei oblice?",
     "variante": [
-      "$y=m+nx^2$",
-      "$x=a$",
-      "$y=b$",
-      "$y=mx+n$"
+      "$m=f^{\\prime}(0)$",
+      "$m=\\lim_{x\\to\\infty}(f(x)-x)$",
+      "$m=\\lim_{x\\to\\infty}f(x)$",
+      "$m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}$"
     ],
     "corect": 3
   },
   {
     "id": "asimptote-004",
     "tip": "simplu",
-    "intrebare": "Cum aflăm $m$ la asimptota oblică?",
+    "intrebare": "Cum se află termenul $n$ al asimptotei oblice $y=mx+n$?",
     "variante": [
-      "$\\lim_{x\\to\\infty}\\frac{f(x)}{x}$",
-      "$\\lim_{x\\to\\infty}xf(x)$",
-      "$\\lim_{x\\to\\infty}f(x)$",
-      "$\\lim_{x\\to\\infty}(f(x)-x)$"
+      "$n=\\lim_{x\\to\\infty}(f(x)-mx)$",
+      "$n=m^2$",
+      "$n=\\lim_{x\\to\\infty}\\frac{f(x)}{x}$",
+      "$n=f(0)$"
     ],
     "corect": 0
   },
   {
     "id": "asimptote-005",
     "tip": "simplu",
-    "intrebare": "Cum aflăm $n$ la asimptota oblică?",
+    "intrebare": "Unde căutăm asimptotele verticale ale unei fracții?",
     "variante": [
-      "$\\lim_{x\\to\\infty}\\frac{f(x)}{x}$",
-      "$\\lim_{x\\to\\infty}(f(x)+mx)$",
-      "$\\lim_{x\\to\\infty}(f(x)-mx)$",
-      "$\\lim_{x\\to\\infty}f(x)$"
+      "unde se anulează numărătorul",
+      "în $x=1$",
+      "unde se anulează numitorul",
+      "în $x=0$"
     ],
     "corect": 2
   },
   {
     "id": "asimptote-006",
     "tip": "simplu",
-    "intrebare": "Unde căutăm asimptotele verticale?",
+    "intrebare": "Care este asimptota verticală a lui $f(x)=\\frac1x$?",
     "variante": [
-      "în $x=0$ mereu",
-      "în punctele unde funcția nu este definită (de ex. numitor $0$)",
-      "la $\\pm\\infty$",
-      "în punctele $f^{\\prime}=0$"
+      "$y=0$",
+      "$x=0$",
+      "$x=1$",
+      "nu are"
     ],
     "corect": 1
   },
   {
     "id": "asimptote-007",
     "tip": "simplu",
-    "intrebare": "Dacă există asimptotă orizontală la $+\\infty$, ce știm despre asimptota oblică la $+\\infty$?",
+    "intrebare": "Care este asimptota orizontală a lui $f(x)=\\frac1x$?",
     "variante": [
-      "există mereu",
-      "este verticală",
-      "este egală cu cea orizontală",
-      "nu există"
+      "$x=0$",
+      "nu are",
+      "$y=1$",
+      "$y=0$"
     ],
     "corect": 3
   },
   {
     "id": "asimptote-008",
     "tip": "simplu",
-    "intrebare": "Când apare asimptota oblică la fracții raționale?",
+    "intrebare": "Care este asimptota verticală a lui $f(x)=\\frac{x+1}{x-2}$?",
     "variante": [
-      "numărătorul are grad mai mic",
-      "gradele sunt egale",
-      "numitorul este constant",
-      "gradul numărătorului este cu $1$ mai mare decât al numitorului"
+      "$x=1$",
+      "$x=-1$",
+      "$x=-2$",
+      "$x=2$"
     ],
     "corect": 3
   },
   {
     "id": "asimptote-009",
     "tip": "simplu",
-    "intrebare": "Când apare asimptota orizontală la fracții raționale?",
+    "intrebare": "Care este asimptota orizontală a lui $f(x)=\\frac{x+1}{x-2}$?",
     "variante": [
-      "niciodată",
-      "numitorul este $0$",
-      "gradul numărătorului $>$ al numitorului cu $2$",
-      "gradul numărătorului $\\leq$ gradul numitorului"
+      "$y=0$",
+      "$y=-1$",
+      "$y=2$",
+      "$y=1$"
     ],
     "corect": 3
   },
   {
     "id": "asimptote-010",
     "tip": "simplu",
-    "intrebare": "Ce asimptote are $f(x)=\\frac{1}{x}$?",
+    "intrebare": "Care este asimptota orizontală a lui $f(x)=\\frac{2x}{x-1}$?",
     "variante": [
-      "$y=x$",
-      "$y=0$ (orizontală) și $x=0$ (verticală)",
-      "doar $y=0$",
-      "doar $x=0$"
+      "$y=-1$",
+      "$y=2$",
+      "$y=1$",
+      "$y=0$"
     ],
     "corect": 1
   },
   {
     "id": "asimptote-011",
     "tip": "simplu",
-    "intrebare": "Ce asimptote are $f(x)=\\frac{2x+1}{x-1}$?",
+    "intrebare": "Care este asimptota orizontală a lui $f(x)=\\frac{3x+1}{x}$?",
     "variante": [
-      "$y=2x$ și $x=1$",
-      "$y=2$ (orizontală) și $x=1$ (verticală)",
-      "$y=1$ și $x=2$",
-      "doar $x=1$"
+      "$y=0$",
+      "$y=3$",
+      "$y=1$",
+      "$y=\\frac13$"
     ],
     "corect": 1
   },
   {
     "id": "asimptote-012",
     "tip": "simplu",
-    "intrebare": "Ce asimptotă oblică are $f(x)=\\frac{x^2+1}{x}$?",
+    "intrebare": "Care este asimptota orizontală a lui $f(x)=\\frac{x}{x^2+1}$?",
     "variante": [
-      "$y=0$",
-      "$y=x+1$",
+      "nu are",
+      "$x=0$",
       "$y=1$",
-      "$y=x$"
+      "$y=0$"
     ],
     "corect": 3
   },
   {
     "id": "asimptote-013",
     "tip": "simplu",
-    "intrebare": "Ce asimptotă oblică are $f(x)=\\frac{x^2+1}{x-1}$?",
+    "intrebare": "Când funcția rațională are asimptotă oblică?",
     "variante": [
-      "$y=x$",
-      "$y=x+1$",
-      "$y=1$",
-      "$y=x-1$"
+      "gradurile sunt egale",
+      "gradul numărătorului este cu $1$ mai mare decât al numitorului",
+      "niciodată",
+      "gradul numărătorului este mai mic"
     ],
     "corect": 1
   },
   {
     "id": "asimptote-014",
     "tip": "simplu",
-    "intrebare": "Ce asimptote are $f(x)=x^2$?",
+    "intrebare": "Dacă gradul numărătorului este mai mic decât al numitorului, asimptota orizontală este:",
     "variante": [
-      "asimptotă oblică",
-      "asimptotă orizontală",
-      "nicio asimptotă",
-      "asimptotă verticală"
+      "$x=0$",
+      "$y=1$",
+      "$y=0$",
+      "nu există"
     ],
     "corect": 2
   },
   {
     "id": "asimptote-015",
     "tip": "simplu",
-    "intrebare": "Are un polinom de grad $\\geq2$ asimptote?",
+    "intrebare": "Ce asimptote are un polinom de gradul $2$?",
     "variante": [
-      "Nu, nu are",
-      "Da, verticală",
-      "Da, orizontală",
-      "Da, oblică"
+      "nu are asimptote",
+      "orizontală",
+      "verticală",
+      "oblică"
     ],
     "corect": 0
   },
   {
     "id": "asimptote-016",
     "tip": "simplu",
-    "intrebare": "Ce asimptotă orizontală are $f(x)=e^x$?",
+    "intrebare": "Care este asimptota oblică a lui $f(x)=x+\\frac1x$?",
     "variante": [
-      "$y=1$",
-      "$y=0$ la $-\\infty$",
-      "nu are",
-      "$y=0$ la $+\\infty$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asimptote-017",
-    "tip": "simplu",
-    "intrebare": "Ce asimptotă are $f(x)=\\ln x$?",
-    "variante": [
-      "oblică $y=x$",
-      "verticală $x=0$",
-      "nu are",
-      "orizontală $y=0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "asimptote-018",
-    "tip": "simplu",
-    "intrebare": "Ce asimptote verticale are $f(x)=\\frac{1}{x^2-4}$?",
-    "variante": [
+      "$y=0$",
+      "$y=x$",
       "$x=0$",
-      "$x=\\pm2$",
-      "$x=2$ doar",
-      "$x=\\pm4$"
+      "$y=x+1$"
     ],
     "corect": 1
-  },
-  {
-    "id": "asimptote-019",
-    "tip": "simplu",
-    "intrebare": "Ce asimptote verticale are $f(x)=\\operatorname{tg}x$?",
-    "variante": [
-      "nu are",
-      "$x=\\frac{\\pi}{2}+2\\pi k$ doar",
-      "$x=\\frac{\\pi}{2}+\\pi k$",
-      "$x=\\pi k$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "asimptote-020",
-    "tip": "simplu",
-    "intrebare": "Câte asimptote poate avea graficul la un capăt ($+\\infty$ sau $-\\infty$)?",
-    "variante": [
-      "două asimptote orizontale",
-      "una verticală mereu",
-      "trei asimptote",
-      "o asimptotă (orizontală sau oblică)"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "asimptote-021",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte?",
-    "variante": [
-      "$\\frac{1}{x}$: $y=x$ asimptotă oblică",
-      "$\\ln x$: $y=0$ asimptotă orizontală",
-      "$\\frac{1}{x}$: $x=0$ asimptotă verticală",
-      "$x^2$: nu are asimptote"
-    ],
-    "corect": [
-      2,
-      3
-    ]
   }
 ]

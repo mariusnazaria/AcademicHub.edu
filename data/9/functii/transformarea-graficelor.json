@@ -2,193 +2,244 @@
   {
     "id": "transformarea-graficelor-001",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $ax^2+n$?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $f(x)+2$?",
     "variante": [
-      "$V(0;n)$",
-      "$V(n;0)$",
-      "$V(0;-n)$",
-      "$V(n;n)$"
+      "se mută cu $2$ în sus",
+      "se mută cu $2$ în jos",
+      "se mută cu $2$ la dreapta",
+      "se mută cu $2$ la stânga"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-002",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $a(x-m)^2$ ($m>0$)?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $f(x)-3$?",
     "variante": [
-      "$V(0;m)$",
-      "$V(m;0)$",
-      "$V(0;-m)$",
-      "$V(-m;0)$"
+      "se mută cu $3$ la dreapta",
+      "se mută cu $3$ în jos",
+      "se mută cu $3$ la stânga",
+      "se mută cu $3$ în sus"
     ],
     "corect": 1
   },
   {
     "id": "transformarea-graficelor-003",
     "tip": "simplu",
-    "intrebare": "Care este vârful parabolei $a(x+m)^2$ ($m>0$)?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $f(x-3)$?",
     "variante": [
-      "$V(0;-m)$",
-      "$V(m;0)$",
-      "$V(0;m)$",
-      "$V(-m;0)$"
+      "se mută cu $3$ în jos",
+      "se mută cu $3$ la stânga",
+      "se mută cu $3$ în sus",
+      "se mută cu $3$ la dreapta"
     ],
     "corect": 3
   },
   {
     "id": "transformarea-graficelor-004",
     "tip": "simplu",
-    "intrebare": "Care este axa de simetrie a lui $ax^2+n$?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $f(x+2)$?",
     "variante": [
-      "axa $Oy$",
-      "$y=n$",
-      "axa $Ox$",
-      "$x=n$"
+      "se mută cu $2$ la stânga",
+      "se mută cu $2$ în jos",
+      "se mută cu $2$ în sus",
+      "se mută cu $2$ la dreapta"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-005",
     "tip": "simplu",
-    "intrebare": "Care este axa de simetrie a lui $a(x-m)^2$?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $-f(x)$?",
     "variante": [
-      "axa $Oy$",
-      "dreapta $x=-m$",
-      "dreapta $y=m$",
-      "dreapta $x=m$"
+      "se oglindește față de axa $Oy$",
+      "se mută la stânga",
+      "se mută în jos",
+      "se oglindește față de axa $Ox$"
     ],
     "corect": 3
   },
   {
     "id": "transformarea-graficelor-006",
     "tip": "simplu",
-    "intrebare": "Cum se mută parabola $ax^2$ când facem $ax^2+n$ cu $n>0$?",
+    "intrebare": "Cum se schimbă graficul lui $f(x)$ pentru $f(-x)$?",
     "variante": [
-      "în jos cu $n$ unități",
-      "la dreapta cu $n$",
-      "în sus cu $n$ unități",
-      "la stânga cu $n$"
+      "se oglindește față de axa $Ox$",
+      "se mută la stânga",
+      "se oglindește față de axa $Oy$",
+      "se mută în sus"
     ],
     "corect": 2
   },
   {
     "id": "transformarea-graficelor-007",
     "tip": "simplu",
-    "intrebare": "Cum se mută parabola $ax^2$ când facem $ax^2+n$ cu $n<0$?",
+    "intrebare": "Care este vârful parabolei $y=x^2+4$?",
     "variante": [
-      "în jos cu $|n|$ unități",
-      "în sus cu $|n|$ unități",
-      "la dreapta cu $|n|$",
-      "la stânga cu $|n|$"
+      "$(0;4)$",
+      "$(4;0)$",
+      "$(0;-4)$",
+      "$(-4;0)$"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-008",
     "tip": "simplu",
-    "intrebare": "Cum mutăm $x^2$ ca să obținem $(x-2)^2$?",
+    "intrebare": "Care este vârful parabolei $y=x^2-1$?",
     "variante": [
-      "în sus cu $2$",
-      "la dreapta cu $2$",
-      "la stânga cu $2$",
-      "în jos cu $2$"
+      "$(0;1)$",
+      "$(0;-1)$",
+      "$(-1;0)$",
+      "$(1;0)$"
     ],
     "corect": 1
   },
   {
     "id": "transformarea-graficelor-009",
     "tip": "simplu",
-    "intrebare": "Cum mutăm $x^2$ ca să obținem $(x+2)^2$?",
+    "intrebare": "Care este vârful parabolei $y=(x-2)^2$?",
     "variante": [
-      "în sus cu $2$",
-      "la dreapta cu $2$",
-      "în jos cu $2$",
-      "la stânga cu $2$"
+      "$(0;2)$",
+      "$(-2;0)$",
+      "$(0;-2)$",
+      "$(2;0)$"
     ],
     "corect": 3
   },
   {
     "id": "transformarea-graficelor-010",
     "tip": "simplu",
-    "intrebare": "Care este vârful lui $y=x^2+3$?",
+    "intrebare": "Care este vârful parabolei $y=(x+1)^2$?",
     "variante": [
-      "$V(-3;0)$",
-      "$V(0;3)$",
-      "$V(0;-3)$",
-      "$V(3;0)$"
+      "$(0;1)$",
+      "$(-1;0)$",
+      "$(0;-1)$",
+      "$(1;0)$"
     ],
     "corect": 1
   },
   {
     "id": "transformarea-graficelor-011",
     "tip": "simplu",
-    "intrebare": "Care este vârful lui $y=-x^2-1$?",
+    "intrebare": "Care este vârful parabolei $y=(x-1)^2+3$?",
     "variante": [
-      "$V(-1;0)$",
-      "$V(0;1)$",
-      "$V(1;0)$",
-      "$V(0;-1)$"
+      "$(1;-3)$",
+      "$(-1;3)$",
+      "$(3;1)$",
+      "$(1;3)$"
     ],
     "corect": 3
   },
   {
     "id": "transformarea-graficelor-012",
     "tip": "simplu",
-    "intrebare": "Care sunt vârful și axa lui $y=2(x-3)^2$?",
+    "intrebare": "Care este vârful parabolei $y=(x+3)^2-2$?",
     "variante": [
-      "$V(3;0)$ și $x=3$",
-      "$V(3;0)$ și $x=0$",
-      "$V(-3;0)$ și $x=-3$",
-      "$V(0;3)$ și $x=0$"
+      "$(-3;-2)$",
+      "$(3;2)$",
+      "$(3;-2)$",
+      "$(-3;2)$"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-013",
     "tip": "simplu",
-    "intrebare": "Care este vârful lui $y=(x+4)^2$?",
+    "intrebare": "Care este vârful parabolei $y=-x^2+5$?",
     "variante": [
-      "$V(4;0)$",
-      "$V(0;4)$",
-      "$V(-4;0)$",
-      "$V(0;-4)$"
+      "$(5;0)$",
+      "$(0;-5)$",
+      "$(0;5)$",
+      "$(-5;0)$"
     ],
     "corect": 2
   },
   {
     "id": "transformarea-graficelor-014",
     "tip": "simplu",
-    "intrebare": "Se schimbă forma parabolei când o deplasăm?",
+    "intrebare": "Parabola $y=-(x-1)^2$ are ramurile:",
     "variante": [
-      "se păstrează",
-      "se lărgește",
-      "se îngustează",
-      "se schimbă într-o dreaptă"
+      "în jos",
+      "spre dreapta",
+      "în sus",
+      "spre stânga"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-015",
     "tip": "simplu",
-    "intrebare": "Cum trasăm graficul lui $a(x-m)^2$?",
+    "intrebare": "Cum obținem $y=x^2-4$ din $y=x^2$?",
     "variante": [
-      "desenăm parabola $ax^2$ → mutăm vârful în $V$ → păstrăm forma parabolei",
-      "calculăm $\\Delta$ → mutăm vârful",
-      "schimbăm semnul lui $a$",
-      "unim două puncte cu rigla"
+      "mutăm graficul cu $4$ în jos",
+      "mutăm graficul cu $4$ în sus",
+      "mutăm graficul cu $4$ la stânga",
+      "mutăm graficul cu $4$ la dreapta"
     ],
     "corect": 0
   },
   {
     "id": "transformarea-graficelor-016",
     "tip": "simplu",
-    "intrebare": "Care este vârful lui $y=(x-1)^2+2$?",
+    "intrebare": "Cum obținem $y=(x-5)^2$ din $y=x^2$?",
     "variante": [
-      "$V(-1;2)$",
-      "$V(2;1)$",
-      "$V(1;-2)$",
-      "$V(1;2)$"
+      "mutăm graficul cu $5$ la stânga",
+      "mutăm graficul cu $5$ în jos",
+      "mutăm graficul cu $5$ în sus",
+      "mutăm graficul cu $5$ la dreapta"
     ],
     "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-017",
+    "tip": "simplu",
+    "intrebare": "Dacă adunăm un număr la $x$, în paranteză, graficul se mută:",
+    "variante": [
+      "se oglindește",
+      "nu se mută",
+      "pe verticală",
+      "pe orizontală"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-018",
+    "tip": "simplu",
+    "intrebare": "Dacă adunăm un număr la toată funcția, graficul se mută:",
+    "variante": [
+      "pe verticală",
+      "nu se mută",
+      "se oglindește",
+      "pe orizontală"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-019",
+    "tip": "simplu",
+    "intrebare": "Ce face $|f(x)|$ cu partea de grafic de sub axa $Ox$?",
+    "variante": [
+      "o șterge",
+      "o mută la dreapta",
+      "o coboară și mai jos",
+      "o ridică deasupra axei (oglindită)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-020",
+    "tip": "multiplu",
+    "intrebare": "Care parabole au vârful pe axa $Ox$?",
+    "variante": [
+      "$y=x^2+3$",
+      "$y=x^2-2$",
+      "$y=(x+2)^2$",
+      "$y=(x-3)^2$"
+    ],
+    "corect": [
+      2,
+      3
+    ]
   }
 ]

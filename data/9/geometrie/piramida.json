@@ -2,181 +2,193 @@
   {
     "id": "piramida-001",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a piramidei regulate ($P_b$ perimetrul bazei, $a_p$ apotema)?",
+    "intrebare": "Cum se calculează volumul piramidei?",
     "variante": [
-      "$A_l=\\frac{P_b\\cdot h}{2}$",
-      "$A_l=\\frac{P_b\\cdot a_p}{2}$",
-      "$A_l=\\frac{A_b\\cdot h}{3}$",
-      "$A_l=P_b\\cdot a_p$"
+      "$V=P_b\\cdot h$",
+      "$V=\\frac{A_b\\cdot h}{3}$",
+      "$V=\\frac{A_b\\cdot h}{2}$",
+      "$V=A_b\\cdot h$"
     ],
     "corect": 1
   },
   {
     "id": "piramida-002",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a piramidei?",
+    "intrebare": "Cum se calculează aria laterală a piramidei regulate?",
     "variante": [
-      "$A_t=A_l\\cdot A_b$",
-      "$A_t=2A_l+A_b$",
-      "$A_t=A_l+A_b$",
-      "$A_t=A_l+2A_b$"
+      "$A_l=\\frac{A_b\\cdot h}{3}$",
+      "$A_l=P_b\\cdot h$",
+      "$A_l=\\frac{P_b\\cdot a_p}{2}$",
+      "$A_l=P_b\\cdot a_p$"
     ],
     "corect": 2
   },
   {
     "id": "piramida-003",
     "tip": "simplu",
-    "intrebare": "Care este volumul piramidei?",
+    "intrebare": "Cum se calculează aria totală a piramidei?",
     "variante": [
-      "$V=\\frac{P_b\\cdot h}{3}$",
-      "$V=A_b\\cdot h$",
-      "$V=\\frac{A_b\\cdot h}{2}$",
-      "$V=\\frac{A_b\\cdot h}{3}$"
+      "$A_t=A_l-A_b$",
+      "$A_t=A_l+2A_b$",
+      "$A_t=A_l\\cdot A_b$",
+      "$A_t=A_l+A_b$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-004",
     "tip": "simplu",
-    "intrebare": "Ce este piramida regulată?",
+    "intrebare": "Ce baze are o piramidă regulată?",
     "variante": [
-      "înălțimea egală cu apotema mereu",
-      "baza poligon regulat și înălțimea care cade în centrul bazei",
-      "baza oarecare și înălțimea în vârful bazei",
-      "două baze regulate"
+      "doar pătrat",
+      "poligon regulat",
+      "poligon oarecare",
+      "doar triunghi"
     ],
     "corect": 1
   },
   {
     "id": "piramida-005",
     "tip": "simplu",
-    "intrebare": "Piramidă patrulateră regulată (latura bazei $a$): cât este apotema $a_p$?",
+    "intrebare": "Unde cade înălțimea piramidei regulate?",
     "variante": [
-      "$a_p^2=h^2+a^2$",
-      "$a_p^2=h^2-\\left(\\frac a2\\right)^2$",
-      "$a_p^2=h^2+\\frac{a^2}{2}$",
-      "$a_p^2=h^2+\\left(\\frac a2\\right)^2$"
+      "într-un vârf al bazei",
+      "la mijlocul unei laturi",
+      "în afara bazei",
+      "în centrul bazei"
     ],
     "corect": 3
   },
   {
     "id": "piramida-006",
     "tip": "simplu",
-    "intrebare": "Piramidă patrulateră regulată: cât este muchia laterală $l$?",
+    "intrebare": "Cum sunt fețele laterale ale piramidei?",
     "variante": [
-      "$l^2=h^2+a^2$",
-      "$l^2=h^2+\\frac{a^2}{2}$",
-      "$l^2=h^2+\\left(\\frac a2\\right)^2$",
-      "$l^2=h^2-\\frac{a^2}{2}$"
+      "trapeze",
+      "triunghiuri",
+      "pătrate",
+      "cercuri"
     ],
     "corect": 1
   },
   {
     "id": "piramida-007",
     "tip": "simplu",
-    "intrebare": "Piramidă triunghiulară regulată (latura bazei $a$): cât sunt $r$ și $R$ ale bazei?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=6$, $h=4$. Cât este volumul?",
     "variante": [
-      "$r=\\frac{a\\sqrt3}{3}$ ; $R=\\frac{a\\sqrt3}{6}$",
-      "$r=\\frac{a\\sqrt3}{6}$ ; $R=\\frac{a\\sqrt3}{3}$",
-      "$r=\\frac{a\\sqrt3}{2}$ ; $R=a\\sqrt3$",
-      "$r=\\frac a2$ ; $R=\\frac{a\\sqrt2}{2}$"
+      "$144$",
+      "$48$",
+      "$72$",
+      "$24$"
     ],
     "corect": 1
   },
   {
     "id": "piramida-008",
     "tip": "simplu",
-    "intrebare": "Piramidă triunghiulară regulată: ce relații au $a_p$ și $l$?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=6$, $h=4$. Cât este apotema bazei?",
     "variante": [
-      "$a_p^2=h^2+r^2$ ; $l^2=h^2+R^2$",
-      "$a_p^2=h^2-r^2$ ; $l^2=h^2-R^2$",
-      "$a_p=h+r$ ; $l=h+R$",
-      "$a_p^2=h^2+R^2$ ; $l^2=h^2+r^2$"
+      "$3$",
+      "$4$",
+      "$12$",
+      "$6$"
     ],
     "corect": 0
   },
   {
     "id": "piramida-009",
     "tip": "simplu",
-    "intrebare": "Cât este înălțimea tetraedrului regulat de muchie $a$?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=6$, $h=4$. Cât este apotema piramidei?",
     "variante": [
-      "$h=a\\sqrt6$",
-      "$h=\\frac{a\\sqrt2}{3}$",
-      "$h=\\frac{a\\sqrt3}{3}$",
-      "$h=\\frac{a\\sqrt6}{3}$"
+      "$10$",
+      "$\\sqrt{7}$",
+      "$7$",
+      "$5$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-010",
     "tip": "simplu",
-    "intrebare": "Cât este volumul tetraedrului regulat de muchie $a$?",
+    "intrebare": "Cum se află apotema piramidei din $h$ și apotema bazei $a_b$?",
     "variante": [
-      "$V=\\frac{a^3\\sqrt2}{4}$",
-      "$V=\\frac{a^3\\sqrt2}{12}$",
-      "$V=\\frac{a^3\\sqrt3}{12}$",
-      "$V=a^3$"
+      "$a_p=\\sqrt{h^2-a_b^2}$",
+      "$a_p=\\sqrt{h^2+a_b^2}$",
+      "$a_p=h+a_b$",
+      "$a_p=h\\cdot a_b$"
     ],
     "corect": 1
   },
   {
     "id": "piramida-011",
     "tip": "simplu",
-    "intrebare": "Ce este apotema piramidei regulate?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=4$, $a_p=3$. Cât este aria laterală?",
     "variante": [
-      "înălțimea unei fețe laterale",
-      "raza cercului înscris în bază",
-      "muchia laterală",
-      "înălțimea piramidei"
+      "$24$",
+      "$16$",
+      "$12$",
+      "$48$"
     ],
     "corect": 0
   },
   {
     "id": "piramida-012",
     "tip": "simplu",
-    "intrebare": "Cum este volumul piramidei față de al prismei cu aceeași bază și înălțime?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=4$, $a_p=3$. Cât este aria totală?",
     "variante": [
-      "este egal",
-      "este de $2$ ori mai mic",
-      "este de $3$ ori mai mic",
-      "este de $3$ ori mai mare"
+      "$24$",
+      "$64$",
+      "$40$",
+      "$28$"
     ],
     "corect": 2
   },
   {
     "id": "piramida-013",
     "tip": "simplu",
-    "intrebare": "Piramidă cu $A_b=36$ și $h=5$: cât este volumul?",
+    "intrebare": "Câte fețe laterale are piramida $n$-gonală?",
     "variante": [
-      "$90$",
-      "$60$",
-      "$30$",
-      "$180$"
+      "$2n$",
+      "$n$",
+      "$n-1$",
+      "$n+1$"
     ],
     "corect": 1
   },
   {
     "id": "piramida-014",
     "tip": "simplu",
-    "intrebare": "Piramidă patrulateră regulată cu $a=6$ și $h=4$: cât este apotema piramidei?",
+    "intrebare": "Câte fețe are tetraedrul regulat?",
     "variante": [
-      "$7$",
-      "$\\sqrt7$",
-      "$\\sqrt{34}$",
-      "$5$"
+      "$5$",
+      "$6$",
+      "$3$",
+      "$4$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-015",
     "tip": "simplu",
-    "intrebare": "Piramidă patrulateră regulată cu $a=6$ și $a_p=5$: cât este aria laterală?",
+    "intrebare": "Cum sunt fețele tetraedrului regulat?",
     "variante": [
-      "$60$",
-      "$120$",
-      "$30$",
-      "$90$"
+      "triunghiuri echilaterale",
+      "pătrate",
+      "triunghiuri dreptunghice",
+      "pentagoane"
     ],
     "corect": 0
+  },
+  {
+    "id": "piramida-016",
+    "tip": "simplu",
+    "intrebare": "Piramida și prisma cu aceeași bază și înălțime: volumul piramidei este:",
+    "variante": [
+      "dublul prismei",
+      "o treime din volumul prismei",
+      "jumătate din volumul prismei",
+      "egal cu al prismei"
+    ],
+    "corect": 1
   }
 ]

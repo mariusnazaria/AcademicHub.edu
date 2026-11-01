@@ -2,226 +2,193 @@
   {
     "id": "sfera-si-calota-001",
     "tip": "simplu",
-    "intrebare": "Care este aria sferei?",
+    "intrebare": "Cum se calculează volumul sferei?",
     "variante": [
-      "$\\frac{4\\pi R^3}{3}$",
-      "$2\\pi R^2$",
-      "$4\\pi R^2$",
-      "$\\pi R^2$"
+      "$V=\\frac{4\\pi R^2}{3}$",
+      "$V=\\pi R^3$",
+      "$V=\\frac{4\\pi R^3}{3}$",
+      "$V=4\\pi R^2$"
     ],
     "corect": 2
   },
   {
     "id": "sfera-si-calota-002",
     "tip": "simplu",
-    "intrebare": "Care este volumul sferei?",
+    "intrebare": "Cum se calculează aria sferei?",
     "variante": [
-      "$\\frac{\\pi R^3}{3}$",
-      "$4\\pi R^2$",
-      "$\\frac{4\\pi R^3}{3}$",
-      "$\\frac{4\\pi R^2}{3}$"
+      "$A=2\\pi R^2$",
+      "$A=\\frac{4\\pi R^3}{3}$",
+      "$A=4\\pi R^2$",
+      "$A=\\pi R^2$"
     ],
     "corect": 2
   },
   {
     "id": "sfera-si-calota-003",
     "tip": "simplu",
-    "intrebare": "Ce se obține tăind sfera cu un plan?",
+    "intrebare": "Sferă cu $R=3$. Cât este volumul?",
     "variante": [
-      "o elipsă",
-      "un pătrat",
-      "un cerc",
-      "un dreptunghi"
+      "$12\\pi$",
+      "$27\\pi$",
+      "$36\\pi$",
+      "$108\\pi$"
     ],
     "corect": 2
   },
   {
     "id": "sfera-si-calota-004",
     "tip": "simplu",
-    "intrebare": "Secțiune plană la distanța $d$ de centru: cât este $r^2$?",
+    "intrebare": "Sferă cu $R=6$. Cât este aria?",
     "variante": [
-      "$R^2+d^2$",
-      "$R-d$",
-      "$d^2-R^2$",
-      "$R^2-d^2$"
+      "$36\\pi$",
+      "$288\\pi$",
+      "$72\\pi$",
+      "$144\\pi$"
     ],
     "corect": 3
   },
   {
     "id": "sfera-si-calota-005",
     "tip": "simplu",
-    "intrebare": "Când este planul secant sferei?",
+    "intrebare": "Cum este secțiunea unei sfere cu un plan?",
     "variante": [
-      "$d<R$",
-      "$d=R$",
-      "$d>R$",
-      "$d=0$ doar"
+      "un cerc",
+      "un pătrat",
+      "un triunghi",
+      "o elipsă"
     ],
     "corect": 0
   },
   {
     "id": "sfera-si-calota-006",
     "tip": "simplu",
-    "intrebare": "Când este planul tangent sferei?",
+    "intrebare": "Plan la distanța $d$ de centrul sferei de rază $R$. Raza secțiunii este:",
     "variante": [
-      "$d>R$",
-      "$d=R$",
-      "$d=0$",
-      "$d<R$"
+      "$R-d$",
+      "$\\sqrt{R^2-d^2}$",
+      "$R+d$",
+      "$\\sqrt{R^2+d^2}$"
     ],
     "corect": 1
   },
   {
     "id": "sfera-si-calota-007",
     "tip": "simplu",
-    "intrebare": "Când este planul exterior sferei?",
+    "intrebare": "Sferă cu $R=5$, plan la distanța $d=3$. Cât este raza secțiunii?",
     "variante": [
-      "$d=R$",
-      "$d>R$",
-      "$d<R$",
-      "$d=0$"
+      "$8$",
+      "$4$",
+      "$2$",
+      "$\\sqrt{34}$"
     ],
     "corect": 1
   },
   {
     "id": "sfera-si-calota-008",
     "tip": "simplu",
-    "intrebare": "Care este aria calotei sferice de înălțime $h$?",
+    "intrebare": "Cum se calculează aria calotei sferice de înălțime $h$?",
     "variante": [
-      "$2\\pi R^2h$",
-      "$4\\pi Rh$",
-      "$2\\pi Rh$",
-      "$\\pi Rh$"
+      "$A=2\\pi R^2h$",
+      "$A=4\\pi Rh$",
+      "$A=2\\pi Rh$",
+      "$A=\\pi Rh$"
     ],
     "corect": 2
   },
   {
     "id": "sfera-si-calota-009",
     "tip": "simplu",
-    "intrebare": "Care este volumul calotei sferice de înălțime $h$?",
+    "intrebare": "Cum se calculează volumul calotei sferice?",
     "variante": [
-      "$\\frac{\\pi h^2(R-h)}{3}$",
-      "$\\frac{\\pi h^2(3R-h)}{3}$",
-      "$\\pi h^2(3R-h)$",
-      "$\\frac{\\pi h(3R-h)}{3}$"
+      "$V=\\frac{\\pi h(3R-h)}{3}$",
+      "$V=\\frac{\\pi h^2(3R-h)}{3}$",
+      "$V=\\pi h^2(3R-h)$",
+      "$V=\\frac{\\pi h^2(R-h)}{3}$"
     ],
     "corect": 1
   },
   {
     "id": "sfera-si-calota-010",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a semisferei?",
+    "intrebare": "Calotă cu $R=5$ și $h=2$. Cât este aria?",
     "variante": [
-      "$3\\pi R^2$",
-      "$4\\pi R^2$",
-      "$2\\pi R^2$",
-      "$\\pi R^2$"
+      "$20\\pi$",
+      "$40\\pi$",
+      "$10\\pi$",
+      "$50\\pi$"
     ],
     "corect": 0
   },
   {
     "id": "sfera-si-calota-011",
     "tip": "simplu",
-    "intrebare": "Care este volumul semisferei?",
+    "intrebare": "Calotă cu $R=6$ și $h=3$. Cât este volumul?",
     "variante": [
-      "$\\frac{\\pi R^3}{3}$",
-      "$\\frac{2\\pi R^3}{3}$",
-      "$\\frac{4\\pi R^3}{3}$",
-      "$\\frac{2\\pi R^2}{3}$"
+      "$27\\pi$",
+      "$45\\pi$",
+      "$54\\pi$",
+      "$90\\pi$"
     ],
     "corect": 1
   },
   {
     "id": "sfera-si-calota-012",
     "tip": "simplu",
-    "intrebare": "Cât este raza sferei înscrise într-un cub de latură $a$?",
+    "intrebare": "Cât este volumul emisferei de rază $R$?",
     "variante": [
-      "$R=\\frac{a}{2}$",
-      "$R=\\frac{a\\sqrt{2}}{2}$",
-      "$R=a$",
-      "$R=\\frac{a\\sqrt{3}}{2}$"
+      "$\\frac{2\\pi R^3}{3}$",
+      "$\\frac{\\pi R^3}{3}$",
+      "$\\frac{4\\pi R^3}{3}$",
+      "$\\pi R^3$"
     ],
     "corect": 0
   },
   {
     "id": "sfera-si-calota-013",
     "tip": "simplu",
-    "intrebare": "Cât este raza sferei circumscrise unui cub de latură $a$?",
+    "intrebare": "Cât este aria totală a emisferei (cu baza) de rază $R$?",
     "variante": [
-      "$R=\\frac{a}{2}$",
-      "$R=a\\sqrt{3}$",
-      "$R=\\frac{a\\sqrt{2}}{2}$",
-      "$R=\\frac{a\\sqrt{3}}{2}$"
+      "$2\\pi R^2$",
+      "$\\pi R^2$",
+      "$4\\pi R^2$",
+      "$3\\pi R^2$"
     ],
     "corect": 3
   },
   {
     "id": "sfera-si-calota-014",
     "tip": "simplu",
-    "intrebare": "Ce are sfera înscrisă într-un cilindru?",
+    "intrebare": "Sfera înscrisă într-un cub cu muchia $6$ are raza:",
     "variante": [
-      "raza egală cu raza cilindrului și $h=2R$",
-      "raza egală cu $h$",
-      "$h=R$",
-      "$h=\\pi R$"
+      "$3$",
+      "$\\sqrt3$",
+      "$6$",
+      "$3\\sqrt3$"
     ],
     "corect": 0
   },
   {
     "id": "sfera-si-calota-015",
     "tip": "simplu",
-    "intrebare": "Ce este calota sferică cu $h=R$?",
+    "intrebare": "Sfera circumscrisă unui cub cu muchia $a$ are raza:",
     "variante": [
-      "o semisferă",
-      "o sferă întreagă",
-      "un cilindru",
-      "un con"
+      "$\\frac{a\\sqrt3}{2}$",
+      "$\\frac a2$",
+      "$\\frac{a\\sqrt2}{2}$",
+      "$a\\sqrt3$"
     ],
     "corect": 0
   },
   {
     "id": "sfera-si-calota-016",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte pentru sferă?",
+    "tip": "simplu",
+    "intrebare": "Planul tangent la sferă este față de raza dusă în punctul de tangență:",
     "variante": [
-      "$V=\\frac{4\\pi R^3}{3}$",
-      "$V=4\\pi R^2$",
-      "$A=\\pi R^2$",
-      "$A=4\\pi R^2$"
+      "paralel",
+      "egal",
+      "oblic",
+      "perpendicular"
     ],
-    "corect": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "sfera-si-calota-017",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte pentru semisferă?",
-    "variante": [
-      "$A_t=2\\pi R^2$",
-      "$A_t=3\\pi R^2$",
-      "$V=\\frac{4\\pi R^3}{3}$",
-      "$V=\\frac{2\\pi R^3}{3}$"
-    ],
-    "corect": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "sfera-si-calota-018",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte pentru calota sferică?",
-    "variante": [
-      "$V=\\frac{\\pi h^2(R-h)}{3}$",
-      "$A=4\\pi Rh$",
-      "$V=\\frac{\\pi h^2(3R-h)}{3}$",
-      "$A=2\\pi Rh$"
-    ],
-    "corect": [
-      2,
-      3
-    ]
+    "corect": 3
   }
 ]

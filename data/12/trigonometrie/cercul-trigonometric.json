@@ -2,53 +2,29 @@
   {
     "id": "cercul-trigonometric-001",
     "tip": "simplu",
-    "intrebare": "Pe ce axă citim $\\sin x$ pe cercul trigonometric?",
+    "intrebare": "Pe cercul trigonometric, $\\sin x$ se citește pe axa:",
     "variante": [
-      "diagonala",
-      "axa tangentelor",
-      "$Ox$ (orizontală)",
-      "$Oy$ (verticală)"
+      "niciuna",
+      "ambele",
+      "$Ox$",
+      "$Oy$"
     ],
     "corect": 3
   },
   {
     "id": "cercul-trigonometric-002",
     "tip": "simplu",
-    "intrebare": "Pe ce axă citim $\\cos x$ pe cercul trigonometric?",
+    "intrebare": "Pe cercul trigonometric, $\\cos x$ se citește pe axa:",
     "variante": [
-      "axa tangentelor",
-      "diagonala",
-      "$Ox$ (orizontală)",
-      "$Oy$ (verticală)"
+      "ambele",
+      "niciuna",
+      "$Ox$",
+      "$Oy$"
     ],
     "corect": 2
   },
   {
     "id": "cercul-trigonometric-003",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului trigonometric?",
-    "variante": [
-      "$\\pi$",
-      "$1$",
-      "$\\frac{1}{2}$",
-      "$2$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-trigonometric-004",
-    "tip": "simplu",
-    "intrebare": "Ce valori pot lua $\\sin x$ și $\\cos x$?",
-    "variante": [
-      "$[0,1]$",
-      "$[-1,1]$",
-      "$(-1,1)$",
-      "$\\mathbb{R}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "cercul-trigonometric-005",
     "tip": "simplu",
     "intrebare": "În ce cadrane este $\\sin x>0$?",
     "variante": [
@@ -60,105 +36,165 @@
     "corect": 1
   },
   {
-    "id": "cercul-trigonometric-006",
+    "id": "cercul-trigonometric-004",
     "tip": "simplu",
     "intrebare": "În ce cadrane este $\\cos x>0$?",
     "variante": [
-      "III și IV",
       "II și III",
-      "I și II",
-      "I și IV"
+      "I și IV",
+      "III și IV",
+      "I și II"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cercul-trigonometric-005",
+    "tip": "simplu",
+    "intrebare": "În ce cadrane este $\\operatorname{tg}x>0$?",
+    "variante": [
+      "II și IV",
+      "I și III",
+      "III și IV",
+      "I și II"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cercul-trigonometric-006",
+    "tip": "simplu",
+    "intrebare": "Ce semn are $\\cos120^\\circ$?",
+    "variante": [
+      "nu se știe",
+      "zero",
+      "plus",
+      "minus"
     ],
     "corect": 3
   },
   {
     "id": "cercul-trigonometric-007",
     "tip": "simplu",
-    "intrebare": "În ce cadrane este $\\operatorname{tg}x>0$?",
+    "intrebare": "Ce semn are $\\sin210^\\circ$?",
     "variante": [
-      "I și III",
-      "III și IV",
-      "II și IV",
-      "I și II"
+      "minus",
+      "nu se știe",
+      "zero",
+      "plus"
     ],
     "corect": 0
   },
   {
     "id": "cercul-trigonometric-008",
     "tip": "simplu",
-    "intrebare": "În ce cadrane este $\\operatorname{ctg}x>0$?",
+    "intrebare": "Ce semn are $\\operatorname{tg}135^\\circ$?",
     "variante": [
-      "I și III",
-      "I și II",
-      "III și IV",
-      "II și IV"
+      "minus",
+      "zero",
+      "nu se știe",
+      "plus"
     ],
     "corect": 0
   },
   {
     "id": "cercul-trigonometric-009",
     "tip": "simplu",
-    "intrebare": "Ce semn are $\\cos x$ dacă $x\\in\\left[\\frac{\\pi}{2};\\pi\\right]$?",
+    "intrebare": "Între ce valori se află $\\sin x$ și $\\cos x$?",
     "variante": [
-      "pozitiv",
-      "negativ (cadranul II)",
-      "nedefinit",
-      "zero mereu"
+      "$[0;1]$",
+      "$[-1;1]$",
+      "$(-1;1)$",
+      "$\\mathbb{R}$"
     ],
     "corect": 1
   },
   {
     "id": "cercul-trigonometric-010",
     "tip": "simplu",
-    "intrebare": "Ce semn au $\\sin x$ și $\\cos x$ dacă $x\\in\\left[\\pi;\\frac{3\\pi}{2}\\right]$?",
+    "intrebare": "Cât este $\\sin(-x)$?",
     "variante": [
-      "$\\sin<0$, $\\cos>0$",
-      "ambele negative (cadranul III)",
-      "ambele pozitive",
-      "$\\sin>0$, $\\cos<0$"
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\sin x$",
+      "$\\cos x$"
     ],
     "corect": 1
   },
   {
     "id": "cercul-trigonometric-011",
     "tip": "simplu",
-    "intrebare": "Ce semn are $\\sin x$ dacă $x\\in\\left[-\\frac{\\pi}{2};0\\right]$?",
+    "intrebare": "Cât este $\\cos(-x)$?",
     "variante": [
-      "nedefinit",
-      "negativ (cadranul IV)",
-      "zero mereu",
-      "pozitiv"
+      "$-\\sin x$",
+      "$\\cos x$",
+      "$\\sin x$",
+      "$-\\cos x$"
     ],
     "corect": 1
   },
   {
     "id": "cercul-trigonometric-012",
     "tip": "simplu",
-    "intrebare": "Cât fac $180^\\circ$ în radiani?",
+    "intrebare": "Cât este $\\sin(\\pi-x)$?",
     "variante": [
-      "$\\pi$",
-      "$\\frac{\\pi}{4}$",
-      "$\\frac{\\pi}{2}$",
-      "$2\\pi$"
+      "$\\sin x$",
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\cos x$"
     ],
     "corect": 0
   },
   {
     "id": "cercul-trigonometric-013",
     "tip": "simplu",
-    "intrebare": "Cât fac $90^\\circ$ în radiani?",
+    "intrebare": "Cât este $\\cos(\\pi-x)$?",
     "variante": [
-      "$\\frac{3\\pi}{2}$",
-      "$\\frac{\\pi}{2}$",
-      "$\\pi$",
-      "$\\frac{\\pi}{4}$"
+      "$-\\sin x$",
+      "$-\\cos x$",
+      "$\\cos x$",
+      "$\\sin x$"
     ],
     "corect": 1
   },
   {
     "id": "cercul-trigonometric-014",
     "tip": "simplu",
-    "intrebare": "Cât fac $60^\\circ$ în radiani?",
+    "intrebare": "Cât este $\\sin(\\pi+x)$?",
+    "variante": [
+      "$\\cos x$",
+      "$-\\sin x$",
+      "$\\sin x$",
+      "$-\\cos x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cercul-trigonometric-015",
+    "tip": "simplu",
+    "intrebare": "Câți radiani are $180^\\circ$?",
+    "variante": [
+      "$2\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cercul-trigonometric-016",
+    "tip": "simplu",
+    "intrebare": "Câți radiani are $90^\\circ$?",
+    "variante": [
+      "$\\frac{\\pi}{4}$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$2\\pi$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cercul-trigonometric-017",
+    "tip": "simplu",
+    "intrebare": "Câți radiani are $60^\\circ$?",
     "variante": [
       "$\\frac{\\pi}{4}$",
       "$\\frac{\\pi}{3}$",
@@ -168,138 +204,39 @@
     "corect": 1
   },
   {
-    "id": "cercul-trigonometric-015",
-    "tip": "simplu",
-    "intrebare": "Cât fac $45^\\circ$ în radiani?",
-    "variante": [
-      "$\\frac{\\pi}{6}$",
-      "$\\frac{\\pi}{3}$",
-      "$\\frac{\\pi}{2}$",
-      "$\\frac{\\pi}{4}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-trigonometric-016",
-    "tip": "simplu",
-    "intrebare": "Cât fac $30^\\circ$ în radiani?",
-    "variante": [
-      "$\\frac{\\pi}{4}$",
-      "$\\frac{\\pi}{3}$",
-      "$\\frac{\\pi}{6}$",
-      "$\\frac{\\pi}{12}$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercul-trigonometric-017",
-    "tip": "simplu",
-    "intrebare": "Care este perioada principală a lui $\\sin x$ și $\\cos x$?",
-    "variante": [
-      "$\\frac{\\pi}{2}$",
-      "$2\\pi$",
-      "$\\pi$",
-      "$4\\pi$"
-    ],
-    "corect": 1
-  },
-  {
     "id": "cercul-trigonometric-018",
     "tip": "simplu",
-    "intrebare": "Care este perioada principală a lui $\\operatorname{tg}x$ și $\\operatorname{ctg}x$?",
+    "intrebare": "Câți radiani are $45^\\circ$?",
     "variante": [
-      "$4\\pi$",
-      "$2\\pi$",
       "$\\frac{\\pi}{2}$",
-      "$\\pi$"
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{\\pi}{4}$"
     ],
     "corect": 3
   },
   {
     "id": "cercul-trigonometric-019",
     "tip": "simplu",
-    "intrebare": "Cât este $\\sin(-x)$?",
+    "intrebare": "Câți radiani are $30^\\circ$?",
     "variante": [
-      "$-\\sin x$",
-      "$-\\cos x$",
-      "$\\cos x$",
-      "$\\sin x$"
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{\\pi}{12}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{\\pi}{3}$"
     ],
     "corect": 0
   },
   {
     "id": "cercul-trigonometric-020",
     "tip": "simplu",
-    "intrebare": "Cât este $\\cos(-x)$?",
+    "intrebare": "Care este perioada principală a lui $\\sin x$?",
     "variante": [
-      "$-\\sin x$",
-      "$-\\cos x$",
-      "$\\cos x$",
-      "$\\sin x$"
+      "$4\\pi$",
+      "$\\pi$",
+      "$2\\pi$",
+      "$\\frac{\\pi}{2}$"
     ],
     "corect": 2
-  },
-  {
-    "id": "cercul-trigonometric-021",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\operatorname{tg}(-x)$?",
-    "variante": [
-      "$\\operatorname{ctg}x$",
-      "$\\operatorname{tg}x$",
-      "$-\\operatorname{tg}x$",
-      "$-\\operatorname{ctg}x$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "cercul-trigonometric-022",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin(\\pi-x)$?",
-    "variante": [
-      "$-\\sin x$",
-      "$-\\cos x$",
-      "$\\cos x$",
-      "$\\sin x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-trigonometric-023",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\cos(\\pi-x)$?",
-    "variante": [
-      "$\\sin x$",
-      "$\\cos x$",
-      "$-\\sin x$",
-      "$-\\cos x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-trigonometric-024",
-    "tip": "simplu",
-    "intrebare": "Cât este $\\sin(\\pi+x)$?",
-    "variante": [
-      "$\\cos x$",
-      "$\\sin x$",
-      "$-\\cos x$",
-      "$-\\sin x$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "cercul-trigonometric-025",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt adevărate?",
-    "variante": [
-      "$\\sin(-x)=-\\sin x$",
-      "$\\cos(-x)=\\cos x$",
-      "$\\cos(-x)=-\\cos x$",
-      "$\\sin(-x)=\\sin x$"
-    ],
-    "corect": [
-      0,
-      1
-    ]
   }
 ]

@@ -2,217 +2,241 @@
   {
     "id": "studiul-functiei-de-gradul-2-001",
     "tip": "simplu",
-    "intrebare": "Care este formula pentru $x_v$ (abscisa vârfului)?",
+    "intrebare": "Cum se calculează discriminantul $\\Delta$ la $ax^2+bx+c$?",
     "variante": [
-      "$x_v=-\\frac{b}{2a}$",
-      "$x_v=-\\frac{c}{2a}$",
-      "$x_v=\\frac{b}{2a}$",
-      "$x_v=-\\frac{b}{a}$"
+      "$b^2-4ac$",
+      "$b-4ac$",
+      "$b^2+4ac$",
+      "$4ac-b^2$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-002",
     "tip": "simplu",
-    "intrebare": "Care este formula pentru $y_v$ (ordonata vârfului)?",
+    "intrebare": "Cum se calculează abscisa vârfului $x_v$?",
     "variante": [
-      "$y_v=f(x_v)=-\\frac{\\Delta}{4a}$",
-      "$y_v=-\\frac{\\Delta}{2a}$",
-      "$y_v=-\\frac{b}{4a}$",
-      "$y_v=\\frac{\\Delta}{4a}$"
+      "$x_v=-\\frac{b}{2a}$",
+      "$x_v=-\\frac{b}{a}$",
+      "$x_v=-\\frac{2a}{b}$",
+      "$x_v=\\frac{b}{2a}$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-003",
     "tip": "simplu",
-    "intrebare": "Cum se calculează $\\Delta$?",
+    "intrebare": "Cum se calculează ordonata vârfului $y_v$?",
     "variante": [
-      "$\\Delta=b^2-4ac$",
-      "$\\Delta=b^2+4ac$",
-      "$\\Delta=b-4ac$",
-      "$\\Delta=4ac-b$"
+      "$y_v=-\\frac{\\Delta}{4a}$",
+      "$y_v=\\frac{\\Delta}{4a}$",
+      "$y_v=-\\frac{b}{2a}$",
+      "$y_v=-\\frac{\\Delta}{2a}$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-004",
     "tip": "simplu",
-    "intrebare": "Care este formula zerourilor?",
+    "intrebare": "Care este axa de simetrie a parabolei?",
     "variante": [
-      "$x_{1,2}=\\frac{-b\\pm\\sqrt\\Delta}{2a}$",
-      "$x_{1,2}=-\\frac{b}{2a}$",
-      "$x_{1,2}=\\frac{-b\\pm\\sqrt\\Delta}{a}$",
-      "$x_{1,2}=\\frac{b\\pm\\sqrt\\Delta}{2a}$"
+      "dreapta $x=x_v$",
+      "dreapta $x=c$",
+      "dreapta $x=0$",
+      "dreapta $y=x_v$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-005",
     "tip": "simplu",
-    "intrebare": "Unde taie graficul axa $Oy$?",
+    "intrebare": "În ce punct taie parabola $y=ax^2+bx+c$ axa $Oy$?",
     "variante": [
-      "punctul $(0;c)$",
-      "punctul $(0;a)$",
-      "punctul $(0;b)$",
-      "punctul $(c;0)$"
+      "$(0;c)$",
+      "$(0;b)$",
+      "$(0;a)$",
+      "$(c;0)$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-006",
     "tip": "simplu",
-    "intrebare": "Care este axa de simetrie a parabolei?",
+    "intrebare": "Dacă $\\Delta>0$, parabola taie axa $Ox$ în:",
     "variante": [
-      "axa $Ox$",
-      "axa $Oy$ mereu",
-      "dreapta $y=y_v$",
-      "dreapta $x=x_v$"
+      "trei puncte",
+      "un punct",
+      "niciun punct",
+      "două puncte"
     ],
     "corect": 3
   },
   {
     "id": "studiul-functiei-de-gradul-2-007",
     "tip": "simplu",
-    "intrebare": "Care sunt pașii studiului funcției de gradul II?",
+    "intrebare": "Dacă $\\Delta=0$, parabola:",
     "variante": [
-      "desenăm $x^2$ și mutăm la întâmplare",
-      "aflăm vârful $V$ → aflăm intersecțiile cu axele → mai luăm 2 puncte simetrice → unim cu o curbă",
-      "unim două puncte cu rigla",
-      "aflăm doar zerourile și oprim"
+      "taie axa $Oy$ de două ori",
+      "atinge axa $Ox$ într-un punct (vârful)",
+      "taie axa $Ox$ în două puncte",
+      "nu atinge axa $Ox$"
     ],
     "corect": 1
   },
   {
     "id": "studiul-functiei-de-gradul-2-008",
     "tip": "simplu",
-    "intrebare": "Ce se întâmplă cu funcția când $a>0$?",
+    "intrebare": "Dacă $\\Delta<0$, parabola:",
     "variante": [
-      "maxim $y_v$; scade pe $(-\\infty;x_v]$ și crește pe $[x_v;+\\infty)$",
-      "minim $y_v$; scade pe $(-\\infty;x_v]$ și crește pe $[x_v;+\\infty)$",
-      "nu are valoare extremă",
-      "minim $y_v$; crește pe $(-\\infty;x_v]$ și scade pe $[x_v;+\\infty)$"
+      "taie axa $Ox$ în două puncte",
+      "nu taie axa $Ox$",
+      "nu taie axa $Oy$",
+      "atinge axa $Ox$ într-un punct"
     ],
     "corect": 1
   },
   {
     "id": "studiul-functiei-de-gradul-2-009",
     "tip": "simplu",
-    "intrebare": "Ce se întâmplă cu funcția când $a<0$?",
+    "intrebare": "Dacă $a>0$, vârful parabolei este punct de:",
     "variante": [
-      "maxim $y_v$; crește pe $(-\\infty;x_v]$ și scade pe $[x_v;+\\infty)$",
-      "maxim $y_v$; scade pe $(-\\infty;x_v]$ și crește pe $[x_v;+\\infty)$",
-      "minim $y_v$; crește pe $(-\\infty;x_v]$ și scade pe $[x_v;+\\infty)$",
-      "nu are valoare extremă"
+      "minim",
+      "inflexiune",
+      "maxim",
+      "nu are semnificație"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-010",
     "tip": "simplu",
-    "intrebare": "Calculează $x_v$ pentru $f(x)=x^2-4x+3$.",
+    "intrebare": "Dacă $a<0$, vârful parabolei este punct de:",
     "variante": [
-      "$4$",
-      "$3$",
-      "$-2$",
-      "$2$"
+      "inflexiune",
+      "nu are semnificație",
+      "minim",
+      "maxim"
     ],
     "corect": 3
   },
   {
     "id": "studiul-functiei-de-gradul-2-011",
     "tip": "simplu",
-    "intrebare": "Calculează $y_v$ pentru $f(x)=x^2-4x+3$.",
+    "intrebare": "La $f(x)=x^2-4x+3$, cât este $\\Delta$?",
     "variante": [
-      "$-1$",
+      "$4$",
       "$-4$",
-      "$3$",
-      "$1$"
+      "$28$",
+      "$16$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-012",
     "tip": "simplu",
-    "intrebare": "Care sunt zerourile lui $f(x)=x^2-4x+3$?",
+    "intrebare": "La $f(x)=x^2-4x+3$, cât este $x_v$?",
     "variante": [
-      "$x=2$ și $x=3$",
-      "$x=1$ și $x=4$",
-      "$x=1$ și $x=3$",
-      "$x=-1$ și $x=-3$"
+      "$4$",
+      "$3$",
+      "$2$",
+      "$-2$"
     ],
     "corect": 2
   },
   {
     "id": "studiul-functiei-de-gradul-2-013",
     "tip": "simplu",
-    "intrebare": "Unde taie $f(x)=x^2-4x+3$ axa $Oy$?",
+    "intrebare": "La $f(x)=x^2-4x+3$, cât este $y_v$?",
     "variante": [
-      "$(3;0)$",
-      "$(0;3)$",
-      "$(0;1)$",
-      "$(0;-4)$"
+      "$1$",
+      "$-1$",
+      "$-3$",
+      "$3$"
     ],
     "corect": 1
   },
   {
     "id": "studiul-functiei-de-gradul-2-014",
     "tip": "simplu",
-    "intrebare": "Care este vârful lui $f(x)=-x^2+2x+3$?",
+    "intrebare": "La $f(x)=x^2-6x$, cât este $x_v$?",
     "variante": [
-      "$V(1;4)$",
-      "$V(1;-4)$",
-      "$V(1;3)$",
-      "$V(-1;4)$"
+      "$3$",
+      "$-6$",
+      "$6$",
+      "$-3$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-015",
     "tip": "simplu",
-    "intrebare": "Ce face parabola când $\\Delta<0$?",
+    "intrebare": "La $f(x)=x^2+2x$, cât este $x_v$?",
     "variante": [
-      "nu intersectează axa $Ox$",
-      "este o dreaptă",
-      "intersectează $Ox$ în două puncte",
-      "este tangentă axei $Ox$"
+      "$-1$",
+      "$-2$",
+      "$1$",
+      "$2$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-016",
     "tip": "simplu",
-    "intrebare": "Ce face parabola când $\\Delta=0$?",
+    "intrebare": "La $f(x)=-x^2+2x$, cât este $x_v$?",
     "variante": [
-      "este tangentă axei $Ox$ în vârf",
-      "taie axa $Oy$ de două ori",
-      "nu intersectează $Ox$",
-      "intersectează $Ox$ în două puncte"
+      "$1$",
+      "$-2$",
+      "$-1$",
+      "$2$"
     ],
     "corect": 0
   },
   {
     "id": "studiul-functiei-de-gradul-2-017",
     "tip": "simplu",
-    "intrebare": "Care este cea mai mică valoare a funcției $f(x)=x^2-6x+5$?",
+    "intrebare": "La $f(x)=2x^2-8$, cât este $x_v$?",
     "variante": [
-      "$-3$",
-      "$5$",
-      "$-4$",
-      "$4$"
+      "$4$",
+      "$-8$",
+      "$0$",
+      "$2$"
     ],
     "corect": 2
   },
   {
     "id": "studiul-functiei-de-gradul-2-018",
     "tip": "simplu",
-    "intrebare": "Ce valori ia funcția $f$ când $a>0$?",
+    "intrebare": "Câte zerouri are $f(x)=x^2+4x+4$?",
     "variante": [
-      "$\\mathbb{R}$",
-      "$[y_v;+\\infty)$",
-      "$[x_v;+\\infty)$",
-      "$(-\\infty;y_v]$"
+      "niciunul",
+      "unul ($\\Delta=0$)",
+      "patru",
+      "două"
     ],
     "corect": 1
+  },
+  {
+    "id": "studiul-functiei-de-gradul-2-019",
+    "tip": "simplu",
+    "intrebare": "Câte zerouri are $f(x)=x^2+1$?",
+    "variante": [
+      "două",
+      "unul",
+      "o infinitate",
+      "niciunul ($\\Delta<0$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "studiul-functiei-de-gradul-2-020",
+    "tip": "simplu",
+    "intrebare": "Care este vârful parabolei $f(x)=x^2-2x-3$?",
+    "variante": [
+      "$(2;-3)$",
+      "$(1;4)$",
+      "$(-1;-4)$",
+      "$(1;-4)$"
+    ],
+    "corect": 3
   }
 ]

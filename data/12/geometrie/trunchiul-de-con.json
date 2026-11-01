@@ -2,112 +2,169 @@
   {
     "id": "trunchiul-de-con-001",
     "tip": "simplu",
-    "intrebare": "Cum aflăm generatoarea trunchiului de con? $G^2=?$",
+    "intrebare": "Cum se calculează volumul trunchiului de con?",
     "variante": [
-      "$h^2+(R+r)^2$",
-      "$h^2+R^2-r^2$",
-      "$h^2+(R-r)^2$",
-      "$h^2-(R-r)^2$"
+      "$V=\\frac{\\pi h}{3}\\left(R^2+r^2\\right)$",
+      "$V=\\frac{\\pi h}{3}(R+r)^2$",
+      "$V=\\frac{\\pi h}{3}\\left(R^2+Rr+r^2\\right)$",
+      "$V=\\pi h\\left(R^2+r^2\\right)$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-con-002",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a trunchiului de con?",
+    "intrebare": "Cum se calculează aria laterală a trunchiului de con?",
     "variante": [
-      "$\\pi G R r$",
-      "$2\\pi G(R+r)$",
-      "$\\pi G(R+r)$",
-      "$\\pi G(R-r)$"
+      "$A_l=\\pi g(R-r)$",
+      "$A_l=2\\pi g(R+r)$",
+      "$A_l=\\pi g(R+r)$",
+      "$A_l=\\pi g\\left(R^2+r^2\\right)$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-con-003",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a trunchiului de con?",
+    "intrebare": "Cum se calculează aria totală a trunchiului de con?",
     "variante": [
-      "$\\pi\\left[R^2+r^2\\right]$",
-      "$\\pi\\left[R^2-r^2+G(R+r)\\right]$",
-      "$\\pi\\left[R^2+r^2+G(R+r)\\right]$",
-      "$\\pi G(R+r)$"
+      "$A_t=\\pi g(R+r)+2\\pi R^2$",
+      "$A_t=\\pi g(R+r)+\\pi R^2$",
+      "$A_t=\\pi g(R+r)+\\pi\\left(R^2+r^2\\right)$",
+      "$A_t=\\pi g(R+r)$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-con-004",
     "tip": "simplu",
-    "intrebare": "Care este volumul trunchiului de con?",
+    "intrebare": "Ce relație leagă $g$, $h$, $R$, $r$?",
     "variante": [
-      "$\\frac{\\pi h(R+r)^2}{3}$",
-      "$\\frac{\\pi h(R^2+Rr+r^2)}{3}$",
-      "$\\pi h(R^2+Rr+r^2)$",
-      "$\\frac{\\pi h(R^2+r^2)}{3}$"
+      "$g^2=h^2-(R-r)^2$",
+      "$g^2=h^2+(R-r)^2$",
+      "$g=h+R-r$",
+      "$g^2=h^2+(R+r)^2$"
     ],
     "corect": 1
   },
   {
     "id": "trunchiul-de-con-005",
     "tip": "simplu",
-    "intrebare": "Ce este secțiunea axială a trunchiului de con?",
+    "intrebare": "Trunchi de con: $R=6$, $r=3$, $h=4$. Cât este $g$?",
     "variante": [
-      "un triunghi isoscel",
-      "un dreptunghi",
-      "un trapez isoscel cu bazele $2R$ și $2r$",
-      "un trapez dreptunghic"
+      "$\\sqrt{13}$",
+      "$\\sqrt{73}$",
+      "$5$",
+      "$7$"
     ],
     "corect": 2
   },
   {
     "id": "trunchiul-de-con-006",
     "tip": "simplu",
-    "intrebare": "Ce sunt bazele trunchiului de con?",
+    "intrebare": "Trunchi de con: $R=6$, $r=3$, $g=5$. Cât este aria laterală?",
     "variante": [
-      "două cercuri în plane paralele",
-      "un cerc și un punct",
-      "două elipse",
-      "două triunghiuri"
+      "$45\\pi$",
+      "$15\\pi$",
+      "$30\\pi$",
+      "$90\\pi$"
     ],
     "corect": 0
   },
   {
     "id": "trunchiul-de-con-007",
     "tip": "simplu",
-    "intrebare": "Ce devine trunchiul de con dacă $r=R$?",
+    "intrebare": "Trunchi de con: $R=6$, $r=3$, $h=4$. Cât este volumul?",
     "variante": [
-      "con",
-      "cilindru",
-      "sferă",
-      "disc"
+      "$252\\pi$",
+      "$84\\pi$",
+      "$60\\pi$",
+      "$63\\pi$"
     ],
     "corect": 1
   },
   {
     "id": "trunchiul-de-con-008",
     "tip": "simplu",
-    "intrebare": "Ce devine trunchiul de con dacă $r=0$?",
+    "intrebare": "Trunchi de con: $R=6$, $r=3$, $g=5$. Cât este aria totală?",
     "variante": [
-      "con",
-      "cilindru",
-      "disc",
-      "sferă"
+      "$90\\pi$",
+      "$45\\pi$",
+      "$54\\pi$",
+      "$135\\pi$"
     ],
     "corect": 0
   },
   {
     "id": "trunchiul-de-con-009",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte pentru trunchiul de con?",
+    "tip": "simplu",
+    "intrebare": "Cum se obține trunchiul de con?",
     "variante": [
-      "$A_l=\\pi G(R+r)$",
-      "$A_l=\\pi G(R-r)$",
-      "$G^2=h^2+(R-r)^2$",
-      "$G^2=h^2+(R+r)^2$"
+      "tăiem conul cu un plan prin axă",
+      "rotim un dreptunghi",
+      "tăiem conul cu un plan paralel cu baza",
+      "unim două conuri"
     ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-010",
+    "tip": "simplu",
+    "intrebare": "Cum arată secțiunea axială a trunchiului de con?",
+    "variante": [
+      "dreptunghi",
+      "triunghi",
+      "cerc",
+      "trapez isoscel"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-con-011",
+    "tip": "simplu",
+    "intrebare": "Câte baze are trunchiul de con?",
+    "variante": [
+      "niciuna",
+      "$1$",
+      "$3$",
+      "$2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-con-012",
+    "tip": "simplu",
+    "intrebare": "Dacă $R=r$, trunchiul de con devine:",
+    "variante": [
+      "con",
+      "cilindru",
+      "cub",
+      "sferă"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "trunchiul-de-con-013",
+    "tip": "simplu",
+    "intrebare": "Dacă $r=0$, trunchiul de con devine:",
+    "variante": [
+      "cub",
+      "sferă",
+      "con",
+      "cilindru"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-014",
+    "tip": "simplu",
+    "intrebare": "Cum se obține trunchiul de con prin rotire?",
+    "variante": [
+      "rotim un semicerc",
+      "rotim un trapez dreptunghic în jurul laturii perpendiculare pe baze",
+      "rotim un dreptunghi",
+      "rotim un triunghi"
+    ],
+    "corect": 1
   }
 ]

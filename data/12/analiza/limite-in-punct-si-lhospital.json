@@ -2,107 +2,107 @@
   {
     "id": "limite-in-punct-si-lhospital-001",
     "tip": "simplu",
-    "intrebare": "Care este primul pas la $\\lim_{x\\to a}f(x)$?",
+    "intrebare": "Ce prim pas facem la o limită în punctul $a$?",
     "variante": [
-      "ridicăm la pătrat",
-      "înlocuim $x=a$ direct",
-      "derivăm direct",
-      "scoatem factor $x$"
+      "integrăm",
+      "înlocuim $x$ cu $a$",
+      "derivăm",
+      "împărțim la $x$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-002",
     "tip": "simplu",
-    "intrebare": "Care dintre acestea sunt nedeterminări?",
+    "intrebare": "Care sunt nedeterminările de bază?",
     "variante": [
-      "$\\infty+\\infty$, $\\frac{0}{5}$",
-      "$\\frac{0}{0}$, $\\frac{\\infty}{\\infty}$, $\\infty-\\infty$, $0\\cdot\\infty$, $1^\\infty$",
-      "$\\frac{3}{0}$, $0+\\infty$",
-      "$\\frac{1}{0}$, $\\frac{5}{\\infty}$"
+      "$\\frac{1}{\\infty}$",
+      "$\\frac00$, $\\frac\\infty\\infty$, $0\\cdot\\infty$, $\\infty-\\infty$",
+      "$0+\\infty$",
+      "$\\frac10$, $\\frac01$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-003",
     "tip": "simplu",
-    "intrebare": "Cât este limita dacă prin înlocuire obținem $\\frac{a}{0}$ cu $a\\neq0$?",
+    "intrebare": "Cât este $\\lim_{x\\to2}(x+1)$?",
     "variante": [
-      "$a$",
+      "$\\infty$",
       "$1$",
-      "$0$",
-      "$\\pm\\infty$ (depinde de semn / limite laterale)"
+      "$2$",
+      "$3$"
     ],
     "corect": 3
   },
   {
     "id": "limite-in-punct-si-lhospital-004",
     "tip": "simplu",
-    "intrebare": "Pentru ce nedeterminări se aplică teorema lui l’Hospital?",
+    "intrebare": "Cât este $\\lim_{x\\to1}\\frac{x^2-1}{x-1}$?",
     "variante": [
-      "orice limită",
-      "doar $1^\\infty$",
-      "doar $\\infty-\\infty$",
-      "$\\frac{0}{0}$ și $\\frac{\\infty}{\\infty}$"
+      "$0$",
+      "$+\\infty$",
+      "$1$",
+      "$2$"
     ],
     "corect": 3
   },
   {
     "id": "limite-in-punct-si-lhospital-005",
     "tip": "simplu",
-    "intrebare": "Care este regula lui l’Hospital? $\\lim\\frac{f}{g}=?$",
+    "intrebare": "Cât este $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$?",
     "variante": [
-      "$\\lim\\frac{f^{\\prime}}{g^{\\prime}}$ (derivăm sus și jos separat)",
-      "$\\lim\\left(\\frac{f}{g}\\right)^{\\prime}$",
-      "$\\lim\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$",
-      "$\\lim\\frac{f}{g^{\\prime}}$"
+      "$4$",
+      "$2$",
+      "$0$",
+      "$+\\infty$"
     ],
     "corect": 0
   },
   {
     "id": "limite-in-punct-si-lhospital-006",
     "tip": "simplu",
-    "intrebare": "Ce facem dacă după l’Hospital obținem tot $\\frac{0}{0}$?",
+    "intrebare": "Cât este $\\lim_{x\\to2}\\frac{x^3-8}{x-2}$?",
     "variante": [
-      "limita nu există",
-      "aplicăm l’Hospital din nou",
-      "ne oprim",
-      "limita este $0$"
+      "$0$",
+      "$12$",
+      "$4$",
+      "$8$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-007",
     "tip": "simplu",
-    "intrebare": "Ce altă metodă avem pentru $\\frac{0}{0}$ la fracții raționale?",
+    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\sin x}{x}$?",
     "variante": [
-      "descompunerea în factori și simplificarea",
-      "logaritmarea",
-      "ridicarea la pătrat",
-      "integrarea"
+      "$1$",
+      "$+\\infty$",
+      "$0$",
+      "$-1$"
     ],
     "corect": 0
   },
   {
     "id": "limite-in-punct-si-lhospital-008",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$.",
+    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{e^x-1}{x}$?",
     "variante": [
-      "$\\infty$",
-      "$2$",
+      "$+\\infty$",
+      "$e$",
       "$0$",
-      "$4$"
+      "$1$"
     ],
     "corect": 3
   },
   {
     "id": "limite-in-punct-si-lhospital-009",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to1}\\frac{x^2-1}{x-1}$.",
+    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}$?",
     "variante": [
-      "$2$",
       "$1$",
-      "$\\infty$",
+      "$e$",
+      "$+\\infty$",
       "$0$"
     ],
     "corect": 0
@@ -110,149 +110,85 @@
   {
     "id": "limite-in-punct-si-lhospital-010",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to3}x^2$.",
+    "intrebare": "Cât este $\\lim_{x\\to0^+}\\frac1x$?",
     "variante": [
-      "$6$",
-      "$9$",
-      "$0$",
-      "$3$"
+      "$-\\infty$",
+      "$+\\infty$",
+      "$1$",
+      "$0$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-011",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}\\frac{\\sin x}{x}$.",
+    "intrebare": "Cât este $\\lim_{x\\to0^-}\\frac1x$?",
     "variante": [
-      "$0$",
-      "nu există",
+      "$+\\infty$",
       "$1$",
-      "$\\infty$"
+      "$-\\infty$",
+      "$0$"
     ],
     "corect": 2
   },
   {
     "id": "limite-in-punct-si-lhospital-012",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}\\frac{e^x-1}{x}$.",
+    "intrebare": "Ce spune regula lui l’Hospital?",
     "variante": [
-      "$e$",
-      "$1$",
-      "$\\infty$",
-      "$0$"
+      "$\\lim\\frac fg=\\lim f\\cdot\\lim g$",
+      "$\\lim\\frac{f}{g}=\\lim\\frac{f^{\\prime}}{g^{\\prime}}$",
+      "$\\lim\\frac fg=\\lim\\frac{f}{g^{\\prime}}$",
+      "$\\lim\\frac{f}{g}=\\lim\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-013",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}$.",
+    "intrebare": "Când putem aplica regula lui l’Hospital?",
     "variante": [
-      "$e$",
-      "$0$",
-      "$1$",
-      "$\\infty$"
+      "doar la $\\frac10$",
+      "la orice limită",
+      "la $\\frac00$ sau $\\frac\\infty\\infty$",
+      "doar la $0\\cdot\\infty$"
     ],
     "corect": 2
   },
   {
     "id": "limite-in-punct-si-lhospital-014",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}\\frac{\\operatorname{tg}x}{x}$.",
+    "intrebare": "La l’Hospital derivăm:",
     "variante": [
-      "$1$",
-      "$\\infty$",
-      "$-1$",
-      "$0$"
+      "separat numărătorul și numitorul",
+      "doar numitorul",
+      "doar numărătorul",
+      "fracția ca pe un cât"
     ],
     "corect": 0
   },
   {
     "id": "limite-in-punct-si-lhospital-015",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}(1+x)^{\\frac{1}{x}}$.",
+    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{\\sin x}{x}$ prin l’Hospital?",
     "variante": [
-      "$1$",
-      "$e$",
-      "$\\infty$",
-      "$0$"
+      "$\\frac{\\sin0}{0}=0$",
+      "$\\frac{\\cos0}{1}=1$",
+      "$\\frac{\\cos0}{0}=\\infty$",
+      "$\\frac{-\\cos0}{1}=-1$"
     ],
     "corect": 1
   },
   {
     "id": "limite-in-punct-si-lhospital-016",
     "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0}\\frac{2x}{x}$.",
+    "intrebare": "Cât este $\\lim_{x\\to0}\\frac{x^2}{x}$?",
     "variante": [
+      "$x$",
       "$1$",
-      "$0$",
-      "$2$",
-      "$\\infty$"
-    ],
-    "corect": 2
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-017",
-    "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0^+}\\frac{1}{x}$.",
-    "variante": [
-      "$1$",
-      "$+\\infty$",
-      "$-\\infty$",
-      "$0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-018",
-    "tip": "simplu",
-    "intrebare": "Calculează $\\lim_{x\\to0^-}\\frac{1}{x}$.",
-    "variante": [
-      "$1$",
-      "$-\\infty$",
       "$0$",
       "$+\\infty$"
     ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-019",
-    "tip": "simplu",
-    "intrebare": "Ce obținem cu l’Hospital la $\\lim_{x\\to0}\\frac{\\sin x}{x}$?",
-    "variante": [
-      "$\\frac{\\cos x}{x}\\to\\infty$",
-      "$\\frac{\\cos x}{1}\\to1$",
-      "$\\frac{1}{x}\\to\\infty$",
-      "$\\frac{-\\sin x}{1}\\to0$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-020",
-    "tip": "simplu",
-    "intrebare": "Calculează cu l’Hospital: $\\lim_{x\\to1}\\frac{x-1}{\\ln x}$.",
-    "variante": [
-      "$e$",
-      "$0$",
-      "$1$",
-      "$\\infty$"
-    ],
     "corect": 2
-  },
-  {
-    "id": "limite-in-punct-si-lhospital-021",
-    "tip": "multiplu",
-    "intrebare": "Care sunt nedeterminări?",
-    "variante": [
-      "$\\frac{0}{0}$",
-      "$\\frac{1}{0}$",
-      "$1^\\infty$",
-      "$\\infty-\\infty$"
-    ],
-    "corect": [
-      0,
-      2,
-      3
-    ]
   }
 ]

@@ -1,274 +1,248 @@
 [
   {
-    "id": "prim-001",
+    "id": "primitive-si-notiuni-de-baza-001",
     "tip": "simplu",
-    "intrebare": "Când este $F$ primitivă a lui $f$ pe un interval $I$?",
+    "intrebare": "Ce este o primitivă a funcției $f$?",
     "variante": [
-      "F este derivabilă pe I și F′(x) = f(x), ∀x ∈ I",
-      "f este derivabilă pe I și f′(x) = F(x), ∀x ∈ I",
-      "F este continuă pe I și F(x) = f′(x), ∀x ∈ I",
-      "F(x) = f(x) + C, ∀x ∈ I"
+      "valoarea lui $f$ în punctul $0$",
+      "o funcție $F$ cu $F=f^{\\prime}$",
+      "funcția $f$ înmulțită cu $x$",
+      "o funcție $F$ cu $F^{\\prime}=f$"
     ],
-    "corect": 0
+    "corect": 3
   },
   {
-    "id": "prim-002",
+    "id": "primitive-si-notiuni-de-baza-002",
     "tip": "simplu",
-    "intrebare": "Dacă $F$ este o primitivă a lui $f$ pe $I$, cum arată toate primitivele lui $f$?",
+    "intrebare": "Cu ce operație este legată integrarea?",
     "variante": [
-      "{C · F | C ∈ ℝ}",
-      "{F + C | C ∈ ℝ}",
-      "{F′ + C | C ∈ ℝ}",
-      "{F}, deoarece primitiva este unică"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "prim-003",
-    "tip": "simplu",
-    "intrebare": "Care este o primitivă a funcției $f(x)=4x^3$?",
-    "variante": [
-      "x^4",
-      "x^3",
-      "4x^4",
-      "12x^2"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "prim-004",
-    "tip": "simplu",
-    "intrebare": "Ce spune despre primitive o funcție $f$ continuă pe $[a,b]$?",
-    "variante": [
-      "admite primitive doar dacă este și derivabilă",
-      "admite o singură primitivă pe [a, b]",
-      "admite primitive pe [a, b]",
-      "nu admite primitive pe [a, b]"
+      "cu împărțirea",
+      "cu înmulțirea",
+      "cu derivarea (e operația inversă)",
+      "cu adunarea"
     ],
     "corect": 2
   },
   {
-    "id": "prim-005",
+    "id": "primitive-si-notiuni-de-baza-003",
     "tip": "simplu",
-    "intrebare": "Ce este integrala nedefinită $\\int f(x)\\,dx$ a unei funcții care are primitive?",
+    "intrebare": "Care este primitiva lui $f(x)=2x$?",
     "variante": [
-      "o singură primitivă a funcției f",
-      "derivata funcției f",
-      "mulțimea primitivelor funcției f",
-      "un număr real"
+      "$x$",
+      "$x^2$",
+      "$2x^2$",
+      "$2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-004",
+    "tip": "simplu",
+    "intrebare": "Care este primitiva lui $f(x)=3x^2$?",
+    "variante": [
+      "$6x$",
+      "$x^3$",
+      "$3x^3$",
+      "$x^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-005",
+    "tip": "simplu",
+    "intrebare": "Dacă $F(x)=x^3$, cât este $f(x)$?",
+    "variante": [
+      "$3x$",
+      "$x^2$",
+      "$\\frac{x^4}{4}$",
+      "$3x^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-006",
+    "tip": "simplu",
+    "intrebare": "Cum scriem toate primitivele lui $f$?",
+    "variante": [
+      "$F(x)\\cdot C$",
+      "$F(x)+x$",
+      "$F^{\\prime}(x)+C$",
+      "$F(x)+C$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-007",
+    "tip": "simplu",
+    "intrebare": "De ce apare constanta $C$?",
+    "variante": [
+      "derivata lui $x$ este $C$",
+      "așa se scrie $dx$",
+      "integrala are mereu valoarea $C$",
+      "derivata unei constante este $0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-008",
+    "tip": "simplu",
+    "intrebare": "Cum verificăm dacă $F$ este primitivă a lui $f$?",
+    "variante": [
+      "adunăm $F$ cu $f$",
+      "derivăm $F$ și trebuie să obținem $f$",
+      "derivăm $f$ și trebuie să obținem $F$",
+      "înmulțim $F$ cu $f$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-009",
+    "tip": "simplu",
+    "intrebare": "Cât este $\\int 1\\,dx$?",
+    "variante": [
+      "$\\frac{x^2}{2}+C$",
+      "$1+C$",
+      "$C$",
+      "$x+C$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-010",
+    "tip": "simplu",
+    "intrebare": "Cât este $\\int 5\\,dx$?",
+    "variante": [
+      "$5+C$",
+      "$x+C$",
+      "$5x+C$",
+      "$\\frac{5x^2}{2}+C$"
     ],
     "corect": 2
   },
   {
-    "id": "prim-006",
+    "id": "primitive-si-notiuni-de-baza-011",
     "tip": "simplu",
-    "intrebare": "Care este primitiva $F$ a lui $f(x)=\\cos x$ cu $F(0)=1$?",
+    "intrebare": "Cât este $\\int x\\,dx$?",
     "variante": [
-      "cos x + 1",
-      "sin x",
-      "−sin x + 1",
-      "sin x + 1"
+      "$1+C$",
+      "$x^2+C$",
+      "$\\frac{x^2}{2}+C$",
+      "$2x^2+C$"
     ],
-    "corect": 3
+    "corect": 2
   },
   {
-    "id": "prim-007",
+    "id": "primitive-si-notiuni-de-baza-012",
     "tip": "simplu",
-    "intrebare": "Graficul primitivei $F$ a lui $f(x)=2x+1$ trece prin $M(1,3)$. Cât este $F(x)$?",
+    "intrebare": "Cât este $\\int 0\\,dx$?",
     "variante": [
-      "x^2 + x + 3",
-      "x^2 + x + 1",
-      "x^2 + x",
-      "2x^2 + x"
+      "$1$",
+      "$C$",
+      "$x+C$",
+      "$e^x+C$"
     ],
     "corect": 1
   },
   {
-    "id": "prim-008",
+    "id": "primitive-si-notiuni-de-baza-013",
     "tip": "simplu",
-    "intrebare": "Cât este derivata integralei nedefinite, $\\left(\\int f(x)\\,dx\\right)^{\\prime}$?",
+    "intrebare": "Care este primitiva lui $f(x)=\\cos x$?",
     "variante": [
-      "f′(x)",
-      "0",
-      "F(x) + C",
-      "f(x)"
+      "$\\sin x$",
+      "$-\\cos x$",
+      "$\\cos x$",
+      "$-\\sin x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-014",
+    "tip": "simplu",
+    "intrebare": "Care este primitiva lui $f(x)=\\sin x$?",
+    "variante": [
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\cos x$",
+      "$\\sin x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-015",
+    "tip": "simplu",
+    "intrebare": "Care este primitiva lui $f(x)=e^x$?",
+    "variante": [
+      "$xe^x$",
+      "$\\frac{e^{x+1}}{x+1}$",
+      "$e^x$",
+      "$\\ln x$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-016",
+    "tip": "simplu",
+    "intrebare": "Care este primitiva lui $f(x)=\\frac1x$ pe $(0;\\infty)$?",
+    "variante": [
+      "$\\ln x$",
+      "$\\frac{1}{x^2}$",
+      "$e^x$",
+      "$-\\frac{1}{x^2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "primitive-si-notiuni-de-baza-017",
+    "tip": "simplu",
+    "intrebare": "Câte primitive are o funcție continuă?",
+    "variante": [
+      "niciuna",
+      "exact una",
+      "exact două",
+      "o infinitate (diferă prin constantă)"
     ],
     "corect": 3
   },
   {
-    "id": "prim-009",
+    "id": "primitive-si-notiuni-de-baza-018",
     "tip": "simplu",
-    "intrebare": "Pentru ce funcție $f$ este $F(x)=x\\cdot e^x$ o primitivă?",
+    "intrebare": "$x^2+1$ și $x^2-4$ sunt:",
     "variante": [
-      "e^x",
-      "x·e^x",
-      "(x − 1)e^x",
-      "(x + 1)e^x"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "prim-010",
-    "tip": "simplu",
-    "intrebare": "Cum se obțin graficele a două primitive ale aceleiași funcții una din alta?",
-    "variante": [
-      "simetrie față de origine",
-      "translație de-a lungul axei Oy",
-      "simetrie față de axa Ox",
-      "translație de-a lungul axei Ox"
+      "derivate una alteia",
+      "primitive ale aceleiași funcții $2x$",
+      "primitive ale unor funcții diferite",
+      "una e primitivă, cealaltă nu"
     ],
     "corect": 1
   },
   {
-    "id": "prim-011",
+    "id": "primitive-si-notiuni-de-baza-019",
     "tip": "multiplu",
-    "intrebare": "Fie $F$ o primitivă a lui $f$ pe un interval $I$. Care afirmații sunt adevărate?",
+    "intrebare": "Care sunt primitive ale lui $f(x)=2x$?",
     "variante": [
-      "F este derivabilă pe I",
-      "F(x) = f′(x), ∀x ∈ I",
-      "F′(x) = f(x), ∀x ∈ I",
-      "F(x) = f(x) + C, ∀x ∈ I"
+      "$2x^2$",
+      "$x$",
+      "$x^2+5$",
+      "$x^2$"
     ],
     "corect": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "prim-012",
-    "tip": "multiplu",
-    "intrebare": "Care funcții sunt primitive ale lui $f(x)=\\cos x$?",
-    "variante": [
-      "−sin x",
-      "sin x",
-      "sin x − 2",
-      "sin x + 5"
-    ],
-    "corect": [
-      1,
       2,
       3
     ]
   },
   {
-    "id": "prim-013",
+    "id": "primitive-si-notiuni-de-baza-020",
     "tip": "multiplu",
-    "intrebare": "Care funcții sunt primitive ale lui $f(x)=e^x$?",
+    "intrebare": "Care sunt primitive ale lui $f(x)=1$?",
     "variante": [
-      "x·e^x",
-      "e^x",
-      "e^x + 2",
-      "e^{2x}"
+      "$x^2$",
+      "$x+3$",
+      "$x$",
+      "$1$"
     ],
     "corect": [
       1,
       2
-    ]
-  },
-  {
-    "id": "prim-014",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații despre integrala nedefinită $\\int f(x)\\,dx$ sunt adevărate?",
-    "variante": [
-      "există pentru orice funcție f",
-      "este un număr real",
-      "se scrie F(x) + C, unde F este o primitivă a lui f și C ∈ ℝ",
-      "este mulțimea primitivelor lui f"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "prim-015",
-    "tip": "multiplu",
-    "intrebare": "Care funcții sunt continue pe $[0,1]$, deci au primitive pe $[0,1]$?",
-    "variante": [
-      "f(x) = \\frac{1}{x−2}",
-      "f(x) = x^3 + 1",
-      "f(x) = \\frac{1}{x−1}",
-      "f(x) = ln(x − 1)"
-    ],
-    "corect": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "prim-016",
-    "tip": "multiplu",
-    "intrebare": "$F(x)=(ax+b)e^x$ este o primitivă a lui $f(x)=(2x+3)e^x$. Care afirmații sunt adevărate?",
-    "variante": [
-      "a · b = 3",
-      "a = 2",
-      "b = 1",
-      "a + b = 4"
-    ],
-    "corect": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "prim-017",
-    "tip": "multiplu",
-    "intrebare": "$F(x)=x^2+ax+b$ este o primitivă a lui $f(x)=2x+4$ și $F(0)=1$. Care afirmații sunt adevărate?",
-    "variante": [
-      "b = 1",
-      "F(−1) = 2",
-      "a = 4",
-      "F(1) = 6"
-    ],
-    "corect": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "prim-018",
-    "tip": "multiplu",
-    "intrebare": "$F$ și $G$ sunt două primitive ale aceleiași funcții $f$ pe $I$. Care afirmații sunt adevărate?",
-    "variante": [
-      "F(x) = G(x) pentru orice x ∈ I",
-      "f nu are alte primitive în afară de F și G",
-      "F + 2 este de asemenea primitivă a lui f",
-      "F − G este funcție constantă"
-    ],
-    "corect": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "prim-019",
-    "tip": "multiplu",
-    "intrebare": "Care funcții $F:(0,+\\infty)\\to\\mathbb{R}$ sunt primitive ale lui $f(x)=\\ln x$?",
-    "variante": [
-      "\\frac{1}{x}",
-      "x ln x − x",
-      "x ln x",
-      "x ln x − x + 3"
-    ],
-    "corect": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "prim-020",
-    "tip": "multiplu",
-    "intrebare": "Care funcții au derivata egală cu $f(x)=3x^2+2$?",
-    "variante": [
-      "x^3 + 2x − 7",
-      "6x",
-      "x^3 + 2",
-      "x^3 + 2x"
-    ],
-    "corect": [
-      0,
-      3
     ]
   }
 ]

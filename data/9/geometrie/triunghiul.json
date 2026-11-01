@@ -14,96 +14,96 @@
   {
     "id": "triunghiul-002",
     "tip": "simplu",
-    "intrebare": "Cu ce este egal un unghi exterior al triunghiului?",
+    "intrebare": "Un triunghi are unghiurile $50^\\circ$ și $60^\\circ$. Cât măsoară al treilea?",
     "variante": [
-      "$180^\\circ$ plus suma lor",
-      "suma celorlalte două unghiuri interioare (neadiacente)",
-      "unghiul interior adiacent",
-      "diferența celorlalte două unghiuri"
+      "$60^\\circ$",
+      "$70^\\circ$",
+      "$80^\\circ$",
+      "$110^\\circ$"
     ],
     "corect": 1
   },
   {
     "id": "triunghiul-003",
     "tip": "simplu",
-    "intrebare": "Care este inegalitatea triunghiului?",
+    "intrebare": "Cât măsoară fiecare unghi al unui triunghi echilateral?",
     "variante": [
-      "$|b-c|<a<b+c$",
-      "$a=b+c$",
-      "$a<|b-c|$",
-      "$a>b+c$"
+      "$60^\\circ$",
+      "$45^\\circ$",
+      "$30^\\circ$",
+      "$90^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "triunghiul-004",
     "tip": "simplu",
-    "intrebare": "Cu care laturi se poate construi un triunghi?",
+    "intrebare": "Ce are un triunghi isoscel?",
     "variante": [
-      "$1,\\ 2,\\ 3$",
-      "$2,\\ 3,\\ 6$",
-      "$3,\\ 4,\\ 5$",
-      "$3,\\ 3,\\ 7$"
+      "un unghi drept",
+      "trei laturi egale",
+      "două laturi egale",
+      "laturile diferite"
     ],
     "corect": 2
   },
   {
     "id": "triunghiul-005",
     "tip": "simplu",
-    "intrebare": "Ce laturi are triunghiul echilateral?",
+    "intrebare": "Într-un triunghi isoscel, unghiurile de la bază sunt:",
     "variante": [
-      "un unghi drept",
-      "doar două laturi egale",
-      "toate laturile diferite",
-      "toate laturile egale"
+      "diferite",
+      "complementare",
+      "suplementare",
+      "egale"
     ],
     "corect": 3
   },
   {
     "id": "triunghiul-006",
     "tip": "simplu",
-    "intrebare": "Ce laturi are triunghiul isoscel?",
+    "intrebare": "Un triunghi isoscel are unghiul de la vârf $40^\\circ$. Cât măsoară unghiurile de la bază?",
     "variante": [
-      "două laturi egale",
-      "toate laturile egale",
-      "un unghi obtuz mereu",
-      "toate laturile diferite"
+      "$70^\\circ$ și $70^\\circ$",
+      "$40^\\circ$ și $40^\\circ$",
+      "$50^\\circ$ și $90^\\circ$",
+      "$140^\\circ$ și $140^\\circ$"
     ],
     "corect": 0
   },
   {
     "id": "triunghiul-007",
     "tip": "simplu",
-    "intrebare": "Ce laturi are triunghiul scalen?",
+    "intrebare": "Care trei lungimi pot fi laturile unui triunghi?",
     "variante": [
-      "un unghi drept mereu",
-      "toate laturile diferite",
-      "două laturi egale",
-      "toate laturile egale"
+      "$2,2,6$",
+      "$3,4,5$",
+      "$3,4,8$",
+      "$1,2,5$"
     ],
     "corect": 1
   },
   {
     "id": "triunghiul-008",
     "tip": "simplu",
-    "intrebare": "Ce unghiuri are triunghiul obtuzunghic?",
+    "intrebare": "Inegalitatea triunghiului spune că:",
     "variante": [
-      "toate unghiurile egale cu $60^\\circ$",
-      "un unghi obtuz ($>90^\\circ$)",
-      "toate unghiurile ascuțite",
-      "un unghi drept"
+      "suma laturilor este $180$",
+      "suma a două laturi este mai mare decât a treia",
+      "suma a două laturi este egală cu a treia",
+      "toate laturile sunt egale"
     ],
     "corect": 1
   },
   {
     "id": "triunghiul-009",
     "tip": "simplu",
-    "intrebare": "Ce este mediana triunghiului?",
+    "intrebare": "Ce unește mediana?",
     "variante": [
-      "vârful cu un punct oarecare al laturii",
+      "două vârfuri",
       "vârful cu mijlocul laturii opuse",
-      "două mijloace de laturi",
-      "vârful cu piciorul perpendicularei pe latura opusă"
+      "mijloacele a două laturi",
+      "vârful cu latura opusă, perpendicular"
     ],
     "corect": 1
   },
@@ -113,57 +113,117 @@
     "intrebare": "Ce este înălțimea triunghiului?",
     "variante": [
       "perpendiculara din vârf pe latura opusă",
-      "perpendiculara în mijlocul unei laturi",
-      "segmentul din vârf la mijlocul laturii opuse",
-      "segmentul care împarte unghiul în două"
+      "bisectoarea unghiului",
+      "segmentul spre mijlocul laturii",
+      "latura cea mai mare"
     ],
     "corect": 0
   },
   {
     "id": "triunghiul-011",
     "tip": "simplu",
-    "intrebare": "Ce face bisectoarea triunghiului?",
+    "intrebare": "Ce unește linia mijlocie?",
     "variante": [
-      "este perpendiculară în mijlocul laturii",
-      "este perpendiculară pe latura opusă",
-      "împarte unghiul din vârf în două unghiuri egale",
-      "trece prin mijlocul laturii opuse mereu"
+      "vârful cu baza, perpendicular",
+      "două vârfuri",
+      "mijloacele a două laturi",
+      "vârful cu mijlocul laturii opuse"
     ],
     "corect": 2
   },
   {
     "id": "triunghiul-012",
     "tip": "simplu",
-    "intrebare": "Ce este mediatoarea unei laturi?",
+    "intrebare": "Linia mijlocie este egală cu:",
     "variante": [
-      "segmentul din vârf la mijlocul laturii",
-      "bisectoarea unghiului",
-      "perpendiculara în mijlocul laturii",
-      "perpendiculara din vârf pe latură"
+      "dublul laturii paralele",
+      "un sfert din latura paralelă",
+      "jumătate din latura paralelă cu ea",
+      "latura paralelă cu ea"
     ],
     "corect": 2
   },
   {
     "id": "triunghiul-013",
     "tip": "simplu",
-    "intrebare": "$B=50^\\circ$ și $C=60^\\circ$. Cât este unghiul exterior la $A$ (suma lor)?",
+    "intrebare": "Linia mijlocie este paralelă cu:",
     "variante": [
-      "$110^\\circ$",
-      "$10^\\circ$",
-      "$130^\\circ$",
-      "$70^\\circ$"
+      "a treia latură",
+      "o înălțime",
+      "nici una",
+      "o mediană"
     ],
     "corect": 0
   },
   {
     "id": "triunghiul-014",
     "tip": "simplu",
-    "intrebare": "Cât are fiecare unghi al triunghiului echilateral?",
+    "intrebare": "Baza unui triunghi este $10$. Cât este linia mijlocie paralelă cu ea?",
     "variante": [
-      "$45^\\circ$",
+      "$10$",
+      "$20$",
+      "$5$",
+      "$2{,}5$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-015",
+    "tip": "simplu",
+    "intrebare": "În ce raport împarte centrul de greutate $G$ mediana (de la vârf)?",
+    "variante": [
+      "$1:2$",
+      "$1:1$",
+      "$2:1$",
+      "$3:1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-016",
+    "tip": "simplu",
+    "intrebare": "Centrul de greutate este intersecția:",
+    "variante": [
+      "bisectoarelor",
+      "medianelor",
+      "mediatoarelor",
+      "înălțimilor"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-017",
+    "tip": "simplu",
+    "intrebare": "Un unghi exterior al triunghiului este egal cu:",
+    "variante": [
+      "$180^\\circ$",
       "$90^\\circ$",
-      "$60^\\circ$",
-      "$30^\\circ$"
+      "suma celor două unghiuri interioare neadiacente",
+      "unghiul interior adiacent"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-018",
+    "tip": "simplu",
+    "intrebare": "Cât este perimetrul triunghiului cu laturile $3,4,5$?",
+    "variante": [
+      "$7$",
+      "$60$",
+      "$12$",
+      "$6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-019",
+    "tip": "simplu",
+    "intrebare": "Un triunghi cu un unghi de $100^\\circ$ este:",
+    "variante": [
+      "dreptunghic",
+      "ascuțitunghic",
+      "obtuzunghic",
+      "echilateral"
     ],
     "corect": 2
   }

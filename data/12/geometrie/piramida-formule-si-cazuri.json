@@ -2,304 +2,193 @@
   {
     "id": "piramida-formule-si-cazuri-001",
     "tip": "simplu",
-    "intrebare": "Care este volumul unei piramide?",
+    "intrebare": "Cum se calculează volumul piramidei?",
     "variante": [
-      "$\\frac{P_b\\cdot H}{3}$",
-      "$\\frac{A_b\\cdot H}{2}$",
-      "$A_b\\cdot H$",
-      "$\\frac{A_b\\cdot H}{3}$"
+      "$V=P_b\\cdot h$",
+      "$V=\\frac{A_b\\cdot h}{2}$",
+      "$V=A_b\\cdot h$",
+      "$V=\\frac{A_b\\cdot h}{3}$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-002",
     "tip": "simplu",
-    "intrebare": "Ce bază are piramida regulată?",
+    "intrebare": "Cum se calculează aria laterală a piramidei regulate?",
     "variante": [
-      "un dreptunghi cu înălțimea în vârf",
-      "un triunghi oarecare",
-      "un poligon oarecare cu muchii laterale diferite",
-      "un poligon regulat, iar piciorul înălțimii e în centrul bazei"
+      "$A_l=\\frac{A_b\\cdot h}{3}$",
+      "$A_l=P_b\\cdot h$",
+      "$A_l=\\frac{P_b\\cdot a_p}{2}$",
+      "$A_l=P_b\\cdot a_p$"
     ],
-    "corect": 3
+    "corect": 2
   },
   {
     "id": "piramida-formule-si-cazuri-003",
     "tip": "simplu",
-    "intrebare": "Cum aflăm muchia laterală $l$ la piramida regulată?",
+    "intrebare": "Piramidă cu toate muchiile laterale egale: înălțimea cade în:",
     "variante": [
-      "$l^2=H^2-R^2$",
-      "$l^2=H^2+r^2$",
-      "$l=H+R$",
-      "$l^2=H^2+R^2$ ($R$ = raza cercului circumscris bazei)"
+      "mijlocul unei laturi",
+      "centrul cercului înscris în bază",
+      "vârful bazei",
+      "centrul cercului circumscris bazei"
     ],
     "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-004",
     "tip": "simplu",
-    "intrebare": "Cum aflăm apotema $a_p$ la piramida regulată?",
+    "intrebare": "Piramidă cu fețele laterale înclinate la fel față de bază: înălțimea cade în:",
     "variante": [
-      "$a_p^2=H^2-r^2$",
-      "$a_p^2=H^2+R^2$",
-      "$a_p=H+r$",
-      "$a_p^2=H^2+r^2$ ($r$ = raza cercului înscris bazei)"
+      "mijlocul unei laturi",
+      "centrul cercului circumscris bazei",
+      "vârful bazei",
+      "centrul cercului înscris în bază"
     ],
     "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-005",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a piramidei regulate?",
+    "intrebare": "Piramidă cu o muchie laterală perpendiculară pe bază: înălțimea este:",
     "variante": [
-      "$\\frac{P_b\\cdot a_p}{2}$",
-      "$\\frac{P_b\\cdot H}{2}$",
-      "$\\frac{A_b\\cdot a_p}{2}$",
-      "$P_b\\cdot a_p$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-006",
-    "tip": "simplu",
-    "intrebare": "Care este aria totală a piramidei regulate?",
-    "variante": [
-      "$A_l+2A_b$",
-      "$A_l\\cdot A_b$",
-      "$A_l-A_b$",
-      "$A_l+A_b$"
+      "nu există",
+      "apotema",
+      "diagonala bazei",
+      "chiar acea muchie"
     ],
     "corect": 3
   },
   {
+    "id": "piramida-formule-si-cazuri-006",
+    "tip": "simplu",
+    "intrebare": "Piramidă pătrulateră regulată: $a=8$, $h=3$. Cât este volumul?",
+    "variante": [
+      "$64$",
+      "$96$",
+      "$32$",
+      "$192$"
+    ],
+    "corect": 0
+  },
+  {
     "id": "piramida-formule-si-cazuri-007",
     "tip": "simplu",
-    "intrebare": "Pătrat de latură $a$: cât este raza cercului înscris $r$?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=8$, $h=3$. Cât este apotema piramidei?",
     "variante": [
-      "$\\frac{a\\sqrt{2}}{2}$",
-      "$a$",
-      "$\\frac{a\\sqrt{3}}{6}$",
-      "$\\frac{a}{2}$"
+      "$\\sqrt{73}$",
+      "$7$",
+      "$\\sqrt{19}$",
+      "$5$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-008",
     "tip": "simplu",
-    "intrebare": "Pătrat de latură $a$: cât este raza cercului circumscris $R$?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=8$, $a_p=5$. Cât este aria laterală?",
     "variante": [
-      "$a\\sqrt{2}$",
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt{2}}{2}$"
+      "$160$",
+      "$40$",
+      "$64$",
+      "$80$"
     ],
     "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-009",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $a$: cât este $r$?",
+    "intrebare": "Piramidă pătrulateră regulată: $a=8$, $a_p=5$. Cât este aria totală?",
     "variante": [
-      "$\\frac{a\\sqrt{3}}{6}$",
-      "$\\frac{a}{2}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a\\sqrt{3}}{3}$"
+      "$224$",
+      "$104$",
+      "$80$",
+      "$144$"
     ],
-    "corect": 0
+    "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-010",
     "tip": "simplu",
-    "intrebare": "Triunghi echilateral de latură $a$: cât este $R$?",
+    "intrebare": "Cum se află apotema piramidei din $h$ și apotema bazei?",
     "variante": [
-      "$\\frac{a}{3}$",
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a\\sqrt{3}}{6}$"
+      "$a_p=\\sqrt{h^2+a_b^2}$",
+      "$a_p=h\\cdot a_b$",
+      "$a_p=\\sqrt{h^2-a_b^2}$",
+      "$a_p=h+a_b$"
     ],
-    "corect": 1
+    "corect": 0
   },
   {
     "id": "piramida-formule-si-cazuri-011",
     "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $a$: cât este $r$?",
+    "intrebare": "Care este înălțimea tetraedrului regulat cu muchia $a$?",
     "variante": [
-      "$\\frac{a\\sqrt{3}}{3}$",
-      "$\\frac{a\\sqrt{3}}{2}$",
       "$\\frac{a}{2}$",
-      "$a$"
+      "$\\frac{a\\sqrt6}{3}$",
+      "$a\\sqrt2$",
+      "$\\frac{a\\sqrt3}{2}$"
     ],
     "corect": 1
   },
   {
     "id": "piramida-formule-si-cazuri-012",
     "tip": "simplu",
-    "intrebare": "Hexagon regulat de latură $a$: cât este $R$?",
+    "intrebare": "Care este volumul tetraedrului regulat cu muchia $a$?",
     "variante": [
-      "$2a$",
-      "$\\frac{a\\sqrt{3}}{2}$",
-      "$\\frac{a}{2}$",
-      "$a$"
+      "$a^3\\sqrt2$",
+      "$\\frac{a^3\\sqrt2}{12}$",
+      "$\\frac{a^3\\sqrt3}{4}$",
+      "$\\frac{a^3}{3}$"
     ],
-    "corect": 3
+    "corect": 1
   },
   {
     "id": "piramida-formule-si-cazuri-013",
     "tip": "simplu",
-    "intrebare": "Unde cade piciorul înălțimii dacă fețele laterale fac unghiuri egale cu baza (sau apotemele sunt egale)?",
+    "intrebare": "Cum sunt toate fețele tetraedrului regulat?",
     "variante": [
-      "un vârf al bazei",
-      "ortocentrul mereu",
-      "centrul cercului înscris bazei",
-      "centrul cercului circumscris"
+      "triunghiuri dreptunghice",
+      "pătrate",
+      "trapeze",
+      "triunghiuri echilaterale"
     ],
-    "corect": 2
+    "corect": 3
   },
   {
     "id": "piramida-formule-si-cazuri-014",
     "tip": "simplu",
-    "intrebare": "Unde cade piciorul înălțimii dacă muchiile laterale sunt egale (sau fac unghiuri egale cu baza)?",
+    "intrebare": "Cum se calculează aria totală a piramidei?",
     "variante": [
-      "centrul cercului înscris",
-      "centrul cercului circumscris bazei",
-      "un vârf al bazei",
-      "mijlocul unei laturi mereu"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-015",
-    "tip": "simplu",
-    "intrebare": "Fețele laterale fac același unghi $\\alpha$ cu baza. Cât este $\\operatorname{tg}\\alpha$?",
-    "variante": [
-      "$\\frac{H}{R}$",
-      "$\\frac{r}{H}$",
-      "$\\frac{R}{H}$",
-      "$\\frac{H}{r}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-016",
-    "tip": "simplu",
-    "intrebare": "Muchiile laterale sunt egale și fac unghiul $\\alpha$ cu baza. Cât este $\\operatorname{tg}\\alpha$?",
-    "variante": [
-      "$\\frac{H}{R}$",
-      "$\\frac{R}{H}$",
-      "$\\frac{H}{r}$",
-      "$\\frac{r}{H}$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-017",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului înscris într-un poligon? ($A_b$ aria, $p$ semiperimetrul)",
-    "variante": [
-      "$\\frac{A_b}{2p}$",
-      "$\\frac{p}{A_b}$",
-      "$A_b\\cdot p$",
-      "$\\frac{A_b}{p}$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-018",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului circumscris unui triunghi cu laturile $a,b,c$ și aria $S$?",
-    "variante": [
-      "$R=\\frac{abc}{S}$",
-      "$R=\\frac{abc}{4S}$",
-      "$R=\\frac{abc}{2S}$",
-      "$R=\\frac{4S}{abc}$"
-    ],
-    "corect": 1
-  },
-  {
-    "id": "piramida-formule-si-cazuri-019",
-    "tip": "simplu",
-    "intrebare": "Cât este raza cercului circumscris unui triunghi dreptunghic?",
-    "variante": [
-      "jumătate din ipotenuză",
-      "o treime din ipotenuză",
-      "ipotenuza",
-      "jumătate din o catetă"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-020",
-    "tip": "simplu",
-    "intrebare": "Care este aria laterală când fețele fac unghiul $\\alpha$ cu baza?",
-    "variante": [
-      "$\\frac{A_b}{\\cos\\alpha}$",
-      "$A_b\\operatorname{tg}\\alpha$",
-      "$\\frac{A_b}{\\sin\\alpha}$",
-      "$A_b\\cos\\alpha$"
-    ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-021",
-    "tip": "simplu",
-    "intrebare": "Secțiune paralelă cu baza, la distanța $h$ de vârf (înălțimea $H$, $k=\\frac{h}{H}$): cu cât se înmulțesc laturile?",
-    "variante": [
-      "$\\frac{1}{k}$",
-      "$k^2$",
-      "$k^3$",
-      "$k$"
-    ],
-    "corect": 3
-  },
-  {
-    "id": "piramida-formule-si-cazuri-022",
-    "tip": "simplu",
-    "intrebare": "La o secțiune paralelă cu baza (raport $k$): cu cât se înmulțesc ariile?",
-    "variante": [
-      "$2k$",
-      "$k$",
-      "$k^2$",
-      "$k^3$"
+      "$A_t=A_l-A_b$",
+      "$A_t=A_l\\cdot A_b$",
+      "$A_t=A_l+A_b$",
+      "$A_t=A_l+2A_b$"
     ],
     "corect": 2
   },
   {
-    "id": "piramida-formule-si-cazuri-023",
+    "id": "piramida-formule-si-cazuri-015",
     "tip": "simplu",
-    "intrebare": "La o secțiune paralelă cu baza (raport $k$): cu cât se înmulțesc volumele?",
+    "intrebare": "Unde cade înălțimea piramidei regulate?",
     "variante": [
-      "$k^2$",
-      "$k^3$",
-      "$3k$",
-      "$k$"
+      "într-un vârf al bazei",
+      "în centrul bazei",
+      "în afara bazei",
+      "la mijlocul unei laturi"
     ],
     "corect": 1
   },
   {
-    "id": "piramida-formule-si-cazuri-024",
+    "id": "piramida-formule-si-cazuri-016",
     "tip": "simplu",
-    "intrebare": "Care este volumul unui tetraedru cu trei muchii perpendiculare între ele, de lungimi $a,b,c$?",
+    "intrebare": "Piramida și prisma au aceeași bază și înălțime. Volumul piramidei este:",
     "variante": [
-      "$\\frac{abc}{6}$",
-      "$abc$",
-      "$\\frac{abc}{2}$",
-      "$\\frac{abc}{3}$"
+      "jumătate din al prismei",
+      "egal",
+      "dublu",
+      "o treime din al prismei"
     ],
-    "corect": 0
-  },
-  {
-    "id": "piramida-formule-si-cazuri-025",
-    "tip": "multiplu",
-    "intrebare": "Când coincide piciorul înălțimii cu centrul cercului circumscris bazei?",
-    "variante": [
-      "muchiile laterale sunt egale",
-      "fețele laterale fac unghiuri egale cu baza",
-      "muchiile laterale fac unghiuri egale cu baza",
-      "apotemele sunt egale"
-    ],
-    "corect": [
-      0,
-      2
-    ]
+    "corect": 3
   }
 ]

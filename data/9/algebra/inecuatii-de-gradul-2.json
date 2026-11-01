@@ -2,169 +2,217 @@
   {
     "id": "inecuatii-de-gradul-2-001",
     "tip": "simplu",
-    "intrebare": "Pentru $a>0$, unde este $f(x)>0$ (rădăcinile $x_1<x_2$)?",
+    "intrebare": "Primul pas la o inecuație de gradul $2$:",
     "variante": [
-      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$",
-      "$[x_1;x_2]$",
-      "$(x_1;x_2)$",
-      "$\\mathbb{R}$"
+      "aflăm rădăcinile ecuației asociate",
+      "împărțim la $x$",
+      "o derivăm",
+      "o ridicăm la pătrat"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-2-002",
     "tip": "simplu",
-    "intrebare": "Pentru $a>0$, unde este $f(x)<0$?",
+    "intrebare": "Dacă $a>0$, funcția de gradul $2$ este pozitivă:",
     "variante": [
-      "$\\mathbb{R}$",
-      "$\\varnothing$",
-      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$",
-      "$(x_1;x_2)$"
+      "niciodată",
+      "doar în rădăcini",
+      "între rădăcini",
+      "în afara rădăcinilor"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-de-gradul-2-003",
     "tip": "simplu",
-    "intrebare": "Pentru $a<0$, unde este $f(x)>0$?",
+    "intrebare": "Dacă $a>0$, funcția de gradul $2$ este negativă:",
     "variante": [
-      "$\\varnothing$",
-      "$\\mathbb{R}$",
-      "$(x_1;x_2)$",
-      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$"
+      "niciodată",
+      "peste tot",
+      "între rădăcini",
+      "în afara rădăcinilor"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-2-004",
     "tip": "simplu",
-    "intrebare": "Cum este parabola când $a>0$?",
+    "intrebare": "Dacă $a<0$, funcția de gradul $2$ este pozitivă:",
     "variante": [
-      "ramuri orizontale",
-      "față tristă (ramuri în jos)",
-      "față zâmbitoare (ramuri în sus)",
-      "o singură ramură"
+      "peste tot",
+      "în afara rădăcinilor",
+      "între rădăcini",
+      "niciodată"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-2-005",
     "tip": "simplu",
-    "intrebare": "În ce ordine rezolvăm o inecuație de gradul II?",
+    "intrebare": "Rezolvă: $x^2-4>0$.",
     "variante": [
-      "desenăm parabola → aducem la formă → aflăm $x_1,x_2$",
-      "citim intervalul → aflăm rădăcinile",
-      "aflăm rădăcinile → schimbăm sensul",
-      "aducem la forma $ax^2+bx+c\\gtrless0$ → aflăm rădăcinile → desenăm parabola → citim intervalul"
+      "$(-2;2)$",
+      "$(2;+\\infty)$",
+      "$(-\\infty;2)$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-de-gradul-2-006",
     "tip": "simplu",
-    "intrebare": "Ce semn are $f$ când $\\Delta<0$ și $a>0$?",
+    "intrebare": "Rezolvă: $x^2-4<0$.",
     "variante": [
-      "$f(x)>0$ pentru orice $x$",
-      "$f(x)<0$ pentru orice $x$",
-      "$f(x)=0$ pentru orice $x$",
-      "$f(x)>0$ doar pentru $x>0$"
+      "$(-2;2)$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$(2;+\\infty)$",
+      "$(-\\infty;2)$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-2-007",
     "tip": "simplu",
-    "intrebare": "Ce semn are $f$ când $\\Delta<0$ și $a<0$?",
+    "intrebare": "Rezolvă: $x^2-5x+6<0$.",
     "variante": [
-      "$f(x)<0$ pentru orice $x$",
-      "$f(x)>0$ pentru orice $x$",
-      "$f(x)=0$ pentru orice $x$",
-      "nu putem spune nimic"
+      "$(2;3)$",
+      "$(-\\infty;2)\\cup(3;+\\infty)$",
+      "$(-3;-2)$",
+      "$(2;+\\infty)$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-2-008",
     "tip": "simplu",
-    "intrebare": "Ce semne are $f$ (de la stânga la dreapta) când $a>0$ și $\\Delta>0$?",
+    "intrebare": "Rezolvă: $x^2-5x+6>0$.",
     "variante": [
-      "$+\\ +\\ +$",
-      "$+\\ -\\ -$",
-      "$+\\ -\\ +$",
-      "$-\\ +\\ -$"
+      "$(-3;-2)$",
+      "$(3;+\\infty)$",
+      "$(-\\infty;2)\\cup(3;+\\infty)$",
+      "$(2;3)$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-2-009",
     "tip": "simplu",
-    "intrebare": "Rezolvă $x^2-4>0$.",
+    "intrebare": "Rezolvă: $x^2-1\\geq0$.",
     "variante": [
-      "$[-2;2]$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$",
-      "$(2;+\\infty)$",
-      "$(-2;2)$"
+      "$(-\\infty;-1)\\cup(1;+\\infty)$",
+      "$(-\\infty;-1]\\cup[1;+\\infty)$",
+      "$[-1;1]$",
+      "$(-1;1)$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-2-010",
     "tip": "simplu",
-    "intrebare": "Rezolvă $x^2-4<0$.",
+    "intrebare": "Rezolvă: $x^2-3x>0$.",
     "variante": [
-      "$\\varnothing$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$",
-      "$(-2;2)$",
-      "$(-\\infty;2)$"
+      "$(0;+\\infty)$",
+      "$(0;3)$",
+      "$(-\\infty;0)\\cup(3;+\\infty)$",
+      "$(-\\infty;3)$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-2-011",
     "tip": "simplu",
-    "intrebare": "Rezolvă $x^2-5x+6\\le0$.",
+    "intrebare": "Rezolvă: $x^2-9\\leq0$.",
     "variante": [
-      "$(-\\infty;2]\\cup[3;+\\infty)$",
-      "$[2;3]$",
-      "$(2;3)$",
-      "$[-3;-2]$"
+      "$(-\\infty;-3]\\cup[3;+\\infty)$",
+      "$[-3;3]$",
+      "$(-3;3)$",
+      "$[0;3]$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-2-012",
     "tip": "simplu",
-    "intrebare": "Rezolvă $x^2+1>0$.",
+    "intrebare": "Rezolvă: $-x^2+4>0$.",
     "variante": [
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
       "$\\varnothing$",
-      "$\\{-1,1\\}$",
-      "$(0;+\\infty)$",
-      "$\\mathbb{R}$"
+      "$\\mathbb{R}$",
+      "$(-2;2)$"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-de-gradul-2-013",
     "tip": "simplu",
-    "intrebare": "Rezolvă $-x^2+4>0$.",
+    "intrebare": "Rezolvă: $(x-1)(x-4)<0$.",
     "variante": [
-      "$\\varnothing$",
-      "$(-2;2)$",
-      "$\\mathbb{R}$",
-      "$(-\\infty;-2)\\cup(2;+\\infty)$"
+      "$(1;+\\infty)$",
+      "$(1;4)$",
+      "$(-4;-1)$",
+      "$(-\\infty;1)\\cup(4;+\\infty)$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-2-014",
     "tip": "simplu",
-    "intrebare": "Când este $\\frac AB>0$?",
+    "intrebare": "Rezolvă: $x^2+1>0$.",
     "variante": [
-      "$A>0$ doar",
-      "$A\\cdot B<0$",
-      "$A\\cdot B>0$ (și $B\\neq0$)",
-      "$A+B>0$"
+      "$(0;+\\infty)$",
+      "$(-1;1)$",
+      "$\\mathbb{R}$",
+      "$\\varnothing$"
     ],
     "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-2-015",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $x^2\\geq0$.",
+    "variante": [
+      "$\\mathbb{R}$",
+      "$\\{0\\}$",
+      "$(0;+\\infty)$",
+      "$\\varnothing$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-2-016",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $x^2\\leq0$.",
+    "variante": [
+      "$\\{0\\}$",
+      "$(-\\infty;0)$",
+      "$\\varnothing$",
+      "$\\mathbb{R}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-2-017",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $x^2<0$.",
+    "variante": [
+      "$\\{0\\}$",
+      "$\\varnothing$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;0)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-2-018",
+    "tip": "simplu",
+    "intrebare": "Rezolvă: $x^2-2x+1\\geq0$.",
+    "variante": [
+      "$\\varnothing$",
+      "$(1;+\\infty)$",
+      "$\\{1\\}$",
+      "$\\mathbb{R}$"
+    ],
+    "corect": 3
   }
 ]

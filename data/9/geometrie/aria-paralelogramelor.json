@@ -2,169 +2,181 @@
   {
     "id": "aria-paralelogramelor-001",
     "tip": "simplu",
-    "intrebare": "Care sunt aria și perimetrul dreptunghiului ($L,l$)?",
+    "intrebare": "Cum se calculează aria dreptunghiului cu laturile $L$ și $l$?",
     "variante": [
-      "$S=L+l$ ; $P=L\\cdot l$",
-      "$S=L\\cdot l$ ; $P=2(L+l)$",
-      "$S=2(L+l)$ ; $P=L\\cdot l$",
-      "$S=\\frac{L\\cdot l}{2}$ ; $P=L+l$"
+      "$2(L+l)$",
+      "$L\\cdot l$",
+      "$L+l$",
+      "$\\frac{L\\cdot l}{2}$"
     ],
     "corect": 1
   },
   {
     "id": "aria-paralelogramelor-002",
     "tip": "simplu",
-    "intrebare": "Care sunt aria și perimetrul pătratului de latură $l$?",
+    "intrebare": "Cât este aria dreptunghiului cu laturile $3$ și $5$?",
     "variante": [
-      "$S=l^2$ ; $P=4l$",
-      "$S=2l$ ; $P=l^2$",
-      "$S=4l$ ; $P=l^2$",
-      "$S=l^2$ ; $P=2l$"
+      "$15$",
+      "$16$",
+      "$8$",
+      "$30$"
     ],
     "corect": 0
   },
   {
     "id": "aria-paralelogramelor-003",
     "tip": "simplu",
-    "intrebare": "Care este aria paralelogramului?",
+    "intrebare": "Cât este perimetrul dreptunghiului cu laturile $3$ și $5$?",
     "variante": [
-      "$S=b\\cdot h$",
-      "$S=\\frac{b\\cdot h}{2}$",
-      "$S=b+h$",
-      "$S=2(b+h)$"
+      "$16$",
+      "$15$",
+      "$8$",
+      "$30$"
     ],
     "corect": 0
   },
   {
     "id": "aria-paralelogramelor-004",
     "tip": "simplu",
-    "intrebare": "Care este aria rombului cu diagonalele $d_1,d_2$?",
+    "intrebare": "Cum se calculează aria pătratului cu latura $a$?",
     "variante": [
-      "$S=\\frac{d_1\\cdot d_2}{2}$",
-      "$S=d_1+d_2$",
-      "$S=d_1\\cdot d_2$",
-      "$S=\\frac{d_1+d_2}{2}$"
+      "$a^2$",
+      "$2a$",
+      "$4a$",
+      "$a^3$"
     ],
     "corect": 0
   },
   {
     "id": "aria-paralelogramelor-005",
     "tip": "simplu",
-    "intrebare": "Care este aria rombului cu latura $l$ și înălțimea $h$?",
+    "intrebare": "Cât este aria pătratului cu latura $6$?",
     "variante": [
-      "$S=4l$",
-      "$S=l\\cdot h$",
-      "$S=l^2\\cdot h$",
-      "$S=\\frac{l\\cdot h}{2}$"
+      "$6$",
+      "$36$",
+      "$12$",
+      "$24$"
     ],
     "corect": 1
   },
   {
     "id": "aria-paralelogramelor-006",
     "tip": "simplu",
-    "intrebare": "Cât este $1\\ \\mathrm{m}^2$ în alte unități?",
+    "intrebare": "Un pătrat are perimetrul $20$. Cât este aria lui?",
     "variante": [
-      "$100\\ \\mathrm{cm}^2$",
-      "$10\\ \\mathrm{dm}^2=100\\ \\mathrm{cm}^2$",
-      "$1000\\ \\mathrm{dm}^2$",
-      "$100\\ \\mathrm{dm}^2=10\\,000\\ \\mathrm{cm}^2$"
+      "$100$",
+      "$5$",
+      "$20$",
+      "$25$"
     ],
     "corect": 3
   },
   {
     "id": "aria-paralelogramelor-007",
     "tip": "simplu",
-    "intrebare": "Cât este $1\\ \\mathrm{ha}$?",
+    "intrebare": "Cât este aria pătratului cu diagonala $d=4$?",
     "variante": [
-      "$1000\\ \\mathrm{m}^2$",
-      "$10\\,000\\ \\mathrm{m}^2$",
-      "$1\\,000\\,000\\ \\mathrm{m}^2$",
-      "$100\\ \\mathrm{m}^2$"
+      "$4$",
+      "$8$",
+      "$2$",
+      "$16$"
     ],
     "corect": 1
   },
   {
     "id": "aria-paralelogramelor-008",
     "tip": "simplu",
-    "intrebare": "Ce arii au figurile congruente?",
+    "intrebare": "Cum se calculează aria paralelogramului?",
     "variante": [
-      "arii diferite",
-      "arii proporționale",
-      "perimetre diferite",
-      "arii egale"
+      "$2(b+h)$",
+      "$\\frac{b\\cdot h}{2}$",
+      "$b+h$",
+      "$b\\cdot h$"
     ],
     "corect": 3
   },
   {
     "id": "aria-paralelogramelor-009",
     "tip": "simplu",
-    "intrebare": "Cum aflăm aria unei figuri formate din mai multe părți?",
+    "intrebare": "Un paralelogram are baza $8$ și înălțimea $3$. Cât este aria?",
     "variante": [
-      "produsul ariilor părților",
-      "media ariilor",
-      "diferența ariilor",
-      "suma ariilor părților ei"
+      "$12$",
+      "$48$",
+      "$11$",
+      "$24$"
     ],
     "corect": 3
   },
   {
     "id": "aria-paralelogramelor-010",
     "tip": "simplu",
-    "intrebare": "Cum este înălțimea paralelogramului față de bază?",
+    "intrebare": "Cum se calculează aria rombului din diagonale?",
     "variante": [
-      "egală cu latura",
-      "perpendiculară pe bază",
-      "paralelă cu baza",
-      "oblică față de bază"
+      "$d_1+d_2$",
+      "$\\frac{d_1\\cdot d_2}{2}$",
+      "$d_1\\cdot d_2$",
+      "$\\frac{d_1+d_2}{2}$"
     ],
     "corect": 1
   },
   {
     "id": "aria-paralelogramelor-011",
     "tip": "simplu",
-    "intrebare": "Dreptunghi cu dimensiunile $12$ și $3$: cât este aria?",
+    "intrebare": "Un romb are diagonalele $6$ și $8$. Cât este aria?",
     "variante": [
-      "$15$",
-      "$30$",
-      "$18$",
-      "$36$"
+      "$14$",
+      "$48$",
+      "$7$",
+      "$24$"
     ],
     "corect": 3
   },
   {
     "id": "aria-paralelogramelor-012",
     "tip": "simplu",
-    "intrebare": "Romb cu diagonalele $6$ și $8$: cât este aria?",
+    "intrebare": "Un romb are diagonalele $6$ și $8$. Cât este latura?",
     "variante": [
-      "$28$",
-      "$24$",
       "$14$",
-      "$48$"
+      "$5$",
+      "$7$",
+      "$10$"
     ],
     "corect": 1
   },
   {
     "id": "aria-paralelogramelor-013",
     "tip": "simplu",
-    "intrebare": "Paralelogram cu baza $10$ și înălțimea $4$: cât este aria?",
+    "intrebare": "Cum se calculează aria paralelogramului cu laturile $a,b$ și unghiul $\\alpha$?",
     "variante": [
-      "$14$",
-      "$28$",
-      "$40$",
-      "$20$"
+      "$\\frac{a\\cdot b}{2}$",
+      "$a+b+\\sin\\alpha$",
+      "$a\\cdot b\\cdot\\sin\\alpha$",
+      "$a\\cdot b\\cdot\\cos\\alpha$"
     ],
     "corect": 2
   },
   {
     "id": "aria-paralelogramelor-014",
     "tip": "simplu",
-    "intrebare": "Pătrat cu perimetrul $20$: cât este aria?",
+    "intrebare": "Un paralelogram are laturile $4$ și $5$ și unghiul de $30^\\circ$. Cât este aria?",
     "variante": [
-      "$25$",
-      "$100$",
-      "$5$",
-      "$20$"
+      "$10$",
+      "$20$",
+      "$9$",
+      "$5$"
     ],
     "corect": 0
+  },
+  {
+    "id": "aria-paralelogramelor-015",
+    "tip": "simplu",
+    "intrebare": "Înălțimea paralelogramului este față de bază:",
+    "variante": [
+      "egală",
+      "perpendiculară",
+      "oblică",
+      "paralelă"
+    ],
+    "corect": 1
   }
 ]

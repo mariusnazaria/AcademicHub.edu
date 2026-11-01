@@ -2,169 +2,196 @@
   {
     "id": "inecuatii-de-gradul-1-001",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $[a;b]$?",
+    "intrebare": "Rezolvă: $3x>9$.",
     "variante": [
-      "$x<b$",
-      "$a\\le x\\le b$",
-      "$a<x<b$",
-      "$x\\ge a$"
+      "$x>6$",
+      "$x>3$",
+      "$x<3$",
+      "$x>27$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-002",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $(a;b)$?",
+    "intrebare": "Rezolvă: $-2x>6$.",
     "variante": [
-      "$a\\le x\\le b$",
-      "$a<x<b$",
-      "$x\\ge a$",
-      "$x\\le b$"
+      "$x>-3$",
+      "$x<-3$",
+      "$x>3$",
+      "$x<3$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-003",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $[a;+\\infty)$?",
+    "intrebare": "Ce facem cu semnul inegalității când împărțim la un număr negativ?",
     "variante": [
-      "$x\\ge a$",
-      "$a\\le x\\le+\\infty$",
-      "$x\\le a$",
-      "$x>a$"
+      "îl schimbăm",
+      "îl dublăm",
+      "îl anulăm",
+      "îl păstrăm"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-1-004",
     "tip": "simplu",
-    "intrebare": "Ce înseamnă $(-\\infty;b)$?",
+    "intrebare": "Rezolvă: $x+2\\leq5$.",
     "variante": [
-      "$x\\ge b$",
-      "$x>b$",
-      "$x<b$",
-      "$x\\le b$"
+      "$x<3$",
+      "$x\\leq7$",
+      "$x\\leq3$",
+      "$x\\geq3$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-1-005",
     "tip": "simplu",
-    "intrebare": "Ce arată paranteza rotundă la capătul unui interval?",
+    "intrebare": "Rezolvă: $2x-1<5$.",
     "variante": [
-      "capătul este $0$",
-      "capătul este exclus",
-      "capătul este inclus",
-      "intervalul este gol"
+      "$x<2$",
+      "$x<3$",
+      "$x>3$",
+      "$x<9$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-006",
     "tip": "simplu",
-    "intrebare": "Ce facem când împărțim o inecuație la un număr negativ?",
+    "intrebare": "Rezolvă: $\\frac x3\\geq2$.",
     "variante": [
-      "schimbăm semnul termenului liber",
-      "schimbăm sensul inegalității",
-      "o transformăm în ecuație",
-      "păstrăm sensul"
+      "$x\\geq5$",
+      "$x\\geq6$",
+      "$x\\geq\\frac23$",
+      "$x\\leq6$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-007",
     "tip": "simplu",
-    "intrebare": "Rezolvă $-2x>6$.",
+    "intrebare": "Rezolvă: $-x<4$.",
     "variante": [
-      "$x<-3$",
-      "$x>-3$",
-      "$x<3$",
-      "$x>3$"
+      "$x>-4$",
+      "$x<-4$",
+      "$x>4$",
+      "$x<4$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-1-008",
     "tip": "simplu",
-    "intrebare": "Ce paranteză punem la $\\pm\\infty$?",
+    "intrebare": "Rezolvă: $5x\\leq-10$.",
     "variante": [
-      "acoladă",
-      "rotundă",
-      "dreaptă (pătrată)",
-      "oricare"
+      "$x\\leq2$",
+      "$x\\leq-2$",
+      "$x\\geq-2$",
+      "$x\\leq-50$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-009",
     "tip": "simplu",
-    "intrebare": "Cum aflăm soluția unui sistem de inecuații?",
+    "intrebare": "Rezolvă: $-3x\\leq9$.",
     "variante": [
-      "diferența intervalelor",
-      "reuniunea intervalelor soluție",
-      "intersecția ($\\cap$) intervalelor soluție",
-      "suma intervalelor"
+      "$x\\geq3$",
+      "$x\\leq-3$",
+      "$x\\geq-3$",
+      "$x\\geq-27$"
     ],
     "corect": 2
   },
   {
     "id": "inecuatii-de-gradul-1-010",
     "tip": "simplu",
-    "intrebare": "Rezolvă sistemul $\\begin{cases}x>-1\\\\x\\le3\\end{cases}$",
+    "intrebare": "Rezolvă: $4x-3>1$.",
     "variante": [
-      "$(-1;3]$",
-      "$[-1;3)$",
-      "$[-1;3]$",
-      "$(-1;3)$"
+      "$x>1$",
+      "$x<1$",
+      "$x>\\frac12$",
+      "$x>-1$"
     ],
     "corect": 0
   },
   {
     "id": "inecuatii-de-gradul-1-011",
     "tip": "simplu",
-    "intrebare": "Rezolvă $2x-4>0$.",
+    "intrebare": "Rezolvă: $-2x<-8$.",
     "variante": [
-      "$(-2;+\\infty)$",
-      "$[2;+\\infty)$",
-      "$(-\\infty;2)$",
-      "$(2;+\\infty)$"
+      "$x<-4$",
+      "$x<4$",
+      "$x>-4$",
+      "$x>4$"
     ],
     "corect": 3
   },
   {
     "id": "inecuatii-de-gradul-1-012",
     "tip": "simplu",
-    "intrebare": "Rezolvă $-3x\\le9$.",
+    "intrebare": "Rezolvă: $x-3\\geq0$.",
     "variante": [
-      "$[3;+\\infty)$",
-      "$[-3;+\\infty)$",
-      "$(-\\infty;-3]$",
-      "$(-3;+\\infty)$"
+      "$x\\geq-3$",
+      "$x\\geq3$",
+      "$x\\leq3$",
+      "$x>3$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-013",
     "tip": "simplu",
-    "intrebare": "Rezolvă sistemul $\\begin{cases}x>2\\\\x<1\\end{cases}$",
+    "intrebare": "Cum scriem soluția $x>3$ ca interval?",
     "variante": [
-      "$S=\\mathbb{R}$",
-      "$S=\\varnothing$",
-      "$S=(1;2)$",
-      "$S=(2;+\\infty)$"
+      "$(-\\infty;3]$",
+      "$(3;+\\infty)$",
+      "$[3;+\\infty)$",
+      "$(-\\infty;3)$"
     ],
     "corect": 1
   },
   {
     "id": "inecuatii-de-gradul-1-014",
     "tip": "simplu",
-    "intrebare": "În ce ordine rezolvăm o inecuație de gradul I?",
+    "intrebare": "Cum scriem soluția $x\\geq2$ ca interval?",
     "variante": [
-      "împărțim → schimbăm sensul mereu → scriem",
-      "scriem intervalul → rezolvăm → împărțim",
-      "rezolvăm ca o ecuație → împărțim la coeficientul lui $x$ (atenție la semn!) → scriem soluția ca interval",
-      "rezolvăm → scriem soluția fără interval"
+      "$(2;+\\infty)$",
+      "$(-\\infty;2]$",
+      "$[2;+\\infty)$",
+      "$(-\\infty;2)$"
     ],
     "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-1-015",
+    "tip": "simplu",
+    "intrebare": "Cum scriem soluția $x<-1$ ca interval?",
+    "variante": [
+      "$(-\\infty;-1)$",
+      "$[-1;+\\infty)$",
+      "$(-\\infty;-1]$",
+      "$(-1;+\\infty)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-1-016",
+    "tip": "multiplu",
+    "intrebare": "Care inecuații au soluția $x>2$?",
+    "variante": [
+      "$\\frac x2<1$",
+      "$-x>2$",
+      "$x+1>3$",
+      "$3x>6$"
+    ],
+    "corect": [
+      2,
+      3
+    ]
   }
 ]

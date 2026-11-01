@@ -2,161 +2,193 @@
   {
     "id": "conul-001",
     "tip": "simplu",
-    "intrebare": "Cum aflăm generatoarea conului? $G^2=?$",
+    "intrebare": "Cum se calculează volumul conului?",
     "variante": [
-      "$R^2+h^2$",
-      "$(R+h)^2$",
-      "$R^2-h^2$",
-      "$R+h$"
+      "$V=\\frac{\\pi R^2h}{3}$",
+      "$V=\\frac{\\pi Rh}{3}$",
+      "$V=\\pi R^2h$",
+      "$V=\\frac{\\pi R^2g}{3}$"
     ],
     "corect": 0
   },
   {
     "id": "conul-002",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a conului?",
+    "intrebare": "Cum se calculează aria laterală a conului?",
     "variante": [
-      "$\\pi R G$",
-      "$\\pi R^2G$",
-      "$2\\pi R G$",
-      "$\\pi R h$"
+      "$A_l=\\pi Rg$",
+      "$A_l=\\pi Rh$",
+      "$A_l=2\\pi Rg$",
+      "$A_l=\\pi R^2$"
     ],
     "corect": 0
   },
   {
     "id": "conul-003",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a conului?",
+    "intrebare": "Cum se calculează aria totală a conului?",
     "variante": [
-      "$\\pi R(R+G)$",
-      "$\\pi R(R+h)$",
-      "$\\pi R G$",
-      "$2\\pi R(R+G)$"
+      "$A_t=\\pi R(R+g)$",
+      "$A_t=\\pi Rg$",
+      "$A_t=\\pi R^2g$",
+      "$A_t=2\\pi R(R+g)$"
     ],
     "corect": 0
   },
   {
     "id": "conul-004",
     "tip": "simplu",
-    "intrebare": "Care este volumul conului?",
+    "intrebare": "Ce relație leagă $g$, $R$ și $h$?",
     "variante": [
-      "$\\frac{\\pi R^2G}{3}$",
-      "$\\frac{\\pi Rh}{3}$",
-      "$\\frac{\\pi R^2h}{3}$",
-      "$\\pi R^2h$"
+      "$h^2=R^2+g^2$",
+      "$R^2=g^2+h^2$",
+      "$g^2=R^2+h^2$",
+      "$g=R+h$"
     ],
     "corect": 2
   },
   {
     "id": "conul-005",
     "tip": "simplu",
-    "intrebare": "Ce este secțiunea axială a conului?",
+    "intrebare": "Con cu $R=5$, $h=12$. Cât este $g$?",
     "variante": [
-      "un dreptunghi",
-      "un triunghi isoscel cu baza $2R$ și laturile egale $G$",
-      "un triunghi echilateral mereu",
-      "un trapez isoscel"
+      "$17$",
+      "$13$",
+      "$169$",
+      "$7$"
     ],
     "corect": 1
   },
   {
     "id": "conul-006",
     "tip": "simplu",
-    "intrebare": "Secțiune paralelă cu baza, la înălțimea $h_1$ față de vârf ($H$ înălțimea conului): cât este $\\frac{r}{R}$?",
+    "intrebare": "Con cu $R=5$, $h=12$. Cât este volumul?",
     "variante": [
-      "$\\frac{H}{h_1}$",
-      "$\\frac{h_1}{R}$",
-      "$\\frac{h_1}{H}$",
-      "$\\left(\\frac{h_1}{H}\\right)^2$"
+      "$60\\pi$",
+      "$325\\pi$",
+      "$100\\pi$",
+      "$300\\pi$"
     ],
     "corect": 2
   },
   {
     "id": "conul-007",
     "tip": "simplu",
-    "intrebare": "La o secțiune paralelă cu baza, cât este raportul ariilor?",
+    "intrebare": "Con cu $R=5$, $g=13$. Cât este aria laterală?",
     "variante": [
-      "$\\frac{H}{h_1}$",
-      "$\\left(\\frac{h_1}{H}\\right)^2$",
-      "$\\left(\\frac{h_1}{H}\\right)^3$",
-      "$\\frac{h_1}{H}$"
+      "$60\\pi$",
+      "$65\\pi$",
+      "$25\\pi$",
+      "$130\\pi$"
     ],
     "corect": 1
   },
   {
     "id": "conul-008",
     "tip": "simplu",
-    "intrebare": "La o secțiune paralelă cu baza, cât este raportul volumelor?",
+    "intrebare": "Con cu $R=5$, $g=13$. Cât este aria totală?",
     "variante": [
-      "$\\frac{H}{h_1}$",
-      "$\\left(\\frac{h_1}{H}\\right)^2$",
-      "$\\left(\\frac{h_1}{H}\\right)^3$",
-      "$\\frac{h_1}{H}$"
+      "$38\\pi$",
+      "$180\\pi$",
+      "$90\\pi$",
+      "$65\\pi$"
     ],
     "corect": 2
   },
   {
     "id": "conul-009",
     "tip": "simplu",
-    "intrebare": "Ce este dezvoltarea laterală a conului?",
+    "intrebare": "Con echilateral înseamnă:",
     "variante": [
-      "un cerc de rază $R$",
-      "un sector de rază $R$ și arc $2\\pi G$",
-      "un sector de cerc de rază $G$ și arc $2\\pi R$",
-      "un dreptunghi $2\\pi R\\times G$"
+      "$g=h$",
+      "$h=2R$",
+      "$g=2R$",
+      "$g=R$"
     ],
     "corect": 2
   },
   {
     "id": "conul-010",
     "tip": "simplu",
-    "intrebare": "Cât este unghiul sectorului din dezvoltarea laterală a conului?",
+    "intrebare": "Con echilateral cu $R=2$. Cât este înălțimea?",
     "variante": [
-      "$360^\\circ\\cdot\\frac{R}{h}$",
-      "$360^\\circ\\cdot\\frac{G}{R}$",
-      "$180^\\circ\\cdot\\frac{R}{G}$",
-      "$360^\\circ\\cdot\\frac{R}{G}$"
+      "$\\sqrt3$",
+      "$4$",
+      "$2$",
+      "$2\\sqrt3$"
     ],
     "corect": 3
   },
   {
     "id": "conul-011",
     "tip": "simplu",
-    "intrebare": "Con cu $R=3$ și $h=4$: cât este generatoarea $G$?",
+    "intrebare": "Cum arată secțiunea axială a conului?",
     "variante": [
-      "$\\sqrt{7}$",
-      "$12$",
-      "$7$",
-      "$5$"
+      "cerc",
+      "trapez",
+      "dreptunghi",
+      "triunghi isoscel"
     ],
     "corect": 3
   },
   {
     "id": "conul-012",
     "tip": "simplu",
-    "intrebare": "Ce are conul echilateral?",
+    "intrebare": "Cum arată secțiunea conului cu un plan paralel cu baza?",
     "variante": [
-      "$G=R$",
-      "$G=\\pi R$",
-      "$h=R$",
-      "secțiunea axială triunghi echilateral ($G=2R$)"
+      "triunghi",
+      "elipsă mai mare",
+      "dreptunghi",
+      "cerc mai mic"
     ],
     "corect": 3
   },
   {
     "id": "conul-013",
-    "tip": "multiplu",
-    "intrebare": "Care afirmații sunt corecte pentru con?",
+    "tip": "simplu",
+    "intrebare": "Cum arată desfășurata laterală a conului?",
     "variante": [
-      "$A_l=2\\pi RG$",
-      "$G^2=R^2+h^2$",
-      "$V=\\frac{\\pi R^2h}{3}$",
-      "$A_l=\\pi RG$"
+      "triunghi",
+      "sector de cerc",
+      "cerc întreg",
+      "dreptunghi"
     ],
-    "corect": [
-      1,
-      2,
-      3
-    ]
+    "corect": 1
+  },
+  {
+    "id": "conul-014",
+    "tip": "simplu",
+    "intrebare": "Volumul conului față de al cilindrului cu aceeași bază și înălțime este:",
+    "variante": [
+      "jumătate",
+      "dublu",
+      "o treime",
+      "egal"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-015",
+    "tip": "simplu",
+    "intrebare": "Cum se obține conul prin rotire?",
+    "variante": [
+      "rotim un semicerc",
+      "rotim un triunghi echilateral în jurul unei laturi",
+      "rotim un triunghi dreptunghic în jurul unei catete",
+      "rotim un dreptunghi în jurul unei laturi"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-016",
+    "tip": "simplu",
+    "intrebare": "Raza sectorului din desfășurata laterală a conului este:",
+    "variante": [
+      "generatoarea $g$",
+      "$2R$",
+      "înălțimea $h$",
+      "raza bazei $R$"
+    ],
+    "corect": 0
   }
 ]

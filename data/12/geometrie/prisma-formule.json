@@ -2,149 +2,193 @@
   {
     "id": "prisma-formule-001",
     "tip": "simplu",
-    "intrebare": "Cât este $d^2$ pentru diagonala paralelipipedului dreptunghic cu dimensiunile $a,b,c$?",
+    "intrebare": "Cum se calculează volumul prismei?",
     "variante": [
-      "$(a+b+c)^2$",
-      "$a^2+b^2+c^2$",
-      "$a^2+b^2$",
-      "$abc$"
+      "$V=P_b\\cdot h$",
+      "$V=A_b\\cdot h$",
+      "$V=\\frac{A_b\\cdot h}{3}$",
+      "$V=A_b+h$"
     ],
     "corect": 1
   },
   {
     "id": "prisma-formule-002",
     "tip": "simplu",
-    "intrebare": "Cât este diagonala cubului de latură $a$?",
+    "intrebare": "Cum se calculează aria laterală a prismei drepte?",
     "variante": [
-      "$a^2\\sqrt{3}$",
-      "$a\\sqrt{2}$",
-      "$a\\sqrt{3}$",
-      "$3a$"
+      "$A_l=\\frac{P_b\\cdot h}{2}$",
+      "$A_l=A_b\\cdot h$",
+      "$A_l=P_b\\cdot h$",
+      "$A_l=2A_b$"
     ],
     "corect": 2
   },
   {
     "id": "prisma-formule-003",
     "tip": "simplu",
-    "intrebare": "Cât este diagonala unei fețe a cubului de latură $a$?",
+    "intrebare": "Cum se calculează aria totală a prismei?",
     "variante": [
-      "$a\\sqrt{2}$",
-      "$\\frac{a\\sqrt{2}}{2}$",
-      "$a\\sqrt{3}$",
-      "$2a$"
+      "$A_t=A_l+2A_b$",
+      "$A_t=2A_l+A_b$",
+      "$A_t=A_l+A_b$",
+      "$A_t=A_l\\cdot A_b$"
     ],
     "corect": 0
   },
   {
     "id": "prisma-formule-004",
     "tip": "simplu",
-    "intrebare": "Care este volumul unei prisme?",
+    "intrebare": "Prisma triunghiulară regulată are baza:",
     "variante": [
-      "$\\frac{A_b\\cdot h}{3}$",
-      "$A_b+h$",
-      "$A_b\\cdot h$",
-      "$P_b\\cdot h$"
+      "triunghi dreptunghic",
+      "hexagon",
+      "triunghi echilateral",
+      "pătrat"
     ],
     "corect": 2
   },
   {
     "id": "prisma-formule-005",
     "tip": "simplu",
-    "intrebare": "Care este volumul paralelipipedului dreptunghic cu dimensiunile $a,b,c$?",
+    "intrebare": "Prisma triunghiulară regulată: $a=4$, $h=5$. Cât este $A_b$?",
     "variante": [
-      "$abc$",
-      "$\\frac{abc}{3}$",
-      "$ab+c$",
-      "$2(ab+bc+ca)$"
+      "$4\\sqrt3$",
+      "$16$",
+      "$8\\sqrt3$",
+      "$2\\sqrt3$"
     ],
     "corect": 0
   },
   {
     "id": "prisma-formule-006",
     "tip": "simplu",
-    "intrebare": "Care este volumul cubului de latură $a$?",
+    "intrebare": "Prisma triunghiulară regulată: $a=4$, $h=5$. Cât este volumul?",
     "variante": [
-      "$a^2$",
-      "$a^3$",
-      "$6a^2$",
-      "$3a$"
+      "$10\\sqrt3$",
+      "$20\\sqrt3$",
+      "$60$",
+      "$40\\sqrt3$"
     ],
     "corect": 1
   },
   {
     "id": "prisma-formule-007",
     "tip": "simplu",
-    "intrebare": "Care este aria laterală a prismei drepte?",
+    "intrebare": "Prisma triunghiulară regulată: $a=4$, $h=5$. Cât este aria laterală?",
     "variante": [
-      "$P_b\\cdot h$",
-      "$A_b\\cdot h$",
-      "$\\frac{P_b\\cdot h}{2}$",
-      "$2A_b+P_b$"
+      "$60$",
+      "$20$",
+      "$40$",
+      "$80$"
     ],
     "corect": 0
   },
   {
     "id": "prisma-formule-008",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a prismei drepte?",
+    "intrebare": "Prisma patrulateră regulată: $a=2$, $h=3$. Cât este volumul?",
     "variante": [
-      "$A_l+2A_b$",
-      "$A_l+A_b$",
-      "$A_l\\cdot 2A_b$",
-      "$2A_l+A_b$"
+      "$12$",
+      "$6$",
+      "$18$",
+      "$24$"
     ],
     "corect": 0
   },
   {
     "id": "prisma-formule-009",
     "tip": "simplu",
-    "intrebare": "Care este aria totală a cubului de latură $a$?",
+    "intrebare": "Prisma patrulateră regulată: $a=2$, $h=3$. Cât este aria totală?",
     "variante": [
-      "$a^3$",
-      "$12a^2$",
-      "$6a^2$",
-      "$4a^2$"
+      "$20$",
+      "$40$",
+      "$32$",
+      "$24$"
     ],
     "corect": 2
   },
   {
     "id": "prisma-formule-010",
     "tip": "simplu",
-    "intrebare": "Care este aria bazei unei prisme triunghiulare regulate cu latura bazei $a$?",
+    "intrebare": "Prisma patrulateră regulată: $a=2$, $h=3$. Cât este diagonala prismei?",
     "variante": [
-      "$a^2\\sqrt{3}$",
-      "$\\frac{a^2}{4}$",
-      "$\\frac{a^2\\sqrt{3}}{4}$",
-      "$\\frac{a^2\\sqrt{3}}{2}$"
+      "$7$",
+      "$5$",
+      "$\\sqrt{17}$",
+      "$\\sqrt{13}$"
     ],
     "corect": 2
   },
   {
     "id": "prisma-formule-011",
     "tip": "simplu",
-    "intrebare": "Ce fel de fețe laterale are o prismă dreaptă?",
+    "intrebare": "Cum se calculează diagonala prismei patrulatere regulate?",
     "variante": [
-      "triunghiuri",
-      "trapeze",
-      "dreptunghiuri",
-      "romburi mereu"
+      "$\\sqrt{a^2+h^2}$",
+      "$a+h$",
+      "$\\sqrt{2a^2+h^2}$",
+      "$\\sqrt{2a+h}$"
     ],
     "corect": 2
   },
   {
     "id": "prisma-formule-012",
-    "tip": "multiplu",
-    "intrebare": "Care formule sunt corecte pentru prisma dreaptă?",
+    "tip": "simplu",
+    "intrebare": "Paralelipiped dreptunghic $3\\times4\\times12$. Cât este diagonala?",
     "variante": [
-      "$A_l=P_b\\cdot h$",
-      "$A_t=A_l+2A_b$",
-      "$V=\\frac{A_bh}{3}$",
-      "$V=A_b\\cdot h$"
+      "$19$",
+      "$\\sqrt{19}$",
+      "$5$",
+      "$13$"
     ],
-    "corect": [
-      0,
-      1,
-      3
-    ]
+    "corect": 3
+  },
+  {
+    "id": "prisma-formule-013",
+    "tip": "simplu",
+    "intrebare": "Cub cu muchia $2$. Cât este diagonala?",
+    "variante": [
+      "$2\\sqrt3$",
+      "$6$",
+      "$2\\sqrt2$",
+      "$4$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "prisma-formule-014",
+    "tip": "simplu",
+    "intrebare": "Cum se calculează aria totală a cubului?",
+    "variante": [
+      "$a^3$",
+      "$12a$",
+      "$4a^2$",
+      "$6a^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "prisma-formule-015",
+    "tip": "simplu",
+    "intrebare": "Prisma dreaptă are muchiile laterale:",
+    "variante": [
+      "perpendiculare pe baze",
+      "paralele cu bazele",
+      "egale cu bazele",
+      "oblice pe baze"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "prisma-formule-016",
+    "tip": "simplu",
+    "intrebare": "Câte baze are o prismă?",
+    "variante": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$1$"
+    ],
+    "corect": 0
   }
 ]
