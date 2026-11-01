@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "func-ii-de-gradul-i-puncte-i-intersec-ii-1793561931686",
+    "tip": "simplu",
+    "intrebare": "Zeroul funcţiei este",
+    "variante": [
+      "-6",
+      "3",
+      "0"
+    ],
+    "corect": 0,
+    "imagine": "data/imagini/func-ii-de-gradul-i-puncte-i-intersec-ii-1793561929939.png"
+  }
+]
