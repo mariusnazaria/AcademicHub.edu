@@ -1,0 +1,170 @@
+[
+  {
+    "id": "inecuatii-de-gradul-1-001",
+    "tip": "simplu",
+    "intrebare": "$[a;b]$ înseamnă:",
+    "variante": [
+      "$x<b$",
+      "$a\\le x\\le b$",
+      "$a<x<b$",
+      "$x\\ge a$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-002",
+    "tip": "simplu",
+    "intrebare": "$(a;b)$ înseamnă:",
+    "variante": [
+      "$a\\le x\\le b$",
+      "$a<x<b$",
+      "$x\\ge a$",
+      "$x\\le b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-003",
+    "tip": "simplu",
+    "intrebare": "$[a;+\\infty)$ înseamnă:",
+    "variante": [
+      "$x\\ge a$",
+      "$a\\le x\\le+\\infty$",
+      "$x\\le a$",
+      "$x>a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-1-004",
+    "tip": "simplu",
+    "intrebare": "$(-\\infty;b)$ înseamnă:",
+    "variante": [
+      "$x\\ge b$",
+      "$x>b$",
+      "$x<b$",
+      "$x\\le b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-1-005",
+    "tip": "simplu",
+    "intrebare": "La capetele intervalului: paranteza rotundă ( ) înseamnă că:",
+    "variante": [
+      "capătul este $0$",
+      "capătul este exclus",
+      "capătul este inclus",
+      "intervalul este gol"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-006",
+    "tip": "simplu",
+    "intrebare": "Când împărțim o inecuație la un număr NEGATIV:",
+    "variante": [
+      "schimbăm semnul termenului liber",
+      "schimbăm sensul inegalității",
+      "o transformăm în ecuație",
+      "păstrăm sensul"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-007",
+    "tip": "simplu",
+    "intrebare": "$-2x>6\\Rightarrow ?$",
+    "variante": [
+      "$x<-3$",
+      "$x>-3$",
+      "$x<3$",
+      "$x>3$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-1-008",
+    "tip": "simplu",
+    "intrebare": "Infinitul ($\\pm\\infty$) se scrie întotdeauna cu paranteză:",
+    "variante": [
+      "acoladă",
+      "rotundă",
+      "dreaptă (pătrată)",
+      "oricare"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-009",
+    "tip": "simplu",
+    "intrebare": "Soluția unui sistem de inecuații este:",
+    "variante": [
+      "diferența intervalelor",
+      "reuniunea intervalelor soluție",
+      "intersecția ($\\cap$) intervalelor soluție",
+      "suma intervalelor"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-1-010",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}x>-1\\\\x\\le3\\end{cases}$ are soluția:",
+    "variante": [
+      "$(-1;3]$",
+      "$[-1;3)$",
+      "$[-1;3]$",
+      "$(-1;3)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-1-011",
+    "tip": "simplu",
+    "intrebare": "$2x-4>0\\Rightarrow S=?$",
+    "variante": [
+      "$(-2;+\\infty)$",
+      "$[2;+\\infty)$",
+      "$(-\\infty;2)$",
+      "$(2;+\\infty)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-1-012",
+    "tip": "simplu",
+    "intrebare": "$-3x\\le9\\Rightarrow S=?$",
+    "variante": [
+      "$[3;+\\infty)$",
+      "$[-3;+\\infty)$",
+      "$(-\\infty;-3]$",
+      "$(-3;+\\infty)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-013",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}x>2\\\\x<1\\end{cases}$ are:",
+    "variante": [
+      "$S=\\mathbb{R}$",
+      "$S=\\varnothing$",
+      "$S=(1;2)$",
+      "$S=(2;+\\infty)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-1-014",
+    "tip": "simplu",
+    "intrebare": "Ordinea pașilor la o inecuație de gradul I:",
+    "variante": [
+      "împărțim → schimbăm sensul mereu → scriem",
+      "scriem intervalul → rezolvăm → împărțim",
+      "rezolvăm ca o ecuație → împărțim la coeficientul lui $x$ (atenție la semn!) → scriem soluția ca interval",
+      "rezolvăm → scriem soluția fără interval"
+    ],
+    "corect": 2
+  }
+]

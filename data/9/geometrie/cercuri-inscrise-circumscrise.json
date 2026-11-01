@@ -1,0 +1,185 @@
+[
+  {
+    "id": "cercuri-inscrise-circumscrise-001",
+    "tip": "simplu",
+    "intrebare": "Centrul cercului înscris în triunghi este:",
+    "variante": [
+      "intersecția mediatoarelor",
+      "mijlocul unei laturi",
+      "intersecția bisectoarelor",
+      "intersecția înălțimilor"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-002",
+    "tip": "simplu",
+    "intrebare": "Raza cercului înscris în triunghi ($S$ aria, $p$ semiperimetrul):",
+    "variante": [
+      "$r=\\frac Sp$",
+      "$r=\\frac{S}{2p}$",
+      "$r=\\frac pS$",
+      "$r=S\\cdot p$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-003",
+    "tip": "simplu",
+    "intrebare": "Centrul cercului circumscris triunghiului este:",
+    "variante": [
+      "intersecția bisectoarelor",
+      "intersecția mediatoarelor",
+      "intersecția medianelor",
+      "vârful unghiului drept"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-004",
+    "tip": "simplu",
+    "intrebare": "Raza cercului circumscris triunghiului cu laturile $a,b,c$ și aria $S$:",
+    "variante": [
+      "$R=\\frac{abc}{4S}$",
+      "$R=\\frac{abc}{2S}$",
+      "$R=\\frac{S}{abc}$",
+      "$R=\\frac{abc}{S}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-005",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic (catete $a,b$, ipotenuză $c$): raza cercului înscris:",
+    "variante": [
+      "$r=\\frac{a+b+c}{2}$",
+      "$r=\\frac{c}{2}$",
+      "$r=\\frac{a+b-c}{2}$",
+      "$r=\\frac{a\\cdot b}{c}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-006",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic: raza cercului circumscris este:",
+    "variante": [
+      "$R=c$",
+      "$R=2c$",
+      "$R=\\frac{a+b-c}{2}$",
+      "$R=\\frac c2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-007",
+    "tip": "simplu",
+    "intrebare": "Triunghi echilateral de latură $a$: $R=?$",
+    "variante": [
+      "$\\frac{a}{3}$",
+      "$\\frac{a\\sqrt3}{6}$",
+      "$\\frac{a\\sqrt3}{3}$",
+      "$\\frac{a\\sqrt3}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-008",
+    "tip": "simplu",
+    "intrebare": "Triunghi echilateral de latură $a$: $r=?$",
+    "variante": [
+      "$\\frac{a\\sqrt3}{2}$",
+      "$\\frac{a\\sqrt3}{6}$",
+      "$\\frac{a\\sqrt3}{3}$",
+      "$\\frac{a}{6}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-009",
+    "tip": "simplu",
+    "intrebare": "Patrulater circumscriptibil (Pitot):",
+    "variante": [
+      "$AB\\cdot CD=BC\\cdot AD$",
+      "$\\angle A+\\angle C=180^\\circ$",
+      "$AB=CD$",
+      "$AB+CD=BC+AD$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-010",
+    "tip": "simplu",
+    "intrebare": "Patrulater inscriptibil:",
+    "variante": [
+      "$AB+CD=BC+AD$",
+      "$\\angle A=\\angle C$ mereu",
+      "$\\angle A+\\angle C=180^\\circ$",
+      "$AB=CD$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-011",
+    "tip": "simplu",
+    "intrebare": "Pătrat de latură $l$: raza cercului înscris:",
+    "variante": [
+      "$r=l$",
+      "$r=\\frac{l}{4}$",
+      "$r=\\frac{l\\sqrt2}{2}$",
+      "$r=\\frac l2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-012",
+    "tip": "simplu",
+    "intrebare": "Pătrat de latură $l$: raza cercului circumscris:",
+    "variante": [
+      "$R=\\frac{l\\sqrt2}{2}$",
+      "$R=l\\sqrt2$",
+      "$R=\\frac l2$",
+      "$R=l$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-013",
+    "tip": "simplu",
+    "intrebare": "Triunghi $3,4,5$: raza cercului înscris este:",
+    "variante": [
+      "$1$",
+      "$3$",
+      "$\\frac12$",
+      "$2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-014",
+    "tip": "simplu",
+    "intrebare": "Triunghi $3,4,5$: raza cercului circumscris este:",
+    "variante": [
+      "$5$",
+      "$2$",
+      "$1$",
+      "$2{,}5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cercuri-inscrise-circumscrise-015",
+    "tip": "multiplu",
+    "intrebare": "Care patrulatere sunt întotdeauna inscriptibile?",
+    "variante": [
+      "rombul (oarecare)",
+      "dreptunghiul",
+      "pătratul",
+      "paralelogramul (oarecare)"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

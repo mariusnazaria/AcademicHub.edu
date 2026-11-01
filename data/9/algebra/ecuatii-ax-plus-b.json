@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ecuatii-ax-plus-b-001",
+    "tip": "simplu",
+    "intrebare": "$ax+b=0$ cu $a\\neq0$ are soluția:",
+    "variante": [
+      "$x=b-a$",
+      "$x=\\frac ba$",
+      "$x=-\\frac ab$",
+      "$x=-\\frac ba$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-ax-plus-b-002",
+    "tip": "simplu",
+    "intrebare": "$ax+b=0$ cu $a=0,\\ b\\neq0$ (de ex. $0\\cdot x=5$):",
+    "variante": [
+      "nu are soluții: $S=\\varnothing$",
+      "$x=5$",
+      "$x=0$",
+      "$S=\\mathbb{R}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-003",
+    "tip": "simplu",
+    "intrebare": "$ax+b=0$ cu $a=0,\\ b=0$ (adică $0\\cdot x=0$):",
+    "variante": [
+      "$S=\\varnothing$",
+      "$x=0$",
+      "o singură soluție",
+      "orice număr este soluție: $S=\\mathbb{R}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-ax-plus-b-004",
+    "tip": "simplu",
+    "intrebare": "$2x-6=0\\Rightarrow x=?$",
+    "variante": [
+      "$3$",
+      "$12$",
+      "$-3$",
+      "$6$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-005",
+    "tip": "simplu",
+    "intrebare": "Când mutăm un termen de cealaltă parte a semnului „=\":",
+    "variante": [
+      "îl împărțim la coeficient",
+      "îl păstrăm la fel",
+      "îl înmulțim cu $2$",
+      "îi schimbăm semnul"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-ax-plus-b-006",
+    "tip": "simplu",
+    "intrebare": "Pașii rezolvării $ax+b=0$ (în ordine):",
+    "variante": [
+      "desfacem parantezele → mutăm necunoscutele → reducem termenii asemenea → împărțim la coeficientul lui $x$",
+      "mutăm → împărțim la $0$ → reducem",
+      "împărțim → desfacem parantezele → mutăm",
+      "reducem → împărțim → mutăm → desfacem"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-007",
+    "tip": "simplu",
+    "intrebare": "$3(x-2)=x+4\\Rightarrow x=?$",
+    "variante": [
+      "$3$",
+      "$-5$",
+      "$1$",
+      "$5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-ax-plus-b-008",
+    "tip": "simplu",
+    "intrebare": "$|x|=a$ cu $a>0$ are soluțiile:",
+    "variante": [
+      "$x=-a$ doar",
+      "$x=a$ doar",
+      "$x=\\pm a$",
+      "$x=a^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-ax-plus-b-009",
+    "tip": "simplu",
+    "intrebare": "$|x|=-3$ are mulțimea soluțiilor:",
+    "variante": [
+      "$S=\\varnothing$",
+      "$S=\\{-3,3\\}$",
+      "$S=\\{3\\}$",
+      "$S=\\{-3\\}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-010",
+    "tip": "simplu",
+    "intrebare": "$|x-1|=3$ are soluțiile:",
+    "variante": [
+      "$x=-2$ și $x=4$",
+      "$x=3$ și $x=-3$",
+      "$x=4$ doar",
+      "$x=2$ și $x=-4$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-011",
+    "tip": "simplu",
+    "intrebare": "La ecuațiile cu numitori amplificăm cu:",
+    "variante": [
+      "cel mai mic multiplu comun al numitorilor",
+      "cel mai mare divizor comun",
+      "$0$",
+      "produsul numărătorilor"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-012",
+    "tip": "simplu",
+    "intrebare": "$\\frac x2+\\frac x3=5\\Rightarrow x=?$",
+    "variante": [
+      "$5$",
+      "$6$",
+      "$\\frac{25}{6}$",
+      "$30$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-ax-plus-b-013",
+    "tip": "simplu",
+    "intrebare": "Ecuația cu parametru $a\\cdot x=b$ se discută astfel:",
+    "variante": [
+      "$a\\neq0\\Rightarrow x=\\frac ba$; $a=0$ se verifică separat",
+      "mereu $S=\\varnothing$",
+      "$a\\neq0\\Rightarrow x=\\frac ab$",
+      "mereu $x=\\frac ba$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-ax-plus-b-014",
+    "tip": "simplu",
+    "intrebare": "Dacă $a=0$ și $b=0$ în $a\\cdot x=b$, atunci:",
+    "variante": [
+      "$S=\\mathbb{R}$",
+      "$x=0$",
+      "$x=1$",
+      "$S=\\varnothing$"
+    ],
+    "corect": 0
+  }
+]

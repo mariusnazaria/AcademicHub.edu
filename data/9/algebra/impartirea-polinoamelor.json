@@ -1,0 +1,161 @@
+[
+  {
+    "id": "impartirea-polinoamelor-001",
+    "tip": "simplu",
+    "intrebare": "Teorema împărțirii cu rest:",
+    "variante": [
+      "$D=\\hat I+C+R$, cu $\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
+      "$D=\\hat I\\cdot C+R$, cu $\\operatorname{grad}R<\\operatorname{grad}\\hat I$",
+      "$D=\\hat I\\cdot R+C$",
+      "$D=C\\cdot R+\\hat I$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "impartirea-polinoamelor-002",
+    "tip": "simplu",
+    "intrebare": "În $D=\\hat I\\cdot C+R$, litera $C$ este:",
+    "variante": [
+      "deîmpărțitul",
+      "câtul",
+      "restul",
+      "împărțitorul"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "impartirea-polinoamelor-003",
+    "tip": "simplu",
+    "intrebare": "În $D=\\hat I\\cdot C+R$, litera $\\hat I$ este:",
+    "variante": [
+      "restul",
+      "împărțitorul",
+      "deîmpărțitul",
+      "câtul"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "impartirea-polinoamelor-004",
+    "tip": "simplu",
+    "intrebare": "Împărțirea este exactă atunci când:",
+    "variante": [
+      "$\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
+      "$C=0$",
+      "$\\hat I=1$",
+      "$R=0$, adică $D=\\hat I\\cdot C$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "impartirea-polinoamelor-005",
+    "tip": "simplu",
+    "intrebare": "Împărțitorul trebuie să fie:",
+    "variante": [
+      "diferit de polinomul $0$",
+      "de gradul $0$",
+      "egal cu deîmpărțitul",
+      "egal cu $1$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "impartirea-polinoamelor-006",
+    "tip": "simplu",
+    "intrebare": "Primul pas la împărțirea polinoamelor:",
+    "variante": [
+      "înmulțim $D$ cu $\\hat I$",
+      "adunăm cele două polinoame",
+      "scădem $\\hat I$ din $D$",
+      "împărțim primul termen al lui $D$ la primul termen al lui $\\hat I$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "impartirea-polinoamelor-007",
+    "tip": "simplu",
+    "intrebare": "Ordinea corectă a pașilor în împărțirea polinoamelor:",
+    "variante": [
+      "adunăm → împărțim → scădem",
+      "scădem → împărțim → înmulțim → repetăm",
+      "înmulțim → scădem → împărțim, o singură dată",
+      "împărțim → înmulțim câtul cu tot împărțitorul → scădem din $D$ → repetăm"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "impartirea-polinoamelor-008",
+    "tip": "simplu",
+    "intrebare": "Repetăm pașii împărțirii până când:",
+    "variante": [
+      "$C=1$",
+      "$\\operatorname{grad}R>\\operatorname{grad}\\hat I$",
+      "$\\operatorname{grad}R<\\operatorname{grad}\\hat I$",
+      "$R=D$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "impartirea-polinoamelor-009",
+    "tip": "simplu",
+    "intrebare": "Înainte de împărțire, polinoamele se scriu cu puteri:",
+    "variante": [
+      "descrescătoare",
+      "crescătoare",
+      "doar pare",
+      "în orice ordine"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "impartirea-polinoamelor-010",
+    "tip": "simplu",
+    "intrebare": "Dacă lipsește un termen, de exemplu în $x^3+2x$, scriem:",
+    "variante": [
+      "$x^3+2x+0x^4$",
+      "$x^3+0x^2+2x$",
+      "$x^3-2x$",
+      "$x^3+x^2+2x$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "impartirea-polinoamelor-011",
+    "tip": "simplu",
+    "intrebare": "Cum verificăm o împărțire?",
+    "variante": [
+      "$D:C=R$",
+      "$\\hat I\\cdot R+C=D$",
+      "$\\hat I+C+R=D$",
+      "$\\hat I\\cdot C+R=D$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "impartirea-polinoamelor-012",
+    "tip": "simplu",
+    "intrebare": "$(x^2+3x+2):(x+1)$ are câtul:",
+    "variante": [
+      "$x+3$",
+      "$x+1$ (rest $2$)",
+      "$x+2$ (rest $0$)",
+      "$x^2+2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "impartirea-polinoamelor-013",
+    "tip": "multiplu",
+    "intrebare": "Care afirmații sunt corecte?",
+    "variante": [
+      "$\\hat I$ poate fi polinomul nul",
+      "$R$ poate avea gradul mai mare decât $\\hat I$",
+      "$R=0$ la împărțirea exactă",
+      "$\\operatorname{grad}R<\\operatorname{grad}\\hat I$"
+    ],
+    "corect": [
+      2,
+      3
+    ]
+  }
+]

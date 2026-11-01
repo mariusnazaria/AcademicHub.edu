@@ -1,0 +1,182 @@
+[
+  {
+    "id": "functia-ax-patrat-001",
+    "tip": "simplu",
+    "intrebare": "$f(x)=ax^2$ cu $a>0$ are parabola:",
+    "variante": [
+      "este o dreaptă",
+      "cu față zâmbitoare și maxim în vârf",
+      "cu față tristă și maxim în vârf",
+      "cu față zâmbitoare și minim în vârf"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "functia-ax-patrat-002",
+    "tip": "simplu",
+    "intrebare": "$f(x)=ax^2$ cu $a<0$ are parabola:",
+    "variante": [
+      "este o dreaptă",
+      "cu față zâmbitoare și minim în vârf",
+      "cu față tristă și minim în vârf",
+      "cu față tristă și maxim în vârf"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "functia-ax-patrat-003",
+    "tip": "simplu",
+    "intrebare": "Dacă $|a|$ este mare, parabola este:",
+    "variante": [
+      "largă",
+      "orizontală",
+      "îngustă",
+      "o dreaptă"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-004",
+    "tip": "simplu",
+    "intrebare": "Dacă $|a|$ este mic, parabola este:",
+    "variante": [
+      "îngustă",
+      "o dreaptă",
+      "verticală",
+      "largă"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "functia-ax-patrat-005",
+    "tip": "simplu",
+    "intrebare": "Mulțimea valorilor lui $ax^2$ pentru $a>0$:",
+    "variante": [
+      "$(0;+\\infty)$",
+      "$[0;+\\infty)$",
+      "$(-\\infty;0]$",
+      "$\\mathbb{R}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-006",
+    "tip": "simplu",
+    "intrebare": "Mulțimea valorilor lui $ax^2$ pentru $a<0$:",
+    "variante": [
+      "$(-\\infty;0)$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;0]$",
+      "$[0;+\\infty)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-007",
+    "tip": "simplu",
+    "intrebare": "Vârful parabolei $y=ax^2$ este mereu:",
+    "variante": [
+      "$(a;0)$, cu axa $Ox$",
+      "$O(0;0)$, cu axa de simetrie $Oy$",
+      "$(a;a)$",
+      "$(0;a)$, cu axa $Oy$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-008",
+    "tip": "simplu",
+    "intrebare": "$f(x)=2x^2$: $f(\\pm1)$ și $f(\\pm2)$ sunt:",
+    "variante": [
+      "$2$ și $4$",
+      "$2$ și $8$",
+      "$1$ și $4$",
+      "$4$ și $16$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-009",
+    "tip": "simplu",
+    "intrebare": "Pașii trasării graficului lui $ax^2$:",
+    "variante": [
+      "alegem un singur $x$ → desenăm dreapta",
+      "alegem $x$ simetrice față de $0$ → calculăm $ax^2$ → așezăm punctele și unim cu o curbă",
+      "calculăm $\\Delta$ → aflăm zerourile → unim",
+      "alegem două puncte → unim cu rigla"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-010",
+    "tip": "simplu",
+    "intrebare": "Valoarea extremă a lui $f(x)=-x^2$ este:",
+    "variante": [
+      "maximul $0$, atins pentru $x=0$",
+      "maximul $-1$",
+      "minimul $0$, atins pentru $x=0$",
+      "nu are valoare extremă"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "functia-ax-patrat-011",
+    "tip": "simplu",
+    "intrebare": "Care parabolă este mai îngustă?",
+    "variante": [
+      "$y=\\frac12x^2$",
+      "$y=3x^2$",
+      "$y=x^2$",
+      "toate la fel"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "functia-ax-patrat-012",
+    "tip": "simplu",
+    "intrebare": "$f(x)=-\\frac12x^2$ are parabola:",
+    "variante": [
+      "cu față zâmbitoare și îngustă",
+      "cu față zâmbitoare și largă",
+      "cu față tristă și largă",
+      "cu față tristă și îngustă"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-013",
+    "tip": "simplu",
+    "intrebare": "Graficul lui $f(x)=ax^2$ intersectează axele numai în:",
+    "variante": [
+      "două puncte pe $Ox$",
+      "$(a;0)$",
+      "$O(0;0)$",
+      "$(0;a)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "functia-ax-patrat-014",
+    "tip": "simplu",
+    "intrebare": "$f(x)=\\frac12x^2$: $f(4)=?$",
+    "variante": [
+      "$8$",
+      "$16$",
+      "$4$",
+      "$2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "functia-ax-patrat-015",
+    "tip": "simplu",
+    "intrebare": "$f(x)=ax^2$ cu $a<0$ este:",
+    "variante": [
+      "crescătoare pe $\\mathbb{R}$",
+      "descrescătoare pe $(-\\infty;0]$ și crescătoare pe $[0;+\\infty)$",
+      "crescătoare pe $(-\\infty;0]$ și descrescătoare pe $[0;+\\infty)$",
+      "constantă"
+    ],
+    "corect": 2
+  }
+]

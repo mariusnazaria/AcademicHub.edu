@@ -1,0 +1,198 @@
+[
+  {
+    "id": "numere-reale-001",
+    "tip": "simplu",
+    "intrebare": "Zecimala periodică simplă: $0,(\\overline{ab})=?$",
+    "variante": [
+      "$\\frac{\\overline{ab}}{100}$",
+      "$\\frac{\\overline{ab}}{9}$",
+      "$\\frac{\\overline{ab}}{99}$",
+      "$\\frac{\\overline{ab}}{90}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-002",
+    "tip": "simplu",
+    "intrebare": "$0,(26)=?$",
+    "variante": [
+      "$\\frac{26}{9}$",
+      "$\\frac{26}{90}$",
+      "$\\frac{26}{99}$",
+      "$\\frac{26}{100}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-003",
+    "tip": "simplu",
+    "intrebare": "Zecimala periodică mixtă: $0,a(b)=?$",
+    "variante": [
+      "$\\frac{\\overline{ab}-a}{90}$",
+      "$\\frac{\\overline{ab}-b}{90}$",
+      "$\\frac{\\overline{ab}+a}{90}$",
+      "$\\frac{\\overline{ab}-a}{99}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-reale-004",
+    "tip": "simplu",
+    "intrebare": "$0,2(5)=?$",
+    "variante": [
+      "$\\frac{25}{90}$",
+      "$\\frac{27}{90}$",
+      "$\\frac{23}{99}$",
+      "$\\frac{23}{90}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-reale-005",
+    "tip": "simplu",
+    "intrebare": "$0,(3)=?$",
+    "variante": [
+      "$\\frac{3}{100}$",
+      "$\\frac{1}{30}$",
+      "$\\frac13$",
+      "$\\frac{3}{10}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-006",
+    "tip": "simplu",
+    "intrebare": "Un număr irațional are:",
+    "variante": [
+      "zecimale infinite periodice",
+      "doar zecimale egale cu zero",
+      "zecimale care se termină",
+      "zecimale infinite fără perioadă"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-reale-007",
+    "tip": "multiplu",
+    "intrebare": "Care dintre numere sunt iraționale?",
+    "variante": [
+      "$\\pi$",
+      "$\\sqrt2$",
+      "$\\sqrt[3]{5}$",
+      "$0,(7)$"
+    ],
+    "corect": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "numere-reale-008",
+    "tip": "simplu",
+    "intrebare": "Șirul corect de incluziuni este:",
+    "variante": [
+      "$\\mathbb{R}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}$",
+      "$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}$",
+      "$\\mathbb{N}\\subset\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{R}$",
+      "$\\mathbb{Q}\\subset\\mathbb{Z}\\subset\\mathbb{N}\\subset\\mathbb{R}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "numere-reale-009",
+    "tip": "simplu",
+    "intrebare": "Mulțimea numerelor iraționale se notează:",
+    "variante": [
+      "$\\mathbb{Q}\\setminus\\mathbb{R}$",
+      "$\\mathbb{R}\\setminus\\mathbb{Q}$",
+      "$\\mathbb{Z}\\setminus\\mathbb{N}$",
+      "$\\mathbb{R}\\cap\\mathbb{Q}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "numere-reale-010",
+    "tip": "simplu",
+    "intrebare": "Definiția modulului: $|a|=?$",
+    "variante": [
+      "$-a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
+      "$a$ dacă $a\\ge 0$ și $a$ dacă $a<0$",
+      "$a$ dacă $a\\ge 0$ și $-a$ dacă $a<0$",
+      "$-a$ pentru orice $a$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-011",
+    "tip": "simplu",
+    "intrebare": "$|a-b|$ reprezintă:",
+    "variante": [
+      "suma numerelor $a$ și $b$",
+      "cel mai mare dintre $a$ și $b$",
+      "distanța dintre punctele $a$ și $b$ pe axă",
+      "mijlocul segmentului dintre $a$ și $b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-012",
+    "tip": "simplu",
+    "intrebare": "$|3-5|=?$",
+    "variante": [
+      "$2$",
+      "$0$",
+      "$-2$",
+      "$8$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "numere-reale-013",
+    "tip": "simplu",
+    "intrebare": "Pe axa numerelor, dintre două numere este mai mare cel care este:",
+    "variante": [
+      "mai departe de $0$",
+      "mai aproape de $0$",
+      "mai în dreapta",
+      "mai în stânga"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "numere-reale-014",
+    "tip": "simplu",
+    "intrebare": "Între două numere reale distincte se află:",
+    "variante": [
+      "niciun alt număr real",
+      "exact un număr real",
+      "doar numere întregi",
+      "o infinitate de numere reale"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-reale-015",
+    "tip": "simplu",
+    "intrebare": "Numărul $\\sqrt9$ aparține mulțimii:",
+    "variante": [
+      "$\\mathbb{R}\\setminus\\mathbb{Q}$",
+      "nu aparține lui $\\mathbb{R}$",
+      "$\\mathbb{R}\\setminus\\mathbb{Z}$",
+      "$\\mathbb{N}$ (deci și lui $\\mathbb{Z},\\mathbb{Q},\\mathbb{R}$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "numere-reale-016",
+    "tip": "simplu",
+    "intrebare": "$|\\sqrt3-2|$ fără semnul modul este:",
+    "variante": [
+      "$2-\\sqrt3$",
+      "$-2-\\sqrt3$",
+      "$\\sqrt3-2$",
+      "$\\sqrt3+2$"
+    ],
+    "corect": 0
+  }
+]

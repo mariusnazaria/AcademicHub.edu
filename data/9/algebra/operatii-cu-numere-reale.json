@@ -1,0 +1,185 @@
+[
+  {
+    "id": "operatii-cu-numere-reale-001",
+    "tip": "simplu",
+    "intrebare": "Distributivitatea: $a(b+c)=?$",
+    "variante": [
+      "$ab\\cdot ac$",
+      "$ab+ac$",
+      "$ab+c$",
+      "$a+bc$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-002",
+    "tip": "simplu",
+    "intrebare": "$(a+b)^2=?$",
+    "variante": [
+      "$a^2-2ab+b^2$",
+      "$a^2+b^2$",
+      "$a^2+ab+b^2$",
+      "$a^2+2ab+b^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "operatii-cu-numere-reale-003",
+    "tip": "simplu",
+    "intrebare": "$(a-b)^2=?$",
+    "variante": [
+      "$a^2-2ab+b^2$",
+      "$a^2+2ab+b^2$",
+      "$a^2-ab+b^2$",
+      "$a^2-b^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "operatii-cu-numere-reale-004",
+    "tip": "simplu",
+    "intrebare": "$a^2-b^2=?$",
+    "variante": [
+      "$(a-b)(a-b)$",
+      "$(a+b)^2$",
+      "$(a-b)(a+b)$",
+      "$(a-b)^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "operatii-cu-numere-reale-005",
+    "tip": "simplu",
+    "intrebare": "Pentru a compara numerele $a$ și $b$ calculăm:",
+    "variante": [
+      "produsul $a\\cdot b$",
+      "diferența $a-b$ și îi studiem semnul",
+      "câtul $a:b$ mereu",
+      "suma $a+b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-006",
+    "tip": "simplu",
+    "intrebare": "Dacă $a-b<0$, atunci:",
+    "variante": [
+      "$a>b$",
+      "$a<b$",
+      "nu putem compara",
+      "$a=b$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-007",
+    "tip": "simplu",
+    "intrebare": "Pentru numere pozitive $a,b$: $a<b\\iff ?$",
+    "variante": [
+      "$a^2>b^2$",
+      "$a^2<b^2$",
+      "$a+b<0$",
+      "$a^2=b^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-008",
+    "tip": "simplu",
+    "intrebare": "Comparăm $3\\sqrt2$ și $2\\sqrt5$ prin pătrate ($18$ și $20$). Rezultă:",
+    "variante": [
+      "$3\\sqrt2=2\\sqrt5$",
+      "$3\\sqrt2<2\\sqrt5$",
+      "$3\\sqrt2>2\\sqrt5$",
+      "$3\\sqrt2+2\\sqrt5=38$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-009",
+    "tip": "simplu",
+    "intrebare": "$3\\sqrt2=?$ (introducem factorul sub radical)",
+    "variante": [
+      "$\\sqrt{11}$",
+      "$\\sqrt{9}$",
+      "$\\sqrt{18}$",
+      "$\\sqrt6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "operatii-cu-numere-reale-010",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{50}=?$ (scoatem factorul de sub radical)",
+    "variante": [
+      "$2\\sqrt5$",
+      "$10\\sqrt5$",
+      "$25\\sqrt2$",
+      "$5\\sqrt2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "operatii-cu-numere-reale-011",
+    "tip": "simplu",
+    "intrebare": "Ordinea efectuării operațiilor este:",
+    "variante": [
+      "de la stânga la dreapta, fără excepții",
+      "puteri → paranteze → adunări → înmulțiri",
+      "adunări și scăderi → înmulțiri → puteri → paranteze",
+      "paranteze → puteri → înmulțiri și împărțiri → adunări și scăderi"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "operatii-cu-numere-reale-012",
+    "tip": "simplu",
+    "intrebare": "Produsul a două numere cu semne diferite este:",
+    "variante": [
+      "negativ",
+      "depinde de modulele lor",
+      "zero",
+      "pozitiv"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "operatii-cu-numere-reale-013",
+    "tip": "simplu",
+    "intrebare": "$-(a-b)=?$",
+    "variante": [
+      "$-a+b$",
+      "$a-b$",
+      "$-a-b$",
+      "$a+b$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "operatii-cu-numere-reale-014",
+    "tip": "simplu",
+    "intrebare": "$(x+3)^2=?$",
+    "variante": [
+      "$x^2+9$",
+      "$x^2+6x+9$",
+      "$x^2+3x+9$",
+      "$x^2+6x+6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "operatii-cu-numere-reale-015",
+    "tip": "multiplu",
+    "intrebare": "Care aproximări sunt corecte?",
+    "variante": [
+      "$\\sqrt5\\approx2{,}24$",
+      "$\\sqrt2\\approx2{,}24$",
+      "$\\sqrt2\\approx1{,}41$",
+      "$\\sqrt3\\approx1{,}41$"
+    ],
+    "corect": [
+      0,
+      2
+    ]
+  }
+]

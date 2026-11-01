@@ -1,0 +1,170 @@
+[
+  {
+    "id": "aria-paralelogramelor-001",
+    "tip": "simplu",
+    "intrebare": "Aria și perimetrul dreptunghiului (dimensiuni $L,l$):",
+    "variante": [
+      "$S=L+l$ ; $P=L\\cdot l$",
+      "$S=L\\cdot l$ ; $P=2(L+l)$",
+      "$S=2(L+l)$ ; $P=L\\cdot l$",
+      "$S=\\frac{L\\cdot l}{2}$ ; $P=L+l$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-paralelogramelor-002",
+    "tip": "simplu",
+    "intrebare": "Aria și perimetrul pătratului de latură $l$:",
+    "variante": [
+      "$S=l^2$ ; $P=4l$",
+      "$S=2l$ ; $P=l^2$",
+      "$S=4l$ ; $P=l^2$",
+      "$S=l^2$ ; $P=2l$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-paralelogramelor-003",
+    "tip": "simplu",
+    "intrebare": "Aria paralelogramului:",
+    "variante": [
+      "$S=b\\cdot h$",
+      "$S=\\frac{b\\cdot h}{2}$",
+      "$S=b+h$",
+      "$S=2(b+h)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-paralelogramelor-004",
+    "tip": "simplu",
+    "intrebare": "Aria rombului cu diagonalele $d_1,d_2$:",
+    "variante": [
+      "$S=\\frac{d_1\\cdot d_2}{2}$",
+      "$S=d_1+d_2$",
+      "$S=d_1\\cdot d_2$",
+      "$S=\\frac{d_1+d_2}{2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-paralelogramelor-005",
+    "tip": "simplu",
+    "intrebare": "Aria rombului cu latura $l$ și înălțimea $h$:",
+    "variante": [
+      "$S=4l$",
+      "$S=l\\cdot h$",
+      "$S=l^2\\cdot h$",
+      "$S=\\frac{l\\cdot h}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-paralelogramelor-006",
+    "tip": "simplu",
+    "intrebare": "$1\\ \\mathrm{m}^2=?$",
+    "variante": [
+      "$100\\ \\mathrm{cm}^2$",
+      "$10\\ \\mathrm{dm}^2=100\\ \\mathrm{cm}^2$",
+      "$1000\\ \\mathrm{dm}^2$",
+      "$100\\ \\mathrm{dm}^2=10\\,000\\ \\mathrm{cm}^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-paralelogramelor-007",
+    "tip": "simplu",
+    "intrebare": "$1\\ \\mathrm{ha}=?$",
+    "variante": [
+      "$1000\\ \\mathrm{m}^2$",
+      "$10\\,000\\ \\mathrm{m}^2$",
+      "$1\\,000\\,000\\ \\mathrm{m}^2$",
+      "$100\\ \\mathrm{m}^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-paralelogramelor-008",
+    "tip": "simplu",
+    "intrebare": "Figurile congruente au:",
+    "variante": [
+      "arii diferite",
+      "arii proporționale",
+      "perimetre diferite",
+      "arii egale"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-paralelogramelor-009",
+    "tip": "simplu",
+    "intrebare": "Aria unei figuri compuse este:",
+    "variante": [
+      "produsul ariilor părților",
+      "media ariilor",
+      "diferența ariilor",
+      "suma ariilor părților ei"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-paralelogramelor-010",
+    "tip": "simplu",
+    "intrebare": "Înălțimea în paralelogram este:",
+    "variante": [
+      "egală cu latura",
+      "perpendiculară pe bază",
+      "paralelă cu baza",
+      "oblică față de bază"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-paralelogramelor-011",
+    "tip": "simplu",
+    "intrebare": "Dreptunghi cu dimensiunile $12$ și $3$: aria este:",
+    "variante": [
+      "$15$",
+      "$30$",
+      "$18$",
+      "$36$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-paralelogramelor-012",
+    "tip": "simplu",
+    "intrebare": "Romb cu diagonalele $6$ și $8$: aria este:",
+    "variante": [
+      "$28$",
+      "$24$",
+      "$14$",
+      "$48$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-paralelogramelor-013",
+    "tip": "simplu",
+    "intrebare": "Paralelogram cu baza $10$ și înălțimea $4$: aria este:",
+    "variante": [
+      "$14$",
+      "$28$",
+      "$40$",
+      "$20$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "aria-paralelogramelor-014",
+    "tip": "simplu",
+    "intrebare": "Pătrat cu perimetrul $20$: aria este:",
+    "variante": [
+      "$25$",
+      "$100$",
+      "$5$",
+      "$20$"
+    ],
+    "corect": 0
+  }
+]

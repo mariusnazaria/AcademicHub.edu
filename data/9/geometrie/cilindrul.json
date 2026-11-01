@@ -1,0 +1,134 @@
+[
+  {
+    "id": "cilindrul-001",
+    "tip": "simplu",
+    "intrebare": "Cilindru: aria laterală:",
+    "variante": [
+      "$A_l=\\pi R^2h$",
+      "$A_l=\\pi R\\cdot h$",
+      "$A_l=2\\pi R\\cdot h$",
+      "$A_l=2\\pi R^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cilindrul-002",
+    "tip": "simplu",
+    "intrebare": "Cilindru: aria totală:",
+    "variante": [
+      "$A_t=2\\pi R^2h$",
+      "$A_t=2\\pi R\\cdot h$",
+      "$A_t=\\pi R(R+h)$",
+      "$A_t=2\\pi R(R+h)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-003",
+    "tip": "simplu",
+    "intrebare": "Cilindru: volumul:",
+    "variante": [
+      "$V=\\pi R^2\\cdot h$",
+      "$V=\\pi R\\cdot h$",
+      "$V=\\frac{\\pi R^2h}{3}$",
+      "$V=2\\pi R\\cdot h$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-004",
+    "tip": "simplu",
+    "intrebare": "Secțiunea axială a cilindrului este:",
+    "variante": [
+      "dreptunghi cu dimensiunile $2R$ și $h$",
+      "triunghi isoscel",
+      "cerc de rază $R$",
+      "dreptunghi $R\\times h$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-005",
+    "tip": "simplu",
+    "intrebare": "La cilindrul circular drept, generatoarea $G$ este:",
+    "variante": [
+      "egală cu înălțimea: $G=h$",
+      "$G=2R$",
+      "$G=R$",
+      "$G^2=R^2+h^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-006",
+    "tip": "simplu",
+    "intrebare": "Cilindrul se obține rotind:",
+    "variante": [
+      "un triunghi dreptunghic în jurul unei catete",
+      "un semicerc în jurul diametrului",
+      "un trapez în jurul bazei",
+      "un dreptunghi în jurul uneia dintre laturi"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-007",
+    "tip": "simplu",
+    "intrebare": "Dezvoltarea laterală a cilindrului este:",
+    "variante": [
+      "un dreptunghi $2\\pi R\\times h$",
+      "un sector de cerc",
+      "un dreptunghi $R\\times h$",
+      "un cerc"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-008",
+    "tip": "simplu",
+    "intrebare": "Lungimea cercului bazei și aria bazei cilindrului:",
+    "variante": [
+      "$L=2\\pi R^2$ ; $A_b=\\pi R^2$",
+      "$L=2\\pi R$ ; $A_b=\\pi R^2$",
+      "$L=\\pi R$ ; $A_b=\\pi R$",
+      "$L=\\pi R^2$ ; $A_b=2\\pi R$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cilindrul-009",
+    "tip": "simplu",
+    "intrebare": "Cilindru cu $R=3$, $h=5$: aria laterală este:",
+    "variante": [
+      "$15\\pi$",
+      "$45\\pi$",
+      "$90\\pi$",
+      "$30\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-010",
+    "tip": "simplu",
+    "intrebare": "Cilindru cu $R=3$, $h=5$: aria totală este:",
+    "variante": [
+      "$60\\pi$",
+      "$39\\pi$",
+      "$30\\pi$",
+      "$48\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-011",
+    "tip": "simplu",
+    "intrebare": "Cilindru cu $R=3$, $h=5$: volumul este:",
+    "variante": [
+      "$30\\pi$",
+      "$45\\pi$",
+      "$15\\pi$",
+      "$135\\pi$"
+    ],
+    "corect": 1
+  }
+]

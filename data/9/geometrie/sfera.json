@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sfera-001",
+    "tip": "simplu",
+    "intrebare": "Aria sferei de rază $R$:",
+    "variante": [
+      "$A=2\\pi R^2$",
+      "$A=\\pi R^2$",
+      "$A=\\frac{4\\pi R^3}{3}$",
+      "$A=4\\pi R^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sfera-002",
+    "tip": "simplu",
+    "intrebare": "Volumul sferei de rază $R$:",
+    "variante": [
+      "$V=\\frac{\\pi R^3}{3}$",
+      "$V=\\frac{4\\pi R^2}{3}$",
+      "$V=4\\pi R^2$",
+      "$V=\\frac{4\\pi R^3}{3}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sfera-003",
+    "tip": "simplu",
+    "intrebare": "Cercul mare al sferei se obține când planul:",
+    "variante": [
+      "trece prin centru; $r=R$, aria discului $\\pi R^2$",
+      "este tangent sferei",
+      "nu trece prin centru; $r<R$",
+      "este exterior sferei"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sfera-004",
+    "tip": "simplu",
+    "intrebare": "Secțiune plană a sferei ($d$ distanța de la centru la plan):",
+    "variante": [
+      "$r^2=R^2-d^2$",
+      "$r=R-d$",
+      "$r^2=R^2+d^2$",
+      "$r^2=d^2-R^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sfera-005",
+    "tip": "simplu",
+    "intrebare": "Planul este secant sferei când:",
+    "variante": [
+      "$d=0$ doar",
+      "$d=R$",
+      "$d<R$",
+      "$d>R$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-006",
+    "tip": "simplu",
+    "intrebare": "Planul este tangent sferei când:",
+    "variante": [
+      "$d<R$",
+      "$d>R$",
+      "$d=R$",
+      "$d=2R$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-007",
+    "tip": "simplu",
+    "intrebare": "Planul este exterior sferei când:",
+    "variante": [
+      "$d<R$",
+      "$d=0$",
+      "$d=R$",
+      "$d>R$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sfera-008",
+    "tip": "simplu",
+    "intrebare": "Sfera înscrisă în cub de latură $a$:",
+    "variante": [
+      "$R=\\frac a2$",
+      "$R=\\frac{a\\sqrt2}{2}$",
+      "$R=\\frac{a\\sqrt3}{2}$",
+      "$R=a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sfera-009",
+    "tip": "simplu",
+    "intrebare": "Sfera circumscrisă cubului de latură $a$:",
+    "variante": [
+      "$R=a\\sqrt3$",
+      "$R=\\frac a2$",
+      "$R=\\frac{a\\sqrt3}{2}$",
+      "$R=\\frac{a\\sqrt2}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-010",
+    "tip": "simplu",
+    "intrebare": "Sfera înscrisă în cilindru:",
+    "variante": [
+      "$R=h$",
+      "$R=2h$",
+      "$R$ = raza cilindrului și $h=2R$",
+      "$h=R$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-011",
+    "tip": "simplu",
+    "intrebare": "Semisfera: aria totală și volumul:",
+    "variante": [
+      "$A_t=3\\pi R^2$ ; $V=\\frac{2\\pi R^3}{3}$",
+      "$A_t=4\\pi R^2$ ; $V=\\frac{2\\pi R^3}{3}$",
+      "$A_t=3\\pi R^2$ ; $V=\\frac{4\\pi R^3}{3}$",
+      "$A_t=2\\pi R^2$ ; $V=\\frac{4\\pi R^3}{3}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sfera-012",
+    "tip": "simplu",
+    "intrebare": "Sferă cu $R=3$: aria este:",
+    "variante": [
+      "$27\\pi$",
+      "$12\\pi$",
+      "$36\\pi$",
+      "$9\\pi$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-013",
+    "tip": "simplu",
+    "intrebare": "Sferă cu $R=3$: volumul este:",
+    "variante": [
+      "$12\\pi$",
+      "$108\\pi$",
+      "$36\\pi$",
+      "$27\\pi$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sfera-014",
+    "tip": "simplu",
+    "intrebare": "Sferă $R=5$, planul la distanța $d=3$ de centru: raza secțiunii este:",
+    "variante": [
+      "$2$",
+      "$\\sqrt{34}$",
+      "$8$",
+      "$4$"
+    ],
+    "corect": 3
+  }
+]

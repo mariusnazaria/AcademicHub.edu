@@ -64,50 +64,225 @@
       "nume": "Clasa 9",
       "materii": [
         {
-          "id": "rapoarte-algebrice",
-          "nume": "Rapoarte algebrice",
+          "id": "algebra",
+          "nume": "Algebră",
           "colectii": [
             {
-              "id": "descompunerea-factorilor",
-              "nume": "Descompunerea factorilor",
-              "fisier": "data/9/rapoarte-algebrice/descompunerea-factorilor.json"
+              "id": "numere-reale",
+              "nume": "§1 Mulțimea numerelor reale",
+              "fisier": "data/9/algebra/numere-reale.json"
+            },
+            {
+              "id": "operatii-cu-numere-reale",
+              "nume": "§2 Operații cu numere reale",
+              "fisier": "data/9/algebra/operatii-cu-numere-reale.json"
+            },
+            {
+              "id": "puteri-si-radicali",
+              "nume": "§3 Puteri și radicali",
+              "fisier": "data/9/algebra/puteri-si-radicali.json"
+            },
+            {
+              "id": "monoame",
+              "nume": "Monoame. Operații cu monoame",
+              "fisier": "data/9/algebra/monoame.json"
+            },
+            {
+              "id": "polinoame",
+              "nume": "Polinoame. Operații cu polinoame",
+              "fisier": "data/9/algebra/polinoame.json"
+            },
+            {
+              "id": "impartirea-polinoamelor",
+              "nume": "Împărțirea polinoamelor",
+              "fisier": "data/9/algebra/impartirea-polinoamelor.json"
+            },
+            {
+              "id": "radacinile-polinoamelor",
+              "nume": "Rădăcinile polinoamelor",
+              "fisier": "data/9/algebra/radacinile-polinoamelor.json"
+            },
+            {
+              "id": "fractii-algebrice",
+              "nume": "Operații cu fracții algebrice",
+              "fisier": "data/9/algebra/fractii-algebrice.json"
+            },
+            {
+              "id": "ecuatii-ax-plus-b",
+              "nume": "Ecuații de forma ax + b = 0",
+              "fisier": "data/9/algebra/ecuatii-ax-plus-b.json"
+            },
+            {
+              "id": "ecuatii-de-gradul-2",
+              "nume": "Ecuații de gradul II",
+              "fisier": "data/9/algebra/ecuatii-de-gradul-2.json"
+            },
+            {
+              "id": "ecuatii-rationale",
+              "nume": "Ecuații raționale",
+              "fisier": "data/9/algebra/ecuatii-rationale.json"
+            },
+            {
+              "id": "sisteme-de-ecuatii",
+              "nume": "Sisteme de ecuații",
+              "fisier": "data/9/algebra/sisteme-de-ecuatii.json"
+            },
+            {
+              "id": "probleme-cu-ecuatii",
+              "nume": "Rezolvarea problemelor cu ecuații",
+              "fisier": "data/9/algebra/probleme-cu-ecuatii.json"
+            },
+            {
+              "id": "inecuatii-de-gradul-1",
+              "nume": "Inecuații de gradul I",
+              "fisier": "data/9/algebra/inecuatii-de-gradul-1.json"
+            },
+            {
+              "id": "inecuatii-de-gradul-2",
+              "nume": "Inecuații de gradul II",
+              "fisier": "data/9/algebra/inecuatii-de-gradul-2.json"
             }
           ]
         },
         {
-          "id": "func-ii",
-          "nume": "Funcţii",
+          "id": "functii",
+          "nume": "Funcții",
           "colectii": [
             {
-              "id": "functii-de-gradul-i-panta-si-termenul-li",
-              "nume": "Funcții de gradul I, panta și termenul liber",
-              "fisier": "data/9/func-ii/functii-de-gradul-i-panta-si-termenul-li.json"
+              "id": "proprietati-ale-functiilor",
+              "nume": "§2.1 Proprietăți ale funcțiilor numerice",
+              "fisier": "data/9/functii/proprietati-ale-functiilor.json"
             },
             {
-              "id": "func-ia-de-gradul-i-intersec-ii-i-puncte",
-              "nume": "Funcţia de gradul I, intersecţii şi puncte",
-              "fisier": "data/9/func-ii/func-ia-de-gradul-i-intersec-ii-i-puncte.json"
+              "id": "functia-liniara",
+              "nume": "§2.2 Funcția liniară f(x) = ax + b",
+              "fisier": "data/9/functii/functia-liniara.json"
             },
             {
-              "id": "func-ii-de-gradul-ii-puncte-i-intersec-i",
-              "nume": "Funcţii de gradul II, puncte şi intersecţii",
-              "fisier": "data/9/func-ii/func-ii-de-gradul-ii-puncte-i-intersec-i.json"
+              "id": "functia-x-patrat",
+              "nume": "§3.1 Funcția f(x) = x²",
+              "fisier": "data/9/functii/functia-x-patrat.json"
+            },
+            {
+              "id": "functia-ax-patrat",
+              "nume": "§3.2 Funcția f(x) = ax²",
+              "fisier": "data/9/functii/functia-ax-patrat.json"
+            },
+            {
+              "id": "transformarea-graficelor",
+              "nume": "§3.3 Transformarea graficelor",
+              "fisier": "data/9/functii/transformarea-graficelor.json"
+            },
+            {
+              "id": "studiul-functiei-de-gradul-2",
+              "nume": "§3.4 Studiul funcției f(x) = ax² + bx + c",
+              "fisier": "data/9/functii/studiul-functiei-de-gradul-2.json"
             }
           ]
         },
         {
-          "id": "opera-ii-cu-numere-intregi",
-          "nume": "Operaţii cu numere întregi",
-          "colectii": []
-        },
-        {
-          "id": "frac-ii",
-          "nume": "Fracţii",
+          "id": "geometrie",
+          "nume": "Geometrie",
           "colectii": [
             {
-              "id": "frac-ii-de-gradul-i-panta-i-termenul-lib",
-              "nume": "Fracţii de gradul I, panta şi termenul liber",
-              "fisier": "data/9/frac-ii/frac-ii-de-gradul-i-panta-i-termenul-lib.json"
+              "id": "puncte-drepte-unghiuri",
+              "nume": "Puncte, drepte, unghiuri",
+              "fisier": "data/9/geometrie/puncte-drepte-unghiuri.json"
+            },
+            {
+              "id": "triunghiul",
+              "nume": "Triunghiul",
+              "fisier": "data/9/geometrie/triunghiul.json"
+            },
+            {
+              "id": "congruenta-si-asemanare",
+              "nume": "Congruența și asemănarea triunghiurilor",
+              "fisier": "data/9/geometrie/congruenta-si-asemanare.json"
+            },
+            {
+              "id": "triunghiul-dreptunghic",
+              "nume": "Triunghiul dreptunghic",
+              "fisier": "data/9/geometrie/triunghiul-dreptunghic.json"
+            },
+            {
+              "id": "patrulatere-si-poligoane",
+              "nume": "Patrulatere. Poligoane regulate",
+              "fisier": "data/9/geometrie/patrulatere-si-poligoane.json"
+            },
+            {
+              "id": "cercul-elemente-pozitii",
+              "nume": "Cercul: elemente și poziții relative",
+              "fisier": "data/9/geometrie/cercul-elemente-pozitii.json"
+            },
+            {
+              "id": "unghiuri-in-cerc",
+              "nume": "Unghiuri în cerc",
+              "fisier": "data/9/geometrie/unghiuri-in-cerc.json"
+            },
+            {
+              "id": "cercuri-inscrise-circumscrise",
+              "nume": "Cercuri înscrise și circumscrise",
+              "fisier": "data/9/geometrie/cercuri-inscrise-circumscrise.json"
+            },
+            {
+              "id": "aria-paralelogramelor",
+              "nume": "Noțiunea de arie. Aria paralelogramelor",
+              "fisier": "data/9/geometrie/aria-paralelogramelor.json"
+            },
+            {
+              "id": "aria-triunghiului",
+              "nume": "Aria triunghiului",
+              "fisier": "data/9/geometrie/aria-triunghiului.json"
+            },
+            {
+              "id": "aria-trapezului",
+              "nume": "Aria trapezului",
+              "fisier": "data/9/geometrie/aria-trapezului.json"
+            },
+            {
+              "id": "poligoane-regulate-cerc",
+              "nume": "Poligoane regulate. Lungimea cercului. Aria discului",
+              "fisier": "data/9/geometrie/poligoane-regulate-cerc.json"
+            },
+            {
+              "id": "poliedre",
+              "nume": "Poliedre",
+              "fisier": "data/9/geometrie/poliedre.json"
+            },
+            {
+              "id": "prisma",
+              "nume": "Prisma",
+              "fisier": "data/9/geometrie/prisma.json"
+            },
+            {
+              "id": "piramida",
+              "nume": "Piramida",
+              "fisier": "data/9/geometrie/piramida.json"
+            },
+            {
+              "id": "trunchiul-de-piramida",
+              "nume": "Trunchiul de piramidă",
+              "fisier": "data/9/geometrie/trunchiul-de-piramida.json"
+            },
+            {
+              "id": "cilindrul",
+              "nume": "Cilindrul circular drept",
+              "fisier": "data/9/geometrie/cilindrul.json"
+            },
+            {
+              "id": "conul",
+              "nume": "Conul circular drept",
+              "fisier": "data/9/geometrie/conul.json"
+            },
+            {
+              "id": "trunchiul-de-con",
+              "nume": "Trunchiul de con circular drept",
+              "fisier": "data/9/geometrie/trunchiul-de-con.json"
+            },
+            {
+              "id": "sfera",
+              "nume": "Sfera",
+              "fisier": "data/9/geometrie/sfera.json"
             }
           ]
         }

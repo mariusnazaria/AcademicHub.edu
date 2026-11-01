@@ -1,0 +1,134 @@
+[
+  {
+    "id": "trunchiul-de-con-001",
+    "tip": "simplu",
+    "intrebare": "Trunchi de con: generatoarea:",
+    "variante": [
+      "$G^2=h^2+(R+r)^2$",
+      "$G=R-r$",
+      "$G^2=h^2+(R-r)^2$",
+      "$G^2=h^2-(R-r)^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-002",
+    "tip": "simplu",
+    "intrebare": "Trunchi de con: aria laterală:",
+    "variante": [
+      "$A_l=\\pi h(R+r)$",
+      "$A_l=2\\pi G(R+r)$",
+      "$A_l=\\pi G(R+r)$",
+      "$A_l=\\pi G(R-r)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-003",
+    "tip": "simplu",
+    "intrebare": "Trunchi de con: aria totală:",
+    "variante": [
+      "$A_t=\\pi\\left[R^2+G(R+r)\\right]$",
+      "$A_t=\\pi\\left[R^2+r^2+G(R-r)\\right]$",
+      "$A_t=\\pi\\left[R^2+r^2+G(R+r)\\right]$",
+      "$A_t=\\pi G(R+r)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-004",
+    "tip": "simplu",
+    "intrebare": "Trunchi de con: volumul:",
+    "variante": [
+      "$V=\\frac{\\pi h\\left(R+r\\right)^2}{3}$",
+      "$V=\\frac{\\pi h\\left(R^2+Rr+r^2\\right)}{3}$",
+      "$V=\\frac{\\pi h\\left(R^2+r^2\\right)}{3}$",
+      "$V=\\pi h\\left(R^2+Rr+r^2\\right)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "trunchiul-de-con-005",
+    "tip": "simplu",
+    "intrebare": "Secțiunea axială a trunchiului de con este:",
+    "variante": [
+      "dreptunghi $2R\\times h$",
+      "triunghi isoscel",
+      "trapez isoscel cu bazele $2R$ și $2r$ și laturile neparalele $G$",
+      "trapez dreptunghic"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-006",
+    "tip": "simplu",
+    "intrebare": "Trunchiul de con se obține:",
+    "variante": [
+      "tăind un con cu un plan paralel cu baza",
+      "rotind un dreptunghi",
+      "tăind un con cu un plan perpendicular pe bază",
+      "rotind un triunghi dreptunghic"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "trunchiul-de-con-007",
+    "tip": "simplu",
+    "intrebare": "Dacă $r=0$, trunchiul de con devine:",
+    "variante": [
+      "cilindru",
+      "con",
+      "sferă",
+      "prismă"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "trunchiul-de-con-008",
+    "tip": "simplu",
+    "intrebare": "Dacă $r=R$, trunchiul de con devine:",
+    "variante": [
+      "cilindru",
+      "con",
+      "piramidă",
+      "sferă"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "trunchiul-de-con-009",
+    "tip": "simplu",
+    "intrebare": "Trunchi: $R=5$, $r=2$, $h=4$. Generatoarea este:",
+    "variante": [
+      "$\\sqrt{37}$",
+      "$7$",
+      "$5$",
+      "$\\sqrt{65}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-con-010",
+    "tip": "simplu",
+    "intrebare": "Trunchi: $R=5$, $r=2$, $G=5$. Aria laterală este:",
+    "variante": [
+      "$70\\pi$",
+      "$15\\pi$",
+      "$25\\pi$",
+      "$35\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-con-011",
+    "tip": "simplu",
+    "intrebare": "Trunchi: $R=5$, $r=2$, $h=4$. Volumul este:",
+    "variante": [
+      "$28\\pi$",
+      "$39\\pi$",
+      "$156\\pi$",
+      "$52\\pi$"
+    ],
+    "corect": 3
+  }
+]

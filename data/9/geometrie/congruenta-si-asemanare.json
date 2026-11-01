@@ -1,0 +1,185 @@
+[
+  {
+    "id": "congruenta-si-asemanare-001",
+    "tip": "simplu",
+    "intrebare": "Congruență LUL:",
+    "variante": [
+      "trei unghiuri egale",
+      "două laturi și unghiul dintre ele",
+      "două unghiuri și o latură oarecare",
+      "două laturi și un unghi oarecare"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-002",
+    "tip": "simplu",
+    "intrebare": "Congruență ULU:",
+    "variante": [
+      "trei laturi",
+      "o latură și cele două unghiuri alăturate ei",
+      "două laturi și unghiul dintre ele",
+      "două unghiuri"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-003",
+    "tip": "simplu",
+    "intrebare": "Congruență LLL:",
+    "variante": [
+      "trei unghiuri egale",
+      "trei laturi egale",
+      "două laturi egale",
+      "o latură și un unghi"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-004",
+    "tip": "simplu",
+    "intrebare": "Asemănare UU:",
+    "variante": [
+      "trei laturi egale",
+      "două unghiuri egale",
+      "două laturi egale",
+      "o latură și un unghi"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-005",
+    "tip": "simplu",
+    "intrebare": "Asemănare LUL:",
+    "variante": [
+      "două unghiuri proporționale",
+      "trei laturi egale",
+      "două laturi egale și un unghi oarecare",
+      "două laturi proporționale și unghiul dintre ele egal"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "congruenta-si-asemanare-006",
+    "tip": "simplu",
+    "intrebare": "Asemănare LLL:",
+    "variante": [
+      "trei laturi proporționale",
+      "trei unghiuri proporționale",
+      "două laturi proporționale",
+      "trei laturi egale"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "congruenta-si-asemanare-007",
+    "tip": "simplu",
+    "intrebare": "Teorema lui Thales: dacă $DE\\parallel BC$ ($D\\in AB$, $E\\in AC$), atunci:",
+    "variante": [
+      "$AD=AE$",
+      "$\\frac{AD}{AB}=\\frac{AE}{AC}=\\frac{DE}{BC}$",
+      "$\\frac{AD}{DB}=\\frac{DE}{BC}$",
+      "$\\frac{AD}{AB}=\\frac{AC}{AE}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-008",
+    "tip": "simplu",
+    "intrebare": "Reciproca teoremei lui Thales: dacă $\\frac{AD}{DB}=\\frac{AE}{EC}$, atunci:",
+    "variante": [
+      "$DE\\parallel BC$",
+      "$DE\\perp BC$",
+      "$AD=AE$",
+      "triunghiul $ABC$ este isoscel"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "congruenta-si-asemanare-009",
+    "tip": "simplu",
+    "intrebare": "Teorema bisectoarei ($AD$ bisectoare, $D\\in BC$):",
+    "variante": [
+      "$BD=DC$",
+      "$\\frac{BD}{DC}=\\frac{AD}{AB}$",
+      "$\\frac{BD}{DC}=\\frac{AB}{AC}$",
+      "$\\frac{BD}{DC}=\\frac{AC}{AB}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "congruenta-si-asemanare-010",
+    "tip": "simplu",
+    "intrebare": "Triunghiuri asemenea cu raportul $k$: raportul perimetrelor este:",
+    "variante": [
+      "$\\sqrt k$",
+      "$k^2$",
+      "$2k$",
+      "$k$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "congruenta-si-asemanare-011",
+    "tip": "simplu",
+    "intrebare": "Triunghiuri asemenea cu raportul $k$: raportul ariilor este:",
+    "variante": [
+      "$\\sqrt k$",
+      "$k$",
+      "$k^2$",
+      "$2k$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "congruenta-si-asemanare-012",
+    "tip": "simplu",
+    "intrebare": "Triunghiuri asemenea cu raportul $k=3$: ariile sunt în raport de:",
+    "variante": [
+      "$9$",
+      "$6$",
+      "$27$",
+      "$3$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "congruenta-si-asemanare-013",
+    "tip": "simplu",
+    "intrebare": "$DE\\parallel BC$, $AD=2$, $AB=6$, $AC=9$. Atunci $AE=?$",
+    "variante": [
+      "$6$",
+      "$3$",
+      "$4{,}5$",
+      "$1{,}5$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "congruenta-si-asemanare-014",
+    "tip": "simplu",
+    "intrebare": "Triunghiurile congruente sunt asemenea cu raportul:",
+    "variante": [
+      "$k=0$",
+      "$k=2$",
+      "$k=1$",
+      "$k=-1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "congruenta-si-asemanare-015",
+    "tip": "multiplu",
+    "intrebare": "Care sunt criterii de congruență a triunghiurilor?",
+    "variante": [
+      "LLU (două laturi și un unghi oarecare)",
+      "LUL",
+      "UU",
+      "ULU"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  }
+]

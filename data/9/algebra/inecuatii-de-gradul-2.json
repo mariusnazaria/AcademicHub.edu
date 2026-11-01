@@ -1,0 +1,170 @@
+[
+  {
+    "id": "inecuatii-de-gradul-2-001",
+    "tip": "simplu",
+    "intrebare": "Pentru $a>0$, soluția lui $f(x)>0$ (cu $x_1<x_2$ rădăcinile) este:",
+    "variante": [
+      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$",
+      "$[x_1;x_2]$",
+      "$(x_1;x_2)$",
+      "$\\mathbb{R}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-2-002",
+    "tip": "simplu",
+    "intrebare": "Pentru $a>0$, soluția lui $f(x)<0$ este:",
+    "variante": [
+      "$\\mathbb{R}$",
+      "$\\varnothing$",
+      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$",
+      "$(x_1;x_2)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-2-003",
+    "tip": "simplu",
+    "intrebare": "Pentru $a<0$, soluția lui $f(x)>0$ este:",
+    "variante": [
+      "$\\varnothing$",
+      "$\\mathbb{R}$",
+      "$(x_1;x_2)$",
+      "$(-\\infty;x_1)\\cup(x_2;+\\infty)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-2-004",
+    "tip": "simplu",
+    "intrebare": "Parabola pentru $a>0$ are:",
+    "variante": [
+      "ramuri orizontale",
+      "față tristă (ramuri în jos)",
+      "față zâmbitoare (ramuri în sus)",
+      "o singură ramură"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-2-005",
+    "tip": "simplu",
+    "intrebare": "Ordinea pașilor la inecuația de gradul II:",
+    "variante": [
+      "desenăm parabola → aducem la formă → aflăm $x_1,x_2$",
+      "citim intervalul → aflăm rădăcinile",
+      "aflăm rădăcinile → schimbăm sensul",
+      "aducem la forma $ax^2+bx+c\\gtrless0$ → aflăm rădăcinile → desenăm parabola → citim intervalul"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-2-006",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\Delta<0$ și $a>0$:",
+    "variante": [
+      "$f(x)>0$ pentru orice $x$",
+      "$f(x)<0$ pentru orice $x$",
+      "$f(x)=0$ pentru orice $x$",
+      "$f(x)>0$ doar pentru $x>0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-2-007",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\Delta<0$ și $a<0$:",
+    "variante": [
+      "$f(x)<0$ pentru orice $x$",
+      "$f(x)>0$ pentru orice $x$",
+      "$f(x)=0$ pentru orice $x$",
+      "nu putem spune nimic"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "inecuatii-de-gradul-2-008",
+    "tip": "simplu",
+    "intrebare": "Semnele lui $f$ pentru $a>0$ și $\\Delta>0$, de la stânga la dreapta:",
+    "variante": [
+      "$+\\ +\\ +$",
+      "$+\\ -\\ -$",
+      "$+\\ -\\ +$",
+      "$-\\ +\\ -$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-2-009",
+    "tip": "simplu",
+    "intrebare": "$x^2-4>0\\Rightarrow S=?$",
+    "variante": [
+      "$[-2;2]$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$(2;+\\infty)$",
+      "$(-2;2)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-2-010",
+    "tip": "simplu",
+    "intrebare": "$x^2-4<0\\Rightarrow S=?$",
+    "variante": [
+      "$\\varnothing$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$",
+      "$(-2;2)$",
+      "$(-\\infty;2)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "inecuatii-de-gradul-2-011",
+    "tip": "simplu",
+    "intrebare": "$x^2-5x+6\\le0\\Rightarrow S=?$",
+    "variante": [
+      "$(-\\infty;2]\\cup[3;+\\infty)$",
+      "$[2;3]$",
+      "$(2;3)$",
+      "$[-3;-2]$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-2-012",
+    "tip": "simplu",
+    "intrebare": "$x^2+1>0\\Rightarrow S=?$",
+    "variante": [
+      "$\\varnothing$",
+      "$\\{-1,1\\}$",
+      "$(0;+\\infty)$",
+      "$\\mathbb{R}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "inecuatii-de-gradul-2-013",
+    "tip": "simplu",
+    "intrebare": "$-x^2+4>0\\Rightarrow S=?$",
+    "variante": [
+      "$\\varnothing$",
+      "$(-2;2)$",
+      "$\\mathbb{R}$",
+      "$(-\\infty;-2)\\cup(2;+\\infty)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "inecuatii-de-gradul-2-014",
+    "tip": "simplu",
+    "intrebare": "Pentru fracții: $\\frac AB>0\\iff ?$",
+    "variante": [
+      "$A>0$ doar",
+      "$A\\cdot B<0$",
+      "$A\\cdot B>0$ (și $B\\neq0$)",
+      "$A+B>0$"
+    ],
+    "corect": 2
+  }
+]

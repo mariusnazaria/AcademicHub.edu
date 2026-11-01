@@ -1,0 +1,194 @@
+[
+  {
+    "id": "monoame-001",
+    "tip": "simplu",
+    "intrebare": "Un monom este de forma:",
+    "variante": [
+      "parte literală $+$ coeficient",
+      "coeficient $\\cdot$ parte literală",
+      "sumă de doi coeficienți",
+      "doar o literă la o putere"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monoame-002",
+    "tip": "simplu",
+    "intrebare": "Gradul monomului $-5x^2y^3$ este:",
+    "variante": [
+      "$-5$",
+      "$3$",
+      "$6$",
+      "$5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monoame-003",
+    "tip": "simplu",
+    "intrebare": "Gradul unui monom este:",
+    "variante": [
+      "coeficientul monomului",
+      "cel mai mare exponent dintre litere",
+      "suma exponenților din partea literală",
+      "numărul de litere"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monoame-004",
+    "tip": "simplu",
+    "intrebare": "Monoame asemenea sunt cele care au:",
+    "variante": [
+      "același grad, dar litere diferite",
+      "același coeficient",
+      "coeficienți opuși",
+      "aceeași parte literală"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monoame-005",
+    "tip": "simplu",
+    "intrebare": "Care monoame sunt asemenea cu $3xy^2$?",
+    "variante": [
+      "$3x^2y^2$",
+      "$3x^2y$",
+      "$-7xy^2$",
+      "$3xy$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monoame-006",
+    "tip": "simplu",
+    "intrebare": "Forma standard a monomului: coeficientul se scrie:",
+    "variante": [
+      "primul, iar literele în ordine alfabetică, fiecare o singură dată",
+      "oriunde, literele în ordinea de la înmulțire",
+      "ultimul, literele în ordine inversă",
+      "primul, iar literele se repetă de câte ori apar"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monoame-007",
+    "tip": "simplu",
+    "intrebare": "$3x^2y+5x^2y=?$",
+    "variante": [
+      "$15x^2y$",
+      "$8x^2y$",
+      "$8x^4y^2$",
+      "$8x^2y^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monoame-008",
+    "tip": "simplu",
+    "intrebare": "$(2x^2)(3x^4)=?$",
+    "variante": [
+      "$6x^8$",
+      "$6x^6$",
+      "$5x^8$",
+      "$5x^6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monoame-009",
+    "tip": "simplu",
+    "intrebare": "$(-2x^3)^2=?$",
+    "variante": [
+      "$-4x^6$",
+      "$4x^6$",
+      "$-2x^6$",
+      "$4x^5$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "monoame-010",
+    "tip": "simplu",
+    "intrebare": "$12x^5:4x^2=?$",
+    "variante": [
+      "$8x^3$",
+      "$3x^2$",
+      "$3x^7$",
+      "$3x^3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "monoame-011",
+    "tip": "simplu",
+    "intrebare": "Monoamele se pot aduna (reduce) numai dacă sunt:",
+    "variante": [
+      "asemenea",
+      "cu același coeficient",
+      "de același grad",
+      "cu litere diferite"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monoame-012",
+    "tip": "simplu",
+    "intrebare": "$3x+2y=?$",
+    "variante": [
+      "$6xy$",
+      "$5x$",
+      "rămâne $3x+2y$ (monoame neasemenea)",
+      "$5xy$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monoame-013",
+    "tip": "simplu",
+    "intrebare": "Numărul $7$ (fără literă) este monom de gradul:",
+    "variante": [
+      "$7$",
+      "nu este monom",
+      "$0$",
+      "$1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monoame-014",
+    "tip": "simplu",
+    "intrebare": "La înmulțirea monoamelor:",
+    "variante": [
+      "coeficienții se înmulțesc, exponenții se înmulțesc",
+      "coeficienții se adună, exponenții se adună",
+      "coeficienții se înmulțesc, exponenții literelor identice se adună",
+      "coeficienții se adună, exponenții se înmulțesc"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "monoame-015",
+    "tip": "simplu",
+    "intrebare": "La ridicarea unui monom la putere:",
+    "variante": [
+      "exponenții se înmulțesc cu puterea",
+      "exponenții se adună cu puterea",
+      "exponenții se scad",
+      "se ridică doar coeficientul"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "monoame-016",
+    "tip": "simplu",
+    "intrebare": "La împărțirea monoamelor:",
+    "variante": [
+      "coeficienții se scad, exponenții se împart",
+      "coeficienții se adună",
+      "coeficienții se împart, exponenții se scad",
+      "exponenții se adună"
+    ],
+    "corect": 2
+  }
+]

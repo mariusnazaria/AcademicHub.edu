@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ecuatii-rationale-001",
+    "tip": "simplu",
+    "intrebare": "Ordinea pașilor la o ecuație rațională:",
+    "variante": [
+      "descompunem numitorii și scriem DVA → numitor comun → rezolvăm → verificăm în DVA",
+      "rezolvăm → numitor comun → DVA",
+      "numitor comun → rezolvăm, fără verificare",
+      "DVA se scrie la final, doar dacă ne rămâne timp"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-rationale-002",
+    "tip": "simplu",
+    "intrebare": "$\\frac AB=0\\iff ?$",
+    "variante": [
+      "$A=0$ și $B=0$",
+      "$B=0$",
+      "$A\\neq0$",
+      "$A=0$ și $B\\neq0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-rationale-003",
+    "tip": "simplu",
+    "intrebare": "Proporția $\\frac AB=\\frac CD$ ($B,D\\neq0$) este echivalentă cu:",
+    "variante": [
+      "$A+D=B+C$",
+      "$A\\cdot D=B\\cdot C$",
+      "$A\\cdot B=C\\cdot D$",
+      "$A\\cdot C=B\\cdot D$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-rationale-004",
+    "tip": "simplu",
+    "intrebare": "DVA la ecuațiile raționale înseamnă:",
+    "variante": [
+      "numitorii sunt egali cu $0$",
+      "soluțiile sunt pozitive",
+      "numărătorii sunt diferiți de $0$",
+      "numitorii sunt diferiți de $0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-rationale-005",
+    "tip": "simplu",
+    "intrebare": "$x-2\\neq0\\Rightarrow ?$",
+    "variante": [
+      "$x\\neq-2$",
+      "$x=2$",
+      "$x\\neq2$",
+      "$x>2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-rationale-006",
+    "tip": "simplu",
+    "intrebare": "O soluție care anulează un numitor:",
+    "variante": [
+      "se păstrează",
+      "devine soluție dublă",
+      "se aruncă (nu aparține DVA)",
+      "se adună la celelalte soluții"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-rationale-007",
+    "tip": "simplu",
+    "intrebare": "$\\frac{x}{x-1}=\\frac{2}{x-1}$ are mulțimea soluțiilor:",
+    "variante": [
+      "$S=\\{1\\}$",
+      "$S=\\{2\\}$",
+      "$S=\\{1,2\\}$",
+      "$S=\\varnothing$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-rationale-008",
+    "tip": "simplu",
+    "intrebare": "$\\frac{x}{x-2}=\\frac{2}{x-2}$ are mulțimea soluțiilor:",
+    "variante": [
+      "$S=\\{0\\}$",
+      "$S=\\varnothing$ ($x=2$ anulează numitorul)",
+      "$S=\\mathbb{R}$",
+      "$S=\\{2\\}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-rationale-009",
+    "tip": "simplu",
+    "intrebare": "$\\frac{x-3}{x+1}=0\\Rightarrow x=?$",
+    "variante": [
+      "$-3$",
+      "$-1$",
+      "$1$",
+      "$3$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-rationale-010",
+    "tip": "simplu",
+    "intrebare": "$\\frac{x^2-1}{x-1}=0$ are soluția:",
+    "variante": [
+      "$S=\\varnothing$",
+      "$x=1$",
+      "$x=-1$ (se exclude $x=1$)",
+      "$x=1$ și $x=-1$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-rationale-011",
+    "tip": "simplu",
+    "intrebare": "De ce verificăm soluțiile în DVA?",
+    "variante": [
+      "ca să calculăm discriminantul",
+      "nu este nevoie niciodată",
+      "ca să schimbăm semnul soluției",
+      "poate rezulta o valoare care anulează un numitor"
+    ],
+    "corect": 3
+  }
+]

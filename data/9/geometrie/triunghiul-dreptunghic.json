@@ -1,0 +1,209 @@
+[
+  {
+    "id": "triunghiul-dreptunghic-001",
+    "tip": "simplu",
+    "intrebare": "Teorema lui Pitagora (ipotenuza $a$, catetele $b,c$):",
+    "variante": [
+      "$a=b+c$",
+      "$a^2=b^2+c^2$",
+      "$a^2=b^2-c^2$",
+      "$b^2=a^2+c^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-dreptunghic-002",
+    "tip": "simplu",
+    "intrebare": "Teorema înălțimii ($h$ înălțimea din vârful unghiului drept, $p,q$ proiecțiile catetelor):",
+    "variante": [
+      "$h^2=p\\cdot q$",
+      "$h^2=\\frac{p}{q}$",
+      "$h^2=p+q$",
+      "$h=p\\cdot q$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-dreptunghic-003",
+    "tip": "simplu",
+    "intrebare": "Teorema catetei ($c$ cateta, $p$ proiecția ei, $a$ ipotenuza):",
+    "variante": [
+      "$c^2=p\\cdot a$",
+      "$c^2=h\\cdot a$",
+      "$c^2=p+a$",
+      "$c=p\\cdot a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-dreptunghic-004",
+    "tip": "simplu",
+    "intrebare": "Aria triunghiului dreptunghic exprimată cu înălțimea: $a\\cdot h=?$",
+    "variante": [
+      "$b^2+c^2$",
+      "$b\\cdot c$",
+      "$b+c$",
+      "$\\frac{b\\cdot c}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-dreptunghic-005",
+    "tip": "simplu",
+    "intrebare": "Mediana la ipotenuză este:",
+    "variante": [
+      "egală cu o catetă",
+      "dublul ipotenuzei",
+      "egală cu ipotenuza",
+      "jumătate din ipotenuză"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-dreptunghic-006",
+    "tip": "simplu",
+    "intrebare": "Cateta opusă unghiului de $30^\\circ$ este:",
+    "variante": [
+      "egală cu ipotenuza",
+      "dublul ipotenuzei",
+      "egală cu cealaltă catetă",
+      "jumătate din ipotenuză"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-dreptunghic-007",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic cu un unghi de $45^\\circ$: ipotenuza ($c$ = cateta) este:",
+    "variante": [
+      "$c\\sqrt3$",
+      "$\\frac{c}{2}$",
+      "$2c$",
+      "$c\\sqrt2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-dreptunghic-008",
+    "tip": "simplu",
+    "intrebare": "Care este un triplet pitagoreic?",
+    "variante": [
+      "$(6,8,11)$",
+      "$(5,12,14)$",
+      "$(3,4,6)$",
+      "$(3,4,5)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-dreptunghic-009",
+    "tip": "multiplu",
+    "intrebare": "Care sunt triplete pitagoreice?",
+    "variante": [
+      "$(8,15,17)$",
+      "$(7,24,25)$",
+      "$(9,12,16)$",
+      "$(6,7,8)$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triunghiul-dreptunghic-010",
+    "tip": "simplu",
+    "intrebare": "Pașii rezolvării unei probleme cu triunghi dreptunghic:",
+    "variante": [
+      "alegem teorema → verificăm → desenăm",
+      "scriem relația fără figură",
+      "desenăm figura și notăm datele → alegem teorema → scriem relația și calculăm → verificăm",
+      "calculăm → alegem teorema → desenăm"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-dreptunghic-011",
+    "tip": "simplu",
+    "intrebare": "Catetele $3$ și $4$: ipotenuza este:",
+    "variante": [
+      "$7$",
+      "$5$",
+      "$\\sqrt7$",
+      "$12$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-dreptunghic-012",
+    "tip": "simplu",
+    "intrebare": "$p=4$, $q=9$ (proiecțiile): înălțimea $h=?$",
+    "variante": [
+      "$6$",
+      "$13$",
+      "$\\sqrt{13}$",
+      "$36$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-dreptunghic-013",
+    "tip": "simplu",
+    "intrebare": "Ipotenuza $a=10$, proiecția $p=4$: cateta $c=?$",
+    "variante": [
+      "$40$",
+      "$\\sqrt{14}$",
+      "$4\\sqrt{10}$",
+      "$2\\sqrt{10}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-dreptunghic-014",
+    "tip": "simplu",
+    "intrebare": "Ipotenuza este $10$. Mediana la ipotenuză este:",
+    "variante": [
+      "$20$",
+      "$5$",
+      "$2{,}5$",
+      "$10$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-dreptunghic-015",
+    "tip": "simplu",
+    "intrebare": "Unghi de $30^\\circ$, ipotenuza $12$: cateta opusă este:",
+    "variante": [
+      "$12$",
+      "$24$",
+      "$6$",
+      "$6\\sqrt3$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-dreptunghic-016",
+    "tip": "simplu",
+    "intrebare": "Catete egale cu $4$: ipotenuza este:",
+    "variante": [
+      "$16$",
+      "$4\\sqrt2$",
+      "$4\\sqrt3$",
+      "$8$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-dreptunghic-017",
+    "tip": "simplu",
+    "intrebare": "Reciproca teoremei lui Pitagora: dacă $a^2=b^2+c^2$, atunci:",
+    "variante": [
+      "triunghiul este echilateral",
+      "triunghiul este obtuzunghic",
+      "triunghiul este dreptunghic (unghiul opus lui $a$ este drept)",
+      "triunghiul este isoscel"
+    ],
+    "corect": 2
+  }
+]

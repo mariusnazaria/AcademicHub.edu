@@ -1,0 +1,170 @@
+[
+  {
+    "id": "conul-001",
+    "tip": "simplu",
+    "intrebare": "Con circular drept: generatoarea $G$ ($R$ raza, $h$ înălțimea):",
+    "variante": [
+      "$G^2=R^2+h^2$",
+      "$G=R+h$",
+      "$G^2=R^2-h^2$",
+      "$h^2=R^2+G^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-002",
+    "tip": "simplu",
+    "intrebare": "Con: aria laterală:",
+    "variante": [
+      "$A_l=\\pi R\\cdot G$",
+      "$A_l=\\pi R^2$",
+      "$A_l=2\\pi R\\cdot G$",
+      "$A_l=\\pi R\\cdot h$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-003",
+    "tip": "simplu",
+    "intrebare": "Con: aria totală:",
+    "variante": [
+      "$A_t=\\pi R(R+G)$",
+      "$A_t=2\\pi R(R+G)$",
+      "$A_t=\\pi R(R+h)$",
+      "$A_t=\\pi R\\cdot G$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-004",
+    "tip": "simplu",
+    "intrebare": "Con: volumul:",
+    "variante": [
+      "$V=\\frac{\\pi R\\cdot G}{3}$",
+      "$V=\\frac{\\pi R^2G}{3}$",
+      "$V=\\frac{\\pi R^2h}{3}$",
+      "$V=\\pi R^2h$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-005",
+    "tip": "simplu",
+    "intrebare": "Secțiunea axială a conului este:",
+    "variante": [
+      "triunghi dreptunghic cu catetele $R,h$",
+      "triunghi isoscel cu baza $2R$ și laturile $G$",
+      "cerc de rază $R$",
+      "dreptunghi $2R\\times h$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "conul-006",
+    "tip": "simplu",
+    "intrebare": "Conul se obține rotind:",
+    "variante": [
+      "un trapez în jurul bazei",
+      "un semicerc în jurul diametrului",
+      "un triunghi dreptunghic în jurul unei catete",
+      "un dreptunghi în jurul unei laturi"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-007",
+    "tip": "simplu",
+    "intrebare": "Con cu secțiunea axială echilaterală:",
+    "variante": [
+      "$G=R\\sqrt3$ și $h=2R$",
+      "$G=2R$ și $h=R\\sqrt3$",
+      "$G=2R$ și $h=R$",
+      "$G=R$ și $h=R\\sqrt3$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "conul-008",
+    "tip": "simplu",
+    "intrebare": "Dezvoltarea laterală a conului este:",
+    "variante": [
+      "un cerc de rază $G$",
+      "un sector de rază $R$",
+      "un sector de cerc de rază $G$ cu arcul $2\\pi R$",
+      "un dreptunghi $2\\pi R\\times h$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-009",
+    "tip": "simplu",
+    "intrebare": "Unghiul sectorului din dezvoltarea laterală a conului:",
+    "variante": [
+      "$n^\\circ=180^\\circ\\cdot\\frac RG$",
+      "$n^\\circ=360^\\circ\\cdot R\\cdot G$",
+      "$n^\\circ=360^\\circ\\cdot\\frac RG$",
+      "$n^\\circ=360^\\circ\\cdot\\frac GR$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-010",
+    "tip": "simplu",
+    "intrebare": "Con și cilindru cu aceeași bază și înălțime:",
+    "variante": [
+      "$V_{con}=3V_{cilindru}$",
+      "$V_{con}=V_{cilindru}$",
+      "$V_{con}=\\frac{V_{cilindru}}{2}$",
+      "$V_{con}=\\frac{V_{cilindru}}{3}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-011",
+    "tip": "simplu",
+    "intrebare": "Con cu $R=3$, $h=4$: generatoarea este:",
+    "variante": [
+      "$\\sqrt7$",
+      "$12$",
+      "$7$",
+      "$5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-012",
+    "tip": "simplu",
+    "intrebare": "Con cu $R=3$, $G=5$: aria laterală este:",
+    "variante": [
+      "$30\\pi$",
+      "$24\\pi$",
+      "$9\\pi$",
+      "$15\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-013",
+    "tip": "simplu",
+    "intrebare": "Con cu $R=3$, $h=4$: volumul este:",
+    "variante": [
+      "$24\\pi$",
+      "$12\\pi$",
+      "$15\\pi$",
+      "$36\\pi$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "conul-014",
+    "tip": "simplu",
+    "intrebare": "Con cu $R=3$, $G=5$: aria totală este:",
+    "variante": [
+      "$15\\pi$",
+      "$48\\pi$",
+      "$24\\pi$",
+      "$30\\pi$"
+    ],
+    "corect": 2
+  }
+]

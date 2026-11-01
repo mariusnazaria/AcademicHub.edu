@@ -1,0 +1,170 @@
+[
+  {
+    "id": "triunghiul-001",
+    "tip": "simplu",
+    "intrebare": "Suma unghiurilor unui triunghi este:",
+    "variante": [
+      "$90^\\circ$",
+      "$360^\\circ$",
+      "$270^\\circ$",
+      "$180^\\circ$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-002",
+    "tip": "simplu",
+    "intrebare": "Un unghi exterior al triunghiului este egal cu:",
+    "variante": [
+      "$180^\\circ$ plus suma lor",
+      "suma celorlalte două unghiuri interioare (neadiacente)",
+      "unghiul interior adiacent",
+      "diferența celorlalte două unghiuri"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-003",
+    "tip": "simplu",
+    "intrebare": "Inegalitatea triunghiului (laturile $a,b,c$):",
+    "variante": [
+      "$|b-c|<a<b+c$",
+      "$a=b+c$",
+      "$a<|b-c|$",
+      "$a>b+c$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-004",
+    "tip": "simplu",
+    "intrebare": "Se poate construi un triunghi cu laturile:",
+    "variante": [
+      "$1,\\ 2,\\ 3$",
+      "$2,\\ 3,\\ 6$",
+      "$3,\\ 4,\\ 5$",
+      "$3,\\ 3,\\ 7$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-005",
+    "tip": "simplu",
+    "intrebare": "Triunghiul echilateral are:",
+    "variante": [
+      "un unghi drept",
+      "doar două laturi egale",
+      "toate laturile diferite",
+      "toate laturile egale"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "triunghiul-006",
+    "tip": "simplu",
+    "intrebare": "Triunghiul isoscel are:",
+    "variante": [
+      "două laturi egale",
+      "toate laturile egale",
+      "un unghi obtuz mereu",
+      "toate laturile diferite"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-007",
+    "tip": "simplu",
+    "intrebare": "Triunghiul scalen are:",
+    "variante": [
+      "un unghi drept mereu",
+      "toate laturile diferite",
+      "două laturi egale",
+      "toate laturile egale"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-008",
+    "tip": "simplu",
+    "intrebare": "Triunghiul obtuzunghic are:",
+    "variante": [
+      "toate unghiurile egale cu $60^\\circ$",
+      "un unghi obtuz ($>90^\\circ$)",
+      "toate unghiurile ascuțite",
+      "un unghi drept"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-009",
+    "tip": "simplu",
+    "intrebare": "Mediana triunghiului unește:",
+    "variante": [
+      "vârful cu un punct oarecare al laturii",
+      "vârful cu mijlocul laturii opuse",
+      "două mijloace de laturi",
+      "vârful cu piciorul perpendicularei pe latura opusă"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "triunghiul-010",
+    "tip": "simplu",
+    "intrebare": "Înălțimea triunghiului este:",
+    "variante": [
+      "perpendiculara din vârf pe latura opusă",
+      "perpendiculara în mijlocul unei laturi",
+      "segmentul din vârf la mijlocul laturii opuse",
+      "segmentul care împarte unghiul în două"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-011",
+    "tip": "simplu",
+    "intrebare": "Bisectoarea triunghiului:",
+    "variante": [
+      "este perpendiculară în mijlocul laturii",
+      "este perpendiculară pe latura opusă",
+      "împarte unghiul din vârf în două unghiuri egale",
+      "trece prin mijlocul laturii opuse mereu"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-012",
+    "tip": "simplu",
+    "intrebare": "Mediatoarea unei laturi este:",
+    "variante": [
+      "segmentul din vârf la mijlocul laturii",
+      "bisectoarea unghiului",
+      "perpendiculara în mijlocul laturii",
+      "perpendiculara din vârf pe latură"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "triunghiul-013",
+    "tip": "simplu",
+    "intrebare": "Într-un triunghi $B=50^\\circ$, $C=60^\\circ$. Unghiul exterior la $A$ (suma celor două) este:",
+    "variante": [
+      "$110^\\circ$",
+      "$10^\\circ$",
+      "$130^\\circ$",
+      "$70^\\circ$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "triunghiul-014",
+    "tip": "simplu",
+    "intrebare": "Unghiurile triunghiului echilateral au câte:",
+    "variante": [
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$60^\\circ$",
+      "$30^\\circ$"
+    ],
+    "corect": 2
+  }
+]

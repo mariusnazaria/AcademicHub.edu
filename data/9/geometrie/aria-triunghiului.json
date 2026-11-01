@@ -1,0 +1,170 @@
+[
+  {
+    "id": "aria-triunghiului-001",
+    "tip": "simplu",
+    "intrebare": "Aria triunghiului (formula de bază):",
+    "variante": [
+      "$S=\\frac{b\\cdot h}{2}$",
+      "$S=\\frac{b+h}{2}$",
+      "$S=b\\cdot h$",
+      "$S=\\frac{b\\cdot h}{3}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-triunghiului-002",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic cu catetele $c_1,c_2$:",
+    "variante": [
+      "$S=\\frac{c_1^2\\cdot c_2^2}{2}$",
+      "$S=\\frac{c_1\\cdot c_2}{2}$",
+      "$S=\\frac{c_1+c_2}{2}$",
+      "$S=c_1\\cdot c_2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-003",
+    "tip": "simplu",
+    "intrebare": "Triunghi echilateral de latură $l$:",
+    "variante": [
+      "$S=\\frac{l^2}{4}$",
+      "$S=\\frac{l^2\\sqrt3}{4}$",
+      "$S=\\frac{l^2\\sqrt3}{2}$",
+      "$S=\\frac{l\\sqrt3}{4}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-004",
+    "tip": "simplu",
+    "intrebare": "Aria cu sinus:",
+    "variante": [
+      "$S=\\frac{a+b}{2}\\sin C$",
+      "$S=\\frac{a\\cdot b\\cdot\\cos C}{2}$",
+      "$S=a\\cdot b\\cdot\\sin C$",
+      "$S=\\frac{a\\cdot b\\cdot\\sin C}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-triunghiului-005",
+    "tip": "simplu",
+    "intrebare": "Formula lui Heron:",
+    "variante": [
+      "$S=\\sqrt{p\\cdot a\\cdot b\\cdot c}$",
+      "$S=\\sqrt{p(p-a)(p-b)(p-c)}$",
+      "$S=\\sqrt{(p-a)(p-b)(p-c)}$",
+      "$S=p(p-a)(p-b)(p-c)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-006",
+    "tip": "simplu",
+    "intrebare": "În formula lui Heron, $p$ este:",
+    "variante": [
+      "înălțimea",
+      "$p=\\frac{a\\cdot b\\cdot c}{2}$",
+      "perimetrul: $p=a+b+c$",
+      "semiperimetrul: $p=\\frac{a+b+c}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-triunghiului-007",
+    "tip": "simplu",
+    "intrebare": "Mediana împarte triunghiul în două triunghiuri cu:",
+    "variante": [
+      "unghiuri egale",
+      "arii proporționale cu laturile",
+      "perimetre egale",
+      "arii egale"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "aria-triunghiului-008",
+    "tip": "simplu",
+    "intrebare": "Triunghiuri cu aceeași bază și aceeași înălțime au:",
+    "variante": [
+      "același perimetru",
+      "aceleași unghiuri",
+      "aceeași arie (vârfurile pe o paralelă la bază)",
+      "arii diferite"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "aria-triunghiului-009",
+    "tip": "simplu",
+    "intrebare": "Triunghiuri cu aceeași înălțime au ariile:",
+    "variante": [
+      "proporționale cu înălțimile",
+      "proporționale cu bazele",
+      "invers proporționale cu bazele",
+      "egale"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-010",
+    "tip": "simplu",
+    "intrebare": "Triunghi cu baza $8$ și înălțimea $5$: aria este:",
+    "variante": [
+      "$40$",
+      "$20$",
+      "$13$",
+      "$80$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-011",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic cu catetele $6$ și $8$: aria este:",
+    "variante": [
+      "$24$",
+      "$10$",
+      "$48$",
+      "$14$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-triunghiului-012",
+    "tip": "simplu",
+    "intrebare": "Triunghi echilateral cu latura $4$: aria este:",
+    "variante": [
+      "$16\\sqrt3$",
+      "$4\\sqrt3$",
+      "$2\\sqrt3$",
+      "$8\\sqrt3$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "aria-triunghiului-013",
+    "tip": "simplu",
+    "intrebare": "$a=6$, $b=4$, $C=30^\\circ$: aria este:",
+    "variante": [
+      "$6$",
+      "$12$",
+      "$3$",
+      "$24$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "aria-triunghiului-014",
+    "tip": "simplu",
+    "intrebare": "Triunghi cu laturile $3,4,5$ (Heron): aria este:",
+    "variante": [
+      "$60$",
+      "$7{,}5$",
+      "$12$",
+      "$6$"
+    ],
+    "corect": 3
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "id": "ecuatii-de-gradul-2-001",
+    "tip": "simplu",
+    "intrebare": "Forma generală a ecuației de gradul II:",
+    "variante": [
+      "$ax+b=0$, $a\\neq0$",
+      "$ax^3+bx+c=0$",
+      "$ax^2+bx+c=0$, $a=0$",
+      "$ax^2+bx+c=0$, $a\\neq0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-de-gradul-2-002",
+    "tip": "simplu",
+    "intrebare": "Discriminantul este:",
+    "variante": [
+      "$\\Delta=b-4ac$",
+      "$\\Delta=4ac-b$",
+      "$\\Delta=b^2+4ac$",
+      "$\\Delta=b^2-4ac$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-de-gradul-2-003",
+    "tip": "simplu",
+    "intrebare": "Formula soluțiilor:",
+    "variante": [
+      "$x_{1,2}=\\frac{-b\\pm\\sqrt\\Delta}{a}$",
+      "$x_{1,2}=\\frac{-b\\pm\\Delta}{2a}$",
+      "$x_{1,2}=\\frac{-b\\pm\\sqrt\\Delta}{2a}$",
+      "$x_{1,2}=\\frac{b\\pm\\sqrt\\Delta}{2a}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-004",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\Delta>0$:",
+    "variante": [
+      "nicio soluție reală",
+      "două soluții reale distincte",
+      "infinit de soluții",
+      "o singură soluție"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-de-gradul-2-005",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\Delta=0$:",
+    "variante": [
+      "$x=0$",
+      "nicio soluție reală",
+      "o singură soluție $x=-\\frac{b}{2a}$",
+      "două soluții distincte"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-006",
+    "tip": "simplu",
+    "intrebare": "Dacă $\\Delta<0$:",
+    "variante": [
+      "nicio soluție reală: $S=\\varnothing$",
+      "două soluții distincte",
+      "$S=\\mathbb{R}$",
+      "o singură soluție"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-de-gradul-2-007",
+    "tip": "simplu",
+    "intrebare": "Viète: suma soluțiilor $x_1+x_2=?$",
+    "variante": [
+      "$-\\frac ba$",
+      "$\\frac ba$",
+      "$\\frac ca$",
+      "$-\\frac ca$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-de-gradul-2-008",
+    "tip": "simplu",
+    "intrebare": "Viète: produsul soluțiilor $x_1\\cdot x_2=?$",
+    "variante": [
+      "$\\frac ab$",
+      "$-\\frac ca$",
+      "$\\frac ca$",
+      "$-\\frac ba$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-009",
+    "tip": "simplu",
+    "intrebare": "Descompunerea trinomului: $ax^2+bx+c=?$",
+    "variante": [
+      "$a(x-x_1)+(x-x_2)$",
+      "$a(x+x_1)(x+x_2)$",
+      "$(x-x_1)(x-x_2)$",
+      "$a(x-x_1)(x-x_2)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-de-gradul-2-010",
+    "tip": "simplu",
+    "intrebare": "$ax^2+c=0$ (fără termenul $bx$) se rezolvă prin:",
+    "variante": [
+      "$x^2=\\frac ca$ mereu",
+      "$x=-\\frac ca$",
+      "$x^2=-\\frac ca$",
+      "$x(ax+c)=0$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-011",
+    "tip": "simplu",
+    "intrebare": "$ax^2+bx=0$ (fără termenul $c$) se rezolvă prin:",
+    "variante": [
+      "$x(ax+b)=0\\Rightarrow x=0$ sau $x=-\\frac ba$",
+      "$x=-\\frac ba$ doar",
+      "$x=0$ doar",
+      "$x^2=-\\frac ba$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-de-gradul-2-012",
+    "tip": "simplu",
+    "intrebare": "Ecuația bipătrată $ax^4+bx^2+c=0$: notăm",
+    "variante": [
+      "$t=x^2$, cu $t<0$",
+      "$t=x^4$, cu $t\\le0$",
+      "$t=x$, cu $t\\ge0$",
+      "$t=x^2$, cu $t\\ge0$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-de-gradul-2-013",
+    "tip": "simplu",
+    "intrebare": "$x^2-5x+6=0$ are soluțiile:",
+    "variante": [
+      "$x=-2$ și $x=-3$",
+      "$x=5$ și $x=6$",
+      "$x=2$ și $x=3$",
+      "$x=1$ și $x=6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-014",
+    "tip": "simplu",
+    "intrebare": "Pentru $x^2-4x+3=0$, $\\Delta=?$",
+    "variante": [
+      "$28$",
+      "$16$",
+      "$4$",
+      "$-4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "ecuatii-de-gradul-2-015",
+    "tip": "simplu",
+    "intrebare": "$x^2-9=0$ are soluțiile:",
+    "variante": [
+      "$x=3$ doar",
+      "$x=\\pm3$",
+      "$S=\\varnothing$",
+      "$x=9$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "ecuatii-de-gradul-2-016",
+    "tip": "simplu",
+    "intrebare": "$x^2+4=0$ în $\\mathbb{R}$:",
+    "variante": [
+      "$x=-4$",
+      "$x=\\pm2$",
+      "$x=2$",
+      "$S=\\varnothing$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "ecuatii-de-gradul-2-017",
+    "tip": "simplu",
+    "intrebare": "$x^2-5x=0$ are soluțiile:",
+    "variante": [
+      "$x=0$ și $x=5$",
+      "$x=\\pm5$",
+      "$x=5$ doar",
+      "$x=0$ doar"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "ecuatii-de-gradul-2-018",
+    "tip": "multiplu",
+    "intrebare": "Pentru $x^2-7x+10=0$, relațiile lui Viète dau:",
+    "variante": [
+      "$x_1\\cdot x_2=10$",
+      "$x_1+x_2=-7$",
+      "$x_1+x_2=7$",
+      "$x_1\\cdot x_2=-10$"
+    ],
+    "corect": [
+      0,
+      2
+    ]
+  }
+]

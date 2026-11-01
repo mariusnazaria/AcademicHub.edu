@@ -1,0 +1,170 @@
+[
+  {
+    "id": "poligoane-regulate-cerc-001",
+    "tip": "simplu",
+    "intrebare": "Aria unui poligon regulat ($P$ perimetrul, $a$ apotema):",
+    "variante": [
+      "$S=P\\cdot a$",
+      "$S=\\frac{P\\cdot a}{2}$",
+      "$S=\\frac{P\\cdot a}{3}$",
+      "$S=\\frac{P+a}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "poligoane-regulate-cerc-002",
+    "tip": "simplu",
+    "intrebare": "Hexagon regulat de latură $l$: $R$ și apotema $a$:",
+    "variante": [
+      "$R=\\frac{l}{2}$ ; $a=l\\sqrt3$",
+      "$R=l\\sqrt3$ ; $a=\\frac l2$",
+      "$R=l$ ; $a=\\frac{l\\sqrt3}{3}$",
+      "$R=l$ ; $a=\\frac{l\\sqrt3}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-003",
+    "tip": "simplu",
+    "intrebare": "Aria hexagonului regulat de latură $l$:",
+    "variante": [
+      "$S=\\frac{l^2\\sqrt3}{4}$",
+      "$S=\\frac{3l^2\\sqrt3}{2}$",
+      "$S=6l^2$",
+      "$S=\\frac{3l\\sqrt3}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "poligoane-regulate-cerc-004",
+    "tip": "simplu",
+    "intrebare": "Pătrat de latură $l$: $R$ și $a$:",
+    "variante": [
+      "$R=\\frac{l\\sqrt3}{3}$ ; $a=\\frac l2$",
+      "$R=l\\sqrt2$ ; $a=l$",
+      "$R=\\frac l2$ ; $a=\\frac{l\\sqrt2}{2}$",
+      "$R=\\frac{l\\sqrt2}{2}$ ; $a=\\frac l2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-005",
+    "tip": "simplu",
+    "intrebare": "Triunghi echilateral de latură $l$: $R$ și $a$:",
+    "variante": [
+      "$R=\\frac{l\\sqrt3}{6}$ ; $a=\\frac{l\\sqrt3}{3}$",
+      "$R=\\frac{l\\sqrt2}{2}$ ; $a=\\frac l2$",
+      "$R=\\frac{l\\sqrt3}{3}$ ; $a=\\frac{l\\sqrt3}{6}$",
+      "$R=\\frac{l\\sqrt3}{2}$ ; $a=\\frac{l}{2}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "poligoane-regulate-cerc-006",
+    "tip": "simplu",
+    "intrebare": "Lungimea cercului de rază $R$:",
+    "variante": [
+      "$L=\\pi R$",
+      "$L=4\\pi R$",
+      "$L=2\\pi R$",
+      "$L=\\pi R^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "poligoane-regulate-cerc-007",
+    "tip": "simplu",
+    "intrebare": "Aria discului de rază $R$:",
+    "variante": [
+      "$A=2\\pi R$",
+      "$A=2\\pi R^2$",
+      "$A=\\pi R$",
+      "$A=\\pi R^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-008",
+    "tip": "simplu",
+    "intrebare": "Lungimea arcului de $n^\\circ$:",
+    "variante": [
+      "$l=\\frac{\\pi R^2n^\\circ}{360^\\circ}$",
+      "$l=\\pi R n^\\circ$",
+      "$l=\\frac{\\pi Rn^\\circ}{360^\\circ}$",
+      "$l=\\frac{\\pi Rn^\\circ}{180^\\circ}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-009",
+    "tip": "simplu",
+    "intrebare": "Aria sectorului de cerc de $n^\\circ$:",
+    "variante": [
+      "$A=\\frac{\\pi R^2n^\\circ}{180^\\circ}$",
+      "$A=\\pi R n^\\circ$",
+      "$A=\\frac{\\pi R^2n^\\circ}{360^\\circ}$",
+      "$A=\\frac{\\pi Rn^\\circ}{180^\\circ}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "poligoane-regulate-cerc-010",
+    "tip": "simplu",
+    "intrebare": "Cerc de rază $6$: lungimea este:",
+    "variante": [
+      "$24\\pi$",
+      "$12\\pi$",
+      "$36\\pi$",
+      "$6\\pi$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "poligoane-regulate-cerc-011",
+    "tip": "simplu",
+    "intrebare": "Disc de rază $3$: aria este:",
+    "variante": [
+      "$9\\pi$",
+      "$6\\pi$",
+      "$3\\pi$",
+      "$18\\pi$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "poligoane-regulate-cerc-012",
+    "tip": "simplu",
+    "intrebare": "Sector de $90^\\circ$ și $R=4$: aria este:",
+    "variante": [
+      "$16\\pi$",
+      "$8\\pi$",
+      "$2\\pi$",
+      "$4\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-013",
+    "tip": "simplu",
+    "intrebare": "Arc de $60^\\circ$ și $R=3$: lungimea este:",
+    "variante": [
+      "$3\\pi$",
+      "$2\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "poligoane-regulate-cerc-014",
+    "tip": "simplu",
+    "intrebare": "Hexagon regulat de latură $2$: aria este:",
+    "variante": [
+      "$3\\sqrt3$",
+      "$12\\sqrt3$",
+      "$4\\sqrt3$",
+      "$6\\sqrt3$"
+    ],
+    "corect": 3
+  }
+]

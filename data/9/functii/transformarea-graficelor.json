@@ -1,0 +1,194 @@
+[
+  {
+    "id": "transformarea-graficelor-001",
+    "tip": "simplu",
+    "intrebare": "Graficul lui $ax^2+n$ are vârful:",
+    "variante": [
+      "$V(0;n)$",
+      "$V(n;0)$",
+      "$V(0;-n)$",
+      "$V(n;n)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-002",
+    "tip": "simplu",
+    "intrebare": "Graficul lui $a(x-m)^2$ ($m>0$) are vârful:",
+    "variante": [
+      "$V(0;m)$",
+      "$V(m;0)$",
+      "$V(0;-m)$",
+      "$V(-m;0)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "transformarea-graficelor-003",
+    "tip": "simplu",
+    "intrebare": "Graficul lui $a(x+m)^2$ ($m>0$) are vârful:",
+    "variante": [
+      "$V(0;-m)$",
+      "$V(m;0)$",
+      "$V(0;m)$",
+      "$V(-m;0)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-004",
+    "tip": "simplu",
+    "intrebare": "Axa de simetrie a lui $ax^2+n$:",
+    "variante": [
+      "axa $Oy$",
+      "$y=n$",
+      "axa $Ox$",
+      "$x=n$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-005",
+    "tip": "simplu",
+    "intrebare": "Axa de simetrie a lui $a(x-m)^2$:",
+    "variante": [
+      "axa $Oy$",
+      "dreapta $x=-m$",
+      "dreapta $y=m$",
+      "dreapta $x=m$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-006",
+    "tip": "simplu",
+    "intrebare": "La $ax^2+n$ cu $n>0$ parabola $ax^2$ se mută:",
+    "variante": [
+      "în jos cu $n$ unități",
+      "la dreapta cu $n$",
+      "în sus cu $n$ unități",
+      "la stânga cu $n$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "transformarea-graficelor-007",
+    "tip": "simplu",
+    "intrebare": "La $ax^2+n$ cu $n<0$ parabola $ax^2$ se mută:",
+    "variante": [
+      "în jos cu $|n|$ unități",
+      "în sus cu $|n|$ unități",
+      "la dreapta cu $|n|$",
+      "la stânga cu $|n|$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-008",
+    "tip": "simplu",
+    "intrebare": "$(x-2)^2$ se obține din $x^2$ prin deplasare:",
+    "variante": [
+      "în sus cu $2$",
+      "la dreapta cu $2$",
+      "la stânga cu $2$",
+      "în jos cu $2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "transformarea-graficelor-009",
+    "tip": "simplu",
+    "intrebare": "$(x+2)^2$ se obține din $x^2$ prin deplasare:",
+    "variante": [
+      "în sus cu $2$",
+      "la dreapta cu $2$",
+      "în jos cu $2$",
+      "la stânga cu $2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-010",
+    "tip": "simplu",
+    "intrebare": "Vârful lui $y=x^2+3$:",
+    "variante": [
+      "$V(-3;0)$",
+      "$V(0;3)$",
+      "$V(0;-3)$",
+      "$V(3;0)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "transformarea-graficelor-011",
+    "tip": "simplu",
+    "intrebare": "Vârful lui $y=-x^2-1$:",
+    "variante": [
+      "$V(-1;0)$",
+      "$V(0;1)$",
+      "$V(1;0)$",
+      "$V(0;-1)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "transformarea-graficelor-012",
+    "tip": "simplu",
+    "intrebare": "Pentru $y=2(x-3)^2$ vârful și axa sunt:",
+    "variante": [
+      "$V(3;0)$ și $x=3$",
+      "$V(3;0)$ și $x=0$",
+      "$V(-3;0)$ și $x=-3$",
+      "$V(0;3)$ și $x=0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-013",
+    "tip": "simplu",
+    "intrebare": "Vârful lui $y=(x+4)^2$:",
+    "variante": [
+      "$V(4;0)$",
+      "$V(0;4)$",
+      "$V(-4;0)$",
+      "$V(0;-4)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "transformarea-graficelor-014",
+    "tip": "simplu",
+    "intrebare": "Prin deplasare, forma parabolei:",
+    "variante": [
+      "se păstrează",
+      "se lărgește",
+      "se îngustează",
+      "se schimbă într-o dreaptă"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-015",
+    "tip": "simplu",
+    "intrebare": "Pașii trasării lui $a(x-m)^2$:",
+    "variante": [
+      "desenăm parabola $ax^2$ → mutăm vârful în $V$ → păstrăm forma parabolei",
+      "calculăm $\\Delta$ → mutăm vârful",
+      "schimbăm semnul lui $a$",
+      "unim două puncte cu rigla"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "transformarea-graficelor-016",
+    "tip": "simplu",
+    "intrebare": "Vârful lui $y=(x-1)^2+2$:",
+    "variante": [
+      "$V(-1;2)$",
+      "$V(2;1)$",
+      "$V(1;-2)$",
+      "$V(1;2)$"
+    ],
+    "corect": 3
+  }
+]

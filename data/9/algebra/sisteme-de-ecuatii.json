@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sisteme-de-ecuatii-001",
+    "tip": "simplu",
+    "intrebare": "Soluția unui sistem de ecuații este:",
+    "variante": [
+      "numărul $x$ care verifică prima ecuație",
+      "suma $x+y$",
+      "perechea care verifică o singură ecuație",
+      "perechea $(x;y)$ care verifică ambele ecuații"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sisteme-de-ecuatii-002",
+    "tip": "simplu",
+    "intrebare": "Metoda substituției:",
+    "variante": [
+      "înmulțim ecuațiile între ele",
+      "rezolvăm doar prima ecuație",
+      "exprimăm o necunoscută dintr-o ecuație și o înlocuim în cealaltă",
+      "adunăm ecuațiile fără să le modificăm"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sisteme-de-ecuatii-003",
+    "tip": "simplu",
+    "intrebare": "Metoda adunării:",
+    "variante": [
+      "înmulțim coeficienții între ei",
+      "scădem soluțiile",
+      "adunăm termenii doar din prima ecuație",
+      "facem coeficienți opuși, adunăm ecuațiile și scăpăm de o necunoscută"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sisteme-de-ecuatii-004",
+    "tip": "simplu",
+    "intrebare": "Sistem cu o singură soluție: dreptele sunt:",
+    "variante": [
+      "perpendiculare mereu",
+      "paralele",
+      "secante",
+      "identice"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sisteme-de-ecuatii-005",
+    "tip": "simplu",
+    "intrebare": "Sistem fără soluții: dreptele sunt:",
+    "variante": [
+      "secante",
+      "perpendiculare",
+      "paralele",
+      "identice"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sisteme-de-ecuatii-006",
+    "tip": "simplu",
+    "intrebare": "Sistem cu infinit de soluții: dreptele sunt:",
+    "variante": [
+      "paralele",
+      "perpendiculare",
+      "secante",
+      "identice (aceeași dreaptă)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sisteme-de-ecuatii-007",
+    "tip": "simplu",
+    "intrebare": "Pașii substituției (în ordine):",
+    "variante": [
+      "exprimăm $x$ → rezolvăm prima ecuație de două ori",
+      "exprimăm $x$ → înlocuim în a doua ecuație → rezolvăm ecuația cu $y$ → calculăm $x$ și verificăm",
+      "rezolvăm → exprimăm → înlocuim",
+      "înlocuim → exprimăm → verificăm → rezolvăm"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "sisteme-de-ecuatii-008",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}x+y=5\\\\x-y=1\\end{cases}$ are soluția:",
+    "variante": [
+      "$(3;2)$",
+      "$(3;-2)$",
+      "$(2;3)$",
+      "$(4;1)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sisteme-de-ecuatii-009",
+    "tip": "simplu",
+    "intrebare": "După ce găsim perechea $(x;y)$, o verificăm:",
+    "variante": [
+      "nu o verificăm",
+      "doar în prima ecuație",
+      "în ambele ecuații",
+      "doar în a doua ecuație"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "sisteme-de-ecuatii-010",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}x+y=4\\\\x+y=7\\end{cases}$ are:",
+    "variante": [
+      "nicio soluție",
+      "infinit de soluții",
+      "$(4;7)$",
+      "o soluție"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "sisteme-de-ecuatii-011",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}x+y=4\\\\2x+2y=8\\end{cases}$ are:",
+    "variante": [
+      "$(2;2)$ doar",
+      "nicio soluție",
+      "o singură soluție",
+      "infinit de soluții"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "sisteme-de-ecuatii-012",
+    "tip": "simplu",
+    "intrebare": "$\\begin{cases}2x+y=7\\\\x-y=2\\end{cases}$ are soluția:",
+    "variante": [
+      "$(3;-1)$",
+      "$(2;3)$",
+      "$(1;3)$",
+      "$(3;1)$"
+    ],
+    "corect": 3
+  }
+]

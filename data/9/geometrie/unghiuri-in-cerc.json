@@ -1,0 +1,146 @@
+[
+  {
+    "id": "unghiuri-in-cerc-001",
+    "tip": "simplu",
+    "intrebare": "Unghiul la centru are măsura:",
+    "variante": [
+      "egală cu a arcului subîntins",
+      "jumătate din arc",
+      "dublul arcului",
+      "$180^\\circ$ mereu"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "unghiuri-in-cerc-002",
+    "tip": "simplu",
+    "intrebare": "Unghiul înscris în cerc are măsura:",
+    "variante": [
+      "jumătate din arcul subîntins",
+      "$90^\\circ$ mereu",
+      "egală cu arcul subîntins",
+      "dublul arcului"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "unghiuri-in-cerc-003",
+    "tip": "simplu",
+    "intrebare": "Relația dintre unghiul înscris și cel la centru (același arc): $\\angle ACB=?$",
+    "variante": [
+      "$\\angle AOB$",
+      "$2\\cdot\\angle AOB$",
+      "$180^\\circ-\\angle AOB$",
+      "$\\frac{\\angle AOB}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "unghiuri-in-cerc-004",
+    "tip": "simplu",
+    "intrebare": "Unghiurile înscrise care subîntind același arc sunt:",
+    "variante": [
+      "suplementare",
+      "unul dublul celuilalt",
+      "egale",
+      "complementare"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "unghiuri-in-cerc-005",
+    "tip": "simplu",
+    "intrebare": "Unghiul înscris în semicerc ($AB$ diametru) este:",
+    "variante": [
+      "obtuz",
+      "ascuțit",
+      "$180^\\circ$",
+      "drept ($90^\\circ$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "unghiuri-in-cerc-006",
+    "tip": "simplu",
+    "intrebare": "Patrulater înscris în cerc: unghiurile opuse sunt:",
+    "variante": [
+      "$\\alpha+\\gamma=360^\\circ$",
+      "complementare",
+      "egale",
+      "suplementare: $\\alpha+\\gamma=180^\\circ$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "unghiuri-in-cerc-007",
+    "tip": "simplu",
+    "intrebare": "Cercul întreg are:",
+    "variante": [
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$360^\\circ$",
+      "$720^\\circ$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "unghiuri-in-cerc-008",
+    "tip": "simplu",
+    "intrebare": "Unghiul format de tangentă și coardă are măsura:",
+    "variante": [
+      "dublul arcului",
+      "arcul subîntins",
+      "jumătate din arcul subîntins",
+      "$90^\\circ$ mereu"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "unghiuri-in-cerc-009",
+    "tip": "simplu",
+    "intrebare": "Un arc are $80^\\circ$. Unghiul înscris care îl subîntinde:",
+    "variante": [
+      "$100^\\circ$",
+      "$80^\\circ$",
+      "$160^\\circ$",
+      "$40^\\circ$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "unghiuri-in-cerc-010",
+    "tip": "simplu",
+    "intrebare": "Unghiul la centru este $100^\\circ$. Unghiul înscris pe același arc:",
+    "variante": [
+      "$200^\\circ$",
+      "$80^\\circ$",
+      "$50^\\circ$",
+      "$100^\\circ$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "unghiuri-in-cerc-011",
+    "tip": "simplu",
+    "intrebare": "Patrulater înscris, un unghi are $70^\\circ$. Unghiul opus:",
+    "variante": [
+      "$20^\\circ$",
+      "$70^\\circ$",
+      "$110^\\circ$",
+      "$290^\\circ$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "unghiuri-in-cerc-012",
+    "tip": "simplu",
+    "intrebare": "$AB$ diametru, $C$ pe cerc. Unghiul $\\angle ACB=?$",
+    "variante": [
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$"
+    ],
+    "corect": 1
+  }
+]

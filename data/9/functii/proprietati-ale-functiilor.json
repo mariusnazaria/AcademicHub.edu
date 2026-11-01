@@ -1,0 +1,185 @@
+[
+  {
+    "id": "proprietati-ale-functiilor-001",
+    "tip": "simplu",
+    "intrebare": "Funcția $f$ este crescătoare dacă:",
+    "variante": [
+      "$x_1<x_2\\Rightarrow f(x_1)<f(x_2)$",
+      "$x_1<x_2\\Rightarrow f(x_1)=f(x_2)$",
+      "$x_1<x_2\\Rightarrow f(x_1)>f(x_2)$",
+      "$f(x)>0$ pentru orice $x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-002",
+    "tip": "simplu",
+    "intrebare": "Funcția $f$ este descrescătoare dacă:",
+    "variante": [
+      "$x_1<x_2\\Rightarrow f(x_1)>f(x_2)$",
+      "$x_1<x_2\\Rightarrow f(x_1)=f(x_2)$",
+      "$x_1<x_2\\Rightarrow f(x_1)<f(x_2)$",
+      "$f(x)<0$ pentru orice $x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-003",
+    "tip": "simplu",
+    "intrebare": "Zeroul funcției $f$ este valoarea lui $x$ pentru care:",
+    "variante": [
+      "$f(x)=0$ (punct pe axa $Ox$)",
+      "$x=0$ (punct pe axa $Oy$)",
+      "$f(x)=1$",
+      "$f(x)=x$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-004",
+    "tip": "simplu",
+    "intrebare": "Pașii studiului monotoniei:",
+    "variante": [
+      "alegem $x_1<x_2$ → comparăm $f(x_1)$ cu $f(x_2)$",
+      "rezolvăm $f(x)=0$ → desenăm",
+      "alegem doar $x=0$",
+      "alegem $x_1=x_2$ → calculăm $f(x)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-005",
+    "tip": "simplu",
+    "intrebare": "Dacă $f(x_1)<f(x_2)$ pentru $x_1<x_2$, funcția:",
+    "variante": [
+      "crește",
+      "este constantă",
+      "nu are zerouri",
+      "scade"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-006",
+    "tip": "simplu",
+    "intrebare": "Dacă $f(x_1)>f(x_2)$ pentru $x_1<x_2$, funcția:",
+    "variante": [
+      "este mereu pozitivă",
+      "este constantă",
+      "crește",
+      "scade"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "proprietati-ale-functiilor-007",
+    "tip": "simplu",
+    "intrebare": "Zeroul lui $f(x)=2x-6$ este:",
+    "variante": [
+      "$x=-3$",
+      "$x=6$",
+      "$x=3$",
+      "$x=-6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "proprietati-ale-functiilor-008",
+    "tip": "simplu",
+    "intrebare": "$f(x)>0$ înseamnă că graficul este:",
+    "variante": [
+      "sub axa $Ox$",
+      "pe axa $Oy$",
+      "deasupra axei $Ox$",
+      "pe axa $Ox$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "proprietati-ale-functiilor-009",
+    "tip": "simplu",
+    "intrebare": "$f(x)<0$ înseamnă că graficul este:",
+    "variante": [
+      "la dreapta axei $Oy$",
+      "pe axa $Ox$",
+      "sub axa $Ox$",
+      "deasupra axei $Ox$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "proprietati-ale-functiilor-010",
+    "tip": "simplu",
+    "intrebare": "Funcție strict crescătoare înseamnă că graficul:",
+    "variante": [
+      "este orizontal",
+      "coboară mereu, de la stânga la dreapta",
+      "urcă și apoi coboară",
+      "urcă mereu, de la stânga la dreapta"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "proprietati-ale-functiilor-011",
+    "tip": "simplu",
+    "intrebare": "Funcție constantă înseamnă:",
+    "variante": [
+      "$f(x_1)=f(x_2)$ pentru orice $x_1,x_2$",
+      "$f(x)=x$",
+      "$f(x)=0$ doar pentru $x=0$",
+      "$f(x_1)<f(x_2)$ pentru orice $x_1<x_2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-012",
+    "tip": "simplu",
+    "intrebare": "Zeroul se află rezolvând:",
+    "variante": [
+      "ecuația $f(x)=0$",
+      "ecuația $x=0$",
+      "ecuația $f(0)=x$",
+      "inecuația $f(x)>0$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-013",
+    "tip": "simplu",
+    "intrebare": "Zeroul $x_0$ al funcției corespunde punctului:",
+    "variante": [
+      "$(x_0;0)$ pe axa $Ox$",
+      "$(0;0)$ mereu",
+      "$(0;x_0)$ pe axa $Oy$",
+      "$(x_0;x_0)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "proprietati-ale-functiilor-014",
+    "tip": "simplu",
+    "intrebare": "$f(x)=2x-6$ este pozitivă pentru:",
+    "variante": [
+      "$x<3$",
+      "$x>6$",
+      "$x>3$",
+      "$x>-3$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "proprietati-ale-functiilor-015",
+    "tip": "multiplu",
+    "intrebare": "Care funcții sunt crescătoare pe $\\mathbb{R}$?",
+    "variante": [
+      "$f(x)=5$",
+      "$f(x)=2x+1$",
+      "$f(x)=-x$",
+      "$f(x)=x$"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  }
+]

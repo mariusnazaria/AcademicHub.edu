@@ -1,0 +1,245 @@
+[
+  {
+    "id": "puteri-si-radicali-001",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt a=x\\iff ?$ ($a\\ge0,\\ x\\ge0$)",
+    "variante": [
+      "$x^2=a$",
+      "$x=a^2$",
+      "$x=2a$",
+      "$x^2=-a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-002",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{ab}=?$ ($a,b\\ge0$)",
+    "variante": [
+      "$\\sqrt a+\\sqrt b$",
+      "$\\sqrt a:\\sqrt b$",
+      "$\\sqrt a\\cdot\\sqrt b$",
+      "$a\\sqrt b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-003",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{\\frac ab}=?$ ($a\\ge0,\\ b>0$)",
+    "variante": [
+      "$\\frac{\\sqrt b}{\\sqrt a}$",
+      "$\\frac{\\sqrt a}{\\sqrt b}$",
+      "$\\sqrt a-\\sqrt b$",
+      "$\\frac{a}{\\sqrt b}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-004",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{a^2}=?$",
+    "variante": [
+      "$-a$",
+      "$|a|$",
+      "$a^2$",
+      "$a$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-005",
+    "tip": "simplu",
+    "intrebare": "$a^n\\cdot a^m=?$",
+    "variante": [
+      "$(2a)^{n+m}$",
+      "$a^{n+m}$",
+      "$a^{nm}$",
+      "$a^{n-m}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-006",
+    "tip": "simplu",
+    "intrebare": "$a^n:a^m=?$",
+    "variante": [
+      "$a^{n-m}$",
+      "$a^{n+m}$",
+      "$a^{nm}$",
+      "$a^{n:m}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-007",
+    "tip": "simplu",
+    "intrebare": "$(a^n)^m=?$",
+    "variante": [
+      "$a^{n-m}$",
+      "$a^{nm}$",
+      "$a^{n+m}$",
+      "$a^{n^m}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-008",
+    "tip": "simplu",
+    "intrebare": "$(ab)^n=?$",
+    "variante": [
+      "$a^nb^n$",
+      "$ab^n$",
+      "$a^n+b^n$",
+      "$a^nb$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-009",
+    "tip": "simplu",
+    "intrebare": "$a^0=?$ ($a\\neq0$)",
+    "variante": [
+      "$0$",
+      "nu există",
+      "$1$",
+      "$a$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-010",
+    "tip": "simplu",
+    "intrebare": "$a^{-n}=?$",
+    "variante": [
+      "$\\frac1{a^n}$",
+      "$-a^n$",
+      "$a^{1/n}$",
+      "$\\frac{1}{a}\\cdot n$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-011",
+    "tip": "simplu",
+    "intrebare": "$\\left(\\frac12\\right)^{-3}=?$",
+    "variante": [
+      "$8$",
+      "$\\frac18$",
+      "$-\\frac18$",
+      "$-8$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-012",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt[3]{a}=x\\iff ?$",
+    "variante": [
+      "$x=3a$",
+      "$x=a^3$",
+      "$x^2=a$",
+      "$x^3=a$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-013",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt[3]{-8}=?$",
+    "variante": [
+      "nu există în $\\mathbb{R}$",
+      "$-4$",
+      "$-2$",
+      "$2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-014",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{-4}$ în $\\mathbb{R}$:",
+    "variante": [
+      "$\\pm2$",
+      "$-2$",
+      "nu există",
+      "$2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-015",
+    "tip": "simplu",
+    "intrebare": "Raționalizare: $\\frac{1}{\\sqrt a}=?$",
+    "variante": [
+      "$\\frac{\\sqrt a}{a}$",
+      "$\\frac{a}{\\sqrt a}\\cdot a$",
+      "$\\frac{1}{a}$",
+      "$\\sqrt a\\cdot a$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "puteri-si-radicali-016",
+    "tip": "simplu",
+    "intrebare": "$\\frac{1}{\\sqrt a-\\sqrt b}=?$",
+    "variante": [
+      "$\\frac{\\sqrt a+\\sqrt b}{a+b}$",
+      "$\\frac{\\sqrt a+\\sqrt b}{a-b}$",
+      "$\\frac{\\sqrt a-\\sqrt b}{a-b}$",
+      "$\\frac{\\sqrt a+\\sqrt b}{\\sqrt a-\\sqrt b}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-017",
+    "tip": "simplu",
+    "intrebare": "$\\sqrt{72}=?$",
+    "variante": [
+      "$36\\sqrt2$",
+      "$6\\sqrt2$",
+      "$6\\sqrt3$",
+      "$12\\sqrt6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "puteri-si-radicali-018",
+    "tip": "simplu",
+    "intrebare": "$(-2)^3=?$",
+    "variante": [
+      "$8$",
+      "$-6$",
+      "$-8$",
+      "$6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "puteri-si-radicali-019",
+    "tip": "simplu",
+    "intrebare": "$(-3)^{-2}=?$",
+    "variante": [
+      "$9$",
+      "$-9$",
+      "$-\\frac19$",
+      "$\\frac19$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "puteri-si-radicali-020",
+    "tip": "multiplu",
+    "intrebare": "Care egalități sunt adevărate?",
+    "variante": [
+      "$\\sqrt{a+b}=\\sqrt a+\\sqrt b$",
+      "$\\sqrt{-4}=-2$",
+      "$\\sqrt[3]{-8}=-2$",
+      "$\\sqrt{a^2}=|a|$"
+    ],
+    "corect": [
+      2,
+      3
+    ]
+  }
+]

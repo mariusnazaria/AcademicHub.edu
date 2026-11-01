@@ -1,0 +1,162 @@
+[
+  {
+    "id": "radacinile-polinoamelor-001",
+    "tip": "simplu",
+    "intrebare": "Numărul $a$ este rădăcină a lui $P$ dacă:",
+    "variante": [
+      "$P(0)=a$",
+      "$P(a)=0$",
+      "$P(a)=a$",
+      "$P(a)=1$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "radacinile-polinoamelor-002",
+    "tip": "simplu",
+    "intrebare": "Teorema lui Bézout: restul împărțirii lui $P$ la $x-a$ este:",
+    "variante": [
+      "$P(0)$",
+      "$a$",
+      "$P(-a)$",
+      "$P(a)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "radacinile-polinoamelor-003",
+    "tip": "simplu",
+    "intrebare": "Dacă $P(a)=0$, atunci:",
+    "variante": [
+      "$P(x)=x-a$",
+      "$P(x)=a\\cdot Q(x)$",
+      "$P(x)=(x-a)\\cdot Q(x)$",
+      "$P(x)=(x+a)\\cdot Q(x)$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "radacinile-polinoamelor-004",
+    "tip": "simplu",
+    "intrebare": "$x-a$ divide $P$ dacă și numai dacă:",
+    "variante": [
+      "$P(a)=a$",
+      "$P(a)=0$",
+      "$P(a)=1$",
+      "$a=0$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "radacinile-polinoamelor-005",
+    "tip": "simplu",
+    "intrebare": "Un polinom cu coeficienți întregi are rădăcinile întregi printre:",
+    "variante": [
+      "multiplii termenului liber",
+      "divizorii termenului liber",
+      "divizorii coeficientului dominant",
+      "divizorii lui $1$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "radacinile-polinoamelor-006",
+    "tip": "simplu",
+    "intrebare": "Rădăcini raționale $\\frac pq$ (fracție ireductibilă): $p$ și $q$ divid respectiv:",
+    "variante": [
+      "ambele coeficientul dominant",
+      "ambele termenul liber",
+      "$p$ coeficientul dominant, $q$ termenul liber",
+      "$p$ termenul liber, $q$ coeficientul dominant"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "radacinile-polinoamelor-007",
+    "tip": "simplu",
+    "intrebare": "Pentru $P(x)=x^2-4$, numărul $2$:",
+    "variante": [
+      "este rădăcină, pentru că $P(0)=2$",
+      "nu este rădăcină",
+      "este rădăcină, pentru că $P(2)=0$",
+      "este rădăcină, pentru că $P(2)=4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "radacinile-polinoamelor-008",
+    "tip": "simplu",
+    "intrebare": "Ordinea pașilor la căutarea rădăcinilor:",
+    "variante": [
+      "verificăm → împărțim → căutăm printre multipli",
+      "alegem un număr oarecare și îl adunăm",
+      "căutăm printre divizorii termenului liber → verificăm $P(a)=0$ → împărțim la $x-a$ → continuăm cu câtul",
+      "împărțim → căutăm → verificăm"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "radacinile-polinoamelor-009",
+    "tip": "simplu",
+    "intrebare": "Divizorii întregi ai lui $6$ sunt:",
+    "variante": [
+      "$1,2,3,6$ doar pozitivi",
+      "$\\pm1,\\pm2,\\pm3,\\pm6$",
+      "$\\pm1,\\pm2,\\pm3$",
+      "$\\pm1,\\pm6$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "radacinile-polinoamelor-010",
+    "tip": "simplu",
+    "intrebare": "$P(x)=x^3-6x^2+11x-6$. Care este o rădăcină?",
+    "variante": [
+      "$6$",
+      "$-1$",
+      "$1$",
+      "$4$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "radacinile-polinoamelor-011",
+    "tip": "simplu",
+    "intrebare": "$P(x)=x^3-6x^2+11x-6$ se descompune:",
+    "variante": [
+      "$(x-1)(x-2)(x+3)$",
+      "$(x+1)(x+2)(x+3)$",
+      "$(x-6)(x-1)^2$",
+      "$(x-1)(x-2)(x-3)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "radacinile-polinoamelor-012",
+    "tip": "simplu",
+    "intrebare": "Restul împărțirii lui $P(x)=x^2+1$ la $x-2$ este:",
+    "variante": [
+      "$1$",
+      "$3$",
+      "$5$",
+      "$-3$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "radacinile-polinoamelor-013",
+    "tip": "multiplu",
+    "intrebare": "Care numere sunt rădăcini ale lui $x^3-6x^2+11x-6$?",
+    "variante": [
+      "$4$",
+      "$3$",
+      "$1$",
+      "$2$"
+    ],
+    "corect": [
+      1,
+      2,
+      3
+    ]
+  }
+]

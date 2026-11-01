@@ -1,0 +1,134 @@
+[
+  {
+    "id": "probleme-cu-ecuatii-001",
+    "tip": "simplu",
+    "intrebare": "Formula mișcării uniforme:",
+    "variante": [
+      "$t=d\\cdot v$",
+      "$v=d\\cdot t$",
+      "$d=v+t$",
+      "$d=v\\cdot t$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-ecuatii-002",
+    "tip": "simplu",
+    "intrebare": "Problema de lucru: într-o oră un muncitor care termină în $t$ ore face:",
+    "variante": [
+      "$t^2$ din lucrare",
+      "$\\frac1t$ din lucrare",
+      "$1-t$ din lucrare",
+      "$t$ din lucrare"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-ecuatii-003",
+    "tip": "simplu",
+    "intrebare": "Doi muncitori ($t_1$ și $t_2$ ore) lucrând împreună termină în $t$ ore:",
+    "variante": [
+      "$t_1\\cdot t_2=t$",
+      "$\\frac1{t_1}\\cdot\\frac1{t_2}=\\frac1t$",
+      "$\\frac1{t_1}+\\frac1{t_2}=\\frac1t$",
+      "$t_1+t_2=t$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-ecuatii-004",
+    "tip": "simplu",
+    "intrebare": "$p\\%$ din $N$ este:",
+    "variante": [
+      "$\\frac{p+N}{100}$",
+      "$\\frac{N}{p\\cdot100}$",
+      "$p\\cdot N\\cdot100$",
+      "$\\frac{p\\cdot N}{100}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "probleme-cu-ecuatii-005",
+    "tip": "simplu",
+    "intrebare": "Numărul de două cifre $\\overline{ab}$ se scrie:",
+    "variante": [
+      "$10b+a$",
+      "$a\\cdot b$",
+      "$10a+b$",
+      "$a+b$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-ecuatii-006",
+    "tip": "simplu",
+    "intrebare": "Perimetrul și aria dreptunghiului:",
+    "variante": [
+      "$P=2(L+l)$ ; $A=L\\cdot l$",
+      "$P=L\\cdot l$ ; $A=2(L+l)$",
+      "$P=2L\\cdot l$ ; $A=L+l$",
+      "$P=L+l$ ; $A=L\\cdot l$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-ecuatii-007",
+    "tip": "simplu",
+    "intrebare": "Triunghi dreptunghic cu catetele $a,b$ și ipotenuza $c$:",
+    "variante": [
+      "$a+b=c$",
+      "$a\\cdot b=c^2$",
+      "$a^2+b^2=c^2$",
+      "$a^2+c^2=b^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-ecuatii-008",
+    "tip": "simplu",
+    "intrebare": "La problemele de amestec se păstrează:",
+    "variante": [
+      "numărul de pași",
+      "temperatura",
+      "cantitatea de substanță",
+      "prețul pe unitate mereu"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "probleme-cu-ecuatii-009",
+    "tip": "simplu",
+    "intrebare": "Ordinea etapelor rezolvării unei probleme cu ecuații:",
+    "variante": [
+      "citim și notăm ce se cere → alegem necunoscuta $x$ → scriem ecuația → rezolvăm → verificăm și răspundem",
+      "scriem ecuația → citim problema → verificăm",
+      "alegem $x$ → răspundem → scriem ecuația",
+      "rezolvăm → alegem $x$ → citim → răspundem"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "probleme-cu-ecuatii-010",
+    "tip": "simplu",
+    "intrebare": "Răspunsul unei probleme trebuie:",
+    "variante": [
+      "să coincidă cu $x$ fără verificare",
+      "să aibă sens (de ex. nu există $-3$ elevi)",
+      "să fie mereu un număr negativ",
+      "să fie mereu o fracție"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "probleme-cu-ecuatii-011",
+    "tip": "simplu",
+    "intrebare": "Cât este $20\\%$ din $150$?",
+    "variante": [
+      "$30$",
+      "$20$",
+      "$75$",
+      "$300$"
+    ],
+    "corect": 0
+  }
+]
