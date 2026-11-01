@@ -1,0 +1,182 @@
+[
+  {
+    "id": "asemanare-thales-si-ortocentru-001",
+    "tip": "simplu",
+    "intrebare": "Teorema lui Thales: dacă $MN\\parallel BC$ ($M\\in AB$, $N\\in AC$), atunci:",
+    "variante": [
+      "$\\frac{AM}{MB}=\\frac{AN}{NC}$",
+      "$\\frac{AM}{AB}=\\frac{NC}{AC}$",
+      "$\\frac{AM}{MB}=\\frac{NC}{AN}$",
+      "$AM\\cdot AN=MB\\cdot NC$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-002",
+    "tip": "simplu",
+    "intrebare": "Din $MN\\parallel BC$ mai rezultă:",
+    "variante": [
+      "$\\frac{AM}{AB}=\\frac{NC}{AC}$",
+      "$\\frac{AM}{AB}=\\frac{MB}{AC}$",
+      "$\\frac{AM}{AB}=\\frac{AN}{AC}$",
+      "$AM=AN$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-003",
+    "tip": "simplu",
+    "intrebare": "Reciproca teoremei lui Thales:",
+    "variante": [
+      "dacă $MN\\parallel BC$ atunci $AM=MB$",
+      "dacă $\\frac{AM}{MB}=\\frac{AN}{NC}$, atunci $MN\\parallel BC$",
+      "nu este adevărată",
+      "dacă $AM=AN$ atunci $MN\\parallel BC$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-004",
+    "tip": "simplu",
+    "intrebare": "Criteriile de asemănare a triunghiurilor sunt:",
+    "variante": [
+      "UU, LUU, ULU",
+      "UU, LUL, LLL",
+      "LUL, ULU, LLL (congruență)",
+      "doar UU"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-005",
+    "tip": "simplu",
+    "intrebare": "Dacă două triunghiuri sunt asemenea cu raportul $k$, perimetrele au raportul:",
+    "variante": [
+      "$k$",
+      "$k^3$",
+      "$\\frac{1}{k}$",
+      "$k^2$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-006",
+    "tip": "simplu",
+    "intrebare": "Dacă două triunghiuri sunt asemenea cu raportul $k$, ariile au raportul:",
+    "variante": [
+      "$2k$",
+      "$k$",
+      "$k^3$",
+      "$k^2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-007",
+    "tip": "simplu",
+    "intrebare": "Dacă două triunghiuri sunt asemenea cu raportul $k$, laturile corespunzătoare au raportul:",
+    "variante": [
+      "$k$",
+      "$k^2$",
+      "$\\sqrt{k}$",
+      "$k^3$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-008",
+    "tip": "simplu",
+    "intrebare": "O paralelă la una din laturile unui triunghi determină cu celelalte două laturi:",
+    "variante": [
+      "un triunghi asemenea cu cel inițial",
+      "un patrulater cu unghiuri drepte",
+      "un triunghi isoscel",
+      "un triunghi congruent cu cel inițial"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-009",
+    "tip": "simplu",
+    "intrebare": "Teorema bisectoarei: $AD$ bisectoare în $\\triangle ABC$ ($D\\in BC$), atunci:",
+    "variante": [
+      "$\\frac{BD}{DC}=\\frac{AB}{AC}$",
+      "$BD=DC$",
+      "$\\frac{BD}{DC}=\\frac{AC}{AB}$",
+      "$\\frac{BD}{DC}=\\frac{AB}{BC}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-010",
+    "tip": "simplu",
+    "intrebare": "Linia mijlocie $MN$ ($M,N$ mijloacele lui $AB$, $AC$) satisface:",
+    "variante": [
+      "$MN\\parallel BC$ și $MN=BC$",
+      "$MN\\parallel BC$ și $MN=\\frac{BC}{2}$",
+      "$MN=\\frac{AB+AC}{2}$",
+      "$MN\\perp BC$ și $MN=\\frac{BC}{2}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-011",
+    "tip": "simplu",
+    "intrebare": "Cele trei înălțimi ale unui triunghi se intersectează într-un punct numit:",
+    "variante": [
+      "centrul cercului circumscris",
+      "centrul de greutate",
+      "centrul cercului înscris",
+      "ortocentru"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-012",
+    "tip": "simplu",
+    "intrebare": "Ortocentrul unui triunghi ascuțitunghic se află:",
+    "variante": [
+      "în vârful unghiului drept",
+      "în exteriorul triunghiului",
+      "în interiorul triunghiului",
+      "pe una dintre laturi"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-013",
+    "tip": "simplu",
+    "intrebare": "Ortocentrul unui triunghi dreptunghic se află:",
+    "variante": [
+      "în vârful unghiului drept",
+      "în exterior",
+      "în interior",
+      "la mijlocul ipotenuzei"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-014",
+    "tip": "simplu",
+    "intrebare": "Ortocentrul unui triunghi obtuzunghic se află:",
+    "variante": [
+      "în exteriorul triunghiului",
+      "pe ipotenuză",
+      "în interior",
+      "în vârful unghiului obtuz"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "asemanare-thales-si-ortocentru-015",
+    "tip": "simplu",
+    "intrebare": "Teorema catetei ($A=90^\\circ$, $AD\\perp BC$): $AB^2=?$",
+    "variante": [
+      "$BD\\cdot DC$",
+      "$BC\\cdot BD$",
+      "$AD\\cdot BC$",
+      "$BC\\cdot CD$"
+    ],
+    "corect": 1
+  }
+]

@@ -162,6 +162,56 @@
               "id": "generale",
               "nume": "Întrebări generale",
               "fisier": "data/12/geometrie/generale.json"
+            },
+            {
+              "id": "asemanare-thales-si-ortocentru",
+              "nume": "Asemănare, Thales, bisectoare, ortocentru",
+              "fisier": "data/12/geometrie/asemanare-thales-si-ortocentru.json"
+            },
+            {
+              "id": "relatii-metrice-in-triunghi",
+              "nume": "Relații metrice: Pitagora, sinusuri, cosinusuri, patrulatere",
+              "fisier": "data/12/geometrie/relatii-metrice-in-triunghi.json"
+            },
+            {
+              "id": "arii-figuri-plane",
+              "nume": "Arii ale figurilor plane",
+              "fisier": "data/12/geometrie/arii-figuri-plane.json"
+            },
+            {
+              "id": "prisma-formule",
+              "nume": "Prisma: formule și proprietăți",
+              "fisier": "data/12/geometrie/prisma-formule.json"
+            },
+            {
+              "id": "piramida-formule-si-cazuri",
+              "nume": "Piramida: formule, cele 3 cazuri și secțiuni",
+              "fisier": "data/12/geometrie/piramida-formule-si-cazuri.json"
+            },
+            {
+              "id": "trunchiul-de-piramida",
+              "nume": "Trunchiul de piramidă",
+              "fisier": "data/12/geometrie/trunchiul-de-piramida.json"
+            },
+            {
+              "id": "cilindrul",
+              "nume": "Cilindrul: formule și secțiuni",
+              "fisier": "data/12/geometrie/cilindrul.json"
+            },
+            {
+              "id": "conul",
+              "nume": "Conul: formule, secțiuni și dezvoltare",
+              "fisier": "data/12/geometrie/conul.json"
+            },
+            {
+              "id": "trunchiul-de-con",
+              "nume": "Trunchiul de con",
+              "fisier": "data/12/geometrie/trunchiul-de-con.json"
+            },
+            {
+              "id": "sfera-si-calota",
+              "nume": "Sfera și calota sferică",
+              "fisier": "data/12/geometrie/sfera-si-calota.json"
             }
           ]
         },
@@ -193,6 +243,31 @@
               "id": "metoda-integrarii-prin-parti-test-1",
               "nume": "Metoda integrării prin părți Test 1",
               "fisier": "data/12/integrale/metoda-integrarii-prin-parti-test-1.json"
+            },
+            {
+              "id": "tabelul-primitivelor",
+              "nume": "Tabelul primitivelor",
+              "fisier": "data/12/integrale/tabelul-primitivelor.json"
+            },
+            {
+              "id": "reguli-de-integrare",
+              "nume": "Reguli de integrare și primitive",
+              "fisier": "data/12/integrale/reguli-de-integrare.json"
+            },
+            {
+              "id": "substitutie-si-parti-teorie",
+              "nume": "Substituție și integrare prin părți (teorie)",
+              "fisier": "data/12/integrale/substitutie-si-parti-teorie.json"
+            },
+            {
+              "id": "integrala-definita-formule-si-proprietati",
+              "nume": "Integrala definită: formule și proprietăți",
+              "fisier": "data/12/integrale/integrala-definita-formule-si-proprietati.json"
+            },
+            {
+              "id": "aplicatii-arii-si-volume",
+              "nume": "Aplicații: arii și volume de rotație",
+              "fisier": "data/12/integrale/aplicatii-arii-si-volume.json"
             }
           ]
         }

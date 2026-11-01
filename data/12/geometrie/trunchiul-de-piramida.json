@@ -1,0 +1,125 @@
+[
+  {
+    "id": "trunchiul-de-piramida-001",
+    "tip": "simplu",
+    "intrebare": "Aria laterală a trunchiului de piramidă regulată: $A_l=?$ ($a_t$ = apotema trunchiului)",
+    "variante": [
+      "$\\frac{(P_1-P_2)\\cdot a_t}{2}$",
+      "$\\frac{P_1\\cdot P_2\\cdot a_t}{2}$",
+      "$(P_1+P_2)\\cdot a_t$",
+      "$\\frac{(P_1+P_2)\\cdot a_t}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-piramida-002",
+    "tip": "simplu",
+    "intrebare": "Aria totală a trunchiului de piramidă: $A_t=?$",
+    "variante": [
+      "$A_l+2A_1$",
+      "$A_l\\cdot(A_1+A_2)$",
+      "$A_l+A_1$",
+      "$A_l+A_1+A_2$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "trunchiul-de-piramida-003",
+    "tip": "simplu",
+    "intrebare": "Volumul trunchiului de piramidă: $V=?$",
+    "variante": [
+      "$\\frac{h}{3}(A_1+A_2)$",
+      "$\\frac{h}{3}\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$",
+      "$h\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$",
+      "$\\frac{h}{2}\\left(A_1+\\sqrt{A_1A_2}+A_2\\right)$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "trunchiul-de-piramida-004",
+    "tip": "simplu",
+    "intrebare": "Trunchi de piramidă patrulateră regulată (laturile bazelor $a$ și $b$): $a_t^2=?$",
+    "variante": [
+      "$h^2+(a-b)^2$",
+      "$h^2-\\left(\\frac{a-b}{2}\\right)^2$",
+      "$h^2+\\left(\\frac{a-b}{2}\\right)^2$",
+      "$h^2+\\left(\\frac{a+b}{2}\\right)^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-piramida-005",
+    "tip": "simplu",
+    "intrebare": "Trunchi de piramidă patrulateră regulată: muchia laterală $l^2=?$",
+    "variante": [
+      "$h^2+\\left(\\frac{(a-b)\\sqrt{2}}{2}\\right)^2$",
+      "$h^2+(a-b)^2$",
+      "$h^2+\\left(\\frac{a-b}{2}\\right)^2$",
+      "$h^2-\\frac{(a-b)^2}{2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "trunchiul-de-piramida-006",
+    "tip": "simplu",
+    "intrebare": "Fețele laterale ale unui trunchi de piramidă regulată sunt:",
+    "variante": [
+      "dreptunghiuri",
+      "trapeze isoscele",
+      "paralelograme",
+      "triunghiuri isoscele"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "trunchiul-de-piramida-007",
+    "tip": "simplu",
+    "intrebare": "Volumul trunchiului se mai află ca:",
+    "variante": [
+      "$V_{\\text{piramida mare}}+V_{\\text{piramida mică}}$",
+      "$V_{\\text{piramida mare}}\\cdot V_{\\text{piramida mică}}$",
+      "$V_{\\text{piramida mare}}-V_{\\text{piramida mică}}$",
+      "$\\frac{V_{\\text{mare}}}{V_{\\text{mică}}}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-piramida-008",
+    "tip": "simplu",
+    "intrebare": "Piramida mică (secțiunea) și piramida mare sunt asemenea cu raportul $k=\\frac{h}{H}$; raportul volumelor este:",
+    "variante": [
+      "$k^3$",
+      "$k$",
+      "$k^2$",
+      "$3k$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "trunchiul-de-piramida-009",
+    "tip": "simplu",
+    "intrebare": "Cele două baze ale trunchiului de piramidă sunt:",
+    "variante": [
+      "cercuri",
+      "poligoane congruente",
+      "poligoane asemenea, în plane paralele",
+      "triunghiuri oarecare în plane secante"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "trunchiul-de-piramida-010",
+    "tip": "multiplu",
+    "intrebare": "Care formule sunt corecte pentru trunchiul de piramidă?",
+    "variante": [
+      "$V=\\frac h3(A_1+A_2)$",
+      "$V=\\frac h3(A_1+\\sqrt{A_1A_2}+A_2)$",
+      "$A_t=A_l+A_1+A_2$",
+      "$A_t=A_l+A_1$"
+    ],
+    "corect": [
+      1,
+      2
+    ]
+  }
+]

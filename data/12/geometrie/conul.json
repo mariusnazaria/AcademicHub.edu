@@ -1,0 +1,162 @@
+[
+  {
+    "id": "conul-001",
+    "tip": "simplu",
+    "intrebare": "Generatoarea conului: $G^2=?$",
+    "variante": [
+      "$R^2+h^2$",
+      "$(R+h)^2$",
+      "$R^2-h^2$",
+      "$R+h$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-002",
+    "tip": "simplu",
+    "intrebare": "Aria laterală a conului: $A_l=?$",
+    "variante": [
+      "$\\pi R G$",
+      "$\\pi R^2G$",
+      "$2\\pi R G$",
+      "$\\pi R h$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-003",
+    "tip": "simplu",
+    "intrebare": "Aria totală a conului: $A_t=?$",
+    "variante": [
+      "$\\pi R(R+G)$",
+      "$\\pi R(R+h)$",
+      "$\\pi R G$",
+      "$2\\pi R(R+G)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "conul-004",
+    "tip": "simplu",
+    "intrebare": "Volumul conului: $V=?$",
+    "variante": [
+      "$\\frac{\\pi R^2G}{3}$",
+      "$\\frac{\\pi Rh}{3}$",
+      "$\\frac{\\pi R^2h}{3}$",
+      "$\\pi R^2h$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-005",
+    "tip": "simplu",
+    "intrebare": "Secțiunea axială a conului este:",
+    "variante": [
+      "un dreptunghi",
+      "un triunghi isoscel cu baza $2R$ și laturile egale $G$",
+      "un triunghi echilateral mereu",
+      "un trapez isoscel"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "conul-006",
+    "tip": "simplu",
+    "intrebare": "Secțiune paralelă cu baza, la înălțimea $h_1$ față de vârf ($H$ înălțimea conului): $\\frac{r}{R}=?$",
+    "variante": [
+      "$\\frac{H}{h_1}$",
+      "$\\frac{h_1}{R}$",
+      "$\\frac{h_1}{H}$",
+      "$\\left(\\frac{h_1}{H}\\right)^2$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-007",
+    "tip": "simplu",
+    "intrebare": "Secțiune paralelă cu baza: raportul ariilor este:",
+    "variante": [
+      "$\\frac{H}{h_1}$",
+      "$\\left(\\frac{h_1}{H}\\right)^2$",
+      "$\\left(\\frac{h_1}{H}\\right)^3$",
+      "$\\frac{h_1}{H}$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "conul-008",
+    "tip": "simplu",
+    "intrebare": "Secțiune paralelă cu baza: raportul volumelor este:",
+    "variante": [
+      "$\\frac{H}{h_1}$",
+      "$\\left(\\frac{h_1}{H}\\right)^2$",
+      "$\\left(\\frac{h_1}{H}\\right)^3$",
+      "$\\frac{h_1}{H}$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-009",
+    "tip": "simplu",
+    "intrebare": "Dezvoltarea laterală a conului este:",
+    "variante": [
+      "un cerc de rază $R$",
+      "un sector de rază $R$ și arc $2\\pi G$",
+      "un sector de cerc de rază $G$ și arc $2\\pi R$",
+      "un dreptunghi $2\\pi R\\times G$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "conul-010",
+    "tip": "simplu",
+    "intrebare": "Unghiul sectorului din dezvoltarea laterală a conului: $n^\\circ=?$",
+    "variante": [
+      "$360^\\circ\\cdot\\frac{R}{h}$",
+      "$360^\\circ\\cdot\\frac{G}{R}$",
+      "$180^\\circ\\cdot\\frac{R}{G}$",
+      "$360^\\circ\\cdot\\frac{R}{G}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-011",
+    "tip": "simplu",
+    "intrebare": "Con cu $R=3$ și $h=4$: generatoarea $G=?$",
+    "variante": [
+      "$\\sqrt{7}$",
+      "$12$",
+      "$7$",
+      "$5$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-012",
+    "tip": "simplu",
+    "intrebare": "Conul echilateral are:",
+    "variante": [
+      "$G=R$",
+      "$G=\\pi R$",
+      "$h=R$",
+      "secțiunea axială triunghi echilateral ($G=2R$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "conul-013",
+    "tip": "multiplu",
+    "intrebare": "Care sunt corecte pentru con?",
+    "variante": [
+      "$A_l=2\\pi RG$",
+      "$G^2=R^2+h^2$",
+      "$V=\\frac{\\pi R^2h}{3}$",
+      "$A_l=\\pi RG$"
+    ],
+    "corect": [
+      1,
+      2,
+      3
+    ]
+  }
+]

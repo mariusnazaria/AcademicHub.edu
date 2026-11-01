@@ -1,0 +1,125 @@
+[
+  {
+    "id": "cilindrul-001",
+    "tip": "simplu",
+    "intrebare": "Aria laterală a cilindrului: $A_l=?$",
+    "variante": [
+      "$\\pi R h$",
+      "$2\\pi R^2$",
+      "$2\\pi R h$",
+      "$\\pi R^2 h$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "cilindrul-002",
+    "tip": "simplu",
+    "intrebare": "Aria totală a cilindrului: $A_t=?$",
+    "variante": [
+      "$\\pi R^2(R+h)$",
+      "$2\\pi R h$",
+      "$\\pi R(R+h)$",
+      "$2\\pi R(R+h)$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-003",
+    "tip": "simplu",
+    "intrebare": "Volumul cilindrului: $V=?$",
+    "variante": [
+      "$\\pi R^2 h$",
+      "$\\pi R h^2$",
+      "$\\frac{\\pi R^2h}{3}$",
+      "$2\\pi Rh$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-004",
+    "tip": "simplu",
+    "intrebare": "Secțiunea axială a cilindrului este:",
+    "variante": [
+      "un dreptunghi $2R\\times h$",
+      "un trapez isoscel",
+      "un triunghi isoscel",
+      "un cerc"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-005",
+    "tip": "simplu",
+    "intrebare": "O secțiune paralelă cu axa (la distanța $d$ de axă) este un dreptunghi cu latura $AB=?$",
+    "variante": [
+      "$2\\sqrt{R^2-d^2}$",
+      "$\\sqrt{R^2-d^2}$",
+      "$2\\sqrt{R^2+d^2}$",
+      "$2(R-d)$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-006",
+    "tip": "simplu",
+    "intrebare": "Dezvoltarea laterală a cilindrului este:",
+    "variante": [
+      "un sector de cerc",
+      "un dreptunghi $\\pi R\\times h$",
+      "un trapez",
+      "un dreptunghi $2\\pi R\\times h$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-007",
+    "tip": "simplu",
+    "intrebare": "Generatoarea cilindrului este egală cu:",
+    "variante": [
+      "înălțimea $h$",
+      "raza $R$",
+      "$2R$",
+      "$\\sqrt{R^2+h^2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "cilindrul-008",
+    "tip": "simplu",
+    "intrebare": "Secțiunea unui cilindru cu un plan perpendicular pe axă este:",
+    "variante": [
+      "un triunghi",
+      "un cerc de rază $R$",
+      "o elipsă mereu mai mică",
+      "un dreptunghi"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "cilindrul-009",
+    "tip": "simplu",
+    "intrebare": "Cilindrul echilateral are:",
+    "variante": [
+      "$h=R$",
+      "$h=\\pi R$",
+      "secțiunea axială triunghi",
+      "secțiunea axială pătrat ($h=2R$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "cilindrul-010",
+    "tip": "multiplu",
+    "intrebare": "Care sunt corecte pentru cilindru?",
+    "variante": [
+      "$V=\\frac{\\pi R^2h}{3}$",
+      "$A_l=\\pi Rh$",
+      "$V=\\pi R^2h$",
+      "$A_l=2\\pi Rh$"
+    ],
+    "corect": [
+      2,
+      3
+    ]
+  }
+]

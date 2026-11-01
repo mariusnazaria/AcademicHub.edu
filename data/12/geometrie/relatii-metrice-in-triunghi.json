@@ -1,0 +1,343 @@
+[
+  {
+    "id": "relatii-metrice-in-triunghi-001",
+    "tip": "simplu",
+    "intrebare": "Teorema catetei ($A=90^\\circ$, $AD\\perp BC$): $AC^2=?$",
+    "variante": [
+      "$BC\\cdot BD$",
+      "$BC\\cdot CD$",
+      "$BD\\cdot DC$",
+      "$AD^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-002",
+    "tip": "simplu",
+    "intrebare": "Teorema înălțimii ($A=90^\\circ$, $AD\\perp BC$): $AD^2=?$",
+    "variante": [
+      "$AB\\cdot AC$",
+      "$BD\\cdot DC$",
+      "$BD+DC$",
+      "$BC\\cdot BD$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-003",
+    "tip": "simplu",
+    "intrebare": "Teorema lui Pitagora: $BC^2=?$ ($A=90^\\circ$)",
+    "variante": [
+      "$AB^2+AC^2$",
+      "$(AB+AC)^2$",
+      "$AB^2-AC^2$",
+      "$AB\\cdot AC$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-004",
+    "tip": "simplu",
+    "intrebare": "Reciproca teoremei lui Pitagora: dacă $BC^2=AB^2+AC^2$, atunci:",
+    "variante": [
+      "$\\triangle ABC$ este echilateral",
+      "$\\triangle ABC$ este isoscel",
+      "$\\triangle ABC$ este obtuzunghic",
+      "$\\triangle ABC$ este dreptunghic în $A$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-005",
+    "tip": "simplu",
+    "intrebare": "Care este un triplet pitagoreic?",
+    "variante": [
+      "$3,\\ 5,\\ 7$",
+      "$2,\\ 3,\\ 4$",
+      "$3,\\ 4,\\ 5$",
+      "$4,\\ 5,\\ 6$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-006",
+    "tip": "simplu",
+    "intrebare": "Care este un triplet pitagoreic?",
+    "variante": [
+      "$5,\\ 12,\\ 13$",
+      "$6,\\ 12,\\ 13$",
+      "$5,\\ 12,\\ 14$",
+      "$5,\\ 11,\\ 13$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-007",
+    "tip": "simplu",
+    "intrebare": "Care este un triplet pitagoreic?",
+    "variante": [
+      "$8,\\ 15,\\ 16$",
+      "$9,\\ 15,\\ 17$",
+      "$8,\\ 15,\\ 17$",
+      "$8,\\ 14,\\ 17$"
+    ],
+    "corect": 2
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-008",
+    "tip": "simplu",
+    "intrebare": "Care este un triplet pitagoreic?",
+    "variante": [
+      "$6,\\ 24,\\ 25$",
+      "$7,\\ 24,\\ 25$",
+      "$7,\\ 24,\\ 26$",
+      "$7,\\ 23,\\ 25$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-009",
+    "tip": "simplu",
+    "intrebare": "Teorema sinusurilor: $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=?$",
+    "variante": [
+      "$R$",
+      "$2R$",
+      "$\\frac{R}{2}$",
+      "$R^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-010",
+    "tip": "simplu",
+    "intrebare": "$\\sin 30^\\circ=?$",
+    "variante": [
+      "$1$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{1}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-011",
+    "tip": "simplu",
+    "intrebare": "$\\sin 45^\\circ=?$",
+    "variante": [
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{3}$",
+      "$\\frac{\\sqrt{2}}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-012",
+    "tip": "simplu",
+    "intrebare": "$\\sin 60^\\circ=?$",
+    "variante": [
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{3}}{3}$",
+      "$\\frac{1}{2}$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-013",
+    "tip": "simplu",
+    "intrebare": "Teorema cosinusului: $a^2=?$",
+    "variante": [
+      "$b^2+c^2-2bc\\cos A$",
+      "$b^2+c^2+2bc\\cos A$",
+      "$b^2-c^2-2bc\\cos A$",
+      "$b^2+c^2-2bc\\sin A$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-014",
+    "tip": "simplu",
+    "intrebare": "Din teorema cosinusului: $\\cos A=?$",
+    "variante": [
+      "$\\frac{a^2+b^2-c^2}{2bc}$",
+      "$\\frac{b^2+c^2+a^2}{2bc}$",
+      "$\\frac{b^2+c^2-a^2}{bc}$",
+      "$\\frac{b^2+c^2-a^2}{2bc}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-015",
+    "tip": "simplu",
+    "intrebare": "$\\cos 60^\\circ=?$",
+    "variante": [
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$0$",
+      "$-\\frac{1}{2}$",
+      "$\\frac{1}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-016",
+    "tip": "simplu",
+    "intrebare": "$\\cos 120^\\circ=?$",
+    "variante": [
+      "$\\frac{1}{2}$",
+      "$-\\frac{\\sqrt{3}}{2}$",
+      "$0$",
+      "$-\\frac{1}{2}$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-017",
+    "tip": "simplu",
+    "intrebare": "$\\cos 90^\\circ=?$",
+    "variante": [
+      "$0$",
+      "$\\frac{1}{2}$",
+      "$-1$",
+      "$1$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-018",
+    "tip": "simplu",
+    "intrebare": "Dacă $A=90^\\circ$, teorema cosinusului devine:",
+    "variante": [
+      "teorema înălțimii",
+      "teorema lui Thales",
+      "teorema bisectoarei",
+      "teorema lui Pitagora"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-019",
+    "tip": "simplu",
+    "intrebare": "Pitagora generalizată, unghi $A$ ascuțit: $BC^2=?$ ($p$ = proiecția lui $AB$ pe $AC$)",
+    "variante": [
+      "$AB^2+AC^2-2\\cdot AC\\cdot p$",
+      "$AB^2+AC^2$",
+      "$AB^2-AC^2-2\\cdot AC\\cdot p$",
+      "$AB^2+AC^2+2\\cdot AC\\cdot p$"
+    ],
+    "corect": 0
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-020",
+    "tip": "simplu",
+    "intrebare": "Pitagora generalizată, unghi $A$ obtuz: $BC^2=?$",
+    "variante": [
+      "$AB^2+AC^2$",
+      "$AB^2+AC^2-2\\cdot AC\\cdot p$",
+      "$AB^2-AC^2+2\\cdot AC\\cdot p$",
+      "$AB^2+AC^2+2\\cdot AC\\cdot p$"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-021",
+    "tip": "simplu",
+    "intrebare": "Un patrulater inscriptibil are unghiurile opuse:",
+    "variante": [
+      "complementare ($90^\\circ$)",
+      "congruente",
+      "egale cu $90^\\circ$",
+      "suplementare ($\\angle A+\\angle C=180^\\circ$)"
+    ],
+    "corect": 3
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-022",
+    "tip": "simplu",
+    "intrebare": "Un patrulater circumscriptibil (Pitot) satisface:",
+    "variante": [
+      "$AB+BC=CD$",
+      "$AB+CD=BC+AD$",
+      "$AB\\cdot CD=BC\\cdot AD$",
+      "$AB^2+CD^2=BC^2+AD^2$"
+    ],
+    "corect": 1
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-023",
+    "tip": "multiplu",
+    "intrebare": "Care sunt criterii de asemănare a triunghiurilor?",
+    "variante": [
+      "LLU",
+      "LUL",
+      "UU",
+      "LLL"
+    ],
+    "corect": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-024",
+    "tip": "multiplu",
+    "intrebare": "Pentru triunghiuri asemenea cu raportul $k$:",
+    "variante": [
+      "perimetrele sunt în raport $k^2$",
+      "perimetrele sunt în raport $k$",
+      "ariile sunt în raport $k$",
+      "ariile sunt în raport $k^2$"
+    ],
+    "corect": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-025",
+    "tip": "multiplu",
+    "intrebare": "Care sunt triplete pitagoreice?",
+    "variante": [
+      "$5,12,13$",
+      "$3,4,5$",
+      "$4,5,6$",
+      "$8,15,17$"
+    ],
+    "corect": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-026",
+    "tip": "multiplu",
+    "intrebare": "Care sunt valori corecte?",
+    "variante": [
+      "$\\cos 60^\\circ=\\frac12$",
+      "$\\sin 45^\\circ=\\frac12$",
+      "$\\sin 30^\\circ=\\frac12$",
+      "$\\cos 90^\\circ=1$"
+    ],
+    "corect": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "relatii-metrice-in-triunghi-027",
+    "tip": "multiplu",
+    "intrebare": "Un patrulater este inscriptibil dacă (echivalent):",
+    "variante": [
+      "$\\angle A+\\angle C=180^\\circ$",
+      "$\\angle B+\\angle D=180^\\circ$",
+      "diagonalele sunt egale mereu",
+      "$AB+CD=BC+AD$"
+    ],
+    "corect": [
+      0,
+      1
+    ]
+  }
+]
