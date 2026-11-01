@@ -290,7 +290,7 @@ function ruleaza() {
     if (p[1] === 'intrebare') { renderIntrebareNoua(); return; }
     if (p[1] === 'gestionare') { renderGestionare(); return; }
     if (p[1] === 'editare') { renderEditareIntrebari(); return; }
-    if (p[1] === 'statistici') { renderStatistici(); return; }
+    if (p[1] === 'materiale') { renderMaterialeProfesor(); return; }
     renderPanou();
     return;
   }
@@ -299,6 +299,9 @@ function ruleaza() {
   if (p[0] === 'clasa' && p[1]) {
     const clasa = manifest.clase.find(c => c.id === p[1]);
     if (!clasa) { inlocuieste('/'); return; }
+
+    if (p[2] === 'teste') { renderMaterii(clasa); return; }
+    if (p[2] === 'materiale') { renderMateriale(clasa); return; }
 
     if (p[2]) {
       const materie = clasa.materii.find(m => m.id === p[2]);
@@ -318,7 +321,7 @@ function ruleaza() {
       renderColectii(clasa, materie);
       return;
     }
-    renderMaterii(clasa);
+    renderClasaHub(clasa);
     return;
   }
 
@@ -472,21 +475,7 @@ function inregistreazaProgres(intrebare, corect) {
   if (k && k.nr) p.n = k.nr;
   setProg(cid, p);
   noteazaZi();
-  trimiteStatistica(intrebare.id, cid, corect);
 }
-// Statistici anonime pentru profesori (doar id întrebare + corect/greșit)
-function trimiteStatistica(qid, cid, corect) {
-  const url = (typeof CONFIG !== 'undefined') && CONFIG.STATS_URL;
-  if (!url) return;
-  try {
-    fetch(url, {
-      method: 'POST', mode: 'no-cors', keepalive: true,
-      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify({ q: qid, c: cid, ok: corect ? 1 : 0 })
-    }).catch(() => {});
-  } catch { /* ignorăm */ }
-}
-
 // ---------------- Breadcrumb ----------------
 
 function renderBreadcrumb(parts) {
@@ -549,7 +538,7 @@ function renderMaterii(clasa) {
   });
   app.innerHTML = '';
   app.appendChild(tpl);
-  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: clasa.nume }]);
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: clasa.nume, ruta: '/clasa/' + clasa.id }, { text: 'Teste' }]);
 }
 
 function colectieTestare(clasa, materie) {
@@ -1077,7 +1066,7 @@ function renderPanou() {
   document.getElementById('panou-colectie').addEventListener('click', () => mergiLa('/profesor/colectie'));
   document.getElementById('panou-materii').addEventListener('click', () => mergiLa('/profesor/gestionare'));
   document.getElementById('panou-editare').addEventListener('click', () => mergiLa('/profesor/editare'));
-  document.getElementById('panou-statistici').addEventListener('click', () => mergiLa('/profesor/statistici'));
+  document.getElementById('panou-materiale').addEventListener('click', () => mergiLa('/profesor/materiale'));
   document.getElementById('panou-vezi').addEventListener('click', () => mergiLa('/'));
   document.getElementById('btn-sterge-token').addEventListener('click', () => {
     clearToken();
@@ -1086,85 +1075,155 @@ function renderPanou() {
 }
 
 
-// ---------------- Statistici pentru profesori ----------------
 
-async function renderStatistici() {
-  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Panou profesor', ruta: '/profesor' }, { text: 'Statistici' }]);
-  app.innerHTML = `<section class="screen"><div class="screen-head"><div>
-    <h1>Statistici</h1><p class="screen-lead">Întrebările la care elevii greșesc cel mai des (date anonime).</p></div>
-    <button class="btn-secondary" id="st-inapoi">Înapoi</button></div><div id="st-corp"><p class="screen-lead">Se încarcă...</p></div></section>`;
-  document.getElementById('st-inapoi').addEventListener('click', () => mergiLa('/profesor'));
-  const corp = document.getElementById('st-corp');
-  const url = (typeof CONFIG !== 'undefined') && CONFIG.STATS_URL;
-  if (!url) {
-    corp.innerHTML = '<p class="screen-lead">Statisticile nu sunt activate încă. Pune adresa din Google Apps Script în <b>STATS_URL</b> (în teste.html).</p>';
-    return;
-  }
-  let date;
+// ---------------- Pagina clasei: Teste / Materiale ----------------
+
+function renderClasaHub(clasa) {
+  state.clasa = clasa; state.materie = state.colectie = null;
+  app.innerHTML = `<section class="screen"><h1></h1>
+    <p class="screen-lead">Ce vrei să faci?</p>
+    <div class="card-grid" id="hub-grid"></div></section>`;
+  app.querySelector('h1').textContent = clasa.nume;
+  const grid = document.getElementById('hub-grid');
+  const toate = clasa.materii.flatMap(m => m.colectii);
+  const stap = toate.filter(k => statusColectie(k).stare === 'stapanit').length;
+  const cT = cardEl('Teste', toate.length ? `${toate.length} teste · ${stap} stăpânite` : 'Încă nu există teste',
+    () => mergiLa(`/clasa/${clasa.id}/teste`));
+  cT.classList.add('pick-card-highlight');
+  grid.appendChild(cT);
+  grid.appendChild(cardEl('Materiale', 'Teorie și materiale de studiu', () => mergiLa(`/clasa/${clasa.id}/materiale`)));
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: clasa.nume }]);
+}
+
+// ---------------- Materiale de studiu ----------------
+
+const CALE_MATERIALE = 'data/materiale.json';
+
+async function incarcaMateriale() {
   try {
-    const res = await fetch(url + (url.includes('?') ? '&' : '?') + 'actiune=stats&t=' + Date.now());
-    date = await res.json();
-  } catch (e) {
-    corp.innerHTML = '<p class="form-error">Nu am putut încărca statisticile.</p>';
-    return;
+    const res = await fetch(CALE_MATERIALE + '?t=' + Date.now());
+    if (!res.ok) return [];
+    const l = await res.json();
+    return Array.isArray(l) ? l : [];
+  } catch { return []; }
+}
+
+function escHtml(t) {
+  return String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+function marimeText(b) {
+  if (!b) return '';
+  return b > 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB';
+}
+
+async function renderMateriale(clasa) {
+  state.clasa = clasa;
+  app.innerHTML = `<section class="screen"><h1>Materiale</h1>
+    <p class="screen-lead">${escHtml(clasa.nume)} — teorie și materiale de studiu.</p>
+    <div id="mat-lista"><p class="screen-lead">Se încarcă...</p></div></section>`;
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: clasa.nume, ruta: '/clasa/' + clasa.id }, { text: 'Materiale' }]);
+  const lista = (await incarcaMateriale()).filter(m => m.clasa === clasa.id).reverse();
+  const el = document.getElementById('mat-lista');
+  if (!lista.length) { el.innerHTML = '<p class="screen-lead">Încă nu sunt materiale la această clasă.</p>'; return; }
+  el.innerHTML = '';
+  lista.forEach(m => {
+    const a = document.createElement('a');
+    a.className = 'pick-card mat-card';
+    a.href = m.fisier; a.target = '_blank'; a.rel = 'noopener';
+    a.innerHTML = `<span class="pick-title">${escHtml(m.titlu)}</span>
+      <span class="pick-meta">${m.descriere ? escHtml(m.descriere) + ' · ' : ''}${escHtml(m.nume || '')}${m.marime ? ' · ' + marimeText(m.marime) : ''}</span>`;
+    el.appendChild(a);
+  });
+}
+
+function citesteFisierB64(file) {
+  return new Promise((ok, err) => {
+    const r = new FileReader();
+    r.onload = () => ok(String(r.result).split(',')[1]);
+    r.onerror = () => err(new Error('Nu am putut citi fișierul.'));
+    r.readAsDataURL(file);
+  });
+}
+
+async function renderMaterialeProfesor() {
+  renderBreadcrumb([{ text: 'Clase', ruta: '/' }, { text: 'Panou profesor', ruta: '/profesor' }, { text: 'Materiale' }]);
+  app.innerHTML = `<section class="screen">
+    <div class="screen-head"><div><h1>Materiale</h1>
+    <p class="screen-lead">Încarcă teorie pentru elevi (PDF, imagini, documente).</p></div>
+    <button class="btn-secondary" id="mp-inapoi">Înapoi</button></div>
+    <div>
+      <label class="field-label">Clasa</label>
+      <select id="mp-clasa" class="text-input"></select>
+      <label class="field-label">Titlu</label>
+      <input id="mp-titlu" class="text-input" type="text" placeholder="ex. Funcția de gradul 2 — teorie">
+      <label class="field-label">Descriere (opțional)</label>
+      <input id="mp-desc" class="text-input" type="text" placeholder="ex. Formule și exemple">
+      <label class="field-label">Fișier (maxim 20 MB)</label>
+      <input id="mp-fisier" class="text-input" type="file">
+      <p class="form-error" id="mp-eroare" hidden></p>
+      <button class="btn-primary" id="mp-incarca">Încarcă materialul</button>
+    </div>
+    <h2 class="st-h">Materiale încărcate</h2>
+    <div id="mp-lista"><p class="screen-lead">Se încarcă...</p></div></section>`;
+  document.getElementById('mp-inapoi').addEventListener('click', () => mergiLa('/profesor'));
+  const sel = document.getElementById('mp-clasa');
+  manifest.clase.forEach(c => { const o = document.createElement('option'); o.value = c.id; o.textContent = c.nume; sel.appendChild(o); });
+  const eroare = t => { const e = document.getElementById('mp-eroare'); e.textContent = t; e.hidden = !t; };
+
+  async function arataLista() {
+    const l = await incarcaMateriale();
+    const el = document.getElementById('mp-lista');
+    if (!l.length) { el.innerHTML = '<p class="screen-lead">Nimic încă.</p>'; return; }
+    el.innerHTML = '';
+    [...l].reverse().forEach(m => {
+      const d = document.createElement('div'); d.className = 'st-rand';
+      const clasa = (manifest.clase.find(c => c.id === m.clasa) || {}).nume || m.clasa;
+      d.innerHTML = `<span class="st-text"><span class="st-q">${escHtml(m.titlu)}</span>
+        <span class="st-meta">${escHtml(clasa)} · ${escHtml(m.nume || '')}</span></span>
+        <button class="btn-link mp-sterge">Șterge</button>`;
+      d.querySelector('.mp-sterge').addEventListener('click', async ev => {
+        if (!confirm('Ștergi „' + m.titlu + '”?')) return;
+        ev.target.disabled = true;
+        try {
+          const f = await ghCiteste(m.fisier);
+          if (f) await ghSterge(m.fisier, 'Șterge material: ' + m.titlu, f.sha);
+          const man = await ghCiteste(CALE_MATERIALE);
+          const date = (man ? JSON.parse(man.continut) : []).filter(x => x.id !== m.id);
+          await ghScrieText(CALE_MATERIALE, JSON.stringify(date, null, 2) + '\n', 'Șterge material din listă', man && man.sha);
+          arataLista();
+        } catch (e) { alert(e.message); ev.target.disabled = false; }
+      });
+      el.appendChild(d);
+    });
   }
-  const rec = date.intrebari || {}; // { idIntrebare: [răspunsuri, greșite] }
-  const ids = Object.keys(rec);
-  if (!ids.length) { corp.innerHTML = '<p class="screen-lead">Nu sunt încă răspunsuri înregistrate.</p>'; return; }
+  arataLista();
 
-  const totalR = ids.reduce((a, id) => a + rec[id][0], 0);
-  const totalG = ids.reduce((a, id) => a + rec[id][1], 0);
-  const MIN = 5; // minimum de răspunsuri ca procentul să conteze
-  const top = ids.filter(id => rec[id][0] >= MIN)
-    .sort((a, b) => (rec[b][1] / rec[b][0]) - (rec[a][1] / rec[a][0]) || rec[b][0] - rec[a][0]).slice(0, 15);
-
-  // procente pe colecții
-  const perC = {};
-  ids.forEach(id => {
-    const cid = colectiaIntrebarii(id, null); if (!cid) return;
-    perC[cid] = perC[cid] || [0, 0];
-    perC[cid][0] += rec[id][0]; perC[cid][1] += rec[id][1];
-  });
-  const colectii = toateColectiile();
-  const nume = cid => (colectii.find(k => k.id === cid) || {}).nume || cid;
-  const listaC = Object.keys(perC).filter(c => perC[c][0] >= MIN)
-    .sort((a, b) => (perC[b][1] / perC[b][0]) - (perC[a][1] / perC[a][0])).slice(0, 10);
-
-  // textele întrebărilor din top
-  const cidTop = [...new Set(top.map(id => colectiaIntrebarii(id, null)).filter(Boolean))];
-  const texte = {}, imagini = {};
-  await Promise.all(cidTop.map(async cid => {
-    const k = colectii.find(x => x.id === cid); if (!k) return;
+  document.getElementById('mp-incarca').addEventListener('click', async ev => {
+    eroare('');
+    const titlu = document.getElementById('mp-titlu').value.trim();
+    const file = document.getElementById('mp-fisier').files[0];
+    if (!titlu) { eroare('Scrie un titlu.'); return; }
+    if (!file) { eroare('Alege un fișier.'); return; }
+    if (file.size > 20 * 1048576) { eroare('Fișierul e prea mare (maxim 20 MB).'); return; }
+    const btn = ev.target; btn.disabled = true; btn.textContent = 'Se încarcă...';
     try {
-      const l = await (await fetch(k.fisier + '?t=' + Date.now())).json();
-      (Array.isArray(l) ? l : []).forEach(q => { texte[q.id] = q.intrebare; if (q.imagine) imagini[q.id] = q.imagine; });
-    } catch { /* ignorăm */ }
-  }));
-
-  const pct = (a, b) => Math.round(100 * a / b);
-  corp.innerHTML = `
-    <p class="screen-lead">Total: <b>${totalR}</b> răspunsuri, <b>${pct(totalG, totalR)}%</b> greșite.</p>
-    <h2 class="st-h">Cele mai greșite întrebări</h2>
-    <div id="st-top"></div>
-    <h2 class="st-h">Teme cu cele mai multe greșeli</h2>
-    <div id="st-col"></div>
-    <p class="screen-lead st-nota">Apar doar întrebările cu cel puțin ${MIN} răspunsuri.</p>`;
-  const elTop = document.getElementById('st-top');
-  if (!top.length) elTop.innerHTML = '<p class="screen-lead">Încă prea puține răspunsuri.</p>';
-  top.forEach(id => {
-    const d = document.createElement('div'); d.className = 'st-rand';
-    d.innerHTML = `<span class="st-pct">${pct(rec[id][1], rec[id][0])}%</span>
-      <span class="st-text"><span class="st-q"></span><span class="st-meta">${nume(colectiaIntrebarii(id, ''))} · ${rec[id][0]} răspunsuri</span></span>`;
-    d.querySelector('.st-q').innerHTML = randMatematic(texte[id] || id);
-    if (imagini[id]) { const im = document.createElement('img'); im.src = imagini[id]; im.className = 'st-img'; im.alt = ''; d.querySelector('.st-q').appendChild(im); }
-    elTop.appendChild(d);
-  });
-  const elCol = document.getElementById('st-col');
-  listaC.forEach(cid => {
-    const d = document.createElement('div'); d.className = 'st-rand';
-    d.innerHTML = `<span class="st-pct">${pct(perC[cid][1], perC[cid][0])}%</span>
-      <span class="st-text"><span class="st-q">${nume(cid)}</span><span class="st-meta">${perC[cid][0]} răspunsuri</span></span>`;
-    elCol.appendChild(d);
+      const clasa = document.getElementById('mp-clasa').value;
+      const sigur = file.name.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9._-]+/g, '-');
+      const id = String(Date.now());
+      const cale = `data/materiale/${clasa}/${id}-${sigur}`;
+      await ghScrie(cale, await citesteFisierB64(file), 'Material nou: ' + titlu);
+      const man = await ghCiteste(CALE_MATERIALE);
+      const date = man ? JSON.parse(man.continut) : [];
+      date.push({ id, clasa, titlu, descriere: document.getElementById('mp-desc').value.trim() || undefined,
+        fisier: cale, nume: file.name, marime: file.size });
+      await ghScrieText(CALE_MATERIALE, JSON.stringify(date, null, 2) + '\n', 'Listă materiale: ' + titlu, man && man.sha);
+      document.getElementById('mp-titlu').value = '';
+      document.getElementById('mp-desc').value = '';
+      document.getElementById('mp-fisier').value = '';
+      arataLista();
+    } catch (e) { eroare(e.message); }
+    btn.disabled = false; btn.textContent = 'Încarcă materialul';
   });
 }
 
