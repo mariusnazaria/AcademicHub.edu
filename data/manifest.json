@@ -208,6 +208,11 @@
               "id": "func-ii-de-gradul-i-puncte-i-intersec-ii",
               "nume": "Funcţii de gradul I, puncte şi intersecţii",
               "fisier": "data/9/functii/func-ii-de-gradul-i-puncte-i-intersec-ii.json"
+            },
+            {
+              "id": "func-ii-de-gradul-ii-a-c-delta",
+              "nume": "Funcţii de gradul II, a, c, delta",
+              "fisier": "data/9/functii/func-ii-de-gradul-ii-a-c-delta.json"
             }
           ]
         },
