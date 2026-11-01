@@ -192,5 +192,21 @@
     ],
     "corect": 0,
     "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793560574810.png"
+  },
+  {
+    "id": "func-ii-de-gradul-i-panta-i-termenul-lib-1793560657372",
+    "tip": "multiplu",
+    "intrebare": "Fie funcţia ƒ(x)=ax+b. Se lectaţi afirmaţiile corecte",
+    "variante": [
+      "a>0",
+      "b>0",
+      "a<0",
+      "b<0"
+    ],
+    "corect": [
+      1,
+      2
+    ],
+    "imagine": "data/imagini/func-ii-de-gradul-i-panta-i-termenul-lib-1793560655429.png"
   }
 ]
