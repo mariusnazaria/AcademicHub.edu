@@ -4,10 +4,10 @@
     "tip": "simplu",
     "intrebare": "Dacă $F$ este o primitivă a lui $f$, atunci $F$ satisface:",
     "variante": [
-      "$F\\,'(x)=0$",
+      "$F^{\\prime}(x)=0$",
       "$F(x)=f(x)+C$",
-      "$F\\,'(x)=f(x)$",
-      "$F(x)=f\\,'(x)$"
+      "$F^{\\prime}(x)=f(x)$",
+      "$F(x)=f^{\\prime}(x)$"
     ],
     "corect": 2
   },
@@ -122,12 +122,12 @@
   {
     "id": "reguli-de-integrare-011",
     "tip": "simplu",
-    "intrebare": "$\\int \\frac{f\\,'(x)}{f(x)}\\,dx = ?$",
+    "intrebare": "$\\int \\frac{f^{\\prime}(x)}{f(x)}\\,dx = ?$",
     "variante": [
-      "$\\ln|f\\,'(x)|+C$",
+      "$\\ln|f^{\\prime}(x)|+C$",
       "$\\frac{1}{f(x)}+C$",
       "$\\ln|f(x)|+C$",
-      "$f(x)\\ln f\\,'(x)+C$"
+      "$f(x)\\ln f^{\\prime}(x)+C$"
     ],
     "corect": 2
   },
@@ -218,7 +218,7 @@
   {
     "id": "reguli-de-integrare-019",
     "tip": "simplu",
-    "intrebare": "$\\left(\\int f(x)\\,dx\\right)\\,' = ?$",
+    "intrebare": "$\\left(\\int f(x)\\,dx\\right)^{\\prime} = ?$",
     "variante": [
       "$0$",
       "$f(x)+C$",
@@ -230,11 +230,11 @@
   {
     "id": "reguli-de-integrare-020",
     "tip": "simplu",
-    "intrebare": "$\\int F\\,'(x)\\,dx = ?$",
+    "intrebare": "$\\int F^{\\prime}(x)\\,dx = ?$",
     "variante": [
       "$F(x)$",
       "$f(x)+C$",
-      "$F\\,'(x)+C$",
+      "$F^{\\prime}(x)+C$",
       "$F(x)+C$"
     ],
     "corect": 3
@@ -246,7 +246,7 @@
     "variante": [
       "constantei $C$",
       "domeniului lui $f$",
-      "derivatei $F\\,'$",
+      "derivatei $F^{\\prime}$",
       "lui $x$"
     ],
     "corect": 0
@@ -254,9 +254,9 @@
   {
     "id": "reguli-de-integrare-022",
     "tip": "simplu",
-    "intrebare": "Dacă $s\\,'(t)=v(t)$ (viteza), atunci spațiul este:",
+    "intrebare": "Dacă $s^{\\prime}(t)=v(t)$ (viteza), atunci spațiul este:",
     "variante": [
-      "$s(t)=v\\,'(t)$",
+      "$s(t)=v^{\\prime}(t)$",
       "$s(t)=\\int v(t)\\,dt$",
       "$s(t)=v(t)\\cdot C$",
       "$s(t)=\\int s(t)\\,dt$"
@@ -266,12 +266,12 @@
   {
     "id": "reguli-de-integrare-023",
     "tip": "simplu",
-    "intrebare": "Dacă $v\\,'(t)=a(t)$ (accelerația), atunci viteza este:",
+    "intrebare": "Dacă $v^{\\prime}(t)=a(t)$ (accelerația), atunci viteza este:",
     "variante": [
       "$v(t)=\\int a(t)\\,dt$",
       "$v(t)=a(t)+s(t)$",
       "$v(t)=\\int v(t)\\,dt$",
-      "$v(t)=a\\,'(t)$"
+      "$v(t)=a^{\\prime}(t)$"
     ],
     "corect": 0
   },
@@ -308,7 +308,7 @@
   {
     "id": "reguli-de-integrare-026",
     "tip": "multiplu",
-    "intrebare": "Pentru ce expresii se aplică formula $\\int \\frac{f\\,'}{f}=\\ln|f|+C$?",
+    "intrebare": "Pentru ce expresii se aplică formula $\\int \\frac{f^{\\prime}}{f}=\\ln|f|+C$?",
     "variante": [
       "$\\int \\frac{x}{\\sqrt{x^2+3}}\\,dx$",
       "$\\int \\frac{1}{x^2+3}\\,dx$",

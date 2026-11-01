@@ -100,7 +100,7 @@
     "tip": "simplu",
     "intrebare": "Limitele de integrare necunoscute (dintre două grafice) se află din:",
     "variante": [
-      "ecuația $f\\,'(x)=g\\,'(x)$",
+      "ecuația $f^{\\prime}(x)=g^{\\prime}(x)$",
       "ecuația $f(x)=0$ doar",
       "ecuația $f(x)+g(x)=0$",
       "ecuația $f(x)=g(x)$"
@@ -208,7 +208,7 @@
     "tip": "simplu",
     "intrebare": "Pașii pentru volumul de rotație sunt:",
     "variante": [
-      "calculăm $f\\,'$, integrăm, înmulțim cu $2$",
+      "calculăm $f^{\\prime}$, integrăm, înmulțim cu $2$",
       "integrăm $f$, apoi ridicăm la pătrat",
       "calculăm $f^2$ și derivăm",
       "scriem $f$, calculăm $f^2$, integrăm de la $a$ la $b$, înmulțim cu $\\pi$"

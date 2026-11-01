@@ -255,11 +255,6 @@
               "fisier": "data/12/integrale/reguli-de-integrare.json"
             },
             {
-              "id": "substitutie-si-parti-teorie",
-              "nume": "Substituție și integrare prin părți (teorie)",
-              "fisier": "data/12/integrale/substitutie-si-parti-teorie.json"
-            },
-            {
               "id": "integrala-definita-formule-si-proprietati",
               "nume": "Integrala definită: formule și proprietăți",
               "fisier": "data/12/integrale/integrala-definita-formule-si-proprietati.json"
@@ -268,6 +263,11 @@
               "id": "aplicatii-arii-si-volume",
               "nume": "Aplicații: arii și volume de rotație",
               "fisier": "data/12/integrale/aplicatii-arii-si-volume.json"
+            },
+            {
+              "id": "metoda-substitutiei-teorie",
+              "nume": "Metoda substituției (teorie)",
+              "fisier": "data/12/integrale/metoda-substitutiei-teorie.json"
             }
           ]
         }
