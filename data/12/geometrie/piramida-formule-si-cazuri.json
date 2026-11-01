@@ -182,7 +182,7 @@
   {
     "id": "piramida-formule-si-cazuri-016",
     "tip": "simplu",
-    "intrebare": "Pentru piramida cu fețe laterale la unghi egal $\\varphi$ față de bază: $\\operatorname{tg}\\varphi=?$",
+    "intrebare": "Pentru piramida cu fețe laterale la unghi egal $\\alpha$ față de bază: $\\operatorname{tg}\\alpha=?$",
     "variante": [
       "$\\frac{H}{R}$",
       "$\\frac{r}{H}$",
@@ -242,12 +242,12 @@
   {
     "id": "piramida-formule-si-cazuri-021",
     "tip": "simplu",
-    "intrebare": "Aria laterală când fețele fac unghiul $\\varphi$ cu baza: $A_l=?$",
+    "intrebare": "Aria laterală când fețele fac unghiul $\\alpha$ cu baza: $A_l=?$",
     "variante": [
-      "$\\frac{A_b}{\\cos\\varphi}$",
-      "$A_b\\operatorname{tg}\\varphi$",
-      "$\\frac{A_b}{\\sin\\varphi}$",
-      "$A_b\\cos\\varphi$"
+      "$\\frac{A_b}{\\cos\\alpha}$",
+      "$A_b\\operatorname{tg}\\alpha$",
+      "$\\frac{A_b}{\\sin\\alpha}$",
+      "$A_b\\cos\\alpha$"
     ],
     "corect": 0
   },
